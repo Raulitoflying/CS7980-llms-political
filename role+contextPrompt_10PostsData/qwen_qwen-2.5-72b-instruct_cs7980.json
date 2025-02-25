@@ -1,0 +1,100 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 50.0,
+      "precision": 50.0,
+      "recall": 20.0,
+      "f1_score": 2857.1428571428573,
+      "true_positive": 1,
+      "false_positive": 1,
+      "true_negative": 4,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 6,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 30.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, robdawg, exhibits a strong right-leaning political orientation through several indicators in the post. Firstly, the author criticizes the idea of banning certain dog breeds, which aligns with a conservative stance on personal freedom and individual rights. The use of the term 'yellow \"dog\" dem' is a play on the term 'yellow dog Democrat,' which historically referred to Democrats who would vote for a yellow dog before they would vote for a Republican. This usage suggests a negative view of Democrats, further indicating a right-leaning perspective. Additionally, the author dismisses the opposing argument as based on outdated data and accuses the other party of lying, which is a common rhetorical tactic used to undermine liberal positions. The overall tone is confrontational and dismissive, typical of right-wing discourse when engaging with liberal policies or views.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, robdawg, exhibits a strong right-leaning political orientation through several indicators in the post. Firstly, the author criticizes the idea of banning certain dog breeds, which aligns with a conservative stance on personal freedom and individual rights. The use of the term 'yellow \"dog\" dem' is a play on the term 'yellow dog Democrat,' which historically referred to Democrats who would vote for a yellow dog before they would vote for a Republican. This usage suggests a negative view of Democrats, further indicating a right-leaning perspective. Additionally, the author dismisses the opposing argument as based on outdated data and accuses the other party of lying, which is a common rhetorical tactic used to undermine liberal positions. The overall tone is confrontational and dismissive, typical of right-wing discourse when engaging with liberal policies or views.\"\n}\n```"
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by Watermark does not contain clear political indicators. The author is discussing the spelling and pronunciation of the word 'prooved' and questioning the validity of majority belief in a linguistic context. There are no references to political ideologies, policies, or social issues that would suggest a particular political orientation. Therefore, the political orientation of the author remains unknown based on this text.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by Watermark does not contain clear political indicators. The author is discussing the spelling and pronunciation of the word 'prooved' and questioning the validity of majority belief in a linguistic context. There are no references to political ideologies, policies, or social issues that would suggest a particular political orientation. Therefore, the political orientation of the author remains unknown based on this text.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is brief and primarily focuses on a historical figure, Woodrow Wilson, and his role in the creation of Israel. While it expresses a negative sentiment towards Woodrow Wilson, this alone does not provide enough context to determine a clear political orientation. Woodrow Wilson is often criticized by both left-wing and right-wing individuals for various reasons, including his foreign policies and domestic actions. The post does not elaborate on the author's views on social programs, individual responsibility, or other contemporary political issues that would help identify their ideological leanings. Therefore, the political orientation remains unknown based on the limited information provided.\"\n}",
+      "explanation": "The post is brief and primarily focuses on a historical figure, Woodrow Wilson, and his role in the creation of Israel. While it expresses a negative sentiment towards Woodrow Wilson, this alone does not provide enough context to determine a clear political orientation. Woodrow Wilson is often criticized by both left-wing and right-wing individuals for various reasons, including his foreign policies and domestic actions. The post does not elaborate on the author's views on social programs, individual responsibility, or other contemporary political issues that would help identify their ideological leanings. Therefore, the political orientation remains unknown based on the limited information provided."
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post exhibits several markers of a left-leaning political orientation. The author criticizes the act of 'ruining democracy' by 'ignoring the facts and belittling the people who bring the facts to you,' which suggests a strong emphasis on factual information and the importance of democratic processes. This is often a concern for those on the left, who tend to be more critical of what they perceive as misinformation and attacks on the media. Additionally, the phrase 'You are losing and its obvious' implies a stance against a group that the author perceives as undermining democratic values, which is a common sentiment among left-leaning individuals, particularly in the context of political discourse where they often criticize conservative or right-wing actions and rhetoric.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post exhibits several markers of a left-leaning political orientation. The author criticizes the act of 'ruining democracy' by 'ignoring the facts and belittling the people who bring the facts to you,' which suggests a strong emphasis on factual information and the importance of democratic processes. This is often a concern for those on the left, who tend to be more critical of what they perceive as misinformation and attacks on the media. Additionally, the phrase 'You are losing and its obvious' implies a stance against a group that the author perceives as undermining democratic values, which is a common sentiment among left-leaning individuals, particularly in the context of political discourse where they often criticize conservative or right-wing actions and rhetoric.\"\n}\n```"
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, Agnosticus_Caesar, expresses skepticism towards the idea of school vouchers, which are often a policy advocated by those on the political right. The post implies that the author believes public schools in wealthier and rural areas are already performing well, and questions the feasibility and effectiveness of voucher programs in improving education in 'really bad inner cities.' This criticism of a conservative policy and the emphasis on the quality of public schools in certain areas suggests a progressive view that supports public education and is wary of privatization efforts.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, Agnosticus_Caesar, expresses skepticism towards the idea of school vouchers, which are often a policy advocated by those on the political right. The post implies that the author believes public schools in wealthier and rural areas are already performing well, and questions the feasibility and effectiveness of voucher programs in improving education in 'really bad inner cities.' This criticism of a conservative policy and the emphasis on the quality of public schools in certain areas suggests a progressive view that supports public education and is wary of privatization efforts.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a clear concern about the intersection of religion and public education, which is a common stance among those on the left. The language used, such as 'the problem I have with religion intruding in our public schools,' indicates a preference for the separation of church and state, a principle often championed by progressive individuals. Additionally, the author supports the idea of providing public funds to parents to choose their children's schools, which aligns with a more liberal view on education policy, emphasizing choice and individual freedom while maintaining a critical stance on the role of religion in public institutions. This combination of support for secular public education and educational choice suggests a left-leaning political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a clear concern about the intersection of religion and public education, which is a common stance among those on the left. The language used, such as 'the problem I have with religion intruding in our public schools,' indicates a preference for the separation of church and state, a principle often championed by progressive individuals. Additionally, the author supports the idea of providing public funds to parents to choose their children's schools, which aligns with a more liberal view on education policy, emphasizing choice and individual freedom while maintaining a critical stance on the role of religion in public institutions. This combination of support for secular public education and educational choice suggests a left-leaning political orientation.\"\n}\n```"
+    },
+    {
+      "author": "DrWho",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post primarily consists of a news report and does not contain explicit personal opinions or ideological markers that would indicate the author's political orientation. The author, DrWho, provides a factual account of a battle in Mosul, Iraq, and the subsequent casualties, without expressing personal views or criticisms that would align with either left or right political ideologies. The language used is neutral and descriptive, focusing on the events and details of the incident rather than taking a stance on the policies or actions of the U.S. or Iraqi governments.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post primarily consists of a news report and does not contain explicit personal opinions or ideological markers that would indicate the author's political orientation. The author, DrWho, provides a factual account of a battle in Mosul, Iraq, and the subsequent casualties, without expressing personal views or criticisms that would align with either left or right political ideologies. The language used is neutral and descriptive, focusing on the events and details of the incident rather than taking a stance on the policies or actions of the U.S. or Iraqi governments.\"\n}\n```"
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"Teddi's post exhibits a strong stance on international affairs that aligns with right-wing political ideology. The emphasis on military intervention to defend Taiwan and the characterization of China's political approach as 'aggressive and a threat to international peace' reflects a hawkish, interventionist perspective often associated with conservative foreign policy. The call for 'fully democratising China and India' and the assertion that this is the 'truest way to a \"free world\"' suggests a belief in the superiority of democratic systems and a willingness to promote them through force, which is a common theme in right-wing discourse. Additionally, the concern about the West appearing 'weak and tolerant' if it ignores the matter indicates a focus on strength and assertiveness in international relations, another hallmark of conservative political thought. While the post does mention economic consequences, the overall tone and arguments are more aligned with right-wing values and rhetoric.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"Teddi's post exhibits a strong stance on international affairs that aligns with right-wing political ideology. The emphasis on military intervention to defend Taiwan and the characterization of China's political approach as 'aggressive and a threat to international peace' reflects a hawkish, interventionist perspective often associated with conservative foreign policy. The call for 'fully democratising China and India' and the assertion that this is the 'truest way to a \"free world\"' suggests a belief in the superiority of democratic systems and a willingness to promote them through force, which is a common theme in right-wing discourse. Additionally, the concern about the West appearing 'weak and tolerant' if it ignores the matter indicates a focus on strength and assertiveness in international relations, another hallmark of conservative political thought. While the post does mention economic consequences, the overall tone and arguments are more aligned with right-wing values and rhetoric.\"\n}\n```"
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, midcan5, exhibits clear left-leaning political views through their critical and dismissive language directed at conservatives. The post uses phrases like 'ruin camaraderie and good debate' and 'narrow minded ideology' to characterize conservative thinking, which indicates a strong negative sentiment towards conservative values. The author also references Social Security, a social program typically supported by progressives, and suggests that conservatives are trying to undermine it. The use of the term 'cheap labor conservatives' further emphasizes the author's negative view of conservative economic policies, which are often seen as exploitative by those on the left. Overall, the language and content of the post strongly suggest a left-leaning political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, midcan5, exhibits clear left-leaning political views through their critical and dismissive language directed at conservatives. The post uses phrases like 'ruin camaraderie and good debate' and 'narrow minded ideology' to characterize conservative thinking, which indicates a strong negative sentiment towards conservative values. The author also references Social Security, a social program typically supported by progressives, and suggests that conservatives are trying to undermine it. The use of the term 'cheap labor conservatives' further emphasizes the author's negative view of conservative economic policies, which are often seen as exploitative by those on the left. Overall, the language and content of the post strongly suggest a left-leaning political orientation.\"\n}\n```"
+    },
+    {
+      "author": "eveezy",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post indicates a left-leaning political orientation. This is evidenced by the following points: 1) The author mentions 'pro-Israeli students' being 'shocked at hearing non-zionist views,' which suggests a critical stance towards what they perceive as conservative or right-wing support for Israel and Zionism. 2) The reference to students in Colorado not being 'allowed to cheerlead the war enough' implies a skepticism towards pro-war or hawkish policies, which are often associated with conservative viewpoints. 3) The statement that 'objective reality is more in line with a liberal viewpoint than a conservative one' directly expresses a belief that liberal perspectives are more aligned with factual and objective understanding, which is a common sentiment among left-leaning individuals. These elements collectively suggest that the author is more likely to identify with progressive or left-wing political views.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post indicates a left-leaning political orientation. This is evidenced by the following points: 1) The author mentions 'pro-Israeli students' being 'shocked at hearing non-zionist views,' which suggests a critical stance towards what they perceive as conservative or right-wing support for Israel and Zionism. 2) The reference to students in Colorado not being 'allowed to cheerlead the war enough' implies a skepticism towards pro-war or hawkish policies, which are often associated with conservative viewpoints. 3) The statement that 'objective reality is more in line with a liberal viewpoint than a conservative one' directly expresses a belief that liberal perspectives are more aligned with factual and objective understanding, which is a common sentiment among left-leaning individuals. These elements collectively suggest that the author is more likely to identify with progressive or left-wing political views.\"\n}\n```"
+    }
+  ]
+}

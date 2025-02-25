@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 72.72727272727273,
+      "recall": 80.0,
+      "f1_score": 7619.047619047619,
+      "true_positive": 8,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "BalancedVoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports increasing the minimum wage, which is a policy typically advocated by left-leaning individuals who prioritize worker rights and economic equality. While the author acknowledges potential challenges for businesses, they suggest a balanced approach that includes support for small businesses, indicating a nuanced but still left-leaning perspective that seeks to address both worker welfare and business sustainability.\"\n}",
+      "explanation": "The author supports increasing the minimum wage, which is a policy typically advocated by left-leaning individuals who prioritize worker rights and economic equality. While the author acknowledges potential challenges for businesses, they suggest a balanced approach that includes support for small businesses, indicating a nuanced but still left-leaning perspective that seeks to address both worker welfare and business sustainability."
+    },
+    {
+      "author": "FiscalModerate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by FiscalModerate expresses a nuanced view on taxation and government spending. While the author acknowledges the necessity of taxes, they also express concern about excessive taxation potentially slowing economic growth. This concern is often associated with more conservative or right-leaning economic views. However, the author's openness to taxes and emphasis on 'smarter spending' rather than simply cutting taxes or reducing government involvement suggests a willingness to consider government intervention and fiscal responsibility, which can be aligned with both centrist and some left-leaning perspectives. Without more context or additional statements on other political issues, it is difficult to definitively classify the author's overall political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN.\"\n}",
+      "explanation": "The post by FiscalModerate expresses a nuanced view on taxation and government spending. While the author acknowledges the necessity of taxes, they also express concern about excessive taxation potentially slowing economic growth. This concern is often associated with more conservative or right-leaning economic views. However, the author's openness to taxes and emphasis on 'smarter spending' rather than simply cutting taxes or reducing government involvement suggests a willingness to consider government intervention and fiscal responsibility, which can be aligned with both centrist and some left-leaning perspectives. Without more context or additional statements on other political issues, it is difficult to definitively classify the author's overall political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "ReasonableCare",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a clear concern for healthcare reform, which is a common issue for those on the left. While they are not fully endorsing a single-payer system, they are open to expanding current programs, which suggests a preference for incremental reforms that align with progressive values. The focus on improving access to healthcare through government intervention indicates a left-leaning perspective, even if the author is not advocating for the most radical left-wing solution.\"\n}",
+      "explanation": "The author expresses a clear concern for healthcare reform, which is a common issue for those on the left. While they are not fully endorsing a single-payer system, they are open to expanding current programs, which suggests a preference for incremental reforms that align with progressive values. The focus on improving access to healthcare through government intervention indicates a left-leaning perspective, even if the author is not advocating for the most radical left-wing solution."
+    },
+    {
+      "author": "ModerateGreen",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by ModerateGreen emphasizes the importance of climate action, which is a common stance among left-leaning individuals. However, the author also expresses concern about the economic impact of rapid changes, suggesting a more centrist or pragmatic approach. This balance between environmental and economic concerns does not clearly align with either the left or the right, making it difficult to definitively classify the author's political orientation based on this single post.\"\n}",
+      "explanation": "The post by ModerateGreen emphasizes the importance of climate action, which is a common stance among left-leaning individuals. However, the author also expresses concern about the economic impact of rapid changes, suggesting a more centrist or pragmatic approach. This balance between environmental and economic concerns does not clearly align with either the left or the right, making it difficult to definitively classify the author's political orientation based on this single post."
+    },
+    {
+      "author": "CenterPath",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by CenterPath suggests a position that is generally aligned with left-leaning political views, particularly in the context of gun control. The author supports 'stricter background checks,' which is a common policy proposal among left-leaning individuals who advocate for enhanced measures to prevent gun violence and ensure public safety. However, the author also expresses skepticism about 'outright bans,' indicating a pragmatic approach that seeks to balance gun control with other considerations. This nuanced stance, which leans towards regulation but stops short of extreme measures, is often characteristic of the left or center-left, as they typically seek to find common ground and incremental solutions to complex issues like gun control. The emphasis on finding 'common ground' further suggests a willingness to engage in dialogue and compromise, which is more frequently associated with left or centrist political orientations.\"\n}",
+      "explanation": "The post by CenterPath suggests a position that is generally aligned with left-leaning political views, particularly in the context of gun control. The author supports 'stricter background checks,' which is a common policy proposal among left-leaning individuals who advocate for enhanced measures to prevent gun violence and ensure public safety. However, the author also expresses skepticism about 'outright bans,' indicating a pragmatic approach that seeks to balance gun control with other considerations. This nuanced stance, which leans towards regulation but stops short of extreme measures, is often characteristic of the left or center-left, as they typically seek to find common ground and incremental solutions to complex issues like gun control. The emphasis on finding 'common ground' further suggests a willingness to engage in dialogue and compromise, which is more frequently associated with left or centrist political orientations."
+    },
+    {
+      "author": "ModerateRight",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post reflects a nuanced view on immigration that balances security concerns with economic benefits. The author suggests 'better management' rather than 'harsh restrictions,' which could be interpreted as a more centrist or moderate stance. While the emphasis on secure borders might lean slightly towards the right, the support for immigration and its economic benefits is a view often associated with the left. Without more context or additional statements, it is difficult to definitively classify the author's political orientation as strictly left or right.\"\n}",
+      "explanation": "The post reflects a nuanced view on immigration that balances security concerns with economic benefits. The author suggests 'better management' rather than 'harsh restrictions,' which could be interpreted as a more centrist or moderate stance. While the emphasis on secure borders might lean slightly towards the right, the support for immigration and its economic benefits is a view often associated with the left. Without more context or additional statements, it is difficult to definitively classify the author's political orientation as strictly left or right."
+    },
+    {
+      "author": "ParentChoice",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses support for public schools, which is often a left-leaning position, but also advocates for a voucher system, which is more commonly associated with right-leaning policies. The voucher system is often supported by those on the right as it introduces market competition into education, potentially reducing the role of public education. However, the support for public schools and the desire to improve them can be seen as a left-leaning stance. Given the mixed nature of the views expressed, it is difficult to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post expresses support for public schools, which is often a left-leaning position, but also advocates for a voucher system, which is more commonly associated with right-leaning policies. The voucher system is often supported by those on the right as it introduces market competition into education, potentially reducing the role of public education. However, the support for public schools and the desire to improve them can be seen as a left-leaning stance. Given the mixed nature of the views expressed, it is difficult to definitively classify the author's political orientation."
+    },
+    {
+      "author": "PragmaticEd",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes the importance of funding education, which is a common stance among left-leaning individuals who generally support increased investment in public services. However, the author also suggests the need for oversight to ensure that the funds are effectively used, indicating a pragmatic approach to public spending. This combination of support for public funding and a focus on accountability is often found in left-leaning, progressive perspectives that advocate for both social spending and responsible governance.\"\n}",
+      "explanation": "The author emphasizes the importance of funding education, which is a common stance among left-leaning individuals who generally support increased investment in public services. However, the author also suggests the need for oversight to ensure that the funds are effectively used, indicating a pragmatic approach to public spending. This combination of support for public funding and a focus on accountability is often found in left-leaning, progressive perspectives that advocate for both social spending and responsible governance."
+    },
+    {
+      "author": "FiscalSense",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by 'FiscalSense' emphasizes a reduction in welfare dependency and a focus on job training, which aligns more with right-wing economic policies. The right often advocates for welfare to serve as a temporary safety net to encourage self-sufficiency and reduce long-term government spending. This stance contrasts with left-wing policies that typically support more extensive and long-term welfare programs to ensure social safety and economic equality.\"\n}",
+      "explanation": "The post by 'FiscalSense' emphasizes a reduction in welfare dependency and a focus on job training, which aligns more with right-wing economic policies. The right often advocates for welfare to serve as a temporary safety net to encourage self-sufficiency and reduce long-term government spending. This stance contrasts with left-wing policies that typically support more extensive and long-term welfare programs to ensure social safety and economic equality."
+    },
+    {
+      "author": "CityModerate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, CityModerate, suggests investing in public transport, which is generally a policy favored by those on the left due to its potential to reduce inequality, improve access to services, and promote environmental sustainability. However, the author also acknowledges the need for tailored solutions in rural areas, showing a pragmatic approach that balances urban and rural needs. This nuanced view aligns more closely with left-leaning ideologies, which often emphasize the importance of equitable and context-specific policies, rather than a one-size-fits-all approach. While the post does not contain overtly left-wing rhetoric, the emphasis on public investment and equitable solutions suggests a left-leaning orientation.\"\n}",
+      "explanation": "The author, CityModerate, suggests investing in public transport, which is generally a policy favored by those on the left due to its potential to reduce inequality, improve access to services, and promote environmental sustainability. However, the author also acknowledges the need for tailored solutions in rural areas, showing a pragmatic approach that balances urban and rural needs. This nuanced view aligns more closely with left-leaning ideologies, which often emphasize the importance of equitable and context-specific policies, rather than a one-size-fits-all approach. While the post does not contain overtly left-wing rhetoric, the emphasis on public investment and equitable solutions suggests a left-leaning orientation."
+    },
+    {
+      "author": "ModerateDefense",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on national defense suggests a concern for efficiency and fiscal responsibility, which aligns more with left-leaning perspectives that often advocate for reducing military spending and reallocating funds to social programs. The emphasis on avoiding excessive spending while maintaining strength indicates a balanced approach that is critical of unchecked military budgets, a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author's stance on national defense suggests a concern for efficiency and fiscal responsibility, which aligns more with left-leaning perspectives that often advocate for reducing military spending and reallocating funds to social programs. The emphasis on avoiding excessive spending while maintaining strength indicates a balanced approach that is critical of unchecked military budgets, a common theme in left-wing discourse."
+    },
+    {
+      "author": "BalancedEd",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author acknowledges the significant problem of college debt, which is a common concern among left-leaning individuals who often advocate for more accessible and affordable education. While the author does not fully endorse the idea of completely free college, suggesting it might not be sustainable, they propose a compromise with the idea of free community colleges. This middle-ground approach still leans towards the left as it supports increased public funding and access to education, which are key tenets of left-wing policies. The focus on community colleges also aligns with left-wing values of providing more opportunities for lower-income and working-class individuals to gain higher education without incurring significant debt.\"\n}",
+      "explanation": "The author acknowledges the significant problem of college debt, which is a common concern among left-leaning individuals who often advocate for more accessible and affordable education. While the author does not fully endorse the idea of completely free college, suggesting it might not be sustainable, they propose a compromise with the idea of free community colleges. This middle-ground approach still leans towards the left as it supports increased public funding and access to education, which are key tenets of left-wing policies. The focus on community colleges also aligns with left-wing values of providing more opportunities for lower-income and working-class individuals to gain higher education without incurring significant debt."
+    },
+    {
+      "author": "RightModerate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance suggests a more conservative or moderate right approach to environmental policy. The emphasis on a gradual transition rather than an immediate shift away from fossil fuels indicates a preference for maintaining the status quo and avoiding rapid, potentially disruptive changes. This aligns more closely with right-wing economic and environmental views, which often prioritize economic stability and practicality over rapid environmental reforms.\"\n}",
+      "explanation": "The author's stance suggests a more conservative or moderate right approach to environmental policy. The emphasis on a gradual transition rather than an immediate shift away from fossil fuels indicates a preference for maintaining the status quo and avoiding rapid, potentially disruptive changes. This aligns more closely with right-wing economic and environmental views, which often prioritize economic stability and practicality over rapid environmental reforms."
+    },
+    {
+      "author": "FairCare",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, FairCare, expresses a concern for lowering healthcare costs, which is a common priority among those with left-leaning political views, as they often advocate for policies that aim to make healthcare more accessible and affordable. However, the author shows some hesitation about fully government-run systems, suggesting a preference for a more regulated approach rather than complete government control. This nuanced position still aligns more closely with left-wing principles, which typically support government intervention to ensure social welfare, but may also recognize the potential benefits of market mechanisms. The emphasis on regulation rather than full control indicates a balanced approach, but the primary focus on reducing healthcare costs and the willingness to consider government involvement suggest a left-leaning orientation.\"\n}",
+      "explanation": "The author, FairCare, expresses a concern for lowering healthcare costs, which is a common priority among those with left-leaning political views, as they often advocate for policies that aim to make healthcare more accessible and affordable. However, the author shows some hesitation about fully government-run systems, suggesting a preference for a more regulated approach rather than complete government control. This nuanced position still aligns more closely with left-wing principles, which typically support government intervention to ensure social welfare, but may also recognize the potential benefits of market mechanisms. The emphasis on regulation rather than full control indicates a balanced approach, but the primary focus on reducing healthcare costs and the willingness to consider government involvement suggest a left-leaning orientation."
+    },
+    {
+      "author": "ModerateJustice",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by ModerateJustice reflects a balanced view on criminal justice, acknowledging both the drawbacks of tough-on-crime policies and the need to address rising crime rates. The author suggests a middle ground through balanced criminal justice reform, which does not clearly align with either a left or right political stance. This centrist position makes it difficult to definitively classify the author's political orientation based solely on this post.\"\n}",
+      "explanation": "The post by ModerateJustice reflects a balanced view on criminal justice, acknowledging both the drawbacks of tough-on-crime policies and the need to address rising crime rates. The author suggests a middle ground through balanced criminal justice reform, which does not clearly align with either a left or right political stance. This centrist position makes it difficult to definitively classify the author's political orientation based solely on this post."
+    },
+    {
+      "author": "LaborCenter",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by 'LaborCenter' emphasizes the role of unions in protecting workers, which is a traditionally left-leaning stance. The author acknowledges the importance of worker rights while also suggesting a need for balance with employer flexibility. This balanced view still leans left as it prioritizes the protection of workers, a key concern for left-wing politics. The mention of unions 'going too far' does introduce a moderate perspective, but the overall sentiment remains supportive of labor rights, which is characteristic of a left-leaning political orientation.\"\n}",
+      "explanation": "The post by 'LaborCenter' emphasizes the role of unions in protecting workers, which is a traditionally left-leaning stance. The author acknowledges the importance of worker rights while also suggesting a need for balance with employer flexibility. This balanced view still leans left as it prioritizes the protection of workers, a key concern for left-wing politics. The mention of unions 'going too far' does introduce a moderate perspective, but the overall sentiment remains supportive of labor rights, which is characteristic of a left-leaning political orientation."
+    },
+    {
+      "author": "ModerateTech",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by ModerateTech indicates a concern for accountability in Big Tech, which aligns with left-leaning values that often emphasize the need for corporate responsibility and oversight. However, the author also shows a nuanced understanding by suggesting targeted regulations rather than blanket rules, which demonstrates a balance between regulation and the potential negative impact on innovation. This balanced approach suggests a left-leaning perspective that is not radical but rather pragmatic, advocating for necessary oversight while being mindful of the broader economic and technological implications.\"\n}",
+      "explanation": "The post by ModerateTech indicates a concern for accountability in Big Tech, which aligns with left-leaning values that often emphasize the need for corporate responsibility and oversight. However, the author also shows a nuanced understanding by suggesting targeted regulations rather than blanket rules, which demonstrates a balance between regulation and the potential negative impact on innovation. This balanced approach suggests a left-leaning perspective that is not radical but rather pragmatic, advocating for necessary oversight while being mindful of the broader economic and technological implications."
+    },
+    {
+      "author": "CentristBuild",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by CentristBuild emphasizes the need for infrastructure upgrades, which is a common point in both left and right political discourse. However, the author also stresses the importance of funding transparency and the avoidance of 'political pork,' which can be concerns raised by both sides, albeit for different reasons. The left might focus on transparency to ensure equitable distribution and accountability, while the right might emphasize it to prevent wasteful spending and corruption. Without more context or specific ideological cues, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by CentristBuild emphasizes the need for infrastructure upgrades, which is a common point in both left and right political discourse. However, the author also stresses the importance of funding transparency and the avoidance of 'political pork,' which can be concerns raised by both sides, albeit for different reasons. The left might focus on transparency to ensure equitable distribution and accountability, while the right might emphasize it to prevent wasteful spending and corruption. Without more context or specific ideological cues, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "TradeBalance",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on protecting American jobs and advocating for fair trade over free trade suggests a concern for labor and economic equity, which are typically associated with left-leaning political views. While the author acknowledges the importance of free trade, the focus on job protection and a preference for fair trade policies indicates a more progressive stance that prioritizes social and economic justice.\"\n}",
+      "explanation": "The author's emphasis on protecting American jobs and advocating for fair trade over free trade suggests a concern for labor and economic equity, which are typically associated with left-leaning political views. While the author acknowledges the importance of free trade, the focus on job protection and a preference for fair trade policies indicates a more progressive stance that prioritizes social and economic justice."
+    },
+    {
+      "author": "FiscalBalance",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by FiscalBalance presents a balanced view that does not clearly align with either the left or the right. On one hand, the author supports government investment in key areas and funding social programs, which are typically left-leaning positions. On the other hand, the emphasis on controlling spending and reducing debt aligns more with right-leaning fiscal conservatism. The combination of these views suggests a centrist or pragmatic stance, making it difficult to definitively classify the author's political orientation as strictly left or right.\"\n}",
+      "explanation": "The post by FiscalBalance presents a balanced view that does not clearly align with either the left or the right. On one hand, the author supports government investment in key areas and funding social programs, which are typically left-leaning positions. On the other hand, the emphasis on controlling spending and reducing debt aligns more with right-leaning fiscal conservatism. The combination of these views suggests a centrist or pragmatic stance, making it difficult to definitively classify the author's political orientation as strictly left or right."
+    }
+  ]
+}

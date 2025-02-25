@@ -1,0 +1,100 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post displays a strong opposition to restrictions on personal choice, specifically in the context of dog ownership. The use of derogatory language and the defense of pit bulls against what the author perceives as unfounded fears align with a right-leaning political stance that emphasizes individual rights and skepticism towards government regulation. The author also criticizes the use of outdated data and what they perceive as emotional, rather than fact-based, decision-making, which is often a critique associated with conservative viewpoints.\"\n}",
+      "explanation": "The author's post displays a strong opposition to restrictions on personal choice, specifically in the context of dog ownership. The use of derogatory language and the defense of pit bulls against what the author perceives as unfounded fears align with a right-leaning political stance that emphasizes individual rights and skepticism towards government regulation. The author also criticizes the use of outdated data and what they perceive as emotional, rather than fact-based, decision-making, which is often a critique associated with conservative viewpoints."
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by Watermark does not provide enough context or content to determine a specific political orientation. The discussion is centered around the spelling and pronunciation of the word 'prooved,' which is a linguistic or grammatical issue rather than a political one. There are no clear indicators of political beliefs or stances that would suggest a left or right orientation.\"\n}",
+      "explanation": "The post by Watermark does not provide enough context or content to determine a specific political orientation. The discussion is centered around the spelling and pronunciation of the word 'prooved,' which is a linguistic or grammatical issue rather than a political one. There are no clear indicators of political beliefs or stances that would suggest a left or right orientation."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a negative sentiment towards Woodrow Wilson, who is generally viewed positively by those on the left for his progressive policies and efforts in establishing the League of Nations. The author's criticism of Wilson, particularly in the context of the establishment of Israel, suggests a more right-leaning perspective, as it aligns with a more critical view of internationalist and interventionist policies, which are often associated with the political right.\"\n}",
+      "explanation": "The post expresses a negative sentiment towards Woodrow Wilson, who is generally viewed positively by those on the left for his progressive policies and efforts in establishing the League of Nations. The author's criticism of Wilson, particularly in the context of the establishment of Israel, suggests a more right-leaning perspective, as it aligns with a more critical view of internationalist and interventionist policies, which are often associated with the political right."
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post content suggests a strong defense of democratic principles and fact-based discourse, which are often emphasized by those on the political left. The author criticizes the act of 'ruining democracy' by 'ignoring the facts and belittling the people who bring the facts,' indicating a stance that values transparency, accountability, and the integrity of democratic processes. Additionally, the phrase 'You are losing and its obvious' implies a confrontational tone towards an opposing political view, which is common in left-leaning discourse when addressing perceived threats to democratic values or progressive agendas.\"\n}",
+      "explanation": "The post content suggests a strong defense of democratic principles and fact-based discourse, which are often emphasized by those on the political left. The author criticizes the act of 'ruining democracy' by 'ignoring the facts and belittling the people who bring the facts,' indicating a stance that values transparency, accountability, and the integrity of democratic processes. Additionally, the phrase 'You are losing and its obvious' implies a confrontational tone towards an opposing political view, which is common in left-leaning discourse when addressing perceived threats to democratic values or progressive agendas."
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, Agnosticus_Caesar, expresses skepticism towards the idea of school vouchers, particularly in the context of inner-city areas. They point out that these areas often lack sufficient private school options, implying that the policy would not effectively address the needs of students in these communities. This criticism of a policy often supported by conservative or right-leaning individuals suggests a more left-leaning or progressive stance, as they are concerned with the equitable distribution of educational resources and the potential disadvantages faced by underprivileged communities.\"\n}",
+      "explanation": "The author, Agnosticus_Caesar, expresses skepticism towards the idea of school vouchers, particularly in the context of inner-city areas. They point out that these areas often lack sufficient private school options, implying that the policy would not effectively address the needs of students in these communities. This criticism of a policy often supported by conservative or right-leaning individuals suggests a more left-leaning or progressive stance, as they are concerned with the equitable distribution of educational resources and the potential disadvantages faced by underprivileged communities."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a strong opposition to the intrusion of religion in public schools, which is a common stance among those on the political left. They emphasize the importance of separating church and state, particularly in the context of public education, and advocate for a system where parents have the choice to select schools, including religious ones, but without mandatory public funding. This aligns with left-leaning views that often support secular public institutions and individual choice in education.\"\n}",
+      "explanation": "The author expresses a strong opposition to the intrusion of religion in public schools, which is a common stance among those on the political left. They emphasize the importance of separating church and state, particularly in the context of public education, and advocate for a system where parents have the choice to select schools, including religious ones, but without mandatory public funding. This aligns with left-leaning views that often support secular public institutions and individual choice in education."
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by DrWho expresses a critical view of President Bush's handling of the situation in Iraq, particularly in Mosul. The author highlights the violence and fear that are prevalent in the region, which casts doubt on the feasibility of holding elections as promised by Bush. This skepticism and criticism of the Bush administration's policies in Iraq are typically associated with a left-leaning political orientation, which often opposes the Iraq War and questions the effectiveness and morality of U.S. military actions in the region.\"\n}",
+      "explanation": "The post by DrWho expresses a critical view of President Bush's handling of the situation in Iraq, particularly in Mosul. The author highlights the violence and fear that are prevalent in the region, which casts doubt on the feasibility of holding elections as promised by Bush. This skepticism and criticism of the Bush administration's policies in Iraq are typically associated with a left-leaning political orientation, which often opposes the Iraq War and questions the effectiveness and morality of U.S. military actions in the region."
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by Teddi reflects a strong stance on military intervention and the promotion of democracy, which are often associated with right-wing political views, especially in the context of international relations. The author advocates for the use of military means to defend Taiwan and expresses a desire to democratize China and India, framing this as essential for a 'free world.' This perspective aligns with conservative or right-wing ideologies that emphasize national security, the spread of democracy, and a proactive stance against perceived threats. Additionally, the author suggests that economic consequences are secondary to political and security concerns, which is a common right-wing view that prioritizes strategic and ideological goals over economic stability. The emphasis on the West's strength and the need to counter the Chinese regime also indicates a hawkish, interventionist stance, typically associated with the right.\"\n}",
+      "explanation": "The post by Teddi reflects a strong stance on military intervention and the promotion of democracy, which are often associated with right-wing political views, especially in the context of international relations. The author advocates for the use of military means to defend Taiwan and expresses a desire to democratize China and India, framing this as essential for a 'free world.' This perspective aligns with conservative or right-wing ideologies that emphasize national security, the spread of democracy, and a proactive stance against perceived threats. Additionally, the author suggests that economic consequences are secondary to political and security concerns, which is a common right-wing view that prioritizes strategic and ideological goals over economic stability. The emphasis on the West's strength and the need to counter the Chinese regime also indicates a hawkish, interventionist stance, typically associated with the right."
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post content indicates a strong negative sentiment towards conservatives, suggesting that the author views conservative ideology as narrow-minded and destructive to camaraderie and debate. The author also criticizes conservatives for their approach to social security, implying a belief in the importance of social welfare programs, which is typically associated with left-leaning political views. The phrase 'cheap labor conservatives' further suggests a criticism of conservative economic policies that favor lower wages, which is often a point of contention between left and right political orientations. Overall, the language and critique align more closely with left-wing political discourse.\"\n}",
+      "explanation": "The post content indicates a strong negative sentiment towards conservatives, suggesting that the author views conservative ideology as narrow-minded and destructive to camaraderie and debate. The author also criticizes conservatives for their approach to social security, implying a belief in the importance of social welfare programs, which is typically associated with left-leaning political views. The phrase 'cheap labor conservatives' further suggests a criticism of conservative economic policies that favor lower wages, which is often a point of contention between left and right political orientations. Overall, the language and critique align more closely with left-wing political discourse."
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post indicates a liberal viewpoint by criticizing instances where pro-Israeli students and those supporting war efforts feel their views are not adequately represented. The author also suggests that 'objective reality' aligns more with a liberal perspective, which implies a bias towards liberal values and a critical stance towards conservative positions. The mention of 'professors crossing the line with dogmatic personal views' suggests a concern with academic freedom and the balance of perspectives, which is often a liberal concern.\"\n}",
+      "explanation": "The author's post indicates a liberal viewpoint by criticizing instances where pro-Israeli students and those supporting war efforts feel their views are not adequately represented. The author also suggests that 'objective reality' aligns more with a liberal perspective, which implies a bias towards liberal values and a critical stance towards conservative positions. The mention of 'professors crossing the line with dogmatic personal views' suggests a concern with academic freedom and the balance of perspectives, which is often a liberal concern."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The author's post focuses on the issue of breed-specific legislation (BSL) regarding dog ownership, specifically pit bulls. While the author expresses strong opinions against banning certain dog breeds and criticizes those who support such bans, this issue does not clearly align with traditional left or right political ideologies. The author's arguments are based on animal rights and questioning the validity of data used to support BSL, rather than broader political principles. Therefore, it is difficult to determine the author's political orientation based solely on this post.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The author's post focuses on the issue of breed-specific legislation (BSL) regarding dog ownership, specifically pit bulls. While the author expresses strong opinions against banning certain dog breeds and criticizes those who support such bans, this issue does not clearly align with traditional left or right political ideologies. The author's arguments are based on animal rights and questioning the validity of data used to support BSL, rather than broader political principles. Therefore, it is difficult to determine the author's political orientation based solely on this post.\"\n}\n```"
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The post focuses on a spelling question ('prooved' vs. 'proved') and does not contain any political content or indicators of the author's political orientation. Therefore, it is impossible to determine the author's political leaning based on this text.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The post focuses on a spelling question ('prooved' vs. 'proved') and does not contain any political content or indicators of the author's political orientation. Therefore, it is impossible to determine the author's political leaning based on this text.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The statement expresses a negative sentiment towards Woodrow Wilson and connects him to the creation of Israel. While strong opinions about historical figures and geopolitical events can sometimes correlate with political orientations, this single statement is insufficient to determine the author's political leaning. It could stem from various perspectives, including anti-imperialism, specific views on the Israeli-Palestinian conflict, or general historical revisionism, none of which definitively place the author on the left or right.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The statement expresses a negative sentiment towards Woodrow Wilson and connects him to the creation of Israel. While strong opinions about historical figures and geopolitical events can sometimes correlate with political orientations, this single statement is insufficient to determine the author's political leaning. It could stem from various perspectives, including anti-imperialism, specific views on the Israeli-Palestinian conflict, or general historical revisionism, none of which definitively place the author on the left or right.\"\n}\n```"
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The post expresses frustration with a perceived disregard for facts and belittling of those who present them, suggesting a concern for democratic principles. However, without further context, it's impossible to determine the author's specific political orientation. The statement could be directed at either side of the political spectrum depending on the specific facts and people being referenced.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"UNKNOWN\",\n  \"explanation\": \"The post expresses frustration with a perceived disregard for facts and belittling of those who present them, suggesting a concern for democratic principles. However, without further context, it's impossible to determine the author's specific political orientation. The statement could be directed at either side of the political spectrum depending on the specific facts and people being referenced.\"\n}\n```"
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author expresses concern about the impact of school vouchers on public schools, particularly in \\\"really bad inner cities.\\\" This concern aligns with a common left-leaning critique of voucher programs, which argues that they divert resources from public schools and exacerbate inequalities. The author's skepticism about the feasibility and potential negative consequences of shifting from public to private schools in disadvantaged areas further suggests a left-leaning perspective focused on equitable access to education.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author expresses concern about the impact of school vouchers on public schools, particularly in \\\"really bad inner cities.\\\" This concern aligns with a common left-leaning critique of voucher programs, which argues that they divert resources from public schools and exacerbate inequalities. The author's skepticism about the feasibility and potential negative consequences of shifting from public to private schools in disadvantaged areas further suggests a left-leaning perspective focused on equitable access to education.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "right",
+      "raw_response": "```json\n{\n  \"orientation\": \"RIGHT\",\n  \"explanation\": \"The author expresses support for school choice, suggesting that tax money should follow students to the schools of their parents' choice, including religious schools. This position aligns with the right-leaning advocacy for school choice and parental control over education, often framed as promoting competition and individual liberty. The author's concern about being 'forced to pay for a religious institution' when religion is present in public schools, but not when parents choose religious schools with public funds, indicates a preference for individual choice and a limited role for government in dictating educational options, which are common themes in right-leaning political discourse.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"RIGHT\",\n  \"explanation\": \"The author expresses support for school choice, suggesting that tax money should follow students to the schools of their parents' choice, including religious schools. This position aligns with the right-leaning advocacy for school choice and parental control over education, often framed as promoting competition and individual liberty. The author's concern about being 'forced to pay for a religious institution' when religion is present in public schools, but not when parents choose religious schools with public funds, indicates a preference for individual choice and a limited role for government in dictating educational options, which are common themes in right-leaning political discourse.\"\n}\n```"
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author's statement, \\\"I still don't think Bush knows what he is dealing with in the slightest,\\\" is a direct criticism of President George W. Bush's handling of the Iraq War. This criticism aligns with a common viewpoint on the left, which often questioned the Bush administration's competence and rationale for the war. The author's focus on the details of the battle and the mention of civilian fear further suggests a concern for the human cost of the conflict, a perspective frequently associated with left-leaning political views.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author's statement, \\\"I still don't think Bush knows what he is dealing with in the slightest,\\\" is a direct criticism of President George W. Bush's handling of the Iraq War. This criticism aligns with a common viewpoint on the left, which often questioned the Bush administration's competence and rationale for the war. The author's focus on the details of the battle and the mention of civilian fear further suggests a concern for the human cost of the conflict, a perspective frequently associated with left-leaning political views.\"\n}\n```"
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "```json\n{\n  \"orientation\": \"RIGHT\",\n  \"explanation\": \"The author expresses a hawkish foreign policy stance, advocating for military intervention to defend Taiwan against China. This aligns with a more assertive, interventionist approach often associated with right-leaning foreign policy perspectives. The author's strong condemnation of China's political system as 'aggressive' and a 'threat to international peace,' coupled with the call for democratizing China and India, reflects a belief in the superiority of Western-style democracy and a willingness to use force to promote it, which are common themes in right-leaning political thought. The concern about the West appearing 'weak' and 'tolerant' also suggests a preference for projecting strength and resolve, further indicating a right-leaning orientation.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"RIGHT\",\n  \"explanation\": \"The author expresses a hawkish foreign policy stance, advocating for military intervention to defend Taiwan against China. This aligns with a more assertive, interventionist approach often associated with right-leaning foreign policy perspectives. The author's strong condemnation of China's political system as 'aggressive' and a 'threat to international peace,' coupled with the call for democratizing China and India, reflects a belief in the superiority of Western-style democracy and a willingness to use force to promote it, which are common themes in right-leaning political thought. The concern about the West appearing 'weak' and 'tolerant' also suggests a preference for projecting strength and resolve, further indicating a right-leaning orientation.\"\n}\n```"
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author expresses strong criticism of conservatives, accusing them of ruining camaraderie and debate due to 'narrow minded ideology.' The author also references Social Security, suggesting conservatives aim to 'ruin it' to promote their ideological perspective. The phrase 'cheap labor conservatives' further indicates a left-leaning perspective, suggesting the author views conservative economic policies as exploitative. These criticisms align with common left-wing critiques of conservative policies and ideology.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author expresses strong criticism of conservatives, accusing them of ruining camaraderie and debate due to 'narrow minded ideology.' The author also references Social Security, suggesting conservatives aim to 'ruin it' to promote their ideological perspective. The phrase 'cheap labor conservatives' further indicates a left-leaning perspective, suggesting the author views conservative economic policies as exploitative. These criticisms align with common left-wing critiques of conservative policies and ideology.\"\n}\n```"
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author's statement suggests a left-leaning orientation. The author criticizes the reaction of 'pro-Israeli students' to 'non-zionist views,' implying support for the latter. Additionally, the author criticizes the situation in Colorado where students were not allowed to 'cheerlead the war enough,' suggesting an anti-war stance, which is generally associated with the left. Finally, the author states that 'objective reality is more in line with a liberal viewpoint than a conservative one,' which is a clear indication of their political leaning.\"\n}\n```",
+      "explanation": "```json\n{\n  \"orientation\": \"LEFT\",\n  \"explanation\": \"The author's statement suggests a left-leaning orientation. The author criticizes the reaction of 'pro-Israeli students' to 'non-zionist views,' implying support for the latter. Additionally, the author criticizes the situation in Colorado where students were not allowed to 'cheerlead the war enough,' suggesting an anti-war stance, which is generally associated with the left. Finally, the author states that 'objective reality is more in line with a liberal viewpoint than a conservative one,' which is a clear indication of their political leaning.\"\n}\n```"
+    }
+  ]
+}

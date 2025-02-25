@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 75.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 5,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "BlueWave",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for affordable healthcare, criticizes the Republican party (GOP) for attacking it, and advocates for universal healthcare. These positions are generally associated with left-leaning political ideologies.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for affordable healthcare, criticizes the Republican party (GOP) for attacking it, and advocates for universal healthcare. These positions are generally associated with left-leaning political ideologies.\"\n}\n```"
+    },
+    {
+      "author": "GreenFuture",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong concern about climate change and criticizes conservatives for denying it. They also accuse fossil fuel companies and politicians of prioritizing profit over environmental protection. These are common viewpoints associated with the left side of the political spectrum.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong concern about climate change and criticizes conservatives for denying it. They also accuse fossil fuel companies and politicians of prioritizing profit over environmental protection. These are common viewpoints associated with the left side of the political spectrum.\"\n}\n```"
+    },
+    {
+      "author": "EcoWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with common left-leaning political positions. Specifically, the criticism of 'corporate greed,' the call for government regulation of industries to protect the environment, the emphasis on renewable energy, and the negative framing of those who oppose it are all indicative of a left-leaning perspective. These positions typically prioritize environmental protection, social justice, and government intervention to address societal problems.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with common left-leaning political positions. Specifically, the criticism of 'corporate greed,' the call for government regulation of industries to protect the environment, the emphasis on renewable energy, and the negative framing of those who oppose it are all indicative of a left-leaning perspective. These positions typically prioritize environmental protection, social justice, and government intervention to address societal problems.\"\n}\n```"
+    },
+    {
+      "author": "SafeAmerica",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for 'common-sense gun laws,' specifically mentioning background checks and assault weapon bans. They also criticize Republicans for their stance on gun control and reference school shootings as a reason for stricter laws. These positions are typically associated with the left side of the political spectrum in the United States.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for 'common-sense gun laws,' specifically mentioning background checks and assault weapon bans. They also criticize Republicans for their stance on gun control and reference school shootings as a reason for stricter laws. These positions are typically associated with the left side of the political spectrum in the United States.\"\n}\n```"
+    },
+    {
+      "author": "NoMoreWars",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement criticizes the military-industrial complex and accuses the US of imperialism through bombing countries and installing puppet governments. This critique of US foreign policy and military interventionism is a common viewpoint associated with the left.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement criticizes the military-industrial complex and accuses the US of imperialism through bombing countries and installing puppet governments. This critique of US foreign policy and military interventionism is a common viewpoint associated with the left.\"\n}\n```"
+    },
+    {
+      "author": "PeopleFirst",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong disapproval of policies that favor the wealthy (tax breaks for billionaires) while harming the poor (cutting welfare and food stamps). This aligns with common left-leaning political positions that prioritize social welfare programs and advocate for economic equality. The statement \\\"No one should go hungry in the richest country in the world!\\\" further reinforces this sentiment, reflecting a belief in the government's responsibility to provide a safety net for its citizens.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong disapproval of policies that favor the wealthy (tax breaks for billionaires) while harming the poor (cutting welfare and food stamps). This aligns with common left-leaning political positions that prioritize social welfare programs and advocate for economic equality. The statement \\\"No one should go hungry in the richest country in the world!\\\" further reinforces this sentiment, reflecting a belief in the government's responsibility to provide a safety net for its citizens.\"\n}\n```"
+    },
+    {
+      "author": "EqualityNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for LGBTQ+ rights and criticizes the Republican Party (GOP) for allegedly trying to control LGBTQ+ people's lives. This stance aligns with progressive values and is commonly associated with the political left. The phrases 'equal rights and respect' and 'love is love' are also commonly used in left-leaning discourse regarding LGBTQ+ rights.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for LGBTQ+ rights and criticizes the Republican Party (GOP) for allegedly trying to control LGBTQ+ people's lives. This stance aligns with progressive values and is commonly associated with the political left. The phrases 'equal rights and respect' and 'love is love' are also commonly used in left-leaning discourse regarding LGBTQ+ rights.\"\n}\n```"
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with common left-leaning political positions. Specifically, the call to 'defund the police' and reallocate resources to public schools and healthcare is a key tenet of many left-wing movements. The argument that defunding doesn't mean abolishing police but rather shifting resources towards preventative measures is also a common framing used by those advocating for police reform from a left-leaning perspective. The criticism of increasing police budgets while other social services are underfunded is also a common left-leaning critique of government spending priorities.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with common left-leaning political positions. Specifically, the call to 'defund the police' and reallocate resources to public schools and healthcare is a key tenet of many left-wing movements. The argument that defunding doesn't mean abolishing police but rather shifting resources towards preventative measures is also a common framing used by those advocating for police reform from a left-leaning perspective. The criticism of increasing police budgets while other social services are underfunded is also a common left-leaning critique of government spending priorities.\"\n}\n```"
+    },
+    {
+      "author": "TaxTheRich",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements strongly align with left-leaning political ideologies. Specifically, the author advocates for wealth redistribution through a wealth tax, criticizes the existence of billionaires in the context of widespread economic hardship, and highlights the disparity between the wealthy and working class. These are common themes within left-wing political discourse.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements strongly align with left-leaning political ideologies. Specifically, the author advocates for wealth redistribution through a wealth tax, criticizes the existence of billionaires in the context of widespread economic hardship, and highlights the disparity between the wealthy and working class. These are common themes within left-wing political discourse.\"\n}\n```"
+    },
+    {
+      "author": "SmartFuture",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for increased funding for public schools and criticizes the Republican Party (GOP) for promoting charter schools and \\\"starving\\\" public education. This aligns with a common left-leaning viewpoint that prioritizes public education and criticizes policies perceived as benefiting private or charter schools at the expense of public schools. The statement that \\\"every child deserves quality education, not just the wealthy ones!\\\" further reinforces this left-leaning perspective by emphasizing equality and social justice in education.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for increased funding for public schools and criticizes the Republican Party (GOP) for promoting charter schools and \\\"starving\\\" public education. This aligns with a common left-leaning viewpoint that prioritizes public education and criticizes policies perceived as benefiting private or charter schools at the expense of public schools. The statement that \\\"every child deserves quality education, not just the wealthy ones!\\\" further reinforces this left-leaning perspective by emphasizing equality and social justice in education.\"\n}\n```"
+    },
+    {
+      "author": "2AForLife",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and their assertion that gun control measures only affect law-abiding citizens are common positions held by those on the right side of the political spectrum. The statement that 'Liberals don't understand that criminals don't follow gun laws' is a direct criticism of a political group typically associated with advocating for stricter gun control.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and their assertion that gun control measures only affect law-abiding citizens are common positions held by those on the right side of the political spectrum. The statement that 'Liberals don't understand that criminals don't follow gun laws' is a direct criticism of a political group typically associated with advocating for stricter gun control.\"\n}\n```"
+    },
+    {
+      "author": "SecureOurBorder",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses strong concerns about border control and illegal immigration, framing it as a threat to national sovereignty and economic well-being. This aligns with common conservative viewpoints on immigration policy, which often prioritize border security, national identity, and the protection of domestic jobs.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses strong concerns about border control and illegal immigration, framing it as a threat to national sovereignty and economic well-being. This aligns with common conservative viewpoints on immigration policy, which often prioritize border security, national identity, and the protection of domestic jobs.\"\n}\n```"
+    },
+    {
+      "author": "LawAndOrder",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Specifically, the opposition to defunding the police, the assertion that crime is rising due to 'soft-on-crime' policies, and the call for increased funding for law enforcement are all positions typically associated with the right wing of the political spectrum.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Specifically, the opposition to defunding the police, the assertion that crime is rising due to 'soft-on-crime' policies, and the call for increased funding for law enforcement are all positions typically associated with the right wing of the political spectrum.\"\n}\n```"
+    },
+    {
+      "author": "LessGov",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning political positions. Specifically, the belief that high corporate taxes harm businesses and job creation is a typical argument made by those advocating for lower taxes and less government regulation. The statement that the 'free market would take care of itself' further reinforces this classification, as it reflects a belief in laissez-faire economics, a core tenet of right-wing ideology.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning political positions. Specifically, the belief that high corporate taxes harm businesses and job creation is a typical argument made by those advocating for lower taxes and less government regulation. The statement that the 'free market would take care of itself' further reinforces this classification, as it reflects a belief in laissez-faire economics, a core tenet of right-wing ideology.\"\n}\n```"
+    },
+    {
+      "author": "ClimateRealist",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about climate change being a significant threat and attributes the concern to a left-wing agenda. The phrases 'excuse for the left to control people's lives,' 'socialist green agenda,' and 'climate has always changed' are common talking points used by individuals with a right-leaning political orientation to dismiss climate action and criticize left-leaning environmental policies.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about climate change being a significant threat and attributes the concern to a left-wing agenda. The phrases 'excuse for the left to control people's lives,' 'socialist green agenda,' and 'climate has always changed' are common talking points used by individuals with a right-leaning political orientation to dismiss climate action and criticize left-leaning environmental policies.\"\n}\n```"
+    },
+    {
+      "author": "StopTheFraud",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns about mail-in ballots and voter fraud, and advocates for voter ID laws. These positions are typically associated with the right-leaning political spectrum in the United States. The statement that 'the left wants to rig the system' further reinforces this classification, as it expresses distrust and antagonism towards left-leaning political ideologies.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns about mail-in ballots and voter fraud, and advocates for voter ID laws. These positions are typically associated with the right-leaning political spectrum in the United States. The statement that 'the left wants to rig the system' further reinforces this classification, as it expresses distrust and antagonism towards left-leaning political ideologies.\"\n}\n```"
+    },
+    {
+      "author": "FaithFirst",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses several viewpoints commonly associated with the political right. Specifically, the author emphasizes 'Christian values' as foundational to the country, a common theme in conservative rhetoric. They also criticize 'the left' for attempting to 'erase' these values and accuse schools of promoting 'liberal ideology' while suppressing religious expression ('banning prayer'). This framing of a culture war between traditional values and liberal agendas strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses several viewpoints commonly associated with the political right. Specifically, the author emphasizes 'Christian values' as foundational to the country, a common theme in conservative rhetoric. They also criticize 'the left' for attempting to 'erase' these values and accuse schools of promoting 'liberal ideology' while suppressing religious expression ('banning prayer'). This framing of a culture war between traditional values and liberal agendas strongly suggests a right-leaning political orientation.\"\n}\n```"
+    },
+    {
+      "author": "WorkNotHandouts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns about welfare programs being 'out of control' and advocates for policies that promote 'work and personal responsibility' over 'government handouts.' This aligns with common conservative viewpoints that emphasize individual responsibility, limited government intervention, and a preference for work-based solutions over welfare programs.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns about welfare programs being 'out of control' and advocates for policies that promote 'work and personal responsibility' over 'government handouts.' This aligns with common conservative viewpoints that emphasize individual responsibility, limited government intervention, and a preference for work-based solutions over welfare programs.\"\n}\n```"
+    },
+    {
+      "author": "FreedomMatters",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning political ideologies. Specifically, the emphasis on limited government, reduced regulations and taxes, and the promotion of free market principles are all hallmarks of right-wing political thought. The phrase \\\"government needs to stay out of our lives\\\" is a common refrain among conservatives and libertarians.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning political ideologies. Specifically, the emphasis on limited government, reduced regulations and taxes, and the promotion of free market principles are all hallmarks of right-wing political thought. The phrase \\\"government needs to stay out of our lives\\\" is a common refrain among conservatives and libertarians.\"\n}\n```"
+    },
+    {
+      "author": "TruthNotSpin",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses strong distrust and criticism of the mainstream media, accusing it of promoting a 'leftist propaganda,' 'socialist agenda,' and 'silencing conservative voices.' These are common talking points and sentiments associated with right-leaning political perspectives.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses strong distrust and criticism of the mainstream media, accusing it of promoting a 'leftist propaganda,' 'socialist agenda,' and 'silencing conservative voices.' These are common talking points and sentiments associated with right-leaning political perspectives.\"\n}\n```"
+    }
+  ]
+}

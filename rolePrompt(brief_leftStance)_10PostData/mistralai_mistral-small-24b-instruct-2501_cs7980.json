@@ -1,0 +1,100 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the regulation of dog ownership, specifically the banning of certain breeds, and criticizes the use of outdated data and misinformation. While the author's stance on dog ownership regulations could be seen as more liberal (left-leaning) due to the emphasis on individual choice and criticism of over-regulation, the post does not provide enough context or additional political views to definitively classify the author's overall political orientation. The use of derogatory language and personal attacks also do not align with a clear political stance. Therefore, the author's political orientation remains unknown based on this post alone.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the regulation of dog ownership, specifically the banning of certain breeds, and criticizes the use of outdated data and misinformation. While the author's stance on dog ownership regulations could be seen as more liberal (left-leaning) due to the emphasis on individual choice and criticism of over-regulation, the post does not provide enough context or additional political views to definitively classify the author's overall political orientation. The use of derogatory language and personal attacks also do not align with a clear political stance. Therefore, the author's political orientation remains unknown based on this post alone.\"\n}\n```"
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any political content or views that would indicate a left or right stance. The author is discussing the spelling of the word 'proved' and the importance of asking questions, which are not political topics. Therefore, the political orientation of the author cannot be determined from this post.\"\n}",
+      "explanation": "The post does not contain any political content or views that would indicate a left or right stance. The author is discussing the spelling of the word 'proved' and the importance of asking questions, which are not political topics. Therefore, the political orientation of the author cannot be determined from this post."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post contains a strong anti-government sentiment, which is often associated with right-wing politics. The phrase 'IHateGovernment' in the username also suggests a strong dislike for government intervention. Additionally, the mention of Woodrow Wilson, a Democratic president known for his progressive policies, in a negative context further supports a right-wing orientation. The reference to Israel, without additional context, does not provide enough information to contradict this classification.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post contains a strong anti-government sentiment, which is often associated with right-wing politics. The phrase 'IHateGovernment' in the username also suggests a strong dislike for government intervention. Additionally, the mention of Woodrow Wilson, a Democratic president known for his progressive policies, in a negative context further supports a right-wing orientation. The reference to Israel, without additional context, does not provide enough information to contradict this classification.\"\n}\n```"
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on facts and democracy, as well as the implication that those who ignore facts are ruining democracy, aligns with typical left-leaning values. The left often prioritizes evidence-based decision-making and democratic principles. The phrase 'You are losing and its obvious' suggests a critique of right-wing or conservative views, which are often associated with ignoring facts and democratic norms.\"\n}",
+      "explanation": "The author's emphasis on facts and democracy, as well as the implication that those who ignore facts are ruining democracy, aligns with typical left-leaning values. The left often prioritizes evidence-based decision-making and democratic principles. The phrase 'You are losing and its obvious' suggests a critique of right-wing or conservative views, which are often associated with ignoring facts and democratic norms."
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a skepticism towards the idea of using vouchers to fund private schools, which is a common stance among those on the left. The author points out that areas with excellent public schools, often in wealthier and rural areas, would still receive funding, implying that vouchers might not address the issues in underfunded urban public schools. This critique of voucher systems and the implication that public schools need more support aligns with left-leaning political views, which often advocate for stronger public education systems and are critical of privatization efforts.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a skepticism towards the idea of using vouchers to fund private schools, which is a common stance among those on the left. The author points out that areas with excellent public schools, often in wealthier and rural areas, would still receive funding, implying that vouchers might not address the issues in underfunded urban public schools. This critique of voucher systems and the implication that public schools need more support aligns with left-leaning political views, which often advocate for stronger public education systems and are critical of privatization efforts.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post primarily focuses on the issue of religion in public schools and the funding of education, which are not exclusively tied to a specific political orientation. The author expresses concern about taxpayer money being used for religious education in public schools, which could lean towards a more secular or liberal stance. However, the author also supports the idea of school choice, which is often associated with conservative or libertarian views. Without more context, it is difficult to definitively classify the author's political orientation as either left or right.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post primarily focuses on the issue of religion in public schools and the funding of education, which are not exclusively tied to a specific political orientation. The author expresses concern about taxpayer money being used for religious education in public schools, which could lean towards a more secular or liberal stance. However, the author also supports the idea of school choice, which is often associated with conservative or libertarian views. Without more context, it is difficult to definitively classify the author's political orientation as either left or right.\"\n}\n```"
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post criticizes President George W. Bush, a Republican, for his handling of the situation in Iraq. This criticism of a prominent Republican figure, especially in the context of a controversial military conflict, suggests a left-leaning political orientation. The author's skepticism about Bush's competence and the mention of the ongoing conflict in Iraq, which was a significant point of contention for left-leaning individuals, further supports this classification.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post criticizes President George W. Bush, a Republican, for his handling of the situation in Iraq. This criticism of a prominent Republican figure, especially in the context of a controversial military conflict, suggests a left-leaning political orientation. The author's skepticism about Bush's competence and the mention of the ongoing conflict in Iraq, which was a significant point of contention for left-leaning individuals, further supports this classification.\"\n}\n```"
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on defending Taiwan by military means and advocating for the democratization of China and India suggests a strong interventionist and pro-democracy position. This aligns more with right-wing political views, which often emphasize military strength, regime change, and the promotion of democratic values globally. The author's concern about appearing weak and tolerant towards the Chinese regime also reflects a more hawkish and assertive foreign policy stance, which is typically associated with right-wing politics. The economic considerations are secondary to the political and moral arguments, further indicating a right-wing orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on defending Taiwan by military means and advocating for the democratization of China and India suggests a strong interventionist and pro-democracy position. This aligns more with right-wing political views, which often emphasize military strength, regime change, and the promotion of democratic values globally. The author's concern about appearing weak and tolerant towards the Chinese regime also reflects a more hawkish and assertive foreign policy stance, which is typically associated with right-wing politics. The economic considerations are secondary to the political and moral arguments, further indicating a right-wing orientation.\"\n}\n```"
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post contains several indicators of a left-leaning political orientation. The author criticizes conservatives for their 'narrow-minded ideology' and suggests that conservative thinking is detrimental to camaraderie and good debate. The author also criticizes conservatives for their approach to social security, implying that conservatives would 'ruin' it for ideological reasons. The phrase 'all you cheap labor conservatives' suggests a critique of conservative economic policies, which are often associated with supporting business interests and lower wages. Overall, the post reflects a strong opposition to conservative views and policies, which is characteristic of a left-leaning political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post contains several indicators of a left-leaning political orientation. The author criticizes conservatives for their 'narrow-minded ideology' and suggests that conservative thinking is detrimental to camaraderie and good debate. The author also criticizes conservatives for their approach to social security, implying that conservatives would 'ruin' it for ideological reasons. The phrase 'all you cheap labor conservatives' suggests a critique of conservative economic policies, which are often associated with supporting business interests and lower wages. Overall, the post reflects a strong opposition to conservative views and policies, which is characteristic of a left-leaning political orientation.\"\n}\n```"
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses incidents where pro-Israeli students are 'shocked' at hearing non-Zionist views, and students being restricted in their expression of support for war. The author also mentions that 'objective reality is more in line with a liberal viewpoint than a conservative one.' This suggests a left-leaning perspective, as it aligns with liberal views on free speech and criticism of conservative stances on issues like Israel and war. The author's framing of the incidents and their conclusion about the alignment with a liberal viewpoint strongly indicate a left political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses incidents where pro-Israeli students are 'shocked' at hearing non-Zionist views, and students being restricted in their expression of support for war. The author also mentions that 'objective reality is more in line with a liberal viewpoint than a conservative one.' This suggests a left-leaning perspective, as it aligns with liberal views on free speech and criticism of conservative stances on issues like Israel and war. The author's framing of the incidents and their conclusion about the alignment with a liberal viewpoint strongly indicate a left political orientation.\"\n}\n```"
+    }
+  ]
+}

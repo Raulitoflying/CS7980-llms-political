@@ -1,0 +1,100 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post displays a strong opposition to restrictions on personal freedoms, specifically the right to choose which dog to own. The language used is confrontational and dismissive of the opposing viewpoint, which is a common trait in right-leaning discourse. The author also criticizes the use of outdated data and what they perceive as fabricated stories, suggesting a skepticism towards what they view as liberal or progressive arguments. Additionally, the author corrects a misconception about pit bulls, indicating a desire to base opinions on factual information, which is often a value associated with right-leaning individuals when countering what they see as emotional or misguided arguments from the left.\"\n}",
+      "explanation": "The author's post displays a strong opposition to restrictions on personal freedoms, specifically the right to choose which dog to own. The language used is confrontational and dismissive of the opposing viewpoint, which is a common trait in right-leaning discourse. The author also criticizes the use of outdated data and what they perceive as fabricated stories, suggesting a skepticism towards what they view as liberal or progressive arguments. Additionally, the author corrects a misconception about pit bulls, indicating a desire to base opinions on factual information, which is often a value associated with right-leaning individuals when countering what they see as emotional or misguided arguments from the left."
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any clear political statements or positions that would indicate a specific political orientation. The author is discussing the spelling and pronunciation of the word 'prooved' and questioning the validity of majority beliefs, but these points do not align with any particular political ideology. Therefore, it is not possible to determine the author's political orientation based on this content alone.\"\n}",
+      "explanation": "The post does not contain any clear political statements or positions that would indicate a specific political orientation. The author is discussing the spelling and pronunciation of the word 'prooved' and questioning the validity of majority beliefs, but these points do not align with any particular political ideology. Therefore, it is not possible to determine the author's political orientation based on this content alone."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is too brief and the content too specific to definitively classify the author's political orientation. While the criticism of Woodrow Wilson, a progressive president, might suggest a right-leaning perspective, the statement about Israel could be interpreted in various ways depending on the author's stance on the Middle East. Without more context or additional posts, it is not possible to accurately determine the author's overall political orientation.\"\n}",
+      "explanation": "The post is too brief and the content too specific to definitively classify the author's political orientation. While the criticism of Woodrow Wilson, a progressive president, might suggest a right-leaning perspective, the statement about Israel could be interpreted in various ways depending on the author's stance on the Middle East. Without more context or additional posts, it is not possible to accurately determine the author's overall political orientation."
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post content suggests a strong defense of democratic principles and a criticism of those who ignore or belittle factual information. The author's emphasis on the importance of facts and the integrity of democracy, along with the confrontational tone towards those who are perceived as undermining these values, is often associated with left-leaning political perspectives. Left-wing individuals tend to be more critical of what they see as misinformation or attempts to delegitimize democratic processes, and they often support the role of fact-checkers and media in maintaining an informed public. The phrase 'You are losing and its obvious' also implies a stance against a group that the author views as oppositional to these values, which is a common sentiment in left-wing discourse when discussing conservative or right-wing actors who are seen as threats to democratic norms.\"\n}",
+      "explanation": "The post content suggests a strong defense of democratic principles and a criticism of those who ignore or belittle factual information. The author's emphasis on the importance of facts and the integrity of democracy, along with the confrontational tone towards those who are perceived as undermining these values, is often associated with left-leaning political perspectives. Left-wing individuals tend to be more critical of what they see as misinformation or attempts to delegitimize democratic processes, and they often support the role of fact-checkers and media in maintaining an informed public. The phrase 'You are losing and its obvious' also implies a stance against a group that the author views as oppositional to these values, which is a common sentiment in left-wing discourse when discussing conservative or right-wing actors who are seen as threats to democratic norms."
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, Agnosticus_Caesar, expresses skepticism about the feasibility and fairness of school voucher programs, particularly in under-resourced urban areas. The post implies a concern for the quality of education in inner-city public schools and questions the availability of private school options in these areas. This criticism of voucher programs, which are often supported by conservative or right-wing policymakers as a means to promote school choice and competition, suggests a more left-leaning perspective that prioritizes public education and equity in educational resources.\"\n}",
+      "explanation": "The author, Agnosticus_Caesar, expresses skepticism about the feasibility and fairness of school voucher programs, particularly in under-resourced urban areas. The post implies a concern for the quality of education in inner-city public schools and questions the availability of private school options in these areas. This criticism of voucher programs, which are often supported by conservative or right-wing policymakers as a means to promote school choice and competition, suggests a more left-leaning perspective that prioritizes public education and equity in educational resources."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post reflects a strong stance against the integration of religion in public schools, which is a common position among those on the political left. They emphasize the importance of separating religion from state-funded education, suggesting a preference for secular public institutions. Additionally, the author supports the idea of parents having the choice to select schools, which can be seen as a nod towards individual freedom, but the primary focus is on the principle of not using public funds to support religious education. This aligns with left-leaning views that often advocate for the separation of church and state and the protection of secular public institutions.\"\n}",
+      "explanation": "The author's post reflects a strong stance against the integration of religion in public schools, which is a common position among those on the political left. They emphasize the importance of separating religion from state-funded education, suggesting a preference for secular public institutions. Additionally, the author supports the idea of parents having the choice to select schools, which can be seen as a nod towards individual freedom, but the primary focus is on the principle of not using public funds to support religious education. This aligns with left-leaning views that often advocate for the separation of church and state and the protection of secular public institutions."
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by DrWho criticizes President Bush's handling of the situation in Iraq, suggesting a lack of understanding or competence. The author also highlights the fear of residents in Mosul regarding the upcoming election, which implies skepticism about the effectiveness and legitimacy of the U.S. presence and actions in Iraq. These points of view are typically associated with a left-leaning political stance, which often criticizes military interventions and the policies of Republican administrations, particularly during the Iraq War era.\"\n}",
+      "explanation": "The post by DrWho criticizes President Bush's handling of the situation in Iraq, suggesting a lack of understanding or competence. The author also highlights the fear of residents in Mosul regarding the upcoming election, which implies skepticism about the effectiveness and legitimacy of the U.S. presence and actions in Iraq. These points of view are typically associated with a left-leaning political stance, which often criticizes military interventions and the policies of Republican administrations, particularly during the Iraq War era."
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by Teddi reflects a strong stance on international intervention and the promotion of democratic values, which are often associated with right-wing political orientations. The author advocates for military intervention to defend Taiwan and emphasizes the need to democratize China and India, suggesting a belief in the superiority of democratic systems and a willingness to use force to achieve these goals. Additionally, the author expresses concern about the West appearing weak if it does not take a firm stance against China, which aligns with a hawkish, interventionist foreign policy typically favored by the political right. The economic consequences mentioned are seen as secondary to the political and strategic imperatives, further reinforcing a right-wing perspective.\"\n}",
+      "explanation": "The post by Teddi reflects a strong stance on international intervention and the promotion of democratic values, which are often associated with right-wing political orientations. The author advocates for military intervention to defend Taiwan and emphasizes the need to democratize China and India, suggesting a belief in the superiority of democratic systems and a willingness to use force to achieve these goals. Additionally, the author expresses concern about the West appearing weak if it does not take a firm stance against China, which aligns with a hawkish, interventionist foreign policy typically favored by the political right. The economic consequences mentioned are seen as secondary to the political and strategic imperatives, further reinforcing a right-wing perspective."
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post is highly critical of conservative ideology and actions, using terms like 'ruin camaraderie,' 'narrow minded ideology,' and 'ruin it so their ideological perspective prevails.' The author also refers to social security, a traditionally progressive issue, and criticizes conservatives for wanting to undermine it. The language and tone suggest a strong left-leaning perspective, particularly in the context of social and economic policies.\"\n}",
+      "explanation": "The author's post is highly critical of conservative ideology and actions, using terms like 'ruin camaraderie,' 'narrow minded ideology,' and 'ruin it so their ideological perspective prevails.' The author also refers to social security, a traditionally progressive issue, and criticizes conservatives for wanting to undermine it. The language and tone suggest a strong left-leaning perspective, particularly in the context of social and economic policies."
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a critical view of pro-Israeli and pro-war stances, which are often associated with conservative positions. The mention of 'non-zionist views' being met with shock by pro-Israeli students and the criticism of restrictions on cheerleading for war indicate a skepticism towards conservative narratives. Additionally, the author asserts that 'objective reality is more in line with a liberal viewpoint than a conservative one,' which is a clear indication of a left-leaning perspective. The overall tone and content of the post align with liberal values and critiques of conservative policies and attitudes.\"\n}",
+      "explanation": "The author's post suggests a critical view of pro-Israeli and pro-war stances, which are often associated with conservative positions. The mention of 'non-zionist views' being met with shock by pro-Israeli students and the criticism of restrictions on cheerleading for war indicate a skepticism towards conservative narratives. Additionally, the author asserts that 'objective reality is more in line with a liberal viewpoint than a conservative one,' which is a clear indication of a left-leaning perspective. The overall tone and content of the post align with liberal values and critiques of conservative policies and attitudes."
+    }
+  ]
+}

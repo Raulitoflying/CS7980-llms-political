@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "unknown": {
+      "accuracy": 25.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 15,
+      "true_negative": 5,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 25.0
+  },
+  "classifications": [
+    {
+      "author": "BalancedVoice",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not clearly align with either left or right political orientations. They acknowledge the potential benefits of increasing the minimum wage, which is often a left-leaning stance, but also express concern for businesses, which is more commonly associated with right-leaning views. The suggestion of a balanced approach and gradual increase with incentives for small businesses indicates a centrist or pragmatic perspective, making it difficult to classify as strictly left or right.\"\n}\n```",
+      "explanation": "The author's post does not clearly align with either left or right political orientations. They acknowledge the potential benefits of increasing the minimum wage, which is often a left-leaning stance, but also express concern for businesses, which is more commonly associated with right-leaning views. The suggestion of a balanced approach and gradual increase with incentives for small businesses indicates a centrist or pragmatic perspective, making it difficult to classify as strictly left or right."
+    },
+    {
+      "author": "FiscalModerate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is fiscally moderate and does not align strongly with either left or right political orientations. The author acknowledges the necessity of taxes but advocates for smarter spending rather than simply raising taxes, which could be interpreted as a balanced approach. There is no clear indication of support for traditional left-wing policies such as wealth redistribution or extensive government intervention, nor is there a strong emphasis on right-wing policies such as minimal government spending and low taxation. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's statement is fiscally moderate and does not align strongly with either left or right political orientations. The author acknowledges the necessity of taxes but advocates for smarter spending rather than simply raising taxes, which could be interpreted as a balanced approach. There is no clear indication of support for traditional left-wing policies such as wealth redistribution or extensive government intervention, nor is there a strong emphasis on right-wing policies such as minimal government spending and low taxation. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "ReasonableCare",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges the need for healthcare reform, which is a stance often associated with the left, but they do not explicitly endorse a single-payer system, which is a more specific left-wing policy. Instead, they suggest expanding current programs, which could be interpreted as a more moderate or centrist approach. Without more context, it is difficult to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author acknowledges the need for healthcare reform, which is a stance often associated with the left, but they do not explicitly endorse a single-payer system, which is a more specific left-wing policy. Instead, they suggest expanding current programs, which could be interpreted as a more moderate or centrist approach. Without more context, it is difficult to definitively classify the author's political orientation."
+    },
+    {
+      "author": "ModerateGreen",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern for both climate action and economic stability, which are values that can be found across the political spectrum. The mention of 'practical steps' and avoiding 'devastation' of the economy suggests a cautious approach, but it does not provide enough specific information to definitively classify the author as either Left or Right. The use of the term 'Moderate' in the username also suggests a centrist or middle-ground perspective, further supporting the 'UNKNOWN' classification.\"\n}\n```",
+      "explanation": "The author expresses concern for both climate action and economic stability, which are values that can be found across the political spectrum. The mention of 'practical steps' and avoiding 'devastation' of the economy suggests a cautious approach, but it does not provide enough specific information to definitively classify the author as either Left or Right. The use of the term 'Moderate' in the username also suggests a centrist or middle-ground perspective, further supporting the 'UNKNOWN' classification."
+    },
+    {
+      "author": "CenterPath",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a moderate stance on gun control, suggesting stricter background checks but not outright bans, and advocate for finding common ground. This could align with various political views, making it difficult to pinpoint a specific orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a moderate stance on gun control, suggesting stricter background checks but not outright bans, and advocate for finding common ground. This could align with various political views, making it difficult to pinpoint a specific orientation."
+    },
+    {
+      "author": "ModerateRight",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on 'secure borders' and the use of the phrase 'harsh restrictions' suggests a right-leaning stance. However, the author also acknowledges the economic benefits of immigration and suggests 'better management' rather than strict policies, which indicates a more moderate position within the right spectrum. The overall tone and focus on border security lean towards a right political orientation.\"\n}\n```",
+      "explanation": "The author's emphasis on 'secure borders' and the use of the phrase 'harsh restrictions' suggests a right-leaning stance. However, the author also acknowledges the economic benefits of immigration and suggests 'better management' rather than strict policies, which indicates a more moderate position within the right spectrum. The overall tone and focus on border security lean towards a right political orientation."
+    },
+    {
+      "author": "ParentChoice",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for a voucher system, which allows parents to choose private or charter schools using public funds, is a policy often advocated by those on the right. This stance suggests a preference for market-based solutions and school choice, which are typically aligned with conservative or right-wing political views. The emphasis on parental choice and the potential for a voucher system to help families in failing districts indicates a leaning towards reducing the role of traditional public education, which is more commonly associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's support for a voucher system, which allows parents to choose private or charter schools using public funds, is a policy often advocated by those on the right. This stance suggests a preference for market-based solutions and school choice, which are typically aligned with conservative or right-wing political views. The emphasis on parental choice and the potential for a voucher system to help families in failing districts indicates a leaning towards reducing the role of traditional public education, which is more commonly associated with right-wing politics."
+    },
+    {
+      "author": "PragmaticEd",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the importance of funding education, which is a stance often associated with left-leaning politics. However, the emphasis on oversight and accountability suggests a pragmatic approach that could be found in various political orientations. Without more context, it's difficult to definitively classify the author's political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post discusses the importance of funding education, which is a stance often associated with left-leaning politics. However, the emphasis on oversight and accountability suggests a pragmatic approach that could be found in various political orientations. Without more context, it's difficult to definitively classify the author's political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "FiscalSense",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on reducing long-term dependency on welfare and focusing on job training aligns more with right-leaning political views. These views often prioritize personal responsibility and reducing government spending on social welfare programs. The phrase 'safety net' suggests a limited role for government intervention, which is a common stance among right-leaning individuals.\"\n}",
+      "explanation": "The author's emphasis on reducing long-term dependency on welfare and focusing on job training aligns more with right-leaning political views. These views often prioritize personal responsibility and reducing government spending on social welfare programs. The phrase 'safety net' suggests a limited role for government intervention, which is a common stance among right-leaning individuals."
+    },
+    {
+      "author": "CityModerate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the importance of investing in public transport in big cities, which could be seen as a left-leaning stance due to the emphasis on public infrastructure. However, the author also acknowledges the different needs of rural areas, suggesting a more nuanced or moderate approach. The lack of explicit mention of broader political issues or ideologies makes it difficult to definitively classify the author's political orientation as either left or right. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The post discusses the importance of investing in public transport in big cities, which could be seen as a left-leaning stance due to the emphasis on public infrastructure. However, the author also acknowledges the different needs of rural areas, suggesting a more nuanced or moderate approach. The lack of explicit mention of broader political issues or ideologies makes it difficult to definitively classify the author's political orientation as either left or right. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "ModerateDefense",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post focuses on fiscal responsibility and efficiency in government spending, particularly in the context of national defense. While this could be interpreted as a fiscally conservative stance, it does not provide enough information to definitively classify the author as left or right. The emphasis on reducing wasteful spending is a common theme across various political orientations, and without additional context or statements on social issues, economic policy, or other key political topics, it is difficult to determine the author's overall political orientation.\"\n}\n```",
+      "explanation": "The author's post focuses on fiscal responsibility and efficiency in government spending, particularly in the context of national defense. While this could be interpreted as a fiscally conservative stance, it does not provide enough information to definitively classify the author as left or right. The emphasis on reducing wasteful spending is a common theme across various political orientations, and without additional context or statements on social issues, economic policy, or other key political topics, it is difficult to determine the author's overall political orientation."
+    },
+    {
+      "author": "BalancedEd",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges that college debt is a significant issue, which is a stance often associated with left-leaning politics. However, they also express skepticism about the feasibility of totally free college, suggesting a more moderate or pragmatic approach with free community colleges. This balanced view does not clearly align with either left or right political orientations, hence the classification as UNKNOWN.\"\n}\n```",
+      "explanation": "The author acknowledges that college debt is a significant issue, which is a stance often associated with left-leaning politics. However, they also express skepticism about the feasibility of totally free college, suggesting a more moderate or pragmatic approach with free community colleges. This balanced view does not clearly align with either left or right political orientations, hence the classification as UNKNOWN."
+    },
+    {
+      "author": "RightModerate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges the importance of renewables but advocates for a gradual transition, suggesting a more conservative approach to environmental policy. This stance is often associated with right-leaning political views, which tend to prioritize economic stability and gradual change over rapid, potentially disruptive shifts.\"\n}\n```",
+      "explanation": "The author acknowledges the importance of renewables but advocates for a gradual transition, suggesting a more conservative approach to environmental policy. This stance is often associated with right-leaning political views, which tend to prioritize economic stability and gradual change over rapid, potentially disruptive shifts."
+    },
+    {
+      "author": "FairCare",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a concern for lowering healthcare costs, which is a common stance across the political spectrum. However, they also express skepticism towards government-run systems, which is typically associated with a right-leaning stance. However, they also suggest regulating prices, which is more commonly associated with a left-leaning stance. The combination of these views makes it difficult to definitively classify the author's political orientation, hence the classification is UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a concern for lowering healthcare costs, which is a common stance across the political spectrum. However, they also express skepticism towards government-run systems, which is typically associated with a right-leaning stance. However, they also suggest regulating prices, which is more commonly associated with a left-leaning stance. The combination of these views makes it difficult to definitively classify the author's political orientation, hence the classification is UNKNOWN."
+    },
+    {
+      "author": "ModerateJustice",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the need for balanced criminal justice reform, acknowledging both the drawbacks of a tough-on-crime approach and the reality of rising crime rates. This stance does not clearly align with either left or right political orientations, as it calls for a balanced approach without advocating for specific policies that are typically associated with either side. Therefore, the political orientation of the author is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post discusses the need for balanced criminal justice reform, acknowledging both the drawbacks of a tough-on-crime approach and the reality of rising crime rates. This stance does not clearly align with either left or right political orientations, as it calls for a balanced approach without advocating for specific policies that are typically associated with either side. Therefore, the political orientation of the author is classified as UNKNOWN."
+    },
+    {
+      "author": "LaborCenter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post mentions 'Unions protect workers,' which is a stance typically associated with the left, as unions are often supported by left-leaning political groups. However, the author also acknowledges that unions can sometimes go too far, suggesting a nuanced view. The call for a 'healthy balance between employer flexibility and worker rights' indicates a left-leaning perspective, as it prioritizes worker rights while also considering employer needs, which is a common stance among left-leaning individuals who advocate for worker protections but also recognize the need for economic pragmatism.\"\n}\n```",
+      "explanation": "The author's post mentions 'Unions protect workers,' which is a stance typically associated with the left, as unions are often supported by left-leaning political groups. However, the author also acknowledges that unions can sometimes go too far, suggesting a nuanced view. The call for a 'healthy balance between employer flexibility and worker rights' indicates a left-leaning perspective, as it prioritizes worker rights while also considering employer needs, which is a common stance among left-leaning individuals who advocate for worker protections but also recognize the need for economic pragmatism."
+    },
+    {
+      "author": "ModerateTech",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They advocate for accountability in Big Tech, which could be seen as a left-leaning stance, but also express concern about heavy regulations stifling innovation, which could be seen as a right-leaning stance. The suggestion of 'targeted regulations' instead of 'blanket rules' indicates a more moderate or pragmatic approach, which does not clearly align with either left or right political orientations. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They advocate for accountability in Big Tech, which could be seen as a left-leaning stance, but also express concern about heavy regulations stifling innovation, which could be seen as a right-leaning stance. The suggestion of 'targeted regulations' instead of 'blanket rules' indicates a more moderate or pragmatic approach, which does not clearly align with either left or right political orientations. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "CentristBuild",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post focuses on the need for infrastructure upgrades and the importance of transparency in funding, but does not provide any specific political leanings. The mention of avoiding 'political pork' could be interpreted as a criticism of both major political parties, but it does not align with any specific political ideology. Therefore, the author's political orientation cannot be determined from this post alone.\"\n}\n```",
+      "explanation": "The author's post focuses on the need for infrastructure upgrades and the importance of transparency in funding, but does not provide any specific political leanings. The mention of avoiding 'political pork' could be interpreted as a criticism of both major political parties, but it does not align with any specific political ideology. Therefore, the author's political orientation cannot be determined from this post alone."
+    },
+    {
+      "author": "TradeBalance",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the importance of free trade while also advocating for the protection of American jobs. The suggestion of 'fair trade policies' instead of 'extreme tariffs' indicates a balanced approach that could be interpreted from various political perspectives. The post does not explicitly align with either left or right-wing ideologies, making it difficult to classify the author's political orientation based on this content alone.\"\n}\n```",
+      "explanation": "The author's post discusses the importance of free trade while also advocating for the protection of American jobs. The suggestion of 'fair trade policies' instead of 'extreme tariffs' indicates a balanced approach that could be interpreted from various political perspectives. The post does not explicitly align with either left or right-wing ideologies, making it difficult to classify the author's political orientation based on this content alone."
+    },
+    {
+      "author": "FiscalBalance",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by FiscalBalance emphasizes the need for government investment in key areas and funding social programs, which could be seen as leaning towards a left political stance. However, the post also stresses the importance of controlling spending and reducing debt, which are typically associated with a right political stance. The balanced approach makes it difficult to definitively classify the author's political orientation as either left or right, hence the classification is UNKNOWN.\"\n}\n```",
+      "explanation": "The post by FiscalBalance emphasizes the need for government investment in key areas and funding social programs, which could be seen as leaning towards a left political stance. However, the post also stresses the importance of controlling spending and reducing debt, which are typically associated with a right political stance. The balanced approach makes it difficult to definitively classify the author's political orientation as either left or right, hence the classification is UNKNOWN."
+    }
+  ]
+}

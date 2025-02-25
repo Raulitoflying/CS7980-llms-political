@@ -1,0 +1,100 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's political orientation can be classified as RIGHT based on the content of the post. The post expresses a strong opposition to restrictions on personal freedoms, specifically the right to choose which breed of dog one can own. This aligns with a right-wing stance that typically emphasizes individual liberties and minimal government intervention. Additionally, the author uses confrontational and derogatory language, which is often characteristic of right-wing discourse when challenging what they perceive as overreach or misinformation from the left. The post also criticizes the use of outdated data and dismisses a purported story about children being attacked, suggesting a skepticism towards emotional or anecdotal arguments that are sometimes associated with more left-leaning positions. The author's defense of pit bulls and their loyalty to humans, while attacking the idea that they are inherently dangerous to people, further indicates a tendency to challenge perceived liberal narratives about safety and regulation.\"\n}",
+      "explanation": "The author's political orientation can be classified as RIGHT based on the content of the post. The post expresses a strong opposition to restrictions on personal freedoms, specifically the right to choose which breed of dog one can own. This aligns with a right-wing stance that typically emphasizes individual liberties and minimal government intervention. Additionally, the author uses confrontational and derogatory language, which is often characteristic of right-wing discourse when challenging what they perceive as overreach or misinformation from the left. The post also criticizes the use of outdated data and dismisses a purported story about children being attacked, suggesting a skepticism towards emotional or anecdotal arguments that are sometimes associated with more left-leaning positions. The author's defense of pit bulls and their loyalty to humans, while attacking the idea that they are inherently dangerous to people, further indicates a tendency to challenge perceived liberal narratives about safety and regulation."
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by Watermark does not provide enough context or political content to determine a specific political orientation. The author is questioning the spelling of 'prooved' and the validity of majority belief, but these points do not align with specific political ideologies. The discussion appears to be more about language and critical thinking rather than political stance.\"\n}",
+      "explanation": "The post by Watermark does not provide enough context or political content to determine a specific political orientation. The author is questioning the spelling of 'prooved' and the validity of majority belief, but these points do not align with specific political ideologies. The discussion appears to be more about language and critical thinking rather than political stance."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content is too brief and lacks context to definitively classify the author's political orientation. While the criticism of Woodrow Wilson, a progressive president, might suggest a right-leaning stance, the statement about Israel's existence being tied to Wilson is historically inaccurate and does not provide enough information to determine the author's broader political views. Wilson played a role in the League of Nations and the Balfour Declaration, which supported the establishment of a Jewish homeland, but he is not solely responsible for the creation of Israel. The post could be expressing a variety of sentiments, including anti-Zionism, historical revisionism, or a general dislike for Wilson, none of which are exclusively associated with a particular political orientation.\"\n}",
+      "explanation": "The post content is too brief and lacks context to definitively classify the author's political orientation. While the criticism of Woodrow Wilson, a progressive president, might suggest a right-leaning stance, the statement about Israel's existence being tied to Wilson is historically inaccurate and does not provide enough information to determine the author's broader political views. Wilson played a role in the League of Nations and the Balfour Declaration, which supported the establishment of a Jewish homeland, but he is not solely responsible for the creation of Israel. The post could be expressing a variety of sentiments, including anti-Zionism, historical revisionism, or a general dislike for Wilson, none of which are exclusively associated with a particular political orientation."
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post content suggests a strong defense of democratic principles and a criticism of those who ignore facts or belittle fact-bearers. This aligns more closely with left-leaning values, which often emphasize the importance of factual information, transparency, and the integrity of democratic processes. The author's tone and the sentiment of not 'ruining democracy' and acknowledging that 'You are losing' indicate a stance that is critical of right-wing positions, which are sometimes perceived as being less concerned with these aspects. Therefore, the author's political orientation is classified as LEFT.\"\n}",
+      "explanation": "The post content suggests a strong defense of democratic principles and a criticism of those who ignore facts or belittle fact-bearers. This aligns more closely with left-leaning values, which often emphasize the importance of factual information, transparency, and the integrity of democratic processes. The author's tone and the sentiment of not 'ruining democracy' and acknowledging that 'You are losing' indicate a stance that is critical of right-wing positions, which are sometimes perceived as being less concerned with these aspects. Therefore, the author's political orientation is classified as LEFT."
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, Agnosticus_Caesar, seems to be skeptical of the idea that school vouchers would effectively support a transition from public to private schools in inner cities. They point out that areas without private schools tend to have excellent public schools, which are often located in wealthier and rural areas. This suggests a belief that public schools can be effective and that the issues in inner-city schools might not be easily solved by simply redirecting funds to private schools. The skepticism towards the voucher system and the emphasis on the quality of public schools in certain areas align more with a left-leaning perspective, which typically supports public education and is wary of privatization efforts that might divert resources from underfunded public schools.\"\n}",
+      "explanation": "The author, Agnosticus_Caesar, seems to be skeptical of the idea that school vouchers would effectively support a transition from public to private schools in inner cities. They point out that areas without private schools tend to have excellent public schools, which are often located in wealthier and rural areas. This suggests a belief that public schools can be effective and that the issues in inner-city schools might not be easily solved by simply redirecting funds to private schools. The skepticism towards the voucher system and the emphasis on the quality of public schools in certain areas align more with a left-leaning perspective, which typically supports public education and is wary of privatization efforts that might divert resources from underfunded public schools."
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a concern about the intrusion of religion in public schools, which is a common stance among those on the left who advocate for the separation of church and state. The author also supports the idea of parents having the choice to pick a school, which could be seen as a nod to individual freedom, but the primary focus is on the issue of public funding and the potential for religious indoctrination in public institutions. This aligns more closely with left-leaning views that prioritize secularism in public education and the use of public funds.\"\n}",
+      "explanation": "The author expresses a concern about the intrusion of religion in public schools, which is a common stance among those on the left who advocate for the separation of church and state. The author also supports the idea of parents having the choice to pick a school, which could be seen as a nod to individual freedom, but the primary focus is on the issue of public funding and the potential for religious indoctrination in public institutions. This aligns more closely with left-leaning views that prioritize secularism in public education and the use of public funds."
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by DrWho criticizes President Bush's handling of the situation in Iraq, suggesting a lack of understanding or competence. The author also highlights the fear among Mosul residents regarding the election, which implies skepticism about the effectiveness and legitimacy of the U.S. presence and actions in Iraq. These points of view are typically associated with a left-leaning political stance, which often includes criticism of U.S. military interventions and skepticism about the motives and capabilities of conservative leadership in foreign policy.\"\n}",
+      "explanation": "The post by DrWho criticizes President Bush's handling of the situation in Iraq, suggesting a lack of understanding or competence. The author also highlights the fear among Mosul residents regarding the election, which implies skepticism about the effectiveness and legitimacy of the U.S. presence and actions in Iraq. These points of view are typically associated with a left-leaning political stance, which often includes criticism of U.S. military interventions and skepticism about the motives and capabilities of conservative leadership in foreign policy."
+    },
+    {
+      "author": "Teddi",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by Teddi reflects a strong stance in favor of military intervention to defend Taiwan and a push for democratization in China and India. These views align with a right-wing political orientation, which often emphasizes national security, a proactive foreign policy, and the promotion of democratic values globally. The author also suggests that waiting or ignoring the situation would make the West appear weak, which is a common right-wing critique of more passive or diplomatic approaches to international conflicts. Additionally, the emphasis on the 'truest way to a \"free world\"' through democratization indicates a belief in the superiority of democratic systems, a sentiment often associated with right-wing ideologies, particularly in the context of promoting Western values abroad.\"\n}",
+      "explanation": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by Teddi reflects a strong stance in favor of military intervention to defend Taiwan and a push for democratization in China and India. These views align with a right-wing political orientation, which often emphasizes national security, a proactive foreign policy, and the promotion of democratic values globally. The author also suggests that waiting or ignoring the situation would make the West appear weak, which is a common right-wing critique of more passive or diplomatic approaches to international conflicts. Additionally, the emphasis on the 'truest way to a \"free world\"' through democratization indicates a belief in the superiority of democratic systems, a sentiment often associated with right-wing ideologies, particularly in the context of promoting Western values abroad.\"\n}"
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post content is highly critical of conservative ideology, using terms like 'narrow minded' and 'ruin camaraderie and good debate.' The author also mentions 'ruining' Social Security, which is a program often defended by left-leaning individuals and criticized by some conservatives who advocate for privatization or reform. The phrase 'cheap labor conservatives' suggests a negative view of conservative economic policies, which are often seen as favorable to business interests at the expense of labor rights. The overall tone and content of the post indicate a left-leaning political orientation.\"\n}",
+      "explanation": "The post content is highly critical of conservative ideology, using terms like 'narrow minded' and 'ruin camaraderie and good debate.' The author also mentions 'ruining' Social Security, which is a program often defended by left-leaning individuals and criticized by some conservatives who advocate for privatization or reform. The phrase 'cheap labor conservatives' suggests a negative view of conservative economic policies, which are often seen as favorable to business interests at the expense of labor rights. The overall tone and content of the post indicate a left-leaning political orientation."
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post indicates a liberal viewpoint by criticizing what they perceive as conservative overreactions to non-zionist views and limitations on cheerleading for war. The author also suggests that 'objective reality' aligns more with a liberal perspective, which is a common stance among those on the left who often argue that their views are more aligned with factual evidence and progressive values.\"\n}",
+      "explanation": "The author's post indicates a liberal viewpoint by criticizing what they perceive as conservative overreactions to non-zionist views and limitations on cheerleading for war. The author also suggests that 'objective reality' aligns more with a liberal perspective, which is a common stance among those on the left who often argue that their views are more aligned with factual evidence and progressive values."
+    }
+  ]
+}

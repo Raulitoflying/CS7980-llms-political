@@ -1,0 +1,100 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 10,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 50.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 5,
+      "true_negative": 5,
+      "false_negative": 0
+    },
+    "total_predictions": 10,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "robdawg",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses opinions on dog breeds and criticizes individuals who support breed-specific legislation, particularly targeting those who identify as Democrats. While the author uses the term \\\"yellow 'dog' dem,\\\" which historically refers to staunch Democrats, their argument focuses on individual liberty and the right to choose which dog to own. This stance doesn't neatly align with traditional left-right political divides. The author's defense of pit bulls and criticism of breed-specific legislation could be interpreted as libertarian or individualistic, but without further context, it's difficult to definitively classify their political orientation. The post lacks clear indicators of broader political views or affiliations beyond this specific issue.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses opinions on dog breeds and criticizes individuals who support breed-specific legislation, particularly targeting those who identify as Democrats. While the author uses the term \\\"yellow 'dog' dem,\\\" which historically refers to staunch Democrats, their argument focuses on individual liberty and the right to choose which dog to own. This stance doesn't neatly align with traditional left-right political divides. The author's defense of pit bulls and criticism of breed-specific legislation could be interpreted as libertarian or individualistic, but without further context, it's difficult to definitively classify their political orientation. The post lacks clear indicators of broader political views or affiliations beyond this specific issue.\"\n}\n```"
+    },
+    {
+      "author": "Watermark",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is about spelling and grammar, specifically the spelling of \\\"proved\\\" vs. \\\"prooved.\\\" There is absolutely no political content or indication of the author's political beliefs. Therefore, it's impossible to classify their political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is about spelling and grammar, specifically the spelling of \\\"proved\\\" vs. \\\"prooved.\\\" There is absolutely no political content or indication of the author's political beliefs. Therefore, it's impossible to classify their political orientation.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement, \\\"If it wasn't for that Bastard Woodrow Wilson there would be no Israel,\\\" suggests a negative view of Woodrow Wilson and, potentially, a critique of the historical circumstances surrounding the establishment of Israel. While the statement itself doesn't explicitly align with a specific political ideology, the common criticisms of Wilson often come from right-leaning perspectives due to his progressive policies and the creation of institutions like the Federal Reserve. The use of the term \\\"Bastard\\\" also indicates a strong negative sentiment, which is more commonly associated with strong opinions found on the right.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement, \\\"If it wasn't for that Bastard Woodrow Wilson there would be no Israel,\\\" suggests a negative view of Woodrow Wilson and, potentially, a critique of the historical circumstances surrounding the establishment of Israel. While the statement itself doesn't explicitly align with a specific political ideology, the common criticisms of Wilson often come from right-leaning perspectives due to his progressive policies and the creation of institutions like the Federal Reserve. The use of the term \\\"Bastard\\\" also indicates a strong negative sentiment, which is more commonly associated with strong opinions found on the right.\"\n}\n```"
+    },
+    {
+      "author": "deshrubinator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses frustration with a perceived disregard for facts and belittling of those who present them, and claims that 'you' are losing. This is insufficient to determine a specific political orientation. While the sentiment could align with either left-leaning or right-leaning perspectives depending on the context of the discussion and who 'you' refers to, without further information, it's impossible to classify the author's political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses frustration with a perceived disregard for facts and belittling of those who present them, and claims that 'you' are losing. This is insufficient to determine a specific political orientation. While the sentiment could align with either left-leaning or right-leaning perspectives depending on the context of the discussion and who 'you' refers to, without further information, it's impossible to classify the author's political orientation.\"\n}\n```"
+    },
+    {
+      "author": "Agnosticus_Caesar",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the potential negative impact of school vouchers on public schools, particularly in \\\"really bad inner cities.\\\" This concern aligns with a common left-leaning perspective that prioritizes equitable funding and support for public education, especially in underserved communities. The author's skepticism about the viability of private schools in these areas further suggests a belief in the importance of a strong public school system as a public good.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the potential negative impact of school vouchers on public schools, particularly in \\\"really bad inner cities.\\\" This concern aligns with a common left-leaning perspective that prioritizes equitable funding and support for public education, especially in underserved communities. The author's skepticism about the viability of private schools in these areas further suggests a belief in the importance of a strong public school system as a public good.\"\n}\n```"
+    },
+    {
+      "author": "IHateGovernment",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the separation of church and state in public schools and suggests school choice as a potential solution. This position doesn't definitively align with either the left or the right. While concerns about the separation of church and state are often associated with the left, support for school choice is more commonly associated with the right. Without further information, it's impossible to accurately classify the author's political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the separation of church and state in public schools and suggests school choice as a potential solution. This position doesn't definitively align with either the left or the right. While concerns about the separation of church and state are often associated with the left, support for school choice is more commonly associated with the right. Without further information, it's impossible to accurately classify the author's political orientation.\"\n}\n```"
+    },
+    {
+      "author": "DrWho",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's criticism of President Bush's handling of the situation in Iraq, specifically stating \\\"I still don't think Bush knows what he is dealing with in the slightest,\\\" suggests a left-leaning political orientation. This is because criticism of the Iraq War and the Bush administration's foreign policy was a common stance among those on the left.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's criticism of President Bush's handling of the situation in Iraq, specifically stating \\\"I still don't think Bush knows what he is dealing with in the slightest,\\\" suggests a left-leaning political orientation. This is because criticism of the Iraq War and the Bush administration's foreign policy was a common stance among those on the left.\"\n}\n```"
+    },
+    {
+      "author": "Teddi",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author expresses support for defending Taiwan and democratizing China, these positions do not definitively align with either the left or right. Support for Taiwan's defense can be found across the political spectrum. Advocating for democracy in China could be interpreted as a liberal value, but also aligns with some neoconservative foreign policy perspectives. The post lacks sufficient information to confidently classify the author's political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author expresses support for defending Taiwan and democratizing China, these positions do not definitively align with either the left or right. Support for Taiwan's defense can be found across the political spectrum. Advocating for democracy in China could be interpreted as a liberal value, but also aligns with some neoconservative foreign policy perspectives. The post lacks sufficient information to confidently classify the author's political orientation.\"\n}\n```"
+    },
+    {
+      "author": "midcan5",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong negative opinions about conservatives and their ideology. They accuse conservatives of ruining camaraderie and debate, being narrow-minded, and deliberately undermining Social Security for ideological reasons. The phrase \\\"cheap labor conservatives\\\" is also a common derogatory term used by those on the left to criticize conservative economic policies. These sentiments and accusations are indicative of a left-leaning political orientation.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses strong negative opinions about conservatives and their ideology. They accuse conservatives of ruining camaraderie and debate, being narrow-minded, and deliberately undermining Social Security for ideological reasons. The phrase \\\"cheap labor conservatives\\\" is also a common derogatory term used by those on the left to criticize conservative economic policies. These sentiments and accusations are indicative of a left-leaning political orientation.\"\n}\n```"
+    },
+    {
+      "author": "eveezy",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a left-leaning political orientation. They criticize the reaction of \\\"pro-Israeli students\\\" to \\\"non-zionist views,\\\" implying support for the latter. They also criticize the perceived suppression of anti-war sentiment, suggesting a disapproval of hawkish foreign policy often associated with conservative viewpoints. Finally, the statement that \\\"objective reality is more in line with a liberal viewpoint than a conservative one\\\" explicitly aligns the author with a liberal perspective.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a left-leaning political orientation. They criticize the reaction of \\\"pro-Israeli students\\\" to \\\"non-zionist views,\\\" implying support for the latter. They also criticize the perceived suppression of anti-war sentiment, suggesting a disapproval of hawkish foreign policy often associated with conservative viewpoints. Finally, the statement that \\\"objective reality is more in line with a liberal viewpoint than a conservative one\\\" explicitly aligns the author with a liberal perspective.\"\n}\n```"
+    }
+  ]
+}
