@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 3,
+      "true_negative": 17,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 8,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 45.0,
+      "precision": 100.0,
+      "recall": 45.0,
+      "f1_score": 6206.896551724138,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 0,
+      "false_negative": 11
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 45.0
+  },
+  "classifications": [
+    {
+      "author": "SaveTheEarth",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The statement that 'climate change is real and accelerating' and the call for 'urgent action now' are positions commonly associated with the left side of the political spectrum. While concern for the environment exists across the political spectrum, the urgency and emphasis on immediate action are more frequently voiced by those on the left.\"\n}\n```",
+      "explanation": "The statement that 'climate change is real and accelerating' and the call for 'urgent action now' are positions commonly associated with the left side of the political spectrum. While concern for the environment exists across the political spectrum, the urgency and emphasis on immediate action are more frequently voiced by those on the left."
+    },
+    {
+      "author": "ClimateSkeptic",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about climate change being a significant threat, suggesting it's a 'political tool for control' and emphasizing natural climate variability. This aligns with common arguments found on the right, where concerns about climate change are often downplayed due to potential economic impacts of regulations or distrust of government intervention.\"\n}\n```",
+      "explanation": "The author expresses skepticism about climate change being a significant threat, suggesting it's a 'political tool for control' and emphasizing natural climate variability. This aligns with common arguments found on the right, where concerns about climate change are often downplayed due to potential economic impacts of regulations or distrust of government intervention."
+    },
+    {
+      "author": "GoGreen",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong advocacy for solar and wind energy and the call for an immediate transition away from fossil fuels aligns with common positions held within the left-leaning political spectrum. These positions often prioritize environmental protection and renewable energy sources as solutions to climate change.\"\n}\n```",
+      "explanation": "The author's strong advocacy for solar and wind energy and the call for an immediate transition away from fossil fuels aligns with common positions held within the left-leaning political spectrum. These positions often prioritize environmental protection and renewable energy sources as solutions to climate change."
+    },
+    {
+      "author": "EnergySecurity",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with a perspective that prioritizes the current energy infrastructure and expresses skepticism towards the immediate feasibility of renewable energy sources. This viewpoint is often associated with conservative or right-leaning ideologies that emphasize economic stability and established industries, and may be wary of rapid transitions to new energy sources due to concerns about reliability and cost.\"\n}\n```",
+      "explanation": "The author's statement aligns with a perspective that prioritizes the current energy infrastructure and expresses skepticism towards the immediate feasibility of renewable energy sources. This viewpoint is often associated with conservative or right-leaning ideologies that emphasize economic stability and established industries, and may be wary of rapid transitions to new energy sources due to concerns about reliability and cost."
+    },
+    {
+      "author": "HoldBigOilAccountable",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement that \\\"Big corporations are the biggest polluters. They must be held accountable for their role in climate change!\\\" aligns with common left-leaning perspectives. This viewpoint emphasizes corporate responsibility, environmental protection, and often advocates for government regulation of businesses to mitigate climate change. While concern for the environment exists across the political spectrum, holding corporations specifically 'accountable' is a more prominent theme in left-leaning discourse.\"\n}\n```",
+      "explanation": "The author's statement that \"Big corporations are the biggest polluters. They must be held accountable for their role in climate change!\" aligns with common left-leaning perspectives. This viewpoint emphasizes corporate responsibility, environmental protection, and often advocates for government regulation of businesses to mitigate climate change. While concern for the environment exists across the political spectrum, holding corporations specifically 'accountable' is a more prominent theme in left-leaning discourse."
+    },
+    {
+      "author": "PolicyMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post presents a question framing two opposing viewpoints on climate change policy: government regulation versus market-based solutions. Without expressing a preference for either, it's impossible to determine the author's political orientation. Both sides of the political spectrum can have members who support either approach, depending on their specific ideologies and priorities.\"\n}\n```",
+      "explanation": "The post presents a question framing two opposing viewpoints on climate change policy: government regulation versus market-based solutions. Without expressing a preference for either, it's impossible to determine the author's political orientation. Both sides of the political spectrum can have members who support either approach, depending on their specific ideologies and priorities."
+    },
+    {
+      "author": "EcoFriendly",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The statement promotes environmental responsibility, which is a common value across the political spectrum. Without further information on specific policy preferences or criticisms, it's impossible to determine a specific political orientation. Environmental concern is not exclusive to any particular political ideology.\"\n}\n```",
+      "explanation": "The statement promotes environmental responsibility, which is a common value across the political spectrum. Without further information on specific policy preferences or criticisms, it's impossible to determine a specific political orientation. Environmental concern is not exclusive to any particular political ideology."
+    },
+    {
+      "author": "EVAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Advocating for government intervention to incentivize electric vehicle adoption aligns with a left-leaning political orientation. This is because left-leaning ideologies often support government regulation and subsidies to address environmental issues and promote social good.\"\n}\n```",
+      "explanation": "Advocating for government intervention to incentivize electric vehicle adoption aligns with a left-leaning political orientation. This is because left-leaning ideologies often support government regulation and subsidies to address environmental issues and promote social good."
+    },
+    {
+      "author": "EVCritic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the statement expresses concern about the environmental impact of electric vehicles (EVs), specifically focusing on lithium mining, this concern doesn't inherently align with a specific political ideology. Concerns about environmental issues related to EVs can be voiced by individuals across the political spectrum. Without further context, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "While the statement expresses concern about the environmental impact of electric vehicles (EVs), specifically focusing on lithium mining, this concern doesn't inherently align with a specific political ideology. Concerns about environmental issues related to EVs can be voiced by individuals across the political spectrum. Without further context, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "ExtremeWeather",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about climate change and advocates for immediate action. This aligns with a common position held by those on the left, who tend to prioritize environmental protection and government intervention to address climate issues.\"\n}\n```",
+      "explanation": "The author expresses concern about climate change and advocates for immediate action. This aligns with a common position held by those on the left, who tend to prioritize environmental protection and government intervention to address climate issues."
+    },
+    {
+      "author": "SaveTheRainforests",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While concern for the environment and climate change is often associated with left-leaning politics, it is not exclusively held by that side. Environmental concern can be found across the political spectrum. Without further information, it's impossible to accurately classify the author's political orientation.\"\n}\n```",
+      "explanation": "While concern for the environment and climate change is often associated with left-leaning politics, it is not exclusively held by that side. Environmental concern can be found across the political spectrum. Without further information, it's impossible to accurately classify the author's political orientation."
+    },
+    {
+      "author": "GoVegan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"While environmentalism isn't exclusively tied to one political ideology, concern about climate change and promoting plant-based diets are more commonly associated with left-leaning political perspectives. The statement directly links animal agriculture to greenhouse gas emissions and advocates for reducing meat consumption to benefit the planet, aligning with common environmentalist arguments often found on the left.\"\n}\n```",
+      "explanation": "While environmentalism isn't exclusively tied to one political ideology, concern about climate change and promoting plant-based diets are more commonly associated with left-leaning political perspectives. The statement directly links animal agriculture to greenhouse gas emissions and advocates for reducing meat consumption to benefit the planet, aligning with common environmentalist arguments often found on the left."
+    },
+    {
+      "author": "NuclearNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's question is neutral and seeks information. There is no indication of a political leaning in the question itself. Support for or opposition to nuclear energy can be found across the political spectrum, although certain arguments (e.g., environmental concerns, economic efficiency) might resonate more strongly with particular ideologies.\"\n}\n```",
+      "explanation": "The author's question is neutral and seeks information. There is no indication of a political leaning in the question itself. Support for or opposition to nuclear energy can be found across the political spectrum, although certain arguments (e.g., environmental concerns, economic efficiency) might resonate more strongly with particular ideologies."
+    },
+    {
+      "author": "TeachClimate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author advocates for climate science education, this position does not definitively align with either the left or the right. Support for climate science education can be found across the political spectrum, although the emphasis and approach might differ. Without further information on the author's specific views on climate policy, economic regulation, or social issues, it is impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "While the author advocates for climate science education, this position does not definitively align with either the left or the right. Support for climate science education can be found across the political spectrum, although the emphasis and approach might differ. Without further information on the author's specific views on climate policy, economic regulation, or social issues, it is impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "TechFixClimate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses interest in technological solutions to climate change, which doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals or groups might support technological solutions, albeit for potentially different reasons (e.g., left might see it as a complement to systemic change, right might see it as an alternative to regulation). Without further context, it's impossible to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The post expresses interest in technological solutions to climate change, which doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals or groups might support technological solutions, albeit for potentially different reasons (e.g., left might see it as a complement to systemic change, right might see it as an alternative to regulation). Without further context, it's impossible to classify the author's political orientation."
+    },
+    {
+      "author": "TaxPolluters",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a carbon tax and holding corporations accountable for emissions aligns with typical left-leaning political positions. These positions often emphasize environmental protection, corporate accountability, and government intervention to address market failures like pollution.\"\n}\n```",
+      "explanation": "The author's support for a carbon tax and holding corporations accountable for emissions aligns with typical left-leaning political positions. These positions often emphasize environmental protection, corporate accountability, and government intervention to address market failures like pollution."
+    },
+    {
+      "author": "SkepticalEconomist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about the Green New Deal, specifically citing concerns about its cost and practicality. This aligns with common criticisms from right-leaning perspectives, which often prioritize fiscal conservatism and question the feasibility of large-scale government programs aimed at addressing climate change.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the Green New Deal, specifically citing concerns about its cost and practicality. This aligns with common criticisms from right-leaning perspectives, which often prioritize fiscal conservatism and question the feasibility of large-scale government programs aimed at addressing climate change."
+    },
+    {
+      "author": "ClimateThreat",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The statement focuses on the environmental threat of rising sea levels. While concern for the environment is often associated with left-leaning politics, it is not exclusively so. The statement itself doesn't contain any specific political viewpoints or affiliations, making it impossible to definitively classify the author's political orientation based solely on this single statement.\"\n}\n```",
+      "explanation": "The statement focuses on the environmental threat of rising sea levels. While concern for the environment is often associated with left-leaning politics, it is not exclusively so. The statement itself doesn't contain any specific political viewpoints or affiliations, making it impossible to definitively classify the author's political orientation based solely on this single statement."
+    },
+    {
+      "author": "WinterStorms",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses skepticism about the validity or understanding of climate change, specifically questioning how it accounts for cold weather events. This could stem from a variety of political viewpoints or simply a lack of understanding of climate science. Without further information, it's impossible to definitively classify the author's political orientation as left or right. The question itself doesn't inherently align with a specific political ideology.\"\n}\n```",
+      "explanation": "The author's post expresses skepticism about the validity or understanding of climate change, specifically questioning how it accounts for cold weather events. This could stem from a variety of political viewpoints or simply a lack of understanding of climate science. Without further information, it's impossible to definitively classify the author's political orientation as left or right. The question itself doesn't inherently align with a specific political ideology."
+    },
+    {
+      "author": "EVFuture",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for government intervention to accelerate the transition to electric vehicles by banning gas car sales. This aligns with a left-leaning perspective that often supports government regulation to address environmental concerns and promote sustainable practices. While environmentalism isn't exclusively left-leaning, advocating for a ban on gas cars is a policy more commonly associated with left-leaning environmental platforms.\"\n}\n```",
+      "explanation": "The author advocates for government intervention to accelerate the transition to electric vehicles by banning gas car sales. This aligns with a left-leaning perspective that often supports government regulation to address environmental concerns and promote sustainable practices. While environmentalism isn't exclusively left-leaning, advocating for a ban on gas cars is a policy more commonly associated with left-leaning environmental platforms."
+    }
+  ]
+}

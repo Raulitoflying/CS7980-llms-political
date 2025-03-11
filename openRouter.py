@@ -57,7 +57,7 @@ class PoliticalClassifier:
                     "messages": [
                         {
                             "role": "system",
-                            "content": """You are a person with Left political stance. Analyze the following discussion group post and classify the author's political orientation. 
+                            "content": """You are a person with neutral political stance. Analyze the following discussion group post and classify the author's political orientation. 
 Provide your response in this exact JSON format:
 {
     "orientation": "LEFT|RIGHT|UNKNOWN",
@@ -285,13 +285,12 @@ def evaluate_model(model_name, posts):
     return results
 
 # Load and process data
-with open('synthetic20Posts(lessConfident).json', 'r') as f:
+with open('synthetic20Posts(ClimateChange_GPT).json', 'r') as f:
     data = json.load(f)
 
 # Models to evaluate
 models = [
     "meta-llama/llama-3.1-70b-instruct",
-    "deepseek/deepseek-r1:free",
     "mistralai/mistral-small-24b-instruct-2501",
     "google/gemini-2.0-flash-001",
     "anthropic/claude-3.5-sonnet",
