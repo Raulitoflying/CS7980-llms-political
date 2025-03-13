@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 33.33333333333333,
+      "f1_score": 5000.0,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 14,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 83.33333333333334,
+      "recall": 62.5,
+      "f1_score": 7142.857142857143,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 70.0,
+      "precision": 50.0,
+      "recall": 100.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 6,
+      "false_positive": 6,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "StandWithUkraine",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While support for Ukraine against Russian aggression has generally been a bipartisan position in many Western countries, with both left and right-wing politicians backing Ukraine's sovereignty, this statement alone doesn't provide enough context to determine the author's broader political orientation. The sentiment could come from someone on either the political left (supporting international cooperation and opposing authoritarian aggression) or the political right (supporting national sovereignty and opposing Russian expansion). Without additional context about their views on other issues, we cannot reliably classify their overall political orientation.\"\n}",
+      "explanation": "While support for Ukraine against Russian aggression has generally been a bipartisan position in many Western countries, with both left and right-wing politicians backing Ukraine's sovereignty, this statement alone doesn't provide enough context to determine the author's broader political orientation. The sentiment could come from someone on either the political left (supporting international cooperation and opposing authoritarian aggression) or the political right (supporting national sovereignty and opposing Russian expansion). Without additional context about their views on other issues, we cannot reliably classify their overall political orientation."
+    },
+    {
+      "author": "RussiaFirst",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects a left-leaning perspective because it adopts an anti-Western/anti-NATO stance and promotes Russian state narratives about NATO expansion being responsible for the conflict. While some far-right groups also support Russia, the specific framing around NATO as an aggressor and blaming the West for provoking conflict is more commonly associated with left-wing anti-imperialism and opposition to Western military alliances. The username 'RussiaFirst' combined with this narrative suggests alignment with left-wing critiques of Western foreign policy and military interventionism.\"\n}",
+      "explanation": "This post reflects a left-leaning perspective because it adopts an anti-Western/anti-NATO stance and promotes Russian state narratives about NATO expansion being responsible for the conflict. While some far-right groups also support Russia, the specific framing around NATO as an aggressor and blaming the West for provoking conflict is more commonly associated with left-wing anti-imperialism and opposition to Western military alliances. The username 'RussiaFirst' combined with this narrative suggests alignment with left-wing critiques of Western foreign policy and military interventionism."
+    },
+    {
+      "author": "MoreWeapons",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post alone does not provide enough clear ideological indicators to determine political orientation. Support for Ukraine and military aid has broad bipartisan backing in the U.S., with both Democrats and Republicans advocating for weapons assistance. While some far-right figures oppose Ukraine aid, and some on the left criticize military spending in general, the mainstream of both parties has supported arming Ukraine. Without additional context about the author's other views or reasoning, we cannot reliably classify their political orientation from this statement alone.\"\n}",
+      "explanation": "This post alone does not provide enough clear ideological indicators to determine political orientation. Support for Ukraine and military aid has broad bipartisan backing in the U.S., with both Democrats and Republicans advocating for weapons assistance. While some far-right figures oppose Ukraine aid, and some on the left criticize military spending in general, the mainstream of both parties has supported arming Ukraine. Without additional context about the author's other views or reasoning, we cannot reliably classify their political orientation from this statement alone."
+    },
+    {
+      "author": "NATOdebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post appears to be a neutral question seeking discussion about NATO expansion policy. The author simply poses an open-ended question presenting both sides of the debate (NATO's right to expand vs. Russian concerns) without revealing their own stance. The phrasing is balanced and academic in nature, avoiding loaded language or clear bias toward either perspective. Without additional context or opinion from the author, their political orientation cannot be reliably determined from this post alone.\"\n}",
+      "explanation": "This post appears to be a neutral question seeking discussion about NATO expansion policy. The author simply poses an open-ended question presenting both sides of the debate (NATO's right to expand vs. Russian concerns) without revealing their own stance. The phrasing is balanced and academic in nature, avoiding loaded language or clear bias toward either perspective. Without additional context or opinion from the author, their political orientation cannot be reliably determined from this post alone."
+    },
+    {
+      "author": "SanctionsWork",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post suggests a left-leaning orientation because: 1) It strongly supports Western sanctions against Russia, which is a position more commonly held by those on the left who favor international institutional pressure and multilateral action over military intervention, 2) The exclamation point and forceful tone about maintaining sanctions until withdrawal indicates strong support for using economic pressure to achieve diplomatic goals, which aligns with liberal internationalist views, 3) The username 'SanctionsWork' suggests a belief in the effectiveness of diplomatic/economic tools over military ones, which is typically associated with left-leaning foreign policy approaches. However, it's worth noting that opposition to Russia's actions has some bipartisan support, but the specific focus on sanctions as the solution is more characteristic of left-leaning views.\"\n}",
+      "explanation": "This post suggests a left-leaning orientation because: 1) It strongly supports Western sanctions against Russia, which is a position more commonly held by those on the left who favor international institutional pressure and multilateral action over military intervention, 2) The exclamation point and forceful tone about maintaining sanctions until withdrawal indicates strong support for using economic pressure to achieve diplomatic goals, which aligns with liberal internationalist views, 3) The username 'SanctionsWork' suggests a belief in the effectiveness of diplomatic/economic tools over military ones, which is typically associated with left-leaning foreign policy approaches. However, it's worth noting that opposition to Russia's actions has some bipartisan support, but the specific focus on sanctions as the solution is more characteristic of left-leaning views."
+    },
+    {
+      "author": "DiplomacyFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post contains a neutral question about diplomatic solutions to an unspecified war without revealing any partisan stance or ideological bias. The author's username 'DiplomacyFirst' and their focus on diplomatic resolution could suggest a preference for peaceful solutions, but this alone doesn't indicate a clear left or right political orientation. The question is phrased objectively and could be asked by someone of any political persuasion who is interested in international relations and conflict resolution.\"\n}",
+      "explanation": "This post contains a neutral question about diplomatic solutions to an unspecified war without revealing any partisan stance or ideological bias. The author's username 'DiplomacyFirst' and their focus on diplomatic resolution could suggest a preference for peaceful solutions, but this alone doesn't indicate a clear left or right political orientation. The question is phrased objectively and could be asked by someone of any political persuasion who is interested in international relations and conflict resolution."
+    },
+    {
+      "author": "JusticeForUkraine",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While this post expresses a strong position against Russia's actions in Ukraine and calls for accountability for war crimes, this sentiment crosses traditional political lines. Both left and right-wing politicians and citizens in Western countries have widely condemned Russia's actions in Ukraine and called for accountability. Support for Ukraine and opposition to Russian military aggression has broad bipartisan support in most Western nations. Without additional context about the author's views on other issues or specific policy proposals, it's not possible to definitively classify their political orientation based solely on this statement.\"\n}",
+      "explanation": "While this post expresses a strong position against Russia's actions in Ukraine and calls for accountability for war crimes, this sentiment crosses traditional political lines. Both left and right-wing politicians and citizens in Western countries have widely condemned Russia's actions in Ukraine and called for accountability. Support for Ukraine and opposition to Russian military aggression has broad bipartisan support in most Western nations. Without additional context about the author's views on other issues or specific policy proposals, it's not possible to definitively classify their political orientation based solely on this statement."
+    },
+    {
+      "author": "UkraineInEU",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post indicates a left-leaning orientation because it strongly supports EU expansion and European integration, which are typically associated with liberal/progressive positions. The enthusiasm for Ukraine joining the EU aligns with internationalist and pro-European values that are more commonly found on the political left. Right-wing positions tend to be more skeptical of EU expansion and often favor national sovereignty over European integration. The exclamatory tone supporting Ukraine's EU membership suggests alignment with the mainstream liberal position that has been prominent in Western discourse since Russia's invasion.\"\n}",
+      "explanation": "This post indicates a left-leaning orientation because it strongly supports EU expansion and European integration, which are typically associated with liberal/progressive positions. The enthusiasm for Ukraine joining the EU aligns with internationalist and pro-European values that are more commonly found on the political left. Right-wing positions tend to be more skeptical of EU expansion and often favor national sovereignty over European integration. The exclamatory tone supporting Ukraine's EU membership suggests alignment with the mainstream liberal position that has been prominent in Western discourse since Russia's invasion."
+    },
+    {
+      "author": "MilitaryAnalysis",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post contains a neutral analytical question about military strategy and logistics without revealing any partisan bias. The author is seeking factual information about Russian military operations and their effectiveness. The question is framed objectively and could be asked by someone from any political orientation who is interested in military analysis. There are no ideological markers, emotional language, or political talking points that would indicate a left or right leaning perspective.\"\n}",
+      "explanation": "This post contains a neutral analytical question about military strategy and logistics without revealing any partisan bias. The author is seeking factual information about Russian military operations and their effectiveness. The question is framed objectively and could be asked by someone from any political orientation who is interested in military analysis. There are no ideological markers, emotional language, or political talking points that would indicate a left or right leaning perspective."
+    },
+    {
+      "author": "ChinaObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is a neutral observation and question about China's geopolitical position regarding Russia. The author simply states a factual observation about China's stance and economic support of Russia, followed by an open-ended question. There are no ideological markers, emotional language, or political bias that would indicate either a left or right orientation. The username 'ChinaObserver' and content suggest someone who follows China-related news, but doesn't reveal their political leanings on the matter.\"\n}",
+      "explanation": "This post is a neutral observation and question about China's geopolitical position regarding Russia. The author simply states a factual observation about China's stance and economic support of Russia, followed by an open-ended question. There are no ideological markers, emotional language, or political bias that would indicate either a left or right orientation. The username 'ChinaObserver' and content suggest someone who follows China-related news, but doesn't reveal their political leanings on the matter."
+    },
+    {
+      "author": "UkraineWins",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses support for Ukraine's military efforts against Russian occupation, but support for Ukraine's sovereignty and territorial integrity is not exclusively associated with either left or right political orientations. Both conservative and liberal politicians/voters in Western countries have largely supported Ukraine. Without additional context about the author's views on other political issues or their reasoning for supporting Ukraine, we cannot reliably determine their overall political orientation from this statement alone.\"\n}",
+      "explanation": "This post expresses support for Ukraine's military efforts against Russian occupation, but support for Ukraine's sovereignty and territorial integrity is not exclusively associated with either left or right political orientations. Both conservative and liberal politicians/voters in Western countries have largely supported Ukraine. Without additional context about the author's views on other political issues or their reasoning for supporting Ukraine, we cannot reliably determine their overall political orientation from this statement alone."
+    },
+    {
+      "author": "TruthOverLies",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post suggests a left-leaning orientation based on several factors: 1) The author takes a strong stance against Russian state media and disinformation, which has been a particularly prominent concern among left-leaning individuals since Russia's invasion of Ukraine, 2) The use of the term 'disinformation' is more commonly associated with left-leaning discourse, 3) The call for global action against Russian propaganda ('The world must counter') aligns with the left's tendency to favor international cooperation and opposition to Russian state actions. While being anti-Russian propaganda isn't exclusively a left-wing position, the specific framing and language choices are more characteristic of left-leaning discourse.\"\n}",
+      "explanation": "This post suggests a left-leaning orientation based on several factors: 1) The author takes a strong stance against Russian state media and disinformation, which has been a particularly prominent concern among left-leaning individuals since Russia's invasion of Ukraine, 2) The use of the term 'disinformation' is more commonly associated with left-leaning discourse, 3) The call for global action against Russian propaganda ('The world must counter') aligns with the left's tendency to favor international cooperation and opposition to Russian state actions. While being anti-Russian propaganda isn't exclusively a left-wing position, the specific framing and language choices are more characteristic of left-leaning discourse."
+    },
+    {
+      "author": "NoMoreWars",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is politically ambiguous as it raises a neutral question about U.S. military aid without revealing a clear ideological stance. The username 'NoMoreWars' might suggest an anti-war position, but that sentiment crosses political lines, with both left and right having anti-interventionist factions. The question itself is framed in a balanced way, presenting two common perspectives (supporting aid vs. concerns about endless war) without favoring either. Without more context or explicit policy positions, it's impossible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "This post is politically ambiguous as it raises a neutral question about U.S. military aid without revealing a clear ideological stance. The username 'NoMoreWars' might suggest an anti-war position, but that sentiment crosses political lines, with both left and right having anti-interventionist factions. The question itself is framed in a balanced way, presenting two common perspectives (supporting aid vs. concerns about endless war) without favoring either. Without more context or explicit policy positions, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "StopNuclearThreats",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is a neutral question about geopolitical nuclear threats that doesn't reveal any clear political bias. The author is simply seeking information/opinions about Putin's nuclear rhetoric. While nuclear disarmament can sometimes be associated with left-leaning views, merely asking about nuclear threats, especially in the context of current events, is not enough to determine political orientation. The username 'StopNuclearThreats' could suggest anti-nuclear weapons sentiment, but this could align with either conservative or liberal views on international security.\"\n}",
+      "explanation": "This post is a neutral question about geopolitical nuclear threats that doesn't reveal any clear political bias. The author is simply seeking information/opinions about Putin's nuclear rhetoric. While nuclear disarmament can sometimes be associated with left-leaning views, merely asking about nuclear threats, especially in the context of current events, is not enough to determine political orientation. The username 'StopNuclearThreats' could suggest anti-nuclear weapons sentiment, but this could align with either conservative or liberal views on international security."
+    },
+    {
+      "author": "ZelenskyHero",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses strong support for Ukrainian President Volodymyr Zelensky and Ukraine's resistance against Russian invasion. While support for Ukraine has some bipartisan backing, enthusiastic pro-Zelensky sentiment (especially using terms like 'hero' in the username) tends to align more with left-leaning positions in current political discourse. Left-leaning individuals and media have generally been more vocal in their support of Zelensky's leadership and Ukraine's democratic resistance against Russian aggression. The author's unequivocal praise without any criticism or skepticism of foreign aid or involvement, which is more common in right-wing discourse, further suggests a left-leaning orientation.\"\n}",
+      "explanation": "The post expresses strong support for Ukrainian President Volodymyr Zelensky and Ukraine's resistance against Russian invasion. While support for Ukraine has some bipartisan backing, enthusiastic pro-Zelensky sentiment (especially using terms like 'hero' in the username) tends to align more with left-leaning positions in current political discourse. Left-leaning individuals and media have generally been more vocal in their support of Zelensky's leadership and Ukraine's democratic resistance against Russian aggression. The author's unequivocal praise without any criticism or skepticism of foreign aid or involvement, which is more common in right-wing discourse, further suggests a left-leaning orientation."
+    },
+    {
+      "author": "RussiaAllies",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement alone doesn't provide enough clear ideological markers to definitively classify the author's political orientation. While pro-Russia sentiment can be found on both the far-left (due to anti-Western/anti-NATO views) and the far-right (due to admiration of authoritarian leadership), this brief statement merely asserts Russia's diplomatic influence without revealing specific ideological positions. The author could be making a neutral geopolitical observation, expressing left-wing anti-Western sentiment, or showing right-wing support for Russian power projection. Additional context about their views on specific policies, values, or institutions would be needed for a more definitive classification.\"\n}",
+      "explanation": "This statement alone doesn't provide enough clear ideological markers to definitively classify the author's political orientation. While pro-Russia sentiment can be found on both the far-left (due to anti-Western/anti-NATO views) and the far-right (due to admiration of authoritarian leadership), this brief statement merely asserts Russia's diplomatic influence without revealing specific ideological positions. The author could be making a neutral geopolitical observation, expressing left-wing anti-Western sentiment, or showing right-wing support for Russian power projection. Additional context about their views on specific policies, values, or institutions would be needed for a more definitive classification."
+    },
+    {
+      "author": "MediaWatch",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits characteristics commonly associated with right-wing perspectives on the Russia-Ukraine conflict. The author employs a common right-wing talking point that questions mainstream Western media coverage and suggests bias in favor of Ukraine. The specific focus on alleged Ukrainian human rights violations, while dismissing or downplaying Russian actions, aligns with pro-Russian narratives that are more commonly found in right-wing discourse. The use of 'Western media' as a critical term and the suggestion of deliberately suppressed information reflects a common right-wing skepticism toward mainstream media institutions. This type of 'both sides' argument regarding Ukraine has been particularly prevalent among right-wing commentators since the start of the conflict.\"\n}",
+      "explanation": "This post exhibits characteristics commonly associated with right-wing perspectives on the Russia-Ukraine conflict. The author employs a common right-wing talking point that questions mainstream Western media coverage and suggests bias in favor of Ukraine. The specific focus on alleged Ukrainian human rights violations, while dismissing or downplaying Russian actions, aligns with pro-Russian narratives that are more commonly found in right-wing discourse. The use of 'Western media' as a critical term and the suggestion of deliberately suppressed information reflects a common right-wing skepticism toward mainstream media institutions. This type of 'both sides' argument regarding Ukraine has been particularly prevalent among right-wing commentators since the start of the conflict."
+    },
+    {
+      "author": "RebuildUkraine",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for international aid and collective responsibility through Western support for Ukraine's reconstruction, which typically aligns with left-leaning views favoring international cooperation and government-led rebuilding efforts. The exclamation point suggests emotional investment in collective action and humanitarian support. However, this is a relatively mild example since support for Ukraine has broad bipartisan backing, but the specific call for Western intervention and aid is more characteristic of left-leaning internationalist perspectives.\"\n}",
+      "explanation": "The post advocates for international aid and collective responsibility through Western support for Ukraine's reconstruction, which typically aligns with left-leaning views favoring international cooperation and government-led rebuilding efforts. The exclamation point suggests emotional investment in collective action and humanitarian support. However, this is a relatively mild example since support for Ukraine has broad bipartisan backing, but the specific call for Western intervention and aid is more characteristic of left-leaning internationalist perspectives."
+    },
+    {
+      "author": "EnergyDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post appears to be a neutral question about energy policy and European energy security. The author is simply asking about Europe's ability to secure alternative energy sources in response to reduced Russian gas supplies. There are no ideological markers, partisan language, or policy preferences expressed that would indicate a left or right political orientation. The question could be asked by someone of any political persuasion who is interested in geopolitics and energy markets.\"\n}",
+      "explanation": "This post appears to be a neutral question about energy policy and European energy security. The author is simply asking about Europe's ability to secure alternative energy sources in response to reduced Russian gas supplies. There are no ideological markers, partisan language, or policy preferences expressed that would indicate a left or right political orientation. The question could be asked by someone of any political persuasion who is interested in geopolitics and energy markets."
+    },
+    {
+      "author": "DraftConcerns",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post expresses strong support for Russia's military draft and frames it in nationalistic terms ('defend the homeland'), which aligns with right-wing positions. Right-wing voices have been more likely to support or justify Russia's military actions, particularly regarding the Ukraine conflict. The use of exclamation point and patriotic language ('homeland') suggests an emotional connection to nationalist sentiment, which is typically associated with right-wing ideology. The unquestioning acceptance of military conscription as 'necessary' despite acknowledging controversy also fits with traditional right-wing views on military authority and national security.\"\n}",
+      "explanation": "This post expresses strong support for Russia's military draft and frames it in nationalistic terms ('defend the homeland'), which aligns with right-wing positions. Right-wing voices have been more likely to support or justify Russia's military actions, particularly regarding the Ukraine conflict. The use of exclamation point and patriotic language ('homeland') suggests an emotional connection to nationalist sentiment, which is typically associated with right-wing ideology. The unquestioning acceptance of military conscription as 'necessary' despite acknowledging controversy also fits with traditional right-wing views on military authority and national security."
+    }
+  ]
+}

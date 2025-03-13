@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 66.66666666666666,
+      "f1_score": 8000.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 50.0,
+      "recall": 40.0,
+      "f1_score": 4444.444444444444,
+      "true_positive": 2,
+      "false_positive": 2,
+      "true_negative": 13,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 60.0,
+      "recall": 100.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 4,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "ScienceMatters",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by ScienceMatters focuses on the factual and scientific aspect of the effectiveness of COVID vaccines in preventing severe illness, citing data as evidence. This stance is generally neutral and based on scientific consensus, which does not inherently indicate a specific political orientation. While support for vaccines can sometimes align with certain political views, this post does not provide enough context or additional political commentary to classify the author's political orientation definitively.\"\n}",
+      "explanation": "The post by ScienceMatters focuses on the factual and scientific aspect of the effectiveness of COVID vaccines in preventing severe illness, citing data as evidence. This stance is generally neutral and based on scientific consensus, which does not inherently indicate a specific political orientation. While support for vaccines can sometimes align with certain political views, this post does not provide enough context or additional political commentary to classify the author's political orientation definitively."
+    },
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a strong stance against mandatory vaccinations, emphasizing personal choice and opposing what they perceive as authoritarian measures. This aligns with right-wing political values that often prioritize individual liberties and are skeptical of government mandates.\"\n}",
+      "explanation": "The author expresses a strong stance against mandatory vaccinations, emphasizing personal choice and opposing what they perceive as authoritarian measures. This aligns with right-wing political values that often prioritize individual liberties and are skeptical of government mandates."
+    },
+    {
+      "author": "LabLeakTheory",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LabLeakTheory focuses on a specific issue regarding the origin of COVID-19 and the accountability of China. While the topic can be politically charged, the content of the post does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the lack of accountability, which could be a stance taken by individuals from various political backgrounds. Without additional context or a broader range of opinions from the author, it is not possible to determine if this concern is part of a larger right-leaning or left-leaning perspective.\"\n}",
+      "explanation": "The post by LabLeakTheory focuses on a specific issue regarding the origin of COVID-19 and the accountability of China. While the topic can be politically charged, the content of the post does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the lack of accountability, which could be a stance taken by individuals from various political backgrounds. Without additional context or a broader range of opinions from the author, it is not possible to determine if this concern is part of a larger right-leaning or left-leaning perspective."
+    },
+    {
+      "author": "LongCovidSurvivor",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content focuses on a health issue, specifically advocating for more research on Long COVID, which does not inherently indicate a particular political orientation. While the call for increased research could be aligned with a progressive stance on public health and science, it is a topic that can be supported across the political spectrum. There is no explicit political language or context that would allow for a definitive classification of the author's political orientation.\"\n}",
+      "explanation": "The post content focuses on a health issue, specifically advocating for more research on Long COVID, which does not inherently indicate a particular political orientation. While the call for increased research could be aligned with a progressive stance on public health and science, it is a topic that can be supported across the political spectrum. There is no explicit political language or context that would allow for a definitive classification of the author's political orientation."
+    },
+    {
+      "author": "MaskUp",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on wearing masks as a preventive measure against the spread of COVID-19 aligns with generally left-leaning views, which tend to support public health measures and scientific guidance more strongly. The emphasis on 'basic science' suggests a trust in scientific consensus, which is often more pronounced among left-leaning individuals in the context of public health and safety.\"\n}",
+      "explanation": "The author's stance on wearing masks as a preventive measure against the spread of COVID-19 aligns with generally left-leaning views, which tend to support public health measures and scientific guidance more strongly. The emphasis on 'basic science' suggests a trust in scientific consensus, which is often more pronounced among left-leaning individuals in the context of public health and safety."
+    },
+    {
+      "author": "ReopenTheEconomy",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a strong opposition to lockdown measures, emphasizing the economic harm they caused to small businesses and livelihoods. This perspective is often associated with right-wing political views, which tend to prioritize economic freedom and criticize government interventions that restrict business operations and personal freedoms.\"\n}",
+      "explanation": "The post expresses a strong opposition to lockdown measures, emphasizing the economic harm they caused to small businesses and livelihoods. This perspective is often associated with right-wing political views, which tend to prioritize economic freedom and criticize government interventions that restrict business operations and personal freedoms."
+    },
+    {
+      "author": "FactCheck",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the need for better fact-checking to combat misinformation about COVID, which aligns with a left-leaning political orientation. This perspective often advocates for stronger regulatory measures and the promotion of scientific consensus, particularly in health and safety issues. The concern about misinformation and the call for action to address it are typically more prominent in left-leaning discourse, where there is a greater emphasis on the role of institutions and experts in guiding public opinion and policy.\"\n}",
+      "explanation": "The post emphasizes the need for better fact-checking to combat misinformation about COVID, which aligns with a left-leaning political orientation. This perspective often advocates for stronger regulatory measures and the promotion of scientific consensus, particularly in health and safety issues. The concern about misinformation and the call for action to address it are typically more prominent in left-leaning discourse, where there is a greater emphasis on the role of institutions and experts in guiding public opinion and policy."
+    },
+    {
+      "author": "NaturalImmunity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses skepticism towards government-mandated health interventions, specifically mass vaccination, and suggests a more individualistic approach to health policy by focusing on protecting the vulnerable. This aligns with right-wing political views, which often emphasize personal freedom and limited government intervention.\"\n}",
+      "explanation": "The post expresses skepticism towards government-mandated health interventions, specifically mass vaccination, and suggests a more individualistic approach to health policy by focusing on protecting the vulnerable. This aligns with right-wing political views, which often emphasize personal freedom and limited government intervention."
+    },
+    {
+      "author": "ZeroCovidDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author presents a question about China's zero-COVID policy without expressing a clear stance, either in support or opposition. The phrasing 'strict but prevented deaths' suggests a neutral or balanced view, acknowledging both the stringent nature of the policy and its potential benefits. Without more context or explicit opinions, it is not possible to determine if the author leans left or right.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author presents a question about China's zero-COVID policy without expressing a clear stance, either in support or opposition. The phrasing 'strict but prevented deaths' suggests a neutral or balanced view, acknowledging both the stringent nature of the policy and its potential benefits. Without more context or explicit opinions, it is not possible to determine if the author leans left or right."
+    },
+    {
+      "author": "StayProtected",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by StayProtected focuses on a health-related topic, specifically advocating for booster shots to improve immunity and reduce hospitalization rates. This content does not provide enough information to determine a political orientation as it does not touch on political ideologies, economic policies, social issues, or other indicators that could suggest a left or right leaning stance. The advocacy for public health measures can be found across various political spectrums, making it difficult to classify the author's political orientation based solely on this post.\"\n}",
+      "explanation": "The post by StayProtected focuses on a health-related topic, specifically advocating for booster shots to improve immunity and reduce hospitalization rates. This content does not provide enough information to determine a political orientation as it does not touch on political ideologies, economic policies, social issues, or other indicators that could suggest a left or right leaning stance. The advocacy for public health measures can be found across various political spectrums, making it difficult to classify the author's political orientation based solely on this post."
+    },
+    {
+      "author": "WHOFailure",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a critical view of the World Health Organization (WHO) and suggests that it mishandled the COVID-19 pandemic, particularly by 'covering for China.' This criticism aligns with right-wing narratives that have often been skeptical of international organizations and critical of China's role in the pandemic, viewing these entities as failing to adequately address global health issues or as being complicit in spreading misinformation. The strong language and the focus on perceived failures in accountability and transparency are indicative of a right-leaning political stance.\"\n}",
+      "explanation": "The post expresses a critical view of the World Health Organization (WHO) and suggests that it mishandled the COVID-19 pandemic, particularly by 'covering for China.' This criticism aligns with right-wing narratives that have often been skeptical of international organizations and critical of China's role in the pandemic, viewing these entities as failing to adequately address global health issues or as being complicit in spreading misinformation. The strong language and the focus on perceived failures in accountability and transparency are indicative of a right-leaning political stance."
+    },
+    {
+      "author": "KeepSchoolsOpen",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance against closing schools, emphasizing the negative impacts of isolation over the health concerns related to COVID, suggests a more conservative or right-leaning political orientation. This perspective often aligns with a preference for less government intervention and a focus on personal freedoms and economic continuity.\"\n}",
+      "explanation": "The author's stance against closing schools, emphasizing the negative impacts of isolation over the health concerns related to COVID, suggests a more conservative or right-leaning political orientation. This perspective often aligns with a preference for less government intervention and a focus on personal freedoms and economic continuity."
+    },
+    {
+      "author": "FalsePositives",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by FalsePositives raises a question about the accuracy of COVID-19 tests, which is a topic that can be discussed from various perspectives. The content does not provide enough information to determine a specific political orientation. It could be motivated by a concern for public health and the reliability of medical testing, which might be more commonly associated with a left-leaning perspective, or it could stem from skepticism about the extent of the pandemic and the measures taken to address it, which might be more commonly associated with a right-leaning perspective. Without more context or additional statements that clarify the author's underlying beliefs or attitudes, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by FalsePositives raises a question about the accuracy of COVID-19 tests, which is a topic that can be discussed from various perspectives. The content does not provide enough information to determine a specific political orientation. It could be motivated by a concern for public health and the reliability of medical testing, which might be more commonly associated with a left-leaning perspective, or it could stem from skepticism about the extent of the pandemic and the measures taken to address it, which might be more commonly associated with a right-leaning perspective. Without more context or additional statements that clarify the author's underlying beliefs or attitudes, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "NextPandemic",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by NextPandemic emphasizes the importance of learning from the COVID-19 pandemic and improving global preparedness. This statement is focused on a specific issue (pandemic preparedness) and does not provide enough context or ideological cues to determine a clear political orientation. The call for improvement and preparedness is a generally accepted principle across various political spectrums, making it difficult to classify the author's political stance based solely on this content.\"\n}",
+      "explanation": "The post by NextPandemic emphasizes the importance of learning from the COVID-19 pandemic and improving global preparedness. This statement is focused on a specific issue (pandemic preparedness) and does not provide enough context or ideological cues to determine a clear political orientation. The call for improvement and preparedness is a generally accepted principle across various political spectrums, making it difficult to classify the author's political stance based solely on this content."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on the mental health crisis exacerbated by the pandemic and the negative effects of isolation. While these are important social issues often discussed in political contexts, the content does not provide enough information to determine a specific political orientation. The author does not express views on government policies, economic systems, or other political stances that could indicate whether they lean left, right, or have no particular orientation. Therefore, the classification remains UNKNOWN.\"\n}",
+      "explanation": "The post focuses on the mental health crisis exacerbated by the pandemic and the negative effects of isolation. While these are important social issues often discussed in political contexts, the content does not provide enough information to determine a specific political orientation. The author does not express views on government policies, economic systems, or other political stances that could indicate whether they lean left, right, or have no particular orientation. Therefore, the classification remains UNKNOWN."
+    },
+    {
+      "author": "OpenBordersNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against travel restrictions and in favor of open borders aligns with typically left-leaning views that emphasize international cooperation, economic interconnectedness, and the free movement of people. The strong opposition to shutting down countries suggests a preference for policies that prioritize economic activity and individual freedoms, which are often advocated by more progressive or left-leaning individuals.\"\n}",
+      "explanation": "The author's stance against travel restrictions and in favor of open borders aligns with typically left-leaning views that emphasize international cooperation, economic interconnectedness, and the free movement of people. The strong opposition to shutting down countries suggests a preference for policies that prioritize economic activity and individual freedoms, which are often advocated by more progressive or left-leaning individuals."
+    },
+    {
+      "author": "FollowTheMoney",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses skepticism about the motives of pharmaceutical companies, suggesting that their primary goal was profit rather than public health. This critique of corporate motives, especially in the context of healthcare, is often associated with left-leaning political perspectives, which tend to be more critical of corporate influence and profit motives in public health and other social issues.\"\n}",
+      "explanation": "The post expresses skepticism about the motives of pharmaceutical companies, suggesting that their primary goal was profit rather than public health. This critique of corporate motives, especially in the context of healthcare, is often associated with left-leaning political perspectives, which tend to be more critical of corporate influence and profit motives in public health and other social issues."
+    },
+    {
+      "author": "RemoteWork",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or biases. It is a neutral question about the impact of the pandemic on work culture and the potential for remote work to become standard. There is no indication of the author's political orientation based on this content alone.\"\n}",
+      "explanation": "The post does not contain any explicit political statements or biases. It is a neutral question about the impact of the pandemic on work culture and the potential for remote work to become standard. There is no indication of the author's political orientation based on this content alone."
+    },
+    {
+      "author": "FreedomMatters",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses strong opposition to government-imposed lockdowns, vaccine mandates, and restrictions, framing them as 'massive government overreach.' This sentiment is typically associated with right-wing political views, which often emphasize individual liberties and are critical of expansive government intervention in personal affairs.\"\n}",
+      "explanation": "The post expresses strong opposition to government-imposed lockdowns, vaccine mandates, and restrictions, framing them as 'massive government overreach.' This sentiment is typically associated with right-wing political views, which often emphasize individual liberties and are critical of expansive government intervention in personal affairs."
+    },
+    {
+      "author": "LearnFromHistory",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content does not provide any specific political views or biases. It is a general question asking about lessons learned from the COVID-19 pandemic, which can be relevant to people of various political orientations. Without more context or detailed opinions from the author, it is not possible to accurately classify the author's political orientation.\"\n}",
+      "explanation": "The post content does not provide any specific political views or biases. It is a general question asking about lessons learned from the COVID-19 pandemic, which can be relevant to people of various political orientations. Without more context or detailed opinions from the author, it is not possible to accurately classify the author's political orientation."
+    }
+  ]
+}

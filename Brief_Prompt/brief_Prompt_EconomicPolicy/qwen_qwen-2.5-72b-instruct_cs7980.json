@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 88.88888888888889,
+      "f1_score": 9411.764705882351,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "TaxTheRich",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for higher taxes on the wealthiest 1% and expressing concern for the working class suggests a left-leaning political orientation. This perspective typically aligns with progressive or socialist economic policies that aim to redistribute wealth and reduce economic inequality.\"\n}",
+      "explanation": "The author's statement advocating for higher taxes on the wealthiest 1% and expressing concern for the working class suggests a left-leaning political orientation. This perspective typically aligns with progressive or socialist economic policies that aim to redistribute wealth and reduce economic inequality."
+    },
+    {
+      "author": "FreeMarketRules",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post reflects a strong belief in the benefits of lower taxes for economic growth and job creation, which is a common stance associated with right-wing economic policies. The assertion that high taxes 'kill economic growth' further aligns with conservative economic theory, which emphasizes minimal government intervention and lower taxation as key drivers of economic prosperity.\"\n}",
+      "explanation": "The author's post reflects a strong belief in the benefits of lower taxes for economic growth and job creation, which is a common stance associated with right-wing economic policies. The assertion that high taxes 'kill economic growth' further aligns with conservative economic theory, which emphasizes minimal government intervention and lower taxation as key drivers of economic prosperity."
+    },
+    {
+      "author": "UBIforAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The advocacy for a universal basic income (UBI) is typically associated with left-leaning political ideologies. This policy is often supported by those who prioritize social welfare, economic equality, and measures to address the negative impacts of automation and technological advancement on employment and income. The focus on reducing poverty and providing economic security aligns with progressive and left-wing economic policies.\"\n}",
+      "explanation": "The advocacy for a universal basic income (UBI) is typically associated with left-leaning political ideologies. This policy is often supported by those who prioritize social welfare, economic equality, and measures to address the negative impacts of automation and technological advancement on employment and income. The focus on reducing poverty and providing economic security aligns with progressive and left-wing economic policies."
+    },
+    {
+      "author": "UBISkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about the financial feasibility of Universal Basic Income (UBI), specifically highlighting potential issues such as massive inflation and high taxes. These concerns are typically associated with a more fiscally conservative or right-leaning political orientation, which tends to be wary of large government spending and the economic consequences of such policies.\"\n}",
+      "explanation": "The post expresses concern about the financial feasibility of Universal Basic Income (UBI), specifically highlighting potential issues such as massive inflation and high taxes. These concerns are typically associated with a more fiscally conservative or right-leaning political orientation, which tends to be wary of large government spending and the economic consequences of such policies."
+    },
+    {
+      "author": "WelfareMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement supports the expansion and maintenance of social programs, which are typically advocated by those on the political left. The emphasis on helping 'the most vulnerable' aligns with left-wing values that prioritize social welfare and equity.\"\n}",
+      "explanation": "The author's statement supports the expansion and maintenance of social programs, which are typically advocated by those on the political left. The emphasis on helping 'the most vulnerable' aligns with left-wing values that prioritize social welfare and equity."
+    },
+    {
+      "author": "WorkNotHandouts",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement reflects a conservative or right-wing political orientation. This is evident from the criticism of welfare programs, which are often supported by those on the left as a means to support the less fortunate and reduce inequality. The emphasis on job creation over government assistance aligns with right-wing economic policies that prioritize market-based solutions and self-reliance over state intervention and social welfare programs.\"\n}",
+      "explanation": "The author's statement reflects a conservative or right-wing political orientation. This is evident from the criticism of welfare programs, which are often supported by those on the left as a means to support the less fortunate and reduce inequality. The emphasis on job creation over government assistance aligns with right-wing economic policies that prioritize market-based solutions and self-reliance over state intervention and social welfare programs."
+    },
+    {
+      "author": "RegulateBigTech",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for stronger government regulations on Big Tech companies to protect consumers, which aligns with left-leaning political views that generally support more government intervention in the economy to ensure fairness and protect individual rights.\"\n}",
+      "explanation": "The post advocates for stronger government regulations on Big Tech companies to protect consumers, which aligns with left-leaning political views that generally support more government intervention in the economy to ensure fairness and protect individual rights."
+    },
+    {
+      "author": "LaissezFaire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement reflects a strong belief in minimal government intervention and self-regulation by the market, which are typically associated with right-wing or libertarian political orientations. The phrase 'Government interference in tech will stifle innovation' suggests a skepticism towards regulatory measures, a common stance among those on the political right who often argue that free markets are more efficient and conducive to innovation than regulated ones.\"\n}",
+      "explanation": "The author's statement reflects a strong belief in minimal government intervention and self-regulation by the market, which are typically associated with right-wing or libertarian political orientations. The phrase 'Government interference in tech will stifle innovation' suggests a skepticism towards regulatory measures, a common stance among those on the political right who often argue that free markets are more efficient and conducive to innovation than regulated ones."
+    },
+    {
+      "author": "BlameTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a critical view of the Federal Reserve and its monetary policies, specifically blaming it for inflation. This kind of criticism is more commonly associated with right-wing economic perspectives, which often advocate for less government intervention in the economy and are skeptical of central banking policies that involve quantitative easing or expansive monetary policies.\"\n}",
+      "explanation": "The post expresses a critical view of the Federal Reserve and its monetary policies, specifically blaming it for inflation. This kind of criticism is more commonly associated with right-wing economic perspectives, which often advocate for less government intervention in the economy and are skeptical of central banking policies that involve quantitative easing or expansive monetary policies."
+    },
+    {
+      "author": "StopSpending",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is a neutral inquiry about economic policy options to address inflation, which can be supported by various political perspectives. Without additional context or statements that reveal the author's stance on broader political issues, it is not possible to classify the author as LEFT or RIGHT.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is a neutral inquiry about economic policy options to address inflation, which can be supported by various political perspectives. Without additional context or statements that reveal the author's stance on broader political issues, it is not possible to classify the author as LEFT or RIGHT."
+    },
+    {
+      "author": "TradeWins",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement supports free trade and criticizes protectionism, which are typically positions aligned with right-wing economic policies. Free trade is often advocated by those on the right due to its association with market liberalization, reduced government intervention, and the belief that it fosters economic growth and efficiency. Conversely, protectionism, which involves government actions and policies to restrict trade with foreign countries, is more commonly criticized by right-wing economists and policymakers who argue that it can lead to inefficiencies and higher consumer prices.\"\n}",
+      "explanation": "The author's statement supports free trade and criticizes protectionism, which are typically positions aligned with right-wing economic policies. Free trade is often advocated by those on the right due to its association with market liberalization, reduced government intervention, and the belief that it fosters economic growth and efficiency. Conversely, protectionism, which involves government actions and policies to restrict trade with foreign countries, is more commonly criticized by right-wing economists and policymakers who argue that it can lead to inefficiencies and higher consumer prices."
+    },
+    {
+      "author": "BuyAmerican",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on protecting American manufacturing jobs through tariffs suggests a conservative economic viewpoint, which often emphasizes protectionism and the importance of domestic industries. This aligns with right-wing economic policies that aim to shield national industries from foreign competition.\"\n}",
+      "explanation": "The author's stance on protecting American manufacturing jobs through tariffs suggests a conservative economic viewpoint, which often emphasizes protectionism and the importance of domestic industries. This aligns with right-wing economic policies that aim to shield national industries from foreign competition."
+    },
+    {
+      "author": "EndTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a strong opposition to the Federal Reserve, which is a common stance among those on the political right, particularly libertarians and conservatives who advocate for less government intervention and more free-market principles. The phrase 'unelected central bank' suggests a distrust of non-democratic institutions having significant control over economic matters, which aligns with right-wing critiques of centralized power and calls for reduced federal authority.\"\n}",
+      "explanation": "The post expresses a strong opposition to the Federal Reserve, which is a common stance among those on the political right, particularly libertarians and conservatives who advocate for less government intervention and more free-market principles. The phrase 'unelected central bank' suggests a distrust of non-democratic institutions having significant control over economic matters, which aligns with right-wing critiques of centralized power and calls for reduced federal authority."
+    },
+    {
+      "author": "BitcoinFixesThis",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a strong distrust of government and a belief in the benefits of a decentralized, free market solution (Bitcoin). This aligns with right-wing political ideologies, which typically emphasize individual freedom, limited government intervention, and free market principles.\"\n}",
+      "explanation": "The post expresses a strong distrust of government and a belief in the benefits of a decentralized, free market solution (Bitcoin). This aligns with right-wing political ideologies, which typically emphasize individual freedom, limited government intervention, and free market principles."
+    },
+    {
+      "author": "CryptoRegulations",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's call for regulation of cryptocurrency to address scams and instability suggests a preference for government intervention and oversight in financial markets. This aligns more closely with left-leaning political views, which generally support stronger regulatory frameworks to protect consumers and ensure market stability.\"\n}",
+      "explanation": "The author's call for regulation of cryptocurrency to address scams and instability suggests a preference for government intervention and oversight in financial markets. This aligns more closely with left-leaning political views, which generally support stronger regulatory frameworks to protect consumers and ensure market stability."
+    },
+    {
+      "author": "GovCreatesJobs",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for government intervention in the economy through investment in infrastructure and green energy, which are typically supported by left-leaning political ideologies. These policies are often associated with promoting public employment and addressing environmental concerns, both of which are common priorities for left-wing platforms.\"\n}",
+      "explanation": "The post advocates for government intervention in the economy through investment in infrastructure and green energy, which are typically supported by left-leaning political ideologies. These policies are often associated with promoting public employment and addressing environmental concerns, both of which are common priorities for left-wing platforms."
+    },
+    {
+      "author": "MarketKnowsBest",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement emphasizes a belief in minimal government intervention in the economy, advocating for fewer regulations and lower taxes to support business growth and job creation. These views are typically associated with right-wing economic policies, which favor free market principles and reduced state involvement in economic affairs.\"\n}",
+      "explanation": "The author's statement emphasizes a belief in minimal government intervention in the economy, advocating for fewer regulations and lower taxes to support business growth and job creation. These views are typically associated with right-wing economic policies, which favor free market principles and reduced state involvement in economic affairs."
+    },
+    {
+      "author": "TooYoungToRetire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The suggestion to raise the retirement age to ensure the sustainability of Social Security indicates a more conservative or right-leaning political orientation. This view emphasizes fiscal responsibility and the long-term viability of social programs, often at the expense of immediate benefits for current recipients. It aligns with right-wing economic policies that advocate for reducing government spending and ensuring that social programs remain financially stable over the long term.\"\n}",
+      "explanation": "The suggestion to raise the retirement age to ensure the sustainability of Social Security indicates a more conservative or right-leaning political orientation. This view emphasizes fiscal responsibility and the long-term viability of social programs, often at the expense of immediate benefits for current recipients. It aligns with right-wing economic policies that advocate for reducing government spending and ensuring that social programs remain financially stable over the long term."
+    },
+    {
+      "author": "RetireWithDignity",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on raising the retirement age being unfair to workers and advocating for the ability to retire earlier with dignity suggests a left-leaning political orientation. This perspective typically aligns with progressive or labor-focused policies that prioritize worker rights and social welfare over economic austerity measures. The emphasis on dignity in retirement also indicates a concern for social equity and quality of life, which are common themes in left-wing discourse.\"\n}",
+      "explanation": "The author's stance on raising the retirement age being unfair to workers and advocating for the ability to retire earlier with dignity suggests a left-leaning political orientation. This perspective typically aligns with progressive or labor-focused policies that prioritize worker rights and social welfare over economic austerity measures. The emphasis on dignity in retirement also indicates a concern for social equity and quality of life, which are common themes in left-wing discourse."
+    },
+    {
+      "author": "TaxBillionaires",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses a strong sentiment against wealth inequality, specifically targeting billionaires for hoarding wealth. The advocacy for a wealth tax to promote economic fairness aligns with left-wing economic policies, which often emphasize redistribution of wealth and increased taxation on the wealthy to address social and economic inequalities.\"\n}",
+      "explanation": "The author's post expresses a strong sentiment against wealth inequality, specifically targeting billionaires for hoarding wealth. The advocacy for a wealth tax to promote economic fairness aligns with left-wing economic policies, which often emphasize redistribution of wealth and increased taxation on the wealthy to address social and economic inequalities."
+    }
+  ]
+}

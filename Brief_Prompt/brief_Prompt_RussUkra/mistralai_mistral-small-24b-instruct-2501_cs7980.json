@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 80.0,
+      "recall": 66.66666666666666,
+      "f1_score": 7272.727272727272,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 13,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 83.33333333333334,
+      "recall": 62.5,
+      "f1_score": 7142.857142857143,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 85.0,
+      "precision": 66.66666666666666,
+      "recall": 100.0,
+      "f1_score": 8000.0,
+      "true_positive": 6,
+      "false_positive": 3,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "StandWithUkraine",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for Ukraine against Russian aggression suggests a stance that is critical of authoritarian regimes and supportive of democratic values, which are often associated with left-leaning or liberal political orientations. The call for support implies a willingness to intervene or assist in international conflicts, which is also a common position among left-leaning individuals who advocate for human rights and international cooperation.\"\n}\n```",
+      "explanation": "The author's support for Ukraine against Russian aggression suggests a stance that is critical of authoritarian regimes and supportive of democratic values, which are often associated with left-leaning or liberal political orientations. The call for support implies a willingness to intervene or assist in international conflicts, which is also a common position among left-leaning individuals who advocate for human rights and international cooperation."
+    },
+    {
+      "author": "RussiaFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post supports Russia's actions and blames the West for the conflict, which aligns with right-wing or nationalist views that often prioritize national sovereignty and security over international cooperation. The use of the phrase 'RussiaFirst' in the author's name also suggests a strong nationalist sentiment, which is often associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's post supports Russia's actions and blames the West for the conflict, which aligns with right-wing or nationalist views that often prioritize national sovereignty and security over international cooperation. The use of the phrase 'RussiaFirst' in the author's name also suggests a strong nationalist sentiment, which is often associated with right-wing politics."
+    },
+    {
+      "author": "MoreWeapons",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for increased military aid and weapons to Ukraine aligns with the typical stance of right-leaning political orientations, which often emphasize strong national defense and support for allies in conflict. The urgency and strong language used ('disaster') suggest a hawkish foreign policy stance, which is more commonly associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's support for increased military aid and weapons to Ukraine aligns with the typical stance of right-leaning political orientations, which often emphasize strong national defense and support for allies in conflict. The urgency and strong language used ('disaster') suggest a hawkish foreign policy stance, which is more commonly associated with right-wing politics."
+    },
+    {
+      "author": "NATOdebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The question is neutral and seeks to explore a historical and geopolitical issue without expressing a clear stance on the matter. It could be interpreted as a question from someone on the left, right, or center, as it does not align with any specific political ideology.\"\n}\n```",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The question is neutral and seeks to explore a historical and geopolitical issue without expressing a clear stance on the matter. It could be interpreted as a question from someone on the left, right, or center, as it does not align with any specific political ideology."
+    },
+    {
+      "author": "SanctionsWork",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for maintaining Western sanctions against Russia, which is a policy often advocated by conservative or right-leaning political groups, suggests a right-leaning orientation. The emphasis on economic pressure and the call for Russia to withdraw aligns with hawkish foreign policy stances commonly associated with the right.\"\n}\n```",
+      "explanation": "The author's support for maintaining Western sanctions against Russia, which is a policy often advocated by conservative or right-leaning political groups, suggests a right-leaning orientation. The emphasis on economic pressure and the call for Russia to withdraw aligns with hawkish foreign policy stances commonly associated with the right."
+    },
+    {
+      "author": "DiplomacyFirst",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or ideologies. It is a neutral question about the potential for diplomacy to resolve a conflict, which does not lean towards any particular political orientation.\"\n}\n```",
+      "explanation": "The post does not contain any explicit political statements or ideologies. It is a neutral question about the potential for diplomacy to resolve a conflict, which does not lean towards any particular political orientation."
+    },
+    {
+      "author": "JusticeForUkraine",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post strongly condemns Russia's actions in Ukraine, which is a stance often associated with left-leaning political orientations. The call for international accountability and justice aligns with progressive values that emphasize human rights and international law. The use of the term 'war crimes' and the demand for accountability suggest a critical view of authoritarian regimes, which is more commonly found in left-wing politics.\"\n}\n```",
+      "explanation": "The author's post strongly condemns Russia's actions in Ukraine, which is a stance often associated with left-leaning political orientations. The call for international accountability and justice aligns with progressive values that emphasize human rights and international law. The use of the term 'war crimes' and the demand for accountability suggest a critical view of authoritarian regimes, which is more commonly found in left-wing politics."
+    },
+    {
+      "author": "UkraineInEU",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for Ukraine joining the EU and the use of the phrase 'they've earned their place in Europe' suggests a pro-European and likely left-leaning stance. This is often associated with progressive policies, open borders, and international cooperation, which are typically aligned with left-wing political orientations.\"\n}\n```",
+      "explanation": "The author's support for Ukraine joining the EU and the use of the phrase 'they've earned their place in Europe' suggests a pro-European and likely left-leaning stance. This is often associated with progressive policies, open borders, and international cooperation, which are typically aligned with left-wing political orientations."
+    },
+    {
+      "author": "MilitaryAnalysis",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses military strategy and logistics in the context of Russia's offensive, but it does not provide any explicit political statements or biases. The author is merely asking a question about military tactics and does not express any political leanings or opinions that would indicate a left or right orientation.\"\n}\n```",
+      "explanation": "The post discusses military strategy and logistics in the context of Russia's offensive, but it does not provide any explicit political statements or biases. The author is merely asking a question about military tactics and does not express any political leanings or opinions that would indicate a left or right orientation."
+    },
+    {
+      "author": "ChinaObserver",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. It is a factual statement about China's stance on Russia without expressing any personal opinions or biases that would indicate a left or right leaning.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. It is a factual statement about China's stance on Russia without expressing any personal opinions or biases that would indicate a left or right leaning."
+    },
+    {
+      "author": "UkraineWins",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a military situation in Ukraine and expresses support for Ukraine's efforts to reclaim territories. However, there is no explicit mention of political ideology, economic policy, or social issues that would typically indicate a left or right political orientation. Therefore, the author's political orientation cannot be determined from this post alone.\"\n}\n```",
+      "explanation": "The post discusses a military situation in Ukraine and expresses support for Ukraine's efforts to reclaim territories. However, there is no explicit mention of political ideology, economic policy, or social issues that would typically indicate a left or right political orientation. Therefore, the author's political orientation cannot be determined from this post alone."
+    },
+    {
+      "author": "TruthOverLies",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine a specific political orientation. It focuses on a factual statement about disinformation and a call to action against it, which could be supported by individuals across the political spectrum. There are no references to specific political ideologies, policies, or parties that would indicate a left or right leaning.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine a specific political orientation. It focuses on a factual statement about disinformation and a call to action against it, which could be supported by individuals across the political spectrum. There are no references to specific political ideologies, policies, or parties that would indicate a left or right leaning."
+    },
+    {
+      "author": "NoMoreWars",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's question about the continuation of military aid and the potential for an 'endless war' suggests a skepticism towards military intervention and foreign policy that is often associated with left-leaning political views. This perspective is often critical of prolonged military engagements and the allocation of resources towards military aid.\"\n}\n```",
+      "explanation": "The author's question about the continuation of military aid and the potential for an 'endless war' suggests a skepticism towards military intervention and foreign policy that is often associated with left-leaning political views. This perspective is often critical of prolonged military engagements and the allocation of resources towards military aid."
+    },
+    {
+      "author": "StopNuclearThreats",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. It is a neutral question about a geopolitical issue without expressing a specific stance or bias.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. It is a neutral question about a geopolitical issue without expressing a specific stance or bias."
+    },
+    {
+      "author": "ZelenskyHero",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's praise for Ukrainian President Volodymyr Zelensky, who is often supported by left-leaning individuals and parties, suggests a left-leaning political orientation. The context of supporting a leader who has been a symbol of resistance against Russian aggression, which is often supported by left-leaning internationalist and anti-authoritarian sentiments, further supports this classification.\"\n}\n```",
+      "explanation": "The author's praise for Ukrainian President Volodymyr Zelensky, who is often supported by left-leaning individuals and parties, suggests a left-leaning political orientation. The context of supporting a leader who has been a symbol of resistance against Russian aggression, which is often supported by left-leaning internationalist and anti-authoritarian sentiments, further supports this classification."
+    },
+    {
+      "author": "RussiaAllies",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses support for Russia and criticizes the West, which is often associated with right-wing or conservative political views. The emphasis on Russia's global influence and the perceived underestimation by the West suggests a stance that aligns more with right-wing perspectives, which often include a more favorable view of authoritarian or non-Western governments.\"\n}\n```",
+      "explanation": "The author's post expresses support for Russia and criticizes the West, which is often associated with right-wing or conservative political views. The emphasis on Russia's global influence and the perceived underestimation by the West suggests a stance that aligns more with right-wing perspectives, which often include a more favorable view of authoritarian or non-Western governments."
+    },
+    {
+      "author": "MediaWatch",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a skepticism towards mainstream Western media, which is a common sentiment among right-leaning individuals. Additionally, the author questions the coverage of Ukraine's human rights violations, implying a critical stance towards Ukraine, which is often associated with right-wing perspectives, especially in the context of the Russia-Ukraine conflict. The post does not provide any left-leaning sentiments, such as support for progressive policies or social justice issues, which further supports the classification as right-leaning.\"\n}\n```",
+      "explanation": "The author's post suggests a skepticism towards mainstream Western media, which is a common sentiment among right-leaning individuals. Additionally, the author questions the coverage of Ukraine's human rights violations, implying a critical stance towards Ukraine, which is often associated with right-wing perspectives, especially in the context of the Russia-Ukraine conflict. The post does not provide any left-leaning sentiments, such as support for progressive policies or social justice issues, which further supports the classification as right-leaning."
+    },
+    {
+      "author": "RebuildUkraine",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on the need for Western intervention and support for rebuilding Ukraine suggests a left-leaning orientation. This is because left-leaning individuals often advocate for international cooperation, aid, and intervention to address global issues, particularly in the context of humanitarian crises and post-conflict reconstruction.\"\n}\n```",
+      "explanation": "The author's emphasis on the need for Western intervention and support for rebuilding Ukraine suggests a left-leaning orientation. This is because left-leaning individuals often advocate for international cooperation, aid, and intervention to address global issues, particularly in the context of humanitarian crises and post-conflict reconstruction."
+    },
+    {
+      "author": "EnergyDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide any explicit political views or biases. It is a neutral question about Europe's energy situation in light of recent events, without advocating for or against any particular political stance or policy.\"\n}\n```",
+      "explanation": "The post does not provide any explicit political views or biases. It is a neutral question about Europe's energy situation in light of recent events, without advocating for or against any particular political stance or policy."
+    },
+    {
+      "author": "DraftConcerns",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the necessity of a military draft in Russia, which is a contentious issue that can be interpreted from various political perspectives. The author does not provide enough context or additional statements to definitively classify their political orientation as left or right. The focus on defending the homeland could be seen as patriotic, but without more context, it is difficult to determine if this aligns with left or right-wing ideologies.\"\n}\n```",
+      "explanation": "The post discusses the necessity of a military draft in Russia, which is a contentious issue that can be interpreted from various political perspectives. The author does not provide enough context or additional statements to definitively classify their political orientation as left or right. The focus on defending the homeland could be seen as patriotic, but without more context, it is difficult to determine if this aligns with left or right-wing ideologies."
+    }
+  ]
+}

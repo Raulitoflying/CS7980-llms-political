@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 80.0,
+      "recall": 100.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 92.3076923076923,
+      "recall": 100.0,
+      "f1_score": 9599.999999999998,
+      "true_positive": 12,
+      "false_positive": 1,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 16,
+      "false_negative": 2
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "SaveTheEarth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on the urgency of addressing climate change and their reference to 'the science is clear' suggests a progressive or liberal perspective, which is commonly associated with the left side of the political spectrum. This is because left-leaning individuals tend to prioritize environmental protection and government action to address climate change, whereas right-leaning individuals may be more skeptical of climate change or hesitant to implement policies to address it.\"\n}",
+      "explanation": "The author's emphasis on the urgency of addressing climate change and their reference to 'the science is clear' suggests a progressive or liberal perspective, which is commonly associated with the left side of the political spectrum. This is because left-leaning individuals tend to prioritize environmental protection and government action to address climate change, whereas right-leaning individuals may be more skeptical of climate change or hesitant to implement policies to address it."
+    },
+    {
+      "author": "ClimateSkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's skepticism towards climate change and framing it as a 'political tool for control' suggests a conservative or right-leaning perspective. This type of language is often associated with right-wing ideologies that are critical of environmental regulations and skeptical of the scientific consensus on climate change. Additionally, the phrase 'the climate has always changed naturally' is a common talking point among climate change skeptics, which is often used to downplay the role of human activity in contributing to climate change. This type of rhetoric is more commonly found on the right side of the political spectrum.\"\n}",
+      "explanation": "The author's skepticism towards climate change and framing it as a 'political tool for control' suggests a conservative or right-leaning perspective. This type of language is often associated with right-wing ideologies that are critical of environmental regulations and skeptical of the scientific consensus on climate change. Additionally, the phrase 'the climate has always changed naturally' is a common talking point among climate change skeptics, which is often used to downplay the role of human activity in contributing to climate change. This type of rhetoric is more commonly found on the right side of the political spectrum."
+    },
+    {
+      "author": "GoGreen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on transitioning away from fossil fuels and embracing renewable energy sources like solar and wind energy is a common stance among left-leaning individuals and environmentalists. This perspective is often associated with progressive and liberal ideologies that prioritize environmental protection and sustainability over economic interests. The use of the word 'immediately' also suggests a sense of urgency and a willingness to take bold action, which is consistent with left-wing politics.\"\n}",
+      "explanation": "The author's emphasis on transitioning away from fossil fuels and embracing renewable energy sources like solar and wind energy is a common stance among left-leaning individuals and environmentalists. This perspective is often associated with progressive and liberal ideologies that prioritize environmental protection and sustainability over economic interests. The use of the word 'immediately' also suggests a sense of urgency and a willingness to take bold action, which is consistent with left-wing politics."
+    },
+    {
+      "author": "EnergySecurity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests a skepticism towards renewable energy and a defense of fossil fuels, which is a common position among conservatives and those on the right side of the political spectrum. The phrase 'not reliable enough to replace them yet' implies a cautious approach to transitioning away from fossil fuels, which is often associated with right-leaning views on energy policy.\"\n}",
+      "explanation": "The author's statement suggests a skepticism towards renewable energy and a defense of fossil fuels, which is a common position among conservatives and those on the right side of the political spectrum. The phrase 'not reliable enough to replace them yet' implies a cautious approach to transitioning away from fossil fuels, which is often associated with right-leaning views on energy policy."
+    },
+    {
+      "author": "HoldBigOilAccountable",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a strong environmentalist stance and a desire to regulate corporate behavior, which are common positions associated with the political left. The use of the phrase 'held accountable' also implies a sense of social responsibility and a critique of unchecked corporate power, which is a characteristic of left-wing ideology. Additionally, the username 'HoldBigOilAccountable' reinforces this classification, as it explicitly targets the oil industry, a common target of left-wing environmental activism.\"\n}",
+      "explanation": "The author's post suggests a strong environmentalist stance and a desire to regulate corporate behavior, which are common positions associated with the political left. The use of the phrase 'held accountable' also implies a sense of social responsibility and a critique of unchecked corporate power, which is a characteristic of left-wing ideology. Additionally, the username 'HoldBigOilAccountable' reinforces this classification, as it explicitly targets the oil industry, a common target of left-wing environmental activism."
+    },
+    {
+      "author": "PolicyMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author is questioning whether the government should take a more active role in regulating industries to address climate change, which suggests a leaning towards a more interventionist approach. This is often associated with left-leaning or progressive ideologies, which tend to advocate for stronger government action to address social and environmental issues. The fact that the author is framing the question in terms of 'fighting climate change' also implies a sense of urgency and a willingness to consider bold action, which is consistent with left-leaning perspectives on environmental policy.\"\n}",
+      "explanation": "The author is questioning whether the government should take a more active role in regulating industries to address climate change, which suggests a leaning towards a more interventionist approach. This is often associated with left-leaning or progressive ideologies, which tend to advocate for stronger government action to address social and environmental issues. The fact that the author is framing the question in terms of 'fighting climate change' also implies a sense of urgency and a willingness to consider bold action, which is consistent with left-leaning perspectives on environmental policy."
+    },
+    {
+      "author": "EcoFriendly",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on individual actions to combat climate change and promote sustainability is a common theme in left-leaning environmentalism. The focus on personal responsibility and eco-friendly choices aligns with the values of the left, which often prioritizes environmental protection and social responsibility.\"\n}",
+      "explanation": "The author's emphasis on individual actions to combat climate change and promote sustainability is a common theme in left-leaning environmentalism. The focus on personal responsibility and eco-friendly choices aligns with the values of the left, which often prioritizes environmental protection and social responsibility."
+    },
+    {
+      "author": "EVAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for government incentives to promote electric vehicles suggests a left-leaning orientation. This is because left-leaning individuals often advocate for government intervention in the market to address social and environmental issues, such as climate change. The emphasis on reducing carbon emissions also aligns with the environmental concerns often associated with left-wing politics.\"\n}",
+      "explanation": "The author's support for government incentives to promote electric vehicles suggests a left-leaning orientation. This is because left-leaning individuals often advocate for government intervention in the market to address social and environmental issues, such as climate change. The emphasis on reducing carbon emissions also aligns with the environmental concerns often associated with left-wing politics."
+    },
+    {
+      "author": "EVCritic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests skepticism towards electric vehicles (EVs) and renewable energy, which is a common stance among some conservative or right-leaning individuals. The comparison of lithium mining to burning oil also implies a critique of environmental policies that promote EVs as a more sustainable alternative to fossil fuels. This type of argument is often associated with right-wing or libertarian perspectives that emphasize the limitations and unintended consequences of environmental regulations.\"\n}",
+      "explanation": "The author's statement suggests skepticism towards electric vehicles (EVs) and renewable energy, which is a common stance among some conservative or right-leaning individuals. The comparison of lithium mining to burning oil also implies a critique of environmental policies that promote EVs as a more sustainable alternative to fossil fuels. This type of argument is often associated with right-wing or libertarian perspectives that emphasize the limitations and unintended consequences of environmental regulations."
+    },
+    {
+      "author": "ExtremeWeather",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on the urgent need to address climate change and its associated extreme weather events suggests a left-leaning orientation. This is because climate change is a key issue for many left-wing and liberal politicians, who often advocate for government action to reduce carbon emissions and transition to renewable energy sources. The author's use of the phrase 'we must act now' also implies a sense of urgency and a call for collective action, which is consistent with left-wing ideologies that often prioritize social and environmental welfare over individual interests.\"\n}",
+      "explanation": "The author's emphasis on the urgent need to address climate change and its associated extreme weather events suggests a left-leaning orientation. This is because climate change is a key issue for many left-wing and liberal politicians, who often advocate for government action to reduce carbon emissions and transition to renewable energy sources. The author's use of the phrase 'we must act now' also implies a sense of urgency and a call for collective action, which is consistent with left-wing ideologies that often prioritize social and environmental welfare over individual interests."
+    },
+    {
+      "author": "SaveTheRainforests",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental protection and the urgency of addressing climate change suggests a left-leaning orientation. The left is generally associated with a stronger focus on environmental issues and a willingness to take action to mitigate the effects of climate change. The use of phrases like 'critical to fighting climate change' also implies a sense of urgency and alarm, which is consistent with the tone often used by left-leaning environmental advocates.\"\n}",
+      "explanation": "The author's emphasis on environmental protection and the urgency of addressing climate change suggests a left-leaning orientation. The left is generally associated with a stronger focus on environmental issues and a willingness to take action to mitigate the effects of climate change. The use of phrases like 'critical to fighting climate change' also implies a sense of urgency and alarm, which is consistent with the tone often used by left-leaning environmental advocates."
+    },
+    {
+      "author": "GoVegan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental concerns and the promotion of a plant-based diet suggests a left-leaning orientation. This is because left-wing ideologies often prioritize environmental protection and social justice, which aligns with the author's concern for the planet and the welfare of animals. Additionally, the username 'GoVegan' implies a strong commitment to animal rights and environmentalism, which are values commonly associated with the left side of the political spectrum.\"\n}",
+      "explanation": "The author's emphasis on environmental concerns and the promotion of a plant-based diet suggests a left-leaning orientation. This is because left-wing ideologies often prioritize environmental protection and social justice, which aligns with the author's concern for the planet and the welfare of animals. Additionally, the username 'GoVegan' implies a strong commitment to animal rights and environmentalism, which are values commonly associated with the left side of the political spectrum."
+    },
+    {
+      "author": "NuclearNow",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is a neutral question that does not express a clear opinion or ideology. It presents a topic for discussion and invites others to share their thoughts, without taking a stance or promoting a particular agenda. The language used is objective and inquiring, without any emotional or partisan tone. Therefore, it is not possible to classify the author's political orientation based on this post.\"\n}",
+      "explanation": "The author's post is a neutral question that does not express a clear opinion or ideology. It presents a topic for discussion and invites others to share their thoughts, without taking a stance or promoting a particular agenda. The language used is objective and inquiring, without any emotional or partisan tone. Therefore, it is not possible to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "TeachClimate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on teaching climate science in schools suggests a concern for environmental issues and a desire to promote awareness and action on climate change. This is a characteristic commonly associated with left-leaning or liberal politics, which tend to prioritize environmental protection and education. Additionally, the tone of the post implies a sense of urgency and a call to action, which is also consistent with left-leaning perspectives on climate change.\"\n}",
+      "explanation": "The author's emphasis on teaching climate science in schools suggests a concern for environmental issues and a desire to promote awareness and action on climate change. This is a characteristic commonly associated with left-leaning or liberal politics, which tend to prioritize environmental protection and education. Additionally, the tone of the post implies a sense of urgency and a call to action, which is also consistent with left-leaning perspectives on climate change."
+    },
+    {
+      "author": "TechFixClimate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any explicit language or tone that can be directly linked to a specific political orientation. The topic of climate change and the suggested solutions (carbon capture and solar geoengineering) are more related to environmental and scientific discussions rather than political ideologies. The author's focus on finding technological solutions to a global problem does not inherently lean left or right, as both sides of the political spectrum can support or oppose such measures depending on their specific views and priorities.\"\n}",
+      "explanation": "The author's post does not contain any explicit language or tone that can be directly linked to a specific political orientation. The topic of climate change and the suggested solutions (carbon capture and solar geoengineering) are more related to environmental and scientific discussions rather than political ideologies. The author's focus on finding technological solutions to a global problem does not inherently lean left or right, as both sides of the political spectrum can support or oppose such measures depending on their specific views and priorities."
+    },
+    {
+      "author": "TaxPolluters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a carbon tax and emphasis on holding corporations accountable for emissions suggests a left-leaning orientation. This is because left-wing ideologies often prioritize environmental protection and advocate for policies that promote social and economic equality, such as making corporations pay for the negative externalities of their activities. The use of the phrase 'Polluters should pay' also implies a sense of social justice and a desire to redistribute the costs of environmental degradation from the general public to those responsible, which is a common theme in left-wing politics.\"\n}",
+      "explanation": "The author's support for a carbon tax and emphasis on holding corporations accountable for emissions suggests a left-leaning orientation. This is because left-wing ideologies often prioritize environmental protection and advocate for policies that promote social and economic equality, such as making corporations pay for the negative externalities of their activities. The use of the phrase 'Polluters should pay' also implies a sense of social justice and a desire to redistribute the costs of environmental degradation from the general public to those responsible, which is a common theme in left-wing politics."
+    },
+    {
+      "author": "SkepticalEconomist",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about the Green New Deal, a policy proposal commonly associated with the progressive left. The concern about the cost and feasibility of the plan suggests that the author prioritizes fiscal responsibility and may be hesitant to support large-scale government spending, which is a characteristic often associated with conservative or right-leaning ideologies.\"\n}",
+      "explanation": "The author expresses skepticism about the Green New Deal, a policy proposal commonly associated with the progressive left. The concern about the cost and feasibility of the plan suggests that the author prioritizes fiscal responsibility and may be hesitant to support large-scale government spending, which is a characteristic often associated with conservative or right-leaning ideologies."
+    },
+    {
+      "author": "ClimateThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern about climate change and rising sea levels suggests a left-leaning orientation. Climate change is a issue often emphasized by the left, and the sense of urgency and alarm expressed in the post is consistent with the tone of many left-wing environmental advocates. Additionally, the focus on the impact of climate change on urban areas and the implicit call to action implies a desire for government intervention and regulation, which is also more characteristic of left-wing politics.\"\n}",
+      "explanation": "The author's concern about climate change and rising sea levels suggests a left-leaning orientation. Climate change is a issue often emphasized by the left, and the sense of urgency and alarm expressed in the post is consistent with the tone of many left-wing environmental advocates. Additionally, the focus on the impact of climate change on urban areas and the implicit call to action implies a desire for government intervention and regulation, which is also more characteristic of left-wing politics."
+    },
+    {
+      "author": "WinterStorms",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author appears to be skeptical of climate change, which is a common stance among right-leaning individuals. The question posed is also a common talking point among climate change skeptics, implying that cold temperatures contradict the idea of global warming. The tone of the question suggests that the author is challenging the concept of climate change, rather than genuinely seeking to understand the relationship between climate change and cold temperatures.\"\n}",
+      "explanation": "The author appears to be skeptical of climate change, which is a common stance among right-leaning individuals. The question posed is also a common talking point among climate change skeptics, implying that cold temperatures contradict the idea of global warming. The tone of the question suggests that the author is challenging the concept of climate change, rather than genuinely seeking to understand the relationship between climate change and cold temperatures."
+    },
+    {
+      "author": "EVFuture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a government ban on new gas car sales by 2035 suggests a left-leaning orientation. This stance is consistent with progressive environmental policies, which often prioritize government intervention to address climate change and promote sustainable technologies. The phrase 'The future is electric!' also implies a enthusiasm for green energy and a willingness to adopt policies that accelerate the transition away from fossil fuels, which is a characteristic of left-wing environmentalism.\"\n}",
+      "explanation": "The author's support for a government ban on new gas car sales by 2035 suggests a left-leaning orientation. This stance is consistent with progressive environmental policies, which often prioritize government intervention to address climate change and promote sustainable technologies. The phrase 'The future is electric!' also implies a enthusiasm for green energy and a willingness to adopt policies that accelerate the transition away from fossil fuels, which is a characteristic of left-wing environmentalism."
+    }
+  ]
+}

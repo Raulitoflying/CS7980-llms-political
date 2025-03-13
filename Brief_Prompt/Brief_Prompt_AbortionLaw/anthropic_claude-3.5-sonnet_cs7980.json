@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 66.66666666666666,
+      "f1_score": 8000.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 85.71428571428571,
+      "recall": 100.0,
+      "f1_score": 9230.769230769229,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 71.42857142857143,
+      "recall": 100.0,
+      "f1_score": 8333.333333333332,
+      "true_positive": 5,
+      "false_positive": 2,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views for several reasons: 1) The use of 'My Body My Choice' as a username, which is a classic pro-choice slogan associated with the feminist movement and liberal politics, 2) The framing of abortion as a 'fundamental right,' which is a core position of the political left, 3) The anti-government intervention stance specifically regarding reproductive rights, which is characteristic of progressive/liberal positions on this issue, and 4) The focus on bodily autonomy for women, which is a key feminist and left-wing talking point. The language and position taken are unmistakably aligned with left-wing political ideology on reproductive rights.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views for several reasons: 1) The use of 'My Body My Choice' as a username, which is a classic pro-choice slogan associated with the feminist movement and liberal politics, 2) The framing of abortion as a 'fundamental right,' which is a core position of the political left, 3) The anti-government intervention stance specifically regarding reproductive rights, which is characteristic of progressive/liberal positions on this issue, and 4) The focus on bodily autonomy for women, which is a key feminist and left-wing talking point. The language and position taken are unmistakably aligned with left-wing political ideology on reproductive rights."
+    },
+    {
+      "author": "ProLifeForever",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post strongly indicates a right-wing political orientation for several reasons: 1) The username 'ProLifeForever' and the anti-abortion stance are strongly associated with conservative/right-wing politics in current discourse 2) The specific phrasing 'Life begins at conception' is a common conservative talking point 3) The emotional framing of abortion as 'killing of an innocent child' matches typical right-wing pro-life rhetoric 4) Opposition to abortion rights is one of the most reliable indicators of right-wing political alignment in contemporary politics\"\n}",
+      "explanation": "This post strongly indicates a right-wing political orientation for several reasons: 1) The username 'ProLifeForever' and the anti-abortion stance are strongly associated with conservative/right-wing politics in current discourse 2) The specific phrasing 'Life begins at conception' is a common conservative talking point 3) The emotional framing of abortion as 'killing of an innocent child' matches typical right-wing pro-life rhetoric 4) Opposition to abortion rights is one of the most reliable indicators of right-wing political alignment in contemporary politics"
+    },
+    {
+      "author": "MiddleGround",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post does not provide enough information to definitively classify the author's political orientation. The author is posing neutral questions about finding middle ground on a controversial issue, as suggested by their username 'MiddleGround'. They neither advocate for a pro-choice nor a pro-life position, but rather ask about the possibility of compromise. The specific mention of 15 weeks could reference various state laws or international standards, but without additional context about their stance, we cannot determine their political leanings. The post appears deliberately constructed to encourage discussion rather than express a particular ideological view.\"\n}",
+      "explanation": "This post does not provide enough information to definitively classify the author's political orientation. The author is posing neutral questions about finding middle ground on a controversial issue, as suggested by their username 'MiddleGround'. They neither advocate for a pro-choice nor a pro-life position, but rather ask about the possibility of compromise. The specific mention of 15 weeks could reference various state laws or international standards, but without additional context about their stance, we cannot determine their political leanings. The post appears deliberately constructed to encourage discussion rather than express a particular ideological view."
+    },
+    {
+      "author": "FaithAndLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects typical right-wing/conservative positions on two key issues: 1) Opposition to abortion, particularly from a religious perspective, which is a cornerstone of right-wing social policy in many countries, especially the United States. 2) Opposition to public funding for abortion services, framing it as a taxpayer rights issue, which aligns with both conservative fiscal policy (limited government spending) and social policy (restricting abortion access). The combination of religious values, anti-abortion stance, and concern about tax dollars funding social services strongly indicates a right-wing political orientation.\"\n}",
+      "explanation": "This post reflects typical right-wing/conservative positions on two key issues: 1) Opposition to abortion, particularly from a religious perspective, which is a cornerstone of right-wing social policy in many countries, especially the United States. 2) Opposition to public funding for abortion services, framing it as a taxpayer rights issue, which aligns with both conservative fiscal policy (limited government spending) and social policy (restricting abortion access). The combination of religious values, anti-abortion stance, and concern about tax dollars funding social services strongly indicates a right-wing political orientation."
+    },
+    {
+      "author": "ProtectWomen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects typical left-wing positions and rhetoric on abortion rights. The focus on economic inequality and how abortion restrictions disproportionately impact poor and marginalized women is a common progressive/left argument. The framing emphasizes social justice and class disparities in healthcare access, which are core left-wing concerns. The exclamation point also suggests passionate advocacy for abortion rights, which is generally associated with left-wing politics. The username 'ProtectWomen' in this context appears to be advocating for reproductive rights rather than restrictions.\"\n}",
+      "explanation": "This post reflects typical left-wing positions and rhetoric on abortion rights. The focus on economic inequality and how abortion restrictions disproportionately impact poor and marginalized women is a common progressive/left argument. The framing emphasizes social justice and class disparities in healthcare access, which are core left-wing concerns. The exclamation point also suggests passionate advocacy for abortion rights, which is generally associated with left-wing politics. The username 'ProtectWomen' in this context appears to be advocating for reproductive rights rather than restrictions."
+    },
+    {
+      "author": "HardCases",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post cannot be definitively classified as left or right because it's phrased as a neutral question exploring nuances in abortion policy. While abortion is a highly partisan issue, the author is not expressing a personal stance but rather asking about specific exceptions that many people across the political spectrum debate. The question format and focus on exploring edge cases suggests the author is interested in thoughtful discussion rather than advocating for a particular ideological position. Without more context about their personal views, we cannot determine their political orientation from this post alone.\"\n}",
+      "explanation": "This post cannot be definitively classified as left or right because it's phrased as a neutral question exploring nuances in abortion policy. While abortion is a highly partisan issue, the author is not expressing a personal stance but rather asking about specific exceptions that many people across the political spectrum debate. The question format and focus on exploring edge cases suggests the author is interested in thoughtful discussion rather than advocating for a particular ideological position. Without more context about their personal views, we cannot determine their political orientation from this post alone."
+    },
+    {
+      "author": "ReproductiveRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views for several reasons: 1) It frames abortion primarily as a medical/healthcare issue rather than a moral one, which is a typical progressive position, 2) It emphasizes women's health and safety as the key concern, which is a common left-wing framing of the abortion debate, 3) The use of the exclamation point suggests passionate advocacy for abortion access, which is a cornerstone position of the political left, 4) The username 'ReproductiveRights' itself indicates support for abortion rights, which is overwhelmingly associated with left-wing politics in current discourse.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views for several reasons: 1) It frames abortion primarily as a medical/healthcare issue rather than a moral one, which is a typical progressive position, 2) It emphasizes women's health and safety as the key concern, which is a common left-wing framing of the abortion debate, 3) The use of the exclamation point suggests passionate advocacy for abortion access, which is a cornerstone position of the political left, 4) The username 'ReproductiveRights' itself indicates support for abortion rights, which is overwhelmingly associated with left-wing politics in current discourse."
+    },
+    {
+      "author": "ChooseLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post aligns with typical right-wing/conservative positions on abortion. The use of 'ChooseLife' as a username directly references the 'pro-life' movement, which is predominantly associated with conservative politics. The framing of adoption as an alternative to abortion and the emotional appeal about babies deserving a chance are common conservative talking points in the abortion debate. The anti-abortion stance is a core position of right-wing political ideology in contemporary politics.\"\n}",
+      "explanation": "This post aligns with typical right-wing/conservative positions on abortion. The use of 'ChooseLife' as a username directly references the 'pro-life' movement, which is predominantly associated with conservative politics. The framing of adoption as an alternative to abortion and the emotional appeal about babies deserving a chance are common conservative talking points in the abortion debate. The anti-abortion stance is a core position of right-wing political ideology in contemporary politics."
+    },
+    {
+      "author": "KeepGovOut",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views because it advocates for abortion rights and reproductive freedom using classic pro-choice rhetoric. The emphasis on keeping government out of personal medical decisions, particularly regarding women's healthcare, is a core progressive/liberal position. While libertarians on the right may also support limiting government intervention, the specific focus on women's medical autonomy and the phrasing is very characteristic of left-wing pro-choice advocacy. The username 'KeepGovOut' in this context appears to be specifically about reproductive rights rather than broader anti-government sentiment.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views because it advocates for abortion rights and reproductive freedom using classic pro-choice rhetoric. The emphasis on keeping government out of personal medical decisions, particularly regarding women's healthcare, is a core progressive/liberal position. While libertarians on the right may also support limiting government intervention, the specific focus on women's medical autonomy and the phrasing is very characteristic of left-wing pro-choice advocacy. The username 'KeepGovOut' in this context appears to be specifically about reproductive rights rather than broader anti-government sentiment."
+    },
+    {
+      "author": "StatesDecide",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post appears to be a neutral question about federalism and abortion policy without revealing the author's personal stance. The question of whether abortion should be regulated at the state or federal level has been debated by both conservatives (who often favor states' rights) and liberals (who often favor federal protection of abortion rights). Without additional context or rhetoric indicating a preference, it's impossible to determine the author's political orientation from this straightforward policy question alone.\"\n}",
+      "explanation": "This post appears to be a neutral question about federalism and abortion policy without revealing the author's personal stance. The question of whether abortion should be regulated at the state or federal level has been debated by both conservatives (who often favor states' rights) and liberals (who often favor federal protection of abortion rights). Without additional context or rhetoric indicating a preference, it's impossible to determine the author's political orientation from this straightforward policy question alone."
+    },
+    {
+      "author": "MenAndChoice",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is phrased as a neutral question that could be asked by someone of any political orientation. While abortion is a highly politicized issue, simply asking about men's role in the abortion debate does not reveal a clear political stance. The username 'MenAndChoice' could suggest interest in men's rights or abortion rights, but without more context about their actual views, we cannot determine if they lean left (pro-choice) or right (typically pro-life). The question appears designed to prompt discussion rather than advocate for a particular position.\"\n}",
+      "explanation": "This post is phrased as a neutral question that could be asked by someone of any political orientation. While abortion is a highly politicized issue, simply asking about men's role in the abortion debate does not reveal a clear political stance. The username 'MenAndChoice' could suggest interest in men's rights or abortion rights, but without more context about their actual views, we cannot determine if they lean left (pro-choice) or right (typically pro-life). The question appears designed to prompt discussion rather than advocate for a particular position."
+    },
+    {
+      "author": "FetalRights",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post contains only a question without expressing a personal stance on the abortion issue. While the username 'FetalRights' might suggest a pro-life orientation, and abortion is often a politically charged topic, the question itself is neutrally worded and could be asked by someone from any political orientation seeking genuine discussion. Without additional context or clear expression of views, we cannot reliably determine the author's political orientation from this post alone.\"\n}",
+      "explanation": "This post contains only a question without expressing a personal stance on the abortion issue. While the username 'FetalRights' might suggest a pro-life orientation, and abortion is often a politically charged topic, the question itself is neutrally worded and could be asked by someone from any political orientation seeking genuine discussion. Without additional context or clear expression of views, we cannot reliably determine the author's political orientation from this post alone."
+    },
+    {
+      "author": "SafeNotIllegal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects a classic pro-choice position commonly associated with left-wing politics. The argument that abortion bans lead to unsafe procedures rather than preventing abortions is a standard progressive talking point. The focus on women's safety and the implicit support for legal abortion access strongly indicates a left-leaning perspective. This framing prioritizes practical public health outcomes over moral prohibition, which is characteristic of left-wing approaches to reproductive rights issues.\"\n}",
+      "explanation": "This post reflects a classic pro-choice position commonly associated with left-wing politics. The argument that abortion bans lead to unsafe procedures rather than preventing abortions is a standard progressive talking point. The focus on women's safety and the implicit support for legal abortion access strongly indicates a left-leaning perspective. This framing prioritizes practical public health outcomes over moral prohibition, which is characteristic of left-wing approaches to reproductive rights issues."
+    },
+    {
+      "author": "PostAbortionTrauma",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits characteristics typically associated with right-wing political views on abortion. The username 'PostAbortionTrauma' and the focus on abortion regret are common talking points used by pro-life/anti-abortion advocates, who are predominantly on the political right. The suggestion that we shouldn't make abortion 'easier' implies opposition to abortion access, which aligns with conservative positions. The framing of abortion in terms of trauma and regret is a narrative frequently employed by right-wing advocacy groups to argue against abortion rights, rather than focusing on access or choice, which are typically left-wing frameworks for discussing this issue.\"\n}",
+      "explanation": "This post exhibits characteristics typically associated with right-wing political views on abortion. The username 'PostAbortionTrauma' and the focus on abortion regret are common talking points used by pro-life/anti-abortion advocates, who are predominantly on the political right. The suggestion that we shouldn't make abortion 'easier' implies opposition to abortion access, which aligns with conservative positions. The framing of abortion in terms of trauma and regret is a narrative frequently employed by right-wing advocacy groups to argue against abortion rights, rather than focusing on access or choice, which are typically left-wing frameworks for discussing this issue."
+    },
+    {
+      "author": "NoTaxDollarsForAbortion",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits typical right-wing positions on abortion and government spending. The username 'NoTaxDollarsForAbortion' and the content reflect conservative views that oppose public funding for abortion services, which is a standard Republican/conservative position in the US. The emphasis on not wanting tax dollars to fund abortions aligns with both fiscal conservative principles (limited government spending) and social conservative values (opposition to abortion). The suggestion to 'fund alternatives instead' is also common rhetoric among pro-life conservatives who advocate for crisis pregnancy centers and adoption services as alternatives to abortion.\"\n}",
+      "explanation": "This post exhibits typical right-wing positions on abortion and government spending. The username 'NoTaxDollarsForAbortion' and the content reflect conservative views that oppose public funding for abortion services, which is a standard Republican/conservative position in the US. The emphasis on not wanting tax dollars to fund abortions aligns with both fiscal conservative principles (limited government spending) and social conservative values (opposition to abortion). The suggestion to 'fund alternatives instead' is also common rhetoric among pro-life conservatives who advocate for crisis pregnancy centers and adoption services as alternatives to abortion."
+    },
+    {
+      "author": "ProtectWomensHealth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The author is advocating for abortion rights and access, which is a core progressive/left position, 2) The framing focuses on women's healthcare and medical safety, which aligns with typical left-wing messaging on this issue, 3) The use of language about 'restrictive' laws being harmful reflects the progressive view that government restrictions on abortion constitute a threat to women's rights and wellbeing. The exclamation point also suggests passionate advocacy for this traditionally left-wing position.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The author is advocating for abortion rights and access, which is a core progressive/left position, 2) The framing focuses on women's healthcare and medical safety, which aligns with typical left-wing messaging on this issue, 3) The use of language about 'restrictive' laws being harmful reflects the progressive view that government restrictions on abortion constitute a threat to women's rights and wellbeing. The exclamation point also suggests passionate advocacy for this traditionally left-wing position."
+    },
+    {
+      "author": "SafeAbortionAccess",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The username 'SafeAbortionAccess' directly advocates for abortion accessibility, which is a predominantly left-wing position. 2) The call for over-the-counter access to medication abortion aligns with progressive reproductive rights positions typically associated with the political left. 3) The framing of abortion access as a medical/healthcare issue ('safe and effective') rather than a moral issue is characteristic of left-wing abortion discourse. 4) The use of an exclamation point suggests enthusiasm for expanding abortion access, which is a core left-wing policy position.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The username 'SafeAbortionAccess' directly advocates for abortion accessibility, which is a predominantly left-wing position. 2) The call for over-the-counter access to medication abortion aligns with progressive reproductive rights positions typically associated with the political left. 3) The framing of abortion access as a medical/healthcare issue ('safe and effective') rather than a moral issue is characteristic of left-wing abortion discourse. 4) The use of an exclamation point suggests enthusiasm for expanding abortion access, which is a core left-wing policy position."
+    },
+    {
+      "author": "AbortionLimitsDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post simply poses neutral questions about abortion policy without taking a stance or using loaded language that would indicate the author's political orientation. The questions are phrased objectively, asking about time limits and ethics of late-term procedures without revealing personal views. Both conservative and liberal individuals could reasonably pose these questions when seeking to understand different perspectives on abortion policy. Without additional context showing how the author feels about these issues, their political orientation cannot be determined from this post alone.\"\n}",
+      "explanation": "This post simply poses neutral questions about abortion policy without taking a stance or using loaded language that would indicate the author's political orientation. The questions are phrased objectively, asking about time limits and ethics of late-term procedures without revealing personal views. Both conservative and liberal individuals could reasonably pose these questions when seeking to understand different perspectives on abortion policy. Without additional context showing how the author feels about these issues, their political orientation cannot be determined from this post alone."
+    },
+    {
+      "author": "ParentalRights",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post aligns with conservative/right-wing positions for several reasons: 1) It emphasizes parental authority and control over minors' medical decisions, which is a traditionally conservative stance 2) The focus on restricting abortion access through additional requirements is typically associated with right-wing politics 3) The use of 'parental rights' language is commonly employed by conservative advocacy groups and politicians 4) The exclamation point and emphatic tone about parents' rights reflects the emotional investment conservatives often have in this particular issue. This position is consistently championed by right-wing politicians and organizations who advocate for stricter abortion regulations and increased parental control.\"\n}",
+      "explanation": "This post aligns with conservative/right-wing positions for several reasons: 1) It emphasizes parental authority and control over minors' medical decisions, which is a traditionally conservative stance 2) The focus on restricting abortion access through additional requirements is typically associated with right-wing politics 3) The use of 'parental rights' language is commonly employed by conservative advocacy groups and politicians 4) The exclamation point and emphatic tone about parents' rights reflects the emotional investment conservatives often have in this particular issue. This position is consistently championed by right-wing politicians and organizations who advocate for stricter abortion regulations and increased parental control."
+    },
+    {
+      "author": "RoeVsWadeDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is phrased as a neutral question about the legal/governmental process regarding abortion rights without revealing the author's personal stance. The question itself is a common discussion point in American politics that both conservatives and liberals debate. The author could be from either side of the political spectrum - conservatives often advocate for states' rights while liberals often support federal protection of abortion rights. Without additional context or rhetoric that reveals their personal position, it's impossible to determine their political orientation from this question alone.\"\n}",
+      "explanation": "This post is phrased as a neutral question about the legal/governmental process regarding abortion rights without revealing the author's personal stance. The question itself is a common discussion point in American politics that both conservatives and liberals debate. The author could be from either side of the political spectrum - conservatives often advocate for states' rights while liberals often support federal protection of abortion rights. Without additional context or rhetoric that reveals their personal position, it's impossible to determine their political orientation from this question alone."
+    }
+  ]
+}

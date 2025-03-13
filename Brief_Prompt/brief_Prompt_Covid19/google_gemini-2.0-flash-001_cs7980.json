@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 44.44444444444444,
+      "f1_score": 6153.846153846153,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 42.857142857142854,
+      "recall": 100.0,
+      "f1_score": 5999.999999999999,
+      "true_positive": 6,
+      "false_positive": 8,
+      "true_negative": 6,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "ScienceMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While support for COVID-19 vaccines is often associated with left-leaning political views, it is not exclusively held by individuals on the left. Public health and scientific consensus often transcend political divides. Without further information about the author's views on other issues, it's impossible to accurately classify their political orientation based solely on this statement.\"\n}\n```",
+      "explanation": "While support for COVID-19 vaccines is often associated with left-leaning political views, it is not exclusively held by individuals on the left. Public health and scientific consensus often transcend political divides. Without further information about the author's views on other issues, it's impossible to accurately classify their political orientation based solely on this statement."
+    },
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement, \\\"Forcing people to take a vaccine is authoritarian. Medical freedom should be a personal choice!\\\" aligns with common rhetoric used by individuals with a right-leaning political orientation. The emphasis on individual liberty and resistance to government mandates, particularly in the realm of healthcare, are frequently associated with right-wing ideologies. While some on the left may also express concerns about government overreach, the framing of 'medical freedom' as a core principle is more characteristic of right-wing discourse.\"\n}\n```",
+      "explanation": "The author's statement, \"Forcing people to take a vaccine is authoritarian. Medical freedom should be a personal choice!\" aligns with common rhetoric used by individuals with a right-leaning political orientation. The emphasis on individual liberty and resistance to government mandates, particularly in the realm of healthcare, are frequently associated with right-wing ideologies. While some on the left may also express concerns about government overreach, the framing of 'medical freedom' as a core principle is more characteristic of right-wing discourse."
+    },
+    {
+      "author": "LabLeakTheory",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the lab leak theory has been discussed across the political spectrum, the post itself doesn't provide enough information to definitively classify the author's political orientation. Demanding accountability from China could align with various political viewpoints. Without further context or expressed opinions on other issues, it's impossible to accurately determine the author's political leaning.\"\n}\n```",
+      "explanation": "While the lab leak theory has been discussed across the political spectrum, the post itself doesn't provide enough information to definitively classify the author's political orientation. Demanding accountability from China could align with various political viewpoints. Without further context or expressed opinions on other issues, it's impossible to accurately determine the author's political leaning."
+    },
+    {
+      "author": "LongCovidSurvivor",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses support for research into Long COVID. This is a health-related issue that does not inherently align with a specific political orientation. While access to healthcare and research funding can be politicized, the statement itself is neutral and doesn't provide enough information to determine the author's political leaning.\"\n}\n```",
+      "explanation": "The post expresses support for research into Long COVID. This is a health-related issue that does not inherently align with a specific political orientation. While access to healthcare and research funding can be politicized, the statement itself is neutral and doesn't provide enough information to determine the author's political leaning."
+    },
+    {
+      "author": "MaskUp",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While mask-wearing became politically charged, advocating for it based on scientific evidence doesn't definitively align with either the left or the right. Both sides contain individuals with varying views on public health measures. The statement focuses on a scientific justification rather than a political ideology.\"\n}\n```",
+      "explanation": "While mask-wearing became politically charged, advocating for it based on scientific evidence doesn't definitively align with either the left or the right. Both sides contain individuals with varying views on public health measures. The statement focuses on a scientific justification rather than a political ideology."
+    },
+    {
+      "author": "ReopenTheEconomy",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement that 'Lockdowns destroyed small businesses and livelihoods. The damage was far worse than the virus itself!' aligns with a common right-leaning critique of government-imposed lockdowns during the COVID-19 pandemic. This perspective often prioritizes economic freedom and individual liberty over government intervention, even in the face of public health crises. The sentiment expressed is frequently associated with conservative or libertarian viewpoints.\"\n}\n```",
+      "explanation": "The author's statement that 'Lockdowns destroyed small businesses and livelihoods. The damage was far worse than the virus itself!' aligns with a common right-leaning critique of government-imposed lockdowns during the COVID-19 pandemic. This perspective often prioritizes economic freedom and individual liberty over government intervention, even in the face of public health crises. The sentiment expressed is frequently associated with conservative or libertarian viewpoints."
+    },
+    {
+      "author": "FactCheck",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern about COVID misinformation and the call for 'better fact-checking' aligns with a common viewpoint on the left. Left-leaning individuals and groups tend to emphasize the importance of scientific consensus and combating misinformation, particularly regarding public health issues. While not exclusively a left-leaning position, it is more commonly associated with that side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's concern about COVID misinformation and the call for 'better fact-checking' aligns with a common viewpoint on the left. Left-leaning individuals and groups tend to emphasize the importance of scientific consensus and combating misinformation, particularly regarding public health issues. While not exclusively a left-leaning position, it is more commonly associated with that side of the political spectrum."
+    },
+    {
+      "author": "NaturalImmunity",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement that \\\"Natural immunity is more effective than vaccines\\\" aligns with a common talking point among some conservative and right-leaning individuals and groups who are skeptical of vaccine mandates and government intervention in healthcare. The statement \\\"The government should have focused on protecting the vulnerable instead of mass vaccination\\\" also suggests a preference for individual liberty and limited government intervention, which are typically associated with right-leaning ideologies. While this statement alone isn't definitive, the combination of both points strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's statement that \"Natural immunity is more effective than vaccines\" aligns with a common talking point among some conservative and right-leaning individuals and groups who are skeptical of vaccine mandates and government intervention in healthcare. The statement \"The government should have focused on protecting the vulnerable instead of mass vaccination\" also suggests a preference for individual liberty and limited government intervention, which are typically associated with right-leaning ideologies. While this statement alone isn't definitive, the combination of both points strongly suggests a right-leaning political orientation."
+    },
+    {
+      "author": "ZeroCovidDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post presents a question about China's zero-COVID policy, framing it as a trade-off between preventing deaths and government overreach. This framing doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals could hold differing views on the policy, with some on the left prioritizing public health and some on the right emphasizing individual liberties and economic impact. Without further context or expressed opinions, it's impossible to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The post presents a question about China's zero-COVID policy, framing it as a trade-off between preventing deaths and government overreach. This framing doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals could hold differing views on the policy, with some on the left prioritizing public health and some on the right emphasizing individual liberties and economic impact. Without further context or expressed opinions, it's impossible to classify the author's political orientation."
+    },
+    {
+      "author": "StayProtected",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for booster shots aligns with a generally pro-science and pro-public health stance, which is more commonly associated with left-leaning political ideologies. While not exclusively held by the left, support for widespread vaccination and trust in medical institutions are often stronger within that political spectrum.\"\n}\n```",
+      "explanation": "The author's statement advocating for booster shots aligns with a generally pro-science and pro-public health stance, which is more commonly associated with left-leaning political ideologies. While not exclusively held by the left, support for widespread vaccination and trust in medical institutions are often stronger within that political spectrum."
+    },
+    {
+      "author": "WHOFailure",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"Criticizing the WHO's handling of the COVID-19 pandemic and accusing them of covering for China is a sentiment that can be found across the political spectrum. While some on the right might use this to criticize international organizations in general, others on the left might criticize the WHO for not being effective enough in protecting global health. Without further information about the author's views on other issues, it's impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "Criticizing the WHO's handling of the COVID-19 pandemic and accusing them of covering for China is a sentiment that can be found across the political spectrum. While some on the right might use this to criticize international organizations in general, others on the left might criticize the WHO for not being effective enough in protecting global health. Without further information about the author's views on other issues, it's impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "KeepSchoolsOpen",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the statement expresses concern about the negative impacts of school closures on children, this sentiment does not definitively align with either the left or right political spectrum. Both sides of the political spectrum have expressed concerns about the impact of school closures, albeit often for different reasons or with different proposed solutions. Without further context or information about the author's views on other issues, it is impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "While the statement expresses concern about the negative impacts of school closures on children, this sentiment does not definitively align with either the left or right political spectrum. Both sides of the political spectrum have expressed concerns about the impact of school closures, albeit often for different reasons or with different proposed solutions. Without further context or information about the author's views on other issues, it is impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "FalsePositives",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism about the accuracy of COVID-19 tests and questions the number of false positives. While this sentiment could potentially align with certain right-leaning viewpoints that downplayed the severity of the pandemic or questioned public health measures, it could also simply reflect a general concern about data accuracy, which is not inherently tied to a specific political ideology. Without further context or information about the author's views on related issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The post expresses skepticism about the accuracy of COVID-19 tests and questions the number of false positives. While this sentiment could potentially align with certain right-leaning viewpoints that downplayed the severity of the pandemic or questioned public health measures, it could also simply reflect a general concern about data accuracy, which is not inherently tied to a specific political ideology. Without further context or information about the author's views on related issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "NextPandemic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a desire for improved pandemic preparedness. This sentiment is not inherently tied to any specific political orientation. Individuals across the political spectrum can agree on the importance of learning from past experiences and preparing for future crises.\"\n}\n```",
+      "explanation": "The post expresses a desire for improved pandemic preparedness. This sentiment is not inherently tied to any specific political orientation. Individuals across the political spectrum can agree on the importance of learning from past experiences and preparing for future crises."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses concern about the mental health crisis exacerbated by the pandemic. While concern for mental health is a common value, it doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals can acknowledge and be concerned about mental health issues. Without further information about the author's views on related issues or broader political topics, it's impossible to classify their political orientation.\"\n}\n```",
+      "explanation": "The post expresses concern about the mental health crisis exacerbated by the pandemic. While concern for mental health is a common value, it doesn't inherently align with a specific political orientation. Both left-leaning and right-leaning individuals can acknowledge and be concerned about mental health issues. Without further information about the author's views on related issues or broader political topics, it's impossible to classify their political orientation."
+    },
+    {
+      "author": "OpenBordersNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the statement criticizes travel restrictions and lockdowns, which could be associated with either left-leaning or right-leaning perspectives depending on the specific context and reasoning, the provided statement alone is insufficient to definitively classify the author's political orientation. Both sides of the political spectrum have voiced concerns about the economic impact of lockdowns, albeit for potentially different reasons (e.g., individual liberty vs. business interests). Without further context on the author's reasoning or other political views, it's impossible to accurately classify their orientation.\"\n}\n```",
+      "explanation": "While the statement criticizes travel restrictions and lockdowns, which could be associated with either left-leaning or right-leaning perspectives depending on the specific context and reasoning, the provided statement alone is insufficient to definitively classify the author's political orientation. Both sides of the political spectrum have voiced concerns about the economic impact of lockdowns, albeit for potentially different reasons (e.g., individual liberty vs. business interests). Without further context on the author's reasoning or other political views, it's impossible to accurately classify their orientation."
+    },
+    {
+      "author": "FollowTheMoney",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post raises a question about the motivations behind pharmaceutical companies' actions during the COVID-19 pandemic. While skepticism towards large corporations and their profit motives can be associated with left-leaning perspectives, it's also a common theme in some right-leaning populist viewpoints that are critical of 'big business'. Without further context or information about the author's other views, it's impossible to definitively classify their political orientation. The question itself is neutral and could be asked by someone from either side of the political spectrum.\"\n}\n```",
+      "explanation": "The post raises a question about the motivations behind pharmaceutical companies' actions during the COVID-19 pandemic. While skepticism towards large corporations and their profit motives can be associated with left-leaning perspectives, it's also a common theme in some right-leaning populist viewpoints that are critical of 'big business'. Without further context or information about the author's other views, it's impossible to definitively classify their political orientation. The question itself is neutral and could be asked by someone from either side of the political spectrum."
+    },
+    {
+      "author": "RemoteWork",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post simply poses a question about remote work. There is no indication of the author's political orientation. The question itself is not inherently tied to any specific political ideology.\"\n}\n```",
+      "explanation": "The post simply poses a question about remote work. There is no indication of the author's political orientation. The question itself is not inherently tied to any specific political ideology."
+    },
+    {
+      "author": "FreedomMatters",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's opposition to lockdowns, vaccine mandates, and restrictions aligns with common positions held by individuals on the right. These policies are often criticized by conservatives and libertarians as infringements on individual liberty and government overreach.\"\n}\n```",
+      "explanation": "The author's opposition to lockdowns, vaccine mandates, and restrictions aligns with common positions held by individuals on the right. These policies are often criticized by conservatives and libertarians as infringements on individual liberty and government overreach."
+    },
+    {
+      "author": "LearnFromHistory",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post asks a neutral question about lessons learned from COVID-19. It doesn't express any political opinions or leanings. The author's username, \\\"LearnFromHistory,\\\" suggests an interest in historical analysis, which is not inherently indicative of any particular political orientation.\"\n}\n```",
+      "explanation": "The post asks a neutral question about lessons learned from COVID-19. It doesn't express any political opinions or leanings. The author's username, \"LearnFromHistory,\" suggests an interest in historical analysis, which is not inherently indicative of any particular political orientation."
+    }
+  ]
+}

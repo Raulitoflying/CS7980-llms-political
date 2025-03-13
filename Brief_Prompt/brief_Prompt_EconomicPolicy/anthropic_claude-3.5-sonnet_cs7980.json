@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 88.88888888888889,
+      "f1_score": 9411.764705882351,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "TaxTheRich",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views for several reasons: 1) The username 'TaxTheRich' directly advocates for higher taxation of wealthy individuals, a classic progressive/left position, 2) The post expresses concern for class inequality and economic disparity between the wealthy and working class, which is a core left-wing perspective, 3) The framing of the '1%' versus the 'working class' uses typical left-wing class-based rhetoric and analysis, 4) The suggestion that wealthy individuals aren't paying their fair share is a common progressive talking point. These elements together clearly indicate a left-wing political orientation.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views for several reasons: 1) The username 'TaxTheRich' directly advocates for higher taxation of wealthy individuals, a classic progressive/left position, 2) The post expresses concern for class inequality and economic disparity between the wealthy and working class, which is a core left-wing perspective, 3) The framing of the '1%' versus the 'working class' uses typical left-wing class-based rhetoric and analysis, 4) The suggestion that wealthy individuals aren't paying their fair share is a common progressive talking point. These elements together clearly indicate a left-wing political orientation."
+    },
+    {
+      "author": "FreeMarketRules",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post strongly aligns with right-wing economic ideology for several reasons: 1) The username 'FreeMarketRules' indicates support for free-market capitalism, a traditionally conservative economic position, 2) The argument for lower taxes as a driver of business growth and job creation is a core conservative/right-wing economic principle, 3) The framing of high taxes as harmful to economic growth is a common right-wing talking point, and 4) The exclamatory tone suggests emotional investment in this conservative economic viewpoint. This represents classic supply-side/trickle-down economics theory that is strongly associated with right-wing political and economic philosophy.\"\n}",
+      "explanation": "This post strongly aligns with right-wing economic ideology for several reasons: 1) The username 'FreeMarketRules' indicates support for free-market capitalism, a traditionally conservative economic position, 2) The argument for lower taxes as a driver of business growth and job creation is a core conservative/right-wing economic principle, 3) The framing of high taxes as harmful to economic growth is a common right-wing talking point, and 4) The exclamatory tone suggests emotional investment in this conservative economic viewpoint. This represents classic supply-side/trickle-down economics theory that is strongly associated with right-wing political and economic philosophy."
+    },
+    {
+      "author": "UBIforAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post advocates for Universal Basic Income (UBI), which is typically associated with left-wing economic policies. The author's username 'UBIforAll' and their support for universal welfare programs aligns with progressive/left ideologies that favor government intervention to address economic inequality and social welfare. The mention of automation's impact also reflects a common left-wing concern about technological displacement and the need for systemic solutions to protect workers. Conservative/right positions typically oppose such universal government benefits, preferring market-based solutions or more limited welfare programs.\"\n}",
+      "explanation": "This post advocates for Universal Basic Income (UBI), which is typically associated with left-wing economic policies. The author's username 'UBIforAll' and their support for universal welfare programs aligns with progressive/left ideologies that favor government intervention to address economic inequality and social welfare. The mention of automation's impact also reflects a common left-wing concern about technological displacement and the need for systemic solutions to protect workers. Conservative/right positions typically oppose such universal government benefits, preferring market-based solutions or more limited welfare programs."
+    },
+    {
+      "author": "UBISkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post suggests a right-leaning political orientation for several reasons: 1) The username 'UBISkeptic' indicates skepticism toward Universal Basic Income, a policy typically supported by the left, 2) The focus on cost and concern about taxation is a common conservative/right-wing framing of social programs, 3) The mention of inflation as a concern reflects typical right-wing economic perspectives that are wary of government spending programs, 4) The phrasing 'crushing taxes' uses emotionally charged language often employed by fiscal conservatives to argue against government programs. The overall framing approaches UBI from a cost/fiscal responsibility perspective rather than a social benefit perspective, which is characteristic of right-wing discourse.\"\n}",
+      "explanation": "This post suggests a right-leaning political orientation for several reasons: 1) The username 'UBISkeptic' indicates skepticism toward Universal Basic Income, a policy typically supported by the left, 2) The focus on cost and concern about taxation is a common conservative/right-wing framing of social programs, 3) The mention of inflation as a concern reflects typical right-wing economic perspectives that are wary of government spending programs, 4) The phrasing 'crushing taxes' uses emotionally charged language often employed by fiscal conservatives to argue against government programs. The overall framing approaches UBI from a cost/fiscal responsibility perspective rather than a social benefit perspective, which is characteristic of right-wing discourse."
+    },
+    {
+      "author": "WelfareMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The author expresses strong support for social welfare programs, which is a core left-wing position, 2) They frame the issue in terms of helping the vulnerable and fighting poverty, which aligns with progressive values and rhetoric, 3) The exclamation point suggests emotional investment in defending these programs, 4) The username 'WelfareMatters' itself indicates someone who prioritizes social welfare, a traditionally left-wing concern, 5) They present welfare cuts as harmful, opposing the right-wing position that often advocates for reducing social programs.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The author expresses strong support for social welfare programs, which is a core left-wing position, 2) They frame the issue in terms of helping the vulnerable and fighting poverty, which aligns with progressive values and rhetoric, 3) The exclamation point suggests emotional investment in defending these programs, 4) The username 'WelfareMatters' itself indicates someone who prioritizes social welfare, a traditionally left-wing concern, 5) They present welfare cuts as harmful, opposing the right-wing position that often advocates for reducing social programs."
+    },
+    {
+      "author": "WorkNotHandouts",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects classic right-wing/conservative positions through: 1) The criticism of welfare programs as creating dependency, which is a common conservative talking point, 2) The emphasis on job creation over government assistance programs, aligning with right-wing free market principles, 3) The use of the term 'handouts' which is typically used pejoratively by conservatives to criticize social programs, 4) Even the author's username 'WorkNotHandouts' emphasizes personal responsibility over government assistance, which is a core conservative value.\"\n}",
+      "explanation": "This post reflects classic right-wing/conservative positions through: 1) The criticism of welfare programs as creating dependency, which is a common conservative talking point, 2) The emphasis on job creation over government assistance programs, aligning with right-wing free market principles, 3) The use of the term 'handouts' which is typically used pejoratively by conservatives to criticize social programs, 4) Even the author's username 'WorkNotHandouts' emphasizes personal responsibility over government assistance, which is a core conservative value."
+    },
+    {
+      "author": "RegulateBigTech",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-leaning positions because it advocates for increased government regulation of private businesses, specifically tech companies. The focus on consumer protection through government intervention and skepticism of corporate power are common progressive/left positions. While some on the right also criticize Big Tech, they typically focus more on censorship concerns rather than calling for broader regulation. The username 'RegulateBigTech' and the exclamation supporting more regulation further suggests a left-leaning perspective that favors government oversight of private industry.\"\n}",
+      "explanation": "This post aligns with typically left-leaning positions because it advocates for increased government regulation of private businesses, specifically tech companies. The focus on consumer protection through government intervention and skepticism of corporate power are common progressive/left positions. While some on the right also criticize Big Tech, they typically focus more on censorship concerns rather than calling for broader regulation. The username 'RegulateBigTech' and the exclamation supporting more regulation further suggests a left-leaning perspective that favors government oversight of private industry."
+    },
+    {
+      "author": "LaissezFaire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post strongly aligns with right-wing economic philosophy for several reasons: 1) The username 'LaissezFaire' directly references the free-market economic principle popular among conservatives and libertarians, 2) The opposition to government regulation is a core conservative/right-wing position, 3) The belief that markets should self-regulate is a fundamental right-wing economic principle, and 4) The framing of government involvement as 'interference' rather than 'oversight' or 'regulation' uses typical right-wing rhetoric.\"\n}",
+      "explanation": "This post strongly aligns with right-wing economic philosophy for several reasons: 1) The username 'LaissezFaire' directly references the free-market economic principle popular among conservatives and libertarians, 2) The opposition to government regulation is a core conservative/right-wing position, 3) The belief that markets should self-regulate is a fundamental right-wing economic principle, and 4) The framing of government involvement as 'interference' rather than 'oversight' or 'regulation' uses typical right-wing rhetoric."
+    },
+    {
+      "author": "BlameTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits typical right-wing economic views for several reasons: 1) The username 'BlameTheFed' indicates skepticism of the Federal Reserve, which is a common position among right-wing and libertarian groups, 2) The criticism of monetary policy and linking it directly to inflation aligns with conservative/right-wing economic perspectives that generally favor tight monetary policy and are critical of government intervention in the economy, 3) This type of direct criticism of the Federal Reserve's money printing is a frequent talking point among right-wing politicians and commentators, particularly those who advocate for free market principles and limited government involvement in monetary policy.\"\n}",
+      "explanation": "This post exhibits typical right-wing economic views for several reasons: 1) The username 'BlameTheFed' indicates skepticism of the Federal Reserve, which is a common position among right-wing and libertarian groups, 2) The criticism of monetary policy and linking it directly to inflation aligns with conservative/right-wing economic perspectives that generally favor tight monetary policy and are critical of government intervention in the economy, 3) This type of direct criticism of the Federal Reserve's money printing is a frequent talking point among right-wing politicians and commentators, particularly those who advocate for free market principles and limited government involvement in monetary policy."
+    },
+    {
+      "author": "StopSpending",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post simply poses an economic policy question without revealing a clear ideological stance. While concerns about inflation and government spending can be associated with fiscal conservatives on the right, the question itself is neutral and could be asked by someone of any political orientation who is interested in economic policy. The author's username 'StopSpending' might suggest fiscal conservatism, but the post content alone doesn't provide enough context to make a definitive classification of political orientation.\"\n}",
+      "explanation": "This post simply poses an economic policy question without revealing a clear ideological stance. While concerns about inflation and government spending can be associated with fiscal conservatives on the right, the question itself is neutral and could be asked by someone of any political orientation who is interested in economic policy. The author's username 'StopSpending' might suggest fiscal conservatism, but the post content alone doesn't provide enough context to make a definitive classification of political orientation."
+    },
+    {
+      "author": "TradeWins",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post expresses strong support for free trade and opposition to protectionist policies, which are typically right-wing/conservative economic positions. The emphasis on free market principles and the belief that government intervention in trade (protectionism) is harmful aligns with classical liberal and conservative economic philosophy. The exclamation point suggests passionate conviction about this free market position. While some centrists and even left-leaning people may support free trade, the unequivocal pro-free trade stance combined with explicit anti-protectionism is more characteristic of right-wing economic views.\"\n}",
+      "explanation": "This post expresses strong support for free trade and opposition to protectionist policies, which are typically right-wing/conservative economic positions. The emphasis on free market principles and the belief that government intervention in trade (protectionism) is harmful aligns with classical liberal and conservative economic philosophy. The exclamation point suggests passionate conviction about this free market position. While some centrists and even left-leaning people may support free trade, the unequivocal pro-free trade stance combined with explicit anti-protectionism is more characteristic of right-wing economic views."
+    },
+    {
+      "author": "BuyAmerican",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post aligns with right-wing economic nationalism and protectionist policies. The emphasis on 'Buy American' (including in the username) and support for tariffs are positions commonly associated with right-wing populism and economic protectionism. While historically some left-wing labor movements have supported protectionist policies, in modern political discourse, especially in the US, strong anti-free trade and pro-tariff positions are more commonly associated with right-wing politics, particularly following Trump's 'America First' economic policies. The focus on protecting domestic manufacturing jobs through trade barriers rather than other policy solutions (like labor rights or industrial policy) is also more characteristic of right-wing economic approaches.\"\n}",
+      "explanation": "This post aligns with right-wing economic nationalism and protectionist policies. The emphasis on 'Buy American' (including in the username) and support for tariffs are positions commonly associated with right-wing populism and economic protectionism. While historically some left-wing labor movements have supported protectionist policies, in modern political discourse, especially in the US, strong anti-free trade and pro-tariff positions are more commonly associated with right-wing politics, particularly following Trump's 'America First' economic policies. The focus on protecting domestic manufacturing jobs through trade barriers rather than other policy solutions (like labor rights or industrial policy) is also more characteristic of right-wing economic approaches."
+    },
+    {
+      "author": "EndTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits classic right-wing/libertarian talking points about the Federal Reserve. The username 'EndTheFed' and the criticism of the Federal Reserve as an 'unelected' body controlling the economy aligns strongly with right-wing economic views. Opposition to central banking and the Federal Reserve is a common position among conservatives, libertarians, and right-wing populists who advocate for less government intervention in the economy. This perspective often ties into broader right-wing themes about reducing the power of federal institutions and promoting free market principles without centralized control.\"\n}",
+      "explanation": "This post exhibits classic right-wing/libertarian talking points about the Federal Reserve. The username 'EndTheFed' and the criticism of the Federal Reserve as an 'unelected' body controlling the economy aligns strongly with right-wing economic views. Opposition to central banking and the Federal Reserve is a common position among conservatives, libertarians, and right-wing populists who advocate for less government intervention in the economy. This perspective often ties into broader right-wing themes about reducing the power of federal institutions and promoting free market principles without centralized control."
+    },
+    {
+      "author": "BitcoinFixesThis",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits typical right-libertarian views through its anti-government stance and advocacy for cryptocurrency. The distrust of government control over monetary policy ('Governments can't be trusted with money') and emphasis on free market solutions (Bitcoin) aligns strongly with right-wing libertarian economic philosophy. The exclamation about a 'free economy' further suggests a belief in minimal government intervention and market deregulation, which are traditionally right-wing economic positions. The username 'BitcoinFixesThis' also implies an ideological commitment to cryptocurrency as a solution to government monetary control, a common theme in right-wing libertarian circles.\"\n}",
+      "explanation": "This post exhibits typical right-libertarian views through its anti-government stance and advocacy for cryptocurrency. The distrust of government control over monetary policy ('Governments can't be trusted with money') and emphasis on free market solutions (Bitcoin) aligns strongly with right-wing libertarian economic philosophy. The exclamation about a 'free economy' further suggests a belief in minimal government intervention and market deregulation, which are traditionally right-wing economic positions. The username 'BitcoinFixesThis' also implies an ideological commitment to cryptocurrency as a solution to government monetary control, a common theme in right-wing libertarian circles."
+    },
+    {
+      "author": "CryptoRegulations",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post suggests support for increased government regulation and oversight of cryptocurrency markets, which is typically a left-leaning position. The author expresses concern about financial instability and scams, advocating for regulatory frameworks similar to traditional financial institutions. This aligns with progressive/left views that favor government intervention in markets to protect consumers, as opposed to right-wing positions that typically advocate for free market solutions and minimal regulation. The exclamation point suggests emotional investment in the regulatory stance.\"\n}",
+      "explanation": "This post suggests support for increased government regulation and oversight of cryptocurrency markets, which is typically a left-leaning position. The author expresses concern about financial instability and scams, advocating for regulatory frameworks similar to traditional financial institutions. This aligns with progressive/left views that favor government intervention in markets to protect consumers, as opposed to right-wing positions that typically advocate for free market solutions and minimal regulation. The exclamation point suggests emotional investment in the regulatory stance."
+    },
+    {
+      "author": "GovCreatesJobs",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects typical left-wing economic views for several reasons: 1) It advocates for government intervention in the economy through direct investment, which is a traditionally left-wing approach, 2) It specifically mentions green energy, which is a priority typically associated with progressive/left environmental policies, 3) The username 'GovCreatesJobs' suggests a belief in government's role in job creation rather than purely private sector solutions, which aligns with left-wing economic philosophy, 4) The overall message promotes government spending as a way to stimulate economic growth, which is a Keynesian economic approach typically favored by the left.\"\n}",
+      "explanation": "This post reflects typical left-wing economic views for several reasons: 1) It advocates for government intervention in the economy through direct investment, which is a traditionally left-wing approach, 2) It specifically mentions green energy, which is a priority typically associated with progressive/left environmental policies, 3) The username 'GovCreatesJobs' suggests a belief in government's role in job creation rather than purely private sector solutions, which aligns with left-wing economic philosophy, 4) The overall message promotes government spending as a way to stimulate economic growth, which is a Keynesian economic approach typically favored by the left."
+    },
+    {
+      "author": "MarketKnowsBest",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post strongly aligns with right-wing/conservative economic ideology for several reasons: 1) The statement 'government doesn't create jobs, businesses do' is a common conservative talking point that emphasizes private sector solutions over government intervention, 2) The call for 'fewer regulations' reflects the right's preference for free market capitalism and deregulation, 3) The demand for 'lower taxes' is a core conservative economic principle that advocates for reducing government's role in the economy. These positions are consistently associated with right-wing economic philosophy that prioritizes free market solutions and minimal government involvement.\"\n}",
+      "explanation": "This post strongly aligns with right-wing/conservative economic ideology for several reasons: 1) The statement 'government doesn't create jobs, businesses do' is a common conservative talking point that emphasizes private sector solutions over government intervention, 2) The call for 'fewer regulations' reflects the right's preference for free market capitalism and deregulation, 3) The demand for 'lower taxes' is a core conservative economic principle that advocates for reducing government's role in the economy. These positions are consistently associated with right-wing economic philosophy that prioritizes free market solutions and minimal government involvement."
+    },
+    {
+      "author": "TooYoungToRetire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This position aligns with typical conservative/right-wing views on entitlement reform. The argument for raising the retirement age is a common Republican/conservative policy proposal that emphasizes fiscal responsibility and reducing government spending on social programs. Rather than suggesting increased taxation or expanded benefits, which are typically left-wing solutions, the author advocates for reducing program costs by delaying benefits. This approach reflects the right's preference for addressing entitlement sustainability through benefit reduction rather than revenue increases.\"\n}",
+      "explanation": "This position aligns with typical conservative/right-wing views on entitlement reform. The argument for raising the retirement age is a common Republican/conservative policy proposal that emphasizes fiscal responsibility and reducing government spending on social programs. Rather than suggesting increased taxation or expanded benefits, which are typically left-wing solutions, the author advocates for reducing program costs by delaying benefits. This approach reflects the right's preference for addressing entitlement sustainability through benefit reduction rather than revenue increases."
+    },
+    {
+      "author": "RetireWithDignity",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post expresses views typically associated with left-wing political ideology for several reasons: 1) It shows concern for workers' rights and welfare, which is a core left-wing value, 2) It opposes raising the retirement age, which is typically a conservative policy proposal, 3) The emphasis on 'dignity' in retirement and social welfare aligns with progressive values about protecting vulnerable populations, and 4) The exclamation point suggests emotional investment in protecting worker benefits, a traditionally left-wing priority. The language used frames retirement as a right rather than something that needs to be balanced against economic constraints, which is characteristic of left-wing discourse.\"\n}",
+      "explanation": "This post expresses views typically associated with left-wing political ideology for several reasons: 1) It shows concern for workers' rights and welfare, which is a core left-wing value, 2) It opposes raising the retirement age, which is typically a conservative policy proposal, 3) The emphasis on 'dignity' in retirement and social welfare aligns with progressive values about protecting vulnerable populations, and 4) The exclamation point suggests emotional investment in protecting worker benefits, a traditionally left-wing priority. The language used frames retirement as a right rather than something that needs to be balanced against economic constraints, which is characteristic of left-wing discourse."
+    },
+    {
+      "author": "TaxBillionaires",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views for several reasons: 1) It criticizes billionaires and wealth concentration, which is a common leftist critique of capitalism, 2) It uses the term 'hoard wealth' which implies an unfair distribution of resources - a core left-wing concern, 3) It explicitly advocates for a wealth tax, which is a progressive policy proposal typically championed by the political left to redistribute wealth, and 4) It frames the issue in terms of economic fairness and class division between 'billionaires' and 'regular people', which is consistent with left-wing economic populism and social democratic ideals.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views for several reasons: 1) It criticizes billionaires and wealth concentration, which is a common leftist critique of capitalism, 2) It uses the term 'hoard wealth' which implies an unfair distribution of resources - a core left-wing concern, 3) It explicitly advocates for a wealth tax, which is a progressive policy proposal typically championed by the political left to redistribute wealth, and 4) It frames the issue in terms of economic fairness and class division between 'billionaires' and 'regular people', which is consistent with left-wing economic populism and social democratic ideals."
+    }
+  ]
+}

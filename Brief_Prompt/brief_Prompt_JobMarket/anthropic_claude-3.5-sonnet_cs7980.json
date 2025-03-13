@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 75.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 30.0,
+      "recall": 100.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 7,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "TechWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post appears to be a neutral observation and question about tech industry employment trends. The author simply notes the factual occurrence of tech layoffs and asks an analytical question about whether it relates to previous hiring patterns during the pandemic. There are no ideological markers, partisan talking points, or policy positions expressed that would indicate a clear left or right political orientation. The question could be asked by someone of any political leaning who is interested in understanding labor market dynamics in the tech sector.\"\n}",
+      "explanation": "This post appears to be a neutral observation and question about tech industry employment trends. The author simply notes the factual occurrence of tech layoffs and asks an analytical question about whether it relates to previous hiring patterns during the pandemic. There are no ideological markers, partisan talking points, or policy positions expressed that would indicate a clear left or right political orientation. The question could be asked by someone of any political leaning who is interested in understanding labor market dynamics in the tech sector."
+    },
+    {
+      "author": "RemoteLife",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses support for remote work but doesn't clearly indicate a left or right political orientation. While remote work flexibility can align with progressive workplace reforms (left-leaning) or free market business efficiency (right-leaning), the author's focus appears purely practical, citing productivity and work-life balance. These are non-partisan concerns that both conservatives and liberals can support. Without additional context about their views on regulation, workers' rights, or business autonomy, we cannot reliably determine their political orientation from this statement alone.\"\n}",
+      "explanation": "This post expresses support for remote work but doesn't clearly indicate a left or right political orientation. While remote work flexibility can align with progressive workplace reforms (left-leaning) or free market business efficiency (right-leaning), the author's focus appears purely practical, citing productivity and work-life balance. These are non-partisan concerns that both conservatives and liberals can support. Without additional context about their views on regulation, workers' rights, or business autonomy, we cannot reliably determine their political orientation from this statement alone."
+    },
+    {
+      "author": "OfficeFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses an opinion about workplace policy but doesn't clearly indicate a political orientation. While some conservatives have advocated for return-to-office policies and some progressives have championed remote work, these stances aren't exclusively tied to political ideology. The argument focuses on business productivity and collaboration rather than political issues. Both liberal and conservative business leaders have taken various positions on remote work based on their business needs and management philosophy. Without additional context about other political views or how this connects to broader policy positions, we cannot reliably determine the author's political orientation from this statement alone.\"\n}",
+      "explanation": "This post expresses an opinion about workplace policy but doesn't clearly indicate a political orientation. While some conservatives have advocated for return-to-office policies and some progressives have championed remote work, these stances aren't exclusively tied to political ideology. The argument focuses on business productivity and collaboration rather than political issues. Both liberal and conservative business leaders have taken various positions on remote work based on their business needs and management philosophy. Without additional context about other political views or how this connects to broader policy positions, we cannot reliably determine the author's political orientation from this statement alone."
+    },
+    {
+      "author": "AIThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typically left-leaning views because it: 1) Expresses concern about technological job displacement, which is a common progressive/left concern about worker welfare, 2) Calls for government intervention and regulation in the market, which aligns with left-wing support for an active government role in managing economic forces, rather than letting the free market operate unimpeded (a more right-wing position). The combination of worker advocacy and support for government regulation strongly suggests a left-wing political orientation.\"\n}",
+      "explanation": "This post exhibits typically left-leaning views because it: 1) Expresses concern about technological job displacement, which is a common progressive/left concern about worker welfare, 2) Calls for government intervention and regulation in the market, which aligns with left-wing support for an active government role in managing economic forces, rather than letting the free market operate unimpeded (a more right-wing position). The combination of worker advocacy and support for government regulation strongly suggests a left-wing political orientation."
+    },
+    {
+      "author": "AIInnovation",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses a neutral, technology-focused perspective that doesn't clearly align with left or right political ideologies. Support for AI and technological progress can be found across the political spectrum. While some might associate tech enthusiasm with certain political leanings, this statement alone is focused on economic and technological progress without any clear political markers or ideological indicators regarding regulation, labor policies, or social implications that would suggest a specific political orientation.\"\n}",
+      "explanation": "This post expresses a neutral, technology-focused perspective that doesn't clearly align with left or right political ideologies. Support for AI and technological progress can be found across the political spectrum. While some might associate tech enthusiasm with certain political leanings, this statement alone is focused on economic and technological progress without any clear political markers or ideological indicators regarding regulation, labor policies, or social implications that would suggest a specific political orientation."
+    },
+    {
+      "author": "FairPayNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political views because: 1) It advocates for raising the minimum wage, which is a classic progressive/left policy position, 2) The language about workers 'deserving' fair pay reflects the left's focus on labor rights and economic equality, 3) The use of 'essential' suggests viewing this as a moral imperative rather than a market-based decision, which is characteristic of left-wing economic thinking, 4) The exclamation point and username 'FairPayNow' suggest passionate advocacy for worker-focused economic policies, which is typically associated with the political left.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political views because: 1) It advocates for raising the minimum wage, which is a classic progressive/left policy position, 2) The language about workers 'deserving' fair pay reflects the left's focus on labor rights and economic equality, 3) The use of 'essential' suggests viewing this as a moral imperative rather than a market-based decision, which is characteristic of left-wing economic thinking, 4) The exclamation point and username 'FairPayNow' suggest passionate advocacy for worker-focused economic policies, which is typically associated with the political left."
+    },
+    {
+      "author": "SmallBizOwner",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects typical right-wing/conservative economic positions by opposing minimum wage increases and emphasizing their negative impact on businesses. The argument that minimum wage increases lead to job losses and harm business owners is a common conservative talking point that aligns with free-market principles and limited government intervention in the economy. The author's username 'SmallBizOwner' and focus on business interests rather than worker benefits further suggests a right-leaning perspective.\"\n}",
+      "explanation": "This post reflects typical right-wing/conservative economic positions by opposing minimum wage increases and emphasizing their negative impact on businesses. The argument that minimum wage increases lead to job losses and harm business owners is a common conservative talking point that aligns with free-market principles and limited government intervention in the economy. The author's username 'SmallBizOwner' and focus on business interests rather than worker benefits further suggests a right-leaning perspective."
+    },
+    {
+      "author": "RecentGrad",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post does not provide enough clear ideological indicators to determine the author's political orientation. The frustration with job hunting and questioning the value of education are concerns shared across the political spectrum. Both left-leaning individuals (who might blame systemic economic inequality or corporate practices) and right-leaning individuals (who might question the education system or government involvement in education) could express these sentiments. Without additional context about their proposed solutions or who they blame for these challenges, we cannot make a reliable determination of political orientation.\"\n}",
+      "explanation": "This post does not provide enough clear ideological indicators to determine the author's political orientation. The frustration with job hunting and questioning the value of education are concerns shared across the political spectrum. Both left-leaning individuals (who might blame systemic economic inequality or corporate practices) and right-leaning individuals (who might question the education system or government involvement in education) could express these sentiments. Without additional context about their proposed solutions or who they blame for these challenges, we cannot make a reliable determination of political orientation."
+    },
+    {
+      "author": "GigWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is politically neutral as it simply poses a question about the trend toward gig work and freelancing without expressing any clear ideological stance. The author doesn't indicate whether they view this trend positively or negatively, nor do they comment on related political issues like worker protections, benefits, or regulation of the gig economy. Without additional context about their views on labor rights, corporate power, or economic policy, it's impossible to reliably classify their political orientation.\"\n}",
+      "explanation": "This post is politically neutral as it simply poses a question about the trend toward gig work and freelancing without expressing any clear ideological stance. The author doesn't indicate whether they view this trend positively or negatively, nor do they comment on related political issues like worker protections, benefits, or regulation of the gig economy. Without additional context about their views on labor rights, corporate power, or economic policy, it's impossible to reliably classify their political orientation."
+    },
+    {
+      "author": "HateMyJob",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses concern about workplace burnout and advocates for better work-life balance, but these views aren't exclusive to any political orientation. Both left and right-leaning individuals can support improved working conditions and work-life balance, though they might differ on how to achieve it. Without additional context about specific policy preferences (like government regulation vs. free market solutions) or other political indicators, it's not possible to definitively classify the author's political orientation from this statement alone.\"\n}",
+      "explanation": "This post expresses concern about workplace burnout and advocates for better work-life balance, but these views aren't exclusive to any political orientation. Both left and right-leaning individuals can support improved working conditions and work-life balance, though they might differ on how to achieve it. Without additional context about specific policy preferences (like government regulation vs. free market solutions) or other political indicators, it's not possible to definitively classify the author's political orientation from this statement alone."
+    },
+    {
+      "author": "TradeSkills",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement about trade skills and vocational education doesn't clearly indicate a political orientation. While conservatives sometimes emphasize alternatives to college education and traditional paths to success, and progressives sometimes focus on accessible career paths and worker empowerment, support for skilled trades is generally bipartisan. The message is a straightforward observation about career options and earning potential without any clear political framing or ideological markers. Both right and left-leaning individuals regularly advocate for trade schools and vocational training as viable career paths.\"\n}",
+      "explanation": "This statement about trade skills and vocational education doesn't clearly indicate a political orientation. While conservatives sometimes emphasize alternatives to college education and traditional paths to success, and progressives sometimes focus on accessible career paths and worker empowerment, support for skilled trades is generally bipartisan. The message is a straightforward observation about career options and earning potential without any clear political framing or ideological markers. Both right and left-leaning individuals regularly advocate for trade schools and vocational training as viable career paths."
+    },
+    {
+      "author": "EqualPay",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with left-wing political views for several reasons: 1) It focuses on gender-based wage inequality, which is a core progressive/left issue, 2) The author advocates for enforcement of pay equity, suggesting government intervention in the market to ensure fairness - a typically left-wing policy position, 3) The exclamation point and username 'EqualPay' suggest passionate advocacy for this progressive cause. The framing of this as a continuing injustice that requires regulatory action is characteristic of left-wing discourse on economic and social justice issues.\"\n}",
+      "explanation": "This post aligns with left-wing political views for several reasons: 1) It focuses on gender-based wage inequality, which is a core progressive/left issue, 2) The author advocates for enforcement of pay equity, suggesting government intervention in the market to ensure fairness - a typically left-wing policy position, 3) The exclamation point and username 'EqualPay' suggest passionate advocacy for this progressive cause. The framing of this as a continuing injustice that requires regulatory action is characteristic of left-wing discourse on economic and social justice issues."
+    },
+    {
+      "author": "WorkForever?",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This comment appears to be expressing concern about economic inequality and the erosion of retirement security, which are typically left-leaning concerns. The exclamation point and framing of retirement as a 'luxury' suggests criticism of a system where working class people must work longer than previous generations. This aligns with progressive/left perspectives that advocate for stronger social safety nets and critique the increasing wealth gap. The tone implies this is a systemic problem rather than an individual responsibility issue, which is more characteristic of left-wing economic views.\"\n}",
+      "explanation": "This comment appears to be expressing concern about economic inequality and the erosion of retirement security, which are typically left-leaning concerns. The exclamation point and framing of retirement as a 'luxury' suggests criticism of a system where working class people must work longer than previous generations. This aligns with progressive/left perspectives that advocate for stronger social safety nets and critique the increasing wealth gap. The tone implies this is a systemic problem rather than an individual responsibility issue, which is more characteristic of left-wing economic views."
+    },
+    {
+      "author": "UnionStrong",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The author's username 'UnionStrong' explicitly shows support for labor unions, which is traditionally associated with left-wing politics and progressive labor movements. 2) The enthusiastic endorsement of unions as protectors of workers' rights aligns with core left-wing values about labor rights and collective bargaining. 3) The focus on 'fair wages' reflects typical left-wing concerns about economic equality and worker compensation. The pro-union, pro-worker rights stance is a classic position of the political left, particularly in the context of labor movements and economic justice.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The author's username 'UnionStrong' explicitly shows support for labor unions, which is traditionally associated with left-wing politics and progressive labor movements. 2) The enthusiastic endorsement of unions as protectors of workers' rights aligns with core left-wing values about labor rights and collective bargaining. 3) The focus on 'fair wages' reflects typical left-wing concerns about economic equality and worker compensation. The pro-union, pro-worker rights stance is a classic position of the political left, particularly in the context of labor movements and economic justice."
+    },
+    {
+      "author": "NewCountryNewStart",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects a typically left-leaning perspective by acknowledging both the positive economic impact of immigration while also expressing concern for immigrants' welfare and employment challenges. The statement recognizes immigrants' contributions rather than focusing on potential negative impacts, which is characteristic of progressive/left viewpoints. The second half shows concern for social justice and immigrant wellbeing, another common left-wing position. Right-wing perspectives on immigration tend to emphasize restrictions, costs, or cultural impacts rather than economic benefits.\"\n}",
+      "explanation": "This post reflects a typically left-leaning perspective by acknowledging both the positive economic impact of immigration while also expressing concern for immigrants' welfare and employment challenges. The statement recognizes immigrants' contributions rather than focusing on potential negative impacts, which is characteristic of progressive/left viewpoints. The second half shows concern for social justice and immigrant wellbeing, another common left-wing position. Right-wing perspectives on immigration tend to emphasize restrictions, costs, or cultural impacts rather than economic benefits."
+    },
+    {
+      "author": "RobotTakeover",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post raises a question about automation and its impact on human employment, but does not reveal a clear political orientation. The concern about automation replacing workers is shared across the political spectrum - those on the left often worry about worker displacement and labor rights, while those on the right may focus on market efficiency and business innovation. Without additional context about the author's views on solutions, regulation, or the role of government/private sector in managing this transition, we cannot reliably determine their political orientation from this neutral observation about technological change.\"\n}",
+      "explanation": "This post raises a question about automation and its impact on human employment, but does not reveal a clear political orientation. The concern about automation replacing workers is shared across the political spectrum - those on the left often worry about worker displacement and labor rights, while those on the right may focus on market efficiency and business innovation. Without additional context about the author's views on solutions, regulation, or the role of government/private sector in managing this transition, we cannot reliably determine their political orientation from this neutral observation about technological change."
+    },
+    {
+      "author": "RuralJobs",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post does not provide enough ideological indicators to determine the author's political orientation. Concern about rural job opportunities is shared across the political spectrum - conservatives often focus on deregulation and tax incentives to attract businesses to rural areas, while liberals might advocate for government investment and infrastructure programs. Without more context about their preferred solutions or underlying beliefs about the role of government/market forces, we cannot reliably classify their political orientation.\"\n}",
+      "explanation": "This post does not provide enough ideological indicators to determine the author's political orientation. Concern about rural job opportunities is shared across the political spectrum - conservatives often focus on deregulation and tax incentives to attract businesses to rural areas, while liberals might advocate for government investment and infrastructure programs. Without more context about their preferred solutions or underlying beliefs about the role of government/market forces, we cannot reliably classify their political orientation."
+    },
+    {
+      "author": "AIInterviews",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post expresses concerns about AI technology in hiring practices with a focus on potential discrimination and dehumanization, which aligns more with left-leaning perspectives. The left typically emphasizes worker rights, human dignity in employment processes, and is more skeptical of corporate technological solutions that might disadvantage vulnerable groups. The use of terms like 'biased' and 'dehumanizing' reflects social justice concerns commonly associated with left-wing critiques of business practices. The exclamation point also suggests passionate opposition to corporate practices that may harm workers.\"\n}",
+      "explanation": "This post expresses concerns about AI technology in hiring practices with a focus on potential discrimination and dehumanization, which aligns more with left-leaning perspectives. The left typically emphasizes worker rights, human dignity in employment processes, and is more skeptical of corporate technological solutions that might disadvantage vulnerable groups. The use of terms like 'biased' and 'dehumanizing' reflects social justice concerns commonly associated with left-wing critiques of business practices. The exclamation point also suggests passionate opposition to corporate practices that may harm workers."
+    },
+    {
+      "author": "BurnoutCulture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects typically left-leaning views about worker rights and workplace culture. The criticism of 'burnout culture' and overwork, combined with advocacy for work-life balance and mental health concerns, aligns with progressive labor positions. Left-wing politics traditionally emphasizes worker wellbeing over corporate profits and challenges traditional capitalist work structures that promote overwork. The use of terms like 'mental health' in relation to workplace issues also fits with the left's broader focus on holistic worker wellness and social welfare. This perspective contrasts with more right-wing views that typically emphasize personal responsibility and market-driven work conditions.\"\n}",
+      "explanation": "This post reflects typically left-leaning views about worker rights and workplace culture. The criticism of 'burnout culture' and overwork, combined with advocacy for work-life balance and mental health concerns, aligns with progressive labor positions. Left-wing politics traditionally emphasizes worker wellbeing over corporate profits and challenges traditional capitalist work structures that promote overwork. The use of terms like 'mental health' in relation to workplace issues also fits with the left's broader focus on holistic worker wellness and social welfare. This perspective contrasts with more right-wing views that typically emphasize personal responsibility and market-driven work conditions."
+    },
+    {
+      "author": "WageCrisis",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post reflects typical left-wing economic perspectives through: 1) A focus on wage inequality and worker struggles, 2) Criticism of corporate profits, implying exploitation of workers, 3) Framing the issue as a systemic problem between workers and corporations, which is a common leftist economic critique. The username 'WageCrisis' also suggests an activist stance on labor issues, which typically aligns with left-wing politics.\"\n}",
+      "explanation": "This post reflects typical left-wing economic perspectives through: 1) A focus on wage inequality and worker struggles, 2) Criticism of corporate profits, implying exploitation of workers, 3) Framing the issue as a systemic problem between workers and corporations, which is a common leftist economic critique. The username 'WageCrisis' also suggests an activist stance on labor issues, which typically aligns with left-wing politics."
+    }
+  ]
+}

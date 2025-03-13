@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 77.77777777777779,
+      "f1_score": 8750.000000000002,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 60.0,
+      "recall": 60.0,
+      "f1_score": 6000.0,
+      "true_positive": 3,
+      "false_positive": 2,
+      "true_negative": 13,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 75.0,
+      "recall": 100.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 6,
+      "false_positive": 2,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "ScienceMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a trust in scientific data and the effectiveness of COVID vaccines, which is a position commonly associated with the left side of the political spectrum. Additionally, the emphasis on the vaccines' ability to 'save millions of lives' implies a concern for public health and well-being, which is also a characteristic of left-leaning ideologies. There is no indication of skepticism towards vaccines or scientific data, which is sometimes a trait of right-leaning or libertarian perspectives.\"\n}",
+      "explanation": "The author's post suggests a trust in scientific data and the effectiveness of COVID vaccines, which is a position commonly associated with the left side of the political spectrum. Additionally, the emphasis on the vaccines' ability to 'save millions of lives' implies a concern for public health and well-being, which is also a characteristic of left-leaning ideologies. There is no indication of skepticism towards vaccines or scientific data, which is sometimes a trait of right-leaning or libertarian perspectives."
+    },
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a strong emphasis on individual freedom and personal choice, which is a common theme in right-wing ideology. The use of the phrase 'authoritarian' to describe vaccine mandates also implies a skepticism of government intervention in personal matters, which is a characteristic of libertarian and conservative thought. Additionally, the phrase 'MyBodyMyChoice' is a play on the pro-choice slogan, but in this context, it is being used to argue against government-mandated vaccination, which is a position often associated with the right-wing.\"\n}",
+      "explanation": "The author's post suggests a strong emphasis on individual freedom and personal choice, which is a common theme in right-wing ideology. The use of the phrase 'authoritarian' to describe vaccine mandates also implies a skepticism of government intervention in personal matters, which is a characteristic of libertarian and conservative thought. Additionally, the phrase 'MyBodyMyChoice' is a play on the pro-choice slogan, but in this context, it is being used to argue against government-mandated vaccination, which is a position often associated with the right-wing."
+    },
+    {
+      "author": "LabLeakTheory",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a critical view of China and a desire for accountability, which is a common theme among right-leaning individuals and groups. The lab leak theory, while not inherently partisan, has been more widely promoted and discussed in right-wing media outlets and among conservative politicians. Additionally, the tone of the post implies a sense of outrage and skepticism towards the Chinese government, which is consistent with a right-wing perspective. However, it's worth noting that the post does not contain overtly partisan language or ideological markers, so the classification is not definitive.\"\n}",
+      "explanation": "The author's post suggests a critical view of China and a desire for accountability, which is a common theme among right-leaning individuals and groups. The lab leak theory, while not inherently partisan, has been more widely promoted and discussed in right-wing media outlets and among conservative politicians. Additionally, the tone of the post implies a sense of outrage and skepticism towards the Chinese government, which is consistent with a right-wing perspective. However, it's worth noting that the post does not contain overtly partisan language or ideological markers, so the classification is not definitive."
+    },
+    {
+      "author": "LongCovidSurvivor",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any language or content that can be clearly linked to a specific political orientation. The topic of Long COVID and the need for more research is a health-related issue that can be supported by individuals across the political spectrum. There is no mention of policy, ideology, or partisanship that would allow for a classification of the author's political orientation.\"\n}",
+      "explanation": "The author's post does not contain any language or content that can be clearly linked to a specific political orientation. The topic of Long COVID and the need for more research is a health-related issue that can be supported by individuals across the political spectrum. There is no mention of policy, ideology, or partisanship that would allow for a classification of the author's political orientation."
+    },
+    {
+      "author": "MaskUp",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on following scientific guidelines and taking a precautionary measure to prevent the spread of a disease suggests a left-leaning orientation. This is because left-leaning individuals tend to prioritize public health and safety, and often advocate for government interventions and regulations to protect the common good. Additionally, the tone of the post implies a sense of social responsibility and a willingness to take collective action to mitigate a public health crisis, which is also consistent with left-leaning values.\"\n}",
+      "explanation": "The author's emphasis on following scientific guidelines and taking a precautionary measure to prevent the spread of a disease suggests a left-leaning orientation. This is because left-leaning individuals tend to prioritize public health and safety, and often advocate for government interventions and regulations to protect the common good. Additionally, the tone of the post implies a sense of social responsibility and a willingness to take collective action to mitigate a public health crisis, which is also consistent with left-leaning values."
+    },
+    {
+      "author": "ReopenTheEconomy",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a strong opposition to government-imposed lockdowns, which is a common stance among those on the right side of the political spectrum. The phrase 'destroyed small businesses and livelihoods' implies a concern for economic freedom and limited government intervention, which are core values of right-wing ideology. Additionally, the author's downplaying of the severity of the virus and emphasis on the negative consequences of lockdowns is consistent with the views of many conservatives and libertarians who have argued that the response to the pandemic has been overly restrictive and damaging to the economy.\"\n}",
+      "explanation": "The author's post suggests a strong opposition to government-imposed lockdowns, which is a common stance among those on the right side of the political spectrum. The phrase 'destroyed small businesses and livelihoods' implies a concern for economic freedom and limited government intervention, which are core values of right-wing ideology. Additionally, the author's downplaying of the severity of the virus and emphasis on the negative consequences of lockdowns is consistent with the views of many conservatives and libertarians who have argued that the response to the pandemic has been overly restrictive and damaging to the economy."
+    },
+    {
+      "author": "FactCheck",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post focuses on the need for fact-checking to combat misinformation, which is a neutral, issue-based stance. There is no indication of a specific political ideology or party affiliation, and the concern about misinformation is a widely shared value across the political spectrum.\"\n}",
+      "explanation": "The author's post focuses on the need for fact-checking to combat misinformation, which is a neutral, issue-based stance. There is no indication of a specific political ideology or party affiliation, and the concern about misinformation is a widely shared value across the political spectrum."
+    },
+    {
+      "author": "NaturalImmunity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's skepticism towards mass vaccination and emphasis on individual immunity suggests a libertarian or conservative leaning. The criticism of government action and the implication that it overstepped its bounds also aligns with right-wing ideologies that often advocate for limited government intervention. Additionally, the phrase 'protecting the vulnerable' is a common phrase used by conservatives to argue for targeted, rather than universal, government support.\"\n}",
+      "explanation": "The author's skepticism towards mass vaccination and emphasis on individual immunity suggests a libertarian or conservative leaning. The criticism of government action and the implication that it overstepped its bounds also aligns with right-wing ideologies that often advocate for limited government intervention. Additionally, the phrase 'protecting the vulnerable' is a common phrase used by conservatives to argue for targeted, rather than universal, government support."
+    },
+    {
+      "author": "ZeroCovidDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a neutral question, weighing the potential benefits of China's zero-COVID policy (preventing deaths) against its potential drawbacks (government overreach). This balanced framing does not reveal a clear political leaning, as both left-leaning and right-leaning individuals could argue for or against the policy. The author's tone is inquiring rather than advocacy-oriented, which further supports the classification as unknown.\"\n}",
+      "explanation": "The author presents a neutral question, weighing the potential benefits of China's zero-COVID policy (preventing deaths) against its potential drawbacks (government overreach). This balanced framing does not reveal a clear political leaning, as both left-leaning and right-leaning individuals could argue for or against the policy. The author's tone is inquiring rather than advocacy-oriented, which further supports the classification as unknown."
+    },
+    {
+      "author": "StayProtected",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a pro-public health stance, which is often associated with left-leaning politics. The emphasis on booster shots and reducing hospitalization rates implies a trust in scientific evidence and a willingness to follow expert recommendations, which is consistent with liberal or progressive views on healthcare. Additionally, the use of a imperative tone ('Everyone should get theirs!') suggests a sense of social responsibility and collective action, which is also characteristic of left-leaning ideologies.\"\n}",
+      "explanation": "The author's post suggests a pro-public health stance, which is often associated with left-leaning politics. The emphasis on booster shots and reducing hospitalization rates implies a trust in scientific evidence and a willingness to follow expert recommendations, which is consistent with liberal or progressive views on healthcare. Additionally, the use of a imperative tone ('Everyone should get theirs!') suggests a sense of social responsibility and collective action, which is also characteristic of left-leaning ideologies."
+    },
+    {
+      "author": "WHOFailure",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's criticism of the World Health Organization (WHO) and its handling of the COVID-19 pandemic, specifically mentioning that it 'covered for China', suggests a right-leaning perspective. This type of criticism is often associated with conservative or right-wing views, which tend to be skeptical of international organizations and critical of China's role in the pandemic. The tone and language used also suggest a strong sense of nationalism and distrust of global institutions, which is consistent with right-wing ideologies.\"\n}",
+      "explanation": "The author's criticism of the World Health Organization (WHO) and its handling of the COVID-19 pandemic, specifically mentioning that it 'covered for China', suggests a right-leaning perspective. This type of criticism is often associated with conservative or right-wing views, which tend to be skeptical of international organizations and critical of China's role in the pandemic. The tone and language used also suggest a strong sense of nationalism and distrust of global institutions, which is consistent with right-wing ideologies."
+    },
+    {
+      "author": "KeepSchoolsOpen",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests that they prioritize individual freedom and minimizing government intervention over public health concerns, which is a common stance among those on the right side of the political spectrum. The use of the phrase 'huge mistake' to describe school closures also implies a critical view of the government's response to the pandemic, which is consistent with right-leaning perspectives that often emphasize personal responsibility and limited government intervention.\"\n}",
+      "explanation": "The author's statement suggests that they prioritize individual freedom and minimizing government intervention over public health concerns, which is a common stance among those on the right side of the political spectrum. The use of the phrase 'huge mistake' to describe school closures also implies a critical view of the government's response to the pandemic, which is consistent with right-leaning perspectives that often emphasize personal responsibility and limited government intervention."
+    },
+    {
+      "author": "FalsePositives",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any language or sentiment that is typically associated with a specific political orientation. The concern about the accuracy of COVID-19 tests is a neutral, fact-based question that could be raised by individuals from any point on the political spectrum. There is no indication of a partisan agenda, ideological bias, or value judgment that would suggest a left or right leaning.\"\n}",
+      "explanation": "The author's post does not contain any language or sentiment that is typically associated with a specific political orientation. The concern about the accuracy of COVID-19 tests is a neutral, fact-based question that could be raised by individuals from any point on the political spectrum. There is no indication of a partisan agenda, ideological bias, or value judgment that would suggest a left or right leaning."
+    },
+    {
+      "author": "NextPandemic",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any language or sentiment that is typically associated with a specific political orientation. The author's call for improving global preparedness for the next pandemic is a neutral, pragmatic statement that could be supported by individuals across the political spectrum. There is no mention of ideology, policy, or partisanship that would allow for a classification as LEFT or RIGHT.\"\n}",
+      "explanation": "The post does not contain any language or sentiment that is typically associated with a specific political orientation. The author's call for improving global preparedness for the next pandemic is a neutral, pragmatic statement that could be supported by individuals across the political spectrum. There is no mention of ideology, policy, or partisanship that would allow for a classification as LEFT or RIGHT."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post focuses on a social issue (mental health crisis) and its exacerbation by the pandemic, but does not contain any explicit ideological or partisan language that would allow for a clear classification as LEFT or RIGHT. The concern for mental health and the acknowledgment of the pandemic's impact are issues that can be shared across the political spectrum.\"\n}",
+      "explanation": "The author's post focuses on a social issue (mental health crisis) and its exacerbation by the pandemic, but does not contain any explicit ideological or partisan language that would allow for a clear classification as LEFT or RIGHT. The concern for mental health and the acknowledgment of the pandemic's impact are issues that can be shared across the political spectrum."
+    },
+    {
+      "author": "OpenBordersNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'OpenBordersNow' suggests a strong stance in favor of globalization and free movement of people, which is often associated with left-wing or liberal ideologies. Additionally, the author's opposition to travel restrictions and emphasis on the negative economic impact of shutdowns aligns with the typical left-wing views on globalization, free trade, and individual freedom. The tone and language used also imply a strong advocacy for a more open and interconnected world, which is consistent with left-wing values.\"\n}",
+      "explanation": "The author's username 'OpenBordersNow' suggests a strong stance in favor of globalization and free movement of people, which is often associated with left-wing or liberal ideologies. Additionally, the author's opposition to travel restrictions and emphasis on the negative economic impact of shutdowns aligns with the typical left-wing views on globalization, free trade, and individual freedom. The tone and language used also imply a strong advocacy for a more open and interconnected world, which is consistent with left-wing values."
+    },
+    {
+      "author": "FollowTheMoney",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a critical view of the pharmaceutical industry and implies that their primary motivation was profit rather than public health. This perspective is often associated with left-leaning ideologies, which tend to be skeptical of corporate interests and prioritize social welfare over profit. The tone of the post also implies a sense of distrust and skepticism towards powerful corporations, which is a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author's post suggests a critical view of the pharmaceutical industry and implies that their primary motivation was profit rather than public health. This perspective is often associated with left-leaning ideologies, which tend to be skeptical of corporate interests and prioritize social welfare over profit. The tone of the post also implies a sense of distrust and skepticism towards powerful corporations, which is a common theme in left-wing discourse."
+    },
+    {
+      "author": "RemoteWork",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit language or ideology that can be linked to a specific political orientation. The topic of remote work is more related to workplace culture and technology than to traditional left-right politics. The author is simply posing a question about the future of work, without expressing a clear opinion or value judgment that could be used to infer their political orientation.\"\n}",
+      "explanation": "The post does not contain any explicit language or ideology that can be linked to a specific political orientation. The topic of remote work is more related to workplace culture and technology than to traditional left-right politics. The author is simply posing a question about the future of work, without expressing a clear opinion or value judgment that could be used to infer their political orientation."
+    },
+    {
+      "author": "FreedomMatters",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a strong opposition to government intervention in personal freedoms, which is a characteristic often associated with right-wing or libertarian ideologies. The mention of 'government overreach' and the call to never again implement lockdowns, vaccine mandates, and restrictions implies a preference for limited government intervention and individual autonomy, which is a core tenet of right-wing politics.\"\n}",
+      "explanation": "The author's post suggests a strong opposition to government intervention in personal freedoms, which is a characteristic often associated with right-wing or libertarian ideologies. The mention of 'government overreach' and the call to never again implement lockdowns, vaccine mandates, and restrictions implies a preference for limited government intervention and individual autonomy, which is a core tenet of right-wing politics."
+    },
+    {
+      "author": "LearnFromHistory",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any language or content that suggests a specific political orientation. The author is asking a neutral question about learning from the COVID-19 pandemic to improve future responses, which is a topic that can be discussed from various political perspectives. There is no indication of the author's stance on issues like government intervention, individual freedoms, or economic policies, making it impossible to classify their political orientation based on this post.\"\n}",
+      "explanation": "The post does not contain any language or content that suggests a specific political orientation. The author is asking a neutral question about learning from the COVID-19 pandemic to improve future responses, which is a topic that can be discussed from various political perspectives. There is no indication of the author's stance on issues like government intervention, individual freedoms, or economic policies, making it impossible to classify their political orientation based on this post."
+    }
+  ]
+}

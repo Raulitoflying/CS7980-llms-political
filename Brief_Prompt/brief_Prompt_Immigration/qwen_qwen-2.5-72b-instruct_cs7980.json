@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 88.88888888888889,
+      "f1_score": 9411.764705882351,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 80.0,
+      "recall": 100.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "OpenBorders",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for providing a path to citizenship for undocumented immigrants and acknowledgment of their contributions to the economy and society align with left-leaning political views, which often advocate for more inclusive immigration policies and recognize the social and economic benefits of immigration.\"\n}",
+      "explanation": "The author's support for providing a path to citizenship for undocumented immigrants and acknowledgment of their contributions to the economy and society align with left-leaning political views, which often advocate for more inclusive immigration policies and recognize the social and economic benefits of immigration."
+    },
+    {
+      "author": "SecureOurBorder",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses strong support for strict border control measures, including the construction of a wall, which are typically associated with conservative or right-wing political stances in the United States. These views often emphasize national security, law and order, and a reduction in unauthorized immigration.\"\n}",
+      "explanation": "The post expresses strong support for strict border control measures, including the construction of a wall, which are typically associated with conservative or right-wing political stances in the United States. These views often emphasize national security, law and order, and a reduction in unauthorized immigration."
+    },
+    {
+      "author": "DreamersUnited",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by DreamersUnited advocates for the protection of DACA recipients and the passage of the DREAM Act. These positions are typically aligned with left-leaning political views, which often emphasize support for immigrant rights and pathways to citizenship for undocumented immigrants brought to the U.S. as children. The DREAM Act, in particular, is a piece of legislation that has been championed by the Democratic Party and generally opposed by more conservative politicians, further indicating a left-leaning stance.\"\n}",
+      "explanation": "The post by DreamersUnited advocates for the protection of DACA recipients and the passage of the DREAM Act. These positions are typically aligned with left-leaning political views, which often emphasize support for immigrant rights and pathways to citizenship for undocumented immigrants brought to the U.S. as children. The DREAM Act, in particular, is a piece of legislation that has been championed by the Democratic Party and generally opposed by more conservative politicians, further indicating a left-leaning stance."
+    },
+    {
+      "author": "LawAndOrder",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by 'LawAndOrder' advocates for the deportation of illegal immigrants who commit crimes and criticizes sanctuary cities, which are municipalities that limit their cooperation with federal immigration enforcement to varying degrees. These views align with right-wing political stances, which often emphasize strict immigration policies and law and order. The language used, such as 'no more sanctuary cities harboring criminals,' suggests a strong opposition to policies that are perceived as lenient on illegal immigration, a common theme in right-wing rhetoric.\"\n}",
+      "explanation": "The post by 'LawAndOrder' advocates for the deportation of illegal immigrants who commit crimes and criticizes sanctuary cities, which are municipalities that limit their cooperation with federal immigration enforcement to varying degrees. These views align with right-wing political stances, which often emphasize strict immigration policies and law and order. The language used, such as 'no more sanctuary cities harboring criminals,' suggests a strong opposition to policies that are perceived as lenient on illegal immigration, a common theme in right-wing rhetoric."
+    },
+    {
+      "author": "EconFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by EconFirst expresses a nuanced view on immigration, acknowledging both its economic benefits and potential drawbacks for low-wage workers. The call for a 'balanced approach' suggests a pragmatic stance that does not align strictly with either the left or the right. While the left often emphasizes the positive impacts of immigration and the right may focus on the potential negative effects, the author's position of advocating for controlled, legal immigration could be supported by arguments from both sides. Therefore, without more specific information or context, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by EconFirst expresses a nuanced view on immigration, acknowledging both its economic benefits and potential drawbacks for low-wage workers. The call for a 'balanced approach' suggests a pragmatic stance that does not align strictly with either the left or the right. While the left often emphasizes the positive impacts of immigration and the right may focus on the potential negative effects, the author's position of advocating for controlled, legal immigration could be supported by arguments from both sides. Therefore, without more specific information or context, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "RefugeesWelcome",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for increased asylum protections and portrays the U.S. as a safe haven for refugees and those fleeing persecution. This stance is typically associated with left-leaning or liberal political views, which often emphasize humanitarian aid, open borders, and support for vulnerable populations.\"\n}",
+      "explanation": "The post advocates for increased asylum protections and portrays the U.S. as a safe haven for refugees and those fleeing persecution. This stance is typically associated with left-leaning or liberal political views, which often emphasize humanitarian aid, open borders, and support for vulnerable populations."
+    },
+    {
+      "author": "JobsForAmericans",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for the use of E-Verify, a system designed to check the employment eligibility of workers, and expresses a strong stance against hiring illegal immigrants. This position is typically associated with conservative or right-wing political views, which often emphasize strict immigration laws and the protection of jobs for citizens and legal residents.\"\n}",
+      "explanation": "The post advocates for the use of E-Verify, a system designed to check the employment eligibility of workers, and expresses a strong stance against hiring illegal immigrants. This position is typically associated with conservative or right-wing political views, which often emphasize strict immigration laws and the protection of jobs for citizens and legal residents."
+    },
+    {
+      "author": "BipartisanSolutions",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post advocates for comprehensive immigration reform, which is a position that can be supported by both left and right political orientations. The emphasis on balancing border security with a fair path to citizenship suggests a middle-ground or centrist approach, as it attempts to address concerns from both sides of the political spectrum. Border security is often a priority for right-leaning individuals, while a path to citizenship is typically favored by those on the left. Without more specific context or additional statements that lean more definitively in one direction, it is not possible to classify the author's political orientation as strictly left or right.\"\n}",
+      "explanation": "The post advocates for comprehensive immigration reform, which is a position that can be supported by both left and right political orientations. The emphasis on balancing border security with a fair path to citizenship suggests a middle-ground or centrist approach, as it attempts to address concerns from both sides of the political spectrum. Border security is often a priority for right-leaning individuals, while a path to citizenship is typically favored by those on the left. Without more specific context or additional statements that lean more definitively in one direction, it is not possible to classify the author's political orientation as strictly left or right."
+    },
+    {
+      "author": "CrisisAtBorder",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses strong concerns about the southern border and criticizes the Biden administration for failing to protect American sovereignty. These views are typically associated with conservative or right-wing political orientations, which often emphasize strict border control and national security. The use of the term 'overrun' suggests a perception of crisis and uncontrolled influx, which is a common narrative in right-wing discourse regarding immigration.\"\n}",
+      "explanation": "The post expresses strong concerns about the southern border and criticizes the Biden administration for failing to protect American sovereignty. These views are typically associated with conservative or right-wing political orientations, which often emphasize strict border control and national security. The use of the term 'overrun' suggests a perception of crisis and uncontrolled influx, which is a common narrative in right-wing discourse regarding immigration."
+    },
+    {
+      "author": "TechWorkers",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post primarily focuses on a specific policy regarding the H1-B visa program and its importance for American innovation and attracting global talent. While this stance is often supported by both business-oriented conservatives and progressives who advocate for tech and innovation, the content does not provide enough context or broader ideological cues to definitively classify the author's political orientation. The support for expanding the H1-B visa program could align with either a pro-business, right-leaning perspective that emphasizes economic growth and corporate needs, or a left-leaning perspective that supports international cooperation and diversity in the workforce. Without additional information or context about the author's views on other issues, the political orientation remains unknown.\"\n}",
+      "explanation": "The post primarily focuses on a specific policy regarding the H1-B visa program and its importance for American innovation and attracting global talent. While this stance is often supported by both business-oriented conservatives and progressives who advocate for tech and innovation, the content does not provide enough context or broader ideological cues to definitively classify the author's political orientation. The support for expanding the H1-B visa program could align with either a pro-business, right-leaning perspective that emphasizes economic growth and corporate needs, or a left-leaning perspective that supports international cooperation and diversity in the workforce. Without additional information or context about the author's views on other issues, the political orientation remains unknown."
+    },
+    {
+      "author": "ProtectSanctuary",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for sanctuary cities and opposition to local government cooperation with ICE (Immigration and Customs Enforcement) indicates a progressive stance on immigration policy. This aligns with left-leaning political views that generally advocate for more inclusive and protective policies for immigrants.\"\n}",
+      "explanation": "The author's support for sanctuary cities and opposition to local government cooperation with ICE (Immigration and Customs Enforcement) indicates a progressive stance on immigration policy. This aligns with left-leaning political views that generally advocate for more inclusive and protective policies for immigrants."
+    },
+    {
+      "author": "FixImmigration",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on a factual statement about the nature of undocumented immigration and suggests a policy solution (better tracking systems) that could be supported by individuals from various political orientations. It does not express clear ideological leanings or values that are distinctly left or right, making it difficult to classify the author's political orientation based solely on this content.\"\n}",
+      "explanation": "The post focuses on a factual statement about the nature of undocumented immigration and suggests a policy solution (better tracking systems) that could be supported by individuals from various political orientations. It does not express clear ideological leanings or values that are distinctly left or right, making it difficult to classify the author's political orientation based solely on this content."
+    },
+    {
+      "author": "FamiliesBelongTogether",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses strong opposition to the separation of families at the border, describing it as 'inhumane' and 'cruel.' This stance is typically associated with left-leaning political views, which often emphasize humanitarian concerns, social justice, and opposition to strict immigration policies. The use of emotionally charged language and the call to stop these policies further suggest a liberal or progressive perspective.\"\n}",
+      "explanation": "The post expresses strong opposition to the separation of families at the border, describing it as 'inhumane' and 'cruel.' This stance is typically associated with left-leaning political views, which often emphasize humanitarian concerns, social justice, and opposition to strict immigration policies. The use of emotionally charged language and the call to stop these policies further suggest a liberal or progressive perspective."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong support for a border wall and criticism of politicians who do not support this measure indicate a right-wing political orientation. The language used, such as 'weak politicians' and the emphasis on protecting America, aligns with conservative views on immigration and national security.\"\n}",
+      "explanation": "The author's strong support for a border wall and criticism of politicians who do not support this measure indicate a right-wing political orientation. The language used, such as 'weak politicians' and the emphasis on protecting America, aligns with conservative views on immigration and national security."
+    },
+    {
+      "author": "CommonSenseReform",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post suggests a pragmatic approach to immigration policy, advocating for a guest worker program as a solution to labor demands and illegal immigration. This idea could be supported by individuals from various political orientations, as it combines elements of economic pragmatism and border control. Without more context or additional statements that might indicate a broader political ideology, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post suggests a pragmatic approach to immigration policy, advocating for a guest worker program as a solution to labor demands and illegal immigration. This idea could be supported by individuals from various political orientations, as it combines elements of economic pragmatism and border control. Without more context or additional statements that might indicate a broader political ideology, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "SecureNation",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by SecureNation emphasizes the need for strict vetting of immigrants to prevent terrorism and suggests that open borders are a risk to national security. These views align with right-wing political ideologies, which often prioritize national security, controlled immigration, and border protection over more open and inclusive immigration policies.\"\n}",
+      "explanation": "The post by SecureNation emphasizes the need for strict vetting of immigrants to prevent terrorism and suggests that open borders are a risk to national security. These views align with right-wing political ideologies, which often prioritize national security, controlled immigration, and border protection over more open and inclusive immigration policies."
+    },
+    {
+      "author": "HumanitarianAid",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on increasing refugee quotas and emphasizing moral duty suggests a liberal or left-leaning political orientation. This perspective often aligns with progressive values that prioritize international humanitarian aid and support for vulnerable populations.\"\n}",
+      "explanation": "The author's stance on increasing refugee quotas and emphasizing moral duty suggests a liberal or left-leaning political orientation. This perspective often aligns with progressive values that prioritize international humanitarian aid and support for vulnerable populations."
+    },
+    {
+      "author": "CitizenshipForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on birthright citizenship as a 'fundamental right' and the assertion that ending it would be 'unconstitutional and discriminatory' aligns with liberal values that emphasize inclusivity, constitutional protections, and opposition to policies perceived as discriminatory. These views are typically associated with the political left.\"\n}",
+      "explanation": "The author's stance on birthright citizenship as a 'fundamental right' and the assertion that ending it would be 'unconstitutional and discriminatory' aligns with liberal values that emphasize inclusivity, constitutional protections, and opposition to policies perceived as discriminatory. These views are typically associated with the political left."
+    },
+    {
+      "author": "SkillsOverBirthplace",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post suggests a preference for skilled immigrants over all immigrants, indicating a more selective and economically-driven approach to immigration. This aligns with right-wing political views that often emphasize the economic impact and the need for immigrants to contribute positively to the economy, rather than a more open or humanitarian approach to immigration that is typically associated with left-wing perspectives.\"\n}",
+      "explanation": "The post suggests a preference for skilled immigrants over all immigrants, indicating a more selective and economically-driven approach to immigration. This aligns with right-wing political views that often emphasize the economic impact and the need for immigrants to contribute positively to the economy, rather than a more open or humanitarian approach to immigration that is typically associated with left-wing perspectives."
+    },
+    {
+      "author": "AbolishICE",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses a strong stance against the Immigration and Customs Enforcement (ICE) agency, highlighting its actions as 'inhumane' and 'oppressive' and calling for its dismantlement. This perspective aligns with left-wing political views, which often advocate for the abolition of ICE due to concerns about human rights violations and the treatment of immigrants. The language used, such as 'abolish' and 'oppressive,' is typically associated with progressive and left-leaning rhetoric in the context of immigration policy.\"\n}",
+      "explanation": "The author's post expresses a strong stance against the Immigration and Customs Enforcement (ICE) agency, highlighting its actions as 'inhumane' and 'oppressive' and calling for its dismantlement. This perspective aligns with left-wing political views, which often advocate for the abolition of ICE due to concerns about human rights violations and the treatment of immigrants. The language used, such as 'abolish' and 'oppressive,' is typically associated with progressive and left-leaning rhetoric in the context of immigration policy."
+    }
+  ]
+}

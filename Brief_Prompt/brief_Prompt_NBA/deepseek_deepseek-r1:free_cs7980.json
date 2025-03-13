@@ -1,0 +1,160 @@
+{
+  "model_name": "deepseek/deepseek-r1:free",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 20,
+      "false_positive": 0,
+      "true_negative": 0,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 100.0
+  },
+  "classifications": [
+    {
+      "author": "HoopsFanatic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post exclusively discusses NBA players' performance and the MVP debate, which is a sports-related topic. There are no references to political issues, ideologies, policies, or social commentary that would indicate a left-wing, right-wing, or any discernible political stance. The content is entirely neutral and apolitical in nature.\"\n}\n```",
+      "explanation": "The post exclusively discusses NBA players' performance and the MVP debate, which is a sports-related topic. There are no references to political issues, ideologies, policies, or social commentary that would indicate a left-wing, right-wing, or any discernible political stance. The content is entirely neutral and apolitical in nature."
+    },
+    {
+      "author": "GOATdebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a sports debate (Jordan vs. LeBron) focused on athletic achievements, such as Finals records and longevity, without any reference to political issues, ideologies, or policies. There is no discernible political content, rhetoric, or framing that would indicate a left-wing, right-wing, or partisan stance. The discussion is neutral and confined to basketball analysis.\"\n}\n```",
+      "explanation": "The post discusses a sports debate (Jordan vs. LeBron) focused on athletic achievements, such as Finals records and longevity, without any reference to political issues, ideologies, or policies. There is no discernible political content, rhetoric, or framing that would indicate a left-wing, right-wing, or partisan stance. The discussion is neutral and confined to basketball analysis."
+    },
+    {
+      "author": "DubNation",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on sports (NBA basketball) and discusses Steph Curry's injuries and the Golden State Warriors' playoff prospects. There are no references to political ideologies, policies, social issues, or any other content that would indicate a left-wing, right-wing, or partisan stance. Political orientation cannot be inferred from this context.\"\n}\n```",
+      "explanation": "The post focuses exclusively on sports (NBA basketball) and discusses Steph Curry's injuries and the Golden State Warriors' playoff prospects. There are no references to political ideologies, policies, social issues, or any other content that would indicate a left-wing, right-wing, or partisan stance. Political orientation cannot be inferred from this context."
+    },
+    {
+      "author": "FutureStar",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on basketball analysis and Victor Wembanyama's athletic potential, with no references to political issues, ideologies, policies, or social commentary. Terms like 'dominating as a rookie' and 'best big man of the next generation' relate to sports performance rather than political leanings. There is no discernible left- or right-wing rhetoric, coded language, or contextual clues suggesting a political stance. Classification as UNKNOWN reflects the absence of political content in the text.\"\n}",
+      "explanation": "The post focuses exclusively on basketball analysis and Victor Wembanyama's athletic potential, with no references to political issues, ideologies, policies, or social commentary. Terms like 'dominating as a rookie' and 'best big man of the next generation' relate to sports performance rather than political leanings. There is no discernible left- or right-wing rhetoric, coded language, or contextual clues suggesting a political stance. Classification as UNKNOWN reflects the absence of political content in the text."
+    },
+    {
+      "author": "GreenRunsDeep",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the Boston Celtics' potential to win an NBA championship, focusing solely on sports performance with no mention of political issues, ideologies, or policies. The username 'GreenRunsDeep' likely references the team's colors rather than environmentalism, given the context. Without explicit political content or coded language, there is insufficient evidence to classify the author's political orientation as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post discusses the Boston Celtics' potential to win an NBA championship, focusing solely on sports performance with no mention of political issues, ideologies, or policies. The username 'GreenRunsDeep' likely references the team's colors rather than environmentalism, given the context. Without explicit political content or coded language, there is insufficient evidence to classify the author's political orientation as LEFT or RIGHT."
+    },
+    {
+      "author": "Lakers4Life",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on a sports-related topic (NBA team strategy and player trades) without any reference to political issues, ideologies, or social commentary. The discussion centers on basketball operations, team dynamics, and fan speculation, which are unrelated to political orientation. There is no discernible language, terminology, or context that would indicate left-leaning, right-leaning, or partisan views.\"\n}",
+      "explanation": "The post focuses exclusively on a sports-related topic (NBA team strategy and player trades) without any reference to political issues, ideologies, or social commentary. The discussion centers on basketball operations, team dynamics, and fan speculation, which are unrelated to political orientation. There is no discernible language, terminology, or context that would indicate left-leaning, right-leaning, or partisan views."
+    },
+    {
+      "author": "SlamDunkKing",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is entirely focused on debating basketball dunking skills among three athletes (Vince Carter, Dominique Wilkins, and Zach LaVine). There is no mention of political issues, ideologies, policies, or social commentary. The content is strictly sports-related and neutral in nature, providing no discernible clues about the author's political orientation.\"\n}",
+      "explanation": "The post is entirely focused on debating basketball dunking skills among three athletes (Vince Carter, Dominique Wilkins, and Zach LaVine). There is no mention of political issues, ideologies, policies, or social commentary. The content is strictly sports-related and neutral in nature, providing no discernible clues about the author's political orientation."
+    },
+    {
+      "author": "DraftScout",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on the 2025 NBA Draft, discussing sports prospects like the potential number one pick and 'hidden gems.' There are no references to political issues, ideologies, policies, or socially charged language. Sports discussions, especially those centered on neutral topics like draft speculation, do not inherently convey political leanings. Without explicit or implicit political content, classification into LEFT or RIGHT is unwarranted.\"\n}",
+      "explanation": "The post focuses exclusively on the 2025 NBA Draft, discussing sports prospects like the potential number one pick and 'hidden gems.' There are no references to political issues, ideologies, policies, or socially charged language. Sports discussions, especially those centered on neutral topics like draft speculation, do not inherently convey political leanings. Without explicit or implicit political content, classification into LEFT or RIGHT is unwarranted."
+    },
+    {
+      "author": "SplashZone",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses Steph Curry's basketball legacy and his status as a three-point shooter, which is a sports-related topic with no explicit or implicit references to political issues, ideologies, or policies. There is no language, context, or subtext indicating alignment with left-wing, right-wing, or partisan viewpoints. The discussion is neutral and focused solely on athletic achievement.\"\n}\n```",
+      "explanation": "The post discusses Steph Curry's basketball legacy and his status as a three-point shooter, which is a sports-related topic with no explicit or implicit references to political issues, ideologies, or policies. There is no language, context, or subtext indicating alignment with left-wing, right-wing, or partisan viewpoints. The discussion is neutral and focused solely on athletic achievement."
+    },
+    {
+      "author": "LockdownDefense",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on a sports-related discussion about the NBA Defensive Player of the Year (DPOY) race, mentioning basketball players Jaren Jackson Jr. and Bam Adebayo. There is no explicit or implicit reference to political issues, ideologies, policies, or social commentary. The content is entirely neutral and apolitical, providing no basis for inferring the author's political orientation.\"\n}\n```",
+      "explanation": "The post focuses exclusively on a sports-related discussion about the NBA Defensive Player of the Year (DPOY) race, mentioning basketball players Jaren Jackson Jr. and Bam Adebayo. There is no explicit or implicit reference to political issues, ideologies, policies, or social commentary. The content is entirely neutral and apolitical, providing no basis for inferring the author's political orientation."
+    },
+    {
+      "author": "FixTheRefs",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on a sports-related issue (NBA officiating and flopping) without any explicit or implicit references to political ideologies, policies, or social issues. Discussions about rule changes in sports are generally non-partisan and relate to game integrity rather than political alignment. There is insufficient evidence to link the author's stance to LEFT or RIGHT political orientations.\"\n}\n```",
+      "explanation": "The post focuses on a sports-related issue (NBA officiating and flopping) without any explicit or implicit references to political ideologies, policies, or social issues. Discussions about rule changes in sports are generally non-partisan and relate to game integrity rather than political alignment. There is insufficient evidence to link the author's stance to LEFT or RIGHT political orientations."
+    },
+    {
+      "author": "HiddenGems",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses sports (specifically identifying underrated players in a league) and contains no overt political content, ideological language, or references to social, economic, or cultural issues that would indicate a left or right political orientation. The question is neutral and focused entirely on sports analysis, providing insufficient context to infer political leanings.\"\n}\n```",
+      "explanation": "The post discusses sports (specifically identifying underrated players in a league) and contains no overt political content, ideological language, or references to social, economic, or cultural issues that would indicate a left or right political orientation. The question is neutral and focused entirely on sports analysis, providing insufficient context to infer political leanings."
+    },
+    {
+      "author": "NYKforLife",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post exclusively discusses the New York Knicks' sports performance and playoff prospects, with no references to political issues, ideologies, policies, or social matters. Sports fandom and team competitiveness are unrelated to political orientation, and there are no linguistic cues, implicit biases, or contextual hints suggesting a left-wing, right-wing, or partisan stance. Political classification cannot be inferred from this content.\"\n}",
+      "explanation": "The post exclusively discusses the New York Knicks' sports performance and playoff prospects, with no references to political issues, ideologies, policies, or social matters. Sports fandom and team competitiveness are unrelated to political orientation, and there are no linguistic cues, implicit biases, or contextual hints suggesting a left-wing, right-wing, or partisan stance. Political classification cannot be inferred from this content."
+    },
+    {
+      "author": "MVPdebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is a straightforward sports-related question comparing two NBA players (Giannis Antetokounmpo and Joel Embiid) based on athletic performance. It contains no explicit or implicit references to political issues, ideologies, policies, or social commentary. Political orientation cannot be inferred from this context, as the discussion is entirely neutral and confined to basketball.\"\n}\n```",
+      "explanation": "The post is a straightforward sports-related question comparing two NBA players (Giannis Antetokounmpo and Joel Embiid) based on athletic performance. It contains no explicit or implicit references to political issues, ideologies, policies, or social commentary. Political orientation cannot be inferred from this context, as the discussion is entirely neutral and confined to basketball."
+    },
+    {
+      "author": "ExpandTheLeague",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post inquires about potential NBA expansion cities (Seattle, Las Vegas, Mexico City) without expressing opinions on social, economic, or cultural issues that typically signal political leanings. The topic is sports-centric and neutral, focusing on logistical or market considerations rather than ideological positions. No explicit or implicit partisan language, values, or policy preferences are evident in the content provided.\"\n}\n```",
+      "explanation": "The post inquires about potential NBA expansion cities (Seattle, Las Vegas, Mexico City) without expressing opinions on social, economic, or cultural issues that typically signal political leanings. The topic is sports-centric and neutral, focusing on logistical or market considerations rather than ideological positions. No explicit or implicit partisan language, values, or policy preferences are evident in the content provided."
+    },
+    {
+      "author": "BigManDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is a purely sports-related debate about comparing two NBA centers, Shaquille O\u2019Neal and Hakeem Olajuwon, in their prime. It contains no references to political issues, ideologies, policies, or social commentary that would indicate a left-wing, right-wing, or any specific political orientation. The discussion is focused on athletic performance and basketball history, making it impossible to infer political leanings from the content provided.\"\n}\n```",
+      "explanation": "The post is a purely sports-related debate about comparing two NBA centers, Shaquille O\u2019Neal and Hakeem Olajuwon, in their prime. It contains no references to political issues, ideologies, policies, or social commentary that would indicate a left-wing, right-wing, or any specific political orientation. The discussion is focused on athletic performance and basketball history, making it impossible to infer political leanings from the content provided."
+    },
+    {
+      "author": "CoachTalk",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses exclusively on comparing the coaching merits of Erik Spoelstra and Steve Kerr in the NBA, with no mention of political issues, ideologies, or socially charged topics. While both coaches have personal political affiliations or public stances on social matters, the author's inquiry is strictly about their professional coaching abilities. There is no explicit or implicit language indicating a political bias, nor does the content relate to government, economy, or cultural debates. Thus, political orientation cannot be determined from this sports-centric discussion.\"\n}\n```",
+      "explanation": "The post focuses exclusively on comparing the coaching merits of Erik Spoelstra and Steve Kerr in the NBA, with no mention of political issues, ideologies, or socially charged topics. While both coaches have personal political affiliations or public stances on social matters, the author's inquiry is strictly about their professional coaching abilities. There is no explicit or implicit language indicating a political bias, nor does the content relate to government, economy, or cultural debates. Thus, political orientation cannot be determined from this sports-centric discussion."
+    },
+    {
+      "author": "ClutchTime",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is entirely focused on a sports-related debate about basketball players' performance in clutch moments. There is no mention of political issues, ideologies, or policies. The discussion centers on athletic skill and personal preference in a non-political context, providing no discernible clues about the author's political orientation.\"\n}",
+      "explanation": "The post is entirely focused on a sports-related debate about basketball players' performance in clutch moments. There is no mention of political issues, ideologies, or policies. The discussion centers on athletic skill and personal preference in a non-political context, providing no discernible clues about the author's political orientation."
+    },
+    {
+      "author": "RivalryHistory",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is entirely focused on discussing NBA rivalries (Lakers vs. Celtics, Bulls vs. Pistons, Warriors vs. Cavs) without any reference to political issues, ideologies, or language that would indicate a left-wing or right-wing bias. The content is strictly sports-related and neutral in tone, with no discernible connection to political themes or value systems.\"\n}",
+      "explanation": "The post is entirely focused on discussing NBA rivalries (Lakers vs. Celtics, Bulls vs. Pistons, Warriors vs. Cavs) without any reference to political issues, ideologies, or language that would indicate a left-wing or right-wing bias. The content is strictly sports-related and neutral in tone, with no discernible connection to political themes or value systems."
+    },
+    {
+      "author": "CapSpaceTalk",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses NBA salary cap rules and competitiveness, focusing on sports management rather than explicit political ideology. While advocating for stricter regulations to promote parity could metaphorically align with left-leaning economic principles (e.g., reducing inequality), the context is purely about sports league structure. There is no direct mention of political issues, policies, or values, making it impossible to definitively classify the author's political orientation based on this content alone.\"\n}\n```",
+      "explanation": "The post discusses NBA salary cap rules and competitiveness, focusing on sports management rather than explicit political ideology. While advocating for stricter regulations to promote parity could metaphorically align with left-leaning economic principles (e.g., reducing inequality), the context is purely about sports league structure. There is no direct mention of political issues, policies, or values, making it impossible to definitively classify the author's political orientation based on this content alone."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 87.5,
+      "recall": 70.0,
+      "f1_score": 7777.777777777777,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 66.66666666666666,
+      "f1_score": 8000.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 75.0,
+      "precision": 16.666666666666664,
+      "recall": 100.0,
+      "f1_score": 2857.142857142857,
+      "true_positive": 1,
+      "false_positive": 5,
+      "true_negative": 14,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "TaxTheRich",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement that 'The richest 1% should pay more taxes' and 'The working class carries too much of the burden!' aligns with common left-leaning political positions. These statements advocate for wealth redistribution and a progressive tax system, which are typically associated with left-wing ideologies.\"\n}\n```",
+      "explanation": "The author's statement that 'The richest 1% should pay more taxes' and 'The working class carries too much of the burden!' aligns with common left-leaning political positions. These statements advocate for wealth redistribution and a progressive tax system, which are typically associated with left-wing ideologies."
+    },
+    {
+      "author": "FreeMarketRules",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement strongly aligns with right-leaning economic principles. The belief that lower taxes stimulate economic growth and job creation is a core tenet of supply-side economics, a philosophy typically associated with conservative and right-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's statement strongly aligns with right-leaning economic principles. The belief that lower taxes stimulate economic growth and job creation is a core tenet of supply-side economics, a philosophy typically associated with conservative and right-leaning political ideologies."
+    },
+    {
+      "author": "UBIforAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Support for Universal Basic Income (UBI) is generally associated with left-leaning political ideologies. UBI is often proposed as a solution to income inequality, poverty, and the potential displacement of workers due to automation, all concerns typically prioritized by those on the left. While UBI has gained some limited support across the political spectrum, it is most strongly advocated for by progressives and socialists.\"\n}\n```",
+      "explanation": "Support for Universal Basic Income (UBI) is generally associated with left-leaning political ideologies. UBI is often proposed as a solution to income inequality, poverty, and the potential displacement of workers due to automation, all concerns typically prioritized by those on the left. While UBI has gained some limited support across the political spectrum, it is most strongly advocated for by progressives and socialists."
+    },
+    {
+      "author": "UBISkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses concern about the economic feasibility of Universal Basic Income (UBI). While skepticism towards UBI is often associated with right-leaning perspectives due to concerns about government spending and potential disincentives to work, it can also be voiced by individuals across the political spectrum who have legitimate questions about its implementation and potential consequences. Without further information about the author's views on other political issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author's post expresses concern about the economic feasibility of Universal Basic Income (UBI). While skepticism towards UBI is often associated with right-leaning perspectives due to concerns about government spending and potential disincentives to work, it can also be voiced by individuals across the political spectrum who have legitimate questions about its implementation and potential consequences. Without further information about the author's views on other political issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "WelfareMatters",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement strongly supports social programs and expresses concern for the vulnerable, which are common positions associated with the left-leaning political spectrum. The statement directly advocates for the continuation of welfare programs and frames cuts to these programs as harmful, aligning with a left-leaning perspective on social welfare and economic equality.\"\n}\n```",
+      "explanation": "The author's statement strongly supports social programs and expresses concern for the vulnerable, which are common positions associated with the left-leaning political spectrum. The statement directly advocates for the continuation of welfare programs and frames cuts to these programs as harmful, aligning with a left-leaning perspective on social welfare and economic equality."
+    },
+    {
+      "author": "WorkNotHandouts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common conservative viewpoints. The emphasis on job creation over welfare and the assertion that welfare discourages work are typical arguments used by those on the right to advocate for reduced government spending and a focus on individual responsibility.\"\n}\n```",
+      "explanation": "The author's statement aligns with common conservative viewpoints. The emphasis on job creation over welfare and the assertion that welfare discourages work are typical arguments used by those on the right to advocate for reduced government spending and a focus on individual responsibility."
+    },
+    {
+      "author": "RegulateBigTech",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While concerns about the power of Big Tech are often associated with both left-leaning and right-leaning perspectives, the statement itself is not definitively indicative of either. Left-leaning individuals might focus on issues like data privacy, worker exploitation, and the spread of misinformation, while right-leaning individuals might focus on censorship, anti-conservative bias, and the stifling of free speech. Without further context about the specific regulations the author supports or the reasons behind their concern, it's impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "While concerns about the power of Big Tech are often associated with both left-leaning and right-leaning perspectives, the statement itself is not definitively indicative of either. Left-leaning individuals might focus on issues like data privacy, worker exploitation, and the spread of misinformation, while right-leaning individuals might focus on censorship, anti-conservative bias, and the stifling of free speech. Without further context about the specific regulations the author supports or the reasons behind their concern, it's impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "LaissezFaire",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement strongly advocates for minimal government intervention in the tech industry and champions market self-regulation. This aligns with core tenets of right-leaning political ideologies, particularly libertarianism and classical liberalism, which emphasize free markets, limited government, and individual liberty.\"\n}\n```",
+      "explanation": "The author's statement strongly advocates for minimal government intervention in the tech industry and champions market self-regulation. This aligns with core tenets of right-leaning political ideologies, particularly libertarianism and classical liberalism, which emphasize free markets, limited government, and individual liberty."
+    },
+    {
+      "author": "BlameTheFed",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"Criticizing the Federal Reserve's monetary policy, particularly blaming it for inflation, is a common talking point among conservatives and libertarians. This perspective often aligns with a belief in limited government intervention in the economy and a preference for sound money principles.\"\n}\n```",
+      "explanation": "Criticizing the Federal Reserve's monetary policy, particularly blaming it for inflation, is a common talking point among conservatives and libertarians. This perspective often aligns with a belief in limited government intervention in the economy and a preference for sound money principles."
+    },
+    {
+      "author": "StopSpending",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post presents a question about economic policy options to combat inflation. It doesn't express any specific political ideology or alignment. Both raising interest rates and cutting government spending are potential tools that could be favored by different political perspectives, and the author doesn't indicate a preference for one over the other or any underlying political philosophy.\"\n}\n```",
+      "explanation": "The post presents a question about economic policy options to combat inflation. It doesn't express any specific political ideology or alignment. Both raising interest rates and cutting government spending are potential tools that could be favored by different political perspectives, and the author doesn't indicate a preference for one over the other or any underlying political philosophy."
+    },
+    {
+      "author": "TradeWins",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement strongly advocates for free trade and criticizes protectionism. This position is generally aligned with classical liberal and conservative economic viewpoints, which emphasize deregulation, open markets, and minimal government intervention in trade. These are typically associated with the right side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's statement strongly advocates for free trade and criticizes protectionism. This position is generally aligned with classical liberal and conservative economic viewpoints, which emphasize deregulation, open markets, and minimal government intervention in trade. These are typically associated with the right side of the political spectrum."
+    },
+    {
+      "author": "BuyAmerican",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement advocating for tariffs to protect domestic jobs aligns with a protectionist stance, which is typically associated with right-leaning economic policies. While some on the left may also express concerns about job losses due to free trade, the emphasis on tariffs as a solution is more characteristic of right-wing economic nationalism.\"\n}\n```",
+      "explanation": "The author's statement advocating for tariffs to protect domestic jobs aligns with a protectionist stance, which is typically associated with right-leaning economic policies. While some on the left may also express concerns about job losses due to free trade, the emphasis on tariffs as a solution is more characteristic of right-wing economic nationalism."
+    },
+    {
+      "author": "EndTheFed",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While criticism of the Federal Reserve is often associated with right-leaning or libertarian viewpoints, it can also be found on the left. Without further context, it's impossible to definitively classify the author's political orientation. Both left and right-leaning individuals may criticize the Fed for different reasons (e.g., right-leaning individuals may focus on monetary policy and government overreach, while left-leaning individuals may focus on the Fed's role in exacerbating inequality or its lack of democratic accountability). More information about the author's views on other issues would be needed to make a more accurate assessment.\"\n}\n```",
+      "explanation": "While criticism of the Federal Reserve is often associated with right-leaning or libertarian viewpoints, it can also be found on the left. Without further context, it's impossible to definitively classify the author's political orientation. Both left and right-leaning individuals may criticize the Fed for different reasons (e.g., right-leaning individuals may focus on monetary policy and government overreach, while left-leaning individuals may focus on the Fed's role in exacerbating inequality or its lack of democratic accountability). More information about the author's views on other issues would be needed to make a more accurate assessment."
+    },
+    {
+      "author": "BitcoinFixesThis",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses distrust of government control over money and advocates for Bitcoin as a solution for a 'free economy.' This aligns with libertarian or right-leaning ideologies that emphasize individual liberty, limited government intervention in the economy, and free markets. The statement suggests a belief that government involvement in monetary policy is inherently problematic, a common viewpoint among those on the right.\"\n}\n```",
+      "explanation": "The author expresses distrust of government control over money and advocates for Bitcoin as a solution for a 'free economy.' This aligns with libertarian or right-leaning ideologies that emphasize individual liberty, limited government intervention in the economy, and free markets. The statement suggests a belief that government involvement in monetary policy is inherently problematic, a common viewpoint among those on the right."
+    },
+    {
+      "author": "CryptoRegulations",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While advocating for regulation might seem to lean left (as left-leaning ideologies often support government intervention), it's not definitive. Individuals across the political spectrum can support regulation for various reasons. A conservative might support regulation to protect consumers and maintain financial stability, while a liberal might support it to prevent exploitation and ensure fairness. Without further context on the author's broader views, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "While advocating for regulation might seem to lean left (as left-leaning ideologies often support government intervention), it's not definitive. Individuals across the political spectrum can support regulation for various reasons. A conservative might support regulation to protect consumers and maintain financial stability, while a liberal might support it to prevent exploitation and ensure fairness. Without further context on the author's broader views, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "GovCreatesJobs",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for government investment in infrastructure and green energy aligns with common left-leaning political positions. These policies are often associated with Democratic or progressive platforms that prioritize government intervention to stimulate the economy, address climate change, and create jobs.\"\n}\n```",
+      "explanation": "The author's statement advocating for government investment in infrastructure and green energy aligns with common left-leaning political positions. These policies are often associated with Democratic or progressive platforms that prioritize government intervention to stimulate the economy, address climate change, and create jobs."
+    },
+    {
+      "author": "MarketKnowsBest",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement that \\\"The government doesn't create jobs, businesses do\\\" and their call for \\\"fewer regulations and lower taxes\\\" are common talking points associated with right-leaning political ideologies, particularly those emphasizing free-market principles and limited government intervention in the economy.\"\n}\n```",
+      "explanation": "The author's statement that \"The government doesn't create jobs, businesses do\" and their call for \"fewer regulations and lower taxes\" are common talking points associated with right-leaning political ideologies, particularly those emphasizing free-market principles and limited government intervention in the economy."
+    },
+    {
+      "author": "TooYoungToRetire",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While raising the retirement age is often associated with fiscally conservative viewpoints, it's not exclusively held by one political orientation. The author's statement focuses on the sustainability of Social Security, which could be a concern shared across the political spectrum. Without further context or statements on other issues, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "While raising the retirement age is often associated with fiscally conservative viewpoints, it's not exclusively held by one political orientation. The author's statement focuses on the sustainability of Social Security, which could be a concern shared across the political spectrum. Without further context or statements on other issues, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "RetireWithDignity",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions. Advocating for earlier retirement and framing it as a matter of 'dignity' suggests a concern for worker well-being and a critique of policies that might force people to work longer, often associated with left-leaning perspectives on labor rights and social welfare.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions. Advocating for earlier retirement and framing it as a matter of 'dignity' suggests a concern for worker well-being and a critique of policies that might force people to work longer, often associated with left-leaning perspectives on labor rights and social welfare."
+    },
+    {
+      "author": "TaxBillionaires",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for a wealth tax and criticizing billionaires for hoarding wealth aligns with common left-leaning political positions. These positions typically emphasize economic equality, social justice, and government intervention to redistribute wealth.\"\n}\n```",
+      "explanation": "The author's statement advocating for a wealth tax and criticizing billionaires for hoarding wealth aligns with common left-leaning political positions. These positions typically emphasize economic equality, social justice, and government intervention to redistribute wealth."
+    }
+  ]
+}

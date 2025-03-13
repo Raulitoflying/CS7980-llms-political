@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 16,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 12,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 66.66666666666666,
+      "recall": 100.0,
+      "f1_score": 8000.0,
+      "true_positive": 4,
+      "false_positive": 2,
+      "true_negative": 14,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "SaveTheEarth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by SaveTheEarth emphasizes the urgency of addressing climate change, which is a position more commonly associated with left-leaning political orientations. The left generally advocates for strong environmental regulations and immediate action to combat climate change, reflecting a concern for environmental sustainability and a proactive approach to global issues. The phrase 'The science is clear' also suggests a trust in scientific consensus, which is typically more aligned with left-wing viewpoints that tend to support evidence-based policies and the role of science in guiding public policy.\"\n}",
+      "explanation": "The post by SaveTheEarth emphasizes the urgency of addressing climate change, which is a position more commonly associated with left-leaning political orientations. The left generally advocates for strong environmental regulations and immediate action to combat climate change, reflecting a concern for environmental sustainability and a proactive approach to global issues. The phrase 'The science is clear' also suggests a trust in scientific consensus, which is typically more aligned with left-wing viewpoints that tend to support evidence-based policies and the role of science in guiding public policy."
+    },
+    {
+      "author": "ClimateSkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post by 'ClimateSkeptic' expresses skepticism towards the concept of anthropogenic climate change, suggesting that it is a 'political tool for control.' This viewpoint is often associated with right-wing political orientations, which tend to be more critical of environmental regulations and skeptical of the scientific consensus on climate change. The emphasis on natural climate variability also aligns with common arguments used by those on the right to challenge the need for human intervention or policy changes to address climate issues.\"\n}",
+      "explanation": "The post by 'ClimateSkeptic' expresses skepticism towards the concept of anthropogenic climate change, suggesting that it is a 'political tool for control.' This viewpoint is often associated with right-wing political orientations, which tend to be more critical of environmental regulations and skeptical of the scientific consensus on climate change. The emphasis on natural climate variability also aligns with common arguments used by those on the right to challenge the need for human intervention or policy changes to address climate issues."
+    },
+    {
+      "author": "GoGreen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong advocacy for renewable energy sources like solar and wind, and the call for an immediate transition away from fossil fuels, aligns with left-leaning environmental policies and concerns. This stance is typically associated with progressive or left-wing political orientations that prioritize environmental sustainability and climate action.\"\n}",
+      "explanation": "The author's strong advocacy for renewable energy sources like solar and wind, and the call for an immediate transition away from fossil fuels, aligns with left-leaning environmental policies and concerns. This stance is typically associated with progressive or left-wing political orientations that prioritize environmental sustainability and climate action."
+    },
+    {
+      "author": "EnergySecurity",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by EnergySecurity focuses on the current reliance on fossil fuels and the unreliability of renewable energy as a complete replacement. This statement does not inherently align with specific political ideologies, as it can be a factual observation that might be shared by individuals across the political spectrum. Without additional context or statements that reveal underlying values or political leanings, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by EnergySecurity focuses on the current reliance on fossil fuels and the unreliability of renewable energy as a complete replacement. This statement does not inherently align with specific political ideologies, as it can be a factual observation that might be shared by individuals across the political spectrum. Without additional context or statements that reveal underlying values or political leanings, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "HoldBigOilAccountable",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a strong stance against big corporations, particularly in the context of environmental responsibility and accountability for climate change. This aligns with left-wing political values, which often emphasize corporate responsibility, environmental protection, and the need for regulatory measures to address social and environmental issues. The sentiment of holding 'Big Oil' accountable is a common theme in left-wing discourse, advocating for stricter regulations and policies to combat climate change and reduce corporate environmental impact.\"\n}",
+      "explanation": "The post expresses a strong stance against big corporations, particularly in the context of environmental responsibility and accountability for climate change. This aligns with left-wing political values, which often emphasize corporate responsibility, environmental protection, and the need for regulatory measures to address social and environmental issues. The sentiment of holding 'Big Oil' accountable is a common theme in left-wing discourse, advocating for stricter regulations and policies to combat climate change and reduce corporate environmental impact."
+    },
+    {
+      "author": "PolicyMatters",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. It poses a question about government regulation versus market forces in the context of climate change, which could be relevant to both left and right political spectrums. Without additional context or the author's stance on the issue, it is not possible to classify the orientation accurately.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. It poses a question about government regulation versus market forces in the context of climate change, which could be relevant to both left and right political spectrums. Without additional context or the author's stance on the issue, it is not possible to classify the orientation accurately."
+    },
+    {
+      "author": "EcoFriendly",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes individual responsibility in environmental stewardship, which is a common theme in left-leaning political discourse. Left-oriented individuals often advocate for personal actions to combat climate change and support sustainability, reflecting a broader concern for environmental issues and a commitment to social and ecological responsibility. While these views can sometimes be shared across the political spectrum, the focus on sustainability and reducing environmental impact is more prominently aligned with left-wing values.\"\n}",
+      "explanation": "The post emphasizes individual responsibility in environmental stewardship, which is a common theme in left-leaning political discourse. Left-oriented individuals often advocate for personal actions to combat climate change and support sustainability, reflecting a broader concern for environmental issues and a commitment to social and ecological responsibility. While these views can sometimes be shared across the political spectrum, the focus on sustainability and reducing environmental impact is more prominently aligned with left-wing values."
+    },
+    {
+      "author": "EVAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EVAdvocate emphasizes the importance of government intervention to promote environmental sustainability through the incentivization of electric vehicle adoption. This stance aligns with left-leaning political views, which typically support government action to address environmental issues and promote public welfare through regulation and incentives.\"\n}",
+      "explanation": "The post by EVAdvocate emphasizes the importance of government intervention to promote environmental sustainability through the incentivization of electric vehicle adoption. This stance aligns with left-leaning political views, which typically support government action to address environmental issues and promote public welfare through regulation and incentives."
+    },
+    {
+      "author": "EVCritic",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by EVCritic focuses on environmental concerns related to electric vehicle (EV) batteries and lithium mining. While this criticism of EVs and their environmental impact could be aligned with a right-wing perspective that is skeptical of renewable energy technologies and supportive of traditional fossil fuels, it could also align with a left-wing environmentalist perspective that emphasizes the need for sustainable and ethical practices in all forms of energy production, including those considered 'green.' Without more context or additional posts that might indicate the author's broader political views, it is not possible to definitively classify the author's political orientation based solely on this statement.\"\n}",
+      "explanation": "The post by EVCritic focuses on environmental concerns related to electric vehicle (EV) batteries and lithium mining. While this criticism of EVs and their environmental impact could be aligned with a right-wing perspective that is skeptical of renewable energy technologies and supportive of traditional fossil fuels, it could also align with a left-wing environmentalist perspective that emphasizes the need for sustainable and ethical practices in all forms of energy production, including those considered 'green.' Without more context or additional posts that might indicate the author's broader political views, it is not possible to definitively classify the author's political orientation based solely on this statement."
+    },
+    {
+      "author": "ExtremeWeather",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by ExtremeWeather emphasizes the urgency of addressing climate change, which is a position more commonly associated with left-leaning political orientations. The author highlights the increasing severity of natural disasters and calls for immediate action, reflecting a concern for environmental issues and proactive government intervention, both of which are typically championed by those on the political left.\"\n}",
+      "explanation": "The post by ExtremeWeather emphasizes the urgency of addressing climate change, which is a position more commonly associated with left-leaning political orientations. The author highlights the increasing severity of natural disasters and calls for immediate action, reflecting a concern for environmental issues and proactive government intervention, both of which are typically championed by those on the political left."
+    },
+    {
+      "author": "SaveTheRainforests",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes environmental protection and the fight against climate change, which are typically associated with left-leaning political views. The author's focus on the importance of protecting forests to combat global warming aligns with the environmental policies and concerns often championed by those on the political left.\"\n}",
+      "explanation": "The post emphasizes environmental protection and the fight against climate change, which are typically associated with left-leaning political views. The author's focus on the importance of protecting forests to combat global warming aligns with the environmental policies and concerns often championed by those on the political left."
+    },
+    {
+      "author": "GoVegan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by 'GoVegan' emphasizes environmental concerns and advocates for a reduction in meat consumption to combat climate change. These views are typically associated with left-leaning political orientations, which often prioritize environmental sustainability and support measures to reduce human impact on the environment. The advocacy for a plant-based diet to address global issues aligns with progressive values that emphasize social and environmental responsibility.\"\n}",
+      "explanation": "The post by 'GoVegan' emphasizes environmental concerns and advocates for a reduction in meat consumption to combat climate change. These views are typically associated with left-leaning political orientations, which often prioritize environmental sustainability and support measures to reduce human impact on the environment. The advocacy for a plant-based diet to address global issues aligns with progressive values that emphasize social and environmental responsibility."
+    },
+    {
+      "author": "NuclearNow",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is neutral and seeks opinions on the pros and cons of nuclear energy, without indicating the author's stance or political leanings.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is neutral and seeks opinions on the pros and cons of nuclear energy, without indicating the author's stance or political leanings."
+    },
+    {
+      "author": "TeachClimate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by TeachClimate advocates for the inclusion of climate science in school curricula, emphasizing the importance of preparing the next generation. This stance is typically associated with left-leaning political views, which often prioritize environmental education and action. While the post does not explicitly state a political position, the emphasis on climate education aligns more closely with left-wing values.\"\n}",
+      "explanation": "The post by TeachClimate advocates for the inclusion of climate science in school curricula, emphasizing the importance of preparing the next generation. This stance is typically associated with left-leaning political views, which often prioritize environmental education and action. While the post does not explicitly state a political position, the emphasis on climate education aligns more closely with left-wing values."
+    },
+    {
+      "author": "TechFixClimate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by TechFixClimate focuses on a technical question regarding the potential of using advanced technologies to address climate change. It does not express any specific political views, ideologies, or stances that would clearly indicate a left or right orientation. The discussion is centered on scientific and technological solutions rather than political advocacy or criticism, making it difficult to classify the author's political orientation based solely on this content.\"\n}",
+      "explanation": "The post by TechFixClimate focuses on a technical question regarding the potential of using advanced technologies to address climate change. It does not express any specific political views, ideologies, or stances that would clearly indicate a left or right orientation. The discussion is centered on scientific and technological solutions rather than political advocacy or criticism, making it difficult to classify the author's political orientation based solely on this content."
+    },
+    {
+      "author": "TaxPolluters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a carbon tax and the emphasis on holding corporations accountable for emissions align with left-leaning environmental policies. This stance typically advocates for government intervention to address climate change and reduce corporate environmental impact, which is more commonly associated with left-wing political orientations.\"\n}",
+      "explanation": "The author's support for a carbon tax and the emphasis on holding corporations accountable for emissions align with left-leaning environmental policies. This stance typically advocates for government intervention to address climate change and reduce corporate environmental impact, which is more commonly associated with left-wing political orientations."
+    },
+    {
+      "author": "SkepticalEconomist",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism towards the Green New Deal, focusing on its cost and feasibility. This criticism aligns with a more conservative or right-leaning political orientation, which often emphasizes fiscal responsibility and is more cautious about large government spending initiatives, especially those associated with progressive policies.\"\n}",
+      "explanation": "The author expresses skepticism towards the Green New Deal, focusing on its cost and feasibility. This criticism aligns with a more conservative or right-leaning political orientation, which often emphasizes fiscal responsibility and is more cautious about large government spending initiatives, especially those associated with progressive policies."
+    },
+    {
+      "author": "ClimateThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by ClimateThreat emphasizes the urgency and reality of rising sea levels as a threat to coastal cities, which aligns with a left-leaning political orientation. Typically, the political left is more likely to highlight environmental issues and advocate for immediate action to address climate change. The strong stance on the reality and urgency of the issue suggests a concern that is often more prominently featured in left-wing discourse.\"\n}",
+      "explanation": "The post by ClimateThreat emphasizes the urgency and reality of rising sea levels as a threat to coastal cities, which aligns with a left-leaning political orientation. Typically, the political left is more likely to highlight environmental issues and advocate for immediate action to address climate change. The strong stance on the reality and urgency of the issue suggests a concern that is often more prominently featured in left-wing discourse."
+    },
+    {
+      "author": "WinterStorms",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by WinterStorms raises a question about the relationship between global warming and cold temperatures, which is a topic that can be discussed from various perspectives. The author does not provide enough information or context to determine a specific political orientation. The question could be motivated by genuine curiosity, a desire to understand scientific explanations, or skepticism towards climate change, which is not inherently indicative of a particular political stance. Therefore, based on the content alone, the political orientation remains unknown.\"\n}",
+      "explanation": "The post by WinterStorms raises a question about the relationship between global warming and cold temperatures, which is a topic that can be discussed from various perspectives. The author does not provide enough information or context to determine a specific political orientation. The question could be motivated by genuine curiosity, a desire to understand scientific explanations, or skepticism towards climate change, which is not inherently indicative of a particular political stance. Therefore, based on the content alone, the political orientation remains unknown."
+    },
+    {
+      "author": "EVFuture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for government intervention in the form of a ban on new gas car sales by 2035, which is a policy typically supported by those on the political left who prioritize environmental protection and climate change mitigation. The enthusiasm for electric vehicles also aligns with progressive views on sustainable energy and reducing carbon emissions.\"\n}",
+      "explanation": "The post advocates for government intervention in the form of a ban on new gas car sales by 2035, which is a policy typically supported by those on the political left who prioritize environmental protection and climate change mitigation. The enthusiasm for electric vehicles also aligns with progressive views on sustainable energy and reducing carbon emissions."
+    }
+  ]
+}

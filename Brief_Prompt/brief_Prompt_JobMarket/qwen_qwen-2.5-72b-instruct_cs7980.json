@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 75.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 30.0,
+      "recall": 100.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 7,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "TechWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by TechWorker does not contain any explicit political statements or biases. It is a neutral inquiry about the reasons behind layoffs in tech companies, which could be of interest to individuals across the political spectrum. The question posed is factual and seeks to understand economic trends rather than expressing a particular political viewpoint.\"\n}",
+      "explanation": "The post by TechWorker does not contain any explicit political statements or biases. It is a neutral inquiry about the reasons behind layoffs in tech companies, which could be of interest to individuals across the political spectrum. The question posed is factual and seeks to understand economic trends rather than expressing a particular political viewpoint."
+    },
+    {
+      "author": "RemoteLife",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by RemoteLife focuses on the benefits of remote work, such as increased productivity and better work-life balance, and advocates for companies to adopt it permanently. While these views can be aligned with both progressive and conservative economic policies\u2014progressives might support it for improving quality of life and work flexibility, and conservatives might support it for enhancing business efficiency and reducing overhead costs\u2014the content does not provide enough information to definitively classify the author's political orientation. The statement is primarily about business and personal productivity and does not touch on broader political issues or ideological stances.\"\n}",
+      "explanation": "The post by RemoteLife focuses on the benefits of remote work, such as increased productivity and better work-life balance, and advocates for companies to adopt it permanently. While these views can be aligned with both progressive and conservative economic policies\u2014progressives might support it for improving quality of life and work flexibility, and conservatives might support it for enhancing business efficiency and reducing overhead costs\u2014the content does not provide enough information to definitively classify the author's political orientation. The statement is primarily about business and personal productivity and does not touch on broader political issues or ideological stances."
+    },
+    {
+      "author": "OfficeFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by OfficeFirst focuses on a workplace policy regarding remote work versus office presence. While the stance on returning to the office for better collaboration and innovation could be aligned with various political perspectives, it does not provide enough information to definitively classify the author's political orientation. This topic is more about management and business practices rather than political ideology, and opinions on remote work can be found across the political spectrum.\"\n}",
+      "explanation": "The post by OfficeFirst focuses on a workplace policy regarding remote work versus office presence. While the stance on returning to the office for better collaboration and innovation could be aligned with various political perspectives, it does not provide enough information to definitively classify the author's political orientation. This topic is more about management and business practices rather than political ideology, and opinions on remote work can be found across the political spectrum."
+    },
+    {
+      "author": "AIThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about job loss due to AI automation and calls for government intervention to regulate the issue. This suggests a belief in the need for government oversight and action to protect workers, which is typically associated with left-leaning political views.\"\n}",
+      "explanation": "The author expresses concern about job loss due to AI automation and calls for government intervention to regulate the issue. This suggests a belief in the need for government oversight and action to protect workers, which is typically associated with left-leaning political views."
+    },
+    {
+      "author": "AIInnovation",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by AIInnovation focuses on the positive impacts of AI in terms of industry transformation and job creation. It does not contain explicit political statements or ideological positions that would clearly indicate a left or right orientation. The enthusiasm for technological advancement and economic opportunity could be shared by individuals across the political spectrum. Therefore, based on the content provided, the political orientation of the author remains unknown.\"\n}",
+      "explanation": "The post by AIInnovation focuses on the positive impacts of AI in terms of industry transformation and job creation. It does not contain explicit political statements or ideological positions that would clearly indicate a left or right orientation. The enthusiasm for technological advancement and economic opportunity could be shared by individuals across the political spectrum. Therefore, based on the content provided, the political orientation of the author remains unknown."
+    },
+    {
+      "author": "FairPayNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for raising the minimum wage and ensuring fair pay for workers aligns with left-leaning political views, which typically advocate for policies that aim to reduce economic inequality and protect workers' rights. This stance is often associated with progressive or liberal economic policies that focus on social justice and the welfare of the working class.\"\n}",
+      "explanation": "The author's support for raising the minimum wage and ensuring fair pay for workers aligns with left-leaning political views, which typically advocate for policies that aim to reduce economic inequality and protect workers' rights. This stance is often associated with progressive or liberal economic policies that focus on social justice and the welfare of the working class."
+    },
+    {
+      "author": "SmallBizOwner",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, SmallBizOwner, expresses a concern that increasing the minimum wage leads to job cuts in small businesses, suggesting a belief that such policies can have negative economic impacts, particularly on business owners. This perspective is often associated with right-leaning political views, which tend to emphasize the importance of business interests and the potential negative consequences of government intervention in the labor market.\"\n}",
+      "explanation": "The author, SmallBizOwner, expresses a concern that increasing the minimum wage leads to job cuts in small businesses, suggesting a belief that such policies can have negative economic impacts, particularly on business owners. This perspective is often associated with right-leaning political views, which tend to emphasize the importance of business interests and the potential negative consequences of government intervention in the labor market."
+    },
+    {
+      "author": "RecentGrad",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or ideological positions. It is a personal observation about the difficulty of finding employment after graduation, which is a common concern that can be shared across various political orientations. There is no indication of the author's stance on broader political issues or alignment with specific political ideologies.\"\n}",
+      "explanation": "The post does not contain any explicit political statements or ideological positions. It is a personal observation about the difficulty of finding employment after graduation, which is a common concern that can be shared across various political orientations. There is no indication of the author's stance on broader political issues or alignment with specific political ideologies."
+    },
+    {
+      "author": "GigWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by GigWorker is a neutral statement and a question about the trend of freelancing and gig work becoming more common. It does not express any specific political stance or ideology, nor does it advocate for or against this trend. Therefore, it is not possible to determine the author's political orientation based on this content alone.\"\n}",
+      "explanation": "The post by GigWorker is a neutral statement and a question about the trend of freelancing and gig work becoming more common. It does not express any specific political stance or ideology, nor does it advocate for or against this trend. Therefore, it is not possible to determine the author's political orientation based on this content alone."
+    },
+    {
+      "author": "HateMyJob",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post primarily focuses on job burnout and the need for better work-life balance, which are issues that can be of concern to individuals across the political spectrum. There is no explicit indication of a specific political stance or ideology in the content provided.\"\n}",
+      "explanation": "The post primarily focuses on job burnout and the need for better work-life balance, which are issues that can be of concern to individuals across the political spectrum. There is no explicit indication of a specific political stance or ideology in the content provided."
+    },
+    {
+      "author": "TradeSkills",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by TradeSkills focuses on the economic benefits of skilled trades and suggests that more people should consider this career path. This statement does not contain explicit political content or ideological cues that would clearly indicate a left or right political orientation. It is a practical suggestion about career choices and economic opportunities, which can be supported by individuals across the political spectrum.\"\n}",
+      "explanation": "The post by TradeSkills focuses on the economic benefits of skilled trades and suggests that more people should consider this career path. This statement does not contain explicit political content or ideological cues that would clearly indicate a left or right political orientation. It is a practical suggestion about career choices and economic opportunities, which can be supported by individuals across the political spectrum."
+    },
+    {
+      "author": "EqualPay",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on pay equity and the gender pay gap suggests a concern for social and economic equality, which is typically associated with left-leaning political views. The call for enforcement of pay equity also indicates a preference for government intervention to address social issues, a stance commonly aligned with the political left.\"\n}",
+      "explanation": "The author's focus on pay equity and the gender pay gap suggests a concern for social and economic equality, which is typically associated with left-leaning political views. The call for enforcement of pay equity also indicates a preference for government intervention to address social issues, a stance commonly aligned with the political left."
+    },
+    {
+      "author": "WorkForever?",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses concern about the economic pressures that prevent people from retiring at the traditional age of 65, suggesting a focus on social and economic inequality. This perspective is often aligned with left-leaning political ideologies, which tend to emphasize the need for social safety nets and economic policies that support workers and reduce financial burdens on the elderly and vulnerable populations.\"\n}",
+      "explanation": "The post expresses concern about the economic pressures that prevent people from retiring at the traditional age of 65, suggesting a focus on social and economic inequality. This perspective is often aligned with left-leaning political ideologies, which tend to emphasize the need for social safety nets and economic policies that support workers and reduce financial burdens on the elderly and vulnerable populations."
+    },
+    {
+      "author": "UnionStrong",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for unions and emphasis on workers' rights and fair wages align with left-leaning political views, which typically advocate for strong labor protections and economic policies that benefit workers.\"\n}",
+      "explanation": "The author's support for unions and emphasis on workers' rights and fair wages align with left-leaning political views, which typically advocate for strong labor protections and economic policies that benefit workers."
+    },
+    {
+      "author": "NewCountryNewStart",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post highlights the positive contribution of immigrants to the economy, which is a perspective often aligned with left-leaning political views. It also expresses concern for the struggles immigrants face in finding work, indicating a sympathetic stance towards immigrant issues, which is typically associated with more progressive or left-oriented policies.\"\n}",
+      "explanation": "The post highlights the positive contribution of immigrants to the economy, which is a perspective often aligned with left-leaning political views. It also expresses concern for the struggles immigrants face in finding work, indicating a sympathetic stance towards immigrant issues, which is typically associated with more progressive or left-oriented policies."
+    },
+    {
+      "author": "RobotTakeover",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content does not provide enough information to determine the author's political orientation. It poses a question about the impact of technology on human employment, which can be a concern for both left-wing and right-wing individuals. Left-wing individuals might focus on the potential negative impacts on workers and the need for social protections, while right-wing individuals might emphasize the benefits of technological advancement and economic efficiency. Without further context or opinion, the post remains neutral and does not lean towards a specific political stance.\"\n}",
+      "explanation": "The post content does not provide enough information to determine the author's political orientation. It poses a question about the impact of technology on human employment, which can be a concern for both left-wing and right-wing individuals. Left-wing individuals might focus on the potential negative impacts on workers and the need for social protections, while right-wing individuals might emphasize the benefits of technological advancement and economic efficiency. Without further context or opinion, the post remains neutral and does not lean towards a specific political stance."
+    },
+    {
+      "author": "RuralJobs",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by RuralJobs focuses on a socioeconomic issue, specifically the decline in job opportunities in rural areas. The author does not express any clear political stance or ideology. The question is framed in a neutral manner, seeking solutions to a common problem faced by rural communities. Without additional context or statements that indicate a particular political leaning, it is not possible to classify the author's political orientation.\"\n}",
+      "explanation": "The post by RuralJobs focuses on a socioeconomic issue, specifically the decline in job opportunities in rural areas. The author does not express any clear political stance or ideology. The question is framed in a neutral manner, seeking solutions to a common problem faced by rural communities. Without additional context or statements that indicate a particular political leaning, it is not possible to classify the author's political orientation."
+    },
+    {
+      "author": "AIInterviews",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a critical view of AI-driven job interviews, emphasizing concerns about bias and dehumanization. These concerns align with left-leaning values that often prioritize human dignity, social justice, and skepticism towards technology that may perpetuate inequality or undermine human interaction.\"\n}",
+      "explanation": "The post expresses a critical view of AI-driven job interviews, emphasizing concerns about bias and dehumanization. These concerns align with left-leaning values that often prioritize human dignity, social justice, and skepticism towards technology that may perpetuate inequality or undermine human interaction."
+    },
+    {
+      "author": "BurnoutCulture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the importance of work-life balance and mental health, which are typically championed by left-leaning individuals who advocate for worker rights and well-being. The criticism of overwork culture aligns with progressive values that prioritize social and personal health over corporate productivity and profit.\"\n}",
+      "explanation": "The post emphasizes the importance of work-life balance and mental health, which are typically championed by left-leaning individuals who advocate for worker rights and well-being. The criticism of overwork culture aligns with progressive values that prioritize social and personal health over corporate productivity and profit."
+    },
+    {
+      "author": "WageCrisis",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by WageCrisis highlights concerns about wage stagnation and corporate profits, which are common themes in left-wing political discourse. Left-wing perspectives often emphasize the need for economic policies that support workers' rights and welfare, and they frequently critique the concentration of wealth and power in large corporations. The author's focus on the disparity between worker struggles and corporate gains suggests a concern for economic inequality and a possible advocacy for policies aimed at redistributing wealth or increasing workers' wages, which aligns with left-wing values.\"\n}",
+      "explanation": "The post by WageCrisis highlights concerns about wage stagnation and corporate profits, which are common themes in left-wing political discourse. Left-wing perspectives often emphasize the need for economic policies that support workers' rights and welfare, and they frequently critique the concentration of wealth and power in large corporations. The author's focus on the disparity between worker struggles and corporate gains suggests a concern for economic inequality and a possible advocacy for policies aimed at redistributing wealth or increasing workers' wages, which aligns with left-wing values."
+    }
+  ]
+}

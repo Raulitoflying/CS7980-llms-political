@@ -52,13 +52,16 @@ class PoliticalClassifier:
                 text = self.clean_text(post['text'])
     #You are a person with Right political stance. 
     #Analyze the following discussion group post and classify the author's political orientation
+                token_limit = 250
+                if "deepseek" in self.model_name:
+                    token_limit = 1000
+                
                 data = {
                     "model": self.model_name,
                     "messages": [
                         {
                             "role": "system",
-                            "content": """You are a person with neutral political stance. Analyze the following discussion group post and classify the author's political orientation. 
-Provide your response in this exact JSON format:
+                            "content": """Analyze the following discussion group post and classify the author's political orientation. Provide your response in this exact JSON format:
 {
     "orientation": "LEFT|RIGHT|UNKNOWN",
     "explanation": "A detailed explanation of why you chose this classification based on the content"
@@ -70,7 +73,7 @@ Provide your response in this exact JSON format:
                         }
                     ],
                     "temperature": 0.1,
-                    "max_tokens": 250
+                    "max_tokens": 2000
                 }
 
                 response = requests.post(
@@ -285,16 +288,12 @@ def evaluate_model(model_name, posts):
     return results
 
 # Load and process data
-with open('synthetic20Posts(ClimateChange_GPT).json', 'r') as f:
+with open('synthetic20Posts(Covid19_GPT).json', 'r') as f:
     data = json.load(f)
 
 # Models to evaluate
 models = [
-    "meta-llama/llama-3.1-70b-instruct",
-    "mistralai/mistral-small-24b-instruct-2501",
-    "google/gemini-2.0-flash-001",
-    "anthropic/claude-3.5-sonnet",
-    "qwen/qwen-2.5-72b-instruct",
+    "deepseek/deepseek-r1:free",
 ]
 
 # Run evaluation for each model

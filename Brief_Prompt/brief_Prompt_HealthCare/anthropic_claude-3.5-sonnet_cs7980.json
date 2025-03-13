@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 83.33333333333334,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 14,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 87.5,
+      "recall": 100.0,
+      "f1_score": 9333.333333333332,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "HealthForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The author advocates for Medicare for All, which is a signature progressive policy position, 2) They frame healthcare as a 'right' rather than a market service, which aligns with left-wing views on universal public services, 3) The language 'healthcare should be a right, not a privilege' is a common progressive slogan that critiques the current market-based healthcare system. This position is consistently associated with the political left in American politics, particularly with progressive Democrats and democratic socialists.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The author advocates for Medicare for All, which is a signature progressive policy position, 2) They frame healthcare as a 'right' rather than a market service, which aligns with left-wing views on universal public services, 3) The language 'healthcare should be a right, not a privilege' is a common progressive slogan that critiques the current market-based healthcare system. This position is consistently associated with the political left in American politics, particularly with progressive Democrats and democratic socialists."
+    },
+    {
+      "author": "FreeMarketHealth",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits classic right-wing/conservative viewpoints through: 1) Opposition to government involvement in healthcare, which is a core conservative position, 2) Advocacy for free market solutions, which is a fundamental right-wing economic principle, 3) The username 'FreeMarketHealth' itself signals support for market-based rather than government-based solutions, a hallmark of right-wing economic philosophy. The exclamation point also suggests emotional investment in this conservative economic perspective.\"\n}",
+      "explanation": "This post exhibits classic right-wing/conservative viewpoints through: 1) Opposition to government involvement in healthcare, which is a core conservative position, 2) Advocacy for free market solutions, which is a fundamental right-wing economic principle, 3) The username 'FreeMarketHealth' itself signals support for market-based rather than government-based solutions, a hallmark of right-wing economic philosophy. The exclamation point also suggests emotional investment in this conservative economic perspective."
+    },
+    {
+      "author": "LowerDrugPrices",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typical left-wing positions through: 1) Support for market regulation, particularly of pharmaceutical companies, which is a common progressive stance 2) Criticism of 'Big Pharma' using populist language that's frequently associated with the political left 3) Concern about high drug prices and implicit support for government intervention to lower them, which aligns with left-wing healthcare policy positions 4) The username 'LowerDrugPrices' suggests advocacy for price controls, a traditionally left-wing economic policy approach\"\n}",
+      "explanation": "This post exhibits typical left-wing positions through: 1) Support for market regulation, particularly of pharmaceutical companies, which is a common progressive stance 2) Criticism of 'Big Pharma' using populist language that's frequently associated with the political left 3) Concern about high drug prices and implicit support for government intervention to lower them, which aligns with left-wing healthcare policy positions 4) The username 'LowerDrugPrices' suggests advocacy for price controls, a traditionally left-wing economic policy approach"
+    },
+    {
+      "author": "InnovationFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects typical right-wing/conservative economic views that favor free market solutions and oppose government regulation. The argument that price controls will stifle innovation and private sector investment is a common conservative talking point, especially in healthcare policy debates. The exclamation point suggests emotional investment in free market principles. This perspective aligns with right-wing beliefs in minimal government intervention in markets and the idea that market forces should determine prices rather than government regulation.\"\n}",
+      "explanation": "This post reflects typical right-wing/conservative economic views that favor free market solutions and oppose government regulation. The argument that price controls will stifle innovation and private sector investment is a common conservative talking point, especially in healthcare policy debates. The exclamation point suggests emotional investment in free market principles. This perspective aligns with right-wing beliefs in minimal government intervention in markets and the idea that market forces should determine prices rather than government regulation."
+    },
+    {
+      "author": "MedicaidForMore",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-wing political orientation for several reasons: 1) The author advocates for expanding Medicaid, which is a government healthcare program - this aligns with progressive/left-wing support for increased government involvement in healthcare. 2) The username 'MedicaidForMore' itself suggests support for expanded public healthcare. 3) The concern about medical bankruptcy and the belief that healthcare should be more accessible reflects typical left-wing views about healthcare being a right rather than a privilege. 4) The exclamation 'No one should go bankrupt for getting sick!' echoes common progressive messaging about universal healthcare access.\"\n}",
+      "explanation": "This post strongly indicates a left-wing political orientation for several reasons: 1) The author advocates for expanding Medicaid, which is a government healthcare program - this aligns with progressive/left-wing support for increased government involvement in healthcare. 2) The username 'MedicaidForMore' itself suggests support for expanded public healthcare. 3) The concern about medical bankruptcy and the belief that healthcare should be more accessible reflects typical left-wing views about healthcare being a right rather than a privilege. 4) The exclamation 'No one should go bankrupt for getting sick!' echoes common progressive messaging about universal healthcare access."
+    },
+    {
+      "author": "FiscalConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits clear right-wing political views through several indicators: 1) The username 'FiscalConservative' directly signals conservative economic beliefs, 2) The opposition to Medicaid expansion is a classic conservative position, 3) The focus on tax burden and government spending is a core right-wing talking point, and 4) The framing of government healthcare programs as an economic 'burden' rather than an investment in public health aligns with traditional conservative ideology that favors limited government involvement in healthcare.\"\n}",
+      "explanation": "This post exhibits clear right-wing political views through several indicators: 1) The username 'FiscalConservative' directly signals conservative economic beliefs, 2) The opposition to Medicaid expansion is a classic conservative position, 3) The focus on tax burden and government spending is a core right-wing talking point, and 4) The framing of government healthcare programs as an economic 'burden' rather than an investment in public health aligns with traditional conservative ideology that favors limited government involvement in healthcare."
+    },
+    {
+      "author": "DecoupleHealth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This statement aligns with left-wing political views because it criticizes the employer-based healthcare system in the United States and implies support for decoupling healthcare from employment. This is a common progressive/left position that often advocates for universal healthcare or single-payer systems. The exclamation 'The system is broken!' suggests frustration with the current market-based healthcare structure, which is typically criticized more by those on the left than the right, who tend to favor market-based solutions. The sentiment reflects the left's broader belief that healthcare should be treated as a right rather than tied to employment status.\"\n}",
+      "explanation": "This statement aligns with left-wing political views because it criticizes the employer-based healthcare system in the United States and implies support for decoupling healthcare from employment. This is a common progressive/left position that often advocates for universal healthcare or single-payer systems. The exclamation 'The system is broken!' suggests frustration with the current market-based healthcare structure, which is typically criticized more by those on the left than the right, who tend to favor market-based solutions. The sentiment reflects the left's broader belief that healthcare should be treated as a right rather than tied to employment status."
+    },
+    {
+      "author": "KeepPrivateInsurance",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects typical right-wing/conservative positions on healthcare policy by defending the existing private, employer-based insurance system. The sentiment 'Don't mess with it!' suggests opposition to healthcare reform or government intervention in healthcare markets, which is a common conservative stance. The username 'KeepPrivateInsurance' and the emphasis on employer-sponsored coverage over public options aligns with traditional conservative values of free market solutions and resistance to government-managed healthcare programs like Medicare for All or single-payer systems that are typically supported by the left.\"\n}",
+      "explanation": "This post reflects typical right-wing/conservative positions on healthcare policy by defending the existing private, employer-based insurance system. The sentiment 'Don't mess with it!' suggests opposition to healthcare reform or government intervention in healthcare markets, which is a common conservative stance. The username 'KeepPrivateInsurance' and the emphasis on employer-sponsored coverage over public options aligns with traditional conservative values of free market solutions and resistance to government-managed healthcare programs like Medicare for All or single-payer systems that are typically supported by the left."
+    },
+    {
+      "author": "DigitalHealth",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post does not provide enough clear ideological indicators to determine political orientation. While healthcare access is often a political issue, the question about telemedicine coverage is posed neutrally. Both conservative and liberal viewpoints could support telemedicine coverage for different reasons - conservatives might see it as a market-driven efficiency solution, while liberals might view it as expanding healthcare access. Without additional context about the author's views on healthcare funding, government involvement, or private insurance markets, we cannot reliably classify their political orientation from this statement alone.\"\n}",
+      "explanation": "This post does not provide enough clear ideological indicators to determine political orientation. While healthcare access is often a political issue, the question about telemedicine coverage is posed neutrally. Both conservative and liberal viewpoints could support telemedicine coverage for different reasons - conservatives might see it as a market-driven efficiency solution, while liberals might view it as expanding healthcare access. Without additional context about the author's views on healthcare funding, government involvement, or private insurance markets, we cannot reliably classify their political orientation from this statement alone."
+    },
+    {
+      "author": "CostEffectiveCare",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post appears to be advocating for universal healthcare by highlighting its cost advantages compared to the U.S. system. This is a characteristically left-wing position, as support for universal/socialized healthcare is a core progressive policy position. The author is using the cost-effectiveness argument to promote a government-managed healthcare system, which aligns with left-wing views favoring more government involvement in healthcare. Conservative/right-wing positions typically oppose universal healthcare and favor market-based solutions. The exclamation point also suggests enthusiasm for this pro-universal healthcare talking point.\"\n}",
+      "explanation": "This post appears to be advocating for universal healthcare by highlighting its cost advantages compared to the U.S. system. This is a characteristically left-wing position, as support for universal/socialized healthcare is a core progressive policy position. The author is using the cost-effectiveness argument to promote a government-managed healthcare system, which aligns with left-wing views favoring more government involvement in healthcare. Conservative/right-wing positions typically oppose universal healthcare and favor market-based solutions. The exclamation point also suggests enthusiasm for this pro-universal healthcare talking point."
+    },
+    {
+      "author": "SupportDoctors",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement alone does not provide enough clear ideological indicators to determine political orientation. Support for doctors' compensation could come from either side of the political spectrum - conservatives might support higher doctor pay as part of free market principles, while liberals might support it to strengthen healthcare systems and worker compensation. The statement is focused solely on supporting medical professionals' compensation and doesn't touch on broader political issues like healthcare system structure, government involvement, or other ideological markers that would help identify a clear political leaning.\"\n}",
+      "explanation": "This statement alone does not provide enough clear ideological indicators to determine political orientation. Support for doctors' compensation could come from either side of the political spectrum - conservatives might support higher doctor pay as part of free market principles, while liberals might support it to strengthen healthcare systems and worker compensation. The statement is focused solely on supporting medical professionals' compensation and doesn't touch on broader political issues like healthcare system structure, government involvement, or other ideological markers that would help identify a clear political leaning."
+    },
+    {
+      "author": "CancelMedicalDebt",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly aligns with left-wing political positions for several reasons: 1) It advocates for the cancellation of medical debt, which is a progressive policy position typically championed by the political left, 2) The sentiment that healthcare should not cause financial hardship reflects the left's view that healthcare is a human right rather than a market commodity, 3) The username 'CancelMedicalDebt' itself indicates support for a progressive healthcare policy, and 4) The call for government intervention to address medical debt is consistent with left-wing approaches to solving social issues through collective action rather than market-based solutions.\"\n}",
+      "explanation": "This post strongly aligns with left-wing political positions for several reasons: 1) It advocates for the cancellation of medical debt, which is a progressive policy position typically championed by the political left, 2) The sentiment that healthcare should not cause financial hardship reflects the left's view that healthcare is a human right rather than a market commodity, 3) The username 'CancelMedicalDebt' itself indicates support for a progressive healthcare policy, and 4) The call for government intervention to address medical debt is consistent with left-wing approaches to solving social issues through collective action rather than market-based solutions."
+    },
+    {
+      "author": "MoreNurses",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post raises a legitimate policy question about healthcare staffing without revealing any clear ideological bias. The nursing shortage is a concern acknowledged across the political spectrum. Without additional context about specific policy solutions the author favors (e.g., government funding for nursing education vs market-based solutions), it's impossible to determine their political orientation. The username 'MoreNurses' simply indicates interest in the topic rather than a particular ideological stance.\"\n}",
+      "explanation": "This post raises a legitimate policy question about healthcare staffing without revealing any clear ideological bias. The nursing shortage is a concern acknowledged across the political spectrum. Without additional context about specific policy solutions the author favors (e.g., government funding for nursing education vs market-based solutions), it's impossible to determine their political orientation. The username 'MoreNurses' simply indicates interest in the topic rather than a particular ideological stance."
+    },
+    {
+      "author": "EssentialOrLuxury",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is phrased as a neutral question that could be asked by someone of any political orientation. While healthcare coverage is often a politically charged topic, the author isn't taking a clear stance on whether insurance should cover cosmetic surgeries or not. They're simply raising a discussion point about the distinction between medically necessary procedures and optional ones. Without additional context about their views on healthcare funding, insurance mandates, or personal responsibility, it's impossible to reliably determine their political orientation from this post alone.\"\n}",
+      "explanation": "This post is phrased as a neutral question that could be asked by someone of any political orientation. While healthcare coverage is often a politically charged topic, the author isn't taking a clear stance on whether insurance should cover cosmetic surgeries or not. They're simply raising a discussion point about the distinction between medically necessary procedures and optional ones. Without additional context about their views on healthcare funding, insurance mandates, or personal responsibility, it's impossible to reliably determine their political orientation from this post alone."
+    },
+    {
+      "author": "AIHealthCare",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is politically neutral as it simply raises questions about AI's role in healthcare without expressing any ideological stance. The question about cost reduction and doctor replacement is a technical/practical one that could be asked by people across the political spectrum. There are no clear political indicators in the language used or positions taken regarding healthcare policy, government involvement, or private vs. public healthcare systems.\"\n}",
+      "explanation": "This post is politically neutral as it simply raises questions about AI's role in healthcare without expressing any ideological stance. The question about cost reduction and doctor replacement is a technical/practical one that could be asked by people across the political spectrum. There are no clear political indicators in the language used or positions taken regarding healthcare policy, government involvement, or private vs. public healthcare systems."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-leaning positions because it advocates for expanded healthcare coverage and mental health parity in insurance. The call for insurance to 'fully cover' mental health services suggests support for broader healthcare access and increased social services, which are traditionally associated with progressive/left policy positions. The left typically supports more comprehensive healthcare coverage and government intervention in healthcare markets to ensure access to care, while the right generally favors more market-based approaches with less mandated coverage.\"\n}",
+      "explanation": "This post aligns with typically left-leaning positions because it advocates for expanded healthcare coverage and mental health parity in insurance. The call for insurance to 'fully cover' mental health services suggests support for broader healthcare access and increased social services, which are traditionally associated with progressive/left policy positions. The left typically supports more comprehensive healthcare coverage and government intervention in healthcare markets to ensure access to care, while the right generally favors more market-based approaches with less mandated coverage."
+    },
+    {
+      "author": "BetterWithPrivate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects classic right-wing/conservative positions on healthcare policy. The author expresses opposition to government-run healthcare systems (like single-payer or universal healthcare) by using the common conservative argument about 'rationing.' They also advocate for private insurance, which is a core right-wing position that favors market-based healthcare solutions over government involvement. The exclamation point suggests emotional investment in this pro-private sector stance. The username 'BetterWithPrivate' further reinforces their ideological preference for private sector solutions over government programs, which is a hallmark of right-wing economic philosophy.\"\n}",
+      "explanation": "This post reflects classic right-wing/conservative positions on healthcare policy. The author expresses opposition to government-run healthcare systems (like single-payer or universal healthcare) by using the common conservative argument about 'rationing.' They also advocate for private insurance, which is a core right-wing position that favors market-based healthcare solutions over government involvement. The exclamation point suggests emotional investment in this pro-private sector stance. The username 'BetterWithPrivate' further reinforces their ideological preference for private sector solutions over government programs, which is a hallmark of right-wing economic philosophy."
+    },
+    {
+      "author": "HealthcareForAll",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post cannot be definitively classified as left or right based on its content alone. While healthcare access is often discussed by both sides, the question is posed neutrally and focuses on a factual observation (rural healthcare shortages) and seeks solutions without revealing any ideological stance. The username 'HealthcareForAll' could suggest left-leaning views, but the actual post content doesn't advocate for any specific political approach like universal healthcare or market-based solutions. The author is simply raising an important policy question about addressing a real community need.\"\n}",
+      "explanation": "This post cannot be definitively classified as left or right based on its content alone. While healthcare access is often discussed by both sides, the question is posed neutrally and focuses on a factual observation (rural healthcare shortages) and seeks solutions without revealing any ideological stance. The username 'HealthcareForAll' could suggest left-leaning views, but the actual post content doesn't advocate for any specific political approach like universal healthcare or market-based solutions. The author is simply raising an important policy question about addressing a real community need."
+    },
+    {
+      "author": "JobBenefitsDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is phrased as a neutral question that presents both sides of the healthcare debate without revealing the author's stance. The mention of company-provided healthcare vs. individual responsibility is a common point of discussion between left-leaning (favoring employer/government provided healthcare) and right-leaning (favoring individual responsibility) viewpoints, but the author is simply initiating a discussion rather than advocating for either position. Without additional context or opinion from the author, their political orientation cannot be determined from this post alone.\"\n}",
+      "explanation": "This post is phrased as a neutral question that presents both sides of the healthcare debate without revealing the author's stance. The mention of company-provided healthcare vs. individual responsibility is a common point of discussion between left-leaning (favoring employer/government provided healthcare) and right-leaning (favoring individual responsibility) viewpoints, but the author is simply initiating a discussion rather than advocating for either position. Without additional context or opinion from the author, their political orientation cannot be determined from this post alone."
+    },
+    {
+      "author": "EmergencyRoomCrisis",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post discusses a legitimate healthcare system issue (ER overcrowding and cost efficiency) without revealing a clear political bias. The concern about ER costs and efficiency could align with either conservative views about healthcare spending and waste, or progressive views about improving healthcare access and system reform. The author is asking an open-ended policy question without advocating for any specific ideological solution like government intervention or market-based reforms. Without more context about their proposed solutions or underlying assumptions, it's not possible to definitively classify their political orientation.\"\n}",
+      "explanation": "This post discusses a legitimate healthcare system issue (ER overcrowding and cost efficiency) without revealing a clear political bias. The concern about ER costs and efficiency could align with either conservative views about healthcare spending and waste, or progressive views about improving healthcare access and system reform. The author is asking an open-ended policy question without advocating for any specific ideological solution like government intervention or market-based reforms. Without more context about their proposed solutions or underlying assumptions, it's not possible to definitively classify their political orientation."
+    }
+  ]
+}

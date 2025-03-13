@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 80.0,
+      "recall": 100.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 12,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 75.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 16,
+      "false_negative": 1
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "SaveTheEarth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typical left-leaning characteristics through its strong endorsement of climate change as a scientific reality and call for immediate action. The language used ('urgent action') and the unequivocal acceptance of climate science aligns with progressive/left environmental advocacy. Left-wing politics typically emphasizes environmental protection and accepts scientific consensus on climate change, while right-wing positions more commonly question climate science or prioritize economic concerns over environmental action. The exclamation point and emphatic tone also suggest the passionate environmental activism more commonly associated with left-wing positions.\"\n}",
+      "explanation": "This post exhibits typical left-leaning characteristics through its strong endorsement of climate change as a scientific reality and call for immediate action. The language used ('urgent action') and the unequivocal acceptance of climate science aligns with progressive/left environmental advocacy. Left-wing politics typically emphasizes environmental protection and accepts scientific consensus on climate change, while right-wing positions more commonly question climate science or prioritize economic concerns over environmental action. The exclamation point and emphatic tone also suggest the passionate environmental activism more commonly associated with left-wing positions."
+    },
+    {
+      "author": "ClimateSkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits common right-wing talking points about climate change. The dismissal of climate change as a 'political tool for control' aligns with conservative skepticism of environmental regulations and climate science. The emphasis on natural climate variation while dismissing human-caused climate change is a frequent argument used by right-wing politicians and media. The username 'ClimateSkeptic' and the rhetoric suggesting climate action is about 'control' rather than environmental protection strongly indicates right-wing political orientation, as climate change skepticism is much more prevalent among conservative groups.\"\n}",
+      "explanation": "This post exhibits common right-wing talking points about climate change. The dismissal of climate change as a 'political tool for control' aligns with conservative skepticism of environmental regulations and climate science. The emphasis on natural climate variation while dismissing human-caused climate change is a frequent argument used by right-wing politicians and media. The username 'ClimateSkeptic' and the rhetoric suggesting climate action is about 'control' rather than environmental protection strongly indicates right-wing political orientation, as climate change skepticism is much more prevalent among conservative groups."
+    },
+    {
+      "author": "GoGreen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typical left-leaning environmental positions through its strong advocacy for renewable energy and urgent call for moving away from fossil fuels. The exclamatory tone and absolutist stance on immediate transition to renewables aligns with progressive environmental activism. Left-wing politics typically emphasizes climate action and green energy adoption as key priorities, while right-wing positions tend to be more skeptical of rapid energy transitions and more supportive of fossil fuel industries. The username 'GoGreen' also suggests an environmentalist identity commonly associated with left-wing politics.\"\n}",
+      "explanation": "This post exhibits typical left-leaning environmental positions through its strong advocacy for renewable energy and urgent call for moving away from fossil fuels. The exclamatory tone and absolutist stance on immediate transition to renewables aligns with progressive environmental activism. Left-wing politics typically emphasizes climate action and green energy adoption as key priorities, while right-wing positions tend to be more skeptical of rapid energy transitions and more supportive of fossil fuel industries. The username 'GoGreen' also suggests an environmentalist identity commonly associated with left-wing politics."
+    },
+    {
+      "author": "EnergySecurity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects common right-leaning talking points about energy policy. The emphasis on fossil fuels' importance and skepticism toward renewable energy is typically associated with conservative positions. Right-leaning individuals and groups often defend traditional energy sources and express doubt about the viability of renewable alternatives, partly due to alignment with business interests and opposition to aggressive climate change policies. The phrasing 'not reliable enough' suggests resistance to energy transition, which is more commonly found in right-wing discourse than left-wing environmental advocacy.\"\n}",
+      "explanation": "This post reflects common right-leaning talking points about energy policy. The emphasis on fossil fuels' importance and skepticism toward renewable energy is typically associated with conservative positions. Right-leaning individuals and groups often defend traditional energy sources and express doubt about the viability of renewable alternatives, partly due to alignment with business interests and opposition to aggressive climate change policies. The phrasing 'not reliable enough' suggests resistance to energy transition, which is more commonly found in right-wing discourse than left-wing environmental advocacy."
+    },
+    {
+      "author": "HoldBigOilAccountable",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typical left-wing viewpoints through: 1) Criticism of large corporations, which is a common leftist stance that views big business as harmful to society, 2) Strong emphasis on environmental concerns and climate change, which are traditionally associated with left-wing politics, 3) The call for corporate accountability, reflecting the left's desire for increased regulation and oversight of business interests. The username 'HoldBigOilAccountable' also suggests an activist stance against fossil fuel companies, which aligns with progressive environmental movements.\"\n}",
+      "explanation": "This post exhibits typical left-wing viewpoints through: 1) Criticism of large corporations, which is a common leftist stance that views big business as harmful to society, 2) Strong emphasis on environmental concerns and climate change, which are traditionally associated with left-wing politics, 3) The call for corporate accountability, reflecting the left's desire for increased regulation and oversight of business interests. The username 'HoldBigOilAccountable' also suggests an activist stance against fossil fuel companies, which aligns with progressive environmental movements."
+    },
+    {
+      "author": "PolicyMatters",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is phrased as a neutral question that presents both regulatory and free-market approaches without advocating for either position. The author is simply raising a common policy debate topic without revealing their own stance. The mention of climate change itself is not indicative of political orientation, as it's framed as a policy question rather than taking a position on the issue. Without more context or the author expressing their own views, it's not possible to determine their political orientation from this post alone.\"\n}",
+      "explanation": "This post is phrased as a neutral question that presents both regulatory and free-market approaches without advocating for either position. The author is simply raising a common policy debate topic without revealing their own stance. The mention of climate change itself is not indicative of political orientation, as it's framed as a policy question rather than taking a position on the issue. Without more context or the author expressing their own views, it's not possible to determine their political orientation from this post alone."
+    },
+    {
+      "author": "EcoFriendly",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-leaning environmental advocacy. The emphasis on individual action to combat climate change, along with explicit acknowledgment of climate change as an issue requiring action, is more commonly associated with progressive/left political views. Conservative positions tend to be more skeptical of climate change and less focused on environmental activism. The use of terms like 'sustainable choices' and framing climate change as a problem that needs addressing through personal responsibility are hallmark positions of environmental movements, which are predominantly left-leaning.\"\n}",
+      "explanation": "This post aligns with typically left-leaning environmental advocacy. The emphasis on individual action to combat climate change, along with explicit acknowledgment of climate change as an issue requiring action, is more commonly associated with progressive/left political views. Conservative positions tend to be more skeptical of climate change and less focused on environmental activism. The use of terms like 'sustainable choices' and framing climate change as a problem that needs addressing through personal responsibility are hallmark positions of environmental movements, which are predominantly left-leaning."
+    },
+    {
+      "author": "EVAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-leaning positions for several reasons: 1) Strong emphasis on environmental concerns and climate change action through reducing carbon emissions, 2) Advocacy for government intervention in the market through incentives, which is more commonly associated with progressive/left economic policies, 3) The exclamation point and enthusiastic tone about environmental policy suggests passionate support for climate action, a characteristically left position. The username 'EVAdvocate' also suggests dedicated support for environmental causes, which typically align more with left-wing politics.\"\n}",
+      "explanation": "This post aligns with typically left-leaning positions for several reasons: 1) Strong emphasis on environmental concerns and climate change action through reducing carbon emissions, 2) Advocacy for government intervention in the market through incentives, which is more commonly associated with progressive/left economic policies, 3) The exclamation point and enthusiastic tone about environmental policy suggests passionate support for climate action, a characteristically left position. The username 'EVAdvocate' also suggests dedicated support for environmental causes, which typically align more with left-wing politics."
+    },
+    {
+      "author": "EVCritic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects common right-wing talking points against electric vehicles and green energy initiatives. The author appears to be attempting to discredit EVs by focusing on environmental concerns about battery production, which is a frequent conservative argument used to defend traditional fossil fuels and push back against climate change mitigation efforts. The exclamatory tone and absolute statement about lithium mining being 'just as destructive as burning oil' suggests a strong anti-EV bias that aligns with right-wing media messaging, which often seeks to protect traditional energy industries while criticizing clean energy alternatives.\"\n}",
+      "explanation": "This post reflects common right-wing talking points against electric vehicles and green energy initiatives. The author appears to be attempting to discredit EVs by focusing on environmental concerns about battery production, which is a frequent conservative argument used to defend traditional fossil fuels and push back against climate change mitigation efforts. The exclamatory tone and absolute statement about lithium mining being 'just as destructive as burning oil' suggests a strong anti-EV bias that aligns with right-wing media messaging, which often seeks to protect traditional energy industries while criticizing clean energy alternatives."
+    },
+    {
+      "author": "ExtremeWeather",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post strongly indicates a left-leaning political orientation for several reasons: 1) The author explicitly acknowledges climate change as a real phenomenon, which is a position more commonly held by those on the left, 2) The language 'We must act now!' suggests support for immediate climate action and government intervention, which aligns with typical left-wing environmental policy positions, 3) The author connects extreme weather events directly to climate change, a scientific consensus that is more readily embraced by the political left while often questioned or disputed by the right. The urgent tone about environmental issues is also characteristic of left-wing climate advocacy.\"\n}",
+      "explanation": "This post strongly indicates a left-leaning political orientation for several reasons: 1) The author explicitly acknowledges climate change as a real phenomenon, which is a position more commonly held by those on the left, 2) The language 'We must act now!' suggests support for immediate climate action and government intervention, which aligns with typical left-wing environmental policy positions, 3) The author connects extreme weather events directly to climate change, a scientific consensus that is more readily embraced by the political left while often questioned or disputed by the right. The urgent tone about environmental issues is also characteristic of left-wing climate advocacy."
+    },
+    {
+      "author": "SaveTheRainforests",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-wing environmental positions. The author expresses strong concern about climate change and environmental protection, which are traditionally associated with left-wing/progressive politics. The exclamation point suggests passionate advocacy for environmental causes, and the username 'SaveTheRainforests' further indicates environmental activism. While conservation can have bipartisan support, the specific framing around global warming and climate change is more commonly associated with left-wing political discourse and priorities.\"\n}",
+      "explanation": "This post aligns with typically left-wing environmental positions. The author expresses strong concern about climate change and environmental protection, which are traditionally associated with left-wing/progressive politics. The exclamation point suggests passionate advocacy for environmental causes, and the username 'SaveTheRainforests' further indicates environmental activism. While conservation can have bipartisan support, the specific framing around global warming and climate change is more commonly associated with left-wing political discourse and priorities."
+    },
+    {
+      "author": "GoVegan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-wing positions for several reasons: 1) It expresses concern about environmental issues and climate change, which is more commonly associated with left-wing politics 2) It promotes veganism/reducing meat consumption, which is more prevalent among those on the political left 3) The username 'GoVegan' suggests support for animal rights and environmental activism, movements that are historically aligned with left-wing politics 4) The framing of individual dietary choices as a solution to global environmental problems reflects a progressive environmentalist perspective common on the left\"\n}",
+      "explanation": "This post aligns with typically left-wing positions for several reasons: 1) It expresses concern about environmental issues and climate change, which is more commonly associated with left-wing politics 2) It promotes veganism/reducing meat consumption, which is more prevalent among those on the political left 3) The username 'GoVegan' suggests support for animal rights and environmental activism, movements that are historically aligned with left-wing politics 4) The framing of individual dietary choices as a solution to global environmental problems reflects a progressive environmentalist perspective common on the left"
+    },
+    {
+      "author": "NuclearNow",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is a neutral question that doesn't reveal a clear political orientation. While nuclear energy can be a politically charged topic, with supporters and critics on both the left and right, the author is simply asking an open-ended question about its merits and drawbacks. The username 'NuclearNow' might suggest support for nuclear energy, but support for nuclear power crosses political lines - some environmentalists on the left support it as a carbon-free energy source, while some on the right support it for energy independence and economic reasons. Without more context about their specific views on regulation, subsidies, or other aspects, we cannot determine their political orientation from this post alone.\"\n}",
+      "explanation": "This post is a neutral question that doesn't reveal a clear political orientation. While nuclear energy can be a politically charged topic, with supporters and critics on both the left and right, the author is simply asking an open-ended question about its merits and drawbacks. The username 'NuclearNow' might suggest support for nuclear energy, but support for nuclear power crosses political lines - some environmentalists on the left support it as a carbon-free energy source, while some on the right support it for energy independence and economic reasons. Without more context about their specific views on regulation, subsidies, or other aspects, we cannot determine their political orientation from this post alone."
+    },
+    {
+      "author": "TeachClimate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post aligns with typically left-leaning positions because: 1) It strongly advocates for climate science education, which is generally more emphasized by the political left, 2) The urgency implied in 'must be prepared!' reflects the left's tendency to view climate change as an immediate crisis requiring action, 3) The support for incorporating climate science into mandatory education suggests a belief in using institutional education to address environmental issues, which is more commonly associated with progressive/left policies. Conservative positions typically either question climate change emphasis or oppose mandated curriculum changes on this topic.\"\n}",
+      "explanation": "This post aligns with typically left-leaning positions because: 1) It strongly advocates for climate science education, which is generally more emphasized by the political left, 2) The urgency implied in 'must be prepared!' reflects the left's tendency to view climate change as an immediate crisis requiring action, 3) The support for incorporating climate science into mandatory education suggests a belief in using institutional education to address environmental issues, which is more commonly associated with progressive/left policies. Conservative positions typically either question climate change emphasis or oppose mandated curriculum changes on this topic."
+    },
+    {
+      "author": "TechFixClimate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post does not provide enough context to definitively determine political orientation. While climate change is often a politically charged topic, simply asking about technological solutions like carbon capture or geoengineering does not reveal a clear political stance. Both left and right-leaning individuals can support technological approaches to addressing climate change. Conservative groups sometimes favor market-driven technological solutions over regulations, while progressive groups may see these technologies as part of a broader climate strategy. Without additional context about the author's views on regulations, government involvement, or other aspects of climate policy, we cannot make a reliable determination of political orientation from this neutral technical question.\"\n}",
+      "explanation": "This post does not provide enough context to definitively determine political orientation. While climate change is often a politically charged topic, simply asking about technological solutions like carbon capture or geoengineering does not reveal a clear political stance. Both left and right-leaning individuals can support technological approaches to addressing climate change. Conservative groups sometimes favor market-driven technological solutions over regulations, while progressive groups may see these technologies as part of a broader climate strategy. Without additional context about the author's views on regulations, government involvement, or other aspects of climate policy, we cannot make a reliable determination of political orientation from this neutral technical question."
+    },
+    {
+      "author": "TaxPolluters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits typically left-leaning views through its support of environmental regulation and corporate accountability via carbon taxation. The language used ('hold corporations accountable', 'polluters should pay') reflects progressive environmental policy positions that are commonly associated with the political left. The author's username 'TaxPolluters' and their emphasis on making businesses pay for environmental impact aligns with left-wing perspectives on corporate responsibility and environmental protection through government intervention.\"\n}",
+      "explanation": "This post exhibits typically left-leaning views through its support of environmental regulation and corporate accountability via carbon taxation. The language used ('hold corporations accountable', 'polluters should pay') reflects progressive environmental policy positions that are commonly associated with the political left. The author's username 'TaxPolluters' and their emphasis on making businesses pay for environmental impact aligns with left-wing perspectives on corporate responsibility and environmental protection through government intervention."
+    },
+    {
+      "author": "SkepticalEconomist",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post exhibits typical right-leaning views through its skepticism of the Green New Deal, a policy proposal strongly associated with the progressive left. The focus on cost ('too expensive') and the rhetorical question 'Who's going to pay for all of this?' are common conservative talking points that emphasize fiscal concerns and opposition to large government spending programs. This type of economic skepticism toward environmental initiatives and government programs is a characteristic stance of right-wing political thought.\"\n}",
+      "explanation": "This post exhibits typical right-leaning views through its skepticism of the Green New Deal, a policy proposal strongly associated with the progressive left. The focus on cost ('too expensive') and the rhetorical question 'Who's going to pay for all of this?' are common conservative talking points that emphasize fiscal concerns and opposition to large government spending programs. This type of economic skepticism toward environmental initiatives and government programs is a characteristic stance of right-wing political thought."
+    },
+    {
+      "author": "ClimateThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post exhibits characteristics typically associated with left-leaning political views because it: 1) Expresses strong concern about climate change and its effects, which is a predominantly progressive/left position, 2) Emphasizes environmental threats, particularly rising sea levels, which is a key issue championed by the political left, 3) Uses urgent language about climate threats, which aligns with progressive messaging on climate action, and 4) Focuses on major coastal cities, which tend to be Democratic/left-leaning strongholds. Conservative/right positions typically downplay climate change concerns or question their urgency.\"\n}",
+      "explanation": "This post exhibits characteristics typically associated with left-leaning political views because it: 1) Expresses strong concern about climate change and its effects, which is a predominantly progressive/left position, 2) Emphasizes environmental threats, particularly rising sea levels, which is a key issue championed by the political left, 3) Uses urgent language about climate threats, which aligns with progressive messaging on climate action, and 4) Focuses on major coastal cities, which tend to be Democratic/left-leaning strongholds. Conservative/right positions typically downplay climate change concerns or question their urgency."
+    },
+    {
+      "author": "WinterStorms",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"This post reflects a common right-wing talking point that attempts to dismiss or cast doubt on climate change by conflating weather events with climate trends. The author uses the rhetorical device of pointing to cold weather as evidence against global warming, which is a frequent argument used by conservative media and politicians to challenge climate science. This type of climate change skepticism is much more commonly associated with right-wing political ideology, as conservative groups tend to be more skeptical of mainstream climate science and environmental regulations. The phrasing 'If global warming is real' suggests an inherent skepticism of established climate science, which strongly aligns with right-wing political positions in current discourse.\"\n}",
+      "explanation": "This post reflects a common right-wing talking point that attempts to dismiss or cast doubt on climate change by conflating weather events with climate trends. The author uses the rhetorical device of pointing to cold weather as evidence against global warming, which is a frequent argument used by conservative media and politicians to challenge climate science. This type of climate change skepticism is much more commonly associated with right-wing political ideology, as conservative groups tend to be more skeptical of mainstream climate science and environmental regulations. The phrasing 'If global warming is real' suggests an inherent skepticism of established climate science, which strongly aligns with right-wing political positions in current discourse."
+    },
+    {
+      "author": "EVFuture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post indicates a left-leaning political orientation for several reasons: 1) It advocates for strong government intervention in the market through outright bans, which is typically associated with left-wing policy approaches, 2) It shows strong support for environmental initiatives and clean energy transition, which are traditionally left-wing priorities, 3) The enthusiastic support for electric vehicles aligns with progressive climate action goals commonly championed by the political left. The exclamation point also suggests passionate support for this environmental position rather than a purely market-driven approach more typical of right-wing views.\"\n}",
+      "explanation": "This post indicates a left-leaning political orientation for several reasons: 1) It advocates for strong government intervention in the market through outright bans, which is typically associated with left-wing policy approaches, 2) It shows strong support for environmental initiatives and clean energy transition, which are traditionally left-wing priorities, 3) The enthusiastic support for electric vehicles aligns with progressive climate action goals commonly championed by the political left. The exclamation point also suggests passionate support for this environmental position rather than a purely market-driven approach more typical of right-wing views."
+    }
+  ]
+}

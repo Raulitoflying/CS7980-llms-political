@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 18,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 80.0,
+      "recall": 66.66666666666666,
+      "f1_score": 7272.727272727272,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 13,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 78.57142857142857,
+      "recall": 91.66666666666666,
+      "f1_score": 8461.53846153846,
+      "true_positive": 11,
+      "false_positive": 3,
+      "true_negative": 5,
+      "false_negative": 1
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "MarsOrBust",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by MarsOrBust focuses on the necessity of human colonization of Mars, which is a topic related to space exploration and technological advancement. This stance does not inherently align with specific political ideologies such as left or right. While both political orientations can support or oppose space exploration based on various factors like economic priorities, environmental concerns, and national prestige, the content of this post does not provide enough information to determine the author's broader political views. Therefore, the political orientation remains unknown.\"\n}",
+      "explanation": "The post by MarsOrBust focuses on the necessity of human colonization of Mars, which is a topic related to space exploration and technological advancement. This stance does not inherently align with specific political ideologies such as left or right. While both political orientations can support or oppose space exploration based on various factors like economic priorities, environmental concerns, and national prestige, the content of this post does not provide enough information to determine the author's broader political views. Therefore, the political orientation remains unknown."
+    },
+    {
+      "author": "FixEarthFirst",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a prioritization of immediate terrestrial issues over space exploration, which can be aligned with left-leaning values that often emphasize social and environmental concerns on Earth. The use of the term 'wasting' to describe spending on space exploration indicates a critical view of such expenditures, which is more commonly associated with a left-leaning perspective that values fiscal responsibility in the context of addressing social and environmental needs.\"\n}",
+      "explanation": "The author's statement suggests a prioritization of immediate terrestrial issues over space exploration, which can be aligned with left-leaning values that often emphasize social and environmental concerns on Earth. The use of the term 'wasting' to describe spending on space exploration indicates a critical view of such expenditures, which is more commonly associated with a left-leaning perspective that values fiscal responsibility in the context of addressing social and environmental needs."
+    },
+    {
+      "author": "PrivatizeSpace",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author advocates for privatization and reduced government involvement in space exploration, suggesting a preference for free market solutions over public sector initiatives. This aligns with right-wing political ideology, which typically supports minimal government intervention and encourages private enterprise.\"\n}",
+      "explanation": "The author advocates for privatization and reduced government involvement in space exploration, suggesting a preference for free market solutions over public sector initiatives. This aligns with right-wing political ideology, which typically supports minimal government intervention and encourages private enterprise."
+    },
+    {
+      "author": "EthicalConcerns",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EthicalConcerns raises concerns about the ethical implications of colonizing other planets, specifically the potential impact on microbial life and the analogy to historical colonial practices. These concerns reflect a sensitivity to environmental and ethical issues, which are often more prominently emphasized in left-leaning political discourse. The author's focus on avoiding the repetition of past colonial mistakes suggests a critical view of expansionist and potentially exploitative practices, aligning with progressive and left-oriented values that prioritize sustainability, non-exploitation, and the rights of all living entities.\"\n}",
+      "explanation": "The post by EthicalConcerns raises concerns about the ethical implications of colonizing other planets, specifically the potential impact on microbial life and the analogy to historical colonial practices. These concerns reflect a sensitivity to environmental and ethical issues, which are often more prominently emphasized in left-leaning political discourse. The author's focus on avoiding the repetition of past colonial mistakes suggests a critical view of expansionist and potentially exploitative practices, aligning with progressive and left-oriented values that prioritize sustainability, non-exploitation, and the rights of all living entities."
+    },
+    {
+      "author": "AsteroidBillionaire",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content focuses on a technological and economic topic, specifically the potential of asteroid mining to address resource shortages and generate wealth. It does not contain explicit political statements or ideological positions that would clearly indicate a left or right orientation. The enthusiasm for technological advancement and economic growth could be appealing to individuals across different political spectra, as both sides can value innovation and solutions to resource scarcity. Therefore, based on the available information, the author's political orientation cannot be definitively classified.\"\n}",
+      "explanation": "The post content focuses on a technological and economic topic, specifically the potential of asteroid mining to address resource shortages and generate wealth. It does not contain explicit political statements or ideological positions that would clearly indicate a left or right orientation. The enthusiasm for technological advancement and economic growth could be appealing to individuals across different political spectra, as both sides can value innovation and solutions to resource scarcity. Therefore, based on the available information, the author's political orientation cannot be definitively classified."
+    },
+    {
+      "author": "LunarBaseFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content focuses on a scientific and technological topic, specifically the feasibility and benefits of colonizing the Moon over Mars. It does not contain any explicit political statements or ideological leanings that would indicate the author's political orientation. The discussion is centered on practical considerations such as proximity and ease of access, which are neutral in terms of political stance.\"\n}",
+      "explanation": "The post content focuses on a scientific and technological topic, specifically the feasibility and benefits of colonizing the Moon over Mars. It does not contain any explicit political statements or ideological leanings that would indicate the author's political orientation. The discussion is centered on practical considerations such as proximity and ease of access, which are neutral in terms of political stance."
+    },
+    {
+      "author": "EarthMattersMore",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for immediate global issues such as climate change, poverty, and wars, and criticizes space exploration as a 'rich man's dream.' This perspective aligns more with left-wing values, which typically emphasize social welfare, economic equality, and immediate environmental concerns over large-scale, long-term projects that may benefit from private investment.\"\n}",
+      "explanation": "The author expresses concern for immediate global issues such as climate change, poverty, and wars, and criticizes space exploration as a 'rich man's dream.' This perspective aligns more with left-wing values, which typically emphasize social welfare, economic equality, and immediate environmental concerns over large-scale, long-term projects that may benefit from private investment."
+    },
+    {
+      "author": "AIinSpace",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content is purely technical and speculative, focusing on the potential of AI in facilitating self-sufficient space colonies. It does not contain any political statements or ideological leanings that would indicate the author's political orientation.\"\n}",
+      "explanation": "The post content is purely technical and speculative, focusing on the potential of AI in facilitating self-sufficient space colonies. It does not contain any political statements or ideological leanings that would indicate the author's political orientation."
+    },
+    {
+      "author": "RadiationRisk",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by RadiationRisk focuses on a technical and safety concern regarding space travel, specifically the risks of radiation and isolation. This content does not provide enough information to infer the author's political orientation as it does not touch on political issues, values, or ideologies. The concern expressed is a common one in the scientific and space exploration communities and does not align exclusively with any particular political stance.\"\n}",
+      "explanation": "The post by RadiationRisk focuses on a technical and safety concern regarding space travel, specifically the risks of radiation and isolation. This content does not provide enough information to infer the author's political orientation as it does not touch on political issues, values, or ideologies. The concern expressed is a common one in the scientific and space exploration communities and does not align exclusively with any particular political stance."
+    },
+    {
+      "author": "MakeMarsGreen",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by MakeMarsGreen focuses on the technological feasibility and future potential of terraforming Mars. This content does not provide any clear indicators of the author's political orientation, as it does not touch on political issues, values, or ideologies typically associated with left or right political spectrums. The discussion is purely scientific and forward-looking, without any discernible political stance.\"\n}",
+      "explanation": "The post by MakeMarsGreen focuses on the technological feasibility and future potential of terraforming Mars. This content does not provide any clear indicators of the author's political orientation, as it does not touch on political issues, values, or ideologies typically associated with left or right political spectrums. The discussion is purely scientific and forward-looking, without any discernible political stance."
+    },
+    {
+      "author": "SpaceLawDebate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post raises questions about the privatization of space and suggests that space should be shared by all humanity, which aligns with left-leaning values that emphasize collective ownership and the common good over private property and corporate interests.\"\n}",
+      "explanation": "The post raises questions about the privatization of space and suggests that space should be shared by all humanity, which aligns with left-leaning values that emphasize collective ownership and the common good over private property and corporate interests."
+    },
+    {
+      "author": "TaxTheAsteroids",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question about taxing space resources is a policy proposal that could be supported by individuals from various political backgrounds. Without additional context or opinions from the author, it is not possible to classify their political stance as left, right, or unknown.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question about taxing space resources is a policy proposal that could be supported by individuals from various political backgrounds. Without additional context or opinions from the author, it is not possible to classify their political stance as left, right, or unknown."
+    },
+    {
+      "author": "FirstContact",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or ideological leanings. The author raises ethical questions about the potential impact of human colonization on alien ecosystems, which could be a concern for individuals across the political spectrum. Without more context or additional posts, it is not possible to determine the author's political orientation.\"\n}",
+      "explanation": "The post does not contain any explicit political statements or ideological leanings. The author raises ethical questions about the potential impact of human colonization on alien ecosystems, which could be a concern for individuals across the political spectrum. Without more context or additional posts, it is not possible to determine the author's political orientation."
+    },
+    {
+      "author": "NoSpaceForPoor",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a concern for equitable access to space travel, suggesting that the author values social equality and is critical of the concentration of benefits in the hands of the wealthy. This aligns with left-leaning political ideologies that often advocate for reducing economic disparities and increasing accessibility to resources and opportunities for all members of society.\"\n}",
+      "explanation": "The post expresses a concern for equitable access to space travel, suggesting that the author values social equality and is critical of the concentration of benefits in the hands of the wealthy. This aligns with left-leaning political ideologies that often advocate for reducing economic disparities and increasing accessibility to resources and opportunities for all members of society."
+    },
+    {
+      "author": "EarthWon'tLast",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post primarily discusses a scientific and futuristic topic\u2014space colonization as a solution to Earth's eventual uninhabitability. It does not contain explicit political statements or ideological cues that would clearly indicate a left or right political orientation. The focus is on a practical and forward-thinking approach to a long-term human survival strategy, which could be supported by individuals across the political spectrum.\"\n}",
+      "explanation": "The post primarily discusses a scientific and futuristic topic\u2014space colonization as a solution to Earth's eventual uninhabitability. It does not contain explicit political statements or ideological cues that would clearly indicate a left or right political orientation. The focus is on a practical and forward-thinking approach to a long-term human survival strategy, which could be supported by individuals across the political spectrum."
+    },
+    {
+      "author": "CleanUpSpace",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by CleanUpSpace focuses on the environmental and safety concerns related to space debris. This topic does not inherently align with specific political ideologies such as left or right. While environmental protection is often associated with left-leaning policies, the concern for safety and responsible management of space can be shared across the political spectrum. Therefore, based on the content provided, it is not possible to determine the author's political orientation.\"\n}",
+      "explanation": "The post by CleanUpSpace focuses on the environmental and safety concerns related to space debris. This topic does not inherently align with specific political ideologies such as left or right. While environmental protection is often associated with left-leaning policies, the concern for safety and responsible management of space can be shared across the political spectrum. Therefore, based on the content provided, it is not possible to determine the author's political orientation."
+    },
+    {
+      "author": "BillionaireSpaceRace",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content is focused on a technological and business competition between SpaceX and Blue Origin. It does not express any political views or ideological stances that would indicate the author's political orientation. The question is neutral and does not contain any language that suggests a particular political leaning.\"\n}",
+      "explanation": "The post content is focused on a technological and business competition between SpaceX and Blue Origin. It does not express any political views or ideological stances that would indicate the author's political orientation. The question is neutral and does not contain any language that suggests a particular political leaning."
+    },
+    {
+      "author": "VenusBetterThanMars",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content focuses on a scientific and exploratory topic regarding space colonization, specifically comparing Venus and Mars. There are no clear indicators of political ideology or orientation in the discussion. The author is questioning the prioritization of Mars over Venus in terms of attention for colonization, which could be motivated by a variety of factors including scientific interest, practicality, or personal curiosity, none of which are inherently linked to a particular political stance.\"\n}",
+      "explanation": "The post content focuses on a scientific and exploratory topic regarding space colonization, specifically comparing Venus and Mars. There are no clear indicators of political ideology or orientation in the discussion. The author is questioning the prioritization of Mars over Venus in terms of attention for colonization, which could be motivated by a variety of factors including scientific interest, practicality, or personal curiosity, none of which are inherently linked to a particular political stance."
+    },
+    {
+      "author": "SpaceEconomics",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for opinions on different methods of funding space exploration, which does not inherently align with any specific political ideology.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for opinions on different methods of funding space exploration, which does not inherently align with any specific political ideology."
+    },
+    {
+      "author": "FutureMartian",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post content is a hypothetical question about personal preference regarding space travel and does not provide any information about the author's political beliefs or orientation. It does not touch on any political issues, policies, or ideological stances.\"\n}",
+      "explanation": "The post content is a hypothetical question about personal preference regarding space travel and does not provide any information about the author's political beliefs or orientation. It does not touch on any political issues, policies, or ideological stances."
+    }
+  ]
+}

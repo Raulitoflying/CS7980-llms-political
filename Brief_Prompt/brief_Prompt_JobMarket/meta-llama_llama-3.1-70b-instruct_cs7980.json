@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 75.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 75.0,
+      "precision": 37.5,
+      "recall": 100.0,
+      "f1_score": 5454.545454545455,
+      "true_positive": 3,
+      "false_positive": 5,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "TechWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is neutral and observational, asking a question about the tech industry's layoffs without expressing a clear opinion or ideology. The question suggests a desire for understanding the situation, but does not contain any language or tone that would indicate a left or right leaning.\"\n}",
+      "explanation": "The author's post is neutral and observational, asking a question about the tech industry's layoffs without expressing a clear opinion or ideology. The question suggests a desire for understanding the situation, but does not contain any language or tone that would indicate a left or right leaning."
+    },
+    {
+      "author": "RemoteLife",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit or implicit references to political ideologies, parties, or issues that would allow for a classification of the author's political orientation. The topic of remote work and its benefits is a neutral, workplace-related issue that can be supported by individuals across the political spectrum.\"\n}",
+      "explanation": "The post does not contain any explicit or implicit references to political ideologies, parties, or issues that would allow for a classification of the author's political orientation. The topic of remote work and its benefits is a neutral, workplace-related issue that can be supported by individuals across the political spectrum."
+    },
+    {
+      "author": "OfficeFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on remote work and the need for employees to return to the office suggests a more traditional and conservative view on work arrangements. This perspective is often associated with right-leaning ideologies that emphasize the importance of face-to-face interactions and traditional workplace structures. Additionally, the author's concern about the impact of remote work on innovation may imply a skepticism towards progressive or liberal approaches to work-life balance and flexibility.\"\n}",
+      "explanation": "The author's stance on remote work and the need for employees to return to the office suggests a more traditional and conservative view on work arrangements. This perspective is often associated with right-leaning ideologies that emphasize the importance of face-to-face interactions and traditional workplace structures. Additionally, the author's concern about the impact of remote work on innovation may imply a skepticism towards progressive or liberal approaches to work-life balance and flexibility."
+    },
+    {
+      "author": "AIThreat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author is advocating for government intervention to regulate the impact of AI automation on jobs, which suggests a left-leaning or progressive stance. This is because left-leaning individuals often support government intervention in the economy to protect workers' rights and mitigate the negative consequences of technological advancements. The author's concern for job loss and call for regulation also implies a focus on social welfare and economic equality, which are core values of the left.\"\n}",
+      "explanation": "The author is advocating for government intervention to regulate the impact of AI automation on jobs, which suggests a left-leaning or progressive stance. This is because left-leaning individuals often support government intervention in the economy to protect workers' rights and mitigate the negative consequences of technological advancements. The author's concern for job loss and call for regulation also implies a focus on social welfare and economic equality, which are core values of the left."
+    },
+    {
+      "author": "AIInnovation",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's enthusiasm for embracing technological change and its potential to create new job opportunities suggests a pro-business and pro-progress stance, which is often associated with right-leaning ideologies. The emphasis on individual opportunity and the benefits of innovation also aligns with right-wing economic views.\"\n}",
+      "explanation": "The author's enthusiasm for embracing technological change and its potential to create new job opportunities suggests a pro-business and pro-progress stance, which is often associated with right-leaning ideologies. The emphasis on individual opportunity and the benefits of innovation also aligns with right-wing economic views."
+    },
+    {
+      "author": "FairPayNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for raising the minimum wage, which is a policy commonly associated with progressive or liberal ideologies. The phrase 'fair pay' also suggests a concern for economic equality and social justice, which are core values of the left. Additionally, the tone of the post implies a sense of urgency and moral imperative, which is consistent with the rhetorical style often employed by left-leaning individuals and organizations.\"\n}",
+      "explanation": "The author advocates for raising the minimum wage, which is a policy commonly associated with progressive or liberal ideologies. The phrase 'fair pay' also suggests a concern for economic equality and social justice, which are core values of the left. Additionally, the tone of the post implies a sense of urgency and moral imperative, which is consistent with the rhetorical style often employed by left-leaning individuals and organizations."
+    },
+    {
+      "author": "SmallBizOwner",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests opposition to increasing the minimum wage, a policy often associated with progressive or liberal ideologies. The argument that increasing the minimum wage 'forces small businesses to cut jobs' and 'hurts more than it helps' is a common talking point among conservative or right-leaning individuals, who often prioritize free market principles and limited government intervention in the economy. This perspective is typically at odds with the views of those on the left, who tend to support minimum wage increases as a means to reduce income inequality and improve living standards for low-wage workers.\"\n}",
+      "explanation": "The author's statement suggests opposition to increasing the minimum wage, a policy often associated with progressive or liberal ideologies. The argument that increasing the minimum wage 'forces small businesses to cut jobs' and 'hurts more than it helps' is a common talking point among conservative or right-leaning individuals, who often prioritize free market principles and limited government intervention in the economy. This perspective is typically at odds with the views of those on the left, who tend to support minimum wage increases as a means to reduce income inequality and improve living standards for low-wage workers."
+    },
+    {
+      "author": "RecentGrad",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit language or sentiment that can be linked to a specific political orientation. The author is expressing a concern about the job market and the value of a degree, which is a neutral topic that can be discussed from various perspectives. There is no indication of the author's stance on issues like government intervention, economic policies, or social justice, making it impossible to classify their political orientation based on this post.\"\n}",
+      "explanation": "The post does not contain any explicit language or sentiment that can be linked to a specific political orientation. The author is expressing a concern about the job market and the value of a degree, which is a neutral topic that can be discussed from various perspectives. There is no indication of the author's stance on issues like government intervention, economic policies, or social justice, making it impossible to classify their political orientation based on this post."
+    },
+    {
+      "author": "GigWorker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is neutral and does not express a clear opinion or bias towards any particular ideology. The question posed is more of an observation and an inquiry about the future of employment, without taking a stance on the benefits or drawbacks of the gig economy. Therefore, it is not possible to determine the author's political orientation based on this post.\"\n}",
+      "explanation": "The author's post is neutral and does not express a clear opinion or bias towards any particular ideology. The question posed is more of an observation and an inquiry about the future of employment, without taking a stance on the benefits or drawbacks of the gig economy. Therefore, it is not possible to determine the author's political orientation based on this post."
+    },
+    {
+      "author": "HateMyJob",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on work-life balance and prioritizing employee well-being suggests a left-leaning perspective. This is because left-wing ideologies often prioritize social welfare, labor rights, and individual well-being over corporate interests and profit. The author's concern for job burnout and work-life balance aligns with these values, indicating a left-leaning orientation.\"\n}",
+      "explanation": "The author's emphasis on work-life balance and prioritizing employee well-being suggests a left-leaning perspective. This is because left-wing ideologies often prioritize social welfare, labor rights, and individual well-being over corporate interests and profit. The author's concern for job burnout and work-life balance aligns with these values, indicating a left-leaning orientation."
+    },
+    {
+      "author": "TradeSkills",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any language or sentiment that is typically associated with a specific political orientation. The statement is neutral and focused on promoting a practical career path, without expressing any opinion on social or economic policies, government intervention, or ideological values that could be used to infer a left or right leaning.\"\n}",
+      "explanation": "The author's post does not contain any language or sentiment that is typically associated with a specific political orientation. The statement is neutral and focused on promoting a practical career path, without expressing any opinion on social or economic policies, government intervention, or ideological values that could be used to infer a left or right leaning."
+    },
+    {
+      "author": "EqualPay",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for pay equity and enforcement of equal pay for women, which is a key issue in feminist and progressive politics. The emphasis on government enforcement also suggests a more liberal or left-leaning approach, as it implies a role for government in addressing social and economic inequalities. Additionally, the tone of the post is assertive and critical of the current state of affairs, which is consistent with the tone often found in left-leaning online discourse.\"\n}",
+      "explanation": "The author's post advocates for pay equity and enforcement of equal pay for women, which is a key issue in feminist and progressive politics. The emphasis on government enforcement also suggests a more liberal or left-leaning approach, as it implies a role for government in addressing social and economic inequalities. Additionally, the tone of the post is assertive and critical of the current state of affairs, which is consistent with the tone often found in left-leaning online discourse."
+    },
+    {
+      "author": "WorkForever?",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is a neutral observation about the current state of retirement and the economy. It does not express a clear opinion or ideology that would align with a specific political orientation. The author is simply stating a fact and does not provide any context or suggestion that would indicate a left or right leaning perspective.\"\n}",
+      "explanation": "The author's statement is a neutral observation about the current state of retirement and the economy. It does not express a clear opinion or ideology that would align with a specific political orientation. The author is simply stating a fact and does not provide any context or suggestion that would indicate a left or right leaning perspective."
+    },
+    {
+      "author": "UnionStrong",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'UnionStrong' and the post content expressing support for unions and workers' rights suggest a left-leaning orientation. Historically, labor unions have been associated with progressive and liberal politics, and the emphasis on protecting workers' rights and fair wages is a common theme in left-wing ideology.\"\n}",
+      "explanation": "The author's username 'UnionStrong' and the post content expressing support for unions and workers' rights suggest a left-leaning orientation. Historically, labor unions have been associated with progressive and liberal politics, and the emphasis on protecting workers' rights and fair wages is a common theme in left-wing ideology."
+    },
+    {
+      "author": "NewCountryNewStart",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement acknowledges the positive economic impact of immigrants, which is a common argument made by those on the left side of the political spectrum. Additionally, the author expresses concern for the struggles of immigrants, which suggests a sympathetic and inclusive attitude, also characteristic of left-leaning individuals. There is no indication of anti-immigrant sentiment or emphasis on border control, which are common themes on the right side of the political spectrum.\"\n}",
+      "explanation": "The author's statement acknowledges the positive economic impact of immigrants, which is a common argument made by those on the left side of the political spectrum. Additionally, the author expresses concern for the struggles of immigrants, which suggests a sympathetic and inclusive attitude, also characteristic of left-leaning individuals. There is no indication of anti-immigrant sentiment or emphasis on border control, which are common themes on the right side of the political spectrum."
+    },
+    {
+      "author": "RobotTakeover",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any language or sentiment that clearly indicates a left or right political orientation. The topic of automation and its impact on human workers is a neutral issue that can be discussed from various perspectives, and the author's question does not reveal a specific ideological bias. The tone is inquiring and neutral, without any emotional or value-laden language that might suggest a particular political orientation.\"\n}",
+      "explanation": "The post does not contain any language or sentiment that clearly indicates a left or right political orientation. The topic of automation and its impact on human workers is a neutral issue that can be discussed from various perspectives, and the author's question does not reveal a specific ideological bias. The tone is inquiring and neutral, without any emotional or value-laden language that might suggest a particular political orientation."
+    },
+    {
+      "author": "RuralJobs",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any language or ideological markers that would clearly indicate a left or right political orientation. The concern about job opportunities in rural areas is a issue that can be shared by people across the political spectrum. The post is more focused on a specific economic issue rather than expressing a broader ideological perspective.\"\n}",
+      "explanation": "The author's post does not contain any language or ideological markers that would clearly indicate a left or right political orientation. The concern about job opportunities in rural areas is a issue that can be shared by people across the political spectrum. The post is more focused on a specific economic issue rather than expressing a broader ideological perspective."
+    },
+    {
+      "author": "AIInterviews",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a concern for the well-being and dignity of job applicants, as well as a skepticism towards the use of technology to automate hiring processes. This perspective is often associated with left-leaning ideologies, which tend to prioritize social justice, equality, and human rights. The author's use of the word 'dehumanizing' also implies a critique of the dehumanizing effects of capitalism and the exploitation of workers, which is a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author's post suggests a concern for the well-being and dignity of job applicants, as well as a skepticism towards the use of technology to automate hiring processes. This perspective is often associated with left-leaning ideologies, which tend to prioritize social justice, equality, and human rights. The author's use of the word 'dehumanizing' also implies a critique of the dehumanizing effects of capitalism and the exploitation of workers, which is a common theme in left-wing discourse."
+    },
+    {
+      "author": "BurnoutCulture",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on the need for better work-life balance and prioritizing mental health suggests a progressive or liberal perspective, which is commonly associated with the left side of the political spectrum. The criticism of overwork and the implication that employers or societal expectations are to blame also aligns with left-leaning views on labor rights and social welfare. Additionally, the use of the phrase 'glorifying overwork' implies a critique of capitalist or neoliberal values, which is also consistent with a left-wing orientation.\"\n}",
+      "explanation": "The author's emphasis on the need for better work-life balance and prioritizing mental health suggests a progressive or liberal perspective, which is commonly associated with the left side of the political spectrum. The criticism of overwork and the implication that employers or societal expectations are to blame also aligns with left-leaning views on labor rights and social welfare. Additionally, the use of the phrase 'glorifying overwork' implies a critique of capitalist or neoliberal values, which is also consistent with a left-wing orientation."
+    },
+    {
+      "author": "WageCrisis",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a concern for income inequality and the struggles of workers, which is a common theme in left-wing politics. The mention of corporations profiting while workers struggle also implies a critique of capitalism and a desire for greater economic equality, which is often associated with left-wing ideologies.\"\n}",
+      "explanation": "The author's post suggests a concern for income inequality and the struggles of workers, which is a common theme in left-wing politics. The mention of corporations profiting while workers struggle also implies a critique of capitalism and a desire for greater economic equality, which is often associated with left-wing ideologies."
+    }
+  ]
+}

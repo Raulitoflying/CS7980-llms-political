@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 83.33333333333334,
+      "f1_score": 9090.90909090909,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 14,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 87.5,
+      "recall": 100.0,
+      "f1_score": 9333.333333333332,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "HealthForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for 'Medicare for All' and the statement that 'healthcare should be a right, not a privilege' align with left-wing political ideologies, which often advocate for universal healthcare and social welfare programs.\"\n}",
+      "explanation": "The author's support for 'Medicare for All' and the statement that 'healthcare should be a right, not a privilege' align with left-wing political ideologies, which often advocate for universal healthcare and social welfare programs."
+    },
+    {
+      "author": "FreeMarketHealth",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses a preference for free market solutions over government-run programs, specifically in the context of healthcare. This viewpoint is typically associated with right-wing or conservative political orientations, which tend to favor minimal government intervention in economic affairs and promote the efficiency and effectiveness of private sector solutions.\"\n}",
+      "explanation": "The author's post expresses a preference for free market solutions over government-run programs, specifically in the context of healthcare. This viewpoint is typically associated with right-wing or conservative political orientations, which tend to favor minimal government intervention in economic affairs and promote the efficiency and effectiveness of private sector solutions."
+    },
+    {
+      "author": "LowerDrugPrices",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a critical view of the pharmaceutical industry, advocating for regulation to lower drug prices. This stance is typically associated with left-leaning political ideologies, which often support increased government oversight and intervention in markets to protect consumers and ensure fairness. The emphasis on reducing costs and regulating 'Big Pharma' aligns with progressive policies that aim to make healthcare more accessible and affordable.\"\n}",
+      "explanation": "The post expresses a critical view of the pharmaceutical industry, advocating for regulation to lower drug prices. This stance is typically associated with left-leaning political ideologies, which often support increased government oversight and intervention in markets to protect consumers and ensure fairness. The emphasis on reducing costs and regulating 'Big Pharma' aligns with progressive policies that aim to make healthcare more accessible and affordable."
+    },
+    {
+      "author": "InnovationFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a concern that government regulation of drug prices could have a negative impact on pharmaceutical innovation. This perspective aligns with a right-leaning political orientation, which typically advocates for less government intervention in the market and emphasizes the importance of private sector incentives and profitability to drive innovation and economic growth.\"\n}",
+      "explanation": "The post expresses a concern that government regulation of drug prices could have a negative impact on pharmaceutical innovation. This perspective aligns with a right-leaning political orientation, which typically advocates for less government intervention in the market and emphasizes the importance of private sector incentives and profitability to drive innovation and economic growth."
+    },
+    {
+      "author": "MedicaidForMore",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for the expansion of Medicaid to cover more low-income individuals, which aligns with left-leaning policies that emphasize social welfare and government support for healthcare. The statement 'No one should go bankrupt for getting sick!' further underscores a progressive viewpoint that prioritizes healthcare accessibility and financial protection for the vulnerable.\"\n}",
+      "explanation": "The author advocates for the expansion of Medicaid to cover more low-income individuals, which aligns with left-leaning policies that emphasize social welfare and government support for healthcare. The statement 'No one should go bankrupt for getting sick!' further underscores a progressive viewpoint that prioritizes healthcare accessibility and financial protection for the vulnerable."
+    },
+    {
+      "author": "FiscalConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the financial burden of expanding Medicaid on taxpayers and states, which aligns with conservative fiscal policies that typically emphasize reducing government spending and limiting the expansion of government programs to avoid increasing the tax burden.\"\n}",
+      "explanation": "The author expresses concern about the financial burden of expanding Medicaid on taxpayers and states, which aligns with conservative fiscal policies that typically emphasize reducing government spending and limiting the expansion of government programs to avoid increasing the tax burden."
+    },
+    {
+      "author": "DecoupleHealth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a view that is commonly associated with left-leaning political ideologies, which often advocate for more robust social safety nets and criticize systems that tie essential services like health insurance to employment. The sentiment that 'the system is broken' suggests a critical stance towards the current healthcare system, which is typically more prevalent among left-leaning individuals who support reforms such as universal healthcare.\"\n}",
+      "explanation": "The post expresses a view that is commonly associated with left-leaning political ideologies, which often advocate for more robust social safety nets and criticize systems that tie essential services like health insurance to employment. The sentiment that 'the system is broken' suggests a critical stance towards the current healthcare system, which is typically more prevalent among left-leaning individuals who support reforms such as universal healthcare."
+    },
+    {
+      "author": "KeepPrivateInsurance",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement supports maintaining the status quo of employer-sponsored insurance, emphasizing better coverage and choices for workers. This stance is typically associated with conservative or right-leaning political views, which often advocate for preserving existing systems and are wary of changes that might disrupt current benefits and choices in the private sector.\"\n}",
+      "explanation": "The author's statement supports maintaining the status quo of employer-sponsored insurance, emphasizing better coverage and choices for workers. This stance is typically associated with conservative or right-leaning political views, which often advocate for preserving existing systems and are wary of changes that might disrupt current benefits and choices in the private sector."
+    },
+    {
+      "author": "DigitalHealth",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by DigitalHealth does not provide enough information to determine a specific political orientation. The question posed is about the coverage of telemedicine by insurance, which is a policy issue that can be supported by individuals from various political backgrounds. Without additional context or statements that reveal the author's broader political views, it is not possible to classify the author's political orientation accurately.\"\n}",
+      "explanation": "The post by DigitalHealth does not provide enough information to determine a specific political orientation. The question posed is about the coverage of telemedicine by insurance, which is a policy issue that can be supported by individuals from various political backgrounds. Without additional context or statements that reveal the author's broader political views, it is not possible to classify the author's political orientation accurately."
+    },
+    {
+      "author": "CostEffectiveCare",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post supports the idea of universal healthcare, which is generally a policy advocated by those on the left side of the political spectrum. The emphasis on the cost-effectiveness of universal healthcare systems in other countries compared to the U.S. suggests a positive view towards government-provided or government-supported healthcare, a common stance among left-leaning individuals.\"\n}",
+      "explanation": "The author's post supports the idea of universal healthcare, which is generally a policy advocated by those on the left side of the political spectrum. The emphasis on the cost-effectiveness of universal healthcare systems in other countries compared to the U.S. suggests a positive view towards government-provided or government-supported healthcare, a common stance among left-leaning individuals."
+    },
+    {
+      "author": "SupportDoctors",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a sentiment about the value and compensation of doctors, which is a topic that can be supported by individuals from various political orientations. There is no specific political ideology or stance indicated that would allow for a clear classification as left or right. Both progressives and conservatives can advocate for higher pay for doctors based on their expertise and the critical role they play in society.\"\n}",
+      "explanation": "The post expresses a sentiment about the value and compensation of doctors, which is a topic that can be supported by individuals from various political orientations. There is no specific political ideology or stance indicated that would allow for a clear classification as left or right. Both progressives and conservatives can advocate for higher pay for doctors based on their expertise and the critical role they play in society."
+    },
+    {
+      "author": "CancelMedicalDebt",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for the cancellation of medical debt, a policy that aligns with progressive or left-leaning political ideologies. This stance emphasizes social welfare and economic equality, often supported by those on the left who argue for reducing financial burdens on individuals due to healthcare costs and improving access to medical services. The sentiment expressed is consistent with calls for healthcare reform that are common in left-wing discourse, particularly in the context of the U.S. where medical debt is a significant issue for many citizens.\"\n}",
+      "explanation": "The post advocates for the cancellation of medical debt, a policy that aligns with progressive or left-leaning political ideologies. This stance emphasizes social welfare and economic equality, often supported by those on the left who argue for reducing financial burdens on individuals due to healthcare costs and improving access to medical services. The sentiment expressed is consistent with calls for healthcare reform that are common in left-wing discourse, particularly in the context of the U.S. where medical debt is a significant issue for many citizens."
+    },
+    {
+      "author": "MoreNurses",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by MoreNurses focuses on a specific issue within the healthcare system, namely the nursing shortage, and asks for policy solutions. The content does not provide enough information to determine a clear political orientation as it does not express opinions on broader political issues, ideological stances, or specific political parties. The question is framed in a neutral, problem-solving context that could be relevant to individuals across the political spectrum.\"\n}",
+      "explanation": "The post by MoreNurses focuses on a specific issue within the healthcare system, namely the nursing shortage, and asks for policy solutions. The content does not provide enough information to determine a clear political orientation as it does not express opinions on broader political issues, ideological stances, or specific political parties. The question is framed in a neutral, problem-solving context that could be relevant to individuals across the political spectrum."
+    },
+    {
+      "author": "EssentialOrLuxury",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is neutral and does not indicate a specific political stance or ideology. It simply raises a policy question about insurance coverage for certain types of cosmetic surgeries, which could be discussed from various perspectives.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is neutral and does not indicate a specific political stance or ideology. It simply raises a policy question about insurance coverage for certain types of cosmetic surgeries, which could be discussed from various perspectives."
+    },
+    {
+      "author": "AIHealthCare",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by AIHealthCare is primarily focused on the technical and potential impacts of AI in healthcare, specifically on diagnostics, treatment, and cost reduction. It does not express any clear political stance or ideology. The question about whether AI will replace doctors is neutral and does not lean towards any particular political perspective, making it difficult to classify the author's political orientation based on this content alone.\"\n}",
+      "explanation": "The post by AIHealthCare is primarily focused on the technical and potential impacts of AI in healthcare, specifically on diagnostics, treatment, and cost reduction. It does not express any clear political stance or ideology. The question about whether AI will replace doctors is neutral and does not lean towards any particular political perspective, making it difficult to classify the author's political orientation based on this content alone."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the importance of mental health and advocates for comprehensive insurance coverage for therapy and treatment. This stance aligns with left-leaning political views, which typically support broader access to healthcare services and social welfare programs. The focus on expanding healthcare benefits to include mental health services suggests a progressive perspective that prioritizes social equity and the well-being of individuals, often associated with the political left.\"\n}",
+      "explanation": "The post emphasizes the importance of mental health and advocates for comprehensive insurance coverage for therapy and treatment. This stance aligns with left-leaning political views, which typically support broader access to healthcare services and social welfare programs. The focus on expanding healthcare benefits to include mental health services suggests a progressive perspective that prioritizes social equity and the well-being of individuals, often associated with the political left."
+    },
+    {
+      "author": "BetterWithPrivate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement criticizes government-run healthcare, suggesting that it results in rationing, which is a common argument from those on the political right who are skeptical of public healthcare systems. The author also praises private insurance, emphasizing its benefits in terms of quality care and access, which aligns with right-wing preferences for market-based solutions and private enterprise in healthcare.\"\n}",
+      "explanation": "The author's statement criticizes government-run healthcare, suggesting that it results in rationing, which is a common argument from those on the political right who are skeptical of public healthcare systems. The author also praises private insurance, emphasizing its benefits in terms of quality care and access, which aligns with right-wing preferences for market-based solutions and private enterprise in healthcare."
+    },
+    {
+      "author": "HealthcareForAll",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine a specific political orientation. The author raises a concern about healthcare access in rural communities, which can be a topic of interest for both left-leaning and right-leaning individuals. Left-leaning individuals might focus on expanding public healthcare services and increasing government funding to address such issues, while right-leaning individuals might advocate for market-based solutions and reducing regulatory barriers to entry for healthcare providers. Without more context or specific policy suggestions from the author, it is not possible to classify their political orientation accurately.\"\n}",
+      "explanation": "The post does not provide enough information to determine a specific political orientation. The author raises a concern about healthcare access in rural communities, which can be a topic of interest for both left-leaning and right-leaning individuals. Left-leaning individuals might focus on expanding public healthcare services and increasing government funding to address such issues, while right-leaning individuals might advocate for market-based solutions and reducing regulatory barriers to entry for healthcare providers. Without more context or specific policy suggestions from the author, it is not possible to classify their political orientation accurately."
+    },
+    {
+      "author": "JobBenefitsDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. It poses a question about whether healthcare benefits should be provided by companies or individuals, but does not express a personal opinion or stance that would indicate a left-leaning or right-leaning perspective. The question itself is neutral and could be asked by someone from any political background.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. It poses a question about whether healthcare benefits should be provided by companies or individuals, but does not express a personal opinion or stance that would indicate a left-leaning or right-leaning perspective. The question itself is neutral and could be asked by someone from any political background."
+    },
+    {
+      "author": "EmergencyRoomCrisis",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain explicit political statements or ideological cues that would clearly indicate the author's political orientation. The focus is on a practical issue\u2014reducing costs and improving efficiency in emergency room usage\u2014without advocating for specific political solutions or expressing a particular political viewpoint.\"\n}",
+      "explanation": "The post does not contain explicit political statements or ideological cues that would clearly indicate the author's political orientation. The focus is on a practical issue\u2014reducing costs and improving efficiency in emergency room usage\u2014without advocating for specific political solutions or expressing a particular political viewpoint."
+    }
+  ]
+}

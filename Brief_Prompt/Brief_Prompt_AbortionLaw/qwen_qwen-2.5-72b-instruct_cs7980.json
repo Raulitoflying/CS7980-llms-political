@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 66.66666666666666,
+      "f1_score": 8000.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 85.71428571428571,
+      "recall": 100.0,
+      "f1_score": 9230.769230769229,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 71.42857142857143,
+      "recall": 100.0,
+      "f1_score": 8333.333333333332,
+      "true_positive": 5,
+      "false_positive": 2,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement supports the idea that abortion is a fundamental right and emphasizes personal bodily autonomy, which are typically positions aligned with left-wing or progressive political ideologies. These views often advocate for fewer restrictions on reproductive rights and greater individual freedoms, particularly in matters of personal health and bodily control.\"\n}",
+      "explanation": "The author's statement supports the idea that abortion is a fundamental right and emphasizes personal bodily autonomy, which are typically positions aligned with left-wing or progressive political ideologies. These views often advocate for fewer restrictions on reproductive rights and greater individual freedoms, particularly in matters of personal health and bodily control."
+    },
+    {
+      "author": "ProLifeForever",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance against abortion, emphasizing that 'life begins at conception' and referring to abortion as 'the killing of an innocent child,' aligns with conservative political values. These views are typically associated with the political right, which often advocates for pro-life policies and emphasizes the protection of fetal life from the moment of conception.\"\n}",
+      "explanation": "The author's strong stance against abortion, emphasizing that 'life begins at conception' and referring to abortion as 'the killing of an innocent child,' aligns with conservative political values. These views are typically associated with the political right, which often advocates for pro-life policies and emphasizes the protection of fetal life from the moment of conception."
+    },
+    {
+      "author": "MiddleGround",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author suggests a compromise on the issue of abortion, proposing a specific timeframe (before 15 weeks) for when it should be allowed. This suggestion could be seen as a centrist or moderate position, as it attempts to find a middle ground between pro-choice and pro-life stances. However, without additional context or statements on other issues, it is not possible to determine if this reflects a broader left, right, or centrist political orientation.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author suggests a compromise on the issue of abortion, proposing a specific timeframe (before 15 weeks) for when it should be allowed. This suggestion could be seen as a centrist or moderate position, as it attempts to find a middle ground between pro-choice and pro-life stances. However, without additional context or statements on other issues, it is not possible to determine if this reflects a broader left, right, or centrist political orientation."
+    },
+    {
+      "author": "FaithAndLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a strong opposition to abortion based on religious beliefs and questions the funding of abortion through tax dollars, which is a common stance among those with right-leaning political orientations. This opposition to abortion and emphasis on personal moral values influencing public policy are typically associated with conservative political views.\"\n}",
+      "explanation": "The author expresses a strong opposition to abortion based on religious beliefs and questions the funding of abortion through tax dollars, which is a common stance among those with right-leaning political orientations. This opposition to abortion and emphasis on personal moral values influencing public policy are typically associated with conservative political views."
+    },
+    {
+      "author": "ProtectWomen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a concern for the impact of abortion bans on poor and marginalized women, which aligns with left-leaning political views that often emphasize social justice, equality, and the protection of vulnerable groups. The author suggests that such policies disproportionately affect less privileged segments of society, a perspective commonly associated with progressive or left-wing ideologies.\"\n}",
+      "explanation": "The post expresses a concern for the impact of abortion bans on poor and marginalized women, which aligns with left-leaning political views that often emphasize social justice, equality, and the protection of vulnerable groups. The author suggests that such policies disproportionately affect less privileged segments of society, a perspective commonly associated with progressive or left-wing ideologies."
+    },
+    {
+      "author": "HardCases",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The question posed is a common point of debate and can be discussed by individuals from various political backgrounds. It does not inherently indicate a left or right stance, as both sides can have nuanced views on the exceptions to abortion laws.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The question posed is a common point of debate and can be discussed by individuals from various political backgrounds. It does not inherently indicate a left or right stance, as both sides can have nuanced views on the exceptions to abortion laws."
+    },
+    {
+      "author": "ReproductiveRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on abortion as a medical procedure and their emphasis on the risks to women's lives when access is denied aligns with a left-leaning political perspective. This view typically supports reproductive rights and the availability of abortion services as a means to protect women's health and autonomy.\"\n}",
+      "explanation": "The author's stance on abortion as a medical procedure and their emphasis on the risks to women's lives when access is denied aligns with a left-leaning political perspective. This view typically supports reproductive rights and the availability of abortion services as a means to protect women's health and autonomy."
+    },
+    {
+      "author": "ChooseLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a pro-life stance by questioning the choice of abortion over adoption and emphasizing that 'every baby deserves a chance.' This perspective is typically associated with conservative or right-wing political orientations, which often advocate for the protection of fetal life and may oppose the availability of abortion services. The language used, particularly the moral framing of the issue, suggests a strong alignment with these values.\"\n}",
+      "explanation": "The post expresses a pro-life stance by questioning the choice of abortion over adoption and emphasizing that 'every baby deserves a chance.' This perspective is typically associated with conservative or right-wing political orientations, which often advocate for the protection of fetal life and may oppose the availability of abortion services. The language used, particularly the moral framing of the issue, suggests a strong alignment with these values."
+    },
+    {
+      "author": "KeepGovOut",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a strong stance against government intervention in personal medical decisions, particularly those of women. This aligns with left-leaning political views, which generally advocate for personal autonomy and reproductive rights, and are often critical of government overreach in private matters.\"\n}",
+      "explanation": "The post expresses a strong stance against government intervention in personal medical decisions, particularly those of women. This aligns with left-leaning political views, which generally advocate for personal autonomy and reproductive rights, and are often critical of government overreach in private matters."
+    },
+    {
+      "author": "StatesDecide",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for opinions on whether abortion laws should be standardized federally or vary by state, without indicating the author's own stance or beliefs.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for opinions on whether abortion laws should be standardized federally or vary by state, without indicating the author's own stance or beliefs."
+    },
+    {
+      "author": "MenAndChoice",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is open-ended and does not reveal the author's stance on the issue of abortion or any other political beliefs. It could be interpreted as a genuine inquiry or as a rhetorical question from either a progressive or conservative perspective, but without further context or explicit statements, it is not possible to classify the author's political orientation accurately.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is open-ended and does not reveal the author's stance on the issue of abortion or any other political beliefs. It could be interpreted as a genuine inquiry or as a rhetorical question from either a progressive or conservative perspective, but without further context or explicit statements, it is not possible to classify the author's political orientation accurately."
+    },
+    {
+      "author": "FetalRights",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough context or personal opinion to determine the author's political orientation. The question posed is a common topic in political and ethical debates, but without additional information or stance from the author, it is not possible to classify their orientation as LEFT, RIGHT, or otherwise.\"\n}",
+      "explanation": "The post does not provide enough context or personal opinion to determine the author's political orientation. The question posed is a common topic in political and ethical debates, but without additional information or stance from the author, it is not possible to classify their orientation as LEFT, RIGHT, or otherwise."
+    },
+    {
+      "author": "SafeNotIllegal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a pro-choice stance on the issue of abortion, which is typically associated with left-leaning political views. The emphasis on the safety and health of women, and the concern about the consequences of banning abortion, aligns with liberal or progressive perspectives that prioritize individual rights and public health over restrictive legislation.\"\n}",
+      "explanation": "The author's statement suggests a pro-choice stance on the issue of abortion, which is typically associated with left-leaning political views. The emphasis on the safety and health of women, and the concern about the consequences of banning abortion, aligns with liberal or progressive perspectives that prioritize individual rights and public health over restrictive legislation."
+    },
+    {
+      "author": "PostAbortionTrauma",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses a view that is typically associated with conservative or right-wing political orientations, particularly in the context of abortion. The author emphasizes the regret some women feel after having an abortion and suggests that the focus should be on providing support for these women rather than on making abortion more accessible. This stance aligns with pro-life advocacy, which is generally more prevalent on the right side of the political spectrum.\"\n}",
+      "explanation": "The post expresses a view that is typically associated with conservative or right-wing political orientations, particularly in the context of abortion. The author emphasizes the regret some women feel after having an abortion and suggests that the focus should be on providing support for these women rather than on making abortion more accessible. This stance aligns with pro-life advocacy, which is generally more prevalent on the right side of the political spectrum."
+    },
+    {
+      "author": "NoTaxDollarsForAbortion",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'NoTaxDollarsForAbortion' and the post content expressing opposition to using tax dollars for funding abortions suggest a conservative or right-wing political orientation. This stance is typically associated with the right, which often advocates for pro-life policies and fiscal conservatism, opposing government spending on certain social issues, particularly those related to reproductive rights. The suggestion to 'fund alternatives instead' further indicates a preference for other solutions, which aligns with conservative values that emphasize personal responsibility and alternative forms of support outside of direct government funding.\"\n}",
+      "explanation": "The author's username 'NoTaxDollarsForAbortion' and the post content expressing opposition to using tax dollars for funding abortions suggest a conservative or right-wing political orientation. This stance is typically associated with the right, which often advocates for pro-life policies and fiscal conservatism, opposing government spending on certain social issues, particularly those related to reproductive rights. The suggestion to 'fund alternatives instead' further indicates a preference for other solutions, which aligns with conservative values that emphasize personal responsibility and alternative forms of support outside of direct government funding."
+    },
+    {
+      "author": "ProtectWomensHealth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a strong stance against restrictive abortion laws, emphasizing the risk they pose to women's health and the importance of access to safe medical procedures. This perspective aligns with left-wing political views, which generally advocate for reproductive rights and access to abortion services as part of women's healthcare and autonomy.\"\n}",
+      "explanation": "The post expresses a strong stance against restrictive abortion laws, emphasizing the risk they pose to women's health and the importance of access to safe medical procedures. This perspective aligns with left-wing political views, which generally advocate for reproductive rights and access to abortion services as part of women's healthcare and autonomy."
+    },
+    {
+      "author": "SafeAbortionAccess",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on medication abortion being safe, effective, and advocating for its over-the-counter availability without a prescription aligns with liberal or left-wing political views. These views typically support reproductive rights and access to abortion services, often emphasizing personal autonomy and health care access over restrictive regulations.\"\n}",
+      "explanation": "The author's stance on medication abortion being safe, effective, and advocating for its over-the-counter availability without a prescription aligns with liberal or left-wing political views. These views typically support reproductive rights and access to abortion services, often emphasizing personal autonomy and health care access over restrictive regulations."
+    },
+    {
+      "author": "AbortionLimitsDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. It poses questions about the ethics and timing of abortions without expressing a personal stance or opinion, which could be aligned with various political perspectives. Both left-leaning and right-leaning individuals might engage in this debate, and the questions themselves do not inherently suggest a particular ideological leaning.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. It poses questions about the ethics and timing of abortions without expressing a personal stance or opinion, which could be aligned with various political perspectives. Both left-leaning and right-leaning individuals might engage in this debate, and the questions themselves do not inherently suggest a particular ideological leaning."
+    },
+    {
+      "author": "ParentalRights",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on requiring parental consent for minors seeking abortions aligns with conservative political views, which typically emphasize family values and the rights of parents in making decisions for their children. This position is often associated with the political right in the United States and other countries.\"\n}",
+      "explanation": "The author's stance on requiring parental consent for minors seeking abortions aligns with conservative political views, which typically emphasize family values and the rights of parents in making decisions for their children. This position is often associated with the political right in the United States and other countries."
+    },
+    {
+      "author": "RoeVsWadeDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for an opinion on the jurisdiction of abortion rights, without indicating the author's stance on the issue or any broader political ideology.\"\n}",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The question posed is neutral and asks for an opinion on the jurisdiction of abortion rights, without indicating the author's stance on the issue or any broader political ideology."
+    }
+  ]
+}

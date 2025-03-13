@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 87.5,
+      "recall": 77.77777777777779,
+      "f1_score": 8235.294117647061,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 85.71428571428571,
+      "recall": 100.0,
+      "f1_score": 9230.769230769229,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 14,
+      "false_negative": 1
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a strong support for reproductive rights and autonomy, which is a characteristic of liberal or left-leaning ideologies. The phrase 'MyBodyMyChoice' is also a common slogan associated with the pro-choice movement, which is typically aligned with the left side of the political spectrum. Additionally, the author's emphasis on individual freedom and opposition to government control over personal decisions is consistent with liberal values.\"\n}",
+      "explanation": "The author's statement suggests a strong support for reproductive rights and autonomy, which is a characteristic of liberal or left-leaning ideologies. The phrase 'MyBodyMyChoice' is also a common slogan associated with the pro-choice movement, which is typically aligned with the left side of the political spectrum. Additionally, the author's emphasis on individual freedom and opposition to government control over personal decisions is consistent with liberal values."
+    },
+    {
+      "author": "ProLifeForever",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance against abortion and use of phrases like 'Life begins at conception' and 'killing of an innocent child' are characteristic of conservative and pro-life views, which are commonly associated with the right-wing of the political spectrum. The author's username, 'ProLifeForever', also reinforces this classification.\"\n}",
+      "explanation": "The author's strong stance against abortion and use of phrases like 'Life begins at conception' and 'killing of an innocent child' are characteristic of conservative and pro-life views, which are commonly associated with the right-wing of the political spectrum. The author's username, 'ProLifeForever', also reinforces this classification."
+    },
+    {
+      "author": "MiddleGround",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not reveal a clear left or right leaning. They are suggesting a compromise on a highly polarized issue like abortion, which indicates a willingness to find middle ground. The proposal of a specific time limit (15 weeks) does not necessarily align with the typical stances of either the left (which often advocates for abortion access without restrictions) or the right (which often advocates for stricter limits or a complete ban). The author's username, 'MiddleGround', also reinforces this interpretation, suggesting that they are attempting to find a moderate position.\"\n}",
+      "explanation": "The author's post does not reveal a clear left or right leaning. They are suggesting a compromise on a highly polarized issue like abortion, which indicates a willingness to find middle ground. The proposal of a specific time limit (15 weeks) does not necessarily align with the typical stances of either the left (which often advocates for abortion access without restrictions) or the right (which often advocates for stricter limits or a complete ban). The author's username, 'MiddleGround', also reinforces this interpretation, suggesting that they are attempting to find a moderate position."
+    },
+    {
+      "author": "FaithAndLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's opposition to abortion and concern about tax dollars funding it are common positions associated with conservative or right-leaning politics. Additionally, the mention of religious beliefs as a basis for their stance is also consistent with the values often emphasized by the right. The author's framing of the issue as a matter of personal morality and their desire to opt out of funding it also suggests a more individualistic and limited-government perspective, which is typical of right-wing ideology.\"\n}",
+      "explanation": "The author's opposition to abortion and concern about tax dollars funding it are common positions associated with conservative or right-leaning politics. Additionally, the mention of religious beliefs as a basis for their stance is also consistent with the values often emphasized by the right. The author's framing of the issue as a matter of personal morality and their desire to opt out of funding it also suggests a more individualistic and limited-government perspective, which is typical of right-wing ideology."
+    },
+    {
+      "author": "ProtectWomen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a concern for the impact of abortion bans on disadvantaged groups, such as poor and marginalized women, which is a perspective often associated with the political left. The left tends to emphasize social and economic equality, and the author's argument that wealthy women will still have access to abortion while poor women will be disproportionately affected aligns with this ideology. Additionally, the left is more likely to support reproductive rights and access to abortion, which is implicit in the author's criticism of abortion bans.\"\n}",
+      "explanation": "The author's statement suggests a concern for the impact of abortion bans on disadvantaged groups, such as poor and marginalized women, which is a perspective often associated with the political left. The left tends to emphasize social and economic equality, and the author's argument that wealthy women will still have access to abortion while poor women will be disproportionately affected aligns with this ideology. Additionally, the left is more likely to support reproductive rights and access to abortion, which is implicit in the author's criticism of abortion bans."
+    },
+    {
+      "author": "HardCases",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not reveal a clear political orientation. While the topic of abortion is often associated with left-right politics, the author's question is neutral and inquiring, rather than taking a stance. The author is seeking to understand the nuances of opposing viewpoints, rather than advocating for a particular position. This suggests that the author may be open-minded or seeking to facilitate discussion, rather than promoting a specific ideology.\"\n}",
+      "explanation": "The author's post does not reveal a clear political orientation. While the topic of abortion is often associated with left-right politics, the author's question is neutral and inquiring, rather than taking a stance. The author is seeking to understand the nuances of opposing viewpoints, rather than advocating for a particular position. This suggests that the author may be open-minded or seeking to facilitate discussion, rather than promoting a specific ideology."
+    },
+    {
+      "author": "ReproductiveRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'ReproductiveRights' and their statement that denying abortion puts women's lives at risk suggests a strong support for access to abortion, which is a characteristic of left-leaning or liberal politics. The framing of abortion as a medical procedure also implies a focus on individual autonomy and healthcare, which is consistent with left-wing views on reproductive rights.\"\n}",
+      "explanation": "The author's username 'ReproductiveRights' and their statement that denying abortion puts women's lives at risk suggests a strong support for access to abortion, which is a characteristic of left-leaning or liberal politics. The framing of abortion as a medical procedure also implies a focus on individual autonomy and healthcare, which is consistent with left-wing views on reproductive rights."
+    },
+    {
+      "author": "ChooseLife",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a pro-life stance, which is typically associated with conservative or right-leaning politics. The phrase 'Every baby deserves a chance' implies a strong opposition to abortion, and the suggestion that adoption is a viable alternative is a common argument made by those who identify as pro-life. The username 'ChooseLife' also reinforces this interpretation, as it is a clear reference to the pro-life movement.\"\n}",
+      "explanation": "The author's post suggests a pro-life stance, which is typically associated with conservative or right-leaning politics. The phrase 'Every baby deserves a chance' implies a strong opposition to abortion, and the suggestion that adoption is a viable alternative is a common argument made by those who identify as pro-life. The username 'ChooseLife' also reinforces this interpretation, as it is a clear reference to the pro-life movement."
+    },
+    {
+      "author": "KeepGovOut",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a strong stance in favor of individual autonomy and reproductive rights, which is a characteristic of liberal or left-leaning ideologies. The phrase 'personal medical decisions' is often used in the context of abortion and reproductive health, and the author's opposition to government intervention in these matters aligns with the views of many left-leaning individuals and organizations.\"\n}",
+      "explanation": "The author's statement suggests a strong stance in favor of individual autonomy and reproductive rights, which is a characteristic of liberal or left-leaning ideologies. The phrase 'personal medical decisions' is often used in the context of abortion and reproductive health, and the author's opposition to government intervention in these matters aligns with the views of many left-leaning individuals and organizations."
+    },
+    {
+      "author": "StatesDecide",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is neutral and does not express a clear opinion on the issue of abortion or its regulation. The question posed is a genuine inquiry about the level of governance that should decide abortion laws, without taking a stance on the morality or legality of abortion itself. The language used is also neutral and does not contain any emotive or ideological tone that would suggest a particular political orientation.\"\n}",
+      "explanation": "The author's post is neutral and does not express a clear opinion on the issue of abortion or its regulation. The question posed is a genuine inquiry about the level of governance that should decide abortion laws, without taking a stance on the morality or legality of abortion itself. The language used is also neutral and does not contain any emotive or ideological tone that would suggest a particular political orientation."
+    },
+    {
+      "author": "MenAndChoice",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not explicitly express a political opinion or bias. Instead, it poses a question that could be interpreted as either conservative (implying that men's opinions are being dismissed) or liberal (acknowledging the importance of women's perspectives). The tone is neutral and inquiring, making it difficult to determine the author's political orientation based on this single post.\"\n}",
+      "explanation": "The author's post does not explicitly express a political opinion or bias. Instead, it poses a question that could be interpreted as either conservative (implying that men's opinions are being dismissed) or liberal (acknowledging the importance of women's perspectives). The tone is neutral and inquiring, making it difficult to determine the author's political orientation based on this single post."
+    },
+    {
+      "author": "FetalRights",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'FetalRights' suggests a strong pro-life stance, which is typically associated with conservative or right-leaning politics. Additionally, the question posed in the post implies that the author is skeptical of abortion rights and is framing the issue in a way that emphasizes the fetus's rights, which is a common argument made by those on the right side of the abortion debate.\"\n}",
+      "explanation": "The author's username 'FetalRights' suggests a strong pro-life stance, which is typically associated with conservative or right-leaning politics. Additionally, the question posed in the post implies that the author is skeptical of abortion rights and is framing the issue in a way that emphasizes the fetus's rights, which is a common argument made by those on the right side of the abortion debate."
+    },
+    {
+      "author": "SafeNotIllegal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests that they are pro-choice and concerned about the safety and well-being of women who may seek abortions. The phrase 'unsafe procedures' implies that the author believes that restricting access to abortion will lead to negative consequences for women, which is a common argument made by those on the left side of the political spectrum. Additionally, the author's tone and language suggest a liberal or progressive perspective on reproductive rights.\"\n}",
+      "explanation": "The author's statement suggests that they are pro-choice and concerned about the safety and well-being of women who may seek abortions. The phrase 'unsafe procedures' implies that the author believes that restricting access to abortion will lead to negative consequences for women, which is a common argument made by those on the left side of the political spectrum. Additionally, the author's tone and language suggest a liberal or progressive perspective on reproductive rights."
+    },
+    {
+      "author": "PostAbortionTrauma",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests a pro-life stance, which is typically associated with conservative or right-leaning politics. The author's emphasis on helping women who regret their abortions and opposing efforts to make abortion more accessible implies a opposition to abortion rights, a key issue often championed by right-leaning politicians and activists.\"\n}",
+      "explanation": "The author's statement suggests a pro-life stance, which is typically associated with conservative or right-leaning politics. The author's emphasis on helping women who regret their abortions and opposing efforts to make abortion more accessible implies a opposition to abortion rights, a key issue often championed by right-leaning politicians and activists."
+    },
+    {
+      "author": "NoTaxDollarsForAbortion",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username and post content suggest a conservative stance on abortion, which is a characteristic often associated with right-wing politics. The opposition to using tax dollars for abortion funding and the suggestion to fund alternatives instead aligns with the views of many pro-life advocates, who are typically found on the right side of the political spectrum.\"\n}",
+      "explanation": "The author's username and post content suggest a conservative stance on abortion, which is a characteristic often associated with right-wing politics. The opposition to using tax dollars for abortion funding and the suggestion to fund alternatives instead aligns with the views of many pro-life advocates, who are typically found on the right side of the political spectrum."
+    },
+    {
+      "author": "ProtectWomensHealth",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's opposition to restrictive abortion laws and emphasis on protecting women's health and access to safe medical procedures are characteristic of a left-leaning or liberal perspective, which tends to support reproductive rights and access to abortion services.\"\n}",
+      "explanation": "The author's opposition to restrictive abortion laws and emphasis on protecting women's health and access to safe medical procedures are characteristic of a left-leaning or liberal perspective, which tends to support reproductive rights and access to abortion services."
+    },
+    {
+      "author": "SafeAbortionAccess",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'SafeAbortionAccess' and their post advocating for over-the-counter access to medication abortion without a prescription suggest a pro-choice stance, which is typically associated with left-leaning or liberal politics. The emphasis on accessibility and autonomy in reproductive healthcare also aligns with progressive values.\"\n}",
+      "explanation": "The author's username 'SafeAbortionAccess' and their post advocating for over-the-counter access to medication abortion without a prescription suggest a pro-choice stance, which is typically associated with left-leaning or liberal politics. The emphasis on accessibility and autonomy in reproductive healthcare also aligns with progressive values."
+    },
+    {
+      "author": "AbortionLimitsDebate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a questioning of the morality of late-term abortions, which is a common concern among those on the right side of the political spectrum. The framing of the question, particularly the use of the phrase 'Is it ethical to allow late-term abortions?', implies a skepticism towards the practice and a potential leaning towards stricter abortion regulations, which is often associated with conservative or right-leaning views.\"\n}",
+      "explanation": "The author's post suggests a questioning of the morality of late-term abortions, which is a common concern among those on the right side of the political spectrum. The framing of the question, particularly the use of the phrase 'Is it ethical to allow late-term abortions?', implies a skepticism towards the practice and a potential leaning towards stricter abortion regulations, which is often associated with conservative or right-leaning views."
+    },
+    {
+      "author": "ParentalRights",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on requiring parental consent for minors to get an abortion is a conservative viewpoint, often associated with the right-wing or Republican party in the United States. This perspective prioritizes parental authority and involvement in their children's reproductive decisions, which is a common theme in right-leaning ideologies.\"\n}",
+      "explanation": "The author's stance on requiring parental consent for minors to get an abortion is a conservative viewpoint, often associated with the right-wing or Republican party in the United States. This perspective prioritizes parental authority and involvement in their children's reproductive decisions, which is a common theme in right-leaning ideologies."
+    },
+    {
+      "author": "RoeVsWadeDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is neutral and does not express a clear opinion on the issue of abortion rights. The question posed is a genuine inquiry that could be asked by someone with either a pro-choice or pro-life perspective, and does not contain any language or tone that would suggest a particular ideological leaning. The author is framing the issue as a question of federalism vs. state's rights, rather than taking a stance on the morality or legality of abortion itself.\"\n}",
+      "explanation": "The author's post is neutral and does not express a clear opinion on the issue of abortion rights. The question posed is a genuine inquiry that could be asked by someone with either a pro-choice or pro-life perspective, and does not contain any language or tone that would suggest a particular ideological leaning. The author is framing the issue as a question of federalism vs. state's rights, rather than taking a stance on the morality or legality of abortion itself."
+    }
+  ]
+}

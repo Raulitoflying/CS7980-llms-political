@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 10,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 88.88888888888889,
+      "f1_score": 9411.764705882351,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 11,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 19,
+      "false_negative": 1
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "TaxTheRich",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'TaxTheRich' and the post content suggest a strong progressive stance, advocating for increased taxation on the wealthy to redistribute wealth and alleviate the burden on the working class. This is a classic left-wing economic policy, often associated with social democratic and liberal ideologies.\"\n}",
+      "explanation": "The author's username 'TaxTheRich' and the post content suggest a strong progressive stance, advocating for increased taxation on the wealthy to redistribute wealth and alleviate the burden on the working class. This is a classic left-wing economic policy, often associated with social democratic and liberal ideologies."
+    },
+    {
+      "author": "FreeMarketRules",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'FreeMarketRules' suggests a strong affinity for free market economics, which is often associated with right-wing or conservative ideologies. Additionally, the post content advocates for lower taxes, which is a common stance among right-leaning individuals who believe in limited government intervention in the economy. The phrase 'High taxes kill economic growth' is also a common talking point among conservatives, further supporting this classification.\"\n}",
+      "explanation": "The author's username 'FreeMarketRules' suggests a strong affinity for free market economics, which is often associated with right-wing or conservative ideologies. Additionally, the post content advocates for lower taxes, which is a common stance among right-leaning individuals who believe in limited government intervention in the economy. The phrase 'High taxes kill economic growth' is also a common talking point among conservatives, further supporting this classification."
+    },
+    {
+      "author": "UBIforAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a Universal Basic Income (UBI) suggests a left-leaning orientation. UBI is a policy often associated with progressive and social democratic ideologies, which aim to reduce economic inequality and provide a social safety net. The mention of 'economic security in an automated world' also implies a concern for the welfare of workers in the face of technological change, which is a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author's support for a Universal Basic Income (UBI) suggests a left-leaning orientation. UBI is a policy often associated with progressive and social democratic ideologies, which aim to reduce economic inequality and provide a social safety net. The mention of 'economic security in an automated world' also implies a concern for the welfare of workers in the face of technological change, which is a common theme in left-wing discourse."
+    },
+    {
+      "author": "UBISkeptic",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about Universal Basic Income (UBI), a policy often associated with progressive or left-leaning ideologies. The concern about the cost of UBI and the potential for 'massive inflation or crushing taxes' suggests that the author is prioritizing fiscal conservatism and limited government intervention in the economy, which are characteristic of right-leaning or libertarian views.\"\n}",
+      "explanation": "The author expresses skepticism about Universal Basic Income (UBI), a policy often associated with progressive or left-leaning ideologies. The concern about the cost of UBI and the potential for 'massive inflation or crushing taxes' suggests that the author is prioritizing fiscal conservatism and limited government intervention in the economy, which are characteristic of right-leaning or libertarian views."
+    },
+    {
+      "author": "WelfareMatters",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement suggests a strong support for social programs and a concern for the well-being of vulnerable populations, which is a characteristic of left-leaning ideologies. The emphasis on the importance of these programs in lifting people out of poverty and the warning against cutting them implies a commitment to social welfare and government intervention in addressing economic inequality, which is a key tenet of liberal or progressive politics.\"\n}",
+      "explanation": "The author's statement suggests a strong support for social programs and a concern for the well-being of vulnerable populations, which is a characteristic of left-leaning ideologies. The emphasis on the importance of these programs in lifting people out of poverty and the warning against cutting them implies a commitment to social welfare and government intervention in addressing economic inequality, which is a key tenet of liberal or progressive politics."
+    },
+    {
+      "author": "WorkNotHandouts",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests a conservative or libertarian viewpoint, which is typically associated with the right side of the political spectrum. The author argues that welfare discourages work, implying that government assistance can create dependency, a common criticism of social welfare programs from the right. Additionally, the emphasis on 'job creation' over 'government handouts' suggests a preference for market-based solutions and limited government intervention in the economy, which is also a characteristic of right-leaning ideologies.\"\n}",
+      "explanation": "The author's statement suggests a conservative or libertarian viewpoint, which is typically associated with the right side of the political spectrum. The author argues that welfare discourages work, implying that government assistance can create dependency, a common criticism of social welfare programs from the right. Additionally, the emphasis on 'job creation' over 'government handouts' suggests a preference for market-based solutions and limited government intervention in the economy, which is also a characteristic of right-leaning ideologies."
+    },
+    {
+      "author": "RegulateBigTech",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's call for stronger regulations on Big Tech companies suggests a left-leaning orientation. This is because left-wing ideologies often advocate for increased government intervention in the economy to protect consumers and promote social welfare. The author's concern about the concentration of power in Big Tech companies also aligns with left-wing critiques of corporate power and income inequality.\"\n}",
+      "explanation": "The author's call for stronger regulations on Big Tech companies suggests a left-leaning orientation. This is because left-wing ideologies often advocate for increased government intervention in the economy to protect consumers and promote social welfare. The author's concern about the concentration of power in Big Tech companies also aligns with left-wing critiques of corporate power and income inequality."
+    },
+    {
+      "author": "LaissezFaire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'LaissezFaire' is a reference to a French phrase that translates to 'let do', which is a core principle of classical liberalism and libertarianism, both of which are typically associated with right-wing politics. The author's statement also reflects a common right-wing view that government intervention in the economy can be detrimental to innovation and progress. The phrase 'the market should regulate itself' is a classic expression of laissez-faire economics, which is a hallmark of right-wing economic thought.\"\n}",
+      "explanation": "The author's username 'LaissezFaire' is a reference to a French phrase that translates to 'let do', which is a core principle of classical liberalism and libertarianism, both of which are typically associated with right-wing politics. The author's statement also reflects a common right-wing view that government intervention in the economy can be detrimental to innovation and progress. The phrase 'the market should regulate itself' is a classic expression of laissez-faire economics, which is a hallmark of right-wing economic thought."
+    },
+    {
+      "author": "BlameTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's criticism of the Federal Reserve's monetary policy and concern about inflation are common themes among right-leaning individuals, particularly those with libertarian or conservative views. The use of the phrase 'printed too much money' also suggests a skepticism of government intervention in the economy, which is a characteristic of right-wing economic thought. Additionally, the username 'BlameTheFed' implies a distrust of centralized authority and a tendency to attribute economic problems to government actions, which is also consistent with right-wing ideology.\"\n}",
+      "explanation": "The author's criticism of the Federal Reserve's monetary policy and concern about inflation are common themes among right-leaning individuals, particularly those with libertarian or conservative views. The use of the phrase 'printed too much money' also suggests a skepticism of government intervention in the economy, which is a characteristic of right-wing economic thought. Additionally, the username 'BlameTheFed' implies a distrust of centralized authority and a tendency to attribute economic problems to government actions, which is also consistent with right-wing ideology."
+    },
+    {
+      "author": "StopSpending",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's suggestion to cut government spending and raise interest rates to fight inflation is a typical conservative or right-leaning economic approach. This perspective is often associated with limited government intervention in the economy and a focus on monetary policy to control inflation, which is a hallmark of right-wing economic thought. Additionally, the username 'StopSpending' implies a strong stance against government spending, which is also consistent with right-wing ideology.\"\n}",
+      "explanation": "The author's suggestion to cut government spending and raise interest rates to fight inflation is a typical conservative or right-leaning economic approach. This perspective is often associated with limited government intervention in the economy and a focus on monetary policy to control inflation, which is a hallmark of right-wing economic thought. Additionally, the username 'StopSpending' implies a strong stance against government spending, which is also consistent with right-wing ideology."
+    },
+    {
+      "author": "TradeWins",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for free trade and criticism of protectionism aligns with typical right-wing or libertarian economic views, which often advocate for minimal government intervention in the economy and the benefits of global trade. This perspective is commonly associated with conservative or classical liberal ideologies.\"\n}",
+      "explanation": "The author's support for free trade and criticism of protectionism aligns with typical right-wing or libertarian economic views, which often advocate for minimal government intervention in the economy and the benefits of global trade. This perspective is commonly associated with conservative or classical liberal ideologies."
+    },
+    {
+      "author": "BuyAmerican",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for tariffs to protect domestic jobs and their criticism of free trade suggests a nationalist and protectionist stance, which is often associated with right-wing or conservative politics. Additionally, the username 'BuyAmerican' implies a strong emphasis on patriotism and domestic economic interests, which is also consistent with right-wing ideology.\"\n}",
+      "explanation": "The author's support for tariffs to protect domestic jobs and their criticism of free trade suggests a nationalist and protectionist stance, which is often associated with right-wing or conservative politics. Additionally, the username 'BuyAmerican' implies a strong emphasis on patriotism and domestic economic interests, which is also consistent with right-wing ideology."
+    },
+    {
+      "author": "EndTheFed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's criticism of the Federal Reserve and its perceived overreach suggests a libertarian or conservative viewpoint, which is commonly associated with the right side of the political spectrum. The phrase 'EndTheFed' is also a popular slogan among some right-wing and libertarian groups, further supporting this classification.\"\n}",
+      "explanation": "The author's criticism of the Federal Reserve and its perceived overreach suggests a libertarian or conservative viewpoint, which is commonly associated with the right side of the political spectrum. The phrase 'EndTheFed' is also a popular slogan among some right-wing and libertarian groups, further supporting this classification."
+    },
+    {
+      "author": "BitcoinFixesThis",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests a strong distrust of government intervention in economic matters, which is a common theme in libertarian and conservative ideologies. The emphasis on individual freedom and the promotion of a decentralized, unregulated system like Bitcoin also aligns with right-wing libertarian views. Additionally, the phrase 'free economy' implies a preference for laissez-faire economics, which is often associated with right-wing economic policies.\"\n}",
+      "explanation": "The author's statement suggests a strong distrust of government intervention in economic matters, which is a common theme in libertarian and conservative ideologies. The emphasis on individual freedom and the promotion of a decentralized, unregulated system like Bitcoin also aligns with right-wing libertarian views. Additionally, the phrase 'free economy' implies a preference for laissez-faire economics, which is often associated with right-wing economic policies."
+    },
+    {
+      "author": "CryptoRegulations",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, CryptoRegulations, is advocating for increased regulation of the cryptocurrency market, which is a stance often associated with a more liberal or left-leaning political orientation. This perspective typically emphasizes the need for government oversight to protect consumers and maintain stability in the market, mirroring the regulatory frameworks found in traditional finance. The call for regulation suggests a belief in the role of government in correcting market failures and protecting the public interest, a viewpoint more commonly found on the political left.\"\n}",
+      "explanation": "The author, CryptoRegulations, is advocating for increased regulation of the cryptocurrency market, which is a stance often associated with a more liberal or left-leaning political orientation. This perspective typically emphasizes the need for government oversight to protect consumers and maintain stability in the market, mirroring the regulatory frameworks found in traditional finance. The call for regulation suggests a belief in the role of government in correcting market failures and protecting the public interest, a viewpoint more commonly found on the political left."
+    },
+    {
+      "author": "GovCreatesJobs",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion that the government should invest in infrastructure and green energy to create jobs and boost the economy is a characteristic of left-leaning economic policies, which often emphasize government intervention and investment in public goods to stimulate economic growth and address social issues. Additionally, the focus on green energy suggests an emphasis on environmental protection, which is also a common left-wing priority.\"\n}",
+      "explanation": "The author's suggestion that the government should invest in infrastructure and green energy to create jobs and boost the economy is a characteristic of left-leaning economic policies, which often emphasize government intervention and investment in public goods to stimulate economic growth and address social issues. Additionally, the focus on green energy suggests an emphasis on environmental protection, which is also a common left-wing priority."
+    },
+    {
+      "author": "MarketKnowsBest",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement reflects a classic conservative or libertarian viewpoint, which emphasizes the importance of free market principles and limited government intervention in the economy. The assertion that 'the government doesn't create jobs, businesses do' is a common argument made by those on the right, who believe that government regulations and high taxes stifle economic growth and job creation. The call for 'fewer regulations and lower taxes' further reinforces this classification, as these are key policy planks of right-leaning economic ideologies.\"\n}",
+      "explanation": "The author's statement reflects a classic conservative or libertarian viewpoint, which emphasizes the importance of free market principles and limited government intervention in the economy. The assertion that 'the government doesn't create jobs, businesses do' is a common argument made by those on the right, who believe that government regulations and high taxes stifle economic growth and job creation. The call for 'fewer regulations and lower taxes' further reinforces this classification, as these are key policy planks of right-leaning economic ideologies."
+    },
+    {
+      "author": "TooYoungToRetire",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author suggests raising the retirement age to keep Social Security sustainable, which is a common proposal among conservatives and libertarians who advocate for reducing the financial burden of entitlement programs. This approach is often seen as a way to reduce government spending and promote individual responsibility, which are core tenets of right-leaning ideologies. In contrast, left-leaning individuals might argue that raising the retirement age would disproportionately harm low-income workers or those in physically demanding jobs, and instead advocate for increasing taxes on the wealthy or other revenue-generating measures to support Social Security.\"\n}",
+      "explanation": "The author suggests raising the retirement age to keep Social Security sustainable, which is a common proposal among conservatives and libertarians who advocate for reducing the financial burden of entitlement programs. This approach is often seen as a way to reduce government spending and promote individual responsibility, which are core tenets of right-leaning ideologies. In contrast, left-leaning individuals might argue that raising the retirement age would disproportionately harm low-income workers or those in physically demanding jobs, and instead advocate for increasing taxes on the wealthy or other revenue-generating measures to support Social Security."
+    },
+    {
+      "author": "RetireWithDignity",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a concern for the welfare and rights of workers, particularly in regards to retirement. The phrase 'retire with dignity' implies a desire for social justice and a decent standard of living for all, which is a common theme in left-wing politics. Additionally, the opposition to raising the retirement age suggests a rejection of austerity measures and a prioritization of social security, which is also consistent with left-wing ideology.\"\n}",
+      "explanation": "The author's post suggests a concern for the welfare and rights of workers, particularly in regards to retirement. The phrase 'retire with dignity' implies a desire for social justice and a decent standard of living for all, which is a common theme in left-wing politics. Additionally, the opposition to raising the retirement age suggests a rejection of austerity measures and a prioritization of social security, which is also consistent with left-wing ideology."
+    },
+    {
+      "author": "TaxBillionaires",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'TaxBillionaires' and the post content suggest a strong progressive stance. The idea of implementing a wealth tax to address economic inequality is a policy commonly associated with left-wing politics. The author's framing of billionaires as 'hoarding wealth' while 'regular people struggle' also implies a critique of capitalism and wealth concentration, which is a characteristic of left-wing ideology.\"\n}",
+      "explanation": "The author's username 'TaxBillionaires' and the post content suggest a strong progressive stance. The idea of implementing a wealth tax to address economic inequality is a policy commonly associated with left-wing politics. The author's framing of billionaires as 'hoarding wealth' while 'regular people struggle' also implies a critique of capitalism and wealth concentration, which is a characteristic of left-wing ideology."
+    }
+  ]
+}
