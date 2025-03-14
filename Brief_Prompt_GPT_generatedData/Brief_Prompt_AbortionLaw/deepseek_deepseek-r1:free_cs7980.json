@@ -1,0 +1,160 @@
+{
+  "model_name": "deepseek/deepseek-r1:free",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 80.0,
+      "recall": 88.88888888888889,
+      "f1_score": 8421.052631578948,
+      "true_positive": 8,
+      "false_positive": 2,
+      "true_negative": 9,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 75.0,
+      "recall": 100.0,
+      "f1_score": 8571.42857142857,
+      "true_positive": 6,
+      "false_positive": 2,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 3
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post strongly advocates for abortion rights and bodily autonomy, emphasizing opposition to government control over personal medical decisions. The phrase 'fundamental right' and the slogan 'MyBodyMyChoice' align with progressive, left-leaning positions that prioritize individual liberties, reproductive rights, and gender equality. The argument against governmental interference in personal health choices is a hallmark of liberal or left-wing ideology, particularly in contexts like the U.S. political landscape where abortion access is a polarized issue.\"\n}\n```",
+      "explanation": "The post strongly advocates for abortion rights and bodily autonomy, emphasizing opposition to government control over personal medical decisions. The phrase 'fundamental right' and the slogan 'MyBodyMyChoice' align with progressive, left-leaning positions that prioritize individual liberties, reproductive rights, and gender equality. The argument against governmental interference in personal health choices is a hallmark of liberal or left-wing ideology, particularly in contexts like the U.S. political landscape where abortion access is a polarized issue."
+    },
+    {
+      "author": "ProLifeForever",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly opposes abortion by framing it as the killing of a child and asserts that life begins at conception. These positions align with conservative/right-wing political ideologies, which typically advocate for pro-life policies and prioritize fetal rights. The rhetoric used ('killing of an innocent child') is consistent with common right-wing arguments against abortion access.\"\n}\n```",
+      "explanation": "The post strongly opposes abortion by framing it as the killing of a child and asserts that life begins at conception. These positions align with conservative/right-wing political ideologies, which typically advocate for pro-life policies and prioritize fetal rights. The rhetoric used ('killing of an innocent child') is consistent with common right-wing arguments against abortion access."
+    },
+    {
+      "author": "MiddleGround",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The suggestion of a 15-week abortion limit aligns with conservative (right-leaning) legislative efforts in the U.S., which often propose gestational restrictions as a compromise to reduce access. While the term 'compromise' might imply moderation, the specific timeframe reflects a policy commonly advocated by the right, contrasting with left-leaning positions that typically oppose such restrictions in favor of broader reproductive rights. The framing, though seemingly centrist, leans toward right-leaning policy preferences in the current U.S. context.\"\n}\n```",
+      "explanation": "The suggestion of a 15-week abortion limit aligns with conservative (right-leaning) legislative efforts in the U.S., which often propose gestational restrictions as a compromise to reduce access. While the term 'compromise' might imply moderation, the specific timeframe reflects a policy commonly advocated by the right, contrasting with left-leaning positions that typically oppose such restrictions in favor of broader reproductive rights. The framing, though seemingly centrist, leans toward right-leaning policy preferences in the current U.S. context."
+    },
+    {
+      "author": "FaithAndLife",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author opposes abortion on religious grounds and objects to taxpayer funding for it, both of which align with common conservative/right-wing positions. Religious opposition to abortion is a hallmark of many right-leaning platforms, and resistance to government funding for abortion services (often framed as a moral or fiscal issue) is a frequent policy stance among right-leaning groups in the U.S. political landscape.\"\n}\n```",
+      "explanation": "The author opposes abortion on religious grounds and objects to taxpayer funding for it, both of which align with common conservative/right-wing positions. Religious opposition to abortion is a hallmark of many right-leaning platforms, and resistance to government funding for abortion services (often framed as a moral or fiscal issue) is a frequent policy stance among right-leaning groups in the U.S. political landscape."
+    },
+    {
+      "author": "ProtectWomen",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes systemic inequality, highlighting how abortion bans disproportionately harm poor and marginalized women while implying that wealthier individuals retain access. This focus on class-based disparities, advocacy for reproductive rights, and concern for marginalized groups aligns with left-leaning perspectives, which often frame abortion access as a social justice and economic equity issue. The argument critiques structural inequity rather than moral or religious objections, further signaling a progressive or left-wing orientation.\"\n}\n```",
+      "explanation": "The post emphasizes systemic inequality, highlighting how abortion bans disproportionately harm poor and marginalized women while implying that wealthier individuals retain access. This focus on class-based disparities, advocacy for reproductive rights, and concern for marginalized groups aligns with left-leaning perspectives, which often frame abortion access as a social justice and economic equity issue. The argument critiques structural inequity rather than moral or religious objections, further signaling a progressive or left-wing orientation."
+    },
+    {
+      "author": "HardCases",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post questions strict anti-abortion stances by highlighting exceptions (rape, incest, medical emergencies) commonly emphasized in left-leaning arguments to challenge blanket bans. The phrasing ('even if someone opposes') suggests a critical perspective toward inflexible opposition to abortion, aligning with progressive efforts to expand access or critique conservative positions. While the author's personal view isn't explicitly stated, the framing aligns with left-leaning rhetorical strategies that use these exceptions to advocate for reproductive rights or expose perceived contradictions in anti-abortion logic.\"\n}\n```",
+      "explanation": "The post questions strict anti-abortion stances by highlighting exceptions (rape, incest, medical emergencies) commonly emphasized in left-leaning arguments to challenge blanket bans. The phrasing ('even if someone opposes') suggests a critical perspective toward inflexible opposition to abortion, aligning with progressive efforts to expand access or critique conservative positions. While the author's personal view isn't explicitly stated, the framing aligns with left-leaning rhetorical strategies that use these exceptions to advocate for reproductive rights or expose perceived contradictions in anti-abortion logic."
+    },
+    {
+      "author": "ReproductiveRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for abortion access as a medical necessity and emphasizes risks to women's lives if denied, aligning with left-leaning positions that prioritize reproductive rights and healthcare access. The username 'ReproductiveRights' further signals alignment with progressive values. Right-leaning discourse typically opposes abortion on moral or fetal-rights grounds, whereas this argument centers on bodily autonomy and public health\u2014a hallmark of left-wing perspectives.\"\n}\n```",
+      "explanation": "The post advocates for abortion access as a medical necessity and emphasizes risks to women's lives if denied, aligning with left-leaning positions that prioritize reproductive rights and healthcare access. The username 'ReproductiveRights' further signals alignment with progressive values. Right-leaning discourse typically opposes abortion on moral or fetal-rights grounds, whereas this argument centers on bodily autonomy and public health\u2014a hallmark of left-wing perspectives."
+    },
+    {
+      "author": "ChooseLife",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes abortion by advocating for adoption as an alternative, emphasizing that 'every baby deserves a chance.' This aligns with pro-life viewpoints, which are predominantly associated with conservative or right-leaning political ideologies. The rhetorical question framing abortion as unnecessary when adoption exists, coupled with the use of a common pro-life slogan ('every baby deserves a chance'), strongly suggests a right-leaning perspective. Left-leaning discourse typically prioritizes reproductive rights and bodily autonomy, whereas this argument focuses on preserving fetal life, a hallmark of conservative positions on the issue.\"\n}\n```",
+      "explanation": "The post opposes abortion by advocating for adoption as an alternative, emphasizing that 'every baby deserves a chance.' This aligns with pro-life viewpoints, which are predominantly associated with conservative or right-leaning political ideologies. The rhetorical question framing abortion as unnecessary when adoption exists, coupled with the use of a common pro-life slogan ('every baby deserves a chance'), strongly suggests a right-leaning perspective. Left-leaning discourse typically prioritizes reproductive rights and bodily autonomy, whereas this argument focuses on preserving fetal life, a hallmark of conservative positions on the issue."
+    },
+    {
+      "author": "KeepGovOut",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The statement opposes government intervention in women's medical decisions, a stance strongly aligned with progressive and left-leaning positions on reproductive rights. In the U.S. political context, support for abortion access and bodily autonomy is predominantly associated with the LEFT, while the RIGHT typically advocates for government restrictions in this area. The phrasing emphasizes personal autonomy over state control, a hallmark of left-wing advocacy on issues like abortion. While libertarian-leaning individuals on the RIGHT might oppose government overreach in principle, the specific focus on women's medical choices makes a LEFT classification more contextually accurate.\"\n}\n```",
+      "explanation": "The statement opposes government intervention in women's medical decisions, a stance strongly aligned with progressive and left-leaning positions on reproductive rights. In the U.S. political context, support for abortion access and bodily autonomy is predominantly associated with the LEFT, while the RIGHT typically advocates for government restrictions in this area. The phrasing emphasizes personal autonomy over state control, a hallmark of left-wing advocacy on issues like abortion. While libertarian-leaning individuals on the RIGHT might oppose government overreach in principle, the specific focus on women's medical choices makes a LEFT classification more contextually accurate."
+    },
+    {
+      "author": "StatesDecide",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The question posed emphasizes state-level decision-making ('should each state make its own rules?'), which aligns with conservative/right-leaning advocacy for states' rights, particularly in the context of abortion policy post-Roe v. Wade. The username 'StatesDecide' further reinforces a potential preference for decentralized governance, a common right-wing stance. However, the classification carries some uncertainty, as the post itself is framed neutrally as a question rather than an explicit endorsement. The association of states' rights with conservative ideology in current political discourse tips the classification toward RIGHT, despite the lack of overt partisan language.\"\n}\n```",
+      "explanation": "The question posed emphasizes state-level decision-making ('should each state make its own rules?'), which aligns with conservative/right-leaning advocacy for states' rights, particularly in the context of abortion policy post-Roe v. Wade. The username 'StatesDecide' further reinforces a potential preference for decentralized governance, a common right-wing stance. However, the classification carries some uncertainty, as the post itself is framed neutrally as a question rather than an explicit endorsement. The association of states' rights with conservative ideology in current political discourse tips the classification toward RIGHT, despite the lack of overt partisan language."
+    },
+    {
+      "author": "MenAndChoice",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post questions whether men should have a say in abortion laws but does not explicitly endorse a pro-choice or pro-life stance. While the username 'MenAndChoice' could imply advocacy for men's involvement in reproductive rights (potentially left-leaning if supporting inclusivity in pro-choice discourse), the framing of the question might also reflect a right-leaning critique of progressive gender-exclusive narratives. However, without explicit ideological markers (e.g., arguments about bodily autonomy, fetal rights, or policy specifics), the political orientation remains ambiguous. The query focuses on gender roles in debate participation rather than the morality or legality of abortion itself, leaving insufficient evidence to definitively classify it as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post questions whether men should have a say in abortion laws but does not explicitly endorse a pro-choice or pro-life stance. While the username 'MenAndChoice' could imply advocacy for men's involvement in reproductive rights (potentially left-leaning if supporting inclusivity in pro-choice discourse), the framing of the question might also reflect a right-leaning critique of progressive gender-exclusive narratives. However, without explicit ideological markers (e.g., arguments about bodily autonomy, fetal rights, or policy specifics), the political orientation remains ambiguous. The query focuses on gender roles in debate participation rather than the morality or legality of abortion itself, leaving insufficient evidence to definitively classify it as LEFT or RIGHT."
+    },
+    {
+      "author": "FetalRights",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The username 'FetalRights' emphasizes fetal rights, a hallmark of pro-life (right-leaning) advocacy. The question references a 'fetal heartbeat,' a key rhetorical and legislative benchmark used in conservative efforts to restrict abortion access (e.g., 'heartbeat bills' that ban abortions after ~6 weeks). While phrased as a question, the framing aligns with right-wing discourse that ties abortion legality to biological milestones, suggesting opposition to abortion post-heartbeat detection. The combination of terminology, context, and username strongly indicates a right-wing orientation.\"\n}\n```",
+      "explanation": "The username 'FetalRights' emphasizes fetal rights, a hallmark of pro-life (right-leaning) advocacy. The question references a 'fetal heartbeat,' a key rhetorical and legislative benchmark used in conservative efforts to restrict abortion access (e.g., 'heartbeat bills' that ban abortions after ~6 weeks). While phrased as a question, the framing aligns with right-wing discourse that ties abortion legality to biological milestones, suggesting opposition to abortion post-heartbeat detection. The combination of terminology, context, and username strongly indicates a right-wing orientation."
+    },
+    {
+      "author": "SafeNotIllegal",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post opposes abortion bans by emphasizing the risk of unsafe procedures and the ineffectiveness of prohibition, which aligns with progressive/left-wing arguments prioritizing bodily autonomy, public health, and access to safe healthcare. These positions are consistent with left-leaning advocacy for reproductive rights and opposition to government restrictions on abortion.\"\n}\n```",
+      "explanation": "The post opposes abortion bans by emphasizing the risk of unsafe procedures and the ineffectiveness of prohibition, which aligns with progressive/left-wing arguments prioritizing bodily autonomy, public health, and access to safe healthcare. These positions are consistent with left-leaning advocacy for reproductive rights and opposition to government restrictions on abortion."
+    },
+    {
+      "author": "PostAbortionTrauma",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes opposition to abortion accessibility by highlighting regret among women and advocating for support over expanded access. This aligns with right-leaning, pro-life arguments that prioritize restricting abortion and framing it as harmful, contrasting with left-leaning positions that typically focus on protecting reproductive rights and healthcare access.\"\n}\n```",
+      "explanation": "The post emphasizes opposition to abortion accessibility by highlighting regret among women and advocating for support over expanded access. This aligns with right-leaning, pro-life arguments that prioritize restricting abortion and framing it as harmful, contrasting with left-leaning positions that typically focus on protecting reproductive rights and healthcare access."
+    },
+    {
+      "author": "NoTaxDollarsForAbortion",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The opposition to using tax dollars for abortions aligns with conservative/right-leaning political positions, which often advocate for restrictions on abortion access and oppose government funding for such procedures. The call to 'fund alternatives instead' suggests support for crisis pregnancy centers or adoption services, which are commonly promoted by conservative groups as alternatives to abortion. The username 'NoTaxDollarsForAbortion' further reinforces a focus on fiscal conservatism and social conservatism regarding reproductive rights.\"\n}\n```",
+      "explanation": "The opposition to using tax dollars for abortions aligns with conservative/right-leaning political positions, which often advocate for restrictions on abortion access and oppose government funding for such procedures. The call to 'fund alternatives instead' suggests support for crisis pregnancy centers or adoption services, which are commonly promoted by conservative groups as alternatives to abortion. The username 'NoTaxDollarsForAbortion' further reinforces a focus on fiscal conservatism and social conservatism regarding reproductive rights."
+    },
+    {
+      "author": "ProtectWomensHealth",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post opposes restrictive abortion laws, framing them as a threat to women's health and access to safe medical care. This aligns with left-leaning political positions, which typically advocate for reproductive rights, bodily autonomy, and expanded healthcare access. The emphasis on systemic risks to women's well-being and the critique of legal restrictions are consistent with progressive or liberal viewpoints.\"\n}\n```",
+      "explanation": "The post opposes restrictive abortion laws, framing them as a threat to women's health and access to safe medical care. This aligns with left-leaning political positions, which typically advocate for reproductive rights, bodily autonomy, and expanded healthcare access. The emphasis on systemic risks to women's well-being and the critique of legal restrictions are consistent with progressive or liberal viewpoints."
+    },
+    {
+      "author": "SafeAbortionAccess",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for over-the-counter access to medication abortion, a position strongly aligned with progressive/left-leaning political stances that prioritize reproductive rights and healthcare accessibility. The emphasis on expanding access to abortion services, framing it as 'safe and effective,' and challenging prescription requirements reflects common arguments from left-wing advocacy groups focused on bodily autonomy and reducing barriers to healthcare. Conservative/right-leaning positions typically oppose broadening abortion access, making this stance distinctly indicative of a left-oriented perspective.\"\n}\n```",
+      "explanation": "The post advocates for over-the-counter access to medication abortion, a position strongly aligned with progressive/left-leaning political stances that prioritize reproductive rights and healthcare accessibility. The emphasis on expanding access to abortion services, framing it as 'safe and effective,' and challenging prescription requirements reflects common arguments from left-wing advocacy groups focused on bodily autonomy and reducing barriers to healthcare. Conservative/right-leaning positions typically oppose broadening abortion access, making this stance distinctly indicative of a left-oriented perspective."
+    },
+    {
+      "author": "AbortionLimitsDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions the ethics of late-term abortions and the need for time limits, topics commonly emphasized in right-leaning discourse. While phrased as neutral questions, the focus on restricting abortion access (via time limits) and framing late-term procedures as ethically contentious aligns with typical conservative arguments. The username 'AbortionLimitsDebate' further hints at a focus on restrictions. Left-leaning perspectives more often prioritize bodily autonomy and highlight medical necessity, which are absent here. The absence of qualifiers like exceptions for health or fetal abnormalities reinforces the right-leaning framing.\"\n}\n```",
+      "explanation": "The post questions the ethics of late-term abortions and the need for time limits, topics commonly emphasized in right-leaning discourse. While phrased as neutral questions, the focus on restricting abortion access (via time limits) and framing late-term procedures as ethically contentious aligns with typical conservative arguments. The username 'AbortionLimitsDebate' further hints at a focus on restrictions. Left-leaning perspectives more often prioritize bodily autonomy and highlight medical necessity, which are absent here. The absence of qualifiers like exceptions for health or fetal abnormalities reinforces the right-leaning framing."
+    },
+    {
+      "author": "ParentalRights",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for parental consent requirements for minors seeking abortions, a policy position commonly associated with conservative or right-leaning political groups. Such laws are often supported by those emphasizing traditional family structures, parental authority, and restrictions on abortion access\u2014key themes in right-wing platforms. The emphasis on 'parental rights' over individual autonomy for minors aligns with conservative priorities, whereas left-leaning perspectives typically prioritize reproductive rights and a minor's ability to make medical decisions without mandatory parental involvement.\"\n}",
+      "explanation": "The post advocates for parental consent requirements for minors seeking abortions, a policy position commonly associated with conservative or right-leaning political groups. Such laws are often supported by those emphasizing traditional family structures, parental authority, and restrictions on abortion access\u2014key themes in right-wing platforms. The emphasis on 'parental rights' over individual autonomy for minors aligns with conservative priorities, whereas left-leaning perspectives typically prioritize reproductive rights and a minor's ability to make medical decisions without mandatory parental involvement."
+    },
+    {
+      "author": "RoeVsWadeDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post poses a neutral question about whether abortion rights should be federally determined by the Supreme Court or left to individual states. While the topic is politically charged, the author does not express a personal stance or use language that explicitly aligns with left-leaning (pro-federal protection) or right-leaning (pro-state autonomy) arguments. The framing is purely interrogative, inviting debate without indicating bias. Thus, the political orientation cannot be definitively classified without further context or explicit advocacy.\"\n}\n```",
+      "explanation": "The post poses a neutral question about whether abortion rights should be federally determined by the Supreme Court or left to individual states. While the topic is politically charged, the author does not express a personal stance or use language that explicitly aligns with left-leaning (pro-federal protection) or right-leaning (pro-state autonomy) arguments. The framing is purely interrogative, inviting debate without indicating bias. Thus, the political orientation cannot be definitively classified without further context or explicit advocacy."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "deepseek/deepseek-r1:free",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 87.5,
+      "recall": 77.77777777777779,
+      "f1_score": 8235.294117647061,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 14,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 85.0,
+      "precision": 71.42857142857143,
+      "recall": 83.33333333333334,
+      "f1_score": 7692.307692307693,
+      "true_positive": 5,
+      "false_positive": 2,
+      "true_negative": 12,
+      "false_negative": 1
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "ScienceMatters",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes trust in scientific data and COVID-19 vaccine efficacy, which aligns with left-leaning political narratives that generally prioritize public health measures and scientific consensus. The username 'ScienceMatters' further reinforces a pro-science stance, commonly associated with progressive or liberal viewpoints. While vaccine support is not exclusive to the left, the assertive endorsement of vaccines as life-saving tools\u2014without qualifiers about mandates or government overreach\u2014reflects messaging more typical of left-aligned advocacy during the pandemic.\"\n}\n```",
+      "explanation": "The post emphasizes trust in scientific data and COVID-19 vaccine efficacy, which aligns with left-leaning political narratives that generally prioritize public health measures and scientific consensus. The username 'ScienceMatters' further reinforces a pro-science stance, commonly associated with progressive or liberal viewpoints. While vaccine support is not exclusive to the left, the assertive endorsement of vaccines as life-saving tools\u2014without qualifiers about mandates or government overreach\u2014reflects messaging more typical of left-aligned advocacy during the pandemic."
+    },
+    {
+      "author": "MyBodyMyChoice",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes vaccine mandates, framing them as 'authoritarian' and emphasizes 'medical freedom' and 'personal choice'\u2014rhetoric commonly associated with right-leaning or libertarian perspectives that prioritize individual liberties over government intervention. While the slogan 'MyBodyMyChoice' originated in left-wing pro-choice movements, its application here aligns with conservative critiques of COVID-19 mandates, which often reject public health measures as governmental overreach. The emphasis on personal autonomy in medical decisions, rather than collective responsibility, further supports a right-leaning classification.\"\n}\n```",
+      "explanation": "The post opposes vaccine mandates, framing them as 'authoritarian' and emphasizes 'medical freedom' and 'personal choice'\u2014rhetoric commonly associated with right-leaning or libertarian perspectives that prioritize individual liberties over government intervention. While the slogan 'MyBodyMyChoice' originated in left-wing pro-choice movements, its application here aligns with conservative critiques of COVID-19 mandates, which often reject public health measures as governmental overreach. The emphasis on personal autonomy in medical decisions, rather than collective responsibility, further supports a right-leaning classification."
+    },
+    {
+      "author": "LabLeakTheory",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes the lab leak theory and demands accountability from China, aligning with right-leaning narratives that frequently critique China and stress national sovereignty. While the lab leak hypothesis itself is not exclusively partisan, the framing\u2014focusing on 'holding China accountable' and implying a cover-up\u2014resonates with conservative rhetoric that often prioritizes geopolitical rivalry, distrust of international institutions, and assertive foreign policy. Additionally, the assertion of 'strong evidence' (despite ongoing scientific debate) reflects a tendency to amplify claims critical of China, a common theme in right-wing discourse.\"\n}\n```",
+      "explanation": "The post emphasizes the lab leak theory and demands accountability from China, aligning with right-leaning narratives that frequently critique China and stress national sovereignty. While the lab leak hypothesis itself is not exclusively partisan, the framing\u2014focusing on 'holding China accountable' and implying a cover-up\u2014resonates with conservative rhetoric that often prioritizes geopolitical rivalry, distrust of international institutions, and assertive foreign policy. Additionally, the assertion of 'strong evidence' (despite ongoing scientific debate) reflects a tendency to amplify claims critical of China, a common theme in right-wing discourse."
+    },
+    {
+      "author": "LongCovidSurvivor",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post advocates for recognition of Long COVID and more research, which, while often aligned with left-leaning priorities for healthcare and scientific funding, does not explicitly mention government action, policy, or partisan language. Support for medical research can be bipartisan, and personal experiences with health issues may transcend political divides. The politicization of COVID-19 introduces ambiguity, but the absence of clear ideological markers makes a definitive classification uncertain.\"\n}\n```",
+      "explanation": "The post advocates for recognition of Long COVID and more research, which, while often aligned with left-leaning priorities for healthcare and scientific funding, does not explicitly mention government action, policy, or partisan language. Support for medical research can be bipartisan, and personal experiences with health issues may transcend political divides. The politicization of COVID-19 introduces ambiguity, but the absence of clear ideological markers makes a definitive classification uncertain."
+    },
+    {
+      "author": "MaskUp",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes adherence to scientific consensus and public health measures (mask-wearing), which were more commonly advocated by left-leaning groups during the COVID-19 pandemic. The phrase 'basic science' suggests a rebuttal to skepticism often associated with right-leaning rhetoric that framed such measures as government overreach. While support for masks is not exclusively political, the framing aligns with progressive narratives prioritizing collective responsibility and trust in experts.\"\n}\n```",
+      "explanation": "The post emphasizes adherence to scientific consensus and public health measures (mask-wearing), which were more commonly advocated by left-leaning groups during the COVID-19 pandemic. The phrase 'basic science' suggests a rebuttal to skepticism often associated with right-leaning rhetoric that framed such measures as government overreach. While support for masks is not exclusively political, the framing aligns with progressive narratives prioritizing collective responsibility and trust in experts."
+    },
+    {
+      "author": "ReopenTheEconomy",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post criticizes COVID-19 lockdowns as disproportionately harmful to small businesses and livelihoods, a stance commonly associated with right-leaning political discourse. During the pandemic, right-leaning voices frequently framed lockdowns as government overreach and emphasized economic consequences over public health risks. The username 'ReopenTheEconomy' and the assertion that lockdowns caused 'far worse' damage than the virus itself align with conservative rhetoric that prioritized economic recovery and individual freedoms. While opposition to lockdowns is not exclusive to the right, the absolutist language and lack of acknowledgment of public health trade-offs are more characteristic of right-leaning arguments in this context.\"\n}\n```",
+      "explanation": "The post criticizes COVID-19 lockdowns as disproportionately harmful to small businesses and livelihoods, a stance commonly associated with right-leaning political discourse. During the pandemic, right-leaning voices frequently framed lockdowns as government overreach and emphasized economic consequences over public health risks. The username 'ReopenTheEconomy' and the assertion that lockdowns caused 'far worse' damage than the virus itself align with conservative rhetoric that prioritized economic recovery and individual freedoms. While opposition to lockdowns is not exclusive to the right, the absolutist language and lack of acknowledgment of public health trade-offs are more characteristic of right-leaning arguments in this context."
+    },
+    {
+      "author": "FactCheck",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes combating COVID misinformation through enhanced fact-checking, a stance commonly associated with left-leaning perspectives that prioritize institutional trust and public health measures. The call for regulatory action aligns with progressive support for oversight to address societal issues, whereas right-leaning viewpoints often frame such efforts as censorship. The use of 'lies' also suggests a perception of deliberate misinformation, a narrative more frequently echoed in left-wing critiques of pandemic-related disinformation campaigns.\"\n}\n```",
+      "explanation": "The post emphasizes combating COVID misinformation through enhanced fact-checking, a stance commonly associated with left-leaning perspectives that prioritize institutional trust and public health measures. The call for regulatory action aligns with progressive support for oversight to address societal issues, whereas right-leaning viewpoints often frame such efforts as censorship. The use of 'lies' also suggests a perception of deliberate misinformation, a narrative more frequently echoed in left-wing critiques of pandemic-related disinformation campaigns."
+    },
+    {
+      "author": "NaturalImmunity",
+      "orientation": "unknown",
+      "raw_response": "",
+      "explanation": ""
+    },
+    {
+      "author": "ZeroCovidDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post presents a balanced question that acknowledges both the potential public health benefits of China's zero-COVID policy ('prevented deaths') and concerns about authoritarian governance ('government overreach'). The author does not explicitly endorse either perspective but instead invites debate, making it impossible to definitively classify their political orientation. Left-leaning arguments might emphasize collective welfare (supporting strict measures), while right-leaning views might prioritize individual freedoms (criticizing overreach). The neutral framing suggests the author's intent is to provoke discussion rather than express a clear ideological stance.\"\n}\n```",
+      "explanation": "The post presents a balanced question that acknowledges both the potential public health benefits of China's zero-COVID policy ('prevented deaths') and concerns about authoritarian governance ('government overreach'). The author does not explicitly endorse either perspective but instead invites debate, making it impossible to definitively classify their political orientation. Left-leaning arguments might emphasize collective welfare (supporting strict measures), while right-leaning views might prioritize individual freedoms (criticizing overreach). The neutral framing suggests the author's intent is to provoke discussion rather than express a clear ideological stance."
+    },
+    {
+      "author": "StayProtected",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for COVID-19 booster shots, emphasizing public health benefits and encouraging universal uptake ('Everyone should get theirs!'). In the U.S. political context, support for vaccines and public health measures like boosters has been more strongly associated with left-leaning groups, who generally align with scientific consensus and collective action. Right-leaning voices often prioritize individual choice or express skepticism toward mandates, even if they support voluntary vaccination. While the post does not explicitly mention government policies, its enthusiastic endorsement of boosters as a societal obligation leans toward left-aligned public health advocacy.\"\n}\n```",
+      "explanation": "The post advocates for COVID-19 booster shots, emphasizing public health benefits and encouraging universal uptake ('Everyone should get theirs!'). In the U.S. political context, support for vaccines and public health measures like boosters has been more strongly associated with left-leaning groups, who generally align with scientific consensus and collective action. Right-leaning voices often prioritize individual choice or express skepticism toward mandates, even if they support voluntary vaccination. While the post does not explicitly mention government policies, its enthusiastic endorsement of boosters as a societal obligation leans toward left-aligned public health advocacy."
+    },
+    {
+      "author": "WHOFailure",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post criticizes the WHO for 'covering for China' and 'failing the world,' which aligns with right-leaning narratives prevalent during the COVID-19 pandemic. Right-wing discourse, particularly in the U.S., often framed the WHO as overly deferential to China and accused it of mishandling the crisis, a stance emphasized by figures like Donald Trump. The focus on China's alleged role and distrust of international institutions like the WHO are consistent with conservative critiques that prioritize national sovereignty over global governance.\"\n}\n```",
+      "explanation": "The post criticizes the WHO for 'covering for China' and 'failing the world,' which aligns with right-leaning narratives prevalent during the COVID-19 pandemic. Right-wing discourse, particularly in the U.S., often framed the WHO as overly deferential to China and accused it of mishandling the crisis, a stance emphasized by figures like Donald Trump. The focus on China's alleged role and distrust of international institutions like the WHO are consistent with conservative critiques that prioritize national sovereignty over global governance."
+    },
+    {
+      "author": "KeepSchoolsOpen",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's argument that school closures were a 'huge mistake' and that isolation harmed children more than COVID-19 aligns with right-leaning political discourse during the pandemic. Conservative voices often emphasized reopening schools and minimizing lockdowns, prioritizing educational and social impacts over public health restrictions. The framing of isolation as more detrimental than the virus itself echoes common right-wing critiques of pandemic policies, which frequently downplayed COVID-19 risks in favor of opposing government-mandated closures.\"\n}\n```",
+      "explanation": "The author's argument that school closures were a 'huge mistake' and that isolation harmed children more than COVID-19 aligns with right-leaning political discourse during the pandemic. Conservative voices often emphasized reopening schools and minimizing lockdowns, prioritizing educational and social impacts over public health restrictions. The framing of isolation as more detrimental than the virus itself echoes common right-wing critiques of pandemic policies, which frequently downplayed COVID-19 risks in favor of opposing government-mandated closures."
+    },
+    {
+      "author": "FalsePositives",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions COVID-19 test accuracy, specifically focusing on false positives\u2014a topic often emphasized in right-leaning discourse to critique pandemic policies or suggest inflated case counts. The username 'FalsePositives' further signals a preoccupation with test inaccuracies, aligning with skepticism common among critics of public health measures. While the question is technically neutral, the framing and context suggest a stance associated with challenging official narratives, which is more frequently observed in right-leaning circles during the pandemic.\"\n}\n```",
+      "explanation": "The post questions COVID-19 test accuracy, specifically focusing on false positives\u2014a topic often emphasized in right-leaning discourse to critique pandemic policies or suggest inflated case counts. The username 'FalsePositives' further signals a preoccupation with test inaccuracies, aligning with skepticism common among critics of public health measures. While the question is technically neutral, the framing and context suggest a stance associated with challenging official narratives, which is more frequently observed in right-leaning circles during the pandemic."
+    },
+    {
+      "author": "NextPandemic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post advocates for global pandemic preparedness, a topic that is not inherently tied to a specific political orientation. While support for international cooperation and government-led public health initiatives is often associated with left-leaning perspectives, the call for 'preparedness' itself is a broadly shared goal across the political spectrum. The statement lacks specifics (e.g., funding mechanisms, government vs. private sector roles, or critiques of past policies) that might indicate a clear ideological leaning. Without such details, the author's political orientation cannot be definitively classified as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post advocates for global pandemic preparedness, a topic that is not inherently tied to a specific political orientation. While support for international cooperation and government-led public health initiatives is often associated with left-leaning perspectives, the call for 'preparedness' itself is a broadly shared goal across the political spectrum. The statement lacks specifics (e.g., funding mechanisms, government vs. private sector roles, or critiques of past policies) that might indicate a clear ideological leaning. Without such details, the author's political orientation cannot be definitively classified as LEFT or RIGHT."
+    },
+    {
+      "author": "MentalHealthMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post highlights the mental health crisis exacerbated by pandemic-related isolation, a concern that transcends partisan lines. While mental health advocacy is often emphasized in left-leaning platforms, the statement itself does not propose specific policies, critique political actors, or use ideological language (e.g., calls for government intervention vs. individual responsibility). The absence of explicit political framing or solutions makes it impossible to definitively classify the author's orientation as LEFT or RIGHT. The issue raised is broadly recognized across the political spectrum, even if approaches to addressing it differ.\"\n}\n```",
+      "explanation": "The post highlights the mental health crisis exacerbated by pandemic-related isolation, a concern that transcends partisan lines. While mental health advocacy is often emphasized in left-leaning platforms, the statement itself does not propose specific policies, critique political actors, or use ideological language (e.g., calls for government intervention vs. individual responsibility). The absence of explicit political framing or solutions makes it impossible to definitively classify the author's orientation as LEFT or RIGHT. The issue raised is broadly recognized across the political spectrum, even if approaches to addressing it differ."
+    },
+    {
+      "author": "OpenBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes pandemic-related travel restrictions and economic shutdowns, emphasizing economic harm over public health measures\u2014a stance more commonly associated with right-leaning or libertarian ideologies. While the username 'OpenBordersNow' might suggest progressive views on immigration, the content's focus aligns with right-leaning critiques of government intervention during crises. Mainstream left-leaning positions during the pandemic typically prioritized public health restrictions, making the anti-shutdown and anti-travel-restriction arguments here more indicative of a right-leaning orientation.\"\n}\n```",
+      "explanation": "The post opposes pandemic-related travel restrictions and economic shutdowns, emphasizing economic harm over public health measures\u2014a stance more commonly associated with right-leaning or libertarian ideologies. While the username 'OpenBordersNow' might suggest progressive views on immigration, the content's focus aligns with right-leaning critiques of government intervention during crises. Mainstream left-leaning positions during the pandemic typically prioritized public health restrictions, making the anti-shutdown and anti-travel-restriction arguments here more indicative of a right-leaning orientation."
+    },
+    {
+      "author": "FollowTheMoney",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post critiques pharmaceutical companies for prioritizing profit over public health, a common left-leaning narrative that emphasizes systemic criticism of corporate capitalism. While vaccine skepticism can intersect with right-wing views, the focus here on profit motives rather than government mandates, individual freedoms, or anti-science rhetoric aligns more closely with leftist critiques of corporate greed in healthcare systems.\"\n}\n```",
+      "explanation": "The post critiques pharmaceutical companies for prioritizing profit over public health, a common left-leaning narrative that emphasizes systemic criticism of corporate capitalism. While vaccine skepticism can intersect with right-wing views, the focus here on profit motives rather than government mandates, individual freedoms, or anti-science rhetoric aligns more closely with leftist critiques of corporate greed in healthcare systems."
+    },
+    {
+      "author": "RemoteWork",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post poses a neutral question about whether remote work should become the new normal without expressing explicit support or opposition. While remote work discussions can intersect with political issues (e.g., labor rights, environmental policy, urban economics), the author does not advocate for a specific stance or use language indicative of left-leaning (e.g., worker empowerment, climate benefits) or right-leaning (e.g., economic traditionalism, skepticism of change) ideologies. The query invites debate but lacks sufficient context to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The post poses a neutral question about whether remote work should become the new normal without expressing explicit support or opposition. While remote work discussions can intersect with political issues (e.g., labor rights, environmental policy, urban economics), the author does not advocate for a specific stance or use language indicative of left-leaning (e.g., worker empowerment, climate benefits) or right-leaning (e.g., economic traditionalism, skepticism of change) ideologies. The query invites debate but lacks sufficient context to definitively classify the author's political orientation."
+    },
+    {
+      "author": "FreedomMatters",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post criticizes COVID-19 lockdowns, vaccine mandates, and restrictions as 'government overreach,' a stance strongly associated with right-leaning political discourse. Opposition to government-imposed public health measures became a hallmark of conservative and libertarian rhetoric during the pandemic, emphasizing individual freedoms over collective mandates. Phrases like 'massive government overreach' and 'Never again!' align with right-wing narratives that prioritize limited government intervention and personal liberty. While exceptions exist, this language and policy focus are consistent with Right-leaning ideologies in contemporary political debates.\"\n}\n```",
+      "explanation": "The post criticizes COVID-19 lockdowns, vaccine mandates, and restrictions as 'government overreach,' a stance strongly associated with right-leaning political discourse. Opposition to government-imposed public health measures became a hallmark of conservative and libertarian rhetoric during the pandemic, emphasizing individual freedoms over collective mandates. Phrases like 'massive government overreach' and 'Never again!' align with right-wing narratives that prioritize limited government intervention and personal liberty. While exceptions exist, this language and policy focus are consistent with Right-leaning ideologies in contemporary political debates."
+    },
+    {
+      "author": "LearnFromHistory",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post is a neutral, open-ended question asking for lessons from the COVID-19 pandemic without expressing specific opinions, policy preferences, or ideological cues. It does not reference topics like government intervention, healthcare systems, individual liberties, economic strategies, or other issues typically associated with left- or right-leaning perspectives. The absence of explicit political framing or value-laden language makes it impossible to confidently classify the author's political orientation.\"\n}\n```",
+      "explanation": "The post is a neutral, open-ended question asking for lessons from the COVID-19 pandemic without expressing specific opinions, policy preferences, or ideological cues. It does not reference topics like government intervention, healthcare systems, individual liberties, economic strategies, or other issues typically associated with left- or right-leaning perspectives. The absence of explicit political framing or value-laden language makes it impossible to confidently classify the author's political orientation."
+    }
+  ]
+}
