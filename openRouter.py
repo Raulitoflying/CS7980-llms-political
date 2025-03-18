@@ -288,7 +288,7 @@ def evaluate_model(model_name, posts):
     return results
 
 # Load and process data
-with open('synthetic20Posts(Covid19_GPT).json', 'r') as f:
+with open('synthetic20Posts_high_confidence_gemini-2.0-flash-001.json', 'r') as f:
     data = json.load(f)
 
 # Models to evaluate

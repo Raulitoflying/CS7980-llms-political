@@ -24,11 +24,13 @@ class PoliticalPostGenerator:
             "HTTP-Referer": "https://localhost:5000",
         }
         
-        # Define political affiliations and their orientations
-        self.political_affiliations = [
-            'democrat', 'republican', 'liberal', 'conservative', 'green', 
-            'l-fringe', 'r-fringe', 'libertarian', 'independent', 'centrist'
-        ]
+        # Define political affiliations by orientation
+        self.left_affiliations = ['democrat', 'liberal', 'green', 'l-fringe']
+        self.right_affiliations = ['republican', 'conservative', 'r-fringe', 'libertarian']
+        self.neutral_affiliations = ['independent', 'centrist']
+        
+        # Combined list of all affiliations
+        self.political_affiliations = self.left_affiliations + self.right_affiliations + self.neutral_affiliations
         
         # Define topics for post generation
         self.topics = [
@@ -115,7 +117,7 @@ class PoliticalPostGenerator:
                     confidence_instruction = """The post should:
 1. Be 1-2 sentences long
 2. Express a STRONG and CONFIDENT opinion aligned with {political_affiliation} values
-3. Use definitive language (e.g., "definitely", "certainly", "always", "never")
+3. Use definitive language
 4. Sound assertive and convinced
 5. Make clear, unequivocal statements
 6. Include strong emotion or conviction
@@ -126,7 +128,7 @@ class PoliticalPostGenerator:
                     confidence_instruction = """The post should:
 1. Be 1-2 sentences long
 2. Express a TENTATIVE or UNCERTAIN opinion aligned with {political_affiliation} values
-3. Use hedging language (e.g., "maybe", "possibly", "sometimes", "I think", "I wonder if")
+3. Use hedging language or qualifiers
 4. Include questions or express doubt
 5. Acknowledge complexity or multiple sides
 6. Sound unsure or contemplative
@@ -138,11 +140,15 @@ class PoliticalPostGenerator:
                 
 {confidence_instruction.format(political_affiliation=political_affiliation, topic=topic)}
 
-IMPORTANT: Your response must be ONLY valid JSON with no additional text or explanation.
+IMPORTANT: 
+1. Your response must be ONLY valid JSON with no additional text or explanation.
+2. DO NOT use contractions with apostrophes (like "It is" not "It's", "do not" not "don't").
+3. Avoid ALL apostrophes in your text to prevent JSON parsing errors.
+
 Provide your response in this exact JSON format:
 {{
     "text": "The social media post content",
-    "name": "A username that relates to the topic",
+    "name": "A username that relates to the topic"
 }}"""
 
                 data = {
@@ -158,7 +164,7 @@ Provide your response in this exact JSON format:
                         }
                     ],
                     "temperature": temperature,
-                    "max_tokens": 1000
+                    "max_tokens": 500
                 }
 
                 response = requests.post(
@@ -191,16 +197,25 @@ Provide your response in this exact JSON format:
                         json_str = model_response[json_start:json_end]
                         post_data = json.loads(json_str)
                         
+                        # Generate thread ID safely even for non-standard topics
+                        try:
+                            thread_id = 10000 + (self.topics.index(topic) * 100) + 1
+                            index = self.topics.index(topic) + 1
+                        except ValueError:
+                            # For topics not in self.topics
+                            thread_id = 10000 + (hash(topic) % 1000)
+                            index = hash(topic) % 100
+                        
                         return {
-                            "thread": 10000 + (self.topics.index(topic) * 100) + 1,
+                            "thread": thread_id,
                             "topic": topic,
-                            "index": self.topics.index(topic) + 1,
+                            "index": index,
                             "date": "2025/03/15 @",
                             "uid": 8000 + random.randint(1, 1000),
                             "name": post_data.get("name", f"User{random.randint(1000, 9999)}"),
                             "polafil": political_affiliation,
                             "text": post_data.get("text", "No text generated"),
-                            "textparts": f"t{10000 + (self.topics.index(topic) * 100) + 1}p{self.topics.index(topic) + 1:04d}"
+                            "textparts": f"t{thread_id}p{random.randint(1, 9999):04d}"
                         }
                 except Exception as e:
                     print(f"Error parsing JSON: {e}")
@@ -220,16 +235,24 @@ Provide your response in this exact JSON format:
                 }
                 
         # If all retries failed
+        try:
+            thread_id = 10000 + (self.topics.index(topic) * 100) + 1
+            index = self.topics.index(topic) + 1
+        except ValueError:
+            # For topics not in self.topics
+            thread_id = 10000 + (hash(topic) % 1000)
+            index = hash(topic) % 100
+            
         return {
-            "thread": 10000 + (self.topics.index(topic) * 100) + 1,
+            "thread": thread_id,
             "topic": topic,
-            "index": self.topics.index(topic) + 1,
+            "index": index,
             "date": "2025/03/15 @",
             "uid": 8000 + random.randint(1, 1000),
             "name": f"User{random.randint(1000, 9999)}",
             "polafil": political_affiliation,
             "text": f"This is a placeholder {confidence_level}-confidence post about {topic} from a {political_affiliation} perspective.",
-            "textparts": f"t{10000 + (self.topics.index(topic) * 100) + 1}p{self.topics.index(topic) + 1:04d}"
+            "textparts": f"t{thread_id}p{random.randint(1, 9999):04d}"
         }
 
     def generate_mixed_posts_with_confidence(self, count=20, confidence_level="high"):
@@ -246,10 +269,10 @@ Provide your response in this exact JSON format:
             # For balanced left/right representation
             if i < count // 2:
                 # Left-leaning
-                affiliation = random.choice(['democrat', 'liberal', 'green', 'l-fringe'])
+                affiliation = random.choice(self.left_affiliations)
             else:
                 # Right-leaning or neutral
-                affiliation = random.choice(['republican', 'conservative', 'r-fringe', 'libertarian', 'independent', 'centrist'])
+                affiliation = random.choice(self.right_affiliations + self.neutral_affiliations)
             
             all_affiliations.append(affiliation)
             
@@ -279,14 +302,6 @@ Provide your response in this exact JSON format:
         """Generate posts for a specific topic with varied political affiliations and specified confidence level"""
         print(f"\nGenerating {count} {confidence_level}-confidence posts about {topic} using {self.model_name}...")
         
-        # Distribute political affiliations for balance
-        # Left-leaning affiliations
-        left_affiliations = ['democrat', 'liberal', 'green', 'l-fringe']
-        # Right-leaning affiliations
-        right_affiliations = ['republican', 'conservative', 'r-fringe', 'libertarian'] 
-        # Neutral affiliations
-        neutral_affiliations = ['independent', 'centrist']
-        
         # Calculate distribution: 40% left, 40% right, 20% neutral
         left_count = int(count * 0.4)
         right_count = int(count * 0.4)
@@ -294,9 +309,9 @@ Provide your response in this exact JSON format:
         
         # Select affiliations
         selected_affiliations = (
-            random.choices(left_affiliations, k=left_count) +
-            random.choices(right_affiliations, k=right_count) +
-            random.choices(neutral_affiliations, k=neutral_count)
+            random.choices(self.left_affiliations, k=left_count) +
+            random.choices(self.right_affiliations, k=right_count) +
+            random.choices(self.neutral_affiliations, k=neutral_count)
         )
         random.shuffle(selected_affiliations)  # Randomize order
         
@@ -309,10 +324,6 @@ Provide your response in this exact JSON format:
             
         # Prepare output
         output = {
-            "model_name": self.model_name,
-            "topic": topic,
-            "confidence_level": confidence_level,
-            "total_posts": len(posts),
             "posts": posts
         }
 
@@ -323,35 +334,95 @@ Provide your response in this exact JSON format:
 
         print(f"\nResults saved to {filename}")
         return output
+    
+    def generate_balanced_topic_posts(self, topic, count_per_side=10, confidence_level="high"):
+        """Generate posts for a specific topic with balanced left/right representations"""
+        print(f"\nGenerating balanced {confidence_level}-confidence posts about '{topic}' using {self.model_name}...")
+        
+        posts = []
+        
+        # Generate left-leaning posts
+        print(f"  Generating {count_per_side} LEFT-leaning posts...")
+        for i in tqdm(range(count_per_side)):
+            affiliation = random.choice(self.left_affiliations)
+            post = self.generate_post(topic, affiliation, confidence_level)
+            posts.append(post)
+            time.sleep(2)  # Rate limiting
+        
+        # Generate right-leaning posts
+        print(f"  Generating {count_per_side} RIGHT-leaning posts...")
+        for i in tqdm(range(count_per_side)):
+            affiliation = random.choice(self.right_affiliations)
+            post = self.generate_post(topic, affiliation, confidence_level)
+            posts.append(post)
+            time.sleep(2)  # Rate limiting
+        
+        # Prepare output
+        output = {
+            "posts": posts
+        }
+
+        # Save results
+        filename = f"balanced{count_per_side*2}Posts_{confidence_level}_confidence_{topic.replace(' ', '_')}_{self.model_name.split('/')[-1]}.json"
+        with open(filename, 'w') as f:
+            json.dump(output, f, indent=2)
+
+        print(f"\nResults saved to {filename}")
+        return output
 
 # Example usage:
-def generate_posts(model_name, mode="mixed", topic=None, count=20, confidence_level="high"):
+def generate_posts(model_name, mode="mixed", topic=None, count=20, confidence_level="high", count_per_side=10):
     generator = PoliticalPostGenerator(model_name)
     
     if mode == "mixed":
         return generator.generate_mixed_posts_with_confidence(count, confidence_level)
     elif mode == "topic" and topic:
         return generator.generate_topic_posts_with_confidence(topic, count, confidence_level)
+    elif mode == "balanced" and topic:
+        return generator.generate_balanced_topic_posts(topic, count_per_side, confidence_level)
     else:
         raise ValueError("Invalid mode or missing topic")
 
 # Models to use for generation
 models = [
+    "mistralai/mistral-small-24b-instruct-2501",
+    "google/gemini-2.0-flash-001",
     "deepseek/deepseek-r1:free",
+]
+
+# List of specific topics to generate balanced posts about
+specific_topics = [
+    "Gun Control and Second Amendment Rights: Balancing gun ownership rights with public safety",
+    "Abortion Rights: Debates on abortion access and reproductive freedom",
+    "Immigration Reform: Border security, undocumented immigrants, and pathway to citizenship",
+    "Climate Change Policies: Environmental regulations vs. economic growth",
+    "LGBTQ+ and Transgender Rights: Rights in education, healthcare, and public spaces",
+    "Healthcare and Insurance Reform: Universal healthcare, Medicare-for-all, and insurance privatization",
+    "Voting Rights and Election Integrity: Voter ID laws, mail-in voting, gerrymandering",
+    "Economic Inequality: Raising the minimum wage, wealth taxation, and addressing poverty",
+    "Death Penalty: Debates around capital punishment and wrongful convictions",
+    "Drug Legalization and Decriminalization: Marijuana legalization, drug sentencing reform",
+    "Russia Ukraine war",
+    "NBA"
 ]
 
 # Generate posts
 if __name__ == "__main__":
-    # Generate both high and low confidence posts across mixed topics
-    for model_name in models:
-        # Generate high confidence posts
-        generate_posts(model_name, mode="mixed", count=20, confidence_level="high")
-        
-        # Generate low confidence posts
-        generate_posts(model_name, mode="mixed", count=20, confidence_level="low")
+    # Comment out what you don't need
     
-    # Optional: Generate topic-specific posts with different confidence levels
-    # topics_to_generate = ["Healthcare", "Gun Control"]
-    # for topic in topics_to_generate:
-    #     generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="high")
-    #     generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="low")
+    # Option 1: Generate mixed posts (original functionality)
+    # for model_name in models:
+    #    generate_posts(model_name, mode="mixed", count=20, confidence_level="high")
+    #    generate_posts(model_name, mode="mixed", count=20, confidence_level="low")
+    
+    # Option 2: Generate posts for specific topics with natural distribution
+    # for topic in specific_topics:
+    #    generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="high")
+    
+    #    generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="low")
+    
+    # Option 3: Generate balanced posts (10 left + 10 right) for specific topics
+    for topic in specific_topics:
+        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="high")
+        
+        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="low")
