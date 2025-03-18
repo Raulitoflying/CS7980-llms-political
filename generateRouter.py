@@ -422,7 +422,7 @@ if __name__ == "__main__":
     #    generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="low")
     
     # Option 3: Generate balanced posts (10 left + 10 right) for specific topics
-    for topic in specific_topics:
-        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="high")
+    # for topic in specific_topics:
+    generate_posts(models[1], mode="balanced", topic="Russia Ukraine war", confidence_level="high")
         
-        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="low")
+    generate_posts(models[1], mode="balanced", topic="Russia Ukraine war", confidence_level="low")
