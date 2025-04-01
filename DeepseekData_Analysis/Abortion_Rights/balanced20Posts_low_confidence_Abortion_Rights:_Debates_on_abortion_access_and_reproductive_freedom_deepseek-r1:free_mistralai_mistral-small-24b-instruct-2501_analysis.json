@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 8,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 8,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "User1001",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for reproductive choice and concern about restrictions that could lead to further bans aligns with left-leaning political views. They also mention the importance of balancing medical ethics with constitutional protections, which is a nuanced stance that often leans left. The reference to the German model, which allows for first-trimester access with mandatory counseling, further suggests a pro-choice stance, which is typically associated with left-leaning politics.\"\n}\n```",
+      "explanation": "The author's support for reproductive choice and concern about restrictions that could lead to further bans aligns with left-leaning political views. They also mention the importance of balancing medical ethics with constitutional protections, which is a nuanced stance that often leans left. The reference to the German model, which allows for first-trimester access with mandatory counseling, further suggests a pro-choice stance, which is typically associated with left-leaning politics."
+    },
+    {
+      "author": "User1002",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced and nuanced discussion on abortion regulations, highlighting both the potential benefits and drawbacks of various approaches. They do not express a clear political bias or ideology, instead focusing on the complexities and practical implications of different regulatory frameworks. The mention of both pro-choice (UK's model, federal minimum standards) and pro-life (anti-abortion activists) perspectives further supports the classification of UNKNOWN.\"\n}\n```",
+      "explanation": "The author presents a balanced and nuanced discussion on abortion regulations, highlighting both the potential benefits and drawbacks of various approaches. They do not express a clear political bias or ideology, instead focusing on the complexities and practical implications of different regulatory frameworks. The mention of both pro-choice (UK's model, federal minimum standards) and pro-life (anti-abortion activists) perspectives further supports the classification of UNKNOWN."
+    },
+    {
+      "author": "User1003",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses abortion rights, environmental concerns, and the importance of reproductive autonomy, which are typically associated with left-leaning political views. The emphasis on social justice, environmental sustainability, and the potential for eco-fascist appropriation suggests a progressive stance. The author also references international data and organizations, indicating a global perspective that is often aligned with left-wing politics. The mention of 'reproductive autonomy' and 'family planning' further supports a left-leaning orientation, as these are issues commonly advocated by the left.\"\n}\n```",
+      "explanation": "The author's post discusses abortion rights, environmental concerns, and the importance of reproductive autonomy, which are typically associated with left-leaning political views. The emphasis on social justice, environmental sustainability, and the potential for eco-fascist appropriation suggests a progressive stance. The author also references international data and organizations, indicating a global perspective that is often aligned with left-wing politics. The mention of 'reproductive autonomy' and 'family planning' further supports a left-leaning orientation, as these are issues commonly advocated by the left."
+    },
+    {
+      "author": "User1004",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's proposal to use federal laws and executive powers to ensure access to abortion care, despite state restrictions, aligns with left-leaning political views. The mention of the Defense Production Act and federalizing provider education suggests a preference for government intervention in healthcare, which is a common stance among left-leaning individuals. Additionally, the author's willingness to consider executive overreach and unconventional solutions to address what they perceive as a critical issue (access to abortion) further supports this classification. The author's focus on bypassing state restrictions and using federal resources to provide healthcare services is consistent with a left-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's proposal to use federal laws and executive powers to ensure access to abortion care, despite state restrictions, aligns with left-leaning political views. The mention of the Defense Production Act and federalizing provider education suggests a preference for government intervention in healthcare, which is a common stance among left-leaning individuals. Additionally, the author's willingness to consider executive overreach and unconventional solutions to address what they perceive as a critical issue (access to abortion) further supports this classification. The author's focus on bypassing state restrictions and using federal resources to provide healthcare services is consistent with a left-leaning political orientation."
+    },
+    {
+      "author": "User1005",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the complexities and potential fiscal impacts of Medicaid expansion for abortion services, citing specific legal and political challenges. The author presents a balanced analysis of the issue, highlighting both the potential benefits and drawbacks, without expressing a clear personal stance or bias. The mention of political viability and filibuster reform suggests an awareness of political dynamics, but does not indicate a specific political orientation. Therefore, the author's political orientation cannot be definitively classified as LEFT or RIGHT based on the provided content.\"\n}\n```",
+      "explanation": "The author's post discusses the complexities and potential fiscal impacts of Medicaid expansion for abortion services, citing specific legal and political challenges. The author presents a balanced analysis of the issue, highlighting both the potential benefits and drawbacks, without expressing a clear personal stance or bias. The mention of political viability and filibuster reform suggests an awareness of political dynamics, but does not indicate a specific political orientation. Therefore, the author's political orientation cannot be definitively classified as LEFT or RIGHT based on the provided content."
+    },
+    {
+      "author": "User1006",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the regulation of crisis pregnancy centers (CPCs) and highlights the issue of medically inaccurate information provided by these centers. The author references a study by NARAL, a pro-choice organization, and mentions the 2018 _NIFLA v Becerra_ ruling, which blocked mandatory disclosure laws. The author suggests using consumer protection statutes and funding competing clinics, which aligns with a pro-choice stance. The mention of the Hyde Amendment, which restricts federal funding for abortion, and the suggestion to mandate ultrasound tech licensure requirements to expose CPCs' lack of medical staff further indicate a left-leaning orientation, as these points are often discussed in the context of pro-choice advocacy.\"\n}\n```",
+      "explanation": "The author's post discusses the regulation of crisis pregnancy centers (CPCs) and highlights the issue of medically inaccurate information provided by these centers. The author references a study by NARAL, a pro-choice organization, and mentions the 2018 _NIFLA v Becerra_ ruling, which blocked mandatory disclosure laws. The author suggests using consumer protection statutes and funding competing clinics, which aligns with a pro-choice stance. The mention of the Hyde Amendment, which restricts federal funding for abortion, and the suggestion to mandate ultrasound tech licensure requirements to expose CPCs' lack of medical staff further indicate a left-leaning orientation, as these points are often discussed in the context of pro-choice advocacy."
+    },
+    {
+      "author": "User1007",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses complex ethical and legal issues surrounding abortion and environmental ethics, which are often associated with left-leaning political views. The mention of biocentric ethics, deep ecology principles, and the recognition of abortion as an ecosystem service in Portland's 2024 Reproductive Ecology Act suggests a progressive stance. The author also acknowledges the potential for localized ordinances, which is a common approach in left-leaning policies that emphasize community-based solutions. The overall tone and content of the post lean towards a more liberal or progressive perspective, which is why it is classified as LEFT.\"\n}\n```",
+      "explanation": "The author's post discusses complex ethical and legal issues surrounding abortion and environmental ethics, which are often associated with left-leaning political views. The mention of biocentric ethics, deep ecology principles, and the recognition of abortion as an ecosystem service in Portland's 2024 Reproductive Ecology Act suggests a progressive stance. The author also acknowledges the potential for localized ordinances, which is a common approach in left-leaning policies that emphasize community-based solutions. The overall tone and content of the post lean towards a more liberal or progressive perspective, which is why it is classified as LEFT."
+    },
+    {
+      "author": "User1008",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the use of encrypted blockchain networks and cryptocurrency for distributing abortion pills, which is a clear indication of support for reproductive rights and access to healthcare. The mention of 'harm reduction groups' and the 'Aid Access' initiative further suggests a progressive stance. The author also expresses concern about government overreach, particularly with the 2024 RESTRICT Act, which is often criticized by left-leaning individuals and groups. The overall tone and content of the post align with left-wing political views, which typically advocate for greater access to healthcare and civil liberties.\"\n}\n```",
+      "explanation": "The author's post discusses the use of encrypted blockchain networks and cryptocurrency for distributing abortion pills, which is a clear indication of support for reproductive rights and access to healthcare. The mention of 'harm reduction groups' and the 'Aid Access' initiative further suggests a progressive stance. The author also expresses concern about government overreach, particularly with the 2024 RESTRICT Act, which is often criticized by left-leaning individuals and groups. The overall tone and content of the post align with left-wing political views, which typically advocate for greater access to healthcare and civil liberties."
+    },
+    {
+      "author": "User1009",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the benefits of fetal tissue research and the potential drawbacks of bans on it. They highlight the medical advancements that have come from such research, including the Moderna COVID vaccine and ALS treatment breakthroughs. The author also mentions the need for synthetic alternatives and the ethical considerations surrounding the use of fetal tissue. This stance is generally more aligned with left-leaning political views, which often prioritize scientific progress and medical research over strict pro-life stances. The author's concern for patients losing access to therapies and the mention of the 2024 Human Tissue Engineering Act, which allocates funding for alternatives, further suggests a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author's post discusses the benefits of fetal tissue research and the potential drawbacks of bans on it. They highlight the medical advancements that have come from such research, including the Moderna COVID vaccine and ALS treatment breakthroughs. The author also mentions the need for synthetic alternatives and the ethical considerations surrounding the use of fetal tissue. This stance is generally more aligned with left-leaning political views, which often prioritize scientific progress and medical research over strict pro-life stances. The author's concern for patients losing access to therapies and the mention of the 2024 Human Tissue Engineering Act, which allocates funding for alternatives, further suggests a left-leaning orientation."
+    },
+    {
+      "author": "User1010",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses issues related to healthcare access and religious exemptions, which are often topics of debate between left and right political orientations. The author's concern about the impact of religious exemptions on healthcare access, particularly for reproductive care, and their suggestion of using antitrust laws and public option plans to address these issues, aligns more with left-leaning policies. The mention of the ACLU and the criticism of the lack of enforcement in the Idaho case also suggest a left-leaning perspective, as these are often associated with progressive advocacy.\"\n}\n```",
+      "explanation": "The author's post discusses issues related to healthcare access and religious exemptions, which are often topics of debate between left and right political orientations. The author's concern about the impact of religious exemptions on healthcare access, particularly for reproductive care, and their suggestion of using antitrust laws and public option plans to address these issues, aligns more with left-leaning policies. The mention of the ACLU and the criticism of the lack of enforcement in the Idaho case also suggest a left-leaning perspective, as these are often associated with progressive advocacy."
+    },
+    {
+      "author": "User1011",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced and nuanced discussion on abortion laws, prenatal care, and adoption incentives. They do not explicitly endorse or oppose any specific political ideology. Instead, they present data and potential policy solutions without a clear political bias. The mention of fiscal conservatives and Medicaid costs suggests an awareness of economic considerations, but this does not definitively align with a left or right orientation. The author's focus on data and policy efficacy indicates a pragmatic approach rather than a clear political stance.\"\n}\n```",
+      "explanation": "The author presents a balanced and nuanced discussion on abortion laws, prenatal care, and adoption incentives. They do not explicitly endorse or oppose any specific political ideology. Instead, they present data and potential policy solutions without a clear political bias. The mention of fiscal conservatives and Medicaid costs suggests an awareness of economic considerations, but this does not definitively align with a left or right orientation. The author's focus on data and policy efficacy indicates a pragmatic approach rather than a clear political stance."
+    },
+    {
+      "author": "User1012",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses legal and constitutional issues surrounding abortion regulations and federalism, but it does not express any clear political leanings. The author presents a neutral analysis of the legal complexities and potential constitutional interpretations without advocating for a specific political stance. Therefore, the political orientation of the author cannot be determined from this content.\"\n}\n```",
+      "explanation": "The post discusses legal and constitutional issues surrounding abortion regulations and federalism, but it does not express any clear political leanings. The author presents a neutral analysis of the legal complexities and potential constitutional interpretations without advocating for a specific political stance. Therefore, the political orientation of the author cannot be determined from this content."
+    },
+    {
+      "author": "User1013",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author discusses the implications of 'personhood amendments' and the potential consequences on IVF treatments, which is a topic often associated with conservative or right-leaning political views, particularly in the context of pro-life stances. The author also mentions the economic impact on the fertility industry and the potential political ramifications, indicating a pragmatic approach to policy that is often seen in right-leaning discussions. The mention of 'pro-life groups' and the complexities of implementing such policies further supports a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author discusses the implications of 'personhood amendments' and the potential consequences on IVF treatments, which is a topic often associated with conservative or right-leaning political views, particularly in the context of pro-life stances. The author also mentions the economic impact on the fertility industry and the potential political ramifications, indicating a pragmatic approach to policy that is often seen in right-leaning discussions. The mention of 'pro-life groups' and the complexities of implementing such policies further supports a right-leaning orientation."
+    },
+    {
+      "author": "User1014",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a nuanced discussion on the topic of conscience rights in healthcare, specifically regarding pharmacists' refusal to dispense certain medications. The post does not explicitly endorse or oppose any particular political ideology. Instead, it focuses on the practical implications and potential solutions to the issue, such as the creation of conscience-free pharmacy chains and the use of blockchain technology. The author acknowledges the complexities and trade-offs involved, such as individual liberty versus collective welfare, without taking a clear political stance. Therefore, the political orientation of the author cannot be definitively classified as LEFT or RIGHT based on the provided content.\"\n}\n```",
+      "explanation": "The author presents a nuanced discussion on the topic of conscience rights in healthcare, specifically regarding pharmacists' refusal to dispense certain medications. The post does not explicitly endorse or oppose any particular political ideology. Instead, it focuses on the practical implications and potential solutions to the issue, such as the creation of conscience-free pharmacy chains and the use of blockchain technology. The author acknowledges the complexities and trade-offs involved, such as individual liberty versus collective welfare, without taking a clear political stance. Therefore, the political orientation of the author cannot be definitively classified as LEFT or RIGHT based on the provided content."
+    },
+    {
+      "author": "User1015",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the technical and legal challenges of prenatal child support laws, genetic banking, and insurance coverage for prenatal testing. The post does not contain any explicit political statements, ideological leanings, or references to specific political parties or ideologies. The author presents a balanced, analytical perspective on the topic, focusing on the practical and ethical implications of different policy approaches. Therefore, it is not possible to classify the author's political orientation based on the provided content.\"\n}\n```",
+      "explanation": "The author's post discusses the technical and legal challenges of prenatal child support laws, genetic banking, and insurance coverage for prenatal testing. The post does not contain any explicit political statements, ideological leanings, or references to specific political parties or ideologies. The author presents a balanced, analytical perspective on the topic, focusing on the practical and ethical implications of different policy approaches. Therefore, it is not possible to classify the author's political orientation based on the provided content."
+    },
+    {
+      "author": "User1016",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the complex issue of contraception and abortion from a factual and analytical perspective, presenting data and studies without a clear political bias. The author discusses the effectiveness of contraceptives, the impact of policies, and the challenges of balancing theological and public health imperatives. There is no explicit endorsement of any political ideology or party, making it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post discusses the complex issue of contraception and abortion from a factual and analytical perspective, presenting data and studies without a clear political bias. The author discusses the effectiveness of contraceptives, the impact of policies, and the challenges of balancing theological and public health imperatives. There is no explicit endorsement of any political ideology or party, making it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "User1017",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the implications of Texas' 2024 bounty law on abortion tourism, highlighting concerns about constitutional challenges, privacy, and federalist principles. The use of terms like 'Orwellian' to describe the surveillance and the emphasis on the erosion of privacy norms and federalist foundations suggest a left-leaning perspective. The author also questions the legality and fairness of proposed measures like travel taxes and income surcharges, which are often criticized by those on the left. Additionally, the mention of constitutional challenges and the reference to the Dormant Commerce Clause indicate a focus on individual rights and liberties, which are typically aligned with leftist political views.\"\n}\n```",
+      "explanation": "The author's post discusses the implications of Texas' 2024 bounty law on abortion tourism, highlighting concerns about constitutional challenges, privacy, and federalist principles. The use of terms like 'Orwellian' to describe the surveillance and the emphasis on the erosion of privacy norms and federalist foundations suggest a left-leaning perspective. The author also questions the legality and fairness of proposed measures like travel taxes and income surcharges, which are often criticized by those on the left. Additionally, the mention of constitutional challenges and the reference to the Dormant Commerce Clause indicate a focus on individual rights and liberties, which are typically aligned with leftist political views."
+    },
+    {
+      "author": "User1018",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post discusses the impact of regulations on abortion clinics and the potential for market-based solutions. The mention of 'abortion deserts' and the increase in maternal mortality due to restrictive laws suggests a critical view of regulations that limit access to abortion. The author also proposes alternatives like healthsharing ministries and abortion insurance, which are often associated with conservative or right-leaning political views. The reference to 'pro-life alternatives' further indicates a right-leaning orientation, as it aligns with pro-life stances that are typically associated with the political right.\"\n}\n```",
+      "explanation": "The author's post discusses the impact of regulations on abortion clinics and the potential for market-based solutions. The mention of 'abortion deserts' and the increase in maternal mortality due to restrictive laws suggests a critical view of regulations that limit access to abortion. The author also proposes alternatives like healthsharing ministries and abortion insurance, which are often associated with conservative or right-leaning political views. The reference to 'pro-life alternatives' further indicates a right-leaning orientation, as it aligns with pro-life stances that are typically associated with the political right."
+    },
+    {
+      "author": "User1019",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses medical and ethical issues related to fetal anomaly exceptions and abortion laws, focusing on the technical, medical, and logistical aspects of the topic. There is no clear indication of a political stance or bias towards any particular political ideology. The author presents facts, data, and different perspectives without advocating for a specific political position, making it difficult to classify their political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The author's post discusses medical and ethical issues related to fetal anomaly exceptions and abortion laws, focusing on the technical, medical, and logistical aspects of the topic. There is no clear indication of a political stance or bias towards any particular political ideology. The author presents facts, data, and different perspectives without advocating for a specific political position, making it difficult to classify their political orientation based on this post alone."
+    },
+    {
+      "author": "User1020",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the controversial topic of abortion and highlights issues related to privacy and data protection, particularly in the context of Texas' 2024 fetal heartbeat reporting system. The author criticizes the system for enabling harassment and raises concerns about the conflict between HIPAA's abortion data exclusion and the 4th Amendment. The mention of potential solutions like blockchain anonymization and the critique of digital records suggest a left-leaning perspective, as these issues are often associated with progressive stances on privacy, data protection, and government overreach. The author's focus on the negative impacts of the system and the need for better governance aligns with left-wing values.\"\n}\n```",
+      "explanation": "The author's post discusses the controversial topic of abortion and highlights issues related to privacy and data protection, particularly in the context of Texas' 2024 fetal heartbeat reporting system. The author criticizes the system for enabling harassment and raises concerns about the conflict between HIPAA's abortion data exclusion and the 4th Amendment. The mention of potential solutions like blockchain anonymization and the critique of digital records suggest a left-leaning perspective, as these issues are often associated with progressive stances on privacy, data protection, and government overreach. The author's focus on the negative impacts of the system and the need for better governance aligns with left-wing values."
+    }
+  ]
+}

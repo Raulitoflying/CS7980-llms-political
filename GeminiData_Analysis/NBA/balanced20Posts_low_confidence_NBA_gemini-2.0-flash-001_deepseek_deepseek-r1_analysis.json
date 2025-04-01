@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 8,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 85.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 3,
+      "true_negative": 17,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "HoopsThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions whether the NBA's emphasis on international players might disadvantage 'homegrown talent,' a concern that aligns with protectionist or nationalist sentiments often associated with right-leaning perspectives. While the author acknowledges the complexity of globalization, the primary focus on prioritizing domestic opportunities over international inclusion reflects a common right-wing emphasis on safeguarding local interests. The ambivalence about globalization does not negate the underlying preference for domestic prioritization, which is a recurring theme in right-leaning discourse on issues like immigration and economic policy.\"\n}\n```",
+      "explanation": "The post questions whether the NBA's emphasis on international players might disadvantage 'homegrown talent,' a concern that aligns with protectionist or nationalist sentiments often associated with right-leaning perspectives. While the author acknowledges the complexity of globalization, the primary focus on prioritizing domestic opportunities over international inclusion reflects a common right-wing emphasis on safeguarding local interests. The ambivalence about globalization does not negate the underlying preference for domestic prioritization, which is a recurring theme in right-leaning discourse on issues like immigration and economic policy."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post critiques the potential inequities of 'player empowerment' in the NBA, questioning whether it benefits 'already privileged players' rather than fostering systemic equity. This focus on structural disparities, skepticism of empowerment narratives that may reinforce existing hierarchies, and concern for equitable outcomes (rather than individual success) aligns with left-leaning discourse, which often emphasizes systemic critique and redistribution of power. The author's uncertainty does not negate the underlying leftist framing of equity vs. privilege.\"\n}\n```",
+      "explanation": "The post critiques the potential inequities of 'player empowerment' in the NBA, questioning whether it benefits 'already privileged players' rather than fostering systemic equity. This focus on structural disparities, skepticism of empowerment narratives that may reinforce existing hierarchies, and concern for equitable outcomes (rather than individual success) aligns with left-leaning discourse, which often emphasizes systemic critique and redistribution of power. The author's uncertainty does not negate the underlying leftist framing of equity vs. privilege."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses interest in the NBA adopting more sustainable practices, a stance commonly associated with left-leaning political values that prioritize environmentalism and institutional responsibility. While the author expresses uncertainty about logistics and impact, their openness to the idea and focus on sustainability aligns more with progressive concerns rather than conservative skepticism toward environmental initiatives. The hesitation reflects pragmatic consideration rather than ideological opposition, which is typical of left-leaning discourse that balances advocacy with practical feasibility.\"\n}\n```",
+      "explanation": "The post expresses interest in the NBA adopting more sustainable practices, a stance commonly associated with left-leaning political values that prioritize environmentalism and institutional responsibility. While the author expresses uncertainty about logistics and impact, their openness to the idea and focus on sustainability aligns more with progressive concerns rather than conservative skepticism toward environmental initiatives. The hesitation reflects pragmatic consideration rather than ideological opposition, which is typical of left-leaning discourse that balances advocacy with practical feasibility."
+    },
+    {
+      "author": "HoopsWatcher77",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The term 'globalist agenda' is frequently employed in right-wing discourse, often carrying conspiratorial undertones that suggest secretive international influences undermining national interests. The author's speculation about the NBA 'subtly pushing' such an agenda aligns with common right-wing skepticism of globalization and multiculturalism, which are sometimes framed as threats to cultural or national identity. While the author acknowledges uncertainty ('I could be completely off base'), the choice of terminology and the implication of covert motives point to a perspective more commonly associated with conservative or right-wing critiques of institutions promoting diversity or international engagement.\"\n}\n```",
+      "explanation": "The term 'globalist agenda' is frequently employed in right-wing discourse, often carrying conspiratorial undertones that suggest secretive international influences undermining national interests. The author's speculation about the NBA 'subtly pushing' such an agenda aligns with common right-wing skepticism of globalization and multiculturalism, which are sometimes framed as threats to cultural or national identity. While the author acknowledges uncertainty ('I could be completely off base'), the choice of terminology and the implication of covert motives point to a perspective more commonly associated with conservative or right-wing critiques of institutions promoting diversity or international engagement."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses promoting sustainable practices, a topic often associated with left-leaning priorities. However, the author's uncertainty about feasibility ('not sure how feasible it all is') and focus on practical challenges (travel, infrastructure) do not explicitly align with ideological markers. The lack of specific policy advocacy, critique of capitalism, or references to social justice makes it difficult to definitively classify the political orientation. While environmental concerns are common in left discourse, the neutral, questioning tone prevents a clear ideological assignment.\"\n}\n```",
+      "explanation": "The post discusses promoting sustainable practices, a topic often associated with left-leaning priorities. However, the author's uncertainty about feasibility ('not sure how feasible it all is') and focus on practical challenges (travel, infrastructure) do not explicitly align with ideological markers. The lack of specific policy advocacy, critique of capitalism, or references to social justice makes it difficult to definitively classify the political orientation. While environmental concerns are common in left discourse, the neutral, questioning tone prevents a clear ideological assignment."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on questioning the NBA's sustainability efforts in relation to increased travel, a topic commonly associated with environmental concerns. Environmentalism and corporate accountability are frequently emphasized in left-leaning political discourse. While the author does not explicitly advocate for specific policies or partisan positions, the framing of the issue around balancing economic activity (more games) with ecological impact aligns with progressive priorities. However, the tentative phrasing ('too complex to say for sure') introduces some ambiguity, but the core theme of environmental accountability leans toward a left-oriented perspective.\"\n}\n```",
+      "explanation": "The post focuses on questioning the NBA's sustainability efforts in relation to increased travel, a topic commonly associated with environmental concerns. Environmentalism and corporate accountability are frequently emphasized in left-leaning political discourse. While the author does not explicitly advocate for specific policies or partisan positions, the framing of the issue around balancing economic activity (more games) with ecological impact aligns with progressive priorities. However, the tentative phrasing ('too complex to say for sure') introduces some ambiguity, but the core theme of environmental accountability leans toward a left-oriented perspective."
+    },
+    {
+      "author": "HoopsForEquality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on 'equitable outcomes' and 'player empowerment,' both of which align with left-leaning priorities like social justice and systemic fairness. While the author expresses uncertainty and raises concerns about 'unintended consequences,' the core inquiry centers on equity\u2014a hallmark of progressive discourse. The username 'HoopsForEquality' also subtly reinforces a focus on equality, a term often associated with left-wing advocacy. The cautious tone does not negate the underlying alignment with leftist values but reflects a nuanced consideration of policy impacts, which is common in progressive critiques of systemic change.\"\n}\n```",
+      "explanation": "The post focuses on 'equitable outcomes' and 'player empowerment,' both of which align with left-leaning priorities like social justice and systemic fairness. While the author expresses uncertainty and raises concerns about 'unintended consequences,' the core inquiry centers on equity\u2014a hallmark of progressive discourse. The username 'HoopsForEquality' also subtly reinforces a focus on equality, a term often associated with left-wing advocacy. The cautious tone does not negate the underlying alignment with leftist values but reflects a nuanced consideration of policy impacts, which is common in progressive critiques of systemic change."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on environmental concerns related to the NBA's operations, specifically energy consumption and carbon offsets\u2014topics strongly associated with left-leaning political priorities. While the author expresses uncertainty about feasible solutions, their emphasis on seeking 'greener alternatives' and engaging with climate action frameworks (e.g., carbon offsets) aligns with progressive environmental advocacy. Right-leaning perspectives often prioritize economic or market-driven approaches over regulatory or sustainability-focused measures, which are not evident here. The inquiry reflects a desire to address ecological impacts, a hallmark of left-oriented policy agendas.\"\n}\n```",
+      "explanation": "The post focuses on environmental concerns related to the NBA's operations, specifically energy consumption and carbon offsets\u2014topics strongly associated with left-leaning political priorities. While the author expresses uncertainty about feasible solutions, their emphasis on seeking 'greener alternatives' and engaging with climate action frameworks (e.g., carbon offsets) aligns with progressive environmental advocacy. Right-leaning perspectives often prioritize economic or market-driven approaches over regulatory or sustainability-focused measures, which are not evident here. The inquiry reflects a desire to address ecological impacts, a hallmark of left-oriented policy agendas."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on critiquing corporate environmental efforts (e.g., 'greenwash') and advocating for systemic changes like local tournaments to reduce carbon footprints aligns with left-leaning values, which prioritize environmental accountability and structural solutions to climate change. Skepticism toward corporate sustainability claims and emphasis on tangible ecological impact over economic or entertainment priorities are consistent with progressive or left-wing perspectives. The absence of arguments centered on economic deregulation, business interests, or dismissal of environmental concerns further supports this classification.\"\n}\n```",
+      "explanation": "The author's focus on critiquing corporate environmental efforts (e.g., 'greenwash') and advocating for systemic changes like local tournaments to reduce carbon footprints aligns with left-leaning values, which prioritize environmental accountability and structural solutions to climate change. Skepticism toward corporate sustainability claims and emphasis on tangible ecological impact over economic or entertainment priorities are consistent with progressive or left-wing perspectives. The absence of arguments centered on economic deregulation, business interests, or dismissal of environmental concerns further supports this classification."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on reducing carbon emissions through logistical changes, a priority commonly associated with left-leaning environmental advocacy. While the author expresses uncertainty about feasibility, the core concern for sustainability and institutional responsibility aligns with progressive values. Right-leaning perspectives might emphasize economic or logistical hurdles more prominently, whereas the environmental focus here suggests a left-oriented inclination, albeit cautiously framed.\"\n}\n```",
+      "explanation": "The post focuses on reducing carbon emissions through logistical changes, a priority commonly associated with left-leaning environmental advocacy. While the author expresses uncertainty about feasibility, the core concern for sustainability and institutional responsibility aligns with progressive values. Right-leaning perspectives might emphasize economic or logistical hurdles more prominently, whereas the environmental focus here suggests a left-oriented inclination, albeit cautiously framed."
+    },
+    {
+      "author": "HoopsPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about the NBA prioritizing global appeal over 'American values' and hints at unease with 'demographic shifts,' both of which align with conservative rhetoric emphasizing national identity and resistance to multiculturalism. The phrase 'just asking questions' is a common rhetorical device to introduce contentious topics without explicit commitment, often used in right-leaning discourse. The focus on perceived threats to traditional American culture from globalization and demographic change strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The post expresses concern about the NBA prioritizing global appeal over 'American values' and hints at unease with 'demographic shifts,' both of which align with conservative rhetoric emphasizing national identity and resistance to multiculturalism. The phrase 'just asking questions' is a common rhetorical device to introduce contentious topics without explicit commitment, often used in right-leaning discourse. The focus on perceived threats to traditional American culture from globalization and demographic change strongly suggests a right-leaning political orientation."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes increasing individual negotiation power in NBA contracts, which aligns with right-leaning free-market principles that prioritize individual agency over collective bargaining (typically associated with left-leaning support for unions). The username 'FreeMarketHoops' further reinforces a libertarian or right-wing inclination. While collective bargaining is mentioned, the suggestion to enhance individual negotiation reflects a preference for market-driven solutions rather than collective labor agreements, a hallmark of right-leaning economic ideology.\"\n}\n```",
+      "explanation": "The post emphasizes increasing individual negotiation power in NBA contracts, which aligns with right-leaning free-market principles that prioritize individual agency over collective bargaining (typically associated with left-leaning support for unions). The username 'FreeMarketHoops' further reinforces a libertarian or right-wing inclination. While collective bargaining is mentioned, the suggestion to enhance individual negotiation reflects a preference for market-driven solutions rather than collective labor agreements, a hallmark of right-leaning economic ideology."
+    },
+    {
+      "author": "HoopsTraditionWatcher",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's concern about the NBA's international focus impacting 'traditional American values' suggests a conservative perspective. The phrase 'traditional American values' is often associated with right-leaning discourse that emphasizes preserving cultural heritage and resisting perceived external influences. The uncertainty expressed ('not entirely sure how exactly') does not diminish the underlying apprehension toward globalization or multicultural shifts, which aligns more commonly with conservative or right-leaning viewpoints than progressive ones. Left-leaning perspectives typically frame diversity and global inclusion as positive developments, making this critique more indicative of a RIGHT orientation.\"\n}\n```",
+      "explanation": "The author's concern about the NBA's international focus impacting 'traditional American values' suggests a conservative perspective. The phrase 'traditional American values' is often associated with right-leaning discourse that emphasizes preserving cultural heritage and resisting perceived external influences. The uncertainty expressed ('not entirely sure how exactly') does not diminish the underlying apprehension toward globalization or multicultural shifts, which aligns more commonly with conservative or right-leaning viewpoints than progressive ones. Left-leaning perspectives typically frame diversity and global inclusion as positive developments, making this critique more indicative of a RIGHT orientation."
+    },
+    {
+      "author": "HoopsObserver",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post raises a neutral, open-ended question about the NBA's social justice initiatives without expressing explicit support, opposition, or ideological framing. The author acknowledges 'arguments on both sides' and emphasizes uncertainty ('hard to say for sure'), focusing on practical outcomes (viewership, values alignment) rather than moral or political principles. There is no direct critique of social justice itself, nor is there endorsement of it as a priority. This lack of value judgment or alignment with typical left/right rhetoric (e.g., systemic inequality critique or calls for apolitical sports) makes the political orientation indeterminate.\"\n}\n```",
+      "explanation": "The post raises a neutral, open-ended question about the NBA's social justice initiatives without expressing explicit support, opposition, or ideological framing. The author acknowledges 'arguments on both sides' and emphasizes uncertainty ('hard to say for sure'), focusing on practical outcomes (viewership, values alignment) rather than moral or political principles. There is no direct critique of social justice itself, nor is there endorsement of it as a priority. This lack of value judgment or alignment with typical left/right rhetoric (e.g., systemic inequality critique or calls for apolitical sports) makes the political orientation indeterminate."
+    },
+    {
+      "author": "SkepticalFan1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of phrases like 'pushing a certain agenda' and their questioning of the NBA's motives align with common conservative critiques of organizations promoting social justice or progressive values, often framed as 'woke' overreach. The NBA's history of supporting racial equality and LGBTQ+ rights\u2014issues typically associated with left-leaning politics\u2014makes it a frequent target of right-leaning skepticism. While the post is vague, the language suggests a perception of ideological bias, which is more characteristic of right-wing discourse criticizing perceived liberal agendas in cultural institutions.\"\n}\n```",
+      "explanation": "The author's use of phrases like 'pushing a certain agenda' and their questioning of the NBA's motives align with common conservative critiques of organizations promoting social justice or progressive values, often framed as 'woke' overreach. The NBA's history of supporting racial equality and LGBTQ+ rights\u2014issues typically associated with left-leaning politics\u2014makes it a frequent target of right-leaning skepticism. While the post is vague, the language suggests a perception of ideological bias, which is more characteristic of right-wing discourse criticizing perceived liberal agendas in cultural institutions."
+    },
+    {
+      "author": "User3746",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's frustration with the NBA's focus on political issues aligns with a common conservative critique that cultural institutions like sports should remain politically neutral. Opposition to integrating social or political activism into entertainment often reflects right-leaning values prioritizing tradition, escapism, and separation of politics from non-political domains. While the sentiment could theoretically come from any political perspective, the NBA's association with progressive causes (e.g., racial justice, LGBTQ+ rights) makes resistance to its politicization more likely rooted in right-leaning views. However, the classification carries some uncertainty, as the post avoids explicit ideological markers.\"\n}\n```",
+      "explanation": "The author's frustration with the NBA's focus on political issues aligns with a common conservative critique that cultural institutions like sports should remain politically neutral. Opposition to integrating social or political activism into entertainment often reflects right-leaning values prioritizing tradition, escapism, and separation of politics from non-political domains. While the sentiment could theoretically come from any political perspective, the NBA's association with progressive causes (e.g., racial justice, LGBTQ+ rights) makes resistance to its politicization more likely rooted in right-leaning views. However, the classification carries some uncertainty, as the post avoids explicit ideological markers."
+    },
+    {
+      "author": "BasketballPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions whether the NBA's focus on social justice has impacted viewership, a common talking point among right-leaning critics who argue that political messaging in sports alienates audiences. While the author acknowledges other factors, the framing aligns with conservative narratives that often critique the integration of social justice into entertainment or sports. However, the tentative phrasing ('starting to wonder,' 'not sure if that is the only factor') prevents absolute certainty, but the topic itself is frequently politicized in right-wing discourse.\"\n}",
+      "explanation": "The post questions whether the NBA's focus on social justice has impacted viewership, a common talking point among right-leaning critics who argue that political messaging in sports alienates audiences. While the author acknowledges other factors, the framing aligns with conservative narratives that often critique the integration of social justice into entertainment or sports. However, the tentative phrasing ('starting to wonder,' 'not sure if that is the only factor') prevents absolute certainty, but the topic itself is frequently politicized in right-wing discourse."
+    },
+    {
+      "author": "User5606",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes discipline, traditional role models, and criticizes the NBA for 'coddling' players, which aligns with conservative values often associated with the political right. The term 'coddling' is frequently used in right-leaning discourse to critique perceived leniency toward progressive social or cultural attitudes. The focus on maintaining strict standards for public figures (e.g., athletes as role models) and disapproval of the 'current climate' (potentially referencing social justice movements or progressive policies within the NBA) further suggests a right-leaning perspective.\"\n}\n```",
+      "explanation": "The post emphasizes discipline, traditional role models, and criticizes the NBA for 'coddling' players, which aligns with conservative values often associated with the political right. The term 'coddling' is frequently used in right-leaning discourse to critique perceived leniency toward progressive social or cultural attitudes. The focus on maintaining strict standards for public figures (e.g., athletes as role models) and disapproval of the 'current climate' (potentially referencing social justice movements or progressive policies within the NBA) further suggests a right-leaning perspective."
+    },
+    {
+      "author": "FreeAgentFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the NBA player empowerment era in terms of free markets (a concept often associated with right-leaning economics) and concentrated power (a concern more commonly linked to left-leaning critiques of systemic inequality). However, the author does not take a definitive stance, instead posing a neutral, open-ended question about the implications of the phenomenon. The ambiguity in addressing both capitalist and anti-concentration perspectives, combined with the lack of explicit partisan language or policy alignment, makes it difficult to classify the political orientation as distinctly LEFT or RIGHT. The uncertainty expressed by the author further supports the 'UNKNOWN' classification.\"\n}\n```",
+      "explanation": "The post discusses the NBA player empowerment era in terms of free markets (a concept often associated with right-leaning economics) and concentrated power (a concern more commonly linked to left-leaning critiques of systemic inequality). However, the author does not take a definitive stance, instead posing a neutral, open-ended question about the implications of the phenomenon. The ambiguity in addressing both capitalist and anti-concentration perspectives, combined with the lack of explicit partisan language or policy alignment, makes it difficult to classify the political orientation as distinctly LEFT or RIGHT. The uncertainty expressed by the author further supports the 'UNKNOWN' classification."
+    },
+    {
+      "author": "HoopsPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions whether kneeling during protests (a historically left-aligned issue) impacts team unity and performance, which aligns with common conservative critiques that prioritize cohesion and practical outcomes over protest methods. While the author acknowledges free expression, the emphasis on potential negative effects on team dynamics reflects a right-leaning concern often raised in opposition to such protests. The cautious phrasing and focus on statistical impact suggest skepticism typical of right-leaning discourse on this issue, even as they superficially nod to free speech principles.\"\n}\n```",
+      "explanation": "The post questions whether kneeling during protests (a historically left-aligned issue) impacts team unity and performance, which aligns with common conservative critiques that prioritize cohesion and practical outcomes over protest methods. While the author acknowledges free expression, the emphasis on potential negative effects on team dynamics reflects a right-leaning concern often raised in opposition to such protests. The cautious phrasing and focus on statistical impact suggest skepticism typical of right-leaning discourse on this issue, even as they superficially nod to free speech principles."
+    }
+  ],
+  "file_path": "Gemini_balancedData/NBA/balanced20Posts_low_confidence_NBA_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_low_confidence_NBA_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

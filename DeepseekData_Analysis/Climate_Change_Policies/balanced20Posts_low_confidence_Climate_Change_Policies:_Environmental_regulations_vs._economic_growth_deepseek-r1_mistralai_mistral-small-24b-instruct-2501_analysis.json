@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 87.5,
+      "recall": 70.0,
+      "f1_score": 7777.777777777777,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 3
+    },
+    "left": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "unknown": {
+      "accuracy": 45.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 11,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 40.0
+  },
+  "classifications": [
+    {
+      "author": "EconOverEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the effectiveness of strict environmental regulations, suggesting they may harm jobs and small businesses. This perspective aligns with conservative or right-leaning views, which often prioritize economic growth and business interests over stringent environmental regulations. The author also expresses skepticism about the long-term ecological benefits, which is a common stance among those who favor economic growth over environmental protection.\"\n}\n```",
+      "explanation": "The author questions the effectiveness of strict environmental regulations, suggesting they may harm jobs and small businesses. This perspective aligns with conservative or right-leaning views, which often prioritize economic growth and business interests over stringent environmental regulations. The author also expresses skepticism about the long-term ecological benefits, which is a common stance among those who favor economic growth over environmental protection."
+    },
+    {
+      "author": "EcoPolicyPuzzle",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the potential trade-offs between environmental regulations and economic growth, and questions the current methods of measuring progress. While the post touches on economic and environmental issues, it does not provide enough specific information to definitively classify the author's political orientation as left or right. The author acknowledges the complexity of the issue without taking a clear stance on either side, making it difficult to determine their political leaning.\"\n}\n```",
+      "explanation": "The author's post discusses the potential trade-offs between environmental regulations and economic growth, and questions the current methods of measuring progress. While the post touches on economic and environmental issues, it does not provide enough specific information to definitively classify the author's political orientation as left or right. The author acknowledges the complexity of the issue without taking a clear stance on either side, making it difficult to determine their political leaning."
+    },
+    {
+      "author": "GreenGrowthPonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on environmental regulations and sustainable economic growth, which are typically associated with left-leaning political views. The emphasis on environmental sustainability and the potential long-term benefits of stricter regulations suggest a concern for environmental issues, which is often a priority for left-leaning individuals. However, the author also acknowledges the potential for short-term job losses, indicating a balanced perspective that considers both economic and environmental factors.\"\n}\n```",
+      "explanation": "The author's post focuses on environmental regulations and sustainable economic growth, which are typically associated with left-leaning political views. The emphasis on environmental sustainability and the potential long-term benefits of stricter regulations suggest a concern for environmental issues, which is often a priority for left-leaning individuals. However, the author also acknowledges the potential for short-term job losses, indicating a balanced perspective that considers both economic and environmental factors."
+    },
+    {
+      "author": "Eco Contemplator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a political orientation. They express a concern for environmental regulations and economic growth, but do not align with any specific political stance. The post is more of a question and contemplation rather than a statement of belief or policy preference.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a political orientation. They express a concern for environmental regulations and economic growth, but do not align with any specific political stance. The post is more of a question and contemplation rather than a statement of belief or policy preference."
+    },
+    {
+      "author": "EcoDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the balance between environmental regulations and economic stability, but does not provide clear indicators of a left or right political orientation. The author is considering the potential benefits of sustainable industries, which could be seen as leaning towards left-leaning environmental concerns, but also expresses concern about economic stability, which could be seen as a right-leaning concern. Without more specific details or context, it is difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's post discusses the balance between environmental regulations and economic stability, but does not provide clear indicators of a left or right political orientation. The author is considering the potential benefits of sustainable industries, which could be seen as leaning towards left-leaning environmental concerns, but also expresses concern about economic stability, which could be seen as a right-leaning concern. Without more specific details or context, it is difficult to classify the author's political orientation."
+    },
+    {
+      "author": "EcoEconPonderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express concern for both environmental protection and economic growth, acknowledging the complexity of balancing these issues. This balanced perspective does not lean strongly towards either left or right political views.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express concern for both environmental protection and economic growth, acknowledging the complexity of balancing these issues. This balanced perspective does not lean strongly towards either left or right political views."
+    },
+    {
+      "author": "EcoEconomicPonder",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a political orientation. They express concern about the potential impact of environmental regulations on industries and jobs, which could be interpreted as a conservative stance. However, they also acknowledge the need to reduce emissions, which is a more liberal stance. The post is more of a question seeking balance between environmental and economic concerns, rather than advocating for a specific political ideology.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a political orientation. They express concern about the potential impact of environmental regulations on industries and jobs, which could be interpreted as a conservative stance. However, they also acknowledge the need to reduce emissions, which is a more liberal stance. The post is more of a question seeking balance between environmental and economic concerns, rather than advocating for a specific political ideology."
+    },
+    {
+      "author": "ClimateEconBalance",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the potential impact of environmental policies on businesses and jobs, but does not explicitly endorse or oppose any specific political stance. The focus on balancing environmental protection with economic considerations suggests a pragmatic approach rather than a clear left or right orientation. The use of phrases like 'foster green innovation' and 'protecting jobs' indicates a concern for both environmental and economic issues, which could align with various political views. Therefore, the political orientation remains unknown based on the provided content.\"\n}\n```",
+      "explanation": "The author's post discusses the potential impact of environmental policies on businesses and jobs, but does not explicitly endorse or oppose any specific political stance. The focus on balancing environmental protection with economic considerations suggests a pragmatic approach rather than a clear left or right orientation. The use of phrases like 'foster green innovation' and 'protecting jobs' indicates a concern for both environmental and economic issues, which could align with various political views. Therefore, the political orientation remains unknown based on the provided content."
+    },
+    {
+      "author": "EcoProgressPondering",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They express concern for both environmental sustainability and economic growth, as well as the well-being of workers. This balanced approach, without clear alignment to either left or right-wing policies, makes it difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They express concern for both environmental sustainability and economic growth, as well as the well-being of workers. This balanced approach, without clear alignment to either left or right-wing policies, makes it difficult to classify the author's political orientation."
+    },
+    {
+      "author": "EcoCuriousVoter",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They express concern for both environmental protection and economic stability, which are issues that can be supported by individuals across the political spectrum. The author is asking a question rather than making a definitive statement, which makes it difficult to classify their political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They express concern for both environmental protection and economic stability, which are issues that can be supported by individuals across the political spectrum. The author is asking a question rather than making a definitive statement, which makes it difficult to classify their political orientation based on this post alone."
+    },
+    {
+      "author": "EconOverEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the potential negative impacts of strict environmental regulations on local industries and job growth. This perspective often aligns with right-leaning views, which tend to prioritize economic growth and business interests over stringent environmental regulations. The emphasis on the need for more data on long-term economic impacts also suggests a focus on economic considerations, which is characteristic of right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author expresses concern about the potential negative impacts of strict environmental regulations on local industries and job growth. This perspective often aligns with right-leaning views, which tend to prioritize economic growth and business interests over stringent environmental regulations. The emphasis on the need for more data on long-term economic impacts also suggests a focus on economic considerations, which is characteristic of right-leaning political orientations."
+    },
+    {
+      "author": "EcoEconDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests skepticism towards strict environmental regulations, implying that they may have a negative impact on industries and working families. This perspective often aligns with right-leaning political views, which tend to prioritize economic stability and job security over stringent environmental policies. The author also questions the effectiveness of these policies, which is a common stance among those who lean right.\"\n}\n```",
+      "explanation": "The author's post suggests skepticism towards strict environmental regulations, implying that they may have a negative impact on industries and working families. This perspective often aligns with right-leaning political views, which tend to prioritize economic stability and job security over stringent environmental policies. The author also questions the effectiveness of these policies, which is a common stance among those who lean right."
+    },
+    {
+      "author": "GrowthAndGreen",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the balance between environmental regulations and economic growth, suggesting that innovation could achieve environmental goals without stifling the economy. This perspective does not clearly align with either left or right political orientations. The author acknowledges the importance of both ecological concerns and economic stability, which could be interpreted as a centrist or pragmatic viewpoint. There is no explicit mention of policies or ideologies that are strongly associated with either the left or the right.\"\n}\n```",
+      "explanation": "The author's post discusses the balance between environmental regulations and economic growth, suggesting that innovation could achieve environmental goals without stifling the economy. This perspective does not clearly align with either left or right political orientations. The author acknowledges the importance of both ecological concerns and economic stability, which could be interpreted as a centrist or pragmatic viewpoint. There is no explicit mention of policies or ideologies that are strongly associated with either the left or the right."
+    },
+    {
+      "author": "EconGrowthNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses concern about the potential negative economic impacts of heavy environmental regulations, specifically on job creation, small businesses, and local economies. This focus on economic growth and potential costs to businesses aligns more with right-leaning political views, which often prioritize economic growth and deregulation over stringent environmental regulations. The author's support for clean energy goals is mentioned but is overshadowed by the emphasis on economic considerations, suggesting a more conservative stance.\"\n}\n```",
+      "explanation": "The author's post expresses concern about the potential negative economic impacts of heavy environmental regulations, specifically on job creation, small businesses, and local economies. This focus on economic growth and potential costs to businesses aligns more with right-leaning political views, which often prioritize economic growth and deregulation over stringent environmental regulations. The author's support for clean energy goals is mentioned but is overshadowed by the emphasis on economic considerations, suggesting a more conservative stance."
+    },
+    {
+      "author": "EcoFreedomDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests skepticism towards strict environmental regulations, implying a preference for less government intervention. The mention of 'market-driven solutions' aligns with right-leaning economic philosophies that favor free-market approaches over regulatory ones. However, the author also acknowledges uncertainty, which tempers the strong right-leaning stance.\"\n}\n```",
+      "explanation": "The author's post suggests skepticism towards strict environmental regulations, implying a preference for less government intervention. The mention of 'market-driven solutions' aligns with right-leaning economic philosophies that favor free-market approaches over regulatory ones. However, the author also acknowledges uncertainty, which tempers the strong right-leaning stance."
+    },
+    {
+      "author": "EcoLibertyPonderer",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a preference for free market solutions over heavy environmental regulations, which is a stance often associated with right-leaning political orientations. The question about whether free market innovations can balance ecological goals and economic growth indicates a belief in market-driven solutions, which is a common view among conservatives and libertarians. The skepticism about the effectiveness of heavy regulations also aligns with right-wing perspectives that often advocate for less government intervention.\"\n}\n```",
+      "explanation": "The author's post suggests a preference for free market solutions over heavy environmental regulations, which is a stance often associated with right-leaning political orientations. The question about whether free market innovations can balance ecological goals and economic growth indicates a belief in market-driven solutions, which is a common view among conservatives and libertarians. The skepticism about the effectiveness of heavy regulations also aligns with right-wing perspectives that often advocate for less government intervention."
+    },
+    {
+      "author": "EcoGrowthDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a balanced view, acknowledging both the potential drawbacks of strict environmental regulations on businesses and the importance of addressing climate risks. They do not lean strongly towards either left or right political orientations, as they are considering both economic and environmental concerns. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a balanced view, acknowledging both the potential drawbacks of strict environmental regulations on businesses and the importance of addressing climate risks. They do not lean strongly towards either left or right political orientations, as they are considering both economic and environmental concerns. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "EconFreedomSkeptic",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism towards extensive regulation and advocates for market incentives, which are typically associated with right-leaning political views. They also emphasize economic freedom, a value often prioritized by right-leaning individuals. The mention of trade-offs between growth and sustainability without a clear preference for one over the other further suggests a right-leaning orientation, as it implies a focus on economic growth and market solutions.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards extensive regulation and advocates for market incentives, which are typically associated with right-leaning political views. They also emphasize economic freedom, a value often prioritized by right-leaning individuals. The mention of trade-offs between growth and sustainability without a clear preference for one over the other further suggests a right-leaning orientation, as it implies a focus on economic growth and market solutions."
+    },
+    {
+      "author": "EconOverEco",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express concern about the potential negative impact of strict environmental regulations on job growth, which could lean towards a more conservative or right-leaning perspective. However, they also acknowledge the importance of protecting the environment and seek a balanced approach, which could align with more liberal or left-leaning views. The post is more of a question and a call for a balanced solution, making it difficult to pinpoint a specific political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express concern about the potential negative impact of strict environmental regulations on job growth, which could lean towards a more conservative or right-leaning perspective. However, they also acknowledge the importance of protecting the environment and seek a balanced approach, which could align with more liberal or left-leaning views. The post is more of a question and a call for a balanced solution, making it difficult to pinpoint a specific political orientation."
+    },
+    {
+      "author": "EconPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about strict environmental regulations due to potential economic impacts, which is a common stance among those on the right. They also suggest finding a middle ground that balances environmental protection with economic considerations, which aligns with more conservative or right-leaning views that prioritize economic growth and job security.\"\n}\n```",
+      "explanation": "The author expresses skepticism about strict environmental regulations due to potential economic impacts, which is a common stance among those on the right. They also suggest finding a middle ground that balances environmental protection with economic considerations, which aligns with more conservative or right-leaning views that prioritize economic growth and job security."
+    }
+  ]
+}

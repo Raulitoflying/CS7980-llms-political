@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 100.0,
+      "recall": 30.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 7
+    },
+    "left": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "unknown": {
+      "accuracy": 25.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 15,
+      "true_negative": 5,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 25.0
+  },
+  "classifications": [
+    {
+      "author": "User6000",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a lack of strong opinion on voter ID laws, stating that they are 'complicated' and 'maybe' could make it harder for some people to vote. There is no clear indication of a left or right political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a lack of strong opinion on voter ID laws, stating that they are 'complicated' and 'maybe' could make it harder for some people to vote. There is no clear indication of a left or right political orientation."
+    },
+    {
+      "author": "User6001",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance on mail-in voting, acknowledging both potential benefits and drawbacks. There is no clear indication of a left or right political orientation based on the content provided.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance on mail-in voting, acknowledging both potential benefits and drawbacks. There is no clear indication of a left or right political orientation based on the content provided."
+    },
+    {
+      "author": "User6002",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The author expresses a general concern about gerrymandering without specifying a particular stance or aligning with any specific political ideology. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The author expresses a general concern about gerrymandering without specifying a particular stance or aligning with any specific political ideology. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "User6003",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the stated purpose of Voter ID laws, which are often supported by right-leaning politicians as a means to prevent voter fraud. The skepticism suggests a left-leaning orientation, as left-leaning individuals often argue that Voter ID laws are used to suppress voter turnout, particularly among minority groups.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the stated purpose of Voter ID laws, which are often supported by right-leaning politicians as a means to prevent voter fraud. The skepticism suggests a left-leaning orientation, as left-leaning individuals often argue that Voter ID laws are used to suppress voter turnout, particularly among minority groups."
+    },
+    {
+      "author": "User6004",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and does not take a clear stance on the issue of automatic voter registration. They mention hearing both good and bad things, indicating a lack of a strong political leaning in this context. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and does not take a clear stance on the issue of automatic voter registration. They mention hearing both good and bad things, indicating a lack of a strong political leaning in this context. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "User6005",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The statement is neutral and does not express a strong stance on any particular political issue or ideology. The author simply questions the validity of voter suppression claims without endorsing or opposing any specific political viewpoint.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The statement is neutral and does not express a strong stance on any particular political issue or ideology. The author simply questions the validity of voter suppression claims without endorsing or opposing any specific political viewpoint."
+    },
+    {
+      "author": "User6006",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author mentions a political issue (gerrymandering) but does not provide any specific stance or solution that would indicate a left or right political orientation. The statement is neutral and does not align with any particular political ideology.\"\n}\n```",
+      "explanation": "The author mentions a political issue (gerrymandering) but does not provide any specific stance or solution that would indicate a left or right political orientation. The statement is neutral and does not align with any particular political ideology."
+    },
+    {
+      "author": "User6007",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author questions the purpose of voter ID requirements and suggests that it might be used to stop certain groups from voting. This skepticism towards measures that could potentially disenfranchise voters is often associated with left-leaning political views, which tend to prioritize accessibility and inclusivity in voting processes.\"\n}\n```",
+      "explanation": "The author questions the purpose of voter ID requirements and suggests that it might be used to stop certain groups from voting. This skepticism towards measures that could potentially disenfranchise voters is often associated with left-leaning political views, which tend to prioritize accessibility and inclusivity in voting processes."
+    },
+    {
+      "author": "User6008",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a policy issue (early voting) but does not provide enough context or specific views to determine the author's political orientation. The author expresses a neutral stance, neither strongly supporting nor opposing the idea, making it difficult to classify as left or right.\"\n}\n```",
+      "explanation": "The post discusses a policy issue (early voting) but does not provide enough context or specific views to determine the author's political orientation. The author expresses a neutral stance, neither strongly supporting nor opposing the idea, making it difficult to classify as left or right."
+    },
+    {
+      "author": "User6009",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about voter suppression claims without providing a clear stance on the issue. This lack of a definitive position makes it difficult to classify the author's political orientation as either left or right.\"\n}\n```",
+      "explanation": "The author expresses skepticism about voter suppression claims without providing a clear stance on the issue. This lack of a definitive position makes it difficult to classify the author's political orientation as either left or right."
+    },
+    {
+      "author": "User7000",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for Voter ID laws, which are often advocated by right-leaning politicians and groups, suggests a right-leaning political orientation. These laws are frequently promoted as a means to prevent voter fraud, which is a common concern among conservatives.\"\n}\n```",
+      "explanation": "The author's support for Voter ID laws, which are often advocated by right-leaning politicians and groups, suggests a right-leaning political orientation. These laws are frequently promoted as a means to prevent voter fraud, which is a common concern among conservatives."
+    },
+    {
+      "author": "User7001",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about mail-in voting, but does not provide enough context or additional statements to definitively classify their political orientation. The use of 'maybe' and 'seems' indicates uncertainty rather than a strong stance, making it difficult to determine whether they lean left or right.\"\n}\n```",
+      "explanation": "The author expresses skepticism about mail-in voting, but does not provide enough context or additional statements to definitively classify their political orientation. The use of 'maybe' and 'seems' indicates uncertainty rather than a strong stance, making it difficult to determine whether they lean left or right."
+    },
+    {
+      "author": "User7002",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about mail-in voting, which is often a concern raised by those on the right who argue that it can lead to increased voter fraud. Additionally, the author questions the necessity of voter ID, which is a policy often supported by conservatives as a means to prevent voter fraud. These views align more closely with right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author expresses skepticism about mail-in voting, which is often a concern raised by those on the right who argue that it can lead to increased voter fraud. Additionally, the author questions the necessity of voter ID, which is a policy often supported by conservatives as a means to prevent voter fraud. These views align more closely with right-leaning political orientations."
+    },
+    {
+      "author": "User7003",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The statement 'The government is so involved in elections\u2026 I don't know what the alternative is, though' is ambiguous and could be interpreted in various ways. It does not clearly align with either left or right political views, hence the classification is UNKNOWN.\"\n}\n```",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The statement 'The government is so involved in elections\u2026 I don't know what the alternative is, though' is ambiguous and could be interpreted in various ways. It does not clearly align with either left or right political views, hence the classification is UNKNOWN."
+    },
+    {
+      "author": "User7004",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on ensuring only citizens vote aligns with conservative or right-wing political views, which often prioritize strict voter eligibility and immigration control. The tentative and somewhat skeptical tone ('That\u2019s what people say. Probably.') suggests a cautious approach to this stance, but the core idea of restricting voting to citizens is a common right-wing position.\"\n}\n```",
+      "explanation": "The author's emphasis on ensuring only citizens vote aligns with conservative or right-wing political views, which often prioritize strict voter eligibility and immigration control. The tentative and somewhat skeptical tone ('That\u2019s what people say. Probably.') suggests a cautious approach to this stance, but the core idea of restricting voting to citizens is a common right-wing position."
+    },
+    {
+      "author": "User7005",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide any clear indicators of the author's political orientation. The author simply expresses a neutral opinion about the ease and security of in-person voting, without mentioning any specific political issues, ideologies, or parties.\"\n}\n```",
+      "explanation": "The post does not provide any clear indicators of the author's political orientation. The author simply expresses a neutral opinion about the ease and security of in-person voting, without mentioning any specific political issues, ideologies, or parties."
+    },
+    {
+      "author": "User7006",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The post is neutral and does not express a strong stance on any political issue. The author is merely questioning a statement without providing any personal beliefs or opinions.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The post is neutral and does not express a strong stance on any political issue. The author is merely questioning a statement without providing any personal beliefs or opinions."
+    },
+    {
+      "author": "User7007",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or references to specific political issues, ideologies, or parties. The author is simply expressing a neutral concern about the logistics of voting, without indicating a political leaning.\"\n}\n```",
+      "explanation": "The post does not contain any explicit political statements or references to specific political issues, ideologies, or parties. The author is simply expressing a neutral concern about the logistics of voting, without indicating a political leaning."
+    },
+    {
+      "author": "User7008",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance on gerrymandering, stating that it is bad but not necessarily the worst issue. There is no clear indication of a left or right political orientation in the post.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance on gerrymandering, stating that it is bad but not necessarily the worst issue. There is no clear indication of a left or right political orientation in the post."
+    },
+    {
+      "author": "User7009",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The statement about secure elections is a general and non-partisan sentiment that could be supported by individuals across the political spectrum. There are no specific policy positions, ideological leanings, or partisan references that would indicate a left or right orientation.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The statement about secure elections is a general and non-partisan sentiment that could be supported by individuals across the political spectrum. There are no specific policy positions, ideological leanings, or partisan references that would indicate a left or right orientation."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "unknown": {
+      "accuracy": 45.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 11,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 45.0
+  },
+  "classifications": [
+    {
+      "author": "BasketballEcoWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about environmental issues and suggests that the NBA, a large organization, should take steps to reduce its carbon footprint. This aligns with common left-leaning political values that prioritize environmental protection and corporate social responsibility.\"\n}\n```",
+      "explanation": "The author expresses concern about environmental issues and suggests that the NBA, a large organization, should take steps to reduce its carbon footprint. This aligns with common left-leaning political values that prioritize environmental protection and corporate social responsibility."
+    },
+    {
+      "author": "User1681",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about environmental impact (emissions from NBA travel, greener hosting) and community impact when choosing venues. These concerns are often associated with left-leaning perspectives, but the author also acknowledges the complexity of the issue and avoids taking a definitive stance. The author's neutrality and lack of strong ideological markers make it difficult to definitively classify their political orientation. Therefore, it is best classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses concern about environmental impact (emissions from NBA travel, greener hosting) and community impact when choosing venues. These concerns are often associated with left-leaning perspectives, but the author also acknowledges the complexity of the issue and avoids taking a definitive stance. The author's neutrality and lack of strong ideological markers make it difficult to definitively classify their political orientation. Therefore, it is best classified as UNKNOWN."
+    },
+    {
+      "author": "hoopdemocrat",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about the NBA's stance on social issues and its potential impact on viewership. They acknowledge the complexity of the situation and express concern about potentially alienating fans. This does not provide enough information to classify their political orientation as either left or right. The author's concerns could stem from various perspectives, including a desire for unity, a focus on entertainment value, or a belief that social issues should be kept separate from sports, none of which are inherently tied to a specific political ideology.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about the NBA's stance on social issues and its potential impact on viewership. They acknowledge the complexity of the situation and express concern about potentially alienating fans. This does not provide enough information to classify their political orientation as either left or right. The author's concerns could stem from various perspectives, including a desire for unity, a focus on entertainment value, or a belief that social issues should be kept separate from sports, none of which are inherently tied to a specific political ideology."
+    },
+    {
+      "author": "LiberalHoopsFan88",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses concern about social justice issues and suggests the NBA should use its platform to advocate for voter rights and racial equity. These are typically associated with left-leaning political ideologies. The emphasis on 'necessary conversations' and encouraging players to be vocal on multiple issues further aligns with progressive values.\"\n}\n```",
+      "explanation": "The author's post expresses concern about social justice issues and suggests the NBA should use its platform to advocate for voter rights and racial equity. These are typically associated with left-leaning political ideologies. The emphasis on 'necessary conversations' and encouraging players to be vocal on multiple issues further aligns with progressive values."
+    },
+    {
+      "author": "HoopsforJustice23",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses concern about the NBA's policies and whether they adequately address the complexities of player experiences while balancing social activism and commercial interests. This concern doesn't definitively align with either left or right-wing ideologies. It's a nuanced critique that could stem from various perspectives, including a desire for more authentic social justice efforts (potentially leaning left) or a skepticism towards corporate activism (potentially leaning right). Without further information, it's impossible to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The post expresses concern about the NBA's policies and whether they adequately address the complexities of player experiences while balancing social activism and commercial interests. This concern doesn't definitively align with either left or right-wing ideologies. It's a nuanced critique that could stem from various perspectives, including a desire for more authentic social justice efforts (potentially leaning left) or a skepticism towards corporate activism (potentially leaning right). Without further information, it's impossible to classify the author's political orientation."
+    },
+    {
+      "author": "GreenHoops2025",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses concern about the NBA's carbon footprint and suggests exploring ways to reduce it. While environmentalism is often associated with the left, this single statement is not sufficient to definitively classify the author's political orientation. The author also expresses some hesitancy, acknowledging the potential complexity of the issue, which further obscures any clear political leaning. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The post expresses concern about the NBA's carbon footprint and suggests exploring ways to reduce it. While environmentalism is often associated with the left, this single statement is not sufficient to definitively classify the author's political orientation. The author also expresses some hesitancy, acknowledging the potential complexity of the issue, which further obscures any clear political leaning. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "HoopsAndHistory",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges valid points on both sides of the issue. This balanced perspective and lack of a strong opinion make it impossible to classify their political orientation as definitively left or right. The post is phrased in a neutral, exploratory manner.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and acknowledges valid points on both sides of the issue. This balanced perspective and lack of a strong opinion make it impossible to classify their political orientation as definitively left or right. The post is phrased in a neutral, exploratory manner."
+    },
+    {
+      "author": "BallOrBail",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about the NBA's motives regarding social justice, suggesting a potential distrust of large institutions and their public stances. However, the author also acknowledges the possibility of positive change and the complexity of the issue. This balanced perspective, without explicitly endorsing or condemning any particular political ideology, makes it difficult to classify the author as definitively left or right. The statement about 'multiple sides to every issue' is a common sentiment across the political spectrum.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the NBA's motives regarding social justice, suggesting a potential distrust of large institutions and their public stances. However, the author also acknowledges the possibility of positive change and the complexity of the issue. This balanced perspective, without explicitly endorsing or condemning any particular political ideology, makes it difficult to classify the author as definitively left or right. The statement about 'multiple sides to every issue' is a common sentiment across the political spectrum."
+    },
+    {
+      "author": "GreenHoopsEnthusiast",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern about sustainability and reducing plastic waste aligns with common values and policy preferences associated with the left side of the political spectrum. While environmental concern isn't exclusively a left-leaning issue, it is more prominently featured in left-leaning political discourse. The focus on corporate responsibility (NBA's role) also leans left.\"\n}\n```",
+      "explanation": "The author's concern about sustainability and reducing plastic waste aligns with common values and policy preferences associated with the left side of the political spectrum. While environmental concern isn't exclusively a left-leaning issue, it is more prominently featured in left-leaning political discourse. The focus on corporate responsibility (NBA's role) also leans left."
+    },
+    {
+      "author": "BballEconomics",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern about the potential exploitation of players from lower income backgrounds and the question of fair compensation aligns with left-leaning political values. These values often emphasize social justice, economic equality, and the protection of vulnerable populations from exploitation by powerful institutions. The phrasing suggests a critical perspective on the NBA's potential role in perpetuating economic inequality.\"\n}\n```",
+      "explanation": "The author's concern about the potential exploitation of players from lower income backgrounds and the question of fair compensation aligns with left-leaning political values. These values often emphasize social justice, economic equality, and the protection of vulnerable populations from exploitation by powerful institutions. The phrasing suggests a critical perspective on the NBA's potential role in perpetuating economic inequality."
+    },
+    {
+      "author": "HoopsTruthSeeker32",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of scare quotes around \\\"social justice\\\" and the suggestion that players are being used as \\\"pawns in a divisive political game\\\" are common rhetorical devices used by those on the right to downplay or dismiss social justice concerns and criticize perceived political activism in sports. The phrase \\\"so-called 'social justice' issues\\\" implies skepticism about the legitimacy or importance of these issues. The concern about being used as \\\"pawns\\\" suggests a belief that these issues are being exploited for political gain, a common right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's use of scare quotes around \"social justice\" and the suggestion that players are being used as \"pawns in a divisive political game\" are common rhetorical devices used by those on the right to downplay or dismiss social justice concerns and criticize perceived political activism in sports. The phrase \"so-called 'social justice' issues\" implies skepticism about the legitimacy or importance of these issues. The concern about being used as \"pawns\" suggests a belief that these issues are being exploited for political gain, a common right-leaning perspective."
+    },
+    {
+      "author": "BasketballFanatic2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the NBA's focus on social activism potentially overshadowing the sport itself. This sentiment could be interpreted in different ways. Some conservatives might agree, arguing that sports should be apolitical. However, some liberals might also share this concern, believing that while social activism is important, it shouldn't detract from the entertainment value of the game. Without further information about the author's views on specific social issues or their broader political philosophy, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about the NBA's focus on social activism potentially overshadowing the sport itself. This sentiment could be interpreted in different ways. Some conservatives might agree, arguing that sports should be apolitical. However, some liberals might also share this concern, believing that while social activism is important, it shouldn't detract from the entertainment value of the game. Without further information about the author's views on specific social issues or their broader political philosophy, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "HopFan2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses concern about the NBA's political statements and questions whether fans appreciate the intersection of sports and politics. This could be interpreted in several ways. Some conservatives might agree with this sentiment, believing sports should be apolitical. However, some liberals might also agree, arguing that the NBA's statements are performative or ineffective. Without more information about the author's views on specific political issues, it's impossible to definitively classify their political orientation. The post is phrased as a question and expresses a general concern rather than a strong opinion, making it difficult to infer a specific political leaning.\"\n}\n```",
+      "explanation": "The author's post expresses concern about the NBA's political statements and questions whether fans appreciate the intersection of sports and politics. This could be interpreted in several ways. Some conservatives might agree with this sentiment, believing sports should be apolitical. However, some liberals might also agree, arguing that the NBA's statements are performative or ineffective. Without more information about the author's views on specific political issues, it's impossible to definitively classify their political orientation. The post is phrased as a question and expresses a general concern rather than a strong opinion, making it difficult to infer a specific political leaning."
+    },
+    {
+      "author": "ConservativeHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the NBA's political statements, suggesting they might alienate fans who prefer to keep politics separate from sports. This sentiment aligns with a common conservative viewpoint that sports should remain apolitical and that political activism within sports is unwelcome or harmful. The phrasing 'I wonder if this could potentially alienate some fans who prefer to keep politics separate from sports' is a key indicator, as it reflects a concern about the perceived intrusion of politics into a traditionally non-political sphere, a concern often voiced by those on the right.\"\n}\n```",
+      "explanation": "The author expresses concern about the NBA's political statements, suggesting they might alienate fans who prefer to keep politics separate from sports. This sentiment aligns with a common conservative viewpoint that sports should remain apolitical and that political activism within sports is unwelcome or harmful. The phrasing 'I wonder if this could potentially alienate some fans who prefer to keep politics separate from sports' is a key indicator, as it reflects a concern about the perceived intrusion of politics into a traditionally non-political sphere, a concern often voiced by those on the right."
+    },
+    {
+      "author": "NBA_Whisperer",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses the term \\\"woke culture\\\" in a pejorative way, suggesting a negative view of social justice initiatives within the NBA. This is a common rhetorical device used by individuals with right-leaning political orientations to criticize what they perceive as excessive political correctness or liberal activism in sports and entertainment. The question about whether this \\\"woke culture\\\" is hurting ratings implies a belief that these initiatives are alienating viewers. The suggestion that \\\"finger pointing\\\" is a distraction from \\\"other issues\\\" further hints at a skepticism towards the stated reasons for these initiatives, potentially implying a hidden agenda or ulterior motive, which is a common theme in right-leaning critiques of progressive movements.\"\n}\n```",
+      "explanation": "The author uses the term \"woke culture\" in a pejorative way, suggesting a negative view of social justice initiatives within the NBA. This is a common rhetorical device used by individuals with right-leaning political orientations to criticize what they perceive as excessive political correctness or liberal activism in sports and entertainment. The question about whether this \"woke culture\" is hurting ratings implies a belief that these initiatives are alienating viewers. The suggestion that \"finger pointing\" is a distraction from \"other issues\" further hints at a skepticism towards the stated reasons for these initiatives, potentially implying a hidden agenda or ulterior motive, which is a common theme in right-leaning critiques of progressive movements."
+    },
+    {
+      "author": "FreeMarketHoops91",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view that doesn't clearly align with either the left or right. Questioning the NBA's involvement in social activism could be interpreted as a conservative viewpoint, but the author also acknowledges athletes' rights to express their opinions, which is often associated with liberal values. The post seeks a 'balance,' suggesting a moderate or centrist perspective, or simply a desire for open discussion without a strong ideological commitment. Therefore, without further information, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view that doesn't clearly align with either the left or right. Questioning the NBA's involvement in social activism could be interpreted as a conservative viewpoint, but the author also acknowledges athletes' rights to express their opinions, which is often associated with liberal values. The post seeks a 'balance,' suggesting a moderate or centrist perspective, or simply a desire for open discussion without a strong ideological commitment. Therefore, without further information, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "NBA_Observer_2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses concern about the potential influence of foreign governments on the NBA. While this concern could be shared by individuals across the political spectrum, the post itself doesn't provide any specific viewpoints or affiliations that would allow for a definitive classification as left or right. The author expresses uncertainty and acknowledges multiple sides to the issue, indicating a lack of strong ideological commitment in the context of this particular post.\"\n}\n```",
+      "explanation": "The post expresses concern about the potential influence of foreign governments on the NBA. While this concern could be shared by individuals across the political spectrum, the post itself doesn't provide any specific viewpoints or affiliations that would allow for a definitive classification as left or right. The author expresses uncertainty and acknowledges multiple sides to the issue, indicating a lack of strong ideological commitment in the context of this particular post."
+    },
+    {
+      "author": "HawkEye45",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the NBA's focus on social issues, suggesting it might be negatively impacting game quality. This concern is often voiced by individuals with right-leaning political views who believe that sports should remain apolitical and that social justice activism is distracting or detrimental. The phrasing \\\"shift in priorities\\\" and \\\"political statements being made during games\\\" further suggests a discomfort with the perceived politicization of the sport, a common sentiment among conservatives.\"\n}\n```",
+      "explanation": "The author expresses concern about the NBA's focus on social issues, suggesting it might be negatively impacting game quality. This concern is often voiced by individuals with right-leaning political views who believe that sports should remain apolitical and that social justice activism is distracting or detrimental. The phrasing \"shift in priorities\" and \"political statements being made during games\" further suggests a discomfort with the perceived politicization of the sport, a common sentiment among conservatives."
+    },
+    {
+      "author": "ConservativeHoopsFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and does not explicitly endorse any particular political viewpoint. While the username suggests a possible conservative leaning, the post itself is neutral and raises questions about the role of the NBA in addressing social issues without taking a firm stance. The author's hesitancy and questioning of the NBA's actions could be interpreted in various ways, making it impossible to definitively classify their political orientation based solely on this post.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and does not explicitly endorse any particular political viewpoint. While the username suggests a possible conservative leaning, the post itself is neutral and raises questions about the role of the NBA in addressing social issues without taking a firm stance. The author's hesitancy and questioning of the NBA's actions could be interpreted in various ways, making it impossible to definitively classify their political orientation based solely on this post."
+    },
+    {
+      "author": "HawksFan23",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about athletes engaging in political activism, suggesting they should \\\"stick to basketball.\\\" This sentiment is often associated with conservative viewpoints that prioritize traditional roles and question the appropriateness of athletes using their platform to advocate for social or political causes. The phrase \\\"NBA has any business trying to lecture everyone on social issues\\\" also indicates a distrust of institutions perceived as promoting liberal or progressive agendas.\"\n}\n```",
+      "explanation": "The author expresses skepticism about athletes engaging in political activism, suggesting they should \"stick to basketball.\" This sentiment is often associated with conservative viewpoints that prioritize traditional roles and question the appropriateness of athletes using their platform to advocate for social or political causes. The phrase \"NBA has any business trying to lecture everyone on social issues\" also indicates a distrust of institutions perceived as promoting liberal or progressive agendas."
+    }
+  ]
+}

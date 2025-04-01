@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 75.0,
+      "recall": 30.0,
+      "f1_score": 4285.714285714285,
+      "true_positive": 3,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 7
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 77.77777777777779,
+      "recall": 70.0,
+      "f1_score": 7368.421052631581,
+      "true_positive": 7,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "UkraineAdvocate2023",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Supporting Ukraine against Russian aggression is a position generally associated with the left, particularly in the context of opposing authoritarian regimes and supporting democratic values and international law. While not exclusively held by the left, it aligns more strongly with their values than with the right, especially considering the historical context of the Cold War and the current geopolitical landscape.\"\n}\n```",
+      "explanation": "Supporting Ukraine against Russian aggression is a position generally associated with the left, particularly in the context of opposing authoritarian regimes and supporting democratic values and international law. While not exclusively held by the left, it aligns more strongly with their values than with the right, especially considering the historical context of the Cold War and the current geopolitical landscape."
+    },
+    {
+      "author": "GreenPeaceWarrior",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While condemning the Russian invasion of Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for Ukrainian sovereignty and condemnation of Russian aggression are not exclusive to any particular political ideology. Without further context or information about the author's views on other issues, it's impossible to accurately determine their political leaning.\"\n}\n```",
+      "explanation": "While condemning the Russian invasion of Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for Ukrainian sovereignty and condemnation of Russian aggression are not exclusive to any particular political ideology. Without further context or information about the author's views on other issues, it's impossible to accurately determine their political leaning."
+    },
+    {
+      "author": "LibertyForUkraine",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While supporting Ukraine against Russian aggression is a common position across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for national sovereignty and condemnation of aggression are not exclusive to any particular ideology. Without further context or statements on other issues, it's impossible to accurately determine their political leaning.\"\n}\n```",
+      "explanation": "While supporting Ukraine against Russian aggression is a common position across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for national sovereignty and condemnation of aggression are not exclusive to any particular ideology. Without further context or statements on other issues, it's impossible to accurately determine their political leaning."
+    },
+    {
+      "author": "ProUkraineDemocrat",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong condemnation of Russia's invasion of Ukraine and support for sanctions aligns with the general stance of the Democratic party and the left-leaning political spectrum in the US. While opposition to Russian aggression is not exclusive to the left, the emphasis on international law and support for Ukraine often resonates more strongly within left-leaning circles. The username 'ProUkraineDemocrat' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's strong condemnation of Russia's invasion of Ukraine and support for sanctions aligns with the general stance of the Democratic party and the left-leaning political spectrum in the US. While opposition to Russian aggression is not exclusive to the left, the emphasis on international law and support for Ukraine often resonates more strongly within left-leaning circles. The username 'ProUkraineDemocrat' further reinforces this classification."
+    },
+    {
+      "author": "FreeUkraineNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with certain anti-imperialist and anti-war arguments often found on the left. Specifically, the phrases 'US imperialism' and the framing of Ukraine as a 'proxy war' are common tropes used by some on the left to criticize US foreign policy. While some on the right may also oppose funding for Ukraine, the specific language used here strongly suggests a left-leaning perspective due to its focus on anti-imperialism and criticism of US foreign policy.\"\n}\n```",
+      "explanation": "The author's statements align with certain anti-imperialist and anti-war arguments often found on the left. Specifically, the phrases 'US imperialism' and the framing of Ukraine as a 'proxy war' are common tropes used by some on the left to criticize US foreign policy. While some on the right may also oppose funding for Ukraine, the specific language used here strongly suggests a left-leaning perspective due to its focus on anti-imperialism and criticism of US foreign policy."
+    },
+    {
+      "author": "AntiImperialistWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of the term \\\"imperialists\\\" and \\\"imperialist aggression\\\" in relation to Western powers and their perceived role in the Russia-Ukraine war is a strong indicator of a left-leaning political orientation. This language is commonly used within leftist circles to critique Western foreign policy and global power dynamics. The author's condemnation of \\\"global hegemony\\\" further reinforces this classification, as it aligns with leftist critiques of Western dominance and neocolonialism.\"\n}\n```",
+      "explanation": "The author's use of the term \"imperialists\" and \"imperialist aggression\" in relation to Western powers and their perceived role in the Russia-Ukraine war is a strong indicator of a left-leaning political orientation. This language is commonly used within leftist circles to critique Western foreign policy and global power dynamics. The author's condemnation of \"global hegemony\" further reinforces this classification, as it aligns with leftist critiques of Western dominance and neocolonialism."
+    },
+    {
+      "author": "AntiImperialistWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of the term \\\"imperialists\\\" to describe both Russia and the US/NATO, coupled with the assertion that the US and EU are funding the war to further their geopolitical agendas, strongly suggests a left-leaning, anti-imperialist perspective. This is because the term 'imperialist' is most commonly used by those on the left to critique the foreign policy of powerful nations. The author's simultaneous criticism of both Russia and the West further reinforces this classification, as a right-leaning individual would likely be more supportive of Western involvement or solely critical of Russia.\"\n}\n```",
+      "explanation": "The author's use of the term \"imperialists\" to describe both Russia and the US/NATO, coupled with the assertion that the US and EU are funding the war to further their geopolitical agendas, strongly suggests a left-leaning, anti-imperialist perspective. This is because the term 'imperialist' is most commonly used by those on the left to critique the foreign policy of powerful nations. The author's simultaneous criticism of both Russia and the West further reinforces this classification, as a right-leaning individual would likely be more supportive of Western involvement or solely critical of Russia."
+    },
+    {
+      "author": "GreenPeaceWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post aligns with several common left-leaning political positions. The strong condemnation of Russia's actions as a violation of international law, the emphasis on environmental protection and the devastating impact of war on ecosystems, and the call for peace over 'destruction and greed' are all indicative of a left-leaning perspective. Environmentalism and anti-war sentiments are frequently associated with left-wing ideologies.\"\n}\n```",
+      "explanation": "The author's post aligns with several common left-leaning political positions. The strong condemnation of Russia's actions as a violation of international law, the emphasis on environmental protection and the devastating impact of war on ecosystems, and the call for peace over 'destruction and greed' are all indicative of a left-leaning perspective. Environmentalism and anti-war sentiments are frequently associated with left-wing ideologies."
+    },
+    {
+      "author": "LiberateNovorossiya",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with a right-leaning political orientation. Specifically, the support for Russia's actions in Ukraine, the claim of 'historical lands,' the accusation of 'genocide' against Russian speakers, and the condemnation of the West's involvement as a plot to weaken Russia are all common talking points within right-wing and nationalist circles. These views often stem from a belief in national sovereignty, a distrust of Western powers, and a defense of traditional values and historical narratives.\"\n}\n```",
+      "explanation": "The author's statements align with a right-leaning political orientation. Specifically, the support for Russia's actions in Ukraine, the claim of 'historical lands,' the accusation of 'genocide' against Russian speakers, and the condemnation of the West's involvement as a plot to weaken Russia are all common talking points within right-wing and nationalist circles. These views often stem from a belief in national sovereignty, a distrust of Western powers, and a defense of traditional values and historical narratives."
+    },
+    {
+      "author": "DemocratForPeace",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong condemnation of Russia's invasion of Ukraine and call for sanctions aligns with common positions within the left-leaning political spectrum. While opposition to Russian aggression is not exclusive to the left, the emphasis on international law, democracy, and a strong stance against perceived authoritarianism are frequently associated with left-leaning foreign policy perspectives. The username 'DemocratForPeace' further suggests a left-leaning affiliation.\"\n}\n```",
+      "explanation": "The author's strong condemnation of Russia's invasion of Ukraine and call for sanctions aligns with common positions within the left-leaning political spectrum. While opposition to Russian aggression is not exclusive to the left, the emphasis on international law, democracy, and a strong stance against perceived authoritarianism are frequently associated with left-leaning foreign policy perspectives. The username 'DemocratForPeace' further suggests a left-leaning affiliation."
+    },
+    {
+      "author": "PatriotForFreedom2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author expresses support for Ukraine and condemns Russia's actions, this stance is not exclusive to any particular political orientation. Both liberals and conservatives in the US have voiced similar sentiments. The statement lacks specific policy preferences or ideological markers that would definitively classify the author as left or right-leaning. The username 'PatriotForFreedom2024' is suggestive of a right-leaning perspective, but the single statement is insufficient for a confident classification.\"\n}\n```",
+      "explanation": "While the author expresses support for Ukraine and condemns Russia's actions, this stance is not exclusive to any particular political orientation. Both liberals and conservatives in the US have voiced similar sentiments. The statement lacks specific policy preferences or ideological markers that would definitively classify the author as left or right-leaning. The username 'PatriotForFreedom2024' is suggestive of a right-leaning perspective, but the single statement is insufficient for a confident classification."
+    },
+    {
+      "author": "LibertarianPeaceAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author identifies as \\\"LibertarianPeaceAdvocate,\\\" the post's content doesn't definitively align with either the left or right. The emphasis on non-interventionism, peaceful resolution, and opposition to government spending on war are common libertarian viewpoints. However, these positions can be found across the political spectrum. The call for liberty and free trade are generally associated with right-leaning libertarianism, but the condemnation of authoritarian regimes and the desire for peace could also resonate with some on the left. Without further information, it's difficult to definitively classify the author's political orientation beyond libertarian.\"\n}\n```",
+      "explanation": "While the author identifies as \"LibertarianPeaceAdvocate,\" the post's content doesn't definitively align with either the left or right. The emphasis on non-interventionism, peaceful resolution, and opposition to government spending on war are common libertarian viewpoints. However, these positions can be found across the political spectrum. The call for liberty and free trade are generally associated with right-leaning libertarianism, but the condemnation of authoritarian regimes and the desire for peace could also resonate with some on the left. Without further information, it's difficult to definitively classify the author's political orientation beyond libertarian."
+    },
+    {
+      "author": "TruthSeeker2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common anti-imperialist narratives often found on the left. Specifically, the claim that the West is fueling the Russia-Ukraine war to weaken both nations and expand NATO is a common talking point among some on the left who view NATO expansion as aggressive and see the conflict as a proxy war driven by Western interests rather than a defense of Ukrainian sovereignty. This perspective often downplays Russian aggression and focuses on perceived Western culpability.\"\n}\n```",
+      "explanation": "The author's statement aligns with common anti-imperialist narratives often found on the left. Specifically, the claim that the West is fueling the Russia-Ukraine war to weaken both nations and expand NATO is a common talking point among some on the left who view NATO expansion as aggressive and see the conflict as a proxy war driven by Western interests rather than a defense of Ukrainian sovereignty. This perspective often downplays Russian aggression and focuses on perceived Western culpability."
+    },
+    {
+      "author": "ProRussiaPeaceNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"While support for Russia is sometimes associated with the far-right, the specific arguments presented in the post align more closely with certain segments of the far-left. The author uses language like \\\"fueling the war for profit,\\\" which is a common critique of Western capitalism and the military-industrial complex often voiced by left-leaning individuals. The phrase \\\"regime change\\\" is also a common criticism leveled against Western foreign policy by the left. Finally, the phrase \\\"NATO aggression\\\" is a common talking point used by those critical of Western foreign policy from a left-wing perspective. While some on the right may also be critical of NATO, the combination of these arguments suggests a left-leaning perspective.\"\n}\n```",
+      "explanation": "While support for Russia is sometimes associated with the far-right, the specific arguments presented in the post align more closely with certain segments of the far-left. The author uses language like \"fueling the war for profit,\" which is a common critique of Western capitalism and the military-industrial complex often voiced by left-leaning individuals. The phrase \"regime change\" is also a common criticism leveled against Western foreign policy by the left. Finally, the phrase \"NATO aggression\" is a common talking point used by those critical of Western foreign policy from a left-wing perspective. While some on the right may also be critical of NATO, the combination of these arguments suggests a left-leaning perspective."
+    },
+    {
+      "author": "Patriot4Freedom",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author expresses support for Ukraine's sovereignty and independence, and condemns Russian aggression, this stance is not inherently indicative of a specific political orientation. Support for Ukraine is found across the political spectrum. The author's username 'Patriot4Freedom' could suggest a conservative leaning, but without further information about their views on other issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "While the author expresses support for Ukraine's sovereignty and independence, and condemns Russian aggression, this stance is not inherently indicative of a specific political orientation. Support for Ukraine is found across the political spectrum. The author's username 'Patriot4Freedom' could suggest a conservative leaning, but without further information about their views on other issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "Truthseeker2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common narratives promoted by right-leaning individuals and groups who are critical of Western foreign policy and sympathetic to Russia's perspective on the conflict in Ukraine. The phrases 'Russia is the victim of NATO aggression' and 'West is using Ukraine as a pawn' are frequently used in right-wing media and online discussions to justify Russia's actions and criticize Western involvement.\"\n}\n```",
+      "explanation": "The author's statement aligns with common narratives promoted by right-leaning individuals and groups who are critical of Western foreign policy and sympathetic to Russia's perspective on the conflict in Ukraine. The phrases 'Russia is the victim of NATO aggression' and 'West is using Ukraine as a pawn' are frequently used in right-wing media and online discussions to justify Russia's actions and criticize Western involvement."
+    },
+    {
+      "author": "ConservativePatriot45",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on the Russia-Ukraine conflict aligns with common conservative viewpoints. Supporting Ukraine against Russian aggression, emphasizing national sovereignty, and advocating for a strong US stance against perceived tyranny are all consistent with right-leaning foreign policy positions. The username \\\"ConservativePatriot45\\\" further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's stance on the Russia-Ukraine conflict aligns with common conservative viewpoints. Supporting Ukraine against Russian aggression, emphasizing national sovereignty, and advocating for a strong US stance against perceived tyranny are all consistent with right-leaning foreign policy positions. The username \"ConservativePatriot45\" further reinforces this classification."
+    },
+    {
+      "author": "ProtectRussianBorders",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with a pro-Russian and anti-Western perspective, which is often associated with right-leaning political ideologies. Specifically, the support for Russia's actions, the framing of Ukraine as a pawn, and the accusation of NATO aggression are common themes in right-wing and nationalist narratives that are sympathetic to Russia's geopolitical interests.\"\n}\n```",
+      "explanation": "The author's statement aligns with a pro-Russian and anti-Western perspective, which is often associated with right-leaning political ideologies. Specifically, the support for Russia's actions, the framing of Ukraine as a pawn, and the accusation of NATO aggression are common themes in right-wing and nationalist narratives that are sympathetic to Russia's geopolitical interests."
+    },
+    {
+      "author": "LibertarianPeaceAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author uses language often associated with libertarianism (anti-interventionism, free trade, emphasis on diplomacy), these positions can be held by individuals across the political spectrum. Without further information on their views on domestic policy or other issues, it's impossible to definitively classify their political orientation as strictly left or right. The focus on peace and diplomacy could align with some left-leaning anti-war stances, while the emphasis on free trade is often associated with right-leaning economic policies. Therefore, 'UNKNOWN' is the most accurate classification.\"\n}\n```",
+      "explanation": "While the author uses language often associated with libertarianism (anti-interventionism, free trade, emphasis on diplomacy), these positions can be held by individuals across the political spectrum. Without further information on their views on domestic policy or other issues, it's impossible to definitively classify their political orientation as strictly left or right. The focus on peace and diplomacy could align with some left-leaning anti-war stances, while the emphasis on free trade is often associated with right-leaning economic policies. Therefore, 'UNKNOWN' is the most accurate classification."
+    },
+    {
+      "author": "LibertarianPeaceAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author identifies as 'LibertarianPeaceAdvocate' and expresses anti-war sentiments and a preference for non-interventionism, these positions don't definitively place them on the traditional left-right political spectrum. Libertarianism encompasses a range of views that can overlap with both left and right-leaning ideologies depending on the specific issue. Without further information on their views on other topics, such as economic policy or social issues, it's impossible to accurately classify their orientation as strictly left or right.\"\n}\n```",
+      "explanation": "While the author identifies as 'LibertarianPeaceAdvocate' and expresses anti-war sentiments and a preference for non-interventionism, these positions don't definitively place them on the traditional left-right political spectrum. Libertarianism encompasses a range of views that can overlap with both left and right-leaning ideologies depending on the specific issue. Without further information on their views on other topics, such as economic policy or social issues, it's impossible to accurately classify their orientation as strictly left or right."
+    }
+  ]
+}

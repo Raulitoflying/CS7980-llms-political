@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 85.71428571428571,
+      "recall": 60.0,
+      "f1_score": 7058.823529411764,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 88.88888888888889,
+      "recall": 80.0,
+      "f1_score": 8421.052631578948,
+      "true_positive": 8,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "true_negative": 16,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "GreenBorderThoughts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on ecological ethics, concern for climate-vulnerable populations, and advocacy for a 'nuanced pathway to citizenship' and community support programs aligns with left-leaning priorities. Critiquing border security through environmental and humanitarian lenses, rather than framing it as a national security issue, reflects progressive values. The focus on systemic solutions to displacement caused by climate change and support for inclusive immigration policies further solidifies this classification, as these are hallmarks of left-wing discourse on social and environmental justice.\"\n}\n```",
+      "explanation": "The author's emphasis on ecological ethics, concern for climate-vulnerable populations, and advocacy for a 'nuanced pathway to citizenship' and community support programs aligns with left-leaning priorities. Critiquing border security through environmental and humanitarian lenses, rather than framing it as a national security issue, reflects progressive values. The focus on systemic solutions to displacement caused by climate change and support for inclusive immigration policies further solidifies this classification, as these are hallmarks of left-wing discourse on social and environmental justice."
+    },
+    {
+      "author": "BorderlineThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strengthening border security as a prerequisite for a pathway to citizenship, a stance commonly associated with right-leaning immigration policy. While supporting a pathway to citizenship (often a left-leaning position), the conditional framing prioritizes border enforcement first, aligning with conservative priorities. The skepticism about feasibility ('are we just delaying the inevitable?') reflects a pragmatic conservative perspective that doubts the effectiveness of immigration reform without strict border controls, rather than opposing the pathway outright. This combination of prioritizing border security as a non-negotiable first step is a hallmark of right-leaning immigration discourse.\"\n}\n```",
+      "explanation": "The post emphasizes strengthening border security as a prerequisite for a pathway to citizenship, a stance commonly associated with right-leaning immigration policy. While supporting a pathway to citizenship (often a left-leaning position), the conditional framing prioritizes border enforcement first, aligning with conservative priorities. The skepticism about feasibility ('are we just delaying the inevitable?') reflects a pragmatic conservative perspective that doubts the effectiveness of immigration reform without strict border controls, rather than opposing the pathway outright. This combination of prioritizing border security as a non-negotiable first step is a hallmark of right-leaning immigration discourse."
+    },
+    {
+      "author": "EcoImmigrant",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'green values,' which are strongly associated with left-leaning environmental progressivism. While advocating for 'sensible border security' introduces a centrist element, the prioritization of a 'just pathway to citizenship' aligns with left-wing immigration policies focused on inclusivity and social justice. The author's uncertainty about balancing these aspects does not detract from the dominant progressive themes, as environmentalism and support for undocumented immigrants are core issues for the political left. The mention of border security here is framed moderately ('sensible'), avoiding right-wing rhetoric focused on strict enforcement or exclusion.\"\n}\n```",
+      "explanation": "The post emphasizes 'green values,' which are strongly associated with left-leaning environmental progressivism. While advocating for 'sensible border security' introduces a centrist element, the prioritization of a 'just pathway to citizenship' aligns with left-wing immigration policies focused on inclusivity and social justice. The author's uncertainty about balancing these aspects does not detract from the dominant progressive themes, as environmentalism and support for undocumented immigrants are core issues for the political left. The mention of border security here is framed moderately ('sensible'), avoiding right-wing rhetoric focused on strict enforcement or exclusion."
+    },
+    {
+      "author": "ImmigrationDebater",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a 'pathway to citizenship for undocumented immigrants' aligns with progressive/left-leaning positions that prioritize inclusive immigration policies. While they also mention 'border security'\u2014a common conservative talking point\u2014the combination of both elements in a 'comprehensive approach' reflects a centrist or moderate stance. However, in the current U.S. political landscape, advocating for any form of citizenship pathway (even alongside security measures) is predominantly associated with the left, as the right typically opposes such measures outright. The author's uncertainty about political feasibility further hints at awareness of left-leaning proposals facing opposition, reinforcing a left-of-center perspective.\"\n}\n```",
+      "explanation": "The author's support for a 'pathway to citizenship for undocumented immigrants' aligns with progressive/left-leaning positions that prioritize inclusive immigration policies. While they also mention 'border security'\u2014a common conservative talking point\u2014the combination of both elements in a 'comprehensive approach' reflects a centrist or moderate stance. However, in the current U.S. political landscape, advocating for any form of citizenship pathway (even alongside security measures) is predominantly associated with the left, as the right typically opposes such measures outright. The author's uncertainty about political feasibility further hints at awareness of left-leaning proposals facing opposition, reinforcing a left-of-center perspective."
+    },
+    {
+      "author": "BorderThoughts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a 'nuanced approach' to border security that includes humanitarian considerations, a hallmark of left-leaning immigration discourse. While acknowledging technology (often associated with right-leaning security priorities), the emphasis on humanitarian needs\u2014such as compassion and human rights\u2014aligns more closely with progressive values. The author's skepticism about political feasibility ('given current political divides') also reflects a common left-leaning critique of right-wing resistance to comprehensive reform. The balance proposed leans toward left priorities, as the right typically minimizes humanitarian aspects in favor of strict enforcement.\"\n}\n```",
+      "explanation": "The post advocates for a 'nuanced approach' to border security that includes humanitarian considerations, a hallmark of left-leaning immigration discourse. While acknowledging technology (often associated with right-leaning security priorities), the emphasis on humanitarian needs\u2014such as compassion and human rights\u2014aligns more closely with progressive values. The author's skepticism about political feasibility ('given current political divides') also reflects a common left-leaning critique of right-wing resistance to comprehensive reform. The balance proposed leans toward left priorities, as the right typically minimizes humanitarian aspects in favor of strict enforcement."
+    },
+    {
+      "author": "OpenBordersMaybe",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a 'pathway to citizenship for some undocumented immigrants,' a policy position strongly associated with progressive/left-leaning platforms. While the author mentions 'border security,' they frame it as part of a 'nuanced approach' and prioritize integration over enforcement-only policies. The use of the term 'undocumented immigrants' (as opposed to terms like 'illegal aliens') and the emphasis on inclusivity despite 'challenges' further align with left-leaning rhetoric. The tentative tone does not negate the substantive alignment with left-wing immigration policy priorities.\"\n}\n```",
+      "explanation": "The post advocates for a 'pathway to citizenship for some undocumented immigrants,' a policy position strongly associated with progressive/left-leaning platforms. While the author mentions 'border security,' they frame it as part of a 'nuanced approach' and prioritize integration over enforcement-only policies. The use of the term 'undocumented immigrants' (as opposed to terms like 'illegal aliens') and the emphasis on inclusivity despite 'challenges' further align with left-leaning rhetoric. The tentative tone does not negate the substantive alignment with left-wing immigration policy priorities."
+    },
+    {
+      "author": "QuestioningBorders",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a mix of perspectives. While acknowledging that a pathway to citizenship (a common left-leaning position) could be part of a solution, the author also raises a right-leaning concern about incentivizing illegal immigration. The explicit uncertainty ('I am honestly not sure') and the balanced consideration of both border security limitations and potential unintended consequences of policy solutions indicate a lack of clear ideological alignment, making a definitive LEFT or RIGHT classification uncertain.\"\n}\n```",
+      "explanation": "The post expresses a mix of perspectives. While acknowledging that a pathway to citizenship (a common left-leaning position) could be part of a solution, the author also raises a right-leaning concern about incentivizing illegal immigration. The explicit uncertainty ('I am honestly not sure') and the balanced consideration of both border security limitations and potential unintended consequences of policy solutions indicate a lack of clear ideological alignment, making a definitive LEFT or RIGHT classification uncertain."
+    },
+    {
+      "author": "GreenBorderThoughts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author questions the efficacy of increased border security, emphasizing environmental and humanitarian concerns\u2014issues commonly prioritized in left-leaning discourse. Their support for a pathway to citizenship for undocumented immigrants aligns with progressive immigration policies. While acknowledging 'some level of control' might suggest moderation, the overall focus on systemic reform, environmental impact, and human rights over strict enforcement strongly indicates a left-oriented perspective. The call to explore alternatives further reflects a preference for progressive solutions over conservative 'hardline' approaches.\"\n}\n```",
+      "explanation": "The author questions the efficacy of increased border security, emphasizing environmental and humanitarian concerns\u2014issues commonly prioritized in left-leaning discourse. Their support for a pathway to citizenship for undocumented immigrants aligns with progressive immigration policies. While acknowledging 'some level of control' might suggest moderation, the overall focus on systemic reform, environmental impact, and human rights over strict enforcement strongly indicates a left-oriented perspective. The call to explore alternatives further reflects a preference for progressive solutions over conservative 'hardline' approaches."
+    },
+    {
+      "author": "ImmigrationDebater",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes a 'fair pathway to citizenship' for undocumented individuals and acknowledges their contributions to communities, which aligns with progressive/left-leaning priorities that focus on inclusivity and reform. The term 'undocumented folks' (rather than terms like 'illegal aliens') and the framing of their contributions reflect left-leaning rhetoric. While the mention of border security introduces a bipartisan concern, the overall tone prioritizes balancing enforcement with humanitarian considerations, a hallmark of center-left or left immigration discourse. The question about conflict between goals suggests a desire to reconcile security with compassion, a perspective more common in left-leaning policy debates than in right-leaning frameworks that often prioritize enforcement over pathways to citizenship.\"\n}\n```",
+      "explanation": "The post emphasizes a 'fair pathway to citizenship' for undocumented individuals and acknowledges their contributions to communities, which aligns with progressive/left-leaning priorities that focus on inclusivity and reform. The term 'undocumented folks' (rather than terms like 'illegal aliens') and the framing of their contributions reflect left-leaning rhetoric. While the mention of border security introduces a bipartisan concern, the overall tone prioritizes balancing enforcement with humanitarian considerations, a hallmark of center-left or left immigration discourse. The question about conflict between goals suggests a desire to reconcile security with compassion, a perspective more common in left-leaning policy debates than in right-leaning frameworks that often prioritize enforcement over pathways to citizenship."
+    },
+    {
+      "author": "ImmigrationDebater",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a 'nuanced approach to border security' that explicitly centers the humanity of undocumented immigrants and proposes a pathway to citizenship\u2014positions strongly aligned with progressive/left-leaning immigration frameworks. While acknowledging border security, the emphasis on compassion, human rights, and systemic integration (via citizenship pathways) reflects core left-wing priorities. The author\u2019s uncertainty about 'implications' does not negate the ideological leanings evident in the policy preferences expressed.\"\n}",
+      "explanation": "The post advocates for a 'nuanced approach to border security' that explicitly centers the humanity of undocumented immigrants and proposes a pathway to citizenship\u2014positions strongly aligned with progressive/left-leaning immigration frameworks. While acknowledging border security, the emphasis on compassion, human rights, and systemic integration (via citizenship pathways) reflects core left-wing priorities. The author\u2019s uncertainty about 'implications' does not negate the ideological leanings evident in the policy preferences expressed."
+    },
+    {
+      "author": "BorderlineThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward a pathway to citizenship, a policy more commonly associated with left-leaning positions, and instead emphasizes increased border security as a potential starting point. Prioritizing border security over immediate citizenship pathways aligns with right-leaning immigration stances, which often focus on enforcement and control. However, the author's tentative consideration of addressing undocumented immigrants already present introduces some ambiguity. Despite this nuance, the primary emphasis on border security and reluctance to endorse citizenship pathways suggests a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward a pathway to citizenship, a policy more commonly associated with left-leaning positions, and instead emphasizes increased border security as a potential starting point. Prioritizing border security over immediate citizenship pathways aligns with right-leaning immigration stances, which often focus on enforcement and control. However, the author's tentative consideration of addressing undocumented immigrants already present introduces some ambiguity. Despite this nuance, the primary emphasis on border security and reluctance to endorse citizenship pathways suggests a right-leaning orientation."
+    },
+    {
+      "author": "BorderlineConservative",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward a 'blanket pathway to citizenship,' a stance more commonly associated with conservative or right-leaning positions that prioritize strict immigration controls. They also propose 'increased border security' as part of a solution, which aligns with typical right-wing policy priorities. While acknowledging 'arguments on both sides,' the emphasis on border enforcement and reluctance toward broad citizenship pathways strongly suggests a conservative orientation. The username 'BorderlineConservative' further supports this classification, though the analysis focuses on the content itself.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward a 'blanket pathway to citizenship,' a stance more commonly associated with conservative or right-leaning positions that prioritize strict immigration controls. They also propose 'increased border security' as part of a solution, which aligns with typical right-wing policy priorities. While acknowledging 'arguments on both sides,' the emphasis on border enforcement and reluctance toward broad citizenship pathways strongly suggests a conservative orientation. The username 'BorderlineConservative' further supports this classification, though the analysis focuses on the content itself."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author prioritizes border security as a prerequisite for considering any compromise on undocumented immigrants, a stance commonly associated with right-leaning policies. While acknowledging a potential middle ground for contributing immigrants, the emphasis on securing borders first aligns with conservative priorities. The use of 'undocumented immigrants' (a term more neutral/left-aligned) is outweighed by the conditional structure of the argument, which mirrors right-wing frameworks that tie immigration reform to strict enforcement measures.\"\n}\n```",
+      "explanation": "The author prioritizes border security as a prerequisite for considering any compromise on undocumented immigrants, a stance commonly associated with right-leaning policies. While acknowledging a potential middle ground for contributing immigrants, the emphasis on securing borders first aligns with conservative priorities. The use of 'undocumented immigrants' (a term more neutral/left-aligned) is outweighed by the conditional structure of the argument, which mirrors right-wing frameworks that tie immigration reform to strict enforcement measures."
+    },
+    {
+      "author": "OpenBordersMaybe",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for a 'streamlined path to citizenship,' a policy position commonly associated with left-leaning or progressive ideologies that emphasize inclusive immigration reform. While they mention 'tech-focused border security,' this is framed as a pragmatic complement to citizenship pathways rather than a strict enforcement-first approach typical of right-leaning stances. The emphasis on reducing the undocumented population through legalization (rather than deportation or deterrence) and the lack of overt opposition to immigration on economic or cultural grounds further align with left-of-center priorities. However, the author's uncertainty about economic impacts introduces nuance, but the core proposal leans toward progressive immigration policy frameworks.\"\n}",
+      "explanation": "The author advocates for a 'streamlined path to citizenship,' a policy position commonly associated with left-leaning or progressive ideologies that emphasize inclusive immigration reform. While they mention 'tech-focused border security,' this is framed as a pragmatic complement to citizenship pathways rather than a strict enforcement-first approach typical of right-leaning stances. The emphasis on reducing the undocumented population through legalization (rather than deportation or deterrence) and the lack of overt opposition to immigration on economic or cultural grounds further align with left-of-center priorities. However, the author's uncertainty about economic impacts introduces nuance, but the core proposal leans toward progressive immigration policy frameworks."
+    },
+    {
+      "author": "BorderlineThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a mix of views. Acknowledging border security aligns with common right-leaning priorities, but questioning how to address undocumented immigrants without full citizenship introduces complexity. While the right typically opposes amnesty and the left often supports pathways to citizenship, the author's openness to alternative solutions (neither strict enforcement nor full citizenship) suggests a centrist or moderate stance. The lack of clear alignment with either ideological extreme makes a definitive LEFT or RIGHT classification uncertain.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a mix of views. Acknowledging border security aligns with common right-leaning priorities, but questioning how to address undocumented immigrants without full citizenship introduces complexity. While the right typically opposes amnesty and the left often supports pathways to citizenship, the author's openness to alternative solutions (neither strict enforcement nor full citizenship) suggests a centrist or moderate stance. The lack of clear alignment with either ideological extreme makes a definitive LEFT or RIGHT classification uncertain."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author emphasizes the necessity of stronger border security, a cornerstone of right-leaning immigration policy. While they tentatively acknowledge the contributions of some undocumented immigrants, their primary concern\u2014whether addressing their status would 'encourage more illegal immigration'\u2014aligns with a common conservative argument against pathways to citizenship or amnesty. The cautious, conditional language ('is there perhaps a reasonable way') suggests openness to limited compromise but does not override the prioritization of border enforcement, which remains a defining right-wing stance on immigration.\"\n}\n```",
+      "explanation": "The author emphasizes the necessity of stronger border security, a cornerstone of right-leaning immigration policy. While they tentatively acknowledge the contributions of some undocumented immigrants, their primary concern\u2014whether addressing their status would 'encourage more illegal immigration'\u2014aligns with a common conservative argument against pathways to citizenship or amnesty. The cautious, conditional language ('is there perhaps a reasonable way') suggests openness to limited compromise but does not override the prioritization of border enforcement, which remains a defining right-wing stance on immigration."
+    },
+    {
+      "author": "OpenBordersDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a 'reasonable path to citizenship' aligns with left-leaning positions that prioritize immigration reform and inclusivity. While they acknowledge stronger borders\u2014a common right-wing stance\u2014their skepticism about whether border measures address root issues reflects a left-wing critique of purely enforcement-focused approaches. The combination suggests a pragmatic left-leaning perspective that considers security but emphasizes systemic solutions (e.g., addressing root causes) and citizenship pathways, which are central to progressive immigration policies. The username 'OpenBordersDebater' may imply engagement with the topic but does not override the content's",
+      "explanation": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a 'reasonable path to citizenship' aligns with left-leaning positions that prioritize immigration reform and inclusivity. While they acknowledge stronger borders\u2014a common right-wing stance\u2014their skepticism about whether border measures address root issues reflects a left-wing critique of purely enforcement-focused approaches. The combination suggests a pragmatic left-leaning perspective that considers security but emphasizes systemic solutions (e.g., addressing root causes) and citizenship pathways, which are central to progressive immigration policies. The username 'OpenBordersDebater' may imply engagement with the topic but does not override the content's"
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post begins by advocating for 'enhanced border security,' a policy priority commonly associated with right-leaning ideologies. While the author expresses uncertainty about the impact on undocumented immigrants and tentatively raises the possibility of a pathway to citizenship (a more left-leaning position), the primary emphasis remains on border control. The framing of citizenship pathways as potentially 'undermin[ing] our nation' aligns with conservative rhetoric that prioritizes strict immigration enforcement over progressive reforms. However, the ambivalence and openness to pragmatic considerations (e.g., workforce needs) suggest a nuanced stance, though the dominant focus on security leans toward a right-leaning orientation.\"\n}\n```",
+      "explanation": "The post begins by advocating for 'enhanced border security,' a policy priority commonly associated with right-leaning ideologies. While the author expresses uncertainty about the impact on undocumented immigrants and tentatively raises the possibility of a pathway to citizenship (a more left-leaning position), the primary emphasis remains on border control. The framing of citizenship pathways as potentially 'undermin[ing] our nation' aligns with conservative rhetoric that prioritizes strict immigration enforcement over progressive reforms. However, the ambivalence and openness to pragmatic considerations (e.g., workforce needs) suggest a nuanced stance, though the dominant focus on security leans toward a right-leaning orientation."
+    },
+    {
+      "author": "BorderLineThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism toward both a pathway to citizenship (a stance often associated with the LEFT) and mass deportations (a policy more commonly aligned with the RIGHT). Their focus on economic costs and labor shortages reflects pragmatic concerns rather than a clear ideological alignment. While the critique of deportation's feasibility might hint at left-leaning economic priorities, the reluctance to endorse citizenship pathways complicates categorization. The post emphasizes practical trade-offs over partisan positions, making it difficult to definitively classify as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward both a pathway to citizenship (a stance often associated with the LEFT) and mass deportations (a policy more commonly aligned with the RIGHT). Their focus on economic costs and labor shortages reflects pragmatic concerns rather than a clear ideological alignment. While the critique of deportation's feasibility might hint at left-leaning economic priorities, the reluctance to endorse citizenship pathways complicates categorization. The post emphasizes practical trade-offs over partisan positions, making it difficult to definitively classify as LEFT or RIGHT."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's conditional support for a pathway to citizenship\u2014contingent on bolstering border security first\u2014aligns with a common conservative stance that prioritizes strict immigration enforcement as a prerequisite for any reform. The emphasis on addressing the 'sheer number of undocumented immigrants' reflects concerns about law and order and the feasibility of integration, which are typical of right-leaning discourse. While the author expresses uncertainty, the framing of border security as a non-negotiable first step is a hallmark of right-wing immigration policy, distinguishing it from left-leaning positions that typically advocate for citizenship pathways without such preconditions.\"\n}\n```",
+      "explanation": "The author's conditional support for a pathway to citizenship\u2014contingent on bolstering border security first\u2014aligns with a common conservative stance that prioritizes strict immigration enforcement as a prerequisite for any reform. The emphasis on addressing the 'sheer number of undocumented immigrants' reflects concerns about law and order and the feasibility of integration, which are typical of right-leaning discourse. While the author expresses uncertainty, the framing of border security as a non-negotiable first step is a hallmark of right-wing immigration policy, distinguishing it from left-leaning positions that typically advocate for citizenship pathways without such preconditions."
+    }
+  ],
+  "file_path": "Gemini_balancedData/Immigration_Reform/balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

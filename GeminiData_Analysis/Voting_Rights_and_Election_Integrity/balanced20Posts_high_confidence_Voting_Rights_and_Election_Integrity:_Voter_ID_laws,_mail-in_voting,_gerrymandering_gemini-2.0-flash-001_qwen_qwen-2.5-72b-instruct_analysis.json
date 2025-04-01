@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 10,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "DemocracyNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the importance of expanding voting rights and combating voter suppression, which are typically positions associated with the political left. The left often advocates for policies that increase access to voting and strengthen democratic participation, especially among marginalized groups.\"\n}",
+      "explanation": "The post emphasizes the importance of expanding voting rights and combating voter suppression, which are typically positions associated with the political left. The left often advocates for policies that increase access to voting and strengthen democratic participation, especially among marginalized groups."
+    },
+    {
+      "author": "LiberalVoter",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses opposition to voter ID laws, particularly emphasizing their disproportionate impact on minority communities. This stance aligns with left-leaning political views, which often advocate for policies that aim to reduce barriers to voting and promote equal access to the ballot box. The emphasis on protecting the rights of minority communities is also typically associated with liberal or left-wing political orientations.\"\n}",
+      "explanation": "The author expresses opposition to voter ID laws, particularly emphasizing their disproportionate impact on minority communities. This stance aligns with left-leaning political views, which often advocate for policies that aim to reduce barriers to voting and promote equal access to the ballot box. The emphasis on protecting the rights of minority communities is also typically associated with liberal or left-wing political orientations."
+    },
+    {
+      "author": "GreenVote",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports mail-in voting, which is often advocated by those on the left who emphasize increasing voter access and participation. The emphasis on convenience and safety also aligns with progressive views that prioritize making voting easier and more inclusive.\"\n}",
+      "explanation": "The author supports mail-in voting, which is often advocated by those on the left who emphasize increasing voter access and participation. The emphasis on convenience and safety also aligns with progressive views that prioritize making voting easier and more inclusive."
+    },
+    {
+      "author": "L-FringeRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses a strong stance against gerrymandering, which is often a position associated with the political left. The left typically advocates for electoral reforms to ensure fair representation and combat partisan manipulation of voting districts. The call to 'End partisan redistricting now!' indicates a desire for systemic change to promote more equitable and transparent electoral processes, which aligns with left-wing political values.\"\n}",
+      "explanation": "The author's post expresses a strong stance against gerrymandering, which is often a position associated with the political left. The left typically advocates for electoral reforms to ensure fair representation and combat partisan manipulation of voting districts. The call to 'End partisan redistricting now!' indicates a desire for systemic change to promote more equitable and transparent electoral processes, which aligns with left-wing political values."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The emphasis on the fundamental right to vote and the importance of building a just society through promoting voting rights aligns with left-leaning political values. These values typically prioritize democratic participation and social justice, which are strongly reflected in the author's post.\"\n}",
+      "explanation": "The emphasis on the fundamental right to vote and the importance of building a just society through promoting voting rights aligns with left-leaning political values. These values typically prioritize democratic participation and social justice, which are strongly reflected in the author's post."
+    },
+    {
+      "author": "LiberalVoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for automatic voter registration, which is a policy generally supported by those on the left of the political spectrum. This policy aims to increase voter turnout and simplify the voting process, which aligns with liberal values of expanding access to voting and promoting civic participation.\"\n}",
+      "explanation": "The author advocates for automatic voter registration, which is a policy generally supported by those on the left of the political spectrum. This policy aims to increase voter turnout and simplify the voting process, which aligns with liberal values of expanding access to voting and promoting civic participation."
+    },
+    {
+      "author": "GreenVotePower",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes the importance of access to the ballot box and protecting the right to vote, which are typically positions associated with the political left. The left often advocates for expanding voting rights and ensuring that all citizens have the opportunity to vote, viewing this as a fundamental democratic right. The phrase 'at all costs' suggests a strong commitment to this principle, further aligning with left-leaning political values.\"\n}",
+      "explanation": "The author emphasizes the importance of access to the ballot box and protecting the right to vote, which are typically positions associated with the political left. The left often advocates for expanding voting rights and ensuring that all citizens have the opportunity to vote, viewing this as a fundamental democratic right. The phrase 'at all costs' suggests a strong commitment to this principle, further aligning with left-leaning political values."
+    },
+    {
+      "author": "L-FringeJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about voter suppression, which is often a topic emphasized by those on the political left. The left typically advocates for expanding voting rights and access, viewing any form of voter suppression as a significant issue that undermines democratic processes. The phrase 'fight against voter suppression' suggests a proactive stance in support of voting rights, which aligns with left-wing political values.\"\n}",
+      "explanation": "The author expresses concern about voter suppression, which is often a topic emphasized by those on the political left. The left typically advocates for expanding voting rights and access, viewing any form of voter suppression as a significant issue that undermines democratic processes. The phrase 'fight against voter suppression' suggests a proactive stance in support of voting rights, which aligns with left-wing political values."
+    },
+    {
+      "author": "DemocracyNowMore",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The emphasis on high voter turnout as the primary goal of voting policies suggests a left-leaning perspective. This is because higher voter turnout is often advocated by those on the left, who believe it leads to a more representative and inclusive democracy, particularly benefiting marginalized and underrepresented groups. Policies that prioritize high voter turnout are typically associated with progressive or liberal political ideologies.\"\n}",
+      "explanation": "The emphasis on high voter turnout as the primary goal of voting policies suggests a left-leaning perspective. This is because higher voter turnout is often advocated by those on the left, who believe it leads to a more representative and inclusive democracy, particularly benefiting marginalized and underrepresented groups. Policies that prioritize high voter turnout are typically associated with progressive or liberal political ideologies."
+    },
+    {
+      "author": "LiberalRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's call for reforming campaign finance laws to limit the influence of money in politics aligns with left-leaning political views. This perspective often emphasizes reducing the power of wealthy individuals and corporations in the political process, advocating for more equitable representation and democratic participation. The concern about the rich 'buying elections' further supports this classification, as it reflects a critique of economic inequality and its impact on political outcomes, which is a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author's call for reforming campaign finance laws to limit the influence of money in politics aligns with left-leaning political views. This perspective often emphasizes reducing the power of wealthy individuals and corporations in the political process, advocating for more equitable representation and democratic participation. The concern about the rich 'buying elections' further supports this classification, as it reflects a critique of economic inequality and its impact on political outcomes, which is a common theme in left-wing discourse."
+    },
+    {
+      "author": "SecureVote",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and emphasis on preventing fraud and protecting election integrity aligns with common conservative or right-wing positions. These views typically advocate for stricter election security measures, which are often promoted by right-leaning political groups to prevent what they perceive as potential electoral fraud.\"\n}",
+      "explanation": "The author's support for voter ID laws and emphasis on preventing fraud and protecting election integrity aligns with common conservative or right-wing positions. These views typically advocate for stricter election security measures, which are often promoted by right-leaning political groups to prevent what they perceive as potential electoral fraud."
+    },
+    {
+      "author": "ConservativeVote",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on limiting mail-in voting due to concerns about fraud aligns with common conservative political views. Conservatives often advocate for stricter voting regulations, particularly regarding mail-in ballots, citing potential for electoral fraud and the importance of maintaining the integrity of the voting process. The preference for in-person voting as the most secure method further supports this classification, as it reflects a skepticism towards alternative voting methods that is typically more pronounced on the right side of the political spectrum.\"\n}",
+      "explanation": "The author's stance on limiting mail-in voting due to concerns about fraud aligns with common conservative political views. Conservatives often advocate for stricter voting regulations, particularly regarding mail-in ballots, citing potential for electoral fraud and the importance of maintaining the integrity of the voting process. The preference for in-person voting as the most secure method further supports this classification, as it reflects a skepticism towards alternative voting methods that is typically more pronounced on the right side of the political spectrum."
+    },
+    {
+      "author": "R-FringeIntegrity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The emphasis on 'election integrity' and the need to 'take precautions against corruption' are themes often highlighted by individuals on the political right, particularly in recent years. These concerns are frequently associated with right-wing narratives that focus on potential voter fraud and the integrity of electoral processes. While these issues can be of concern across the political spectrum, the specific framing and the urgency expressed in the post align more closely with right-wing rhetoric.\"\n}",
+      "explanation": "The emphasis on 'election integrity' and the need to 'take precautions against corruption' are themes often highlighted by individuals on the political right, particularly in recent years. These concerns are frequently associated with right-wing narratives that focus on potential voter fraud and the integrity of electoral processes. While these issues can be of concern across the political spectrum, the specific framing and the urgency expressed in the post align more closely with right-wing rhetoric."
+    },
+    {
+      "author": "RepublicanVote",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The emphasis on 'accurate voter rolls' and ensuring 'only eligible citizens are voting' aligns with common conservative or right-wing political positions. These views often prioritize election security and are concerned with preventing voter fraud, which is a frequent topic in right-wing political discourse. The author's username, 'RepublicanVote,' also suggests an affiliation with the Republican Party, which is generally associated with right-wing politics in the United States.\"\n}",
+      "explanation": "The emphasis on 'accurate voter rolls' and ensuring 'only eligible citizens are voting' aligns with common conservative or right-wing political positions. These views often prioritize election security and are concerned with preventing voter fraud, which is a frequent topic in right-wing political discourse. The author's username, 'RepublicanVote,' also suggests an affiliation with the Republican Party, which is generally associated with right-wing politics in the United States."
+    },
+    {
+      "author": "ConservativeValues",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'ConservativeValues' suggests a right-leaning political orientation. Additionally, the post content defends gerrymandering, a practice often supported by conservatives as a means to maintain or enhance their political power, particularly in the context of redistricting. The statement that gerrymandering is 'necessary to ensure fair representation' aligns with arguments that conservatives might make to justify the practice, even though it is widely criticized by many as a tool for partisan advantage.\"\n}",
+      "explanation": "The author's username 'ConservativeValues' suggests a right-leaning political orientation. Additionally, the post content defends gerrymandering, a practice often supported by conservatives as a means to maintain or enhance their political power, particularly in the context of redistricting. The statement that gerrymandering is 'necessary to ensure fair representation' aligns with arguments that conservatives might make to justify the practice, even though it is widely criticized by many as a tool for partisan advantage."
+    },
+    {
+      "author": "R-FringeDefend",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes the need to defend the integrity of elections and to hold leaders accountable for suspected fraud. This focus on election integrity and potential fraud is often a theme associated with right-wing political discourse, particularly in the context of recent political debates in the United States where concerns about election fraud have been prominently raised by conservative politicians and media. The language and the emphasis on accountability suggest a concern that aligns more closely with right-wing political orientations.\"\n}",
+      "explanation": "The post emphasizes the need to defend the integrity of elections and to hold leaders accountable for suspected fraud. This focus on election integrity and potential fraud is often a theme associated with right-wing political discourse, particularly in the context of recent political debates in the United States where concerns about election fraud have been prominently raised by conservative politicians and media. The language and the emphasis on accountability suggest a concern that aligns more closely with right-wing political orientations."
+    },
+    {
+      "author": "SecureElections",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post emphasizes the importance of securing elections and maintaining the integrity of the ballot process. While this is a concern that can be found across the political spectrum, the content does not provide enough information to definitively classify the author's political orientation as left or right. Both sides may advocate for election security, but for potentially different reasons and with different proposed solutions. Without more context or specific policy stances, the orientation remains unknown.\"\n}",
+      "explanation": "The post emphasizes the importance of securing elections and maintaining the integrity of the ballot process. While this is a concern that can be found across the political spectrum, the content does not provide enough information to definitively classify the author's political orientation as left or right. Both sides may advocate for election security, but for potentially different reasons and with different proposed solutions. Without more context or specific policy stances, the orientation remains unknown."
+    },
+    {
+      "author": "ConservativeUSA",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement advocating for limiting early voting periods to preserve election integrity and avoid fraud aligns with common conservative viewpoints. Conservatives often express concerns about election security and may support measures that they believe will reduce the potential for voter fraud, even if these measures could also restrict voting access. This stance is in contrast to more liberal positions that typically emphasize expanding voting access and reducing barriers to voting.\"\n}",
+      "explanation": "The author's statement advocating for limiting early voting periods to preserve election integrity and avoid fraud aligns with common conservative viewpoints. Conservatives often express concerns about election security and may support measures that they believe will reduce the potential for voter fraud, even if these measures could also restrict voting access. This stance is in contrast to more liberal positions that typically emphasize expanding voting access and reducing barriers to voting."
+    },
+    {
+      "author": "RFringeTruth",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about a 'coordinated effort to undermine our elections' and refers to the country as a 'republic,' which are themes often emphasized by right-leaning individuals. The language suggests a strong defense of the current electoral system and a perceived threat from those who criticize or question it, which aligns with right-wing rhetoric that often emphasizes the protection of traditional institutions and skepticism towards claims of electoral fraud or manipulation.\"\n}",
+      "explanation": "The post expresses concern about a 'coordinated effort to undermine our elections' and refers to the country as a 'republic,' which are themes often emphasized by right-leaning individuals. The language suggests a strong defense of the current electoral system and a perceived threat from those who criticize or question it, which aligns with right-wing rhetoric that often emphasizes the protection of traditional institutions and skepticism towards claims of electoral fraud or manipulation."
+    },
+    {
+      "author": "RightToVote",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a belief in universal suffrage, which is a principle generally supported across the political spectrum. The author also mentions support for election methods that avoid compulsory voting and minimize burdens, which can be interpreted as a preference for individual freedom and practical, accessible voting processes. These views do not strongly align with either the left or the right, as both sides can advocate for these principles. Therefore, the political orientation of the author remains unknown based on the provided content.\"\n}",
+      "explanation": "The post expresses a belief in universal suffrage, which is a principle generally supported across the political spectrum. The author also mentions support for election methods that avoid compulsory voting and minimize burdens, which can be interpreted as a preference for individual freedom and practical, accessible voting processes. These views do not strongly align with either the left or the right, as both sides can advocate for these principles. Therefore, the political orientation of the author remains unknown based on the provided content."
+    }
+  ]
+}

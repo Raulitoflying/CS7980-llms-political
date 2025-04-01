@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 90.0,
+      "recall": 90.0,
+      "f1_score": 9000.0,
+      "true_positive": 9,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "true_negative": 16,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "Vote4Democracy",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all commonly held beliefs within the Democratic party and the broader left-wing political spectrum. These positions generally reflect a concern for voter access and fair representation, which are central tenets of left-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all commonly held beliefs within the Democratic party and the broader left-wing political spectrum. These positions generally reflect a concern for voter access and fair representation, which are central tenets of left-leaning political ideologies."
+    },
+    {
+      "author": "GreenVoterRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the opposition to Voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all commonly held beliefs within the Democratic party and the broader left-wing political spectrum. These positions are generally associated with efforts to increase voter access and ensure fair representation for minority groups and urban populations, which tend to lean left.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the opposition to Voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all commonly held beliefs within the Democratic party and the broader left-wing political spectrum. These positions are generally associated with efforts to increase voter access and ensure fair representation for minority groups and urban populations, which tend to lean left."
+    },
+    {
+      "author": "DefendElectionIntegrity",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statements present a mixed bag of viewpoints that don't clearly align with either the left or the right. Supporting voter ID laws and opposing mail-in voting are typically associated with right-leaning perspectives, often framed as concerns about election security. However, condemning gerrymandering is generally a left-leaning position, as it's seen as a way to unfairly advantage one party over another. Because the author expresses views associated with both sides, it's impossible to definitively classify their political orientation without more information.\"\n}\n```",
+      "explanation": "The author's statements present a mixed bag of viewpoints that don't clearly align with either the left or the right. Supporting voter ID laws and opposing mail-in voting are typically associated with right-leaning perspectives, often framed as concerns about election security. However, condemning gerrymandering is generally a left-leaning position, as it's seen as a way to unfairly advantage one party over another. Because the author expresses views associated with both sides, it's impossible to definitively classify their political orientation without more information."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statements present a mixed bag of viewpoints that don't clearly align with either the left or the right. While advocating for voter ID laws is often associated with the right, the condemnation of gerrymandering is more commonly associated with the left. The concern for election integrity is a shared concern across the political spectrum, although the specific solutions proposed often differ. Without further information, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statements present a mixed bag of viewpoints that don't clearly align with either the left or the right. While advocating for voter ID laws is often associated with the right, the condemnation of gerrymandering is more commonly associated with the left. The concern for election integrity is a shared concern across the political spectrum, although the specific solutions proposed often differ. Without further information, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "ProgressiveVoterRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's views align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all stances commonly held by progressives and Democrats. These positions generally reflect a concern for voter access and fair representation, which are central tenets of left-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's views align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all stances commonly held by progressives and Democrats. These positions generally reflect a concern for voter access and fair representation, which are central tenets of left-leaning political ideologies."
+    },
+    {
+      "author": "VoterRightsGuardian",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses views that are associated with both the right and the left. Supporting voter ID laws and expressing concern about mail-in voting are typically associated with the right. However, advocating for abolishing gerrymandering is a position typically associated with the left. Without further information, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses views that are associated with both the right and the left. Supporting voter ID laws and expressing concern about mail-in voting are typically associated with the right. However, advocating for abolishing gerrymandering is a position typically associated with the left. Without further information, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "GreenVotesMatter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, the criticism of gerrymandering, and the support for expanded mail-in voting are all commonly associated with the Democratic party and progressive political movements. These positions generally aim to increase voter turnout, particularly among demographics that tend to vote for left-leaning candidates.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, the criticism of gerrymandering, and the support for expanded mail-in voting are all commonly associated with the Democratic party and progressive political movements. These positions generally aim to increase voter turnout, particularly among demographics that tend to vote for left-leaning candidates."
+    },
+    {
+      "author": "VotingRightsWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for expanded mail-in voting, and the call to abolish gerrymandering are all commonly associated with the Democratic Party and progressive political movements. These positions are generally argued as ways to increase voter turnout and ensure fair representation for all citizens, particularly those from marginalized communities.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for expanded mail-in voting, and the call to abolish gerrymandering are all commonly associated with the Democratic Party and progressive political movements. These positions are generally argued as ways to increase voter turnout and ensure fair representation for all citizens, particularly those from marginalized communities."
+    },
+    {
+      "author": "DemocracyDefender2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all stances commonly held by those on the left side of the political spectrum in the United States. These positions are often associated with concerns about voter access and fairness, particularly for minority groups and low-income individuals.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the opposition to voter ID laws, support for mail-in voting, and condemnation of gerrymandering are all stances commonly held by those on the left side of the political spectrum in the United States. These positions are often associated with concerns about voter access and fairness, particularly for minority groups and low-income individuals."
+    },
+    {
+      "author": "ElectionGuardian2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Specifically, the support for Voter ID laws is a typical Republican stance, often justified as a measure to prevent voter fraud. Conversely, the criticism of mail-in voting and gerrymandering as attempts to manipulate outcomes is also a common Republican talking point, suggesting a belief that these practices disproportionately benefit Democrats.\"\n}\n```",
+      "explanation": "The author's statements align with common conservative viewpoints. Specifically, the support for Voter ID laws is a typical Republican stance, often justified as a measure to prevent voter fraud. Conversely, the criticism of mail-in voting and gerrymandering as attempts to manipulate outcomes is also a common Republican talking point, suggesting a belief that these practices disproportionately benefit Democrats."
+    },
+    {
+      "author": "ConservativeVoter2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Supporting voter ID laws and expressing concern about mail-in voting are typically associated with the right, as these positions often stem from concerns about voter fraud, even though evidence suggests it's not widespread. While opposing gerrymandering is not exclusively a right-wing position, the combination of all three statements strongly suggests a conservative political orientation.\"\n}\n```",
+      "explanation": "The author's statements align with common conservative viewpoints. Supporting voter ID laws and expressing concern about mail-in voting are typically associated with the right, as these positions often stem from concerns about voter fraud, even though evidence suggests it's not widespread. While opposing gerrymandering is not exclusively a right-wing position, the combination of all three statements strongly suggests a conservative political orientation."
+    },
+    {
+      "author": "LibertyGuardian1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and opposition to mail-in voting are typically associated with the Republican Party and conservative viewpoints. These positions are often argued as necessary to prevent voter fraud, a common concern within right-leaning political circles. While the author's opposition to gerrymandering might seem contradictory, it's possible they view it as a corrupt practice that benefits both parties and undermines fair representation, a sentiment that can be found across the political spectrum but doesn't negate the other indicators pointing towards a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's support for voter ID laws and opposition to mail-in voting are typically associated with the Republican Party and conservative viewpoints. These positions are often argued as necessary to prevent voter fraud, a common concern within right-leaning political circles. While the author's opposition to gerrymandering might seem contradictory, it's possible they view it as a corrupt practice that benefits both parties and undermines fair representation, a sentiment that can be found across the political spectrum but doesn't negate the other indicators pointing towards a right-leaning orientation."
+    },
+    {
+      "author": "ConservativeGuardian2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and skepticism towards mail-in voting are positions commonly associated with the right. While the author also opposes gerrymandering, which is a position that can be held by people across the political spectrum, the combination of views expressed leans towards a conservative perspective on election integrity.\"\n}\n```",
+      "explanation": "The author's support for voter ID laws and skepticism towards mail-in voting are positions commonly associated with the right. While the author also opposes gerrymandering, which is a position that can be held by people across the political spectrum, the combination of views expressed leans towards a conservative perspective on election integrity."
+    },
+    {
+      "author": "LibertyDefender99",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post contains elements that could be associated with both left and right political orientations, making it difficult to definitively classify them. Supporting voter ID laws and opposing mail-in voting are typically associated with right-leaning viewpoints, often justified by concerns about election security. However, the strong condemnation of gerrymandering, a practice often used to benefit one party over another, aligns with a left-leaning perspective that prioritizes fair representation. The emphasis on election integrity and fair counting of votes, while seemingly neutral, can be interpreted differently depending on the context and underlying assumptions. Without further information, it's impossible to determine the author's overall political orientation.\"\n}\n```",
+      "explanation": "The author's post contains elements that could be associated with both left and right political orientations, making it difficult to definitively classify them. Supporting voter ID laws and opposing mail-in voting are typically associated with right-leaning viewpoints, often justified by concerns about election security. However, the strong condemnation of gerrymandering, a practice often used to benefit one party over another, aligns with a left-leaning perspective that prioritizes fair representation. The emphasis on election integrity and fair counting of votes, while seemingly neutral, can be interpreted differently depending on the context and underlying assumptions. Without further information, it's impossible to determine the author's overall political orientation."
+    },
+    {
+      "author": "PatriotGuardian2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Specifically, the support for voter ID laws, the skepticism towards mail-in voting (often framed as inviting fraud), and the concern about gerrymandering (though concerns about gerrymandering exist across the political spectrum, the emphasis on 'election integrity' in conjunction with the other points strongly suggests a right-leaning perspective) are all positions frequently held by those on the right.\"\n}\n```",
+      "explanation": "The author's statements align with common conservative viewpoints. Specifically, the support for voter ID laws, the skepticism towards mail-in voting (often framed as inviting fraud), and the concern about gerrymandering (though concerns about gerrymandering exist across the political spectrum, the emphasis on 'election integrity' in conjunction with the other points strongly suggests a right-leaning perspective) are all positions frequently held by those on the right."
+    },
+    {
+      "author": "ConservativeGuardian1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Supporting voter ID laws is a typical conservative position, often argued as a way to prevent voter fraud. Criticizing mail-in voting as prone to fraud is also a common conservative stance. While opposing gerrymandering can be found across the political spectrum, the combination of these three positions strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's statements align with common conservative viewpoints. Supporting voter ID laws is a typical conservative position, often argued as a way to prevent voter fraud. Criticizing mail-in voting as prone to fraud is also a common conservative stance. While opposing gerrymandering can be found across the political spectrum, the combination of these three positions strongly suggests a right-leaning political orientation."
+    },
+    {
+      "author": "ConservativeGuardian2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's views on voter ID laws and mail-in voting align with common conservative viewpoints. Conservatives often advocate for stricter voter ID laws to prevent voter fraud and express concerns about the security of mail-in voting. While the author also expresses disapproval of gerrymandering, which is a more neutral stance, the emphasis on voter ID and mail-in voting security strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's views on voter ID laws and mail-in voting align with common conservative viewpoints. Conservatives often advocate for stricter voter ID laws to prevent voter fraud and express concerns about the security of mail-in voting. While the author also expresses disapproval of gerrymandering, which is a more neutral stance, the emphasis on voter ID and mail-in voting security strongly suggests a right-leaning political orientation."
+    },
+    {
+      "author": "LibertyDefender99",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements regarding voter ID laws and mail-in voting align with common conservative viewpoints. Conservatives often argue that voter ID laws are necessary to prevent voter fraud and that mail-in voting is more susceptible to fraud. While the author also criticizes gerrymandering, which is a bipartisan issue, the emphasis on voter ID and mail-in voting as primary concerns suggests a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's statements regarding voter ID laws and mail-in voting align with common conservative viewpoints. Conservatives often argue that voter ID laws are necessary to prevent voter fraud and that mail-in voting is more susceptible to fraud. While the author also criticizes gerrymandering, which is a bipartisan issue, the emphasis on voter ID and mail-in voting as primary concerns suggests a right-leaning perspective."
+    },
+    {
+      "author": "LibertarianDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common conservative viewpoints. Supporting voter ID laws is a position typically held by those on the right, who argue it prevents voter fraud. The concern about mail-in voting also reflects a common right-leaning perspective that it is susceptible to fraud. While concern about gerrymandering can be found across the political spectrum, the combination of these views suggests a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's statements align with common conservative viewpoints. Supporting voter ID laws is a position typically held by those on the right, who argue it prevents voter fraud. The concern about mail-in voting also reflects a common right-leaning perspective that it is susceptible to fraud. While concern about gerrymandering can be found across the political spectrum, the combination of these views suggests a right-leaning orientation."
+    },
+    {
+      "author": "PatriotForIntegrity",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and emphasis on in-person voting aligns with common conservative viewpoints. Conservatives often argue that such measures are necessary to prevent voter fraud and maintain election integrity, while liberals tend to view them as discriminatory and suppressive of voter turnout, particularly among minority and low-income communities.\"\n}\n```",
+      "explanation": "The author's support for voter ID laws and emphasis on in-person voting aligns with common conservative viewpoints. Conservatives often argue that such measures are necessary to prevent voter fraud and maintain election integrity, while liberals tend to view them as discriminatory and suppressive of voter turnout, particularly among minority and low-income communities."
+    }
+  ]
+}

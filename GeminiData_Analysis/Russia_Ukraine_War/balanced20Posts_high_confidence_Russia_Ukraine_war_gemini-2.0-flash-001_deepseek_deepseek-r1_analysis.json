@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 75.0,
+      "recall": 90.0,
+      "f1_score": 8181.818181818181,
+      "true_positive": 9,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "StandWithUkraineNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes a 'moral imperative to defend democracy' and condemns 'Putin's brutal authoritarianism and imperialist aggression,' which aligns with left-leaning values that prioritize anti-authoritarianism, opposition to imperialism, and international solidarity. While support for Ukraine is bipartisan in some contexts, the framing here\u2014using terms like 'imperialist' (often critiqued by the left in other geopolitical contexts) and framing the conflict as a defense of democratic principles\u2014resonates more strongly with progressive or liberal ideologies. The moral urgency and focus on systemic critiques of authoritarianism further suggest a left-oriented perspective.\"\n}\n```",
+      "explanation": "The post emphasizes a 'moral imperative to defend democracy' and condemns 'Putin's brutal authoritarianism and imperialist aggression,' which aligns with left-leaning values that prioritize anti-authoritarianism, opposition to imperialism, and international solidarity. While support for Ukraine is bipartisan in some contexts, the framing here\u2014using terms like 'imperialist' (often critiqued by the left in other geopolitical contexts) and framing the conflict as a defense of democratic principles\u2014resonates more strongly with progressive or liberal ideologies. The moral urgency and focus on systemic critiques of authoritarianism further suggest a left-oriented perspective."
+    },
+    {
+      "author": "AntiGlobalistPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs terminology and narratives commonly associated with right-wing discourse. The use of 'globalists' as a pejorative term aligns with conspiratorial right-wing rhetoric that often frames international cooperation as a threat to national sovereignty, sometimes with anti-Semitic undertones. The assertion that Russia is 'justified in defending itself from NATO expansionism' mirrors isolationist and pro-authoritarian stances found in certain right-wing circles, which may sympathize with Russia as a counter to Western liberal institutions. Additionally, the username 'AntiGlobalistPatriot' reinforces nationalist and anti-internationalist sentiments. While leftist critiques of NATO exist, they typically focus on anti-imperialism without framing Ukraine as a 'puppet state' of globalists, a phrase more indicative of right-wing populist rhetoric.\"\n}\n```",
+      "explanation": "The post employs terminology and narratives commonly associated with right-wing discourse. The use of 'globalists' as a pejorative term aligns with conspiratorial right-wing rhetoric that often frames international cooperation as a threat to national sovereignty, sometimes with anti-Semitic undertones. The assertion that Russia is 'justified in defending itself from NATO expansionism' mirrors isolationist and pro-authoritarian stances found in certain right-wing circles, which may sympathize with Russia as a counter to Western liberal institutions. Additionally, the username 'AntiGlobalistPatriot' reinforces nationalist and anti-internationalist sentiments. While leftist critiques of NATO exist, they typically focus on anti-imperialism without framing Ukraine as a 'puppet state' of globalists, a phrase more indicative of right-wing populist rhetoric."
+    },
+    {
+      "author": "StandWithUkraineNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'moral imperative,' 'authoritarian aggression,' and 'defense of democracy' as reasons to support Ukraine, which aligns with left-leaning rhetoric that often prioritizes democratic values, international cooperation, and opposition to authoritarian regimes. While support for arming Ukraine can be bipartisan, the framing focuses on systemic critiques of authoritarianism (a common left-wing theme) rather than purely geopolitical or nationalistic concerns. The urgency and moral urgency also reflect progressive priorities in defending global democratic institutions.\"\n}\n```",
+      "explanation": "The post emphasizes 'moral imperative,' 'authoritarian aggression,' and 'defense of democracy' as reasons to support Ukraine, which aligns with left-leaning rhetoric that often prioritizes democratic values, international cooperation, and opposition to authoritarian regimes. While support for arming Ukraine can be bipartisan, the framing focuses on systemic critiques of authoritarianism (a common left-wing theme) rather than purely geopolitical or nationalistic concerns. The urgency and moral urgency also reflect progressive priorities in defending global democratic institutions."
+    },
+    {
+      "author": "AntiGlobalistPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs rhetoric commonly associated with right-wing political narratives. The term 'globalists' is a frequent dog whistle in right-wing and conspiracy circles, often used to imply a shadowy international elite undermining national sovereignty. The framing of Ukraine as a 'corrupt puppet state' aligns with pro-Russian authoritarian sympathies and anti-Western sentiment, which are prevalent in some far-right ideologies. Additionally, the defense of Russia's actions as a response to 'NATO expansionism' echoes isolationist and anti-interventionist positions that overlap with right-wing populism. The username 'AntiGlobalistPatriot' further reinforces nationalist and anti-internationalist themes, which are hallmarks of right-wing discourse. While criticism of NATO exists across the political spectrum, the specific combination of anti-globalism, overt support for Russia, and nationalist language strongly indicates a right-wing orientation.\"\n}\n```",
+      "explanation": "The post employs rhetoric commonly associated with right-wing political narratives. The term 'globalists' is a frequent dog whistle in right-wing and conspiracy circles, often used to imply a shadowy international elite undermining national sovereignty. The framing of Ukraine as a 'corrupt puppet state' aligns with pro-Russian authoritarian sympathies and anti-Western sentiment, which are prevalent in some far-right ideologies. Additionally, the defense of Russia's actions as a response to 'NATO expansionism' echoes isolationist and anti-interventionist positions that overlap with right-wing populism. The username 'AntiGlobalistPatriot' further reinforces nationalist and anti-internationalist themes, which are hallmarks of right-wing discourse. While criticism of NATO exists across the political spectrum, the specific combination of anti-globalism, overt support for Russia, and nationalist language strongly indicates a right-wing orientation."
+    },
+    {
+      "author": "AntiGlobalistPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs terminology and themes commonly associated with right-wing or nationalist ideologies. The use of 'globalists' as a pejorative term aligns with right-wing conspiratorial narratives that oppose international cooperation and perceived elite control. The defense of Russia's actions against NATO expansionism reflects a sovereigntist, anti-interventionist stance often linked to right-wing populism. Emphasis on protecting 'Russian sovereignty and culture from Western decadence' prioritizes traditionalism and national identity, which are hallmarks of conservative or right-wing rhetoric. The framing of Ukraine as a 'corrupt puppet state' further reinforces distrust of multilateral institutions and liberal democratic values, consistent with right-wing critiques of globalization.\"\n}\n```",
+      "explanation": "The post employs terminology and themes commonly associated with right-wing or nationalist ideologies. The use of 'globalists' as a pejorative term aligns with right-wing conspiratorial narratives that oppose international cooperation and perceived elite control. The defense of Russia's actions against NATO expansionism reflects a sovereigntist, anti-interventionist stance often linked to right-wing populism. Emphasis on protecting 'Russian sovereignty and culture from Western decadence' prioritizes traditionalism and national identity, which are hallmarks of conservative or right-wing rhetoric. The framing of Ukraine as a 'corrupt puppet state' further reinforces distrust of multilateral institutions and liberal democratic values, consistent with right-wing critiques of globalization."
+    },
+    {
+      "author": "EcoWarriorsUnited",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes divestment from fossil fuels, environmental sustainability, and links fossil fuel funding to war (specifically referencing Putin and Ukraine)\u2014themes strongly aligned with left-leaning priorities. The urgency, moral framing, and focus on renewable energy as a path to peace reflect progressive environmental and anti-war stances. There is no indication of right-wing concerns like nationalism or economic conservatism, solidifying the left classification.\"\n}\n```",
+      "explanation": "The post emphasizes divestment from fossil fuels, environmental sustainability, and links fossil fuel funding to war (specifically referencing Putin and Ukraine)\u2014themes strongly aligned with left-leaning priorities. The urgency, moral framing, and focus on renewable energy as a path to peace reflect progressive environmental and anti-war stances. There is no indication of right-wing concerns like nationalism or economic conservatism, solidifying the left classification."
+    },
+    {
+      "author": "StandWithUkraineNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes a 'moral imperative' to defend democracy and support those 'fighting for their freedom,' language commonly aligned with progressive or left-leaning values that prioritize human rights, international solidarity, and opposition to authoritarianism. While support for Ukraine is bipartisan in many contexts, the framing here\u2014centering morality and democratic ideals over national security or sovereignty concerns\u2014resonates more strongly with left-wing discourse. Additionally, the absence of isolationist or militaristic rhetoric further supports this classification, as left-leaning perspectives often advocate for collective action against aggression rooted in ethical obligations.\"\n}\n```",
+      "explanation": "The post emphasizes a 'moral imperative' to defend democracy and support those 'fighting for their freedom,' language commonly aligned with progressive or left-leaning values that prioritize human rights, international solidarity, and opposition to authoritarianism. While support for Ukraine is bipartisan in many contexts, the framing here\u2014centering morality and democratic ideals over national security or sovereignty concerns\u2014resonates more strongly with left-wing discourse. Additionally, the absence of isolationist or militaristic rhetoric further supports this classification, as left-leaning perspectives often advocate for collective action against aggression rooted in ethical obligations."
+    },
+    {
+      "author": "EcoActionNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes fossil fuel dependence as a driver of conflict and advocates for a rapid shift to renewable energy, aligning with left-leaning environmental and anti-war positions. The connection between fossil fuels and geopolitical instability (e.g., Russia's role in the Ukraine war) is a common critique in progressive discourse, which often links climate action to global justice and peace. The urgency of transitioning to renewables reflects policies like the Green New Deal, typically associated with the left. Support for Ukrainian sovereignty against aggression also resonates with left-leaning international solidarity stances.\"\n}\n```",
+      "explanation": "The post emphasizes fossil fuel dependence as a driver of conflict and advocates for a rapid shift to renewable energy, aligning with left-leaning environmental and anti-war positions. The connection between fossil fuels and geopolitical instability (e.g., Russia's role in the Ukraine war) is a common critique in progressive discourse, which often links climate action to global justice and peace. The urgency of transitioning to renewables reflects policies like the Green New Deal, typically associated with the left. Support for Ukrainian sovereignty against aggression also resonates with left-leaning international solidarity stances."
+    },
+    {
+      "author": "EcoActionNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes urgent divestment from fossil fuels, a transition to renewable energy, and links these actions to opposing geopolitical conflict (specifically referencing Putin's war machine). These positions align with left-leaning priorities, which often prioritize environmental sustainability, climate action, and anti-war efforts. The framing of fossil fuel dependence as funding authoritarian regimes and the call for systemic energy transition as a path to 'global peace' further reflect progressive or leftist discourse that connects environmental policy with broader social and geopolitical justice.\"\n}\n```",
+      "explanation": "The post emphasizes urgent divestment from fossil fuels, a transition to renewable energy, and links these actions to opposing geopolitical conflict (specifically referencing Putin's war machine). These positions align with left-leaning priorities, which often prioritize environmental sustainability, climate action, and anti-war efforts. The framing of fossil fuel dependence as funding authoritarian regimes and the call for systemic energy transition as a path to 'global peace' further reflect progressive or leftist discourse that connects environmental policy with broader social and geopolitical justice."
+    },
+    {
+      "author": "EcoActionNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes divestment from fossil fuels, a transition to renewable energy, and links these actions to geopolitical outcomes (defunding Putin, peace in Ukraine). These positions align with left-leaning priorities such as climate activism, anti-war efforts, and systemic critiques of fossil fuel industries. The framing of energy independence through renewables (rather than domestic fossil fuel expansion) and the connection between environmental policy and global conflict resolution are consistent with progressive or leftist discourse.\"\n}\n```",
+      "explanation": "The post emphasizes divestment from fossil fuels, a transition to renewable energy, and links these actions to geopolitical outcomes (defunding Putin, peace in Ukraine). These positions align with left-leaning priorities such as climate activism, anti-war efforts, and systemic critiques of fossil fuel industries. The framing of energy independence through renewables (rather than domestic fossil fuel expansion) and the connection between environmental policy and global conflict resolution are consistent with progressive or leftist discourse."
+    },
+    {
+      "author": "AntiGlobalistPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs terminology and narratives commonly associated with right-wing or conservative perspectives. The phrase 'corrupt puppet state of globalist elites' invokes anti-globalist and anti-internationalist rhetoric often linked to right-wing populism, which frequently frames global institutions and cooperation as threats to national sovereignty. The claim that 'Russia is acting in self-defense against NATO expansionism' aligns with isolationist and pro-Russia narratives that have gained traction in some right-wing circles, particularly those critical of U.S. foreign policy and NATO's role. The call to 'end the endless war machine' superficially resembles anti-interventionist left-wing critiques but, in this context, serves to legitimize Russia's actions while dismissing Ukraine's agency\u2014a stance more consistent with right-wing skepticism of multilateral alliances and support for authoritarian regimes. The overall framing prioritizes nationalist sovereignty over collective security, a hallmark of right-wing ideology.\"\n}\n```",
+      "explanation": "The post employs terminology and narratives commonly associated with right-wing or conservative perspectives. The phrase 'corrupt puppet state of globalist elites' invokes anti-globalist and anti-internationalist rhetoric often linked to right-wing populism, which frequently frames global institutions and cooperation as threats to national sovereignty. The claim that 'Russia is acting in self-defense against NATO expansionism' aligns with isolationist and pro-Russia narratives that have gained traction in some right-wing circles, particularly those critical of U.S. foreign policy and NATO's role. The call to 'end the endless war machine' superficially resembles anti-interventionist left-wing critiques but, in this context, serves to legitimize Russia's actions while dismissing Ukraine's agency\u2014a stance more consistent with right-wing skepticism of multilateral alliances and support for authoritarian regimes. The overall framing prioritizes nationalist sovereignty over collective security, a hallmark of right-wing ideology."
+    },
+    {
+      "author": "User9567",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author aligns with Republican values, emphasizing a strong national defense, deterrence against aggression, and the use of alliances\u2014all hallmarks of traditional right-leaning foreign policy. While bipartisan support for Ukraine exists, the framing of 'defensive aid' and prioritizing a negotiated settlement that protects sovereignty reflects a conservative approach to international relations. The explicit mention of Republicans and their strategic priorities further solidifies the right-wing orientation.\"\n}\n```",
+      "explanation": "The author aligns with Republican values, emphasizing a strong national defense, deterrence against aggression, and the use of alliances\u2014all hallmarks of traditional right-leaning foreign policy. While bipartisan support for Ukraine exists, the framing of 'defensive aid' and prioritizing a negotiated settlement that protects sovereignty reflects a conservative approach to international relations. The explicit mention of Republicans and their strategic priorities further solidifies the right-wing orientation."
+    },
+    {
+      "author": "LibertyDefender76",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'prioritizing American interests' and ensuring resources are 'used wisely,' which aligns with right-leaning fiscal conservatism and nationalism. While support for Ukraine is bipartisan, the framing of foreign policy through a lens of national interest and resource efficiency, alongside terms like 'tyranny' (often used by the right to critique adversaries), suggests a right-wing perspective. The focus on defending liberty globally also resonates with neoconservative or interventionist tendencies historically associated with the right.\"\n}\n```",
+      "explanation": "The post emphasizes 'prioritizing American interests' and ensuring resources are 'used wisely,' which aligns with right-leaning fiscal conservatism and nationalism. While support for Ukraine is bipartisan, the framing of foreign policy through a lens of national interest and resource efficiency, alongside terms like 'tyranny' (often used by the right to critique adversaries), suggests a right-wing perspective. The focus on defending liberty globally also resonates with neoconservative or interventionist tendencies historically associated with the right."
+    },
+    {
+      "author": "EndlessWarCosts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for non-interventionism, ending foreign aid to Ukraine, and emphasizes fiscal responsibility ('wasted taxpayer money')\u2014positions commonly associated with right-leaning libertarian or isolationist ideologies. While anti-war sentiment exists on the left, the specific opposition to Ukraine aid aligns more with right-wing factions that prioritize domestic spending and skepticism of international engagement. The use of 'liberty' as a justification further reflects libertarian principles, which are typically linked to the right in U.S. politics.\"\n}\n```",
+      "explanation": "The post advocates for non-interventionism, ending foreign aid to Ukraine, and emphasizes fiscal responsibility ('wasted taxpayer money')\u2014positions commonly associated with right-leaning libertarian or isolationist ideologies. While anti-war sentiment exists on the left, the specific opposition to Ukraine aid aligns more with right-wing factions that prioritize domestic spending and skepticism of international engagement. The use of 'liberty' as a justification further reflects libertarian principles, which are typically linked to the right in U.S. politics."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes prioritizing American borders and domestic interests over foreign aid, which aligns with right-wing nationalist and isolationist rhetoric. The phrase 'AmericaFirstPatriot' in the username and the focus on 'securing our own borders' are consistent with right-wing populist themes. Criticizing support for Ukraine as 'funding endless war' and 'enriching the military industrial complex' echoes a common right-wing skepticism of foreign intervention and globalism. While critiques of the military-industrial complex can also originate from the left, the emphasis on nationalism and border security strongly suggests a right-leaning perspective.\"\n}\n```",
+      "explanation": "The post emphasizes prioritizing American borders and domestic interests over foreign aid, which aligns with right-wing nationalist and isolationist rhetoric. The phrase 'AmericaFirstPatriot' in the username and the focus on 'securing our own borders' are consistent with right-wing populist themes. Criticizing support for Ukraine as 'funding endless war' and 'enriching the military industrial complex' echoes a common right-wing skepticism of foreign intervention and globalism. While critiques of the military-industrial complex can also originate from the left, the emphasis on nationalism and border security strongly suggests a right-leaning perspective."
+    },
+    {
+      "author": "User1465",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author explicitly identifies as part of the Republican Party, which is traditionally associated with right-leaning politics. The post emphasizes fiscal responsibility, cautious military resource allocation, and prioritizing national strategic interests over expansive foreign commitments\u2014a stance consistent with conservative foreign policy discourse. While countering Russian aggression is a bipartisan concern, the framing here focuses on avoiding overextension and safeguarding American resources and lives, aligning with common Republican arguments about limiting foreign aid and intervention. The absence of progressive themes (e.g., humanitarian aid, multilateralism) further supports a right-leaning classification.\"\n}\n```",
+      "explanation": "The author explicitly identifies as part of the Republican Party, which is traditionally associated with right-leaning politics. The post emphasizes fiscal responsibility, cautious military resource allocation, and prioritizing national strategic interests over expansive foreign commitments\u2014a stance consistent with conservative foreign policy discourse. While countering Russian aggression is a bipartisan concern, the framing here focuses on avoiding overextension and safeguarding American resources and lives, aligning with common Republican arguments about limiting foreign aid and intervention. The absence of progressive themes (e.g., humanitarian aid, multilateralism) further supports a right-leaning classification."
+    },
+    {
+      "author": "LibertyFirst76",
+      "orientation": "unknown",
+      "raw_response": "",
+      "explanation": ""
+    },
+    {
+      "author": "User3839",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post explicitly states a 'Republican standpoint,' which is associated with right-leaning politics. The emphasis on prioritizing U.S. security and economic interests, avoiding open-ended commitments, and limiting assistance to 'targeted' measures aligns with conservative foreign policy principles that stress fiscal restraint, skepticism of prolonged international engagements, and a preference for non-interventionist or America-first approaches. While supporting sovereignty, the focus on avoiding escalation and prioritizing domestic concerns over expansive multilateral involvement reflects a right-leaning orientation.\"\n}",
+      "explanation": "The post explicitly states a 'Republican standpoint,' which is associated with right-leaning politics. The emphasis on prioritizing U.S. security and economic interests, avoiding open-ended commitments, and limiting assistance to 'targeted' measures aligns with conservative foreign policy principles that stress fiscal restraint, skepticism of prolonged international engagements, and a preference for non-interventionist or America-first approaches. While supporting sovereignty, the focus on avoiding escalation and prioritizing domestic concerns over expansive multilateral involvement reflects a right-leaning orientation."
+    },
+    {
+      "author": "LibertyFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for ending foreign aid to Ukraine, emphasizing fiscal responsibility ('at the expense of American taxpayers') and skepticism of military intervention\u2014a stance aligned with right-leaning, isolationist, or libertarian viewpoints. The reference to the 'military industrial complex' echoes conservative critiques of government overreach and globalist policies. Additionally, opposition to foreign aid as wasteful spending is a common theme in right-wing populism. The username 'LibertyFirst' further suggests a libertarian or conservative alignment, prioritizing national interests over international engagement.\"\n}\n```",
+      "explanation": "The post advocates for ending foreign aid to Ukraine, emphasizing fiscal responsibility ('at the expense of American taxpayers') and skepticism of military intervention\u2014a stance aligned with right-leaning, isolationist, or libertarian viewpoints. The reference to the 'military industrial complex' echoes conservative critiques of government overreach and globalist policies. Additionally, opposition to foreign aid as wasteful spending is a common theme in right-wing populism. The username 'LibertyFirst' further suggests a libertarian or conservative alignment, prioritizing national interests over international engagement."
+    },
+    {
+      "author": "WarTruthSeeker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs terminology and narratives commonly associated with right-wing political discourse. The use of 'globalists' as a pejorative term often aligns with right-wing conspiracy theories that frame international cooperation as a threat to national sovereignty. The claim that Russia is 'defending itself from NATO expansionism' mirrors Kremlin-aligned propaganda and resonates with right-wing isolationist or anti-interventionist views that oppose Western alliances. Additionally, dismissing Ukraine as a 'corrupt puppet state' reflects a pro-Russian narrative that is more prevalent in far-right circles, which often sympathize with authoritarian regimes and reject multilateral institutions. While critiques of NATO exist across the political spectrum, the specific combination of anti-globalist rhetoric, defense of Russia's actions, and alignment with Russian state narratives strongly suggests a right-wing orientation.\"\n}\n```",
+      "explanation": "The post employs terminology and narratives commonly associated with right-wing political discourse. The use of 'globalists' as a pejorative term often aligns with right-wing conspiracy theories that frame international cooperation as a threat to national sovereignty. The claim that Russia is 'defending itself from NATO expansionism' mirrors Kremlin-aligned propaganda and resonates with right-wing isolationist or anti-interventionist views that oppose Western alliances. Additionally, dismissing Ukraine as a 'corrupt puppet state' reflects a pro-Russian narrative that is more prevalent in far-right circles, which often sympathize with authoritarian regimes and reject multilateral institutions. While critiques of NATO exist across the political spectrum, the specific combination of anti-globalist rhetoric, defense of Russia's actions, and alignment with Russian state narratives strongly suggests a right-wing orientation."
+    }
+  ],
+  "file_path": "Gemini_balancedData/Russia_Ukraine_War/balanced20Posts_high_confidence_Russia_Ukraine_war_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_high_confidence_Russia_Ukraine_war_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

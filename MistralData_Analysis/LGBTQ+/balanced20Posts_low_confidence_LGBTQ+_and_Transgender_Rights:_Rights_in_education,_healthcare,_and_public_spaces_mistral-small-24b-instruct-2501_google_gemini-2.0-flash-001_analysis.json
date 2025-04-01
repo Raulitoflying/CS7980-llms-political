@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 8,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "BiologyMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses concern about the increasing acceptance of transgender and LGBTQ+ ideals in schools, questioning the pace of change and the necessity of certain directives. While this could potentially indicate a conservative viewpoint, the post is phrased as a question and doesn't explicitly endorse any particular political stance. The author is seeking information and expressing concern, rather than making definitive statements. Without further context or more explicit statements, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author's post expresses concern about the increasing acceptance of transgender and LGBTQ+ ideals in schools, questioning the pace of change and the necessity of certain directives. While this could potentially indicate a conservative viewpoint, the post is phrased as a question and doesn't explicitly endorse any particular political stance. The author is seeking information and expressing concern, rather than making definitive statements. Without further context or more explicit statements, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "ProgressivePonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for LGBTQ+ students and suggests considering more inclusive policies. This aligns with typical left-leaning political positions that advocate for LGBTQ+ rights and social justice. While the author acknowledges a need for balance, the initial concern and suggestion point towards a left-leaning perspective.\"\n}\n```",
+      "explanation": "The author expresses concern for LGBTQ+ students and suggests considering more inclusive policies. This aligns with typical left-leaning political positions that advocate for LGBTQ+ rights and social justice. While the author acknowledges a need for balance, the initial concern and suggestion point towards a left-leaning perspective."
+    },
+    {
+      "author": "FringeThoughts2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a desire for nuanced discussion and acknowledges potential pushback regarding transgender rights. This doesn't definitively align with either the left or right. While a conservative might express concern about the changes, someone on the left could also acknowledge the need for careful consideration and understanding different perspectives to achieve broader acceptance. The post lacks specific viewpoints or policy preferences that would indicate a clear political leaning.\"\n}\n```",
+      "explanation": "The post expresses a desire for nuanced discussion and acknowledges potential pushback regarding transgender rights. This doesn't definitively align with either the left or right. While a conservative might express concern about the changes, someone on the left could also acknowledge the need for careful consideration and understanding different perspectives to achieve broader acceptance. The post lacks specific viewpoints or policy preferences that would indicate a clear political leaning."
+    },
+    {
+      "author": "ConservativeCruiser",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is vague and doesn't provide enough information to definitively classify their political orientation. While the user name suggests a conservative leaning, the post itself expresses uncertainty and a desire for compromise, which doesn't strongly align with any particular political ideology. The author's statement is not clearly left or right leaning.\"\n}\n```",
+      "explanation": "The author's statement is vague and doesn't provide enough information to definitively classify their political orientation. While the user name suggests a conservative leaning, the post itself expresses uncertainty and a desire for compromise, which doesn't strongly align with any particular political ideology. The author's statement is not clearly left or right leaning."
+    },
+    {
+      "author": "GreenAlly4Equality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for the rights and well-being of LGBTQ and Transgender individuals, specifically in areas like education, healthcare, and public spaces. This concern aligns with typical left-leaning political values that prioritize social justice, equality, and the protection of marginalized groups. The author's uncertainty about the 'best course of action' doesn't negate the underlying concern for these communities, which is a strong indicator of a left-leaning perspective.\"\n}\n```",
+      "explanation": "The author expresses concern for the rights and well-being of LGBTQ and Transgender individuals, specifically in areas like education, healthcare, and public spaces. This concern aligns with typical left-leaning political values that prioritize social justice, equality, and the protection of marginalized groups. The author's uncertainty about the 'best course of action' doesn't negate the underlying concern for these communities, which is a strong indicator of a left-leaning perspective."
+    },
+    {
+      "author": "GreenAlly4Equality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern for equal access to education, healthcare, and public spaces for transgender individuals is a common position held by those on the left. The emphasis on inclusivity and sensitivity to concerns, while seemingly neutral, is often used within left-leaning discourse to advocate for policies that prioritize the rights and well-being of marginalized groups. The user's name, 'GreenAlly4Equality,' further suggests an alignment with left-leaning values, as it combines environmentalism ('Green') with advocacy for equality.\"\n}\n```",
+      "explanation": "The author's concern for equal access to education, healthcare, and public spaces for transgender individuals is a common position held by those on the left. The emphasis on inclusivity and sensitivity to concerns, while seemingly neutral, is often used within left-leaning discourse to advocate for policies that prioritize the rights and well-being of marginalized groups. The user's name, 'GreenAlly4Equality,' further suggests an alignment with left-leaning values, as it combines environmentalism ('Green') with advocacy for equality."
+    },
+    {
+      "author": "GreenAlliesForEquality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for the well-being and inclusion of LGBTQ+ individuals, specifically mentioning LGBTQ+ students, transgender individuals, and the inclusivity of public spaces. These concerns align with typical left-leaning political values that prioritize social justice, equality, and the protection of marginalized groups.\"\n}\n```",
+      "explanation": "The author expresses concern for the well-being and inclusion of LGBTQ+ individuals, specifically mentioning LGBTQ+ students, transgender individuals, and the inclusivity of public spaces. These concerns align with typical left-leaning political values that prioritize social justice, equality, and the protection of marginalized groups."
+    },
+    {
+      "author": "ProgressivePonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for LGBTQ+ students' safety and healthcare access for transgender individuals. These are typically concerns associated with left-leaning political ideologies. While the author acknowledges the complexity of the issues and expresses a desire to hear different perspectives, the initial concerns raised strongly suggest a progressive or left-leaning orientation.\"\n}\n```",
+      "explanation": "The author expresses concern for LGBTQ+ students' safety and healthcare access for transgender individuals. These are typically concerns associated with left-leaning political ideologies. While the author acknowledges the complexity of the issues and expresses a desire to hear different perspectives, the initial concerns raised strongly suggest a progressive or left-leaning orientation."
+    },
+    {
+      "author": "GreenAlliesForEquality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern for LGBTQ+ and Transgender individuals' equal access to education, healthcare, and public spaces aligns with left-leaning political values. The consideration of 'more inclusive policies' further suggests a progressive viewpoint, even with the expressed uncertainty.\"\n}\n```",
+      "explanation": "The author's concern for LGBTQ+ and Transgender individuals' equal access to education, healthcare, and public spaces aligns with left-leaning political values. The consideration of 'more inclusive policies' further suggests a progressive viewpoint, even with the expressed uncertainty."
+    },
+    {
+      "author": "ProgressivePonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for LGBTQ+ rights, healthcare rights, and education rights, which are typically associated with left-leaning political ideologies. The user's handle, 'ProgressivePonderer,' further suggests a progressive, and therefore left-leaning, orientation. The user's cautious phrasing and desire to find ways to convey inclusive policies without causing tension also aligns with a progressive approach to social change.\"\n}\n```",
+      "explanation": "The author expresses concern for LGBTQ+ rights, healthcare rights, and education rights, which are typically associated with left-leaning political ideologies. The user's handle, 'ProgressivePonderer,' further suggests a progressive, and therefore left-leaning, orientation. The user's cautious phrasing and desire to find ways to convey inclusive policies without causing tension also aligns with a progressive approach to social change."
+    },
+    {
+      "author": "ConservativeEducator",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about 'transgender rights in public schools' and frames the issue as a potential conflict between 'inclusivity and safety.' The phrasing 'protect children and their families' is often used in conservative discourse to express concerns about the perceived impact of transgender rights on traditional family structures and child safety. The cautious and questioning tone, while seemingly neutral, hints at skepticism towards the changes and aligns with common conservative viewpoints on this issue.\"\n}\n```",
+      "explanation": "The author expresses concern about 'transgender rights in public schools' and frames the issue as a potential conflict between 'inclusivity and safety.' The phrasing 'protect children and their families' is often used in conservative discourse to express concerns about the perceived impact of transgender rights on traditional family structures and child safety. The cautious and questioning tone, while seemingly neutral, hints at skepticism towards the changes and aligns with common conservative viewpoints on this issue."
+    },
+    {
+      "author": "ConstaConfused",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the impact of transgender rights on children, suggesting they are being exposed to adult concepts. The author also questions the validity of transgender identities by mentioning the idea of an \\\"identity crisis\\\" and the potential \\\"collapse of gender itself.\\\" These concerns align with common conservative viewpoints that are skeptical of transgender rights and often express worry about the perceived impact on traditional gender roles and children.\"\n}\n```",
+      "explanation": "The author expresses concern about the impact of transgender rights on children, suggesting they are being exposed to adult concepts. The author also questions the validity of transgender identities by mentioning the idea of an \"identity crisis\" and the potential \"collapse of gender itself.\" These concerns align with common conservative viewpoints that are skeptical of transgender rights and often express worry about the perceived impact on traditional gender roles and children."
+    },
+    {
+      "author": "LibertarianLens",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses a desire for compromise and balance between the rights of transgender individuals and the privacy/needs of others. While the user identifies as \\\"LibertarianLens,\\\" the post itself doesn't contain enough specific policy preferences or ideological statements to definitively classify them as left or right. The focus on individual liberty is consistent with libertarianism, but the desire for compromise and balancing needs doesn't strongly align with either end of the political spectrum. Therefore, based solely on this post, the political orientation is unknown.\"\n}\n```",
+      "explanation": "The author's post expresses a desire for compromise and balance between the rights of transgender individuals and the privacy/needs of others. While the user identifies as \"LibertarianLens,\" the post itself doesn't contain enough specific policy preferences or ideological statements to definitively classify them as left or right. The focus on individual liberty is consistent with libertarianism, but the desire for compromise and balancing needs doesn't strongly align with either end of the political spectrum. Therefore, based solely on this post, the political orientation is unknown."
+    },
+    {
+      "author": "LibertarianLens",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a desire to balance individual liberties with the rights of LGBTQ+ individuals while minimizing government overreach. This position doesn't definitively align with either the left or the right. While a focus on individual liberties is often associated with right-leaning libertarianism, the concern for LGBTQ+ rights is more commonly associated with the left. The author's call for a 'middle ground' and a desire to respect 'personal freedoms and the needs of the community' suggests a nuanced perspective that is difficult to classify definitively based on this single post. The user's name 'LibertarianLens' suggests a libertarian leaning, but the content of the post shows a concern for LGBTQ+ rights, which is not always a focus of right-leaning libertarians. Therefore, without further information, the political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author expresses a desire to balance individual liberties with the rights of LGBTQ+ individuals while minimizing government overreach. This position doesn't definitively align with either the left or the right. While a focus on individual liberties is often associated with right-leaning libertarianism, the concern for LGBTQ+ rights is more commonly associated with the left. The author's call for a 'middle ground' and a desire to respect 'personal freedoms and the needs of the community' suggests a nuanced perspective that is difficult to classify definitively based on this single post. The user's name 'LibertarianLens' suggests a libertarian leaning, but the content of the post shows a concern for LGBTQ+ rights, which is not always a focus of right-leaning libertarians. Therefore, without further information, the political orientation is best classified as unknown."
+    },
+    {
+      "author": "ConservativeCorner2023",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism and concern regarding the presence of transgender individuals in the healthcare system and the teaching of transgender issues to young children. This aligns with common conservative viewpoints that often question the appropriateness of gender-affirming care and the inclusion of LGBTQ+ topics in early education. The phrasing \\\"do we need to have transgender individuals in healthcare system\\\" and \\\"do we need to teach them so early?\\\" suggests a questioning of the status quo and a potential discomfort with these issues, which is characteristic of right-leaning perspectives.\"\n}\n```",
+      "explanation": "The author expresses skepticism and concern regarding the presence of transgender individuals in the healthcare system and the teaching of transgender issues to young children. This aligns with common conservative viewpoints that often question the appropriateness of gender-affirming care and the inclusion of LGBTQ+ topics in early education. The phrasing \"do we need to have transgender individuals in healthcare system\" and \"do we need to teach them so early?\" suggests a questioning of the status quo and a potential discomfort with these issues, which is characteristic of right-leaning perspectives."
+    },
+    {
+      "author": "LibertarianLens",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a desire to balance individual liberties with LGBTQ+ and transgender rights while minimizing government overreach. This aligns with some libertarian viewpoints. However, the statement that 'everyone should have access to education and healthcare' could lean slightly left, depending on how 'access' is defined (e.g., government-provided vs. market-based solutions). Without further information on the author's specific policy preferences, it's difficult to definitively classify their political orientation. The post expresses a nuanced perspective that doesn't neatly fit into a simple left/right dichotomy.\"\n}\n```",
+      "explanation": "The author expresses a desire to balance individual liberties with LGBTQ+ and transgender rights while minimizing government overreach. This aligns with some libertarian viewpoints. However, the statement that 'everyone should have access to education and healthcare' could lean slightly left, depending on how 'access' is defined (e.g., government-provided vs. market-based solutions). Without further information on the author's specific policy preferences, it's difficult to definitively classify their political orientation. The post expresses a nuanced perspective that doesn't neatly fit into a simple left/right dichotomy."
+    },
+    {
+      "author": "LibertarianLearner123",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire to understand different perspectives on LGBTQ+ and transgender rights. They acknowledge the validity of points on both sides and seek a balance between individual liberties and the rights of others. This nuanced approach and openness to learning do not definitively align with either a left or right political orientation. While the emphasis on individual liberties could be interpreted as leaning right, the concern for the rights of transgender students suggests a more moderate or undecided stance. Therefore, without further information, it's impossible to classify the author's political orientation with certainty.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire to understand different perspectives on LGBTQ+ and transgender rights. They acknowledge the validity of points on both sides and seek a balance between individual liberties and the rights of others. This nuanced approach and openness to learning do not definitively align with either a left or right political orientation. While the emphasis on individual liberties could be interpreted as leaning right, the concern for the rights of transgender students suggests a more moderate or undecided stance. Therefore, without further information, it's impossible to classify the author's political orientation with certainty."
+    },
+    {
+      "author": "ValuesFirstEducator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses nuanced views that don't clearly align with either the left or right. While advocating for parental involvement in LGBTQ+ education aligns with some conservative viewpoints, the author also expresses support for LGBTQ+ individuals' rights to respect and healthcare access, which is generally associated with left-leaning perspectives. The author's uncertainty and call for a 'middle ground' further suggest a moderate or undecided stance, making it difficult to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses nuanced views that don't clearly align with either the left or right. While advocating for parental involvement in LGBTQ+ education aligns with some conservative viewpoints, the author also expresses support for LGBTQ+ individuals' rights to respect and healthcare access, which is generally associated with left-leaning perspectives. The author's uncertainty and call for a 'middle ground' further suggest a moderate or undecided stance, making it difficult to definitively classify their political orientation."
+    },
+    {
+      "author": "Conservative_Parent_2023",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the pace of change regarding transgender rights, a common sentiment among conservatives. The phrase \\\"going too far too fast\\\" is often used to express skepticism or opposition to progressive social changes. While the author claims a lack of knowledge, the underlying concern suggests a cautious, potentially conservative, perspective on the issue.\"\n}\n```",
+      "explanation": "The author expresses concern about the pace of change regarding transgender rights, a common sentiment among conservatives. The phrase \"going too far too fast\" is often used to express skepticism or opposition to progressive social changes. While the author claims a lack of knowledge, the underlying concern suggests a cautious, potentially conservative, perspective on the issue."
+    },
+    {
+      "author": "ConservativeThinker123",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses uncertainty about recent changes in LGBTQ+ and transgender rights, suggesting a potential discomfort with these advancements. The author's concern about 'compromising the values of traditional beliefs' is a key indicator of a conservative leaning. While the author claims to see 'valid points on both sides,' the emphasis on traditional values and the questioning of the 'current approach' to LGBTQ+ rights strongly suggests a right-leaning political orientation. The user's name, 'ConservativeThinker123,' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about recent changes in LGBTQ+ and transgender rights, suggesting a potential discomfort with these advancements. The author's concern about 'compromising the values of traditional beliefs' is a key indicator of a conservative leaning. While the author claims to see 'valid points on both sides,' the emphasis on traditional values and the questioning of the 'current approach' to LGBTQ+ rights strongly suggests a right-leaning political orientation. The user's name, 'ConservativeThinker123,' further reinforces this classification."
+    }
+  ]
+}

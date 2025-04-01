@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 66.66666666666666,
+      "recall": 60.0,
+      "f1_score": 6315.78947368421,
+      "true_positive": 6,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 63.63636363636363,
+      "recall": 70.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 7,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post content reflects strong conservative or right-wing political views, particularly on immigration. The emphasis on securing the border, deporting illegal aliens, and the use of the term 'invaders' indicates a hardline stance against illegal immigration, which is typically associated with right-wing political ideology. Additionally, the assertion that citizenship is a privilege, not a right, further aligns with conservative values that often prioritize national security and strict immigration laws over more liberal policies of inclusion and pathways to citizenship.\"\n}",
+      "explanation": "The post content reflects strong conservative or right-wing political views, particularly on immigration. The emphasis on securing the border, deporting illegal aliens, and the use of the term 'invaders' indicates a hardline stance against illegal immigration, which is typically associated with right-wing political ideology. Additionally, the assertion that citizenship is a privilege, not a right, further aligns with conservative values that often prioritize national security and strict immigration laws over more liberal policies of inclusion and pathways to citizenship."
+    },
+    {
+      "author": "Immigration4All",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for comprehensive immigration reform, specifically mentioning a pathway to citizenship for undocumented immigrants and an end to what the author perceives as inhumane border policies. These views are typically associated with left-leaning or progressive political ideologies, which often emphasize human rights, social justice, and more inclusive immigration policies. The language used, such as 'inhumane' and 'cruelty,' also indicates a strong moral stance against harsh immigration enforcement, which is a common perspective among those on the political left.\"\n}",
+      "explanation": "The post advocates for comprehensive immigration reform, specifically mentioning a pathway to citizenship for undocumented immigrants and an end to what the author perceives as inhumane border policies. These views are typically associated with left-leaning or progressive political ideologies, which often emphasize human rights, social justice, and more inclusive immigration policies. The language used, such as 'inhumane' and 'cruelty,' also indicates a strong moral stance against harsh immigration enforcement, which is a common perspective among those on the political left."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post content reflects strong conservative or right-wing political views, particularly on immigration. The emphasis on securing the border, deporting illegal aliens, and the use of the term 'invaders' indicates a hardline stance against illegal immigration, which is typically associated with right-wing political ideology. Additionally, the assertion that citizenship is a privilege, not a right, further aligns with conservative values that often prioritize national security and strict immigration laws over more liberal policies of inclusion and rights.\"\n}",
+      "explanation": "The post content reflects strong conservative or right-wing political views, particularly on immigration. The emphasis on securing the border, deporting illegal aliens, and the use of the term 'invaders' indicates a hardline stance against illegal immigration, which is typically associated with right-wing political ideology. Additionally, the assertion that citizenship is a privilege, not a right, further aligns with conservative values that often prioritize national security and strict immigration laws over more liberal policies of inclusion and rights."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post content reflects strong conservative values, particularly on immigration policy. The emphasis on securing the border and deporting undocumented immigrants, along with the negative view of amnesty, aligns with right-wing political stances that prioritize strict immigration enforcement and national security over pathways to citizenship for undocumented immigrants. The language used, such as 'betrayal of our nation and its citizens,' also indicates a strong nationalist sentiment, which is commonly associated with right-wing politics.\"\n}",
+      "explanation": "The post content reflects strong conservative values, particularly on immigration policy. The emphasis on securing the border and deporting undocumented immigrants, along with the negative view of amnesty, aligns with right-wing political stances that prioritize strict immigration enforcement and national security over pathways to citizenship for undocumented immigrants. The language used, such as 'betrayal of our nation and its citizens,' also indicates a strong nationalist sentiment, which is commonly associated with right-wing politics."
+    },
+    {
+      "author": "ImmigrationEquityNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a comprehensive pathway to citizenship for undocumented immigrants and criticizes border security policies as ineffective and perpetuating injustice and cruelty. These views align with left-leaning political ideologies, which typically support more inclusive immigration policies and are critical of strict border enforcement measures that they see as inhumane.\"\n}",
+      "explanation": "The post advocates for a comprehensive pathway to citizenship for undocumented immigrants and criticizes border security policies as ineffective and perpetuating injustice and cruelty. These views align with left-leaning political ideologies, which typically support more inclusive immigration policies and are critical of strict border enforcement measures that they see as inhumane."
+    },
+    {
+      "author": "GreenPathwaysNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post reflects a strong stance against the border wall and supports a pathway to citizenship for undocumented immigrants, which are typically positions associated with the political left. The language used, such as 'cruel border wall,' 'just pathway to citizenship,' and 'rejecting xenophobic policies,' indicates a progressive and humanitarian perspective that is commonly aligned with left-wing political values. Additionally, the emphasis on 'shared humanity' and the mention of the impact on 'the planet' suggests a broader concern for social and environmental justice, further aligning with left-wing ideologies.\"\n}",
+      "explanation": "The author's post reflects a strong stance against the border wall and supports a pathway to citizenship for undocumented immigrants, which are typically positions associated with the political left. The language used, such as 'cruel border wall,' 'just pathway to citizenship,' and 'rejecting xenophobic policies,' indicates a progressive and humanitarian perspective that is commonly aligned with left-wing political values. Additionally, the emphasis on 'shared humanity' and the mention of the impact on 'the planet' suggests a broader concern for social and environmental justice, further aligning with left-wing ideologies."
+    },
+    {
+      "author": "ImmigrationEquityNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on immigration reform, emphasizing a 'humane and efficient pathway to citizenship' and rejecting 'cruel and ineffective policies of border militarization,' aligns with left-leaning political views. The language used, such as 'moral imperative' and 'values as a nation of immigrants,' further supports a progressive perspective that prioritizes social justice and inclusivity.\"\n}",
+      "explanation": "The author's stance on immigration reform, emphasizing a 'humane and efficient pathway to citizenship' and rejecting 'cruel and ineffective policies of border militarization,' aligns with left-leaning political views. The language used, such as 'moral imperative' and 'values as a nation of immigrants,' further supports a progressive perspective that prioritizes social justice and inclusivity."
+    },
+    {
+      "author": "GreenPathwaysNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenPathwaysNow advocates for the dismantling of the current border regime, which is a stance often associated with progressive or left-wing political views that emphasize open borders and the rights of undocumented immigrants. Additionally, the emphasis on 'environmental justice' and 'community resilience' aligns with left-wing values that prioritize social and environmental equity. The interconnectedness of people and the planet is a common theme in left-wing discourse, particularly within the environmental and social justice movements.\"\n}",
+      "explanation": "The post by GreenPathwaysNow advocates for the dismantling of the current border regime, which is a stance often associated with progressive or left-wing political views that emphasize open borders and the rights of undocumented immigrants. Additionally, the emphasis on 'environmental justice' and 'community resilience' aligns with left-wing values that prioritize social and environmental equity. The interconnectedness of people and the planet is a common theme in left-wing discourse, particularly within the environmental and social justice movements."
+    },
+    {
+      "author": "ImmigrationActionNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a 'humane and efficient pathway to citizenship' for undocumented immigrants, which is a position typically supported by those on the political left. It also criticizes the 'militarizing of the border' as 'cruel and ineffective,' further aligning with left-leaning views that emphasize compassion and social justice over strict enforcement and security measures. The emphasis on compassion and practicality in guiding immigration reform efforts reflects a progressive stance on immigration policy.\"\n}",
+      "explanation": "The post advocates for a 'humane and efficient pathway to citizenship' for undocumented immigrants, which is a position typically supported by those on the political left. It also criticizes the 'militarizing of the border' as 'cruel and ineffective,' further aligning with left-leaning views that emphasize compassion and social justice over strict enforcement and security measures. The emphasis on compassion and practicality in guiding immigration reform efforts reflects a progressive stance on immigration policy."
+    },
+    {
+      "author": "ImmigrationForward",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a 'compassionate pathway to citizenship' for undocumented immigrants, which is a position typically supported by those on the political left. It also criticizes 'border militarization' as 'inhumane,' suggesting a strong opposition to strict border control measures, another stance commonly associated with left-leaning individuals. The emphasis on social contribution and values aligns with progressive views that prioritize humanitarian and inclusive policies over enforcement and restriction.\"\n}",
+      "explanation": "The post advocates for a 'compassionate pathway to citizenship' for undocumented immigrants, which is a position typically supported by those on the political left. It also criticizes 'border militarization' as 'inhumane,' suggesting a strong opposition to strict border control measures, another stance commonly associated with left-leaning individuals. The emphasis on social contribution and values aligns with progressive views that prioritize humanitarian and inclusive policies over enforcement and restriction."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on securing borders and opposing the provision of citizenship to illegal immigrants reflects a conservative or right-wing political orientation. This perspective emphasizes strict immigration control, the importance of legal processes, and the enforcement of laws, which are typically associated with right-wing political views in many countries, particularly in the context of the United States.\"\n}",
+      "explanation": "The author's stance on securing borders and opposing the provision of citizenship to illegal immigrants reflects a conservative or right-wing political orientation. This perspective emphasizes strict immigration control, the importance of legal processes, and the enforcement of laws, which are typically associated with right-wing political views in many countries, particularly in the context of the United States."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on securing borders, opposition to mass amnesty, and prioritization of national safety over other considerations align with right-wing political views. These positions typically reflect a conservative stance that values strict immigration control and law enforcement to protect national security and sovereignty.\"\n}",
+      "explanation": "The author's emphasis on securing borders, opposition to mass amnesty, and prioritization of national safety over other considerations align with right-wing political views. These positions typically reflect a conservative stance that values strict immigration control and law enforcement to protect national security and sovereignty."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on open borders as a moral and economically sound policy aligns more closely with left-leaning political views. This perspective emphasizes individual rights, freedom of movement, and the potential economic benefits of immigration, which are typically advocated by those on the political left. The strong emphasis on reducing government interference also suggests a libertarian influence, which can sometimes overlap with left-wing ideologies, especially in discussions about personal freedoms and social issues.\"\n}",
+      "explanation": "The author's stance on open borders as a moral and economically sound policy aligns more closely with left-leaning political views. This perspective emphasizes individual rights, freedom of movement, and the potential economic benefits of immigration, which are typically advocated by those on the political left. The strong emphasis on reducing government interference also suggests a libertarian influence, which can sometimes overlap with left-wing ideologies, especially in discussions about personal freedoms and social issues."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by LibertyLover76 advocates for open borders, emphasizing moral and economic arguments. The focus on individual freedom and the critique of government restrictions align with left-leaning libertarian or progressive views, which often support more open immigration policies and less restrictive government intervention. However, it's important to note that support for open borders can also be found in some right-libertarian circles, but the language and emphasis in this post are more consistent with left-leaning ideologies.\"\n}",
+      "explanation": "The post by LibertyLover76 advocates for open borders, emphasizing moral and economic arguments. The focus on individual freedom and the critique of government restrictions align with left-leaning libertarian or progressive views, which often support more open immigration policies and less restrictive government intervention. However, it's important to note that support for open borders can also be found in some right-libertarian circles, but the language and emphasis in this post are more consistent with left-leaning ideologies."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, LibertyLover76, advocates for open borders, which is a position more commonly associated with left-leaning or libertarian political ideologies. The emphasis on individual rights, moral imperatives, and economic benefits aligns with progressive views that prioritize human rights and economic inclusivity. However, it's important to note that support for open borders can also be found in classical liberal or libertarian circles, which can sometimes overlap with right-wing perspectives. Given the focus on individual liberty and criticism of government restrictions, the classification leans towards the left, but with an acknowledgment of libertarian influences.\"\n}",
+      "explanation": "The author, LibertyLover76, advocates for open borders, which is a position more commonly associated with left-leaning or libertarian political ideologies. The emphasis on individual rights, moral imperatives, and economic benefits aligns with progressive views that prioritize human rights and economic inclusivity. However, it's important to note that support for open borders can also be found in classical liberal or libertarian circles, which can sometimes overlap with right-wing perspectives. Given the focus on individual liberty and criticism of government restrictions, the classification leans towards the left, but with an acknowledgment of libertarian influences."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for open borders, which is a position often associated with left-leaning political ideologies. This stance emphasizes moral and economic arguments for free movement and a pathway to citizenship, reflecting values such as inclusivity and economic liberalism that are typically aligned with left-wing perspectives.\"\n}",
+      "explanation": "The author advocates for open borders, which is a position often associated with left-leaning political ideologies. This stance emphasizes moral and economic arguments for free movement and a pathway to citizenship, reflecting values such as inclusivity and economic liberalism that are typically aligned with left-wing perspectives."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post content reflects strong conservative or right-wing political views, particularly on immigration. The author advocates for securing the border and deporting all undocumented immigrants, using terms like 'criminals' and 'invaders' which are often associated with a hardline stance against immigration. Additionally, the phrase 'citizenship is a privilege, not a right' emphasizes a perspective that values strict immigration laws and policies, which is typically aligned with right-wing political ideology.\"\n}",
+      "explanation": "The post content reflects strong conservative or right-wing political views, particularly on immigration. The author advocates for securing the border and deporting all undocumented immigrants, using terms like 'criminals' and 'invaders' which are often associated with a hardline stance against immigration. Additionally, the phrase 'citizenship is a privilege, not a right' emphasizes a perspective that values strict immigration laws and policies, which is typically aligned with right-wing political ideology."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on securing borders and opposing amnesty for illegal immigrants reflects a conservative or right-wing political orientation. This perspective emphasizes strict immigration policies, the importance of legal processes, and the enforcement of laws, which are typically associated with right-wing political views in many countries, particularly in the context of the United States.\"\n}",
+      "explanation": "The author's stance on securing borders and opposing amnesty for illegal immigrants reflects a conservative or right-wing political orientation. This perspective emphasizes strict immigration policies, the importance of legal processes, and the enforcement of laws, which are typically associated with right-wing political views in many countries, particularly in the context of the United States."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post content reflects a strong stance on immigration, emphasizing border security and the deportation of undocumented immigrants. The language used, such as 'secure the border immediately' and 'deport all illegals,' is typically associated with right-wing political views, which often advocate for stricter immigration policies and a more controlled approach to citizenship.\"\n}",
+      "explanation": "The post content reflects a strong stance on immigration, emphasizing border security and the deportation of undocumented immigrants. The language used, such as 'secure the border immediately' and 'deport all illegals,' is typically associated with right-wing political views, which often advocate for stricter immigration policies and a more controlled approach to citizenship."
+    },
+    {
+      "author": "SecureOurBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the need for border security and criticizes pathways to citizenship for illegal immigrants, suggesting a hardline stance on immigration. The use of the phrase 'America First' is also a clear indicator of a right-wing political orientation, as it is commonly associated with conservative policies and rhetoric focused on national sovereignty and protectionism.\"\n}",
+      "explanation": "The post strongly emphasizes the need for border security and criticizes pathways to citizenship for illegal immigrants, suggesting a hardline stance on immigration. The use of the phrase 'America First' is also a clear indicator of a right-wing political orientation, as it is commonly associated with conservative policies and rhetoric focused on national sovereignty and protectionism."
+    }
+  ]
+}

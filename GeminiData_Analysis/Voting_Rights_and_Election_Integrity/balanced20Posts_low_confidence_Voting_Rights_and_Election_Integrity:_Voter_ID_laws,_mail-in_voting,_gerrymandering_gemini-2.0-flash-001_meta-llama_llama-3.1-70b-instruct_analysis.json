@@ -1,0 +1,160 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 45.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 11,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 45.0
+  },
+  "classifications": [
+    {
+      "author": "User6000",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about voter ID laws, suggesting that they may have a negative impact on certain groups of people, which is a common concern among those on the left side of the political spectrum. This concern is often associated with the idea that voter ID laws can disenfranchise marginalized communities and suppress voter turnout, a perspective typically held by liberals and progressives.\"\n}",
+      "explanation": "The author expresses skepticism about voter ID laws, suggesting that they may have a negative impact on certain groups of people, which is a common concern among those on the left side of the political spectrum. This concern is often associated with the idea that voter ID laws can disenfranchise marginalized communities and suppress voter turnout, a perspective typically held by liberals and progressives."
+    },
+    {
+      "author": "User6001",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and neutrality on the topic of mail-in voting, mentioning both a potential benefit (convenience) and a potential drawback (security concerns). This balanced and non-partisan perspective does not provide enough information to classify the author's political orientation as LEFT or RIGHT. The author's tone is cautious and inquiring, rather than advocating for a particular position or ideology.\"\n}",
+      "explanation": "The author expresses uncertainty and neutrality on the topic of mail-in voting, mentioning both a potential benefit (convenience) and a potential drawback (security concerns). This balanced and non-partisan perspective does not provide enough information to classify the author's political orientation as LEFT or RIGHT. The author's tone is cautious and inquiring, rather than advocating for a particular position or ideology."
+    },
+    {
+      "author": "User6002",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a negative view of gerrymandering, which is a common stance among those on the left side of the political spectrum. Gerrymandering is often associated with Republican efforts to manipulate electoral district boundaries for partisan gain, and many Democrats and liberals have advocated for reforms to prevent it. While the author's statement is brief and doesn't reveal a deep understanding of the issue, their instinctive skepticism of gerrymandering suggests a left-leaning perspective.\"\n}",
+      "explanation": "The author expresses a negative view of gerrymandering, which is a common stance among those on the left side of the political spectrum. Gerrymandering is often associated with Republican efforts to manipulate electoral district boundaries for partisan gain, and many Democrats and liberals have advocated for reforms to prevent it. While the author's statement is brief and doesn't reveal a deep understanding of the issue, their instinctive skepticism of gerrymandering suggests a left-leaning perspective."
+    },
+    {
+      "author": "User6003",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the stated purpose of Voter ID laws, implying that the true motivation may be to restrict voting access. This perspective is commonly associated with liberal or left-leaning individuals, who often argue that such laws disproportionately affect marginalized communities and are intended to suppress votes. The tone of the post suggests that the author is questioning the legitimacy of the security rationale and may be sympathetic to concerns about voter suppression.\"\n}",
+      "explanation": "The author expresses skepticism about the stated purpose of Voter ID laws, implying that the true motivation may be to restrict voting access. This perspective is commonly associated with liberal or left-leaning individuals, who often argue that such laws disproportionately affect marginalized communities and are intended to suppress votes. The tone of the post suggests that the author is questioning the legitimacy of the security rationale and may be sympathetic to concerns about voter suppression."
+    },
+    {
+      "author": "User6004",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral and open-minded stance on the topic of automatic voter registration, neither explicitly endorsing nor criticizing the policy. They acknowledge hearing both positive and negative views, but do not reveal their own opinion or bias, making it impossible to classify their political orientation based on this post.\"\n}",
+      "explanation": "The author expresses a neutral and open-minded stance on the topic of automatic voter registration, neither explicitly endorsing nor criticizing the policy. They acknowledge hearing both positive and negative views, but do not reveal their own opinion or bias, making it impossible to classify their political orientation based on this post."
+    },
+    {
+      "author": "User6005",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about the prevalence of voter suppression, but does not take a clear stance or express a partisan opinion. This neutrality makes it difficult to classify their political orientation. They may be genuinely seeking information or questioning the narrative, but without further context or clarification, it's impossible to determine their underlying political leanings.\"\n}",
+      "explanation": "The author expresses skepticism about the prevalence of voter suppression, but does not take a clear stance or express a partisan opinion. This neutrality makes it difficult to classify their political orientation. They may be genuinely seeking information or questioning the narrative, but without further context or clarification, it's impossible to determine their underlying political leanings."
+    },
+    {
+      "author": "User6006",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about gerrymandering, which is a practice often criticized by liberals and Democrats for allowing politicians to manipulate electoral district boundaries for partisan gain. The author's mention of 'fairness' also suggests a value alignment with progressive or liberal ideologies, which often prioritize fairness and equal representation in the electoral process.\"\n}",
+      "explanation": "The author expresses concern about gerrymandering, which is a practice often criticized by liberals and Democrats for allowing politicians to manipulate electoral district boundaries for partisan gain. The author's mention of 'fairness' also suggests a value alignment with progressive or liberal ideologies, which often prioritize fairness and equal representation in the electoral process."
+    },
+    {
+      "author": "User6007",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests skepticism towards voter ID requirements, implying that they may be used to disenfranchise certain groups of people. This perspective is commonly associated with the political left, which often views voter ID laws as a form of voter suppression. The author's questioning of the motivations behind voter ID requirements also suggests a critical view of the policies, which is consistent with a left-leaning orientation.\"\n}",
+      "explanation": "The author's post suggests skepticism towards voter ID requirements, implying that they may be used to disenfranchise certain groups of people. This perspective is commonly associated with the political left, which often views voter ID laws as a form of voter suppression. The author's questioning of the motivations behind voter ID requirements also suggests a critical view of the policies, which is consistent with a left-leaning orientation."
+    },
+    {
+      "author": "User6008",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is neutral and does not express a clear opinion on a partisan issue. They are simply expressing skepticism about the effectiveness of early voting, which is a voting reform measure that is not inherently tied to a specific ideology. There is no language or tone that suggests a liberal or conservative bias, making it impossible to classify their political orientation based on this post.\"\n}",
+      "explanation": "The author's statement is neutral and does not express a clear opinion on a partisan issue. They are simply expressing skepticism about the effectiveness of early voting, which is a voting reform measure that is not inherently tied to a specific ideology. There is no language or tone that suggests a liberal or conservative bias, making it impossible to classify their political orientation based on this post."
+    },
+    {
+      "author": "User6009",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses skepticism about the prevalence of voter suppression, but does not reveal a clear political orientation. The tone is neutral and inquiring, rather than taking a partisan stance. The author is seeking more information or clarification, rather than promoting a specific ideology or agenda. Therefore, it is not possible to classify the author's political orientation based on this post.\"\n}",
+      "explanation": "The author's post expresses skepticism about the prevalence of voter suppression, but does not reveal a clear political orientation. The tone is neutral and inquiring, rather than taking a partisan stance. The author is seeking more information or clarification, rather than promoting a specific ideology or agenda. Therefore, it is not possible to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "User7000",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author appears to be expressing support for voter ID laws, which is a policy often advocated by conservative or right-leaning individuals. The idea behind voter ID laws is to prevent voter fraud, which is a concern often emphasized by the right. The author's neutral tone and questioning of the effectiveness of these laws may indicate that they are not strongly partisan, but their initial assumption that voter ID laws are intended to protect elections suggests a right-leaning perspective.\"\n}",
+      "explanation": "The author appears to be expressing support for voter ID laws, which is a policy often advocated by conservative or right-leaning individuals. The idea behind voter ID laws is to prevent voter fraud, which is a concern often emphasized by the right. The author's neutral tone and questioning of the effectiveness of these laws may indicate that they are not strongly partisan, but their initial assumption that voter ID laws are intended to protect elections suggests a right-leaning perspective."
+    },
+    {
+      "author": "User7001",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about mail-in voting, which is a voting method that has been a topic of controversy in the US, with many Republicans and conservatives expressing concerns about its legitimacy and potential for voter fraud. The author's hesitation and questioning of mail-in voting aligns with the views commonly held by those on the right side of the political spectrum.\"\n}",
+      "explanation": "The author expresses skepticism about mail-in voting, which is a voting method that has been a topic of controversy in the US, with many Republicans and conservatives expressing concerns about its legitimacy and potential for voter fraud. The author's hesitation and questioning of mail-in voting aligns with the views commonly held by those on the right side of the political spectrum."
+    },
+    {
+      "author": "User7002",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about mail-in voting, suggesting it may be vulnerable to fraud, which is a concern often raised by conservatives and Republicans in the US. Additionally, the author questions whether voter ID is necessary, implying that they may believe it is, which is a position commonly held by those on the right side of the political spectrum. This is because voter ID laws are often championed by Republicans as a way to prevent voter fraud, while Democrats tend to argue that such laws can disenfranchise certain groups of voters.\"\n}",
+      "explanation": "The author expresses skepticism about mail-in voting, suggesting it may be vulnerable to fraud, which is a concern often raised by conservatives and Republicans in the US. Additionally, the author questions whether voter ID is necessary, implying that they may believe it is, which is a position commonly held by those on the right side of the political spectrum. This is because voter ID laws are often championed by Republicans as a way to prevent voter fraud, while Democrats tend to argue that such laws can disenfranchise certain groups of voters."
+    },
+    {
+      "author": "User7003",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about government involvement in elections, which could be a sentiment shared by individuals on both the left and right sides of the political spectrum. However, the author does not provide enough information to clearly identify their political orientation, as they do not specify what aspect of government involvement they object to or what alternative they would prefer. The tone is more questioning and uncertain than partisan or ideological.\"\n}",
+      "explanation": "The author expresses skepticism about government involvement in elections, which could be a sentiment shared by individuals on both the left and right sides of the political spectrum. However, the author does not provide enough information to clearly identify their political orientation, as they do not specify what aspect of government involvement they object to or what alternative they would prefer. The tone is more questioning and uncertain than partisan or ideological."
+    },
+    {
+      "author": "User7004",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement suggests a concern for voter eligibility and the idea that only citizens should be allowed to vote, which is a common talking point among conservative and right-leaning individuals in the United States. The tone is also somewhat ambiguous and hesitant, which may indicate that the author is testing the waters or seeking validation for a viewpoint that is commonly associated with the right. However, it's worth noting that the author's use of 'probably' at the end of the statement introduces some uncertainty, which prevents a more definitive classification.\"\n}",
+      "explanation": "The author's statement suggests a concern for voter eligibility and the idea that only citizens should be allowed to vote, which is a common talking point among conservative and right-leaning individuals in the United States. The tone is also somewhat ambiguous and hesitant, which may indicate that the author is testing the waters or seeking validation for a viewpoint that is commonly associated with the right. However, it's worth noting that the author's use of 'probably' at the end of the statement introduces some uncertainty, which prevents a more definitive classification."
+    },
+    {
+      "author": "User7005",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is neutral and focused on the practical aspect of voting security, without expressing any clear ideological or partisan views. The use of tentative language ('better, maybe?') also suggests a cautious and non-committal tone, making it difficult to infer a specific political orientation.\"\n}",
+      "explanation": "The author's statement is neutral and focused on the practical aspect of voting security, without expressing any clear ideological or partisan views. The use of tentative language ('better, maybe?') also suggests a cautious and non-committal tone, making it difficult to infer a specific political orientation."
+    },
+    {
+      "author": "User7006",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post is neutral and does not express a clear opinion or bias. They are questioning a statement about the left wanting to cheat in elections, but do not provide any evidence or take a stance on the issue. The tone is more inquiring than partisan, making it difficult to determine the author's political orientation based on this post alone.\"\n}",
+      "explanation": "The author's post is neutral and does not express a clear opinion or bias. They are questioning a statement about the left wanting to cheat in elections, but do not provide any evidence or take a stance on the issue. The tone is more inquiring than partisan, making it difficult to determine the author's political orientation based on this post alone."
+    },
+    {
+      "author": "User7007",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not contain any language or sentiment that clearly indicates a left or right political orientation. The topic of voting security is a bipartisan concern, and the author's expression of uncertainty does not suggest a particular ideological leaning. The post appears to be a genuine inquiry rather than a statement of opinion or advocacy, making it difficult to classify the author's political orientation based on this content alone.\"\n}",
+      "explanation": "The author's post does not contain any language or sentiment that clearly indicates a left or right political orientation. The topic of voting security is a bipartisan concern, and the author's expression of uncertainty does not suggest a particular ideological leaning. The post appears to be a genuine inquiry rather than a statement of opinion or advocacy, making it difficult to classify the author's political orientation based on this content alone."
+    },
+    {
+      "author": "User7008",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is neutral and non-committal, expressing skepticism about the severity of gerrymandering without taking a clear stance. Gerrymandering is often a contentious issue, with those on the left typically opposing it as a means of voter suppression and those on the right sometimes defending it as a legitimate tool for partisan advantage. However, the author's ambivalence and lack of clear opinion make it impossible to classify their political orientation based on this statement alone.\"\n}",
+      "explanation": "The author's statement is neutral and non-committal, expressing skepticism about the severity of gerrymandering without taking a clear stance. Gerrymandering is often a contentious issue, with those on the left typically opposing it as a means of voter suppression and those on the right sometimes defending it as a legitimate tool for partisan advantage. However, the author's ambivalence and lack of clear opinion make it impossible to classify their political orientation based on this statement alone."
+    },
+    {
+      "author": "User7009",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is extremely vague and neutral, expressing a general sentiment that elections should be secure without taking a clear stance or expressing any partisan views. The tone is almost apathetic, with phrases like 'I guess' and 'I assume', which suggests a lack of strong conviction or ideological leaning. There is no language or sentiment that would suggest a clear left or right orientation.\"\n}",
+      "explanation": "The author's statement is extremely vague and neutral, expressing a general sentiment that elections should be secure without taking a clear stance or expressing any partisan views. The tone is almost apathetic, with phrases like 'I guess' and 'I assume', which suggests a lack of strong conviction or ideological leaning. There is no language or sentiment that would suggest a clear left or right orientation."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 100.0,
+      "recall": 30.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 7
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 8,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "DefendDemocracyNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While supporting Ukraine and opposing authoritarianism are positions often associated with the left, they are also held by some on the right, particularly those with a hawkish foreign policy stance. Without further information about the author's views on domestic issues or other foreign policy matters, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "While supporting Ukraine and opposing authoritarianism are positions often associated with the left, they are also held by some on the right, particularly those with a hawkish foreign policy stance. Without further information about the author's views on domestic issues or other foreign policy matters, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "DefendDemocracyNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author expresses strong support for defending democracy and opposing Russian aggression, this stance is not exclusive to any particular political orientation. Both left-leaning and right-leaning individuals and groups can hold these views. Without further information about the author's views on other issues, it is impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "While the author expresses strong support for defending democracy and opposing Russian aggression, this stance is not exclusive to any particular political orientation. Both left-leaning and right-leaning individuals and groups can hold these views. Without further information about the author's views on other issues, it is impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "SovereignResist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common anti-imperialist narratives often found on the left. The phrases 'Western imperialist aggression,' 'proxy war orchestrated by NATO,' and 'crush independent nations' are all indicative of a critical view of Western foreign policy and a sympathetic view towards nations perceived as resisting Western hegemony. While some on the right may also criticize NATO, the specific framing used here, particularly the emphasis on 'imperialism' and 'independent nations,' is more characteristic of left-leaning perspectives.\"\n}\n```",
+      "explanation": "The author's statement aligns with common anti-imperialist narratives often found on the left. The phrases 'Western imperialist aggression,' 'proxy war orchestrated by NATO,' and 'crush independent nations' are all indicative of a critical view of Western foreign policy and a sympathetic view towards nations perceived as resisting Western hegemony. While some on the right may also criticize NATO, the specific framing used here, particularly the emphasis on 'imperialism' and 'independent nations,' is more characteristic of left-leaning perspectives."
+    },
+    {
+      "author": "DefendGlobalFreedom",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While condemning Putin's actions and supporting Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Both left-leaning and right-leaning individuals and groups can agree on these points. Without further context on other issues, it's impossible to determine their overall political alignment.\"\n}\n```",
+      "explanation": "While condemning Putin's actions and supporting Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Both left-leaning and right-leaning individuals and groups can agree on these points. Without further context on other issues, it's impossible to determine their overall political alignment."
+    },
+    {
+      "author": "StandWithUkraineNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While supporting Ukraine against Russian aggression is a position held by many across the political spectrum, the emphasis on defending democracy and human rights is often associated with the left. However, it is also a common talking point among some conservatives who advocate for a strong national defense and interventionist foreign policy. Without further information about the author's views on other issues, it is impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "While supporting Ukraine against Russian aggression is a position held by many across the political spectrum, the emphasis on defending democracy and human rights is often associated with the left. However, it is also a common talking point among some conservatives who advocate for a strong national defense and interventionist foreign policy. Without further information about the author's views on other issues, it is impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "EarthDefender",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions. Specifically, the condemnation of military aggression (Russian invasion of Ukraine), the call to redirect war funds to renewable energy, and the emphasis on diplomacy over destruction are all stances typically associated with the left.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions. Specifically, the condemnation of military aggression (Russian invasion of Ukraine), the call to redirect war funds to renewable energy, and the emphasis on diplomacy over destruction are all stances typically associated with the left."
+    },
+    {
+      "author": "DefendDemocracyNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While condemning Putin's invasion of Ukraine is a common stance across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for Ukraine and condemnation of Russia are not exclusive to any particular ideology. More context about the author's views on other issues would be needed for a more accurate assessment.\"\n}\n```",
+      "explanation": "While condemning Putin's invasion of Ukraine is a common stance across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Support for Ukraine and condemnation of Russia are not exclusive to any particular ideology. More context about the author's views on other issues would be needed for a more accurate assessment."
+    },
+    {
+      "author": "TruthAgainstEmpire",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common anti-imperialist and anti-war sentiments often found on the left. Specifically, the claim that NATO expansion provoked Russia, the framing of the conflict as a 'Western proxy war,' and the accusation of 'traitors to global peace' are all indicative of a perspective that is critical of Western foreign policy and aligns with viewpoints often expressed by individuals on the left who are critical of US imperialism and interventionism.\"\n}\n```",
+      "explanation": "The author's statement aligns with common anti-imperialist and anti-war sentiments often found on the left. Specifically, the claim that NATO expansion provoked Russia, the framing of the conflict as a 'Western proxy war,' and the accusation of 'traitors to global peace' are all indicative of a perspective that is critical of Western foreign policy and aligns with viewpoints often expressed by individuals on the left who are critical of US imperialism and interventionism."
+    },
+    {
+      "author": "LibertyVsTyranny",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While condemning Russia's aggression in Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Supporting Ukraine and opposing Russian aggression are not exclusively left-leaning or right-leaning positions. Without further context on other issues, it's impossible to accurately determine the author's political alignment.\"\n}\n```",
+      "explanation": "While condemning Russia's aggression in Ukraine is a position held across the political spectrum, the statement itself doesn't provide enough information to definitively classify the author's political orientation. Supporting Ukraine and opposing Russian aggression are not exclusively left-leaning or right-leaning positions. Without further context on other issues, it's impossible to accurately determine the author's political alignment."
+    },
+    {
+      "author": "DefendDemocracyNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While supporting Ukraine against Russian aggression is a position held by many across the political spectrum, the phrase 'empowers authoritarian regimes and jeopardizes global democracy' is often used by those on the left and center-left to frame foreign policy issues. However, without more context, it's impossible to definitively classify the author's political orientation. Support for Ukraine is not exclusive to any one political ideology.\"\n}\n```",
+      "explanation": "While supporting Ukraine against Russian aggression is a position held by many across the political spectrum, the phrase 'empowers authoritarian regimes and jeopardizes global democracy' is often used by those on the left and center-left to frame foreign policy issues. However, without more context, it's impossible to definitively classify the author's political orientation. Support for Ukraine is not exclusive to any one political ideology."
+    },
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post reflects several common themes associated with the right-leaning political spectrum. The emphasis on 'strong leadership,' 'energy independence,' and a firm stance against foreign aggression aligns with traditional conservative foreign policy positions. The username 'AmericaFirstPatriot' also suggests a nationalist perspective, which is often associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's post reflects several common themes associated with the right-leaning political spectrum. The emphasis on 'strong leadership,' 'energy independence,' and a firm stance against foreign aggression aligns with traditional conservative foreign policy positions. The username 'AmericaFirstPatriot' also suggests a nationalist perspective, which is often associated with right-leaning ideologies."
+    },
+    {
+      "author": "SovereignVoice",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual sovereignty, the non-aggression principle, anti-imperialism, and opposition to foreign entanglements and war profiteering aligns strongly with libertarian principles, which are generally considered to be on the right side of the political spectrum. While some left-leaning individuals may also oppose war, the specific combination of these principles is more characteristic of right-libertarianism.\"\n}\n```",
+      "explanation": "The author's emphasis on individual sovereignty, the non-aggression principle, anti-imperialism, and opposition to foreign entanglements and war profiteering aligns strongly with libertarian principles, which are generally considered to be on the right side of the political spectrum. While some left-leaning individuals may also oppose war, the specific combination of these principles is more characteristic of right-libertarianism."
+    },
+    {
+      "author": "LibertyOverWar",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement reflects a complex but ultimately right-leaning perspective. While condemning Russian aggression aligns with a broad range of political views, the emphasis on 'non-intervention' and 'unwavering support for national self-determination' coupled with the criticism of 'funneling taxpayer dollars into foreign conflicts' and enriching 'corrupt elites' are common themes within right-libertarian and conservative non-interventionist circles. This combination suggests a skepticism towards foreign aid and a preference for a more isolationist foreign policy, which are typically associated with the right.\"\n}\n```",
+      "explanation": "The author's statement reflects a complex but ultimately right-leaning perspective. While condemning Russian aggression aligns with a broad range of political views, the emphasis on 'non-intervention' and 'unwavering support for national self-determination' coupled with the criticism of 'funneling taxpayer dollars into foreign conflicts' and enriching 'corrupt elites' are common themes within right-libertarian and conservative non-interventionist circles. This combination suggests a skepticism towards foreign aid and a preference for a more isolationist foreign policy, which are typically associated with the right."
+    },
+    {
+      "author": "PatriotFirstPolicy",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning political positions. Specifically, the call to stop funding Ukraine and prioritize border security are frequently voiced by conservatives. The criticism of Biden's 'weakness' and the assertion that he is putting 'American interests last' are also common rhetorical devices used by right-leaning individuals to criticize the current administration.\"\n}\n```",
+      "explanation": "The author's statements align with common right-leaning political positions. Specifically, the call to stop funding Ukraine and prioritize border security are frequently voiced by conservatives. The criticism of Biden's 'weakness' and the assertion that he is putting 'American interests last' are also common rhetorical devices used by right-leaning individuals to criticize the current administration."
+    },
+    {
+      "author": "PatriotDefenseNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses several viewpoints commonly associated with the right wing of the political spectrum. Specifically, the criticism of President Biden's foreign policy as 'weakness' that 'emboldened' Putin, the call for a strong American stance against Russia, and the emphasis on 'freedom against tyranny' are all consistent with conservative and hawkish foreign policy positions. The call to cut off Russian energy also aligns with a desire to reduce dependence on foreign adversaries, a common theme in right-leaning political discourse.\"\n}\n```",
+      "explanation": "The author's post expresses several viewpoints commonly associated with the right wing of the political spectrum. Specifically, the criticism of President Biden's foreign policy as 'weakness' that 'emboldened' Putin, the call for a strong American stance against Russia, and the emphasis on 'freedom against tyranny' are all consistent with conservative and hawkish foreign policy positions. The call to cut off Russian energy also aligns with a desire to reduce dependence on foreign adversaries, a common theme in right-leaning political discourse."
+    },
+    {
+      "author": "TruthInConflict",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement exhibits several characteristics commonly associated with right-leaning political ideologies. Specifically, the phrases 'globalist agendas' and 'destruction of sovereign nations' are frequently used in right-wing circles to express skepticism towards international organizations and agreements, and to promote nationalist sentiments. The claim that the West is manipulating Ukraine in a 'proxy war' to weaken Russia is also a common narrative within certain segments of the right, often coupled with a distrust of Western foreign policy and a tendency to view geopolitical conflicts through a lens of national sovereignty and power struggles.\"\n}\n```",
+      "explanation": "The author's statement exhibits several characteristics commonly associated with right-leaning political ideologies. Specifically, the phrases 'globalist agendas' and 'destruction of sovereign nations' are frequently used in right-wing circles to express skepticism towards international organizations and agreements, and to promote nationalist sentiments. The claim that the West is manipulating Ukraine in a 'proxy war' to weaken Russia is also a common narrative within certain segments of the right, often coupled with a distrust of Western foreign policy and a tendency to view geopolitical conflicts through a lens of national sovereignty and power struggles."
+    },
+    {
+      "author": "EndStateViolence",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author uses language often associated with libertarianism (individual sovereignty, condemnation of state violence, opposition to taxpayer-funded wars), this ideology can be found across the political spectrum. Without further information, it's impossible to definitively classify the author as left or right. The post focuses on specific issues (conscription, military aggression, foreign wars) without revealing broader political views on economic or social issues that would help pinpoint a specific orientation.\"\n}\n```",
+      "explanation": "While the author uses language often associated with libertarianism (individual sovereignty, condemnation of state violence, opposition to taxpayer-funded wars), this ideology can be found across the political spectrum. Without further information, it's impossible to definitively classify the author as left or right. The post focuses on specific issues (conscription, military aggression, foreign wars) without revealing broader political views on economic or social issues that would help pinpoint a specific orientation."
+    },
+    {
+      "author": "EasternFrontWatch",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common right-leaning viewpoints, specifically: 1. Pro-Russia stance: Defending Russia's actions and framing them as a 'rightful defense' is a common position among some on the right, particularly those who are critical of Western foreign policy. 2. Anti-NATO sentiment: Viewing NATO as an aggressor and a threat to sovereign nations is a recurring theme in right-leaning circles, often coupled with a distrust of international organizations and alliances. 3. Anti-Western sentiment: The claim that Ukraine is a 'pawn in the West's plot' indicates a distrust of Western intentions and a belief that the West is acting against Russia's interests. 4. Strong Nationalism/Sovereignty: The reference to 'traitor to sovereign nations' suggests a strong belief in national sovereignty and a rejection of perceived foreign interference.\"\n}\n```",
+      "explanation": "The author's statement aligns with common right-leaning viewpoints, specifically: 1. Pro-Russia stance: Defending Russia's actions and framing them as a 'rightful defense' is a common position among some on the right, particularly those who are critical of Western foreign policy. 2. Anti-NATO sentiment: Viewing NATO as an aggressor and a threat to sovereign nations is a recurring theme in right-leaning circles, often coupled with a distrust of international organizations and alliances. 3. Anti-Western sentiment: The claim that Ukraine is a 'pawn in the West's plot' indicates a distrust of Western intentions and a belief that the West is acting against Russia's interests. 4. Strong Nationalism/Sovereignty: The reference to 'traitor to sovereign nations' suggests a strong belief in national sovereignty and a rejection of perceived foreign interference."
+    },
+    {
+      "author": "AmericaFirstDefense",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post reflects several common themes associated with right-leaning political ideologies. Specifically, the emphasis on American strength and projecting power on the international stage, criticism of President Biden's foreign policy as weak, advocating for a strong stance against Russia and China, and supporting energy independence (cutting off Russian energy imports) are all positions frequently held by conservatives and those on the right.\"\n}\n```",
+      "explanation": "The author's post reflects several common themes associated with right-leaning political ideologies. Specifically, the emphasis on American strength and projecting power on the international stage, criticism of President Biden's foreign policy as weak, advocating for a strong stance against Russia and China, and supporting energy independence (cutting off Russian energy imports) are all positions frequently held by conservatives and those on the right."
+    },
+    {
+      "author": "SovereigntyGuardian",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with common right-leaning and anti-globalist viewpoints. Specifically, the arguments that NATO expansion is a provocation, that Ukraine is a pawn in a 'globalist agenda,' and the accusation of 'war machine lies' are frequently used by right-leaning individuals and groups to criticize Western foreign policy and support Russia's actions. The term 'SovereigntyGuardian' itself suggests a focus on national sovereignty, a common theme in right-wing political discourse.\"\n}\n```",
+      "explanation": "The author's statements align with common right-leaning and anti-globalist viewpoints. Specifically, the arguments that NATO expansion is a provocation, that Ukraine is a pawn in a 'globalist agenda,' and the accusation of 'war machine lies' are frequently used by right-leaning individuals and groups to criticize Western foreign policy and support Russia's actions. The term 'SovereigntyGuardian' itself suggests a focus on national sovereignty, a common theme in right-wing political discourse."
+    }
+  ]
+}

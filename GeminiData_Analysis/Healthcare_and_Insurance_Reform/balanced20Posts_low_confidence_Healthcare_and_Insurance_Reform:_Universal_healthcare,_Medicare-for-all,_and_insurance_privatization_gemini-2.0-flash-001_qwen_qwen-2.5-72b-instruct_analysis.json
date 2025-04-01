@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 80.0,
+      "recall": 40.0,
+      "f1_score": 5333.333333333334,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "HealthcareDebater",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for a public option in healthcare, which is generally a policy associated with the political left. While they are not fully committed to Medicare for all, a policy typically favored by more progressive left-wing advocates, they see a public option as a beneficial compromise that could expand access to affordable care and reduce reliance on private insurance. This stance indicates a preference for government involvement in healthcare, which is more commonly aligned with left-leaning political views.\"\n}",
+      "explanation": "The author expresses support for a public option in healthcare, which is generally a policy associated with the political left. While they are not fully committed to Medicare for all, a policy typically favored by more progressive left-wing advocates, they see a public option as a beneficial compromise that could expand access to affordable care and reduce reliance on private insurance. This stance indicates a preference for government involvement in healthcare, which is more commonly aligned with left-leaning political views."
+    },
+    {
+      "author": "HealthcareConcernedCitizen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a preference for a public option in healthcare, which is typically associated with left-leaning political views that favor more government involvement in social services. The mention of balancing this with individual choice and market efficiency suggests an openness to some aspects of a market-based approach, but the primary inclination towards a public option indicates a leftward orientation.\"\n}",
+      "explanation": "The author expresses a preference for a public option in healthcare, which is typically associated with left-leaning political views that favor more government involvement in social services. The mention of balancing this with individual choice and market efficiency suggests an openness to some aspects of a market-based approach, but the primary inclination towards a public option indicates a leftward orientation."
+    },
+    {
+      "author": "HealthcareDebater",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for the concept of universal healthcare, which is generally aligned with left-leaning political ideologies. The mention of 'Medicare for all' as a potential pathway to achieve this goal further supports this classification, as it is a policy proposal commonly advocated by left-wing politicians and activists. The author's consideration of potential disruptions shows a thoughtful approach to the policy, but the overall positive inclination towards universal healthcare and Medicare for all indicates a leftward political orientation.\"\n}",
+      "explanation": "The author expresses support for the concept of universal healthcare, which is generally aligned with left-leaning political ideologies. The mention of 'Medicare for all' as a potential pathway to achieve this goal further supports this classification, as it is a policy proposal commonly advocated by left-wing politicians and activists. The author's consideration of potential disruptions shows a thoughtful approach to the policy, but the overall positive inclination towards universal healthcare and Medicare for all indicates a leftward political orientation."
+    },
+    {
+      "author": "HealthcareDebater",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for universal healthcare, which is generally a policy associated with left-leaning political ideologies. However, they also show some hesitation about Medicare for All, a more radical form of universal healthcare, due to concerns about potential disruptions. This suggests a more moderate left stance, still aligned with progressive healthcare goals but cautious about the implementation of sweeping reforms. The mention of 'fearmongering' indicates an awareness of opposition tactics, which is common among those who support the general idea of universal healthcare but are critically evaluating the specifics of proposed plans.\"\n}",
+      "explanation": "The author expresses support for universal healthcare, which is generally a policy associated with left-leaning political ideologies. However, they also show some hesitation about Medicare for All, a more radical form of universal healthcare, due to concerns about potential disruptions. This suggests a more moderate left stance, still aligned with progressive healthcare goals but cautious about the implementation of sweeping reforms. The mention of 'fearmongering' indicates an awareness of opposition tactics, which is common among those who support the general idea of universal healthcare but are critically evaluating the specifics of proposed plans."
+    },
+    {
+      "author": "GreenHealthThinker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, GreenHealthThinker, expresses a nuanced view on healthcare policy, showing support for equitable healthcare and considering a mixed system that includes public options. The mention of 'Medicare for All' and the emphasis on 'equitable healthcare' suggest a left-leaning perspective, as these are typically associated with progressive policies. Additionally, the concern for 'ecological sustainability' within healthcare models further aligns with left-wing values, which often prioritize environmental issues. While the author does not fully endorse a single-payer system, the overall tone and concerns expressed lean towards a left political orientation.\"\n}",
+      "explanation": "The author, GreenHealthThinker, expresses a nuanced view on healthcare policy, showing support for equitable healthcare and considering a mixed system that includes public options. The mention of 'Medicare for All' and the emphasis on 'equitable healthcare' suggest a left-leaning perspective, as these are typically associated with progressive policies. Additionally, the concern for 'ecological sustainability' within healthcare models further aligns with left-wing values, which often prioritize environmental issues. While the author does not fully endorse a single-payer system, the overall tone and concerns expressed lean towards a left political orientation."
+    },
+    {
+      "author": "HealthcareDebater",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of a 'public option' in healthcare suggests a leaning towards policies that are typically advocated by those on the left side of the political spectrum, such as increased government involvement in providing healthcare services. However, the author also expresses uncertainty and concern about the potential negative impacts on private insurance and jobs, which indicates a nuanced view and some consideration of arguments often made by those on the right. Despite this, the overall inclination towards a public option as a potential solution to healthcare issues aligns more closely with left-leaning political views.\"\n}",
+      "explanation": "The author's mention of a 'public option' in healthcare suggests a leaning towards policies that are typically advocated by those on the left side of the political spectrum, such as increased government involvement in providing healthcare services. However, the author also expresses uncertainty and concern about the potential negative impacts on private insurance and jobs, which indicates a nuanced view and some consideration of arguments often made by those on the right. Despite this, the overall inclination towards a public option as a potential solution to healthcare issues aligns more closely with left-leaning political views."
+    },
+    {
+      "author": "SkepticalHealthObserver",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a preference for market-based solutions in healthcare, such as privatizing insurance and fostering competition through a voucher system. This aligns with right-leaning economic policies that emphasize free market principles and reduced government intervention. The author also raises concerns about universal healthcare potentially stifling innovation, which is a common argument from the right. However, the author does show some skepticism and consideration of ethical implications, indicating a nuanced view, but the overall inclination towards market solutions suggests a rightward orientation.\"\n}",
+      "explanation": "The author's post suggests a preference for market-based solutions in healthcare, such as privatizing insurance and fostering competition through a voucher system. This aligns with right-leaning economic policies that emphasize free market principles and reduced government intervention. The author also raises concerns about universal healthcare potentially stifling innovation, which is a common argument from the right. However, the author does show some skepticism and consideration of ethical implications, indicating a nuanced view, but the overall inclination towards market solutions suggests a rightward orientation."
+    },
+    {
+      "author": "SkepticalLibertarian",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, SkepticalLibertarian, presents a balanced view by questioning both the potential benefits and drawbacks of privatizing healthcare. They express a struggle to understand all sides of the issue, which indicates an open-minded approach rather than a clear leaning towards a specific political orientation. The use of terms like 'beneficial competition and innovation' and 'further inequity' shows an awareness of arguments from both the left and the right, but does not definitively place the author on either side of the political spectrum.\"\n}",
+      "explanation": "The author, SkepticalLibertarian, presents a balanced view by questioning both the potential benefits and drawbacks of privatizing healthcare. They express a struggle to understand all sides of the issue, which indicates an open-minded approach rather than a clear leaning towards a specific political orientation. The use of terms like 'beneficial competition and innovation' and 'further inequity' shows an awareness of arguments from both the left and the right, but does not definitively place the author on either side of the political spectrum."
+    },
+    {
+      "author": "HealthcareHopeful",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for universal healthcare, which is a policy typically advocated by those on the left side of the political spectrum. However, they also show a willingness to consider alternatives to a full Medicare for All system, suggesting a nuanced view that still leans left but is open to pragmatic solutions that may include private insurance options. This openness to a mixed approach does not detract from the overall left-leaning stance on healthcare policy.\"\n}",
+      "explanation": "The author expresses support for universal healthcare, which is a policy typically advocated by those on the left side of the political spectrum. However, they also show a willingness to consider alternatives to a full Medicare for All system, suggesting a nuanced view that still leans left but is open to pragmatic solutions that may include private insurance options. This openness to a mixed approach does not detract from the overall left-leaning stance on healthcare policy."
+    },
+    {
+      "author": "GreenHealthAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, GreenHealthAdvocate, expresses a concern for equitable healthcare, which is a value often associated with left-leaning political orientations. While they are not fully endorsing Medicare for All, a policy typically supported by the political left, they are considering it as a viable option and are open to a blended approach that includes public and regulated private insurance. This suggests a progressive stance that values social welfare and government intervention in healthcare, which are key aspects of left-wing politics. The skepticism about completely disrupting existing systems indicates a pragmatic approach, but the overall focus on improving access to healthcare aligns more closely with left-wing principles.\"\n}",
+      "explanation": "The author, GreenHealthAdvocate, expresses a concern for equitable healthcare, which is a value often associated with left-leaning political orientations. While they are not fully endorsing Medicare for All, a policy typically supported by the political left, they are considering it as a viable option and are open to a blended approach that includes public and regulated private insurance. This suggests a progressive stance that values social welfare and government intervention in healthcare, which are key aspects of left-wing politics. The skepticism about completely disrupting existing systems indicates a pragmatic approach, but the overall focus on improving access to healthcare aligns more closely with left-wing principles."
+    },
+    {
+      "author": "SkepticHealthcareFreedom",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a nuanced view on healthcare, considering both the potential benefits of free markets and the necessity of safety nets for vulnerable populations. This balance does not clearly align with a strictly left or right political orientation, as it incorporates elements of both libertarian and social welfare perspectives. The author's skepticism and openness to discussing different approaches suggest a more centrist or undecided stance.\"\n}",
+      "explanation": "The post expresses a nuanced view on healthcare, considering both the potential benefits of free markets and the necessity of safety nets for vulnerable populations. This balance does not clearly align with a strictly left or right political orientation, as it incorporates elements of both libertarian and social welfare perspectives. The author's skepticism and openness to discussing different approaches suggest a more centrist or undecided stance."
+    },
+    {
+      "author": "RationalHealthcareLibertarian",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, RationalHealthcareLibertarian, expresses a preference for a free market approach to healthcare, which is typically associated with right-leaning political orientations. The emphasis on market-driven solutions, innovation, and affordability, as well as a skepticism towards government-run alternatives, aligns with libertarian and conservative economic principles. While the author acknowledges the complexity of the issue and the potential downsides, the overall sentiment favors less government intervention, which is a hallmark of right-wing political thought.\"\n}",
+      "explanation": "The author, RationalHealthcareLibertarian, expresses a preference for a free market approach to healthcare, which is typically associated with right-leaning political orientations. The emphasis on market-driven solutions, innovation, and affordability, as well as a skepticism towards government-run alternatives, aligns with libertarian and conservative economic principles. While the author acknowledges the complexity of the issue and the potential downsides, the overall sentiment favors less government intervention, which is a hallmark of right-wing political thought."
+    },
+    {
+      "author": "SovereignCitizen4Healthcare",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a nuanced view on healthcare privatization, acknowledging potential benefits while also raising significant concerns about profiteering and equal access. The author does not clearly align with typical left-wing or right-wing positions on healthcare, as they consider both the efficiency arguments often favored by the right and the equity and regulation arguments often favored by the left. Therefore, the political orientation remains unknown based on this post alone.\"\n}",
+      "explanation": "The post expresses a nuanced view on healthcare privatization, acknowledging potential benefits while also raising significant concerns about profiteering and equal access. The author does not clearly align with typical left-wing or right-wing positions on healthcare, as they consider both the efficiency arguments often favored by the right and the equity and regulation arguments often favored by the left. Therefore, the political orientation remains unknown based on this post alone."
+    },
+    {
+      "author": "HealthcareSkeptic",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, HealthcareSkeptic, expresses uncertainty about government-run healthcare and considers the possibility of limited privatization with safeguards. This stance does not clearly align with a specific political orientation as it shows a willingness to explore both public and private solutions, which can be found in various political ideologies. The concern about exploitation also indicates a cautious approach rather than a strong ideological stance.\"\n}",
+      "explanation": "The author, HealthcareSkeptic, expresses uncertainty about government-run healthcare and considers the possibility of limited privatization with safeguards. This stance does not clearly align with a specific political orientation as it shows a willingness to explore both public and private solutions, which can be found in various political ideologies. The concern about exploitation also indicates a cautious approach rather than a strong ideological stance."
+    },
+    {
+      "author": "User7739",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a preference for a healthcare system that minimizes the role of both insurance companies and government, advocating for a direct pay model that emphasizes individual responsibility and market competition. These views align with right-leaning political ideologies, which typically support free market principles and are critical of government intervention and third-party payer systems.\"\n}",
+      "explanation": "The author expresses a preference for a healthcare system that minimizes the role of both insurance companies and government, advocating for a direct pay model that emphasizes individual responsibility and market competition. These views align with right-leaning political ideologies, which typically support free market principles and are critical of government intervention and third-party payer systems."
+    },
+    {
+      "author": "HealthcareDebater76",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about both Medicare for all and aspects of privatization in healthcare, indicating a cautious and possibly centrist stance. They are not firmly advocating for or against either a left-leaning or right-leaning policy, but rather suggesting a reevaluation of privatization to potentially lower costs while expressing concern about access. This balanced consideration of both public and private healthcare solutions does not provide enough information to definitively classify the author's political orientation as either LEFT or RIGHT.\"\n}",
+      "explanation": "The author expresses uncertainty about both Medicare for all and aspects of privatization in healthcare, indicating a cautious and possibly centrist stance. They are not firmly advocating for or against either a left-leaning or right-leaning policy, but rather suggesting a reevaluation of privatization to potentially lower costs while expressing concern about access. This balanced consideration of both public and private healthcare solutions does not provide enough information to definitively classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "HealthcareDebater",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by HealthcareDebater expresses a nuanced view on universal healthcare, showing concern about potential negative impacts of government involvement on innovation and choice. However, the author also acknowledges the goal of providing coverage for everyone, which is a common argument from the left. The post does not provide enough information to definitively classify the author's political orientation as either strongly left or right, as it presents a balanced consideration of both the benefits and drawbacks of universal healthcare. Therefore, the orientation is classified as UNKNOWN.\"\n}",
+      "explanation": "The post by HealthcareDebater expresses a nuanced view on universal healthcare, showing concern about potential negative impacts of government involvement on innovation and choice. However, the author also acknowledges the goal of providing coverage for everyone, which is a common argument from the left. The post does not provide enough information to definitively classify the author's political orientation as either strongly left or right, as it presents a balanced consideration of both the benefits and drawbacks of universal healthcare. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "HealthcareSkeptic",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author expresses skepticism about Medicare for all, which could suggest a more conservative or centrist view, but also acknowledges potential benefits of private insurance without dismissing the idea of Medicare for all entirely. This balanced approach does not clearly align with a specific political ideology.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author expresses skepticism about Medicare for all, which could suggest a more conservative or centrist view, but also acknowledges potential benefits of private insurance without dismissing the idea of Medicare for all entirely. This balanced approach does not clearly align with a specific political ideology."
+    },
+    {
+      "author": "FreeMarketFan1776",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, FreeMarketFan1776, suggests a preference for market-based solutions, specifically mentioning the potential benefits of privatizing insurance. This indicates a right-leaning political orientation, as the right often advocates for free market principles and privatization. However, the author also expresses uncertainty about the impact on people with preexisting conditions and overall costs, showing a nuanced view but still leaning towards market solutions.\"\n}",
+      "explanation": "The author, FreeMarketFan1776, suggests a preference for market-based solutions, specifically mentioning the potential benefits of privatizing insurance. This indicates a right-leaning political orientation, as the right often advocates for free market principles and privatization. However, the author also expresses uncertainty about the impact on people with preexisting conditions and overall costs, showing a nuanced view but still leaning towards market solutions."
+    },
+    {
+      "author": "User7938",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a strong preference for reducing government involvement in healthcare, specifically calling for the repeal of the Affordable Care Act (ACA). They advocate for a free market approach, emphasizing the removal of government regulations and mandates to allow individuals more freedom in choosing their healthcare coverage. These views align with right-wing political ideology, which generally supports limited government intervention in economic affairs and personal choices, favoring instead market-driven solutions and individual responsibility.\"\n}",
+      "explanation": "The author expresses a strong preference for reducing government involvement in healthcare, specifically calling for the repeal of the Affordable Care Act (ACA). They advocate for a free market approach, emphasizing the removal of government regulations and mandates to allow individuals more freedom in choosing their healthcare coverage. These views align with right-wing political ideology, which generally supports limited government intervention in economic affairs and personal choices, favoring instead market-driven solutions and individual responsibility."
+    }
+  ]
+}

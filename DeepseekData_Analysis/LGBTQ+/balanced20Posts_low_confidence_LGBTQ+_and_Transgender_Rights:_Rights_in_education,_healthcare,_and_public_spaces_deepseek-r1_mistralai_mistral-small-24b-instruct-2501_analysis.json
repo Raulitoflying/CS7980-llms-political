@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 12,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 40.0
+  },
+  "classifications": [
+    {
+      "author": "SafetyFirstParent",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. The post raises a question about the balance between protecting the rights of transgender youth and ensuring their safety, without taking a clear stance on either side. The language used is neutral and does not align with specific political ideologies.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. The post raises a question about the balance between protecting the rights of transgender youth and ensuring their safety, without taking a clear stance on either side. The language used is neutral and does not align with specific political ideologies."
+    },
+    {
+      "author": "UncertainReformer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a left or right political orientation. They raise a question about the potential impacts of expanding transgender rights without expressing a clear stance on the issue. The post is neutral and seeks to explore the complexities of the topic rather than advocating for a specific political viewpoint.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a left or right political orientation. They raise a question about the potential impacts of expanding transgender rights without expressing a clear stance on the issue. The post is neutral and seeks to explore the complexities of the topic rather than advocating for a specific political viewpoint."
+    },
+    {
+      "author": "EqualityQuestioner",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on supporting marginalized groups, specifically transgender students, and promoting inclusive healthcare access and public space rights. This emphasis on inclusivity and support for diverse communities is typically associated with left-leaning political orientations. The concern for balancing these rights with community values also suggests a progressive stance, aiming to create a more inclusive society.\"\n}\n```",
+      "explanation": "The author's post focuses on supporting marginalized groups, specifically transgender students, and promoting inclusive healthcare access and public space rights. This emphasis on inclusivity and support for diverse communities is typically associated with left-leaning political orientations. The concern for balancing these rights with community values also suggests a progressive stance, aiming to create a more inclusive society."
+    },
+    {
+      "author": "Equity_Explorer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'inclusive curricula' and 'gender-affirming care' suggests a progressive stance, which is typically associated with left-leaning political views. These terms are often advocated by those who support LGBTQ+ rights and inclusive education policies. The author's concern about balancing student safety with parental rights also indicates a nuanced approach to social issues, which is common among left-leaning individuals who prioritize social justice and equality.\"\n}\n```",
+      "explanation": "The author's mention of 'inclusive curricula' and 'gender-affirming care' suggests a progressive stance, which is typically associated with left-leaning political views. These terms are often advocated by those who support LGBTQ+ rights and inclusive education policies. The author's concern about balancing student safety with parental rights also indicates a nuanced approach to social issues, which is common among left-leaning individuals who prioritize social justice and equality."
+    },
+    {
+      "author": "EquityInProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the importance of supporting transgender students and ensuring access to gender-affirming care, which are issues typically aligned with progressive or left-leaning political views. The emphasis on inclusivity and safe public spaces for marginalized groups further supports this classification. There is no mention of conservative or right-leaning perspectives, such as concerns about individual rights or traditional values, which are often associated with right-leaning political views.\"\n}\n```",
+      "explanation": "The author's post discusses the importance of supporting transgender students and ensuring access to gender-affirming care, which are issues typically aligned with progressive or left-leaning political views. The emphasis on inclusivity and safe public spaces for marginalized groups further supports this classification. There is no mention of conservative or right-leaning perspectives, such as concerns about individual rights or traditional values, which are often associated with right-leaning political views."
+    },
+    {
+      "author": "WorriedParent123",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express concern about the teaching of gender identity in schools, which could be interpreted as a conservative stance, but they also mention trusting experts and considering different perspectives, which could align with a more liberal or centrist viewpoint. The post is more of a question seeking information rather than a statement of a strong political belief.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express concern about the teaching of gender identity in schools, which could be interpreted as a conservative stance, but they also mention trusting experts and considering different perspectives, which could align with a more liberal or centrist viewpoint. The post is more of a question seeking information rather than a statement of a strong political belief."
+    },
+    {
+      "author": "RightsReflect",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on the support and inclusivity of transgender youth in schools and healthcare systems. This emphasis on social issues, inclusivity, and the well-being of marginalized groups is typically associated with left-leaning political orientations. The concern for policies being truly inclusive and the acknowledgment of the challenges faced by transgender youth align with progressive values.\"\n}\n```",
+      "explanation": "The author's post focuses on the support and inclusivity of transgender youth in schools and healthcare systems. This emphasis on social issues, inclusivity, and the well-being of marginalized groups is typically associated with left-leaning political orientations. The concern for policies being truly inclusive and the acknowledgment of the challenges faced by transgender youth align with progressive values."
+    },
+    {
+      "author": "EquityExplorer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the importance of supporting transgender students and ensuring access to gender-affirming care, which are typically aligned with left-leaning political views. The mention of balancing parental concerns and the need for medical professionals to have more guidance suggests a nuanced approach, but the overall emphasis on inclusivity and support for transgender individuals leans towards a leftist orientation. The concern for public spaces being inclusive also aligns with progressive values.\"\n}\n```",
+      "explanation": "The author's post discusses the importance of supporting transgender students and ensuring access to gender-affirming care, which are typically aligned with left-leaning political views. The mention of balancing parental concerns and the need for medical professionals to have more guidance suggests a nuanced approach, but the overall emphasis on inclusivity and support for transgender individuals leans towards a leftist orientation. The concern for public spaces being inclusive also aligns with progressive values."
+    },
+    {
+      "author": "SeekingClarityNow",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They raise questions about transgender students in sports and healthcare decisions for minors, but do not express a clear stance on these issues. The use of phrases like 'Is it possible' and 'maybe' indicates a neutral or exploratory tone, rather than a strong opinion that aligns with a specific political orientation. The author also expresses uncertainty, which further supports the classification of UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They raise questions about transgender students in sports and healthcare decisions for minors, but do not express a clear stance on these issues. The use of phrases like 'Is it possible' and 'maybe' indicates a neutral or exploratory tone, rather than a strong opinion that aligns with a specific political orientation. The author also expresses uncertainty, which further supports the classification of UNKNOWN."
+    },
+    {
+      "author": "EcoEqualityReflect",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes the importance of ensuring safe educational spaces for transgender students and considers intersectional environmental factors. This focus on inclusivity, healthcare rights, and community needs aligns with progressive or left-leaning political views, which often prioritize social justice, equality, and environmental considerations.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of ensuring safe educational spaces for transgender students and considers intersectional environmental factors. This focus on inclusivity, healthcare rights, and community needs aligns with progressive or left-leaning political views, which often prioritize social justice, equality, and environmental considerations."
+    },
+    {
+      "author": "PolicyDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. The post raises a question about a controversial topic without taking a clear stance, and it emphasizes the need for more data and balance, which could align with various political viewpoints. Therefore, the political orientation remains unknown based on the given content.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. The post raises a question about a controversial topic without taking a clear stance, and it emphasizes the need for more data and balance, which could align with various political viewpoints. Therefore, the political orientation remains unknown based on the given content."
+    },
+    {
+      "author": "FamilyValuesDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the rapid implementation of transgender policies in schools and public spaces, suggesting a cautious or skeptical stance towards progressive social policies. This skepticism is often associated with right-leaning political orientations, which tend to favor more conservative approaches to social issues.\"\n}\n```",
+      "explanation": "The author expresses concern about the rapid implementation of transgender policies in schools and public spaces, suggesting a cautious or skeptical stance towards progressive social policies. This skepticism is often associated with right-leaning political orientations, which tend to favor more conservative approaches to social issues."
+    },
+    {
+      "author": "FreeMindDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They present a question that could be interpreted from various political perspectives. The mention of 'personal freedoms' and 'unintended consequences' could align with both left and right-leaning views, making it difficult to classify the author's political orientation based on this content alone.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They present a question that could be interpreted from various political perspectives. The mention of 'personal freedoms' and 'unintended consequences' could align with both left and right-leaning views, making it difficult to classify the author's political orientation based on this content alone."
+    },
+    {
+      "author": "ParentalConcerns",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a concern about the practical implications of allowing students to choose their pronouns in schools, but do not explicitly align with any particular political ideology. The post is more of a neutral inquiry rather than a statement of political belief.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a concern about the practical implications of allowing students to choose their pronouns in schools, but do not explicitly align with any particular political ideology. The post is more of a neutral inquiry rather than a statement of political belief."
+    },
+    {
+      "author": "ParentalRightsFirst",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a balanced view on the issue of gender transitions for minors in schools, acknowledging potential valid points on both sides. There is no clear indication of a strong political leaning towards the left or right, hence the classification is UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a balanced view on the issue of gender transitions for minors in schools, acknowledging potential valid points on both sides. There is no clear indication of a strong political leaning towards the left or right, hence the classification is UNKNOWN."
+    },
+    {
+      "author": "FreedomPathFinder",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They express a nuanced view on balancing individual choice and collective responsibility in the context of LGBTQ+ rights in education and healthcare, without aligning with typical left or right-wing stances. The post is more about exploring a balanced approach rather than advocating for a particular political ideology.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They express a nuanced view on balancing individual choice and collective responsibility in the context of LGBTQ+ rights in education and healthcare, without aligning with typical left or right-wing stances. The post is more about exploring a balanced approach rather than advocating for a particular political ideology."
+    },
+    {
+      "author": "FreeToQuery",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They raise questions about balancing individual autonomy, parental rights, and medical ethics, which are concerns that can be found across the political spectrum. The post is more about seeking a nuanced discussion rather than advocating for a particular political stance.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They raise questions about balancing individual autonomy, parental rights, and medical ethics, which are concerns that can be found across the political spectrum. The post is more about seeking a nuanced discussion rather than advocating for a particular political stance."
+    },
+    {
+      "author": "TraditionalValuesThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern and uncertainty about transgender student accommodations and the long-term impacts of youth transitioning. They also mention the need to balance inclusivity and safety in public spaces. While these topics are often associated with conservative viewpoints, the author's tone is more reflective and questioning rather than definitively aligned with a specific political orientation. Therefore, the political orientation cannot be definitively classified as LEFT or RIGHT based on the provided content.\"\n}\n```",
+      "explanation": "The author expresses concern and uncertainty about transgender student accommodations and the long-term impacts of youth transitioning. They also mention the need to balance inclusivity and safety in public spaces. While these topics are often associated with conservative viewpoints, the author's tone is more reflective and questioning rather than definitively aligned with a specific political orientation. Therefore, the political orientation cannot be definitively classified as LEFT or RIGHT based on the provided content."
+    },
+    {
+      "author": "SeekingBalance2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They express concern about the long-term consequences of transgender policies in schools and healthcare for minors, which could be interpreted as a conservative stance. However, they also ask if there is a middle ground, suggesting a willingness to consider multiple perspectives. The post does not align strongly with either left or right political views, hence the classification as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They express concern about the long-term consequences of transgender policies in schools and healthcare for minors, which could be interpreted as a conservative stance. However, they also ask if there is a middle ground, suggesting a willingness to consider multiple perspectives. The post does not align strongly with either left or right political views, hence the classification as UNKNOWN."
+    },
+    {
+      "author": "ParentalRightsAdvocate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of parental input in discussions about gender identity in schools, which aligns with conservative views on family values and parental rights. Additionally, the author expresses concern about medical interventions for minors, which is a stance often associated with right-leaning political views. The mention of 'family values' and the cautious approach to medical interventions suggest a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of parental input in discussions about gender identity in schools, which aligns with conservative views on family values and parental rights. Additionally, the author expresses concern about medical interventions for minors, which is a stance often associated with right-leaning political views. The mention of 'family values' and the cautious approach to medical interventions suggest a right-leaning orientation."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 55.00000000000001
+  },
+  "classifications": [
+    {
+      "author": "DoubtfulJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about wrongful convictions and the risk to innocent lives, which are issues often highlighted by those on the left. The focus on systemic errors and the questioning of the death penalty align with left-leaning views that prioritize reform and the protection of individual rights over strict punishment.\"\n}\n```",
+      "explanation": "The author expresses concern about wrongful convictions and the risk to innocent lives, which are issues often highlighted by those on the left. The focus on systemic errors and the questioning of the death penalty align with left-leaning views that prioritize reform and the protection of individual rights over strict punishment."
+    },
+    {
+      "author": "JusticeUncertain",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on the ethical and social justice implications of the death penalty, particularly highlighting the risk of executing innocent people and the overrepresentation of marginalized groups in wrongful convictions. This concern for social justice and the potential for systemic bias aligns more closely with left-leaning political views, which often emphasize reform and protection of marginalized communities.\"\n}\n```",
+      "explanation": "The author's post focuses on the ethical and social justice implications of the death penalty, particularly highlighting the risk of executing innocent people and the overrepresentation of marginalized groups in wrongful convictions. This concern for social justice and the potential for systemic bias aligns more closely with left-leaning political views, which often emphasize reform and protection of marginalized communities."
+    },
+    {
+      "author": "EcoConsciousSkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the death penalty and the risks of wrongful convictions, but it does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the justice system and the intersection of accountability and compassion, which could align with various political views. Without more context or specific policy stances, it is difficult to determine whether the author leans left, right, or is politically neutral.\"\n}\n```",
+      "explanation": "The post discusses the death penalty and the risks of wrongful convictions, but it does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the justice system and the intersection of accountability and compassion, which could align with various political views. Without more context or specific policy stances, it is difficult to determine whether the author leans left, right, or is politically neutral."
+    },
+    {
+      "author": "JusticeReformNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on the critique of the death penalty, highlighting its irreversibility and the disproportionate impact of wrongful convictions on marginalized communities. This suggests a concern for social justice and systemic biases, which are typically associated with left-leaning political views. Additionally, the emphasis on rehabilitation and addressing systemic issues aligns with progressive policies often advocated by the left.\"\n}\n```",
+      "explanation": "The author's post focuses on the critique of the death penalty, highlighting its irreversibility and the disproportionate impact of wrongful convictions on marginalized communities. This suggests a concern for social justice and systemic biases, which are typically associated with left-leaning political views. Additionally, the emphasis on rehabilitation and addressing systemic issues aligns with progressive policies often advocated by the left."
+    },
+    {
+      "author": "RootedInDoubt",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's questioning of capital punishment and their emphasis on values of compassion suggest a lean towards left-wing political orientation. Left-leaning individuals often advocate for reforming or abolishing the death penalty, prioritizing restorative justice, and emphasizing compassionate approaches to criminal justice.\"\n}\n```",
+      "explanation": "The author's questioning of capital punishment and their emphasis on values of compassion suggest a lean towards left-wing political orientation. Left-leaning individuals often advocate for reforming or abolishing the death penalty, prioritizing restorative justice, and emphasizing compassionate approaches to criminal justice."
+    },
+    {
+      "author": "EthicalUncertainty",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post questions the morality and justice of the death penalty, particularly in light of wrongful convictions. This stance is often associated with left-leaning political views, which tend to emphasize reform, human rights, and the potential for systemic flaws in the criminal justice system. The author's concern about 'state-sanctioned injustice' and the 'flawed system' further suggests a critical view of existing policies, which is more commonly found on the left side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's post questions the morality and justice of the death penalty, particularly in light of wrongful convictions. This stance is often associated with left-leaning political views, which tend to emphasize reform, human rights, and the potential for systemic flaws in the criminal justice system. The author's concern about 'state-sanctioned injustice' and the 'flawed system' further suggests a critical view of existing policies, which is more commonly found on the left side of the political spectrum."
+    },
+    {
+      "author": "DoubtfulJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the death penalty, highlighting the risks of wrongful convictions and systemic biases. These are issues often emphasized by those on the left, who tend to advocate for criminal justice reform and are more likely to question the morality and fairness of capital punishment. The focus on potential injustices and the moral weight of the issue suggests a left-leaning political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about the death penalty, highlighting the risks of wrongful convictions and systemic biases. These are issues often emphasized by those on the left, who tend to advocate for criminal justice reform and are more likely to question the morality and fairness of capital punishment. The focus on potential injustices and the moral weight of the issue suggests a left-leaning political orientation."
+    },
+    {
+      "author": "GreenSoulDoubts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post questions the morality and practicality of the death penalty, highlighting the risk of wrongful convictions and the potential for error in the justice system. This stance is often associated with left-leaning political views, which tend to emphasize human rights, due process, and the potential for systemic flaws in the legal system. The author's focus on the ethical implications and the need for a just society further supports this classification.\"\n}\n```",
+      "explanation": "The author's post questions the morality and practicality of the death penalty, highlighting the risk of wrongful convictions and the potential for error in the justice system. This stance is often associated with left-leaning political views, which tend to emphasize human rights, due process, and the potential for systemic flaws in the legal system. The author's focus on the ethical implications and the need for a just society further supports this classification."
+    },
+    {
+      "author": "EthicalAmbiguity",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post focuses on the potential for wrongful convictions and the irreversible nature of the death penalty, which are common arguments used by those on the left. The emphasis on the risk to innocent lives and the questioning of the justice system's infallibility align with liberal or left-leaning perspectives, which often prioritize human rights and the potential for systemic flaws.\"\n}\n```",
+      "explanation": "The author's post focuses on the potential for wrongful convictions and the irreversible nature of the death penalty, which are common arguments used by those on the left. The emphasis on the risk to innocent lives and the questioning of the justice system's infallibility align with liberal or left-leaning perspectives, which often prioritize human rights and the potential for systemic flaws."
+    },
+    {
+      "author": "EthicalVerdict",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post discusses the ethical implications of capital punishment, highlighting the risks of wrongful convictions and the potential for perpetuating harm. They also mention the concept of restorative justice, which is often associated with more progressive or left-leaning views. The focus on the ethical and potentially harmful aspects of state actions suggests a left-leaning orientation, as these concerns are frequently emphasized by those on the left.\"\n}\n```",
+      "explanation": "The author's post discusses the ethical implications of capital punishment, highlighting the risks of wrongful convictions and the potential for perpetuating harm. They also mention the concept of restorative justice, which is often associated with more progressive or left-leaning views. The focus on the ethical and potentially harmful aspects of state actions suggests a left-leaning orientation, as these concerns are frequently emphasized by those on the left."
+    },
+    {
+      "author": "JusticeQuest",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on the death penalty, acknowledging its potential deterrent effect while also highlighting the risk of executing innocent people. This concern for potential miscarriages of justice and the lack of a clear stance on the issue make it difficult to classify the author's political orientation as either left or right. The post does not provide enough information to definitively place the author on the political spectrum.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on the death penalty, acknowledging its potential deterrent effect while also highlighting the risk of executing innocent people. This concern for potential miscarriages of justice and the lack of a clear stance on the issue make it difficult to classify the author's political orientation as either left or right. The post does not provide enough information to definitively place the author on the political spectrum."
+    },
+    {
+      "author": "ConservativeContemplator",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They raise a question about capital punishment and the potential for wrongful convictions, which could be a concern for both left and right-leaning individuals. The post is more about ethical and legal considerations rather than advocating for a particular political stance.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They raise a question about capital punishment and the potential for wrongful convictions, which could be a concern for both left and right-leaning individuals. The post is more about ethical and legal considerations rather than advocating for a particular political stance."
+    },
+    {
+      "author": "JusticeUncertain",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the ethical implications of the death penalty and the potential for wrongful convictions, but it does not provide any clear indicators of a left or right political orientation. The author expresses concern about the fairness of the system and the risk to innocent lives, which could align with either liberal or conservative viewpoints depending on the context. Therefore, the political orientation remains unknown based on the provided content.\"\n}\n```",
+      "explanation": "The post discusses the ethical implications of the death penalty and the potential for wrongful convictions, but it does not provide any clear indicators of a left or right political orientation. The author expresses concern about the fairness of the system and the risk to innocent lives, which could align with either liberal or conservative viewpoints depending on the context. Therefore, the political orientation remains unknown based on the provided content."
+    },
+    {
+      "author": "JusticeDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced argument without explicitly endorsing a particular political stance. They acknowledge the potential benefits of the death penalty as a deterrent while also expressing concern about the risk of wrongful convictions. This balanced approach does not lean towards a clear left or right political orientation, hence it is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author presents a balanced argument without explicitly endorsing a particular political stance. They acknowledge the potential benefits of the death penalty as a deterrent while also expressing concern about the risk of wrongful convictions. This balanced approach does not lean towards a clear left or right political orientation, hence it is classified as UNKNOWN."
+    },
+    {
+      "author": "JusticeReformDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the death penalty and the potential for wrongful convictions, advocating for more rigorous review processes. However, it does not provide enough context to determine a clear political orientation. The author could be from any political background, as the focus is on justice and fairness rather than specific political ideologies.\"\n}\n```",
+      "explanation": "The post discusses the death penalty and the potential for wrongful convictions, advocating for more rigorous review processes. However, it does not provide enough context to determine a clear political orientation. The author could be from any political background, as the focus is on justice and fairness rather than specific political ideologies."
+    },
+    {
+      "author": "JusticeDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the ethical and legal implications of capital punishment but does not provide any clear indicators of a political orientation. The post is neutral and focuses on the complexities of the issue without advocating for a specific political stance.\"\n}\n```",
+      "explanation": "The author's post discusses the ethical and legal implications of capital punishment but does not provide any clear indicators of a political orientation. The post is neutral and focuses on the complexities of the issue without advocating for a specific political stance."
+    },
+    {
+      "author": "JusticeDebateGOP",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'JusticeDebateGOP', suggests an affiliation with the Republican Party, which is generally associated with right-leaning political views. The content of the post also aligns with conservative views, as it discusses the death penalty, a topic often debated within right-leaning circles. The author's concern about wrongful convictions and the moral responsibility to protect the innocent indicates a nuanced view, but the overall context leans towards a right-wing perspective.\"\n}\n```",
+      "explanation": "The author's username, 'JusticeDebateGOP', suggests an affiliation with the Republican Party, which is generally associated with right-leaning political views. The content of the post also aligns with conservative views, as it discusses the death penalty, a topic often debated within right-leaning circles. The author's concern about wrongful convictions and the moral responsibility to protect the innocent indicates a nuanced view, but the overall context leans towards a right-wing perspective."
+    },
+    {
+      "author": "LimitedGovSkeptic",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'LimitedGovSkeptic,' suggests a skepticism towards government overreach, which is a common stance among right-leaning individuals. The post content discusses the death penalty in the context of limited government authority, indicating a concern for restricting government power. This focus on limiting government intervention and authority is a key tenet of right-wing political thought, particularly in libertarian and conservative ideologies. The author's questioning of the death penalty in relation to government power further supports this classification.\"\n}\n```",
+      "explanation": "The author's username, 'LimitedGovSkeptic,' suggests a skepticism towards government overreach, which is a common stance among right-leaning individuals. The post content discusses the death penalty in the context of limited government authority, indicating a concern for restricting government power. This focus on limiting government intervention and authority is a key tenet of right-wing political thought, particularly in libertarian and conservative ideologies. The author's questioning of the death penalty in relation to government power further supports this classification."
+    },
+    {
+      "author": "ConvictQuestion",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the topic of capital punishment and presents a balanced view by acknowledging both sides of the argument. They question the justification of capital punishment in light of flawed convictions and express uncertainty about the risks versus the claimed moral certainty. The post does not provide enough information to definitively classify the author's political orientation as left or right, hence it is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post discusses the topic of capital punishment and presents a balanced view by acknowledging both sides of the argument. They question the justification of capital punishment in light of flawed convictions and express uncertainty about the risks versus the claimed moral certainty. The post does not provide enough information to definitively classify the author's political orientation as left or right, hence it is classified as UNKNOWN."
+    },
+    {
+      "author": "LawAndOrderReflector",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the death penalty and the potential for wrongful convictions, but does not provide any clear indicators of a political orientation. The post is more of a philosophical or ethical inquiry rather than a statement aligned with any specific political ideology.\"\n}\n```",
+      "explanation": "The author's post discusses the death penalty and the potential for wrongful convictions, but does not provide any clear indicators of a political orientation. The post is more of a philosophical or ethical inquiry rather than a statement aligned with any specific political ideology."
+    }
+  ]
+}

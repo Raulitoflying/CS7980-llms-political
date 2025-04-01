@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 81.81818181818183,
+      "recall": 90.0,
+      "f1_score": 8571.428571428574,
+      "true_positive": 9,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 55.00000000000001
+  },
+  "classifications": [
+    {
+      "author": "JusticeQuestioning",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author raises concerns about systemic inequities and the root causes of drug sentencing issues, which are typically concerns of a left-leaning political perspective. The focus on public health and justice, as well as the skepticism towards simple solutions like legalization without broader reforms, suggests a progressive viewpoint that emphasizes social justice and equity.\"\n}",
+      "explanation": "The author raises concerns about systemic inequities and the root causes of drug sentencing issues, which are typically concerns of a left-leaning political perspective. The focus on public health and justice, as well as the skepticism towards simple solutions like legalization without broader reforms, suggests a progressive viewpoint that emphasizes social justice and equity."
+    },
+    {
+      "author": "EcoJusticeCurious",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoJusticeCurious reflects concerns about social justice and equity, which are typically associated with left-leaning political views. The author questions whether full marijuana legalization addresses systemic issues and emphasizes the need to protect and repair harm to communities that have been disproportionately affected by past policies. This focus on community impact and systemic inequities suggests a progressive stance that prioritizes social and racial justice over economic gains, aligning with left-wing political ideology.\"\n}",
+      "explanation": "The post by EcoJusticeCurious reflects concerns about social justice and equity, which are typically associated with left-leaning political views. The author questions whether full marijuana legalization addresses systemic issues and emphasizes the need to protect and repair harm to communities that have been disproportionately affected by past policies. This focus on community impact and systemic inequities suggests a progressive stance that prioritizes social and racial justice over economic gains, aligning with left-wing political ideology."
+    },
+    {
+      "author": "PolicyPonderer",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by PolicyPonderer demonstrates a concern for systemic inequities and the broader social implications of drug policy, which are typically more emphasized in left-leaning political discourse. The author questions whether simple legalization is sufficient to address deeper issues, suggesting a preference for more comprehensive and socially conscious reforms. This aligns with left-wing values that often focus on social justice and equity.\"\n}",
+      "explanation": "The post by PolicyPonderer demonstrates a concern for systemic inequities and the broader social implications of drug policy, which are typically more emphasized in left-leaning political discourse. The author questions whether simple legalization is sufficient to address deeper issues, suggesting a preference for more comprehensive and socially conscious reforms. This aligns with left-wing values that often focus on social justice and equity."
+    },
+    {
+      "author": "@UncertainReform",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concerns about systemic issues such as for-profit prisons and systemic racism, and questions the role of corporate interests in sentencing reforms. These views are typically associated with a left-leaning political orientation, which often advocates for social justice, reform of the criminal justice system, and skepticism towards corporate influence in policy-making.\"\n}",
+      "explanation": "The author expresses concerns about systemic issues such as for-profit prisons and systemic racism, and questions the role of corporate interests in sentencing reforms. These views are typically associated with a left-leaning political orientation, which often advocates for social justice, reform of the criminal justice system, and skepticism towards corporate influence in policy-making."
+    },
+    {
+      "author": "UncertainPatriot",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by UncertainPatriot raises questions about the motivations behind marijuana legalization and drug sentencing reform, suggesting a critical view of government actions. However, the author does not clearly align with specific political ideologies or positions that are typically associated with either the left or the right. The skepticism towards government intentions could be found in both conservative and libertarian circles, which often critique government overreach, as well as in some progressive or left-leaning groups that are wary of superficial reforms. Without more context or explicit statements of broader political beliefs, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by UncertainPatriot raises questions about the motivations behind marijuana legalization and drug sentencing reform, suggesting a critical view of government actions. However, the author does not clearly align with specific political ideologies or positions that are typically associated with either the left or the right. The skepticism towards government intentions could be found in both conservative and libertarian circles, which often critique government overreach, as well as in some progressive or left-leaning groups that are wary of superficial reforms. Without more context or explicit statements of broader political beliefs, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "EquityReform",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, EquityReform, expresses support for marijuana legalization and highlights concerns about deeper issues in drug sentencing, which are typically aligned with left-leaning political views. They also emphasize the importance of equity and balancing justice with public health, which are common priorities for those on the political left. The focus on reducing prison populations and ensuring consistent policies to promote fairness further supports this classification.\"\n}",
+      "explanation": "The author, EquityReform, expresses support for marijuana legalization and highlights concerns about deeper issues in drug sentencing, which are typically aligned with left-leaning political views. They also emphasize the importance of equity and balancing justice with public health, which are common priorities for those on the political left. The focus on reducing prison populations and ensuring consistent policies to promote fairness further supports this classification."
+    },
+    {
+      "author": "PolicyPonderer",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by PolicyPonderer reflects concerns that are typically associated with left-leaning political views. The author questions whether marijuana legalization is effectively addressing social equity, a common concern among progressive activists who advocate for policies that benefit marginalized communities. Additionally, the mention of systemic biases and the need to balance public health concerns with social justice issues aligns with a left-wing perspective that emphasizes social equality and the impact of systemic issues on disadvantaged groups. The skepticism towards the potential for corporate interests to overshadow community benefits also indicates a critical stance towards large corporations, which is more commonly found on the left side of the political spectrum.\"\n}",
+      "explanation": "The post by PolicyPonderer reflects concerns that are typically associated with left-leaning political views. The author questions whether marijuana legalization is effectively addressing social equity, a common concern among progressive activists who advocate for policies that benefit marginalized communities. Additionally, the mention of systemic biases and the need to balance public health concerns with social justice issues aligns with a left-wing perspective that emphasizes social equality and the impact of systemic issues on disadvantaged groups. The skepticism towards the potential for corporate interests to overshadow community benefits also indicates a critical stance towards large corporations, which is more commonly found on the left side of the political spectrum."
+    },
+    {
+      "author": "EcoJusticeCurious",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoJusticeCurious demonstrates a concern for systemic inequities and social justice, which are typically emphasized by left-leaning political perspectives. The author questions whether full marijuana legalization alone is sufficient to address these issues and suggests the need for 'proper safeguards' to prevent corporate exploitation and protect public health. This indicates a preference for regulation and a focus on equitable outcomes, which are also common in left-wing ideologies. The emphasis on balancing social justice with public health considerations further supports this classification.\"\n}",
+      "explanation": "The post by EcoJusticeCurious demonstrates a concern for systemic inequities and social justice, which are typically emphasized by left-leaning political perspectives. The author questions whether full marijuana legalization alone is sufficient to address these issues and suggests the need for 'proper safeguards' to prevent corporate exploitation and protect public health. This indicates a preference for regulation and a focus on equitable outcomes, which are also common in left-wing ideologies. The emphasis on balancing social justice with public health considerations further supports this classification."
+    },
+    {
+      "author": "EcoJusticePonderer",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, EcoJusticePonderer, raises concerns about the nuances of marijuana legalization, emphasizing social equity and the potential for commercial exploitation. They also highlight the importance of reducing sentences for nonviolent offenses and ensuring that reforms include support systems for rehabilitation. These points suggest a focus on social justice and systemic reform, which are typically associated with left-leaning political views. The concern for equitable outcomes and comprehensive support for individuals affected by the criminal justice system further supports this classification.\"\n}",
+      "explanation": "The author, EcoJusticePonderer, raises concerns about the nuances of marijuana legalization, emphasizing social equity and the potential for commercial exploitation. They also highlight the importance of reducing sentences for nonviolent offenses and ensuring that reforms include support systems for rehabilitation. These points suggest a focus on social justice and systemic reform, which are typically associated with left-leaning political views. The concern for equitable outcomes and comprehensive support for individuals affected by the criminal justice system further supports this classification."
+    },
+    {
+      "author": "EcoJusticeCurious",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, EcoJusticeCurious, demonstrates a concern for social equity and the reduction of mass incarceration, which are typically progressive or left-leaning issues. They also express a nuanced view by considering potential unintended consequences of full marijuana legalization, such as increased corporate influence, indicating a thoughtful approach to policy that is often associated with the left's emphasis on comprehensive social and economic justice. The focus on balancing these factors suggests a commitment to progressive values and a critical perspective on corporate power, which aligns with left-wing political orientations.\"\n}",
+      "explanation": "The author, EcoJusticeCurious, demonstrates a concern for social equity and the reduction of mass incarceration, which are typically progressive or left-leaning issues. They also express a nuanced view by considering potential unintended consequences of full marijuana legalization, such as increased corporate influence, indicating a thoughtful approach to policy that is often associated with the left's emphasis on comprehensive social and economic justice. The focus on balancing these factors suggests a commitment to progressive values and a critical perspective on corporate power, which aligns with left-wing political orientations."
+    },
+    {
+      "author": "PolicyPonderer",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by PolicyPonderer does not clearly indicate a specific political orientation. The author raises questions about marijuana legalization and drug sentencing reforms, which are topics that can be discussed from various political perspectives. The post reflects a balanced and inquisitive approach, seeking to understand both the potential benefits and the possible unintended consequences of these policies. It does not express strong support or opposition to either side, nor does it contain language or arguments that are distinctly left-wing or right-wing. Therefore, based on the content provided, the political orientation of the author remains unknown.\"\n}",
+      "explanation": "The post by PolicyPonderer does not clearly indicate a specific political orientation. The author raises questions about marijuana legalization and drug sentencing reforms, which are topics that can be discussed from various political perspectives. The post reflects a balanced and inquisitive approach, seeking to understand both the potential benefits and the possible unintended consequences of these policies. It does not express strong support or opposition to either side, nor does it contain language or arguments that are distinctly left-wing or right-wing. Therefore, based on the content provided, the political orientation of the author remains unknown."
+    },
+    {
+      "author": "SafeCommunitiesFirst",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the potential negative impact of marijuana legalization on youth access, which could be associated with more conservative views. However, they also acknowledge the argument for personal freedom and seek a middle ground that includes strict regulations, which could be aligned with more liberal or centrist perspectives. The balanced approach and the lack of strong ideological language make it difficult to determine a specific political orientation.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author expresses concern about the potential negative impact of marijuana legalization on youth access, which could be associated with more conservative views. However, they also acknowledge the argument for personal freedom and seek a middle ground that includes strict regulations, which could be aligned with more liberal or centrist perspectives. The balanced approach and the lack of strong ideological language make it difficult to determine a specific political orientation."
+    },
+    {
+      "author": "UncertainReform",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by UncertainReform raises questions about the potential negative impacts of marijuana legalization and the broader implications of reduced sentences for drug offenses. These concerns could be aligned with conservative values, which often emphasize law and order and caution against social reforms that might have unforeseen consequences. However, the author also touches on systemic inequities, a topic more commonly discussed from a liberal or progressive perspective. The post does not provide enough clear indicators to definitively classify the author's political orientation as either left or right, as it presents a nuanced and questioning stance rather than a clear position. Therefore, the orientation is classified as UNKNOWN.\"\n}",
+      "explanation": "The post by UncertainReform raises questions about the potential negative impacts of marijuana legalization and the broader implications of reduced sentences for drug offenses. These concerns could be aligned with conservative values, which often emphasize law and order and caution against social reforms that might have unforeseen consequences. However, the author also touches on systemic inequities, a topic more commonly discussed from a liberal or progressive perspective. The post does not provide enough clear indicators to definitively classify the author's political orientation as either left or right, as it presents a nuanced and questioning stance rather than a clear position. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "PolicyQuestioner",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by PolicyQuestioner raises questions about both the potential benefits and drawbacks of marijuana legalization and drug sentencing reform. While the author acknowledges the possible positive impact of reducing arrests, they also express concern about the potential increase in addiction, which is a more conservative viewpoint. Similarly, the author questions whether drug sentencing reform addresses root causes, suggesting a critical stance that could align with either a left or right political orientation. Without more context or additional statements that clearly align with specific political ideologies, it is not possible to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by PolicyQuestioner raises questions about both the potential benefits and drawbacks of marijuana legalization and drug sentencing reform. While the author acknowledges the possible positive impact of reducing arrests, they also express concern about the potential increase in addiction, which is a more conservative viewpoint. Similarly, the author questions whether drug sentencing reform addresses root causes, suggesting a critical stance that could align with either a left or right political orientation. Without more context or additional statements that clearly align with specific political ideologies, it is not possible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "LibertyOrControl",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertyOrControl expresses a nuanced view on marijuana legalization and drug sentencing reform, questioning both the libertarian perspective of personal liberty and the potential for government overreach. The author also shows concern that these reforms might not address deeper systemic issues, indicating a critical and balanced approach rather than a clear alignment with either a left or right political orientation. The lack of strong ideological indicators makes it difficult to classify the author's political stance definitively.\"\n}",
+      "explanation": "The post by LibertyOrControl expresses a nuanced view on marijuana legalization and drug sentencing reform, questioning both the libertarian perspective of personal liberty and the potential for government overreach. The author also shows concern that these reforms might not address deeper systemic issues, indicating a critical and balanced approach rather than a clear alignment with either a left or right political orientation. The lack of strong ideological indicators makes it difficult to classify the author's political stance definitively."
+    },
+    {
+      "author": "PatriotConcern44",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concerns about the potential negative societal impacts of marijuana legalization and drug sentencing reforms, which are typically more emphasized by conservative or right-leaning individuals. The author questions the safety of communities and the possibility of societal decay due to marijuana legalization, and worries that lighter penalties for drug offenses might lead to increased use of harder drugs. These concerns align with right-wing views that tend to prioritize law and order, social stability, and the potential risks of liberal policies over personal freedom and social justice arguments.\"\n}",
+      "explanation": "The post expresses concerns about the potential negative societal impacts of marijuana legalization and drug sentencing reforms, which are typically more emphasized by conservative or right-leaning individuals. The author questions the safety of communities and the possibility of societal decay due to marijuana legalization, and worries that lighter penalties for drug offenses might lead to increased use of harder drugs. These concerns align with right-wing views that tend to prioritize law and order, social stability, and the potential risks of liberal policies over personal freedom and social justice arguments."
+    },
+    {
+      "author": "PolicyDebaterUSA",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by PolicyDebaterUSA demonstrates a concern for reducing incarceration rates, which is often a priority for those on the political left who advocate for criminal justice reform. The author also shows a nuanced approach by considering the potential negative impact of marijuana legalization on youth access and community health, indicating a progressive stance that balances individual freedoms with social responsibility. This balance is typical of left-leaning individuals who support personal liberties but also emphasize the importance of public health and social welfare.\"\n}",
+      "explanation": "The post by PolicyDebaterUSA demonstrates a concern for reducing incarceration rates, which is often a priority for those on the political left who advocate for criminal justice reform. The author also shows a nuanced approach by considering the potential negative impact of marijuana legalization on youth access and community health, indicating a progressive stance that balances individual freedoms with social responsibility. This balance is typical of left-leaning individuals who support personal liberties but also emphasize the importance of public health and social welfare."
+    },
+    {
+      "author": "ConservativeCannabisThoughts",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a conservative viewpoint by emphasizing the potential risks of rapid marijuana legalization, particularly concerning public health impacts. They also highlight the importance of balancing drug sentencing reform with the need to prioritize violent crimes, suggesting a cautious and nuanced approach to policy changes. These concerns and the focus on safety and order are typically associated with right-leaning political orientations.\"\n}",
+      "explanation": "The author expresses a conservative viewpoint by emphasizing the potential risks of rapid marijuana legalization, particularly concerning public health impacts. They also highlight the importance of balancing drug sentencing reform with the need to prioritize violent crimes, suggesting a cautious and nuanced approach to policy changes. These concerns and the focus on safety and order are typically associated with right-leaning political orientations."
+    },
+    {
+      "author": "LibertyQuery",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by LibertyQuery reflects a nuanced view that aligns more with left-leaning political perspectives. The author discusses the potential benefits of marijuana legalization, such as reducing government overreach, which is a common theme in libertarian and progressive discourse. However, they also acknowledge the need for 'guardrails' to address public health concerns, showing a balanced approach that considers both individual freedoms and collective well-being. This balanced view, while critical of excessive government control, also recognizes the role of regulation, which is more characteristic of left-leaning thought than right-leaning, which might advocate for less regulation overall. The discussion of 'drug sentencing reform' and the balance between 'personal liberty and societal harm' further suggests a concern with social justice and equitable policy-making, which are typically associated with left-leaning politics.\"\n}",
+      "explanation": "The post by LibertyQuery reflects a nuanced view that aligns more with left-leaning political perspectives. The author discusses the potential benefits of marijuana legalization, such as reducing government overreach, which is a common theme in libertarian and progressive discourse. However, they also acknowledge the need for 'guardrails' to address public health concerns, showing a balanced approach that considers both individual freedoms and collective well-being. This balanced view, while critical of excessive government control, also recognizes the role of regulation, which is more characteristic of left-leaning thought than right-leaning, which might advocate for less regulation overall. The discussion of 'drug sentencing reform' and the balance between 'personal liberty and societal harm' further suggests a concern with social justice and equitable policy-making, which are typically associated with left-leaning politics."
+    },
+    {
+      "author": "FreedomFirstThinker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by FreedomFirstThinker demonstrates a nuanced view on the topic of marijuana legalization. On one hand, the author acknowledges the alignment of legalization with personal freedom, which is often a stance associated with libertarian or left-leaning perspectives. On the other hand, the concern about unintended consequences and the potential harm to communities suggests a more cautious and possibly conservative approach. The author does not provide enough information to definitively classify their political orientation as either left or right, as these concerns can be found across the political spectrum. Therefore, the orientation is classified as UNKNOWN.\"\n}",
+      "explanation": "The post by FreedomFirstThinker demonstrates a nuanced view on the topic of marijuana legalization. On one hand, the author acknowledges the alignment of legalization with personal freedom, which is often a stance associated with libertarian or left-leaning perspectives. On the other hand, the concern about unintended consequences and the potential harm to communities suggests a more cautious and possibly conservative approach. The author does not provide enough information to definitively classify their political orientation as either left or right, as these concerns can be found across the political spectrum. Therefore, the orientation is classified as UNKNOWN."
+    }
+  ]
+}

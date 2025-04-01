@@ -1,0 +1,160 @@
+{
+  "model_name": "anthropic/claude-3.5-sonnet",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 50.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 10
+    },
+    "left": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "unknown": {
+      "accuracy": 5.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 19,
+      "true_negative": 1,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 5.0
+  },
+  "classifications": [
+    {
+      "author": "User6000",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post shows genuine uncertainty and a tentative approach to the voter ID issue. The author acknowledges complexity ('complicated') and uses hedging language ('seems like,' 'maybe?'). While voter ID laws are often a partisan issue (with the right generally supporting and the left generally opposing them), this author isn't taking a strong stance either way. They simply acknowledge potential downsides ('could make it harder for some people to vote') without condemning or supporting the policy. The cautious, neutral language and lack of partisan rhetoric makes it impossible to confidently classify their political orientation.\"\n}",
+      "explanation": "This post shows genuine uncertainty and a tentative approach to the voter ID issue. The author acknowledges complexity ('complicated') and uses hedging language ('seems like,' 'maybe?'). While voter ID laws are often a partisan issue (with the right generally supporting and the left generally opposing them), this author isn't taking a strong stance either way. They simply acknowledge potential downsides ('could make it harder for some people to vote') without condemning or supporting the policy. The cautious, neutral language and lack of partisan rhetoric makes it impossible to confidently classify their political orientation."
+    },
+    {
+      "author": "User6001",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post shows genuine uncertainty and a balanced consideration of mail-in voting, without taking a strong stance either way. The author acknowledges potential benefits (convenience) while also expressing concerns about security, but does so in a measured way using tentative language ('seems like', 'might be', 'not sure'). Neither the concerns nor benefits mentioned align definitively with typical left or right talking points, and the overall tone is that of someone genuinely weighing different aspects of the issue rather than advocating for a particular political position. Without more context or stronger ideological indicators, it's impossible to determine this person's political orientation from this statement alone.\"\n}",
+      "explanation": "This post shows genuine uncertainty and a balanced consideration of mail-in voting, without taking a strong stance either way. The author acknowledges potential benefits (convenience) while also expressing concerns about security, but does so in a measured way using tentative language ('seems like', 'might be', 'not sure'). Neither the concerns nor benefits mentioned align definitively with typical left or right talking points, and the overall tone is that of someone genuinely weighing different aspects of the issue rather than advocating for a particular political position. Without more context or stronger ideological indicators, it's impossible to determine this person's political orientation from this statement alone."
+    },
+    {
+      "author": "User6002",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post shows no clear political orientation. The author expresses uncertainty about gerrymandering and asks for confirmation of their vague impression that it's negative, but doesn't take any partisan stance. While gerrymandering is often discussed in political contexts, merely acknowledging its existence or questioning its impact doesn't indicate a left or right leaning. The author's tentative, questioning tone and admission of limited knowledge suggests they are either genuinely unsure or trying to learn more about the topic rather than advocating for any particular political position.\"\n}",
+      "explanation": "This post shows no clear political orientation. The author expresses uncertainty about gerrymandering and asks for confirmation of their vague impression that it's negative, but doesn't take any partisan stance. While gerrymandering is often discussed in political contexts, merely acknowledging its existence or questioning its impact doesn't indicate a left or right leaning. The author's tentative, questioning tone and admission of limited knowledge suggests they are either genuinely unsure or trying to learn more about the topic rather than advocating for any particular political position."
+    },
+    {
+      "author": "User6003",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"This post appears to be expressing skepticism about the stated rationale for Voter ID laws, which is a typically left-leaning position. The author is implying that there may be ulterior motives behind Voter ID requirements beyond security concerns. This aligns with common left-wing arguments that Voter ID laws are actually meant to suppress voting among certain demographics rather than prevent fraud. The use of skeptical language ('*really*') suggests they doubt the conservative argument for these laws. While the statement is relatively mild, questioning the legitimacy of Voter ID requirements is a consistently left-wing position in current political discourse.\"\n}",
+      "explanation": "This post appears to be expressing skepticism about the stated rationale for Voter ID laws, which is a typically left-leaning position. The author is implying that there may be ulterior motives behind Voter ID requirements beyond security concerns. This aligns with common left-wing arguments that Voter ID laws are actually meant to suppress voting among certain demographics rather than prevent fraud. The use of skeptical language ('*really*') suggests they doubt the conservative argument for these laws. While the statement is relatively mild, questioning the legitimacy of Voter ID requirements is a consistently left-wing position in current political discourse."
+    },
+    {
+      "author": "User6004",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post shows genuine uncertainty and neutrality on the issue of automatic voter registration, without revealing any partisan lean. The author acknowledges hearing perspectives from multiple sides and explicitly states they are unsure which position is correct. They don't use any ideologically charged language or express views that align with either traditional left or right positions on voting access. The measured, non-committal tone and balanced consideration of multiple viewpoints makes it impossible to confidently determine their political orientation from this statement alone.\"\n}",
+      "explanation": "This post shows genuine uncertainty and neutrality on the issue of automatic voter registration, without revealing any partisan lean. The author acknowledges hearing perspectives from multiple sides and explicitly states they are unsure which position is correct. They don't use any ideologically charged language or express views that align with either traditional left or right positions on voting access. The measured, non-committal tone and balanced consideration of multiple viewpoints makes it impossible to confidently determine their political orientation from this statement alone."
+    },
+    {
+      "author": "User6005",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement is too brief and ambiguous to definitively classify the author's political orientation. While skepticism about voter suppression claims is more commonly associated with right-leaning viewpoints, the author's phrasing ('I am not sure') indicates uncertainty rather than a firm stance. They neither fully dismiss nor affirm voter suppression concerns, making it impossible to confidently determine their political orientation from this statement alone. The comment could reflect genuine uncertainty from any political perspective.\"\n}",
+      "explanation": "This statement is too brief and ambiguous to definitively classify the author's political orientation. While skepticism about voter suppression claims is more commonly associated with right-leaning viewpoints, the author's phrasing ('I am not sure') indicates uncertainty rather than a firm stance. They neither fully dismiss nor affirm voter suppression concerns, making it impossible to confidently determine their political orientation from this statement alone. The comment could reflect genuine uncertainty from any political perspective."
+    },
+    {
+      "author": "User6006",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post provides insufficient evidence to determine the author's political orientation. While gerrymandering is often discussed in political contexts, the author's vague and uncertain commentary ('some kind of problem', 'I think?') suggests either a lack of knowledge about the topic or intentional ambiguity. They don't take a strong stance or express views that align clearly with either left or right political ideologies. The acknowledgment that gerrymandering affects 'fairness' is a neutral observation that could be made by someone of any political orientation.\"\n}",
+      "explanation": "This post provides insufficient evidence to determine the author's political orientation. While gerrymandering is often discussed in political contexts, the author's vague and uncertain commentary ('some kind of problem', 'I think?') suggests either a lack of knowledge about the topic or intentional ambiguity. They don't take a strong stance or express views that align clearly with either left or right political ideologies. The acknowledgment that gerrymandering affects 'fairness' is a neutral observation that could be made by someone of any political orientation."
+    },
+    {
+      "author": "User6007",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too ambiguous and non-committal to determine the author's political orientation. The author is merely asking questions about voter ID requirements without taking a clear stance. While voter ID laws are often a politically charged topic (with the right typically supporting them and the left often opposing them), this post simply raises questions without revealing any personal views. The tentative phrasing ('Maybe?') and neutral questioning tone suggest either genuine uncertainty or intentional neutrality on the issue.\"\n}",
+      "explanation": "This post is too ambiguous and non-committal to determine the author's political orientation. The author is merely asking questions about voter ID requirements without taking a clear stance. While voter ID laws are often a politically charged topic (with the right typically supporting them and the left often opposing them), this post simply raises questions without revealing any personal views. The tentative phrasing ('Maybe?') and neutral questioning tone suggest either genuine uncertainty or intentional neutrality on the issue."
+    },
+    {
+      "author": "User6008",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement is too brief and neutral to determine political orientation. While voting access and early voting are often discussed in political contexts, the author's noncommittal and measured response ('not totally convinced') doesn't align clearly with either left or right positions. Both conservatives and liberals can have varying views on early voting, with some on both sides supporting or opposing it for different reasons. Without additional context about their specific concerns or reasoning, it's impossible to reliably classify their political orientation.\"\n}",
+      "explanation": "This statement is too brief and neutral to determine political orientation. While voting access and early voting are often discussed in political contexts, the author's noncommittal and measured response ('not totally convinced') doesn't align clearly with either left or right positions. Both conservatives and liberals can have varying views on early voting, with some on both sides supporting or opposing it for different reasons. Without additional context about their specific concerns or reasoning, it's impossible to reliably classify their political orientation."
+    },
+    {
+      "author": "User6009",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement is too ambiguous and brief to definitively classify the author's political orientation. While voter suppression is often discussed more by those on the left as a serious concern, and those on the right tend to be more skeptical of such claims, the author here is simply expressing uncertainty about the scale of the issue without taking a clear stance. The use of '...' and 'hard to know' suggests a genuinely uncertain or neutral position. Without more context or stronger opinion indicators, we cannot reliably determine their political orientation from this statement alone.\"\n}",
+      "explanation": "This statement is too ambiguous and brief to definitively classify the author's political orientation. While voter suppression is often discussed more by those on the left as a serious concern, and those on the right tend to be more skeptical of such claims, the author here is simply expressing uncertainty about the scale of the issue without taking a clear stance. The use of '...' and 'hard to know' suggests a genuinely uncertain or neutral position. Without more context or stronger opinion indicators, we cannot reliably determine their political orientation from this statement alone."
+    },
+    {
+      "author": "User7000",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too brief and neutral to definitively determine political orientation. While voter ID laws are often associated with right-wing politics, the author is merely asking a question and expressing uncertainty ('I think', 'Does that make sense?'). They're not taking a strong stance either for or against such laws, nor are they expressing any partisan talking points. The phrasing suggests they're genuinely seeking information rather than advocating for a particular political position. Without more context or stronger opinion statements, it's impossible to reliably classify their political orientation.\"\n}",
+      "explanation": "This post is too brief and neutral to definitively determine political orientation. While voter ID laws are often associated with right-wing politics, the author is merely asking a question and expressing uncertainty ('I think', 'Does that make sense?'). They're not taking a strong stance either for or against such laws, nor are they expressing any partisan talking points. The phrasing suggests they're genuinely seeking information rather than advocating for a particular political position. Without more context or stronger opinion statements, it's impossible to reliably classify their political orientation."
+    },
+    {
+      "author": "User7001",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too brief and ambiguous to definitively determine political orientation. While skepticism about mail-in voting has been more commonly associated with right-wing positions in recent years, this author's tentative and uncertain tone ('seems', 'maybe', 'not entirely sold') suggests they haven't taken a strong stance. They could be a conservative expressing doubt about mail-in voting, or they could be someone genuinely unsure and seeking more information. Without additional context or stronger ideological markers, we cannot reliably classify their political orientation.\"\n}",
+      "explanation": "This post is too brief and ambiguous to definitively determine political orientation. While skepticism about mail-in voting has been more commonly associated with right-wing positions in recent years, this author's tentative and uncertain tone ('seems', 'maybe', 'not entirely sold') suggests they haven't taken a strong stance. They could be a conservative expressing doubt about mail-in voting, or they could be someone genuinely unsure and seeking more information. Without additional context or stronger ideological markers, we cannot reliably classify their political orientation."
+    },
+    {
+      "author": "User7002",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While concerns about mail-in voting and support for voter ID laws are typically associated with right-leaning positions, this post shows significant uncertainty and tentativeness ('I think, but I might be wrong' and ending with a question mark). The author appears to be genuinely questioning these issues rather than taking a firm stance. They're framing their thoughts as questions and showing openness to different perspectives, making it difficult to definitively classify their political orientation based on this single, brief, questioning post alone.\"\n}",
+      "explanation": "While concerns about mail-in voting and support for voter ID laws are typically associated with right-leaning positions, this post shows significant uncertainty and tentativeness ('I think, but I might be wrong' and ending with a question mark). The author appears to be genuinely questioning these issues rather than taking a firm stance. They're framing their thoughts as questions and showing openness to different perspectives, making it difficult to definitively classify their political orientation based on this single, brief, questioning post alone."
+    },
+    {
+      "author": "User7003",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This statement is too ambiguous and brief to definitively classify the author's political orientation. While skepticism of government involvement in elections can be associated with right-wing views, the author's uncertainty and acknowledgment that they don't see an alternative suggests they're not taking a strong ideological stance. The comment could be interpreted multiple ways - as criticism of election regulation, voting rights legislation, or campaign finance laws - but without more context or specific policy positions, it's impossible to confidently determine their political orientation.\"\n}",
+      "explanation": "This statement is too ambiguous and brief to definitively classify the author's political orientation. While skepticism of government involvement in elections can be associated with right-wing views, the author's uncertainty and acknowledgment that they don't see an alternative suggests they're not taking a strong ideological stance. The comment could be interpreted multiple ways - as criticism of election regulation, voting rights legislation, or campaign finance laws - but without more context or specific policy positions, it's impossible to confidently determine their political orientation."
+    },
+    {
+      "author": "User7004",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too brief and ambiguous to make a clear determination of political orientation. While voter ID and citizenship requirements for voting are often associated with right-wing positions, this post's tentative tone ('Probably') and lack of strong advocacy makes it impossible to definitively classify. The author could be either repeating a common talking point without endorsing it, or softly advocating for stricter voting requirements. Without more context or stronger statements of belief, we cannot reliably determine the author's political orientation.\"\n}",
+      "explanation": "This post is too brief and ambiguous to make a clear determination of political orientation. While voter ID and citizenship requirements for voting are often associated with right-wing positions, this post's tentative tone ('Probably') and lack of strong advocacy makes it impossible to definitively classify. The author could be either repeating a common talking point without endorsing it, or softly advocating for stricter voting requirements. Without more context or stronger statements of belief, we cannot reliably determine the author's political orientation."
+    },
+    {
+      "author": "User7005",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too brief and ambiguous to reliably determine political orientation. While concerns about voting security are often associated with right-leaning positions, the author's tentative and uncertain tone ('maybe?', 'I think') suggests they're simply sharing a casual opinion rather than taking a strong ideological stance. The comment lacks any clear partisan talking points or ideological markers. Without additional context or stronger statements about election security, voter fraud, or voting rights, it's impossible to confidently classify this person's political orientation.\"\n}",
+      "explanation": "This post is too brief and ambiguous to reliably determine political orientation. While concerns about voting security are often associated with right-leaning positions, the author's tentative and uncertain tone ('maybe?', 'I think') suggests they're simply sharing a casual opinion rather than taking a strong ideological stance. The comment lacks any clear partisan talking points or ideological markers. Without additional context or stronger statements about election security, voter fraud, or voting rights, it's impossible to confidently classify this person's political orientation."
+    },
+    {
+      "author": "User7006",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too ambiguous and non-committal to determine the author's political orientation with confidence. The author merely raises a question about electoral fraud allegations without taking a clear stance. While they reference a common right-wing talking point about election cheating, they immediately question its validity with 'could be true? Or not.' This fence-sitting position and lack of strong opinion in either direction makes it impossible to reliably classify their political orientation. The brevity and ambiguity of the statement further prevents meaningful analysis of their political beliefs.\"\n}",
+      "explanation": "This post is too ambiguous and non-committal to determine the author's political orientation with confidence. The author merely raises a question about electoral fraud allegations without taking a clear stance. While they reference a common right-wing talking point about election cheating, they immediately question its validity with 'could be true? Or not.' This fence-sitting position and lack of strong opinion in either direction makes it impossible to reliably classify their political orientation. The brevity and ambiguity of the statement further prevents meaningful analysis of their political beliefs."
+    },
+    {
+      "author": "User7007",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post expresses a balanced and neutral concern about the trade-off between voting accessibility and security, without taking a clear partisan stance. The author acknowledges both values (ease of voting, which is typically associated with left-leaning positions, and voting security, which is typically emphasized by right-leaning positions) and expresses genuine uncertainty about reconciling them. Without additional context or more specific policy positions, it's impossible to determine the author's political orientation from this statement alone.\"\n}",
+      "explanation": "This post expresses a balanced and neutral concern about the trade-off between voting accessibility and security, without taking a clear partisan stance. The author acknowledges both values (ease of voting, which is typically associated with left-leaning positions, and voting security, which is typically emphasized by right-leaning positions) and expresses genuine uncertainty about reconciling them. Without additional context or more specific policy positions, it's impossible to determine the author's political orientation from this statement alone."
+    },
+    {
+      "author": "User7008",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too brief and ambivalent to determine a clear political orientation. While gerrymandering is often criticized by those on the left, the author's noncommittal stance ('I'm not sure it's the worst thing') and lack of strong opinion either way makes it impossible to reliably classify their political orientation. The statement is more of a neutral observation than a partisan position. Without additional context or stronger statements about specific policies or values, we cannot make a determination about the author's political leanings.\"\n}",
+      "explanation": "This post is too brief and ambivalent to determine a clear political orientation. While gerrymandering is often criticized by those on the left, the author's noncommittal stance ('I'm not sure it's the worst thing') and lack of strong opinion either way makes it impossible to reliably classify their political orientation. The statement is more of a neutral observation than a partisan position. Without additional context or stronger statements about specific policies or values, we cannot make a determination about the author's political leanings."
+    },
+    {
+      "author": "User7009",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"This post is too vague and noncommittal to reliably determine political orientation. While election security is often discussed by both sides (with the right typically emphasizing voter ID and fraud concerns, and the left focusing on access and foreign interference), this author's uncertain and ambivalent tone ('I guess', 'probably', 'I assume') shows no clear ideological stance or engagement with specific partisan talking points. The statement is so generic and hesitant that it could come from someone of any political orientation or someone who isn't politically engaged at all.\"\n}",
+      "explanation": "This post is too vague and noncommittal to reliably determine political orientation. While election security is often discussed by both sides (with the right typically emphasizing voter ID and fraud concerns, and the left focusing on access and foreign interference), this author's uncertain and ambivalent tone ('I guess', 'probably', 'I assume') shows no clear ideological stance or engagement with specific partisan talking points. The statement is so generic and hesitant that it could come from someone of any political orientation or someone who isn't politically engaged at all."
+    }
+  ]
+}

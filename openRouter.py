@@ -5,6 +5,7 @@ from tqdm import tqdm
 import re
 import os
 from dotenv import load_dotenv
+import glob
 
 # Load environment variables from .env file
 load_dotenv()
@@ -15,7 +16,7 @@ class PoliticalClassifier:
         self.api_key = os.getenv("OPENROUTER_API_KEY")
         if not self.api_key:
             raise ValueError("API key not found. Make sure OPENROUTER_API_KEY is set in your .env file.")
-            
+       
         self.model_name = model_name
         self.api_url = "https://openrouter.ai/api/v1/chat/completions"
         self.headers = {
@@ -280,23 +281,161 @@ class PoliticalClassifier:
         metrics['overall_accuracy'] = safe_divide(total_correct, len(classifications))
 
         return metrics
+    
+# new function to analyze a single file
+def analyze_single_file(file_path, model_name):
+    try:
+        # get the file name and path
+        file_basename = os.path.basename(file_path)
+        file_name_without_ext = os.path.splitext(file_basename)[0]
+        
+        print(f"\nProcessing file: {file_basename}")
+        
+        # load the JSON data
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+        
+        posts = data.get('posts', [])
+        if not posts:
+            print(f"No posts found in {file_path}")
+            return None
+        
+        print(f"Found {len(posts)} posts in file")
+        
+        # create a classifier instance and process the posts
+        classifier = PoliticalClassifier(model_name)
+        results = classifier.process_posts(posts)
+        
+        # create an output filename
+        output_filename = f"{file_name_without_ext}_{model_name.replace('/', '_')}_analysis.json"
+        
+        results['file_path'] = file_path  # save the input file path
+        results['output_filename'] = output_filename  # save the output filename
+        
+        # save the results to a JSON file
+        with open(output_filename, 'w') as f:
+            json.dump(results, f, indent=2)
+            
+        print(f"\nAnalysis for {file_basename} saved to {output_filename}")
+        print(f"Overall accuracy: {results['metrics']['overall_accuracy']:.2f}%")
+        
+        return results
+    
+    except Exception as e:
+        print(f"Error processing {file_path}: {e}")
+        return None
 
-# Example usage:
-def evaluate_model(model_name, posts):
-    classifier = PoliticalClassifier(model_name)
-    results = classifier.process_posts(posts)
+# analyze a folder of JSON files
+def analyze_folder(folder_path, model_name):
+    # ensure the folder exists
+    if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
+        print(f"Error: Folder '{folder_path}' does not exist or is not a directory")
+        return []
+    
+    results = []
+    
+    # check if the folder has subdirectories
+    has_subdirs = any(os.path.isdir(os.path.join(folder_path, item)) for item in os.listdir(folder_path))
+    
+    if has_subdirs:
+        # handle each subdirectory as a separate topic
+        topic_folders = [f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))]
+        print(f"Found {len(topic_folders)} topic folders in {folder_path}")
+        
+        for topic_folder in topic_folders:
+            topic_path = os.path.join(folder_path, topic_folder)
+            print(f"\nProcessing topic folder: {topic_folder}")
+            
+            # get all JSON files in the subdirectory
+            json_files = glob.glob(os.path.join(topic_path, "*.json"))
+            print(f"Found {len(json_files)} JSON files in {topic_folder}")
+            
+            for json_file in json_files:
+                file_result = analyze_single_file(json_file, model_name)
+                if file_result:
+                    results.append(file_result)
+        
+    else:
+        # directly analyze all JSON files in the folder
+        json_files = glob.glob(os.path.join(folder_path, "*.json"))
+        print(f"Found {len(json_files)} JSON files in {folder_path}")
+        
+        for json_file in json_files:
+            file_result = analyze_single_file(json_file, model_name)
+            if file_result:
+                results.append(file_result)
+    
     return results
 
-# Load and process data
-with open('synthetic20Posts_high_confidence_gemini-2.0-flash-001.json', 'r') as f:
-    data = json.load(f)
 
-# Models to evaluate
-models = [
-    "deepseek/deepseek-r1:free",
-]
+# # Example usage:
+# def evaluate_model(model_name, posts):
+#     classifier = PoliticalClassifier(model_name)
+#     results = classifier.process_posts(posts)
+#     return results
 
-# Run evaluation for each model
-for model_name in models:
-    results = evaluate_model(model_name, data['posts'])
-    print(f"\nFinished evaluating {model_name}\n")
+# # Load and process data
+# with open('Mistral_balancedData/Immigration_Reform/balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_mistral-small-24b-instruct-2501.json', 'r') as f:
+#     data = json.load(f)
+
+# # Models to evaluate
+# models = [
+#     "qwen/qwen-2.5-72b-instruct",
+# ]
+
+# # Run evaluation for each model
+# for model_name in models:
+#     results = evaluate_model(model_name, data['posts'])
+#     print(f"\nFinished evaluating {model_name}\n")
+
+# Example usage:
+if __name__ == "__main__":
+    # load environment variables
+    load_dotenv()
+    
+    # get the folder to analyze
+    folder_to_analyze = "Mistral_balancedData"  # subtitle folder to analyze
+    
+    # ensure the model names
+    models = [
+        # "meta-llama/llama-3.1-70b-instruct",
+        # "mistralai/mistral-small-24b-instruct-2501",
+        # "google/gemini-2.0-flash-001",
+        # "anthropic/claude-3.5-sonnet",
+        # "qwen/qwen-2.5-72b-instruct",
+        "deepseek/deepseek-r1",
+    ]
+    
+    # analyze the folder with each model
+    for model_name in models:
+        print(f"\n=== Starting analysis with {model_name} ===")
+        all_results = analyze_folder(folder_to_analyze, model_name)
+        print(f"\nCompleted analysis of {len(all_results)} files with {model_name}")
+        
+        # optionally generate a summary report
+        if all_results:
+            # calculate overall accuracy
+            total_accuracy = sum(result['metrics']['overall_accuracy'] for result in all_results if 'overall_accuracy' in result['metrics'])
+            total_posts = sum(result['total_posts'] for result in all_results)
+            overall_accuracy = (total_accuracy / len(all_results)) if len(all_results) > 0 else 0
+            
+            summary = {
+                "model_name": model_name,
+                "folder_analyzed": folder_to_analyze,
+                "total_files_analyzed": len(all_results),
+                "total_posts_analyzed": total_posts,
+                "overall_accuracy": overall_accuracy,
+                "file_summaries": [
+                    {
+                        "file": os.path.basename(result.get('output_filename', 'unknown')),
+                        "accuracy": result['metrics']['overall_accuracy']
+                    } for result in all_results
+                ]
+            }
+            
+            summary_filename = f"{folder_to_analyze}_{model_name.replace('/', '_')}_summary.json"
+            with open(summary_filename, 'w') as f:
+                json.dump(summary, f, indent=2)
+                
+            print(f"\nSummary report saved to {summary_filename}")
+            print(f"Overall accuracy across all files: {overall_accuracy:.2f}%")

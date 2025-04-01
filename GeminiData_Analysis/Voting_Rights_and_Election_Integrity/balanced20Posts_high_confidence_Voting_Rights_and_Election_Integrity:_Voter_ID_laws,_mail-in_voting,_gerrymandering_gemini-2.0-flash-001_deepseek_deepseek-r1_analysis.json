@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 10,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "DemocracyNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes expanding voting rights and combating 'voter suppression,' which are central issues in left-leaning political discourse. Phrases like 'protect and expand voting rights' and 'fight voter suppression' align with progressive advocacy focused on increasing accessibility to voting, often in opposition to policies perceived as restrictive (e.g., strict ID laws). The username 'DemocracyNow' may also reference the progressive media outlet of the same name, reinforcing a left-leaning context. The absence of concerns about voter fraud or election security, which are more common in right-leaning arguments, further supports this classification.\"\n}\n```",
+      "explanation": "The post emphasizes expanding voting rights and combating 'voter suppression,' which are central issues in left-leaning political discourse. Phrases like 'protect and expand voting rights' and 'fight voter suppression' align with progressive advocacy focused on increasing accessibility to voting, often in opposition to policies perceived as restrictive (e.g., strict ID laws). The username 'DemocracyNow' may also reference the progressive media outlet of the same name, reinforcing a left-leaning context. The absence of concerns about voter fraud or election security, which are more common in right-leaning arguments, further supports this classification."
+    },
+    {
+      "author": "LiberalVoter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post opposes voter ID laws, framing them as discriminatory toward minority communities and emphasizing equal voting access\u2014a stance aligned with left-leaning perspectives. Left-leaning advocates often argue that such laws suppress marginalized voters, reflecting a focus on systemic inequality and voting rights. The emphasis on 'disproportionate impact' and 'equal access' aligns with progressive priorities around social justice and anti-discrimination, contrasting with right-leaning arguments that typically prioritize election security over access.\"\n}\n```",
+      "explanation": "The post opposes voter ID laws, framing them as discriminatory toward minority communities and emphasizing equal voting access\u2014a stance aligned with left-leaning perspectives. Left-leaning advocates often argue that such laws suppress marginalized voters, reflecting a focus on systemic inequality and voting rights. The emphasis on 'disproportionate impact' and 'equal access' aligns with progressive priorities around social justice and anti-discrimination, contrasting with right-leaning arguments that typically prioritize election security over access."
+    },
+    {
+      "author": "GreenVote",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for mail-in voting, emphasizing accessibility, increased participation, and safety\u2014positions commonly associated with left-leaning political discourse in the U.S. context. The focus on expanding voting access aligns with progressive priorities to reduce barriers to civic engagement. Conversely, opposition to mail-in voting (e.g., claims of fraud risks) is more frequently voiced by right-leaning groups. The absence of language about election security or fraud concerns further supports a left-oriented classification. The username 'GreenVote' may also subtly signal environmental or progressive values, reinforcing this alignment.\"\n}",
+      "explanation": "The post advocates for mail-in voting, emphasizing accessibility, increased participation, and safety\u2014positions commonly associated with left-leaning political discourse in the U.S. context. The focus on expanding voting access aligns with progressive priorities to reduce barriers to civic engagement. Conversely, opposition to mail-in voting (e.g., claims of fraud risks) is more frequently voiced by right-leaning groups. The absence of language about election security or fraud concerns further supports a left-oriented classification. The username 'GreenVote' may also subtly signal environmental or progressive values, reinforcing this alignment."
+    },
+    {
+      "author": "L-FringeRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post criticizes gerrymandering as an attack on fair elections and voter representation, a stance commonly associated with left-leaning advocacy. The left frequently emphasizes electoral reform, combating voter suppression, and establishing independent redistricting commissions to ensure fairness. The username 'L-FringeRights' suggests a focus on marginalized groups (a left-aligned priority), and the urgency of 'End partisan redistricting now!' aligns with progressive calls for systemic change. While opposition to gerrymandering is bipartisan in some contexts, the framing here\u2014linking it to broader democratic integrity\u2014is more characteristic of left-wing discourse.\"\n}\n```",
+      "explanation": "The post criticizes gerrymandering as an attack on fair elections and voter representation, a stance commonly associated with left-leaning advocacy. The left frequently emphasizes electoral reform, combating voter suppression, and establishing independent redistricting commissions to ensure fairness. The username 'L-FringeRights' suggests a focus on marginalized groups (a left-aligned priority), and the urgency of 'End partisan redistricting now!' aligns with progressive calls for systemic change. While opposition to gerrymandering is bipartisan in some contexts, the framing here\u2014linking it to broader democratic integrity\u2014is more characteristic of left-wing discourse."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the fundamental importance of voting rights and frames their defense as central to building a 'just society.' In contemporary political discourse, advocacy for expanding or protecting voting access (e.g., opposing voter ID laws, supporting mail-in voting, or addressing gerrymandering) is more commonly associated with left-leaning platforms. Right-leaning rhetoric often prioritizes 'election integrity' measures that critics argue restrict access. The author's unambiguous focus on promoting voting rights as a moral imperative aligns with progressive priorities, making a LEFT classification most likely.\"\n}\n```",
+      "explanation": "The post emphasizes the fundamental importance of voting rights and frames their defense as central to building a 'just society.' In contemporary political discourse, advocacy for expanding or protecting voting access (e.g., opposing voter ID laws, supporting mail-in voting, or addressing gerrymandering) is more commonly associated with left-leaning platforms. Right-leaning rhetoric often prioritizes 'election integrity' measures that critics argue restrict access. The author's unambiguous focus on promoting voting rights as a moral imperative aligns with progressive priorities, making a LEFT classification most likely."
+    },
+    {
+      "author": "LiberalVoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for automatic voter registration and criticizes barriers to voting, which aligns with left-leaning political positions that prioritize expanding voter access and reducing systemic obstacles to participation. The stance contrasts with right-leaning arguments that often emphasize voter ID laws and election security over accessibility. The username 'LiberalVoice' further reinforces the left-oriented perspective, though the classification is primarily based on the policy position itself.\"\n}\n```",
+      "explanation": "The post advocates for automatic voter registration and criticizes barriers to voting, which aligns with left-leaning political positions that prioritize expanding voter access and reducing systemic obstacles to participation. The stance contrasts with right-leaning arguments that often emphasize voter ID laws and election security over accessibility. The username 'LiberalVoice' further reinforces the left-oriented perspective, though the classification is primarily based on the policy position itself."
+    },
+    {
+      "author": "GreenVotePower",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes prioritizing 'access to the ballot box' over 'election integrity,' a framing commonly associated with left-leaning positions that focus on combating voter suppression and expanding voting access (e.g., mail-in voting, opposing strict ID laws). The phrase 'protect the right to vote at all costs' aligns with progressive rhetoric about safeguarding democratic participation, particularly in response to policies perceived as restrictive. While 'election integrity' is often emphasized by the right, the author explicitly subordinates it to access, reinforcing a left-leaning perspective.\"\n}\n```",
+      "explanation": "The post emphasizes prioritizing 'access to the ballot box' over 'election integrity,' a framing commonly associated with left-leaning positions that focus on combating voter suppression and expanding voting access (e.g., mail-in voting, opposing strict ID laws). The phrase 'protect the right to vote at all costs' aligns with progressive rhetoric about safeguarding democratic participation, particularly in response to policies perceived as restrictive. While 'election integrity' is often emphasized by the right, the author explicitly subordinates it to access, reinforcing a left-leaning perspective."
+    },
+    {
+      "author": "L-FringeJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes combating 'voter suppression,' a term frequently associated with left-leaning discourse that critiques systemic barriers to voting access (e.g., restrictive ID laws, polling place closures). The framing of such practices as an 'attack on a fair system' aligns with progressive priorities focused on equity, democratic participation, and opposition to policies perceived as disenfranchising marginalized groups. Conservatives often dismiss or reframe these concerns as election security measures, making the author's stance more indicative of a left-wing perspective.\"\n}\n```",
+      "explanation": "The post emphasizes combating 'voter suppression,' a term frequently associated with left-leaning discourse that critiques systemic barriers to voting access (e.g., restrictive ID laws, polling place closures). The framing of such practices as an 'attack on a fair system' aligns with progressive priorities focused on equity, democratic participation, and opposition to policies perceived as disenfranchising marginalized groups. Conservatives often dismiss or reframe these concerns as election security measures, making the author's stance more indicative of a left-wing perspective."
+    },
+    {
+      "author": "DemocracyNowMore",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The statement prioritizes high voter turnout as the singular goal of voting policies, a stance commonly associated with left-leaning political ideologies. In contemporary U.S. politics, the left typically advocates for policies that expand voting access (e.g., mail-in voting, automatic registration) to maximize participation, often framing it as a democratic imperative. Conversely, right-leaning positions more frequently emphasize election security measures (e.g., strict voter ID laws) even if they might reduce turnout. The username 'DemocracyNowMore' also subtly aligns with progressive rhetoric, as 'Democracy Now!' is a left-aligned media organization. While support for voter turnout is not exclusive to the left, the explicit prioritization of turnout over other considerations strongly reflects left-wing priorities in current political discourse.\"\n}\n```",
+      "explanation": "The statement prioritizes high voter turnout as the singular goal of voting policies, a stance commonly associated with left-leaning political ideologies. In contemporary U.S. politics, the left typically advocates for policies that expand voting access (e.g., mail-in voting, automatic registration) to maximize participation, often framing it as a democratic imperative. Conversely, right-leaning positions more frequently emphasize election security measures (e.g., strict voter ID laws) even if they might reduce turnout. The username 'DemocracyNowMore' also subtly aligns with progressive rhetoric, as 'Democracy Now!' is a left-aligned media organization. While support for voter turnout is not exclusive to the left, the explicit prioritization of turnout over other considerations strongly reflects left-wing priorities in current political discourse."
+    },
+    {
+      "author": "LiberalRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for campaign finance reform to reduce the influence of wealth in politics, a position strongly associated with left-leaning ideologies. The phrase 'the rich buy elections' aligns with leftist critiques of systemic inequality and corporate power in governance. Additionally, the username 'LiberalRights' suggests a progressive or liberal stance, further supporting a LEFT classification. Right-leaning perspectives typically emphasize minimal regulation of political spending, framing it as free speech, making this viewpoint inconsistent with conservative priorities.\"\n}\n```",
+      "explanation": "The post advocates for campaign finance reform to reduce the influence of wealth in politics, a position strongly associated with left-leaning ideologies. The phrase 'the rich buy elections' aligns with leftist critiques of systemic inequality and corporate power in governance. Additionally, the username 'LiberalRights' suggests a progressive or liberal stance, further supporting a LEFT classification. Right-leaning perspectives typically emphasize minimal regulation of political spending, framing it as free speech, making this viewpoint inconsistent with conservative priorities."
+    },
+    {
+      "author": "SecureVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for voter ID laws, emphasizing 'election integrity' and 'preventing fraud'\u2014key talking points commonly associated with conservative/right-leaning political discourse. In the U.S., support for strict voter ID requirements is predominantly a Republican stance, rooted in concerns about election security. Critics on the left often argue such laws disproportionately disenfranchise marginalized groups, framing them as voter suppression. The author's focus on 'sanctity' and the specific mention of photo ID aligns with right-leaning rhetoric, which prioritizes fraud prevention (despite evidence showing voter fraud is rare) over accessibility concerns. This positions the author's orientation as RIGHT.\"\n}\n```",
+      "explanation": "The post advocates for voter ID laws, emphasizing 'election integrity' and 'preventing fraud'\u2014key talking points commonly associated with conservative/right-leaning political discourse. In the U.S., support for strict voter ID requirements is predominantly a Republican stance, rooted in concerns about election security. Critics on the left often argue such laws disproportionately disenfranchise marginalized groups, framing them as voter suppression. The author's focus on 'sanctity' and the specific mention of photo ID aligns with right-leaning rhetoric, which prioritizes fraud prevention (despite evidence showing voter fraud is rare) over accessibility concerns. This positions the author's orientation as RIGHT."
+    },
+    {
+      "author": "ConservativeVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on mail-in voting as a source of fraud and advocacy for in-person voting aligns with common right-leaning narratives that prioritize election security concerns over expanded voting access. This stance has been prominently emphasized by conservative groups and politicians, particularly in recent U.S. elections, where mail-in voting became a partisan issue. The username 'ConservativeVote' further reinforces this alignment, though the classification is primarily based on the content's emphasis on fraud risks and opposition to mail-in ballots\u2014a position more frequently associated with right-wing discourse.\"\n}\n```",
+      "explanation": "The author's focus on mail-in voting as a source of fraud and advocacy for in-person voting aligns with common right-leaning narratives that prioritize election security concerns over expanded voting access. This stance has been prominently emphasized by conservative groups and politicians, particularly in recent U.S. elections, where mail-in voting became a partisan issue. The username 'ConservativeVote' further reinforces this alignment, though the classification is primarily based on the content's emphasis on fraud risks and opposition to mail-in ballots\u2014a position more frequently associated with right-wing discourse."
+    },
+    {
+      "author": "R-FringeIntegrity",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'election integrity,' a term heavily associated with right-wing discourse in recent U.S. politics, particularly regarding unsubstantiated claims of voter fraud. The username 'R-FringeIntegrity' likely signals affiliation with the Republican party ('R') and fringe conservative groups focused on election security. While 'corruption' is a bipartisan concern, the context here aligns with right-wing narratives linking corruption to electoral processes rather than systemic or financial issues. Combined, these elements strongly suggest a right-leaning orientation.\"\n}",
+      "explanation": "The post emphasizes 'election integrity,' a term heavily associated with right-wing discourse in recent U.S. politics, particularly regarding unsubstantiated claims of voter fraud. The username 'R-FringeIntegrity' likely signals affiliation with the Republican party ('R') and fringe conservative groups focused on election security. While 'corruption' is a bipartisan concern, the context here aligns with right-wing narratives linking corruption to electoral processes rather than systemic or financial issues. Combined, these elements strongly suggest a right-leaning orientation."
+    },
+    {
+      "author": "RepublicanVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'accurate voter rolls' and 'ensuring only eligible citizens vote,' themes strongly aligned with right-leaning political discourse in the U.S., which often prioritizes strict voter verification measures as part of election integrity efforts. The username 'RepublicanVote' further reinforces a right-leaning affiliation, as the Republican Party has consistently advocated for policies framed around preventing voter fraud, even as critics argue such measures may suppress turnout. The language reflects common conservative talking points on election security rather than progressive focuses on expanding voter access.\"\n}\n```",
+      "explanation": "The post emphasizes 'accurate voter rolls' and 'ensuring only eligible citizens vote,' themes strongly aligned with right-leaning political discourse in the U.S., which often prioritizes strict voter verification measures as part of election integrity efforts. The username 'RepublicanVote' further reinforces a right-leaning affiliation, as the Republican Party has consistently advocated for policies framed around preventing voter fraud, even as critics argue such measures may suppress turnout. The language reflects common conservative talking points on election security rather than progressive focuses on expanding voter access."
+    },
+    {
+      "author": "ConservativeValues",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author defends gerrymandering as a 'necessary tool to ensure fair representation,' a stance often associated with right-leaning perspectives in the U.S. context. While gerrymandering is broadly criticized for creating partisan advantages, conservative groups have historically justified it as a means to balance representation in mixed urban-rural areas or to counter perceived overrepresentation of liberal urban centers. The username 'ConservativeValues' further supports this classification. The argument that fairness 'depends on where districts are drawn' aligns with right-leaning defenses of gerrymandering as a legitimate political strategy, contrasting with left-leaning calls for independent redistricting commissions to prevent partisan bias.\"\n}\n```",
+      "explanation": "The author defends gerrymandering as a 'necessary tool to ensure fair representation,' a stance often associated with right-leaning perspectives in the U.S. context. While gerrymandering is broadly criticized for creating partisan advantages, conservative groups have historically justified it as a means to balance representation in mixed urban-rural areas or to counter perceived overrepresentation of liberal urban centers. The username 'ConservativeValues' further supports this classification. The argument that fairness 'depends on where districts are drawn' aligns with right-leaning defenses of gerrymandering as a legitimate political strategy, contrasting with left-leaning calls for independent redistricting commissions to prevent partisan bias."
+    },
+    {
+      "author": "R-FringeDefend",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'election integrity' and 'suspected fraud,' themes heavily associated with right-wing discourse in recent U.S. political contexts, particularly following the 2020 election. The call to 'hold leaders accountable' aligns with unproven claims of widespread voter fraud often promoted by right-wing figures. The username 'R-FringeDefend' further contextualizes this, as 'R' likely denotes Republican affiliation, and 'fringe' suggests alignment with more extreme or conspiratorial elements within conservative politics. Left-leaning rhetoric typically focuses on voter access and suppression rather than fraud allegations, making this classification strongly indicative of a right-wing orientation.\"\n}\n```",
+      "explanation": "The post emphasizes 'election integrity' and 'suspected fraud,' themes heavily associated with right-wing discourse in recent U.S. political contexts, particularly following the 2020 election. The call to 'hold leaders accountable' aligns with unproven claims of widespread voter fraud often promoted by right-wing figures. The username 'R-FringeDefend' further contextualizes this, as 'R' likely denotes Republican affiliation, and 'fringe' suggests alignment with more extreme or conspiratorial elements within conservative politics. Left-leaning rhetoric typically focuses on voter access and suppression rather than fraud allegations, making this classification strongly indicative of a right-wing orientation."
+    },
+    {
+      "author": "SecureElections",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes election security and the 'chain of custody of ballots,' which have been focal points in right-leaning discourse, particularly following the 2020 U.S. election. While election security is a universal concern, the specific phrasing aligns more closely with right-wing narratives that prioritize preventing alleged fraud over expanding voter access. The absence of language about inclusivity or opposition to restrictions further supports this classification, as such topics are more commonly associated with left-leaning positions. However, the brevity of the post introduces some uncertainty, as the stance could theoretically be non-partisan. Nonetheless, the terminology and context of recent political debates make RIGHT the most plausible classification.\"\n}\n```",
+      "explanation": "The post emphasizes election security and the 'chain of custody of ballots,' which have been focal points in right-leaning discourse, particularly following the 2020 U.S. election. While election security is a universal concern, the specific phrasing aligns more closely with right-wing narratives that prioritize preventing alleged fraud over expanding voter access. The absence of language about inclusivity or opposition to restrictions further supports this classification, as such topics are more commonly associated with left-leaning positions. However, the brevity of the post introduces some uncertainty, as the stance could theoretically be non-partisan. Nonetheless, the terminology and context of recent political debates make RIGHT the most plausible classification."
+    },
+    {
+      "author": "ConservativeUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for limiting early voting periods, a stance commonly associated with conservative (right-leaning) political positions in the U.S. The emphasis on 'preserving election integrity' and preventing 'opportunities for fraud' aligns with recurring conservative narratives that prioritize strict voting regulations, often framed as measures to combat alleged voter fraud. Left-leaning positions typically oppose such restrictions, framing them as voter suppression. The username 'ConservativeUSA' further reinforces the right-leaning context.\"\n}\n```",
+      "explanation": "The post advocates for limiting early voting periods, a stance commonly associated with conservative (right-leaning) political positions in the U.S. The emphasis on 'preserving election integrity' and preventing 'opportunities for fraud' aligns with recurring conservative narratives that prioritize strict voting regulations, often framed as measures to combat alleged voter fraud. Left-leaning positions typically oppose such restrictions, framing them as voter suppression. The username 'ConservativeUSA' further reinforces the right-leaning context."
+    },
+    {
+      "author": "RFringeTruth",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post reflects concerns about election integrity and a 'coordinated effort to undermine our elections,' which aligns with right-wing narratives prevalent in U.S. politics following the 2020 election. Claims of systemic election fraud or attacks on the republic are frequently associated with conservative discourse, particularly the 'Stop the Steal' movement. The defensive tone ('attack our republic') and emphasis on protecting institutional structures resonate with right-leaning rhetoric that positions itself as safeguarding constitutional values against perceived internal threats. While election security is a bipartisan issue, the vague reference to a 'coordinated effort' (without specifics like foreign interference or voter suppression) leans toward right-wing conspiracy theories about domestic electoral subversion.\"\n}",
+      "explanation": "The post reflects concerns about election integrity and a 'coordinated effort to undermine our elections,' which aligns with right-wing narratives prevalent in U.S. politics following the 2020 election. Claims of systemic election fraud or attacks on the republic are frequently associated with conservative discourse, particularly the 'Stop the Steal' movement. The defensive tone ('attack our republic') and emphasis on protecting institutional structures resonate with right-leaning rhetoric that positions itself as safeguarding constitutional values against perceived internal threats. While election security is a bipartisan issue, the vague reference to a 'coordinated effort' (without specifics like foreign interference or voter suppression) leans toward right-wing conspiracy theories about domestic electoral subversion."
+    },
+    {
+      "author": "RightToVote",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post combines elements that do not clearly align with a single political orientation. Supporting universal voting rights (regardless of political leanings) and opposing overly burdensome voting methods could align with left-leaning advocacy for accessibility. However, opposing compulsory voting might reflect a libertarian or right-leaning skepticism of government mandates. The lack of explicit partisan cues (e.g., mentions of voter ID laws, mail-in ballots, or fraud) creates ambiguity. The username 'RightToVote' emphasizes voting rights but does not resolve the mixed stance. Thus, the positions are too ideologically hybrid or contextually vague to definitively classify as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post combines elements that do not clearly align with a single political orientation. Supporting universal voting rights (regardless of political leanings) and opposing overly burdensome voting methods could align with left-leaning advocacy for accessibility. However, opposing compulsory voting might reflect a libertarian or right-leaning skepticism of government mandates. The lack of explicit partisan cues (e.g., mentions of voter ID laws, mail-in ballots, or fraud) creates ambiguity. The username 'RightToVote' emphasizes voting rights but does not resolve the mixed stance. Thus, the positions are too ideologically hybrid or contextually vague to definitively classify as LEFT or RIGHT."
+    }
+  ],
+  "file_path": "Gemini_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_high_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_high_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 66.66666666666666,
+      "recall": 60.0,
+      "f1_score": 6315.78947368421,
+      "true_positive": 6,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 70.0,
+      "recall": 70.0,
+      "f1_score": 7000.0,
+      "true_positive": 7,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "ProtectOurChildren1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes 'radical gender ideology in schools' and criticizes healthcare support for gender-affirming care as 'catering to delusional fantasies,' which aligns with conservative/right-leaning rhetoric. Terms like 'shielded from radical gender ideology' and 'delusional fantasies' are commonly used by right-wing commentators to reject progressive gender policies and transgender rights. The username 'ProtectOurChildren1776' further signals a focus on traditional values (via '1776') and a defensive stance against perceived threats to children, a frequent theme in right-wing discourse on social issues.\"\n}\n```",
+      "explanation": "The post opposes 'radical gender ideology in schools' and criticizes healthcare support for gender-affirming care as 'catering to delusional fantasies,' which aligns with conservative/right-leaning rhetoric. Terms like 'shielded from radical gender ideology' and 'delusional fantasies' are commonly used by right-wing commentators to reject progressive gender policies and transgender rights. The username 'ProtectOurChildren1776' further signals a focus on traditional values (via '1776') and a defensive stance against perceived threats to children, a frequent theme in right-wing discourse on social issues."
+    },
+    {
+      "author": "Ally4EqualityNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for transgender and LGBTQ+ rights, emphasizing equal legal protection, access to healthcare (likely including gender-affirming care), inclusive education, and freedom from discrimination\u2014all key priorities of progressive/left-leaning movements. The urgency of 'fight[ing] relentlessly' and the username 'Ally4EqualityNow' further align with leftist social justice activism. These positions contrast with right-leaning stances that often prioritize traditional social norms, resist expanded LGBTQ+ protections, or frame such issues as government overreach.\"\n}\n```",
+      "explanation": "The post advocates for transgender and LGBTQ+ rights, emphasizing equal legal protection, access to healthcare (likely including gender-affirming care), inclusive education, and freedom from discrimination\u2014all key priorities of progressive/left-leaning movements. The urgency of 'fight[ing] relentlessly' and the username 'Ally4EqualityNow' further align with leftist social justice activism. These positions contrast with right-leaning stances that often prioritize traditional social norms, resist expanded LGBTQ+ protections, or frame such issues as government overreach."
+    },
+    {
+      "author": "ProtectOurChildren",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes 'radical gender ideologies' in schools and healthcare, framing them as 'indoctrination'\u2014a term frequently used in conservative discourse to criticize LGBTQ+ inclusivity efforts and gender-affirming care. The emphasis on 'protecting children' aligns with right-leaning arguments that position progressive social policies as threats to traditional values or child welfare. The focus on restricting discussions of gender identity in educational and medical contexts reflects common conservative stances on social issues.\"\n}\n```",
+      "explanation": "The post opposes 'radical gender ideologies' in schools and healthcare, framing them as 'indoctrination'\u2014a term frequently used in conservative discourse to criticize LGBTQ+ inclusivity efforts and gender-affirming care. The emphasis on 'protecting children' aligns with right-leaning arguments that position progressive social policies as threats to traditional values or child welfare. The focus on restricting discussions of gender identity in educational and medical contexts reflects common conservative stances on social issues."
+    },
+    {
+      "author": "Ally4EqualityNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post strongly advocates for LGBTQ+ rights, inclusive education, and healthcare access\u2014key priorities typically associated with left-leaning ideologies. The framing of opposition as 'discrimination' and a 'moral failing' aligns with progressive rhetoric emphasizing social justice and systemic equity. The call to 'actively fight' for these issues reflects a left-wing emphasis on advocacy and structural change to protect marginalized groups.\"\n}",
+      "explanation": "The post strongly advocates for LGBTQ+ rights, inclusive education, and healthcare access\u2014key priorities typically associated with left-leaning ideologies. The framing of opposition as 'discrimination' and a 'moral failing' aligns with progressive rhetoric emphasizing social justice and systemic equity. The call to 'actively fight' for these issues reflects a left-wing emphasis on advocacy and structural change to protect marginalized groups."
+    },
+    {
+      "author": "EqualityForAllNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for full and equal rights for transgender and LGBTQ+ individuals in education, healthcare, and public spaces, emphasizing inclusion and social justice\u2014positions strongly aligned with progressive or left-leaning ideologies. The phrase 'wrong side of history' reflects a common progressive narrative that frames opposition to such rights as regressive. The focus on systemic equality for marginalized groups and the unyielding stance on these issues are hallmarks of left-wing political discourse.\"\n}",
+      "explanation": "The post advocates for full and equal rights for transgender and LGBTQ+ individuals in education, healthcare, and public spaces, emphasizing inclusion and social justice\u2014positions strongly aligned with progressive or left-leaning ideologies. The phrase 'wrong side of history' reflects a common progressive narrative that frames opposition to such rights as regressive. The focus on systemic equality for marginalized groups and the unyielding stance on these issues are hallmarks of left-wing political discourse."
+    },
+    {
+      "author": "All4EqualityNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes comprehensive nondiscrimination protections for LGBTQ+ and transgender individuals across all areas of life, including education, healthcare, and public spaces. This aligns with left-leaning advocacy for expanding civil rights and systemic protections for marginalized groups. The insistence on 'without exception' and the phrase 'equality demands nothing less' reflect a progressive stance prioritizing inclusivity and government intervention to enforce equity\u2014positions commonly associated with left-wing politics. There is no indication of conservative values like limited government or traditional social hierarchies, which are more typical of right-leaning perspectives on such issues.\"\n}",
+      "explanation": "The post emphasizes comprehensive nondiscrimination protections for LGBTQ+ and transgender individuals across all areas of life, including education, healthcare, and public spaces. This aligns with left-leaning advocacy for expanding civil rights and systemic protections for marginalized groups. The insistence on 'without exception' and the phrase 'equality demands nothing less' reflect a progressive stance prioritizing inclusivity and government intervention to enforce equity\u2014positions commonly associated with left-wing politics. There is no indication of conservative values like limited government or traditional social hierarchies, which are more typical of right-leaning perspectives on such issues."
+    },
+    {
+      "author": "GreenRights4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes LGBTQIA+ and transgender rights, inclusive policies in education and healthcare, and ties these issues to social justice and ecological well-being\u2014all hallmarks of left-leaning political discourse. Advocacy for marginalized communities, the use of terms like 'social justice,' and the integration of environmental concerns with human rights align with progressive, left-wing ideologies focused on systemic equity and intersectional activism. The uncompromising stance ('non-negotiable') and focus on structural inclusivity further reinforce a leftist orientation.\"\n}\n```",
+      "explanation": "The post emphasizes LGBTQIA+ and transgender rights, inclusive policies in education and healthcare, and ties these issues to social justice and ecological well-being\u2014all hallmarks of left-leaning political discourse. Advocacy for marginalized communities, the use of terms like 'social justice,' and the integration of environmental concerns with human rights align with progressive, left-wing ideologies focused on systemic equity and intersectional activism. The uncompromising stance ('non-negotiable') and focus on structural inclusivity further reinforce a leftist orientation."
+    },
+    {
+      "author": "ProtectOurChildren",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes 'gender ideology in schools and healthcare,' a stance commonly associated with conservative or right-leaning political discourse. The phrase 'gender ideology' is frequently used pejoratively by right-wing groups to criticize LGBTQ+ inclusivity efforts, particularly regarding education and gender-affirming care for minors. The emphasis on 'protecting [children's] innocence' aligns with traditionalist values that prioritize shielding youth from discussions of gender diversity, which are often framed as harmful or inappropriate. The absolutist language ('non negotiable') further reflects a rigid ideological position typical of right-leaning arguments on this issue.\"\n}\n```",
+      "explanation": "The post opposes 'gender ideology in schools and healthcare,' a stance commonly associated with conservative or right-leaning political discourse. The phrase 'gender ideology' is frequently used pejoratively by right-wing groups to criticize LGBTQ+ inclusivity efforts, particularly regarding education and gender-affirming care for minors. The emphasis on 'protecting [children's] innocence' aligns with traditionalist values that prioritize shielding youth from discussions of gender diversity, which are often framed as harmful or inappropriate. The absolutist language ('non negotiable') further reflects a rigid ideological position typical of right-leaning arguments on this issue."
+    },
+    {
+      "author": "Ally4Equality",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes advocacy for transgender and LGBTQ+ rights, inclusive education, healthcare access, and safe public spaces\u2014all core issues prioritized by left-leaning political movements. The language used ('blatant discrimination,' 'stain on our society,' 'fight relentlessly') reflects progressive rhetoric focused on systemic equality and social justice. The demand for structural change to ensure 'lived reality' of equality aligns with left-wing values addressing systemic marginalization. These positions contrast with right-wing stances that often oppose expansive LGBTQ+ policies, particularly regarding education and healthcare, making a left classification most consistent with the content.\"\n}",
+      "explanation": "The author's post emphasizes advocacy for transgender and LGBTQ+ rights, inclusive education, healthcare access, and safe public spaces\u2014all core issues prioritized by left-leaning political movements. The language used ('blatant discrimination,' 'stain on our society,' 'fight relentlessly') reflects progressive rhetoric focused on systemic equality and social justice. The demand for structural change to ensure 'lived reality' of equality aligns with left-wing values addressing systemic marginalization. These positions contrast with right-wing stances that often oppose expansive LGBTQ+ policies, particularly regarding education and healthcare, making a left classification most consistent with the content."
+    },
+    {
+      "author": "GreenRights4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the protection and fierce defense of LGBTQIA2S+ and Transgender rights in key societal domains (education, healthcare, public spaces), aligning with progressive and left-leaning values that prioritize social equity and systemic inclusion. The integration of these rights with a 'sustainable and equitable future' reflects a common left-wing synthesis of social justice and environmental concerns. Terms like 'non-negotiable' and 'defend fiercely' suggest an activist stance, which is typically associated with left-aligned movements advocating for marginalized groups. The focus on institutional support (e.g., healthcare access, anti-discrimination policies) rather than individual liberty alone further reinforces a leftist orientation, as opposed to libertarian or conservative perspectives that might prioritize limited government intervention or traditional social norms.\"\n}\n```",
+      "explanation": "The post emphasizes the protection and fierce defense of LGBTQIA2S+ and Transgender rights in key societal domains (education, healthcare, public spaces), aligning with progressive and left-leaning values that prioritize social equity and systemic inclusion. The integration of these rights with a 'sustainable and equitable future' reflects a common left-wing synthesis of social justice and environmental concerns. Terms like 'non-negotiable' and 'defend fiercely' suggest an activist stance, which is typically associated with left-aligned movements advocating for marginalized groups. The focus on institutional support (e.g., healthcare access, anti-discrimination policies) rather than individual liberty alone further reinforces a leftist orientation, as opposed to libertarian or conservative perspectives that might prioritize limited government intervention or traditional social norms."
+    },
+    {
+      "author": "ProtectOurFuture",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs language and themes commonly associated with right-leaning political ideologies. The phrase 'LGBTQ agenda infiltrating schools and healthcare' frames LGBTQ+ advocacy as a hostile force, a trope often used in conservative rhetoric to oppose progressive social policies. The term 'perversions' is derogatory and reflects moral condemnation of LGBTQ+ identities, aligning with traditionalist or religious values that prioritize heteronormativity. The emphasis on 'traditional values' and resistance to LGBTQ+ influence in public spaces and medical practices further signals opposition to cultural progressivism, a hallmark of right-wing discourse. The argument centers on protecting children from perceived ideological threats, a recurring theme in conservative campaigns against LGBTQ+ rights, sex education, and gender-affirming care.\"\n}",
+      "explanation": "The post employs language and themes commonly associated with right-leaning political ideologies. The phrase 'LGBTQ agenda infiltrating schools and healthcare' frames LGBTQ+ advocacy as a hostile force, a trope often used in conservative rhetoric to oppose progressive social policies. The term 'perversions' is derogatory and reflects moral condemnation of LGBTQ+ identities, aligning with traditionalist or religious values that prioritize heteronormativity. The emphasis on 'traditional values' and resistance to LGBTQ+ influence in public spaces and medical practices further signals opposition to cultural progressivism, a hallmark of right-wing discourse. The argument centers on protecting children from perceived ideological threats, a recurring theme in conservative campaigns against LGBTQ+ rights, sex education, and gender-affirming care."
+    },
+    {
+      "author": "FamilyValuesFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'protecting children's innocence' and opposes 'radical gender ideologies' in schools and healthcare\u2014rhetoric commonly aligned with conservative viewpoints. The framing of gender-related education as 'radical' and a threat to traditional values is a hallmark of right-wing discourse, particularly in debates over LGBTQ+ inclusion in public institutions. The username 'FamilyValuesFirst' further signals a focus on traditional family structures, reinforcing a conservative ideological stance. Opposition to institutional support for gender diversity is a frequent policy position of right-leaning groups, distinguishing it from left-wing advocacy for inclusive education and healthcare.\"\n}\n```",
+      "explanation": "The post emphasizes 'protecting children's innocence' and opposes 'radical gender ideologies' in schools and healthcare\u2014rhetoric commonly aligned with conservative viewpoints. The framing of gender-related education as 'radical' and a threat to traditional values is a hallmark of right-wing discourse, particularly in debates over LGBTQ+ inclusion in public institutions. The username 'FamilyValuesFirst' further signals a focus on traditional family structures, reinforcing a conservative ideological stance. Opposition to institutional support for gender diversity is a frequent policy position of right-leaning groups, distinguishing it from left-wing advocacy for inclusive education and healthcare."
+    },
+    {
+      "author": "FamilyValuesFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'protecting children' by opposing 'radical gender ideology' in schools and upholding 'traditional values' in healthcare and public spaces. These phrases align with common right-wing political rhetoric that frames progressive gender-related policies (e.g., LGBTQ+ inclusivity, gender-affirming care) as threats to societal norms. The term 'radical gender ideology' is frequently used in conservative discourse to criticize efforts to expand gender education or rights, while 'traditional values' often signals support for conventional family structures and resistance to social change. The definitive tone ('period') underscores a strong, uncompromising stance typical of right-leaning cultural conservatism.\"\n}",
+      "explanation": "The post emphasizes 'protecting children' by opposing 'radical gender ideology' in schools and upholding 'traditional values' in healthcare and public spaces. These phrases align with common right-wing political rhetoric that frames progressive gender-related policies (e.g., LGBTQ+ inclusivity, gender-affirming care) as threats to societal norms. The term 'radical gender ideology' is frequently used in conservative discourse to criticize efforts to expand gender education or rights, while 'traditional values' often signals support for conventional family structures and resistance to social change. The definitive tone ('period') underscores a strong, uncompromising stance typical of right-leaning cultural conservatism."
+    },
+    {
+      "author": "ProtectOurChildrenNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes 'radical gender ideology' in education and healthcare, framing it as a threat to 'traditional values' and society. The language used ('protect our children,' 'harmful agenda,' 'infecting our society') aligns with conservative rhetoric that resists progressive social changes, particularly regarding LGBTQ+ issues. The emphasis on defending traditional structures and the portrayal of gender inclusivity as a dangerous 'agenda' are hallmarks of right-leaning political discourse focused on preserving established social norms.\"\n}\n```",
+      "explanation": "The post opposes 'radical gender ideology' in education and healthcare, framing it as a threat to 'traditional values' and society. The language used ('protect our children,' 'harmful agenda,' 'infecting our society') aligns with conservative rhetoric that resists progressive social changes, particularly regarding LGBTQ+ issues. The emphasis on defending traditional structures and the portrayal of gender inclusivity as a dangerous 'agenda' are hallmarks of right-leaning political discourse focused on preserving established social norms."
+    },
+    {
+      "author": "LibertyChampion",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes individual liberty, particularly for LGBTQ+ and transgender individuals, advocating for autonomy in healthcare, education, and public spaces without government or societal interference. While libertarian (often right-leaning) views also stress limited government, the explicit focus on protecting marginalized groups from both institutional and social coercion aligns more closely with progressive left-wing values. The left typically prioritizes active support for LGBTQ+ rights, including opposition to discriminatory policies in healthcare and public access, which are central to the author's argument. The mention of resisting 'social coercion' further reflects a left-leaning emphasis on combating systemic societal biases, distinguishing it from a purely libertarian stance focused solely on government non-intervention.\"\n}\n```",
+      "explanation": "The post emphasizes individual liberty, particularly for LGBTQ+ and transgender individuals, advocating for autonomy in healthcare, education, and public spaces without government or societal interference. While libertarian (often right-leaning) views also stress limited government, the explicit focus on protecting marginalized groups from both institutional and social coercion aligns more closely with progressive left-wing values. The left typically prioritizes active support for LGBTQ+ rights, including opposition to discriminatory policies in healthcare and public access, which are central to the author's argument. The mention of resisting 'social coercion' further reflects a left-leaning emphasis on combating systemic societal biases, distinguishing it from a purely libertarian stance focused solely on government non-intervention."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes individual liberty, particularly for LGBTQ+ and transgender individuals, advocating for freedom from government interference in personal decisions related to education, healthcare, and public life. While the rhetoric of limited government can align with libertarian or right-leaning views, the explicit defense of LGBTQ+ rights against state intervention is a hallmark of left-leaning positions. In the current U.S. political context, the right often supports government restrictions on transgender healthcare, education policies, or public accommodations, whereas the left prioritizes personal autonomy and opposes such interference. The focus on protecting marginalized groups' freedoms aligns more closely with progressive values, even as the post critiques government overreach.\"\n}\n```",
+      "explanation": "The post emphasizes individual liberty, particularly for LGBTQ+ and transgender individuals, advocating for freedom from government interference in personal decisions related to education, healthcare, and public life. While the rhetoric of limited government can align with libertarian or right-leaning views, the explicit defense of LGBTQ+ rights against state intervention is a hallmark of left-leaning positions. In the current U.S. political context, the right often supports government restrictions on transgender healthcare, education policies, or public accommodations, whereas the left prioritizes personal autonomy and opposes such interference. The focus on protecting marginalized groups' freedoms aligns more closely with progressive values, even as the post critiques government overreach."
+    },
+    {
+      "author": "FreedomFirst",
+      "orientation": "unknown",
+      "raw_response": "",
+      "explanation": ""
+    },
+    {
+      "author": "Freedom4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes individual liberty in the context of LGBTQ+ rights, advocating for freedom in education, healthcare, and public life without government interference. These positions align with progressive/left-wing priorities, such as opposing legislation that restricts personal autonomy (e.g., gender-affirming care access) and rejecting moral-based laws targeting marginalized groups. While limited government is a libertarian or right-leaning principle, the specific focus on protecting sexual orientation and gender identity rights\u2014a hallmark of left-wing advocacy\u2014outweighs the general anti-interference stance. The rejection of legislating morality further reflects progressive values, as conservative factions often support such measures in social contexts.\"\n}\n```",
+      "explanation": "The post emphasizes individual liberty in the context of LGBTQ+ rights, advocating for freedom in education, healthcare, and public life without government interference. These positions align with progressive/left-wing priorities, such as opposing legislation that restricts personal autonomy (e.g., gender-affirming care access) and rejecting moral-based laws targeting marginalized groups. While limited government is a libertarian or right-leaning principle, the specific focus on protecting sexual orientation and gender identity rights\u2014a hallmark of left-wing advocacy\u2014outweighs the general anti-interference stance. The rejection of legislating morality further reflects progressive values, as conservative factions often support such measures in social contexts."
+    },
+    {
+      "author": "FamilyValuesFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes protecting children's innocence by opposing 'radical gender ideology' in schools, a phrase commonly used in conservative discourse to criticize LGBTQ+ inclusivity efforts. It also frames healthcare decisions as needing protection from 'activist agendas,' aligning with right-wing arguments against gender-affirming care for minors. The focus on limiting institutional influence in education and healthcare, paired with rhetoric opposing progressive social policies, strongly indicates a right-leaning perspective.\"\n}\n```",
+      "explanation": "The post emphasizes protecting children's innocence by opposing 'radical gender ideology' in schools, a phrase commonly used in conservative discourse to criticize LGBTQ+ inclusivity efforts. It also frames healthcare decisions as needing protection from 'activist agendas,' aligning with right-wing arguments against gender-affirming care for minors. The focus on limiting institutional influence in education and healthcare, paired with rhetoric opposing progressive social policies, strongly indicates a right-leaning perspective."
+    },
+    {
+      "author": "ProtectOurChildrenNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes the 'LGBTQ agenda' in schools and healthcare, framing it as a threat requiring immediate action. The emphasis on 'safeguarding traditional values' and protecting children from perceived ideological 'infiltration' aligns with common right-wing rhetoric that prioritizes conservative social norms, resists progressive cultural shifts, and often targets LGBTQ+ inclusivity efforts. The language reflects a defensive stance against societal changes associated with left-leaning advocacy, making a right-wing orientation the most consistent classification.\"\n}\n```",
+      "explanation": "The post opposes the 'LGBTQ agenda' in schools and healthcare, framing it as a threat requiring immediate action. The emphasis on 'safeguarding traditional values' and protecting children from perceived ideological 'infiltration' aligns with common right-wing rhetoric that prioritizes conservative social norms, resists progressive cultural shifts, and often targets LGBTQ+ inclusivity efforts. The language reflects a defensive stance against societal changes associated with left-leaning advocacy, making a right-wing orientation the most consistent classification."
+    }
+  ],
+  "file_path": "Gemini_balancedData/LGBTQ_and_Transgender_Rights/balanced20Posts_high_confidence_LGBTQ+_and_Transgender_Rights:_Rights_in_education,_healthcare,_and_public_spaces_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_high_confidence_LGBTQ+_and_Transgender_Rights:_Rights_in_education,_healthcare,_and_public_spaces_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

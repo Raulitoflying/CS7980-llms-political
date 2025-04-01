@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "LibertyOverSafety",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment as an 'absolute right' and the characterization of gun control efforts as 'illegitimate attempts' and a path to 'tyranny' are indicative of a right-wing political orientation. This perspective typically advocates for minimal restrictions on gun ownership and views such restrictions as a threat to individual liberties and a potential precursor to governmental overreach.\"\n}",
+      "explanation": "The author's strong emphasis on the Second Amendment as an 'absolute right' and the characterization of gun control efforts as 'illegitimate attempts' and a path to 'tyranny' are indicative of a right-wing political orientation. This perspective typically advocates for minimal restrictions on gun ownership and views such restrictions as a threat to individual liberties and a potential precursor to governmental overreach."
+    },
+    {
+      "author": "DisarmTyranny",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post strongly advocates for the abolition of the Second Amendment, which is typically associated with a left-leaning political stance. The language used, such as 'deadly relic' and 'weapons of mass murder,' indicates a highly critical view of gun ownership and a focus on public safety and community protection, which are common priorities among those on the political left. The call for disarming all citizens further reinforces this classification, as it represents a comprehensive approach to gun control that is more frequently supported by left-wing political groups.\"\n}",
+      "explanation": "The author's post strongly advocates for the abolition of the Second Amendment, which is typically associated with a left-leaning political stance. The language used, such as 'deadly relic' and 'weapons of mass murder,' indicates a highly critical view of gun ownership and a focus on public safety and community protection, which are common priorities among those on the political left. The call for disarming all citizens further reinforces this classification, as it represents a comprehensive approach to gun control that is more frequently supported by left-wing political groups."
+    },
+    {
+      "author": "SecureOurStreets",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for strict universal background checks and a ban on assault weapons, which are typically positions supported by those on the political left. The emphasis on public safety and the need for 'common-sense gun laws' that do not infringe on responsible ownership suggests a progressive stance on gun control, aiming to balance Second Amendment rights with public safety measures. This aligns with left-leaning policies that often prioritize gun control legislation to reduce gun violence.\"\n}",
+      "explanation": "The author advocates for strict universal background checks and a ban on assault weapons, which are typically positions supported by those on the political left. The emphasis on public safety and the need for 'common-sense gun laws' that do not infringe on responsible ownership suggests a progressive stance on gun control, aiming to balance Second Amendment rights with public safety measures. This aligns with left-leaning policies that often prioritize gun control legislation to reduce gun violence."
+    },
+    {
+      "author": "SafeAmericaAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post indicates a left-leaning political orientation due to the emphasis on gun control measures such as universal background checks and banning assault weapons. These positions are typically advocated by those on the political left who prioritize public safety and reducing gun violence over more permissive gun ownership laws. The phrase 'not negotiable common-sense solutions' suggests a firm stance on these issues, which is consistent with left-wing advocacy for stricter gun regulations.\"\n}",
+      "explanation": "The author's post indicates a left-leaning political orientation due to the emphasis on gun control measures such as universal background checks and banning assault weapons. These positions are typically advocated by those on the political left who prioritize public safety and reducing gun violence over more permissive gun ownership laws. The phrase 'not negotiable common-sense solutions' suggests a firm stance on these issues, which is consistent with left-wing advocacy for stricter gun regulations."
+    },
+    {
+      "author": "SafeCommunitiesFirst",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on gun control, advocating for universal background checks and a ban on assault weapons, aligns with left-leaning political views. The emphasis on public safety and the right to live free from gun violence reflects a progressive perspective that prioritizes stricter gun regulations to address public health and safety concerns.\"\n}",
+      "explanation": "The author's stance on gun control, advocating for universal background checks and a ban on assault weapons, aligns with left-leaning political views. The emphasis on public safety and the right to live free from gun violence reflects a progressive perspective that prioritizes stricter gun regulations to address public health and safety concerns."
+    },
+    {
+      "author": "SafeAmericaNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for 'commonsense gun safety laws' and emphasizes the need to prevent mass shootings and prioritize public safety over unrestricted access to firearms. This stance is typically associated with left-leaning political views, which often support stricter gun control measures to enhance public safety and reduce gun violence.\"\n}",
+      "explanation": "The author advocates for 'commonsense gun safety laws' and emphasizes the need to prevent mass shootings and prioritize public safety over unrestricted access to firearms. This stance is typically associated with left-leaning political views, which often support stricter gun control measures to enhance public safety and reduce gun violence."
+    },
+    {
+      "author": "SafeAmericaAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by SafeAmericaAdvocate emphasizes the need for 'common-sense gun safety laws' and prioritizes 'saving lives' over 'unrestricted access to weapons.' This stance reflects a liberal or left-leaning political orientation, which typically supports gun control measures and the interpretation of the Second Amendment as not an absolute right but one that can be regulated to enhance public safety. The focus on preventing 'preventable tragedies' and protecting 'communities' further aligns with left-leaning values that prioritize collective well-being and public health over individual rights when it comes to gun ownership.\"\n}",
+      "explanation": "The post by SafeAmericaAdvocate emphasizes the need for 'common-sense gun safety laws' and prioritizes 'saving lives' over 'unrestricted access to weapons.' This stance reflects a liberal or left-leaning political orientation, which typically supports gun control measures and the interpretation of the Second Amendment as not an absolute right but one that can be regulated to enhance public safety. The focus on preventing 'preventable tragedies' and protecting 'communities' further aligns with left-leaning values that prioritize collective well-being and public health over individual rights when it comes to gun ownership."
+    },
+    {
+      "author": "SafetyOverFirearms",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post reflects a strong stance against the unrestricted access to firearms, emphasizing the need to prevent dangerous individuals from owning guns to ensure public safety. The language used, such as 'weaponized' and 'extremist ideologies,' suggests a critical view of those who advocate for broad gun rights, which is typically associated with a left-leaning political orientation. The focus on public safety and the willingness to restrict certain rights for the greater good aligns with liberal values that prioritize collective well-being over individual liberties in this context.\"\n}",
+      "explanation": "The author's post reflects a strong stance against the unrestricted access to firearms, emphasizing the need to prevent dangerous individuals from owning guns to ensure public safety. The language used, such as 'weaponized' and 'extremist ideologies,' suggests a critical view of those who advocate for broad gun rights, which is typically associated with a left-leaning political orientation. The focus on public safety and the willingness to restrict certain rights for the greater good aligns with liberal values that prioritize collective well-being over individual liberties in this context."
+    },
+    {
+      "author": "GreenSafetyFirst",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on prioritizing community safety over access to firearms, advocating for comprehensive background checks, and banning assault weapons aligns with left-leaning political views. These positions typically reflect a stronger emphasis on gun control measures to reduce violence, which is a common stance among those on the political left. The reference to the Second Amendment not overriding the right to live free from gun terror also indicates a progressive interpretation of constitutional rights, favoring public safety over individual gun ownership rights.\"\n}",
+      "explanation": "The author's stance on prioritizing community safety over access to firearms, advocating for comprehensive background checks, and banning assault weapons aligns with left-leaning political views. These positions typically reflect a stronger emphasis on gun control measures to reduce violence, which is a common stance among those on the political left. The reference to the Second Amendment not overriding the right to live free from gun terror also indicates a progressive interpretation of constitutional rights, favoring public safety over individual gun ownership rights."
+    },
+    {
+      "author": "SafeAmericaAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, SafeAmericaAdvocate, expresses a strong stance in favor of gun control measures such as universal background checks and banning assault weapons. These positions are typically associated with left-leaning political views, which often emphasize the need for increased regulation to enhance public safety. The author also frames the issue in terms of prioritizing the lives of children and communities, which reflects a progressive concern for social welfare and a reduction in gun violence. While the author mentions upholding the Second Amendment, the emphasis is clearly on implementing stricter controls, a position more commonly aligned with the political left.\"\n}",
+      "explanation": "The author, SafeAmericaAdvocate, expresses a strong stance in favor of gun control measures such as universal background checks and banning assault weapons. These positions are typically associated with left-leaning political views, which often emphasize the need for increased regulation to enhance public safety. The author also frames the issue in terms of prioritizing the lives of children and communities, which reflects a progressive concern for social welfare and a reduction in gun violence. While the author mentions upholding the Second Amendment, the emphasis is clearly on implementing stricter controls, a position more commonly aligned with the political left."
+    },
+    {
+      "author": "2A_FreedomFighter",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the right to bear arms as a safeguard against government tyranny, which is a common stance among those with a right-wing political orientation. The author views any attempt to regulate firearms as an infringement on personal liberty and a move towards increased government control, suggesting a strong belief in individual rights and a suspicion of government power. These views are typically associated with conservative or right-wing ideologies in the context of U.S. politics.\"\n}",
+      "explanation": "The post strongly emphasizes the right to bear arms as a safeguard against government tyranny, which is a common stance among those with a right-wing political orientation. The author views any attempt to regulate firearms as an infringement on personal liberty and a move towards increased government control, suggesting a strong belief in individual rights and a suspicion of government power. These views are typically associated with conservative or right-wing ideologies in the context of U.S. politics."
+    },
+    {
+      "author": "LibertyDefender",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the absolute right to self-defense and criticizes restrictions on gun ownership, which are typically advocated by right-wing political ideologies. The author views government intervention in gun ownership as an overreach and stresses the importance of individual liberties and the power of citizens to protect themselves, aligning with conservative and libertarian values that prioritize minimal government interference and the protection of personal freedoms.\"\n}",
+      "explanation": "The post strongly emphasizes the absolute right to self-defense and criticizes restrictions on gun ownership, which are typically advocated by right-wing political ideologies. The author views government intervention in gun ownership as an overreach and stresses the importance of individual liberties and the power of citizens to protect themselves, aligning with conservative and libertarian values that prioritize minimal government interference and the protection of personal freedoms."
+    },
+    {
+      "author": "2A_PatriotGuard",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's political orientation can be classified as RIGHT based on the strong emphasis on the Second Amendment, the reference to a 'God-given right to self-defense,' and the criticism of gun control policies as 'misguided' and punitive towards 'law-abiding citizens.' These views are typically associated with conservative political ideology, which often advocates for individual liberties, particularly the right to bear arms, and is skeptical of government intervention in personal freedoms.\"\n}",
+      "explanation": "The author's political orientation can be classified as RIGHT based on the strong emphasis on the Second Amendment, the reference to a 'God-given right to self-defense,' and the criticism of gun control policies as 'misguided' and punitive towards 'law-abiding citizens.' These views are typically associated with conservative political ideology, which often advocates for individual liberties, particularly the right to bear arms, and is skeptical of government intervention in personal freedoms."
+    },
+    {
+      "author": "LibertyShieldPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the protection of the Second Amendment and views any restrictions on gun ownership as an attack on freedom and a potential step towards tyranny. The language used, such as 'true patriots' and 'government overreach,' is indicative of a conservative or right-wing perspective that highly values individual liberties, particularly the right to bear arms, and is suspicious of government intervention.\"\n}",
+      "explanation": "The post strongly emphasizes the protection of the Second Amendment and views any restrictions on gun ownership as an attack on freedom and a potential step towards tyranny. The language used, such as 'true patriots' and 'government overreach,' is indicative of a conservative or right-wing perspective that highly values individual liberties, particularly the right to bear arms, and is suspicious of government intervention."
+    },
+    {
+      "author": "LibertyDefender1776",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the importance of the Second Amendment and individual rights to self-defense, which are typically associated with conservative or right-wing political views. The author criticizes government intervention in gun control, suggesting that such measures are a form of 'overreach' and 'violate liberty,' and can lead to 'tyranny.' These sentiments reflect a libertarian or conservative stance that prioritizes personal freedom and minimal government interference, particularly in matters of gun ownership and use.\"\n}",
+      "explanation": "The post strongly emphasizes the importance of the Second Amendment and individual rights to self-defense, which are typically associated with conservative or right-wing political views. The author criticizes government intervention in gun control, suggesting that such measures are a form of 'overreach' and 'violate liberty,' and can lead to 'tyranny.' These sentiments reflect a libertarian or conservative stance that prioritizes personal freedom and minimal government interference, particularly in matters of gun ownership and use."
+    },
+    {
+      "author": "2A_Patriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong support for the Second Amendment and emphasis on the rights of law-abiding citizens to own guns, coupled with the criticism of gun control measures as infringing on these rights, are typically associated with a right-wing political orientation. The post also frames the issue by highlighting the role of gun owners in defending communities and attributing threats to criminals, which aligns with conservative views on personal responsibility and self-defense.\"\n}",
+      "explanation": "The author's strong support for the Second Amendment and emphasis on the rights of law-abiding citizens to own guns, coupled with the criticism of gun control measures as infringing on these rights, are typically associated with a right-wing political orientation. The post also frames the issue by highlighting the role of gun owners in defending communities and attributing threats to criminals, which aligns with conservative views on personal responsibility and self-defense."
+    },
+    {
+      "author": "LibertyArmed",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong support for the Second Amendment and opposition to gun control measures indicate a right-wing political orientation. The emphasis on individual rights over public safety regulations and the concern about government overreach are typical of conservative viewpoints, which generally advocate for minimal government intervention and the protection of personal freedoms, especially in the context of gun ownership.\"\n}",
+      "explanation": "The author's strong support for the Second Amendment and opposition to gun control measures indicate a right-wing political orientation. The emphasis on individual rights over public safety regulations and the concern about government overreach are typical of conservative viewpoints, which generally advocate for minimal government intervention and the protection of personal freedoms, especially in the context of gun ownership."
+    },
+    {
+      "author": "LibertyShield",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, LibertyShield, expresses a strong stance in favor of the Second Amendment and against any form of gun control, which is typically associated with conservative or right-wing political views. The emphasis on individual rights, self-defense, and the idea that public safety is best achieved through the enforcement of existing laws rather than new restrictions aligns with right-wing ideology. The language used, such as 'any attempt to restrict firearms is an attack on liberty,' further reinforces this classification.\"\n}",
+      "explanation": "The author, LibertyShield, expresses a strong stance in favor of the Second Amendment and against any form of gun control, which is typically associated with conservative or right-wing political views. The emphasis on individual rights, self-defense, and the idea that public safety is best achieved through the enforcement of existing laws rather than new restrictions aligns with right-wing ideology. The language used, such as 'any attempt to restrict firearms is an attack on liberty,' further reinforces this classification."
+    },
+    {
+      "author": "2A_Defender",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, 2A_Defender, strongly supports the Second Amendment and opposes gun control measures, which are typically positions associated with right-wing political ideology. The emphasis on protecting the rights of law-abiding citizens and enforcing existing laws rather than imposing new restrictions aligns with conservative views on gun ownership and personal liberty.\"\n}",
+      "explanation": "The author, 2A_Defender, strongly supports the Second Amendment and opposes gun control measures, which are typically positions associated with right-wing political ideology. The emphasis on protecting the rights of law-abiding citizens and enforcing existing laws rather than imposing new restrictions aligns with conservative views on gun ownership and personal liberty."
+    },
+    {
+      "author": "2A_Defender",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, 2A_Defender, strongly emphasizes the importance of the Second Amendment and lawful gun ownership, which are typically associated with conservative or right-wing political views in the United States. The post criticizes 'misguided policies' that would restrict gun ownership, suggesting a stance against gun control measures, which is a common position among those on the political right. The language used, such as 'non-negotiable' and 'bedrock of American liberty,' further reinforces a conservative perspective on the issue.\"\n}",
+      "explanation": "The author, 2A_Defender, strongly emphasizes the importance of the Second Amendment and lawful gun ownership, which are typically associated with conservative or right-wing political views in the United States. The post criticizes 'misguided policies' that would restrict gun ownership, suggesting a stance against gun control measures, which is a common position among those on the political right. The language used, such as 'non-negotiable' and 'bedrock of American liberty,' further reinforces a conservative perspective on the issue."
+    }
+  ]
+}

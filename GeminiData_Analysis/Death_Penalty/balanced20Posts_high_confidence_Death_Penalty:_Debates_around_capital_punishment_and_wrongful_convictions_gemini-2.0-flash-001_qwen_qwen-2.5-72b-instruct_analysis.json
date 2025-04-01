@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 75.0,
+      "recall": 60.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 6,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 66.66666666666666,
+      "recall": 80.0,
+      "f1_score": 7272.727272727272,
+      "true_positive": 8,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "EndDeathPenaltyNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against the death penalty and emphasis on the risk of executing innocent people due to systemic failures suggests a liberal or left-leaning political orientation. This perspective is typically associated with values that prioritize human rights, social justice, and the reform of criminal justice systems to ensure fairness and prevent wrongful convictions. Conservatives, on the other hand, are more likely to support the death penalty as a form of retribution and deterrence.\"\n}",
+      "explanation": "The author's stance against the death penalty and emphasis on the risk of executing innocent people due to systemic failures suggests a liberal or left-leaning political orientation. This perspective is typically associated with values that prioritize human rights, social justice, and the reform of criminal justice systems to ensure fairness and prevent wrongful convictions. Conservatives, on the other hand, are more likely to support the death penalty as a form of retribution and deterrence."
+    },
+    {
+      "author": "Justice4Victims",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on wrongful convictions and the death penalty suggests a right-leaning political orientation. They acknowledge the issue of wrongful convictions but prioritize the execution of justice, particularly through the death penalty for severe crimes. This emphasis on punitive justice and the decisive application of the death penalty is typically associated with conservative or right-wing viewpoints, which tend to support stricter law enforcement and more severe punishments for criminals.\"\n}",
+      "explanation": "The author's stance on wrongful convictions and the death penalty suggests a right-leaning political orientation. They acknowledge the issue of wrongful convictions but prioritize the execution of justice, particularly through the death penalty for severe crimes. This emphasis on punitive justice and the decisive application of the death penalty is typically associated with conservative or right-wing viewpoints, which tend to support stricter law enforcement and more severe punishments for criminals."
+    },
+    {
+      "author": "EcoJusticeNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoJusticeNow advocates for the abolition of the death penalty, emphasizing values of justice, rehabilitation, and restorative justice. These positions are typically associated with left-leaning political orientations, which often prioritize human rights, social welfare, and the reform of criminal justice systems to be more humane and less punitive. The concern for wrongful convictions and the impact on innocent lives also reflects a progressive stance that is wary of the potential for systemic failures and injustices within the legal system.\"\n}",
+      "explanation": "The post by EcoJusticeNow advocates for the abolition of the death penalty, emphasizing values of justice, rehabilitation, and restorative justice. These positions are typically associated with left-leaning political orientations, which often prioritize human rights, social welfare, and the reform of criminal justice systems to be more humane and less punitive. The concern for wrongful convictions and the impact on innocent lives also reflects a progressive stance that is wary of the potential for systemic failures and injustices within the legal system."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against the death penalty, emphasizing its disproportionate impact on marginalized communities and the risk of executing innocent people, aligns with progressive and liberal values. These views typically advocate for social justice and the protection of individual rights, which are core principles of left-wing political orientation.\"\n}",
+      "explanation": "The author's stance against the death penalty, emphasizing its disproportionate impact on marginalized communities and the risk of executing innocent people, aligns with progressive and liberal values. These views typically advocate for social justice and the protection of individual rights, which are core principles of left-wing political orientation."
+    },
+    {
+      "author": "GreenJusticeNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenJusticeNow expresses strong opposition to the death penalty, framing it as a 'barbaric relic' and a part of a 'broken system.' The author also links the death penalty to environmental injustice and the irreversible 'ecological and moral disaster' of executing the wrongly convicted. These views align with left-wing perspectives, which typically advocate for the abolition of the death penalty and highlight issues of social and environmental justice.\"\n}",
+      "explanation": "The post by GreenJusticeNow expresses strong opposition to the death penalty, framing it as a 'barbaric relic' and a part of a 'broken system.' The author also links the death penalty to environmental injustice and the irreversible 'ecological and moral disaster' of executing the wrongly convicted. These views align with left-wing perspectives, which typically advocate for the abolition of the death penalty and highlight issues of social and environmental justice."
+    },
+    {
+      "author": "EcoJusticeNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoJusticeNow expresses strong opposition to the death penalty, describing it as 'barbaric' and 'an irreversible crime against humanity.' This stance is typically associated with left-leaning political views, which often emphasize human rights, social justice, and the sanctity of life. Additionally, the author links the death penalty to ecological integrity, suggesting a broader concern for environmental issues, which is also commonly aligned with left-wing politics. The combination of these perspectives indicates a left-oriented political stance.\"\n}",
+      "explanation": "The post by EcoJusticeNow expresses strong opposition to the death penalty, describing it as 'barbaric' and 'an irreversible crime against humanity.' This stance is typically associated with left-leaning political views, which often emphasize human rights, social justice, and the sanctity of life. Additionally, the author links the death penalty to ecological integrity, suggesting a broader concern for environmental issues, which is also commonly aligned with left-wing politics. The combination of these perspectives indicates a left-oriented political stance."
+    },
+    {
+      "author": "AbolishDeathPenaltyNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against the death penalty, referring to it as 'barbaric' and emphasizing the risk of executing innocent people, aligns with left-leaning political views. Typically, those on the political left advocate for the abolition of the death penalty due to concerns about human rights, the possibility of wrongful convictions, and the irreversible nature of the punishment. This post reflects a strong opposition to state-sanctioned executions, which is a common position among left-oriented individuals and groups.\"\n}",
+      "explanation": "The author's stance against the death penalty, referring to it as 'barbaric' and emphasizing the risk of executing innocent people, aligns with left-leaning political views. Typically, those on the political left advocate for the abolition of the death penalty due to concerns about human rights, the possibility of wrongful convictions, and the irreversible nature of the punishment. This post reflects a strong opposition to state-sanctioned executions, which is a common position among left-oriented individuals and groups."
+    },
+    {
+      "author": "EcoJusticeNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against the death penalty and the use of emotional and ethical language, such as 'barbaric relic' and 'irreversible ecological disaster for our collective soul,' suggests a strong opposition to capital punishment on moral and humanitarian grounds. This perspective is more commonly associated with left-leaning political ideologies, which often emphasize human rights, social justice, and the sanctity of life. The reference to a 'sustainable future' also aligns with left-wing values, as sustainability and environmental concerns are typically prioritized in progressive political discourse.\"\n}",
+      "explanation": "The author's stance against the death penalty and the use of emotional and ethical language, such as 'barbaric relic' and 'irreversible ecological disaster for our collective soul,' suggests a strong opposition to capital punishment on moral and humanitarian grounds. This perspective is more commonly associated with left-leaning political ideologies, which often emphasize human rights, social justice, and the sanctity of life. The reference to a 'sustainable future' also aligns with left-wing values, as sustainability and environmental concerns are typically prioritized in progressive political discourse."
+    },
+    {
+      "author": "TrueJustice4All",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post reflects a strong stance against what they perceive as leniency towards criminals, which is a common viewpoint associated with right-wing political ideology. The use of the term 'bleeding heart liberals' to describe those who might advocate for more lenient treatment of accused individuals is a pejorative term often used by those on the right. The emphasis on punishment and a zero-tolerance approach to crime, even at the cost of potential miscarriages of justice, further supports this classification.\"\n}",
+      "explanation": "The author's post reflects a strong stance against what they perceive as leniency towards criminals, which is a common viewpoint associated with right-wing political ideology. The use of the term 'bleeding heart liberals' to describe those who might advocate for more lenient treatment of accused individuals is a pejorative term often used by those on the right. The emphasis on punishment and a zero-tolerance approach to crime, even at the cost of potential miscarriages of justice, further supports this classification."
+    },
+    {
+      "author": "EcoJusticeNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong opposition to the death penalty and the emphasis on human rights and justice suggest a left-leaning political orientation. The use of terms like 'barbaric' and 'irreversible injustice' indicates a deep concern for ethical and humanitarian issues, which are typically more aligned with left-wing values.\"\n}",
+      "explanation": "The author's strong opposition to the death penalty and the emphasis on human rights and justice suggest a left-leaning political orientation. The use of terms like 'barbaric' and 'irreversible injustice' indicates a deep concern for ethical and humanitarian issues, which are typically more aligned with left-wing values."
+    },
+    {
+      "author": "Liberty4All",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by Liberty4All expresses a strong stance against the death penalty, emphasizing concerns about government power and the risk of wrongful convictions. These views align with left-leaning political ideologies, which typically advocate for the protection of individual rights and are critical of state authority, especially in matters of life and death. The use of terms like 'barbaric practice' and the call for immediate abolition also suggest a progressive and humanitarian perspective, further supporting a left classification.\"\n}",
+      "explanation": "The post by Liberty4All expresses a strong stance against the death penalty, emphasizing concerns about government power and the risk of wrongful convictions. These views align with left-leaning political ideologies, which typically advocate for the protection of individual rights and are critical of state authority, especially in matters of life and death. The use of terms like 'barbaric practice' and the call for immediate abolition also suggest a progressive and humanitarian perspective, further supporting a left classification."
+    },
+    {
+      "author": "AgainstStateKillings",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses a strong skepticism towards government power, particularly in the context of capital punishment. This viewpoint is often associated with left-leaning political ideologies, which tend to emphasize individual rights, civil liberties, and a critical stance towards state authority. The concern about executing innocent people and the prioritization of liberty over state power are typical arguments made by those on the political left, especially in discussions about criminal justice reform and human rights.\"\n}",
+      "explanation": "The post expresses a strong skepticism towards government power, particularly in the context of capital punishment. This viewpoint is often associated with left-leaning political ideologies, which tend to emphasize individual rights, civil liberties, and a critical stance towards state authority. The concern about executing innocent people and the prioritization of liberty over state power are typical arguments made by those on the political left, especially in discussions about criminal justice reform and human rights."
+    },
+    {
+      "author": "LibertyNow",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance against the death penalty and emphasis on individual liberty and the risks of wrongful convictions align with left-leaning political views, which typically advocate for human rights, civil liberties, and a more cautious approach to state power, especially in matters of life and death.\"\n}",
+      "explanation": "The author's stance against the death penalty and emphasis on individual liberty and the risks of wrongful convictions align with left-leaning political views, which typically advocate for human rights, civil liberties, and a more cautious approach to state power, especially in matters of life and death."
+    },
+    {
+      "author": "SwiftJustice4All",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement reflects a strong stance on justice and security, advocating for harsh measures against criminals, including the acceptance of 'collateral damage.' This perspective aligns more closely with right-wing values, which often emphasize law and order, personal responsibility, and a willingness to use force to maintain societal stability and protect the majority.\"\n}",
+      "explanation": "The author's statement reflects a strong stance on justice and security, advocating for harsh measures against criminals, including the acceptance of 'collateral damage.' This perspective aligns more closely with right-wing values, which often emphasize law and order, personal responsibility, and a willingness to use force to maintain societal stability and protect the majority."
+    },
+    {
+      "author": "TrueJustice4All",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on capital punishment, emphasizing retribution and the protection of innocent lives over the possibility of judicial error, aligns with a more conservative or right-wing perspective. This view typically supports strong law and order policies and a more punitive approach to justice.\"\n}",
+      "explanation": "The author's stance on capital punishment, emphasizing retribution and the protection of innocent lives over the possibility of judicial error, aligns with a more conservative or right-wing perspective. This view typically supports strong law and order policies and a more punitive approach to justice."
+    },
+    {
+      "author": "RighteousPunishmentNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post reflects a strong stance in favor of punitive justice and a focus on delivering punishment to the guilty, which is typically associated with right-wing political orientations. The emphasis on 'righteous punishment' and prioritizing justice for victims' families over concerns about wrongful convictions suggests a belief in a more stringent and less forgiving justice system. This aligns with conservative values that often advocate for law and order and tougher penalties for crimes, even if there is a risk of rare errors. The phrase 'beyond reasonable doubt' indicates a recognition of the legal standard but still places a higher priority on punishment, which is a common perspective on the right.\"\n}",
+      "explanation": "The author's post reflects a strong stance in favor of punitive justice and a focus on delivering punishment to the guilty, which is typically associated with right-wing political orientations. The emphasis on 'righteous punishment' and prioritizing justice for victims' families over concerns about wrongful convictions suggests a belief in a more stringent and less forgiving justice system. This aligns with conservative values that often advocate for law and order and tougher penalties for crimes, even if there is a risk of rare errors. The phrase 'beyond reasonable doubt' indicates a recognition of the legal standard but still places a higher priority on punishment, which is a common perspective on the right."
+    },
+    {
+      "author": "Justice4All",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance supports the use of the death penalty, which is generally a position more aligned with right-wing political ideologies. The post also criticizes the 'liberal left' for opposing the death penalty, indicating a clear bias against left-wing perspectives and a defense of more conservative, law-and-order policies.\"\n}",
+      "explanation": "The author's stance supports the use of the death penalty, which is generally a position more aligned with right-wing political ideologies. The post also criticizes the 'liberal left' for opposing the death penalty, indicating a clear bias against left-wing perspectives and a defense of more conservative, law-and-order policies."
+    },
+    {
+      "author": "LibertyLover76",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a strong stance against the death penalty, emphasizing the risk of wrongful conviction and the value of individual liberty. These views are typically associated with left-leaning political ideologies, which often prioritize human rights, individual freedoms, and the reduction of state power, especially in matters of life and death.\"\n}",
+      "explanation": "The author expresses a strong stance against the death penalty, emphasizing the risk of wrongful conviction and the value of individual liberty. These views are typically associated with left-leaning political ideologies, which often prioritize human rights, individual freedoms, and the reduction of state power, especially in matters of life and death."
+    },
+    {
+      "author": "Justice4VictimsNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance is strongly punitive and against the legal process of appeals, which is typically associated with a right-wing political orientation. The language used, such as 'guilty monsters' and the call for execution without further legal process, indicates a hardline approach to justice that prioritizes retribution and public safety over the rights of the accused.\"\n}",
+      "explanation": "The author's stance is strongly punitive and against the legal process of appeals, which is typically associated with a right-wing political orientation. The language used, such as 'guilty monsters' and the call for execution without further legal process, indicates a hardline approach to justice that prioritizes retribution and public safety over the rights of the accused."
+    },
+    {
+      "author": "Justice4All",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on maintaining the death penalty despite wrongful convictions suggests a strong emphasis on law and order, which is typically associated with right-wing political orientation. The concern about 'emboldening criminals and endangering law-abiding citizens' further indicates a conservative viewpoint that prioritizes public safety and punitive justice measures over the potential for judicial errors.\"\n}",
+      "explanation": "The author's stance on maintaining the death penalty despite wrongful convictions suggests a strong emphasis on law and order, which is typically associated with right-wing political orientation. The concern about 'emboldening criminals and endangering law-abiding citizens' further indicates a conservative viewpoint that prioritizes public safety and punitive justice measures over the potential for judicial errors."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 62.5,
+      "recall": 50.0,
+      "f1_score": 5555.555555555556,
+      "true_positive": 5,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 80.0,
+      "recall": 40.0,
+      "f1_score": 5333.333333333334,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 6
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 45.0
+  },
+  "classifications": [
+    {
+      "author": "User6000",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses concern that voter ID laws 'could make it harder for some people to vote,' which aligns with left-leaning arguments that such laws disproportionately disenfranchise marginalized groups (e.g., minorities, low-income individuals). While the tone is tentative ('maybe'), the focus on accessibility barriers reflects a perspective commonly associated with critiques of voter ID laws from the political left. Conservative viewpoints typically emphasize fraud prevention over accessibility concerns, making this classification more likely LEFT than RIGHT or UNKNOWN.\"\n}\n```",
+      "explanation": "The post expresses concern that voter ID laws 'could make it harder for some people to vote,' which aligns with left-leaning arguments that such laws disproportionately disenfranchise marginalized groups (e.g., minorities, low-income individuals). While the tone is tentative ('maybe'), the focus on accessibility barriers reflects a perspective commonly associated with critiques of voter ID laws from the political left. Conservative viewpoints typically emphasize fraud prevention over accessibility concerns, making this classification more likely LEFT than RIGHT or UNKNOWN."
+    },
+    {
+      "author": "User6001",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of mail-in voting potentially being 'less secure' aligns with a common conservative (right-leaning) narrative that emphasizes concerns about election integrity and fraud, particularly regarding mail-in ballots. While the author expresses uncertainty, the specific focus on security over accessibility reflects rhetoric often associated with right-wing political discourse in recent U.S. elections. The left typically advocates for expanded mail-in voting as a secure and accessible option, making skepticism about its security a more right-leaning stance.\"\n}\n```",
+      "explanation": "The author's mention of mail-in voting potentially being 'less secure' aligns with a common conservative (right-leaning) narrative that emphasizes concerns about election integrity and fraud, particularly regarding mail-in ballots. While the author expresses uncertainty, the specific focus on security over accessibility reflects rhetoric often associated with right-wing political discourse in recent U.S. elections. The left typically advocates for expanded mail-in voting as a secure and accessible option, making skepticism about its security a more right-leaning stance."
+    },
+    {
+      "author": "User6002",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a general disapproval of gerrymandering but does not include specific partisan language or context. While opposition to gerrymandering is often associated with left-leaning critiques (e.g., concerns about voter suppression and minority representation), the author's uncertainty ('I'm not an expert') and lack of ideological framing make it ambiguous. Both sides of the political spectrum criticize gerrymandering when it disadvantages them, and the statement lacks sufficient detail to definitively align it with LEFT or RIGHT priorities.\"\n}\n```",
+      "explanation": "The post expresses a general disapproval of gerrymandering but does not include specific partisan language or context. While opposition to gerrymandering is often associated with left-leaning critiques (e.g., concerns about voter suppression and minority representation), the author's uncertainty ('I'm not an expert') and lack of ideological framing make it ambiguous. Both sides of the political spectrum criticize gerrymandering when it disadvantages them, and the statement lacks sufficient detail to definitively align it with LEFT or RIGHT priorities."
+    },
+    {
+      "author": "User6003",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the stated justification for Voter ID laws ('security'), implying doubt about their true intent. This aligns with common left-leaning critiques that such laws disproportionately disenfranchise marginalized groups (e.g., low-income, minority, or elderly voters) rather than addressing legitimate security concerns. The phrasing ('it's hard to know if that's *really* the reason') reflects a perspective often associated with arguments about systemic voter suppression rather than election integrity, a framing more prevalent in left-wing discourse.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the stated justification for Voter ID laws ('security'), implying doubt about their true intent. This aligns with common left-leaning critiques that such laws disproportionately disenfranchise marginalized groups (e.g., low-income, minority, or elderly voters) rather than addressing legitimate security concerns. The phrasing ('it's hard to know if that's *really* the reason') reflects a perspective often associated with arguments about systemic voter suppression rather than election integrity, a framing more prevalent in left-wing discourse."
+    },
+    {
+      "author": "User6004",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author does not express a clear stance on automatic voter registration (AVR) but acknowledges awareness of both positive and negative arguments. AVR is typically supported by left-leaning groups (to expand voter access) and opposed by right-leaning groups (due to concerns about fraud or procedural integrity). However, the author's neutrality and uncertainty ('I\u2019m not sure which side is right, if either') indicate a lack of alignment with either ideological position. Without explicit endorsement or criticism of AVR, there is insufficient evidence to classify the author's political orientation as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author does not express a clear stance on automatic voter registration (AVR) but acknowledges awareness of both positive and negative arguments. AVR is typically supported by left-leaning groups (to expand voter access) and opposed by right-leaning groups (due to concerns about fraud or procedural integrity). However, the author's neutrality and uncertainty ('I\u2019m not sure which side is right, if either') indicate a lack of alignment with either ideological position. Without explicit endorsement or criticism of AVR, there is insufficient evidence to classify the author's political orientation as LEFT or RIGHT."
+    },
+    {
+      "author": "User6005",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses uncertainty about the reality of voter suppression, a stance commonly associated with right-leaning perspectives. In U.S. political discourse, skepticism toward claims of systemic voter suppression often aligns with conservative narratives that prioritize concerns about voter fraud over structural barriers to voting. While the author does not explicitly deny voter suppression, their doubt reflects a viewpoint more frequently echoed by those on the right, who argue that such issues are exaggerated or politically motivated.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about the reality of voter suppression, a stance commonly associated with right-leaning perspectives. In U.S. political discourse, skepticism toward claims of systemic voter suppression often aligns with conservative narratives that prioritize concerns about voter fraud over structural barriers to voting. While the author does not explicitly deny voter suppression, their doubt reflects a viewpoint more frequently echoed by those on the right, who argue that such issues are exaggerated or politically motivated."
+    },
+    {
+      "author": "User6006",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author identifies gerrymandering as a problem that undermines fairness, a stance commonly associated with left-leaning perspectives. In U.S. political discourse, criticism of gerrymandering often originates from the left, which tends to emphasize electoral reform, voting rights, and equitable representation. While the author's uncertainty ('I think?') suggests a lack of deep expertise, the focus on fairness aligns more closely with progressive priorities than conservative ones, as the right has historically been accused of leveraging gerrymandering tactics in certain regions. The absence of explicit partisan language or policy specifics prevents absolute certainty, but the thematic emphasis points to a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author identifies gerrymandering as a problem that undermines fairness, a stance commonly associated with left-leaning perspectives. In U.S. political discourse, criticism of gerrymandering often originates from the left, which tends to emphasize electoral reform, voting rights, and equitable representation. While the author's uncertainty ('I think?') suggests a lack of deep expertise, the focus on fairness aligns more closely with progressive priorities than conservative ones, as the right has historically been accused of leveraging gerrymandering tactics in certain regions. The absence of explicit partisan language or policy specifics prevents absolute certainty, but the thematic emphasis points to a left-leaning orientation."
+    },
+    {
+      "author": "User6007",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post questions voter ID requirements by referencing the argument that they may disenfranchise 'certain groups,' a critique commonly associated with left-leaning perspectives. While the author does not explicitly endorse this view, the framing of the issue aligns with left-wing concerns about voter suppression targeting marginalized communities. The tentative tone ('Maybe?') suggests openness to this critique rather than outright opposition to voter ID laws, but the choice to highlight potential discriminatory effects leans toward a left-oriented discourse on voting rights.\"\n}\n```",
+      "explanation": "The post questions voter ID requirements by referencing the argument that they may disenfranchise 'certain groups,' a critique commonly associated with left-leaning perspectives. While the author does not explicitly endorse this view, the framing of the issue aligns with left-wing concerns about voter suppression targeting marginalized communities. The tentative tone ('Maybe?') suggests openness to this critique rather than outright opposition to voter ID laws, but the choice to highlight potential discriminatory effects leans toward a left-oriented discourse on voting rights."
+    },
+    {
+      "author": "User6008",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism about the effectiveness of early voting in improving turnout but does not explicitly oppose or endorse the policy itself. While support for expanding voting access (like early voting) is typically associated with left-leaning positions, skepticism about its efficacy could arise from either side. A left-leaning individual might question whether it sufficiently addresses turnout disparities, while a right-leaning individual might doubt its impact as part of broader skepticism toward voting reforms. The statement lacks partisan cues (e.g., mentions of fraud, equity, or systemic barriers), making it ambiguous. Without clearer ideological markers, the orientation cannot be definitively classified.\"\n}\n```",
+      "explanation": "The post expresses skepticism about the effectiveness of early voting in improving turnout but does not explicitly oppose or endorse the policy itself. While support for expanding voting access (like early voting) is typically associated with left-leaning positions, skepticism about its efficacy could arise from either side. A left-leaning individual might question whether it sufficiently addresses turnout disparities, while a right-leaning individual might doubt its impact as part of broader skepticism toward voting reforms. The statement lacks partisan cues (e.g., mentions of fraud, equity, or systemic barriers), making it ambiguous. Without clearer ideological markers, the orientation cannot be definitively classified."
+    },
+    {
+      "author": "User6009",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about the severity of voter suppression, stating it is 'hard to know if it's a big problem.' This skepticism aligns with right-leaning narratives that often downplay or question the existence of systemic voter suppression, emphasizing instead concerns about election integrity or fraud. While the statement is not overtly partisan, the framing of uncertainty about a issue predominantly highlighted by the left (as a significant problem) suggests a perspective more consistent with right-leaning discourse.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the severity of voter suppression, stating it is 'hard to know if it's a big problem.' This skepticism aligns with right-leaning narratives that often downplay or question the existence of systemic voter suppression, emphasizing instead concerns about election integrity or fraud. While the statement is not overtly partisan, the framing of uncertainty about a issue predominantly highlighted by the left (as a significant problem) suggests a perspective more consistent with right-leaning discourse."
+    },
+    {
+      "author": "User7000",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post references voter ID laws as a means to 'protect elections,' a common argument associated with right-leaning political discourse, which often emphasizes election security. While the tone is tentative ('I think') and ends with a question seeking validation, the framing aligns with conservative rhetoric that supports such laws. Left-leaning perspectives typically critique voter ID laws as restrictive or discriminatory, which is absent here. The uncertainty expressed does not negate the alignment with right-wing priorities on this issue.\"\n}",
+      "explanation": "The post references voter ID laws as a means to 'protect elections,' a common argument associated with right-leaning political discourse, which often emphasizes election security. While the tone is tentative ('I think') and ends with a question seeking validation, the framing aligns with conservative rhetoric that supports such laws. Left-leaning perspectives typically critique voter ID laws as restrictive or discriminatory, which is absent here. The uncertainty expressed does not negate the alignment with right-wing priorities on this issue."
+    },
+    {
+      "author": "User7001",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The skepticism expressed toward mail-in voting ('it *seems* questionable, maybe') aligns with common right-leaning rhetoric in U.S. politics, particularly following the 2020 election, where conservative figures frequently criticized mail-in voting as prone to fraud despite limited evidence. While the author's tone is tentative, the subject matter and framing of doubt about the legitimacy of mail-in voting are strongly associated with right-wing discourse in this context.\"\n}\n```",
+      "explanation": "The skepticism expressed toward mail-in voting ('it *seems* questionable, maybe') aligns with common right-leaning rhetoric in U.S. politics, particularly following the 2020 election, where conservative figures frequently criticized mail-in voting as prone to fraud despite limited evidence. While the author's tone is tentative, the subject matter and framing of doubt about the legitimacy of mail-in voting are strongly associated with right-wing discourse in this context."
+    },
+    {
+      "author": "User7002",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses skepticism about mail-in voting (a common right-leaning position often framed as enabling fraud) and implies support for voter ID requirements (another policy typically advocated by the right to prevent alleged voter fraud). While the author includes qualifiers like 'I might be wrong,' the content aligns with right-leaning narratives around election integrity. These positions contrast with left-leaning stances, which generally defend mail-in voting as accessible and oppose strict voter ID laws as discriminatory.\"\n}",
+      "explanation": "The post expresses skepticism about mail-in voting (a common right-leaning position often framed as enabling fraud) and implies support for voter ID requirements (another policy typically advocated by the right to prevent alleged voter fraud). While the author includes qualifiers like 'I might be wrong,' the content aligns with right-leaning narratives around election integrity. These positions contrast with left-leaning stances, which generally defend mail-in voting as accessible and oppose strict voter ID laws as discriminatory."
+    },
+    {
+      "author": "User7003",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses frustration about government involvement in elections but does not specify whether the author views it as excessive or insufficient. The lack of concrete policy references (e.g., voter ID laws, mail-in voting, campaign finance) or ideological cues makes it ambiguous. Additionally, the author's uncertainty about alternatives ('I don't know what the alternative is') further obscures their stance. Without clear alignment with typical left-leaning (e.g., advocating for expanded access) or right-leaning (e.g., advocating for reduced regulation) positions on election oversight, the political orientation cannot be definitively determined.\"\n}\n```",
+      "explanation": "The post expresses frustration about government involvement in elections but does not specify whether the author views it as excessive or insufficient. The lack of concrete policy references (e.g., voter ID laws, mail-in voting, campaign finance) or ideological cues makes it ambiguous. Additionally, the author's uncertainty about alternatives ('I don't know what the alternative is') further obscures their stance. Without clear alignment with typical left-leaning (e.g., advocating for expanded access) or right-leaning (e.g., advocating for reduced regulation) positions on election oversight, the political orientation cannot be definitively determined."
+    },
+    {
+      "author": "User7004",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for ensuring 'only citizens vote,' a stance commonly associated with right-leaning political discourse, particularly in contexts like the U.S. where conservative groups often emphasize voter ID laws and stricter eligibility checks to prevent alleged non-citizen voting. The phrasing ('That\u2019s what people say') suggests alignment with a broader narrative about election integrity, a frequent talking point on the right. While the tone is somewhat tentative, the content itself aligns with policies typically promoted by right-wing platforms to restrict voting access, even if the reasoning isn't explicitly partisan here.\"\n}",
+      "explanation": "The post advocates for ensuring 'only citizens vote,' a stance commonly associated with right-leaning political discourse, particularly in contexts like the U.S. where conservative groups often emphasize voter ID laws and stricter eligibility checks to prevent alleged non-citizen voting. The phrasing ('That\u2019s what people say') suggests alignment with a broader narrative about election integrity, a frequent talking point on the right. While the tone is somewhat tentative, the content itself aligns with policies typically promoted by right-wing platforms to restrict voting access, even if the reasoning isn't explicitly partisan here."
+    },
+    {
+      "author": "User7005",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's tentative support for in-person voting, coupled with an emphasis on security ('easier to secure'), aligns with common right-leaning arguments that prioritize strict voting integrity measures over expanded access (e.g., mail-in voting). While the uncertainty ('maybe?', 'I think') suggests a lack of strong conviction, the focus on security as a key factor reflects a perspective more frequently associated with conservative discourse on election practices.\"\n}",
+      "explanation": "The author's tentative support for in-person voting, coupled with an emphasis on security ('easier to secure'), aligns with common right-leaning arguments that prioritize strict voting integrity measures over expanded access (e.g., mail-in voting). While the uncertainty ('maybe?', 'I think') suggests a lack of strong conviction, the focus on security as a key factor reflects a perspective more frequently associated with conservative discourse on election practices."
+    },
+    {
+      "author": "User7006",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post questions the validity of a claim ('the left wants to cheat in elections') without explicitly endorsing or rejecting it. The phrasing ('they say... could be true? Or not') reflects skepticism or uncertainty rather than a clear ideological stance. While accusations of election fraud are often associated with right-wing rhetoric, the author's neutral framing and lack of definitive language make it impossible to conclusively determine their political orientation. The ambiguity suggests the author may be seeking discussion or clarification rather than expressing a partisan position.\"\n}\n```",
+      "explanation": "The post questions the validity of a claim ('the left wants to cheat in elections') without explicitly endorsing or rejecting it. The phrasing ('they say... could be true? Or not') reflects skepticism or uncertainty rather than a clear ideological stance. While accusations of election fraud are often associated with right-wing rhetoric, the author's neutral framing and lack of definitive language make it impossible to conclusively determine their political orientation. The ambiguity suggests the author may be seeking discussion or clarification rather than expressing a partisan position."
+    },
+    {
+      "author": "User7007",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the importance of making voting 'easy' first, a priority commonly associated with left-leaning positions that focus on expanding accessibility. While the user expresses uncertainty about balancing ease with security, the framing ('secure?') and the order of concerns (ease before security) align more with left-leaning critiques that view strict security measures as potentially unnecessary or suppressive. The ambivalence reflects a common left-wing acknowledgment of security as a secondary consideration rather than a primary focus, as opposed to right-leaning rhetoric that often prioritizes security over accessibility.\"\n}\n```",
+      "explanation": "The post emphasizes the importance of making voting 'easy' first, a priority commonly associated with left-leaning positions that focus on expanding accessibility. While the user expresses uncertainty about balancing ease with security, the framing ('secure?') and the order of concerns (ease before security) align more with left-leaning critiques that view strict security measures as potentially unnecessary or suppressive. The ambivalence reflects a common left-wing acknowledgment of security as a secondary consideration rather than a primary focus, as opposed to right-leaning rhetoric that often prioritizes security over accessibility."
+    },
+    {
+      "author": "User7008",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges gerrymandering as 'bad' but expresses ambivalence about its severity. While criticism of gerrymandering is often associated with left-leaning advocacy for electoral reform, the author's uncertainty ('I'm not sure it's the worst thing though') does not strongly align with typical partisan priorities. The statement lacks explicit ideological markers (e.g., linking gerrymandering to systemic disenfranchisement or defending it as political strategy), making it insufficient to conclusively classify as LEFT or RIGHT. The neutrality and vagueness of the comment suggest the author's political orientation cannot be reliably determined from this text alone.\"\n}\n```",
+      "explanation": "The author acknowledges gerrymandering as 'bad' but expresses ambivalence about its severity. While criticism of gerrymandering is often associated with left-leaning advocacy for electoral reform, the author's uncertainty ('I'm not sure it's the worst thing though') does not strongly align with typical partisan priorities. The statement lacks explicit ideological markers (e.g., linking gerrymandering to systemic disenfranchisement or defending it as political strategy), making it insufficient to conclusively classify as LEFT or RIGHT. The neutrality and vagueness of the comment suggest the author's political orientation cannot be reliably determined from this text alone."
+    },
+    {
+      "author": "User7009",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a vague, non-committal stance on election security with a sarcastic or indifferent tone ('I guess,' 'or something?,' 'I assume'). While election security is a politicized topic, the lack of specific policy references (e.g., voter ID laws, mail-in ballots, fraud claims) or ideological framing makes it impossible to definitively align the statement with left or right perspectives. The ambiguity and absence of partisan cues prevent confident classification.\"\n}\n```",
+      "explanation": "The post expresses a vague, non-committal stance on election security with a sarcastic or indifferent tone ('I guess,' 'or something?,' 'I assume'). While election security is a politicized topic, the lack of specific policy references (e.g., voter ID laws, mail-in ballots, fraud claims) or ideological framing makes it impossible to definitively align the statement with left or right perspectives. The ambiguity and absence of partisan cues prevent confident classification."
+    }
+  ],
+  "file_path": "Gemini_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}

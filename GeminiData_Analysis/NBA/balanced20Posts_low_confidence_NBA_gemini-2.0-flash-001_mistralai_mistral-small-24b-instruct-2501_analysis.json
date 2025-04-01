@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 80.0,
+      "recall": 40.0,
+      "f1_score": 5333.333333333334,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 100.0,
+      "recall": 30.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 7
+    },
+    "unknown": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 12,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 35.0
+  },
+  "classifications": [
+    {
+      "author": "HoopsThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the NBA's focus on international players and the potential impact on homegrown talent. It also acknowledges the complexity of globalization. There are no explicit political statements or leanings in the content, making it difficult to classify the author's political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The post discusses the NBA's focus on international players and the potential impact on homegrown talent. It also acknowledges the complexity of globalization. There are no explicit political statements or leanings in the content, making it difficult to classify the author's political orientation based on this post alone."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the potential impacts of increased player empowerment in the NBA, but does not provide any clear political leanings. The author expresses uncertainty and does not align with any specific political ideology or stance. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The post discusses the potential impacts of increased player empowerment in the NBA, but does not provide any clear political leanings. The author expresses uncertainty and does not align with any specific political ideology or stance. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion to promote sustainable practices at NBA arenas aligns with left-leaning environmental and sustainability concerns. This indicates a potential leaning towards left-wing political orientation, which often emphasizes environmental protection and sustainability.\"\n}\n```",
+      "explanation": "The author's suggestion to promote sustainable practices at NBA arenas aligns with left-leaning environmental and sustainability concerns. This indicates a potential leaning towards left-wing political orientation, which often emphasizes environmental protection and sustainability."
+    },
+    {
+      "author": "HoopsWatcher77",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'globalist agenda' is often associated with right-wing conspiracy theories and skepticism towards international cooperation and organizations. This phrase is frequently used in right-wing circles to express distrust in global institutions and perceived elite agendas. The author's questioning tone also suggests a degree of skepticism towards the NBA's motives, which aligns with right-wing views on corporate and institutional influence.\"\n}\n```",
+      "explanation": "The author's use of the term 'globalist agenda' is often associated with right-wing conspiracy theories and skepticism towards international cooperation and organizations. This phrase is frequently used in right-wing circles to express distrust in global institutions and perceived elite agendas. The author's questioning tone also suggests a degree of skepticism towards the NBA's motives, which aligns with right-wing views on corporate and institutional influence."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion for the NBA to promote sustainable practices aligns with left-leaning environmental concerns and a focus on sustainability. This indicates a potential left-leaning political orientation, as environmental sustainability is often a key issue for left-leaning individuals and parties.\"\n}\n```",
+      "explanation": "The author's suggestion for the NBA to promote sustainable practices aligns with left-leaning environmental concerns and a focus on sustainability. This indicates a potential left-leaning political orientation, as environmental sustainability is often a key issue for left-leaning individuals and parties."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a specific issue related to sustainability and the NBA's travel policies. However, it does not provide any explicit political views or leanings. The author is simply questioning the environmental impact of the NBA's decisions, which could be a concern for individuals across the political spectrum. Therefore, there is not enough information to classify the author's political orientation as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post discusses a specific issue related to sustainability and the NBA's travel policies. However, it does not provide any explicit political views or leanings. The author is simply questioning the environmental impact of the NBA's decisions, which could be a concern for individuals across the political spectrum. Therefore, there is not enough information to classify the author's political orientation as LEFT or RIGHT."
+    },
+    {
+      "author": "HoopsForEquality",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or references to political ideologies. The author is merely asking a question about the potential outcomes of increased player empowerment in the NBA, which is a sports-related topic. There is no indication of the author's political leanings based on the provided content.\"\n}\n```",
+      "explanation": "The post does not contain any explicit political statements or references to political ideologies. The author is merely asking a question about the potential outcomes of increased player empowerment in the NBA, which is a sports-related topic. There is no indication of the author's political leanings based on the provided content."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses environmental concerns related to the NBA's operations, specifically focusing on travel and energy consumption. While this topic is often associated with left-leaning environmentalism, the author does not express any political views or affiliations. The post is purely informational and inquires about potential solutions without advocating for any specific political stance. Therefore, the political orientation cannot be determined from this content.\"\n}\n```",
+      "explanation": "The post discusses environmental concerns related to the NBA's operations, specifically focusing on travel and energy consumption. While this topic is often associated with left-leaning environmentalism, the author does not express any political views or affiliations. The post is purely informational and inquires about potential solutions without advocating for any specific political stance. Therefore, the political orientation cannot be determined from this content."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a concern for environmental impact and a critical view of corporate greenwashing, which are often associated with left-leaning political orientations. The suggestion for more local tournaments to reduce environmental impact also aligns with environmentalist and sustainability-focused policies typically advocated by the left.\"\n}\n```",
+      "explanation": "The author's post suggests a concern for environmental impact and a critical view of corporate greenwashing, which are often associated with left-leaning political orientations. The suggestion for more local tournaments to reduce environmental impact also aligns with environmentalist and sustainability-focused policies typically advocated by the left."
+    },
+    {
+      "author": "EcoHoopsFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a practical environmental issue related to the NBA's travel schedules and carbon emissions. While it shows a concern for the environment, which is often associated with left-leaning views, it does not provide enough context or additional political views to definitively classify the author's political orientation. The author acknowledges the complexity of the issue and does not take a strong stance on any political ideology.\"\n}\n```",
+      "explanation": "The post discusses a practical environmental issue related to the NBA's travel schedules and carbon emissions. While it shows a concern for the environment, which is often associated with left-leaning views, it does not provide enough context or additional political views to definitively classify the author's political orientation. The author acknowledges the complexity of the issue and does not take a strong stance on any political ideology."
+    },
+    {
+      "author": "HoopsPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a concern about the NBA's focus on global appeal and the potential dilution of 'American values.' This phrasing often aligns with conservative or right-leaning views, which may prioritize traditional American values and express caution about cultural shifts or global influences. The use of the term 'American values' and the questioning of demographic shifts in the league indicate a perspective that is more commonly associated with right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's post suggests a concern about the NBA's focus on global appeal and the potential dilution of 'American values.' This phrasing often aligns with conservative or right-leaning views, which may prioritize traditional American values and express caution about cultural shifts or global influences. The use of the term 'American values' and the questioning of demographic shifts in the league indicate a perspective that is more commonly associated with right-leaning political orientations."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a specific aspect of labor negotiations in the NBA, focusing on the potential benefits of increased individual negotiation power for players. However, the post does not provide any clear political leanings or ideological stances. The author expresses curiosity and uncertainty about the implications, which does not align with any particular political orientation. Therefore, the political orientation of the author cannot be determined from this post.\"\n}\n```",
+      "explanation": "The post discusses a specific aspect of labor negotiations in the NBA, focusing on the potential benefits of increased individual negotiation power for players. However, the post does not provide any clear political leanings or ideological stances. The author expresses curiosity and uncertainty about the implications, which does not align with any particular political orientation. Therefore, the political orientation of the author cannot be determined from this post."
+    },
+    {
+      "author": "HoopsTraditionWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the impact of international players on the NBA and traditional American values. However, the post does not provide enough context or specific political views to definitively classify the author's political orientation. The author expresses uncertainty and does not take a clear stance on any political issue, making it difficult to determine their political leaning.\"\n}\n```",
+      "explanation": "The author's post discusses the impact of international players on the NBA and traditional American values. However, the post does not provide enough context or specific political views to definitively classify the author's political orientation. The author expresses uncertainty and does not take a clear stance on any political issue, making it difficult to determine their political leaning."
+    },
+    {
+      "author": "HoopsObserver",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the impact of the NBA's focus on social justice without expressing a clear stance on the issue. The post is neutral and seeks to understand the potential long-term effects, making it difficult to classify the author's political orientation as either left or right.\"\n}\n```",
+      "explanation": "The author's post discusses the impact of the NBA's focus on social justice without expressing a clear stance on the issue. The post is neutral and seeks to understand the potential long-term effects, making it difficult to classify the author's political orientation as either left or right."
+    },
+    {
+      "author": "SkepticalFan1776",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The post is a question about the NBA's potential agenda, which could be interpreted in various ways. The author expresses uncertainty and does not align with any specific political stance.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The post is a question about the NBA's potential agenda, which could be interpreted in various ways. The author expresses uncertainty and does not align with any specific political stance."
+    },
+    {
+      "author": "User3746",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the NBA's focus on political issues, suggesting a preference for entertainment over political engagement. This perspective often aligns with right-leaning views, which may prioritize apolitical entertainment and be skeptical of political activism in sports.\"\n}\n```",
+      "explanation": "The author expresses concern about the NBA's focus on political issues, suggesting a preference for entertainment over political engagement. This perspective often aligns with right-leaning views, which may prioritize apolitical entertainment and be skeptical of political activism in sports."
+    },
+    {
+      "author": "BasketballPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'social justice' in the context of the NBA and its potential impact on viewership numbers suggests a skepticism towards progressive social issues, which are often associated with left-leaning political views. This skepticism is a common stance among those on the right. However, the author also acknowledges that there might be other factors at play, indicating a level of nuance that is not typically associated with extreme political views.\"\n}\n```",
+      "explanation": "The author's mention of 'social justice' in the context of the NBA and its potential impact on viewership numbers suggests a skepticism towards progressive social issues, which are often associated with left-leaning political views. This skepticism is a common stance among those on the right. However, the author also acknowledges that there might be other factors at play, indicating a level of nuance that is not typically associated with extreme political views."
+    },
+    {
+      "author": "User5606",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on discipline and the expectation for players to be role models aligns with conservative values, which often prioritize traditional values, discipline, and personal responsibility. The phrase 'stop coddling' suggests a stance against what is often perceived as leniency or overprotection, which is a common conservative viewpoint. Additionally, the criticism of the current climate in the NBA suggests a dissatisfaction with contemporary societal norms, which is often associated with right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's emphasis on discipline and the expectation for players to be role models aligns with conservative values, which often prioritize traditional values, discipline, and personal responsibility. The phrase 'stop coddling' suggests a stance against what is often perceived as leniency or overprotection, which is a common conservative viewpoint. Additionally, the criticism of the current climate in the NBA suggests a dissatisfaction with contemporary societal norms, which is often associated with right-leaning political orientations."
+    },
+    {
+      "author": "FreeAgentFan",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a political orientation. The discussion about NBA player empowerment and free markets is more of an economic or social commentary rather than a political stance. The author expresses uncertainty and presents a balanced view, making it difficult to classify their political orientation as either left or right.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a political orientation. The discussion about NBA player empowerment and free markets is more of an economic or social commentary rather than a political stance. The author expresses uncertainty and presents a balanced view, making it difficult to classify their political orientation as either left or right."
+    },
+    {
+      "author": "HoopsPatriot",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the potential impact of kneeling during the national anthem on team unity and performance, but does not explicitly endorse or oppose the act. The mention of 'free expression' suggests a neutral stance, as it acknowledges the importance of free speech without taking a clear political position. Therefore, the political orientation cannot be definitively classified as LEFT or RIGHT based on this content alone.\"\n}\n```",
+      "explanation": "The author's post discusses the potential impact of kneeling during the national anthem on team unity and performance, but does not explicitly endorse or oppose the act. The mention of 'free expression' suggests a neutral stance, as it acknowledges the importance of free speech without taking a clear political position. Therefore, the political orientation cannot be definitively classified as LEFT or RIGHT based on this content alone."
+    }
+  ]
+}

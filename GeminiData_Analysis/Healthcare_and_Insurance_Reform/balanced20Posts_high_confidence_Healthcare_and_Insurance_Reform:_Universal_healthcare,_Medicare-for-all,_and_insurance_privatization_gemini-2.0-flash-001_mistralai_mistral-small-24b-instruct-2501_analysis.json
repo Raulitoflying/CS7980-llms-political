@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 10,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "Healthcare4AllNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare (Medicare for all), which is a policy typically associated with left-wing politics. The use of phrases like 'human right' and 'fight to dismantle the for-profit insurance industry' indicates a strong stance against the current healthcare system and a push for government intervention, which are common themes in left-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare (Medicare for all), which is a policy typically associated with left-wing politics. The use of phrases like 'human right' and 'fight to dismantle the for-profit insurance industry' indicates a strong stance against the current healthcare system and a push for government intervention, which are common themes in left-leaning political ideologies."
+    },
+    {
+      "author": "GreenHealthcare4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning individuals and parties. The use of phrases like 'human right' and 'crime against humanity' to describe the current healthcare system and insurance privatization further indicates a strong leftist stance, as these terms are often used to criticize capitalist and market-driven approaches to healthcare.\"\n}\n```",
+      "explanation": "The author advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning individuals and parties. The use of phrases like 'human right' and 'crime against humanity' to describe the current healthcare system and insurance privatization further indicates a strong leftist stance, as these terms are often used to criticize capitalist and market-driven approaches to healthcare."
+    },
+    {
+      "author": "HealthcarePatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly opposes Medicare for All, labeling it as a 'socialist plot' and expressing concerns about it destroying American freedom and bankrupting the nation. This stance aligns with conservative or right-wing views, which often advocate for private enterprise and are skeptical of government-run healthcare systems. The emphasis on 'liberty' and 'earning' quality care further supports a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's post strongly opposes Medicare for All, labeling it as a 'socialist plot' and expressing concerns about it destroying American freedom and bankrupting the nation. This stance aligns with conservative or right-wing views, which often advocate for private enterprise and are skeptical of government-run healthcare systems. The emphasis on 'liberty' and 'earning' quality care further supports a right-leaning political orientation."
+    },
+    {
+      "author": "GreenHealthcare4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning political groups. The use of phrases like 'human right' and 'predatory insurance industry' indicates a strong stance against the current healthcare system and a desire for a more equitable and government-controlled healthcare system, which aligns with left-wing political views.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning political groups. The use of phrases like 'human right' and 'predatory insurance industry' indicates a strong stance against the current healthcare system and a desire for a more equitable and government-controlled healthcare system, which aligns with left-wing political views."
+    },
+    {
+      "author": "Healthcare4AllNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-wing or progressive political views. The phrase 'healthcare is a human right' and the call to end 'insurance privatization' further align with left-leaning ideologies that prioritize government intervention and social welfare programs. The use of the term 'moral' in the context of healthcare reform also suggests a strong emphasis on social justice, which is commonly found in left-wing political discourse.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-wing or progressive political views. The phrase 'healthcare is a human right' and the call to end 'insurance privatization' further align with left-leaning ideologies that prioritize government intervention and social welfare programs. The use of the term 'moral' in the context of healthcare reform also suggests a strong emphasis on social justice, which is commonly found in left-wing political discourse."
+    },
+    {
+      "author": "Healthcare4AllNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-leaning political views. The use of phrases like 'human right' and 'moral failure' to describe the current healthcare system, along with the criticism of 'for-profit insurance,' aligns with progressive and leftist ideologies that prioritize social welfare and government intervention in healthcare.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-leaning political views. The use of phrases like 'human right' and 'moral failure' to describe the current healthcare system, along with the criticism of 'for-profit insurance,' aligns with progressive and leftist ideologies that prioritize social welfare and government intervention in healthcare."
+    },
+    {
+      "author": "HealthcarePatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on privatization, opposition to government involvement in healthcare, and association with the term 'freedom' are all strong indicators of a right-leaning political orientation. These views align with conservative or libertarian principles, which typically advocate for minimal government intervention and prioritize individual liberty and private enterprise.\"\n}\n```",
+      "explanation": "The author's emphasis on privatization, opposition to government involvement in healthcare, and association with the term 'freedom' are all strong indicators of a right-leaning political orientation. These views align with conservative or libertarian principles, which typically advocate for minimal government intervention and prioritize individual liberty and private enterprise."
+    },
+    {
+      "author": "Healthcare4AllNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-wing or progressive political views. The use of phrases like 'human right' and 'ending the for-profit insurance death machine' indicates a strong stance against the current healthcare system and a desire for a more government-controlled, publicly funded healthcare system, which is typically aligned with left-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare, specifically 'Medicare for All,' which is a policy often associated with left-wing or progressive political views. The use of phrases like 'human right' and 'ending the for-profit insurance death machine' indicates a strong stance against the current healthcare system and a desire for a more government-controlled, publicly funded healthcare system, which is typically aligned with left-leaning political orientations."
+    },
+    {
+      "author": "GreenHealthcare4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's demand for 'Medicare for All' and their opposition to 'predatory insurance privatization' aligns with left-wing political views, which often advocate for universal healthcare and government intervention in the healthcare sector. The phrase 'healthcare is a human right' is also a common sentiment among left-leaning individuals and groups.\"\n}\n```",
+      "explanation": "The author's demand for 'Medicare for All' and their opposition to 'predatory insurance privatization' aligns with left-wing political views, which often advocate for universal healthcare and government intervention in the healthcare sector. The phrase 'healthcare is a human right' is also a common sentiment among left-leaning individuals and groups."
+    },
+    {
+      "author": "Healthcare4AllNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning individuals. The use of phrases like 'human right' and 'moral and economically sound path forward' aligns with progressive values. Additionally, the criticism of 'insurance privatization' as 'profiteering off human suffering' suggests a stance against corporate interests, which is often associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author advocates for universal healthcare (Medicare for All), which is a policy typically supported by left-leaning individuals. The use of phrases like 'human right' and 'moral and economically sound path forward' aligns with progressive values. Additionally, the criticism of 'insurance privatization' as 'profiteering off human suffering' suggests a stance against corporate interests, which is often associated with left-wing politics."
+    },
+    {
+      "author": "HealthcareFreedomNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly advocates for free market solutions and criticizes government-run healthcare, which are typical positions associated with right-wing or conservative political views. The use of the term 'socialist schemes' further indicates a stance against government intervention and regulation, which is a common theme among right-leaning individuals.\"\n}\n```",
+      "explanation": "The author's post strongly advocates for free market solutions and criticizes government-run healthcare, which are typical positions associated with right-wing or conservative political views. The use of the term 'socialist schemes' further indicates a stance against government intervention and regulation, which is a common theme among right-leaning individuals."
+    },
+    {
+      "author": "FreeMarketDoc",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post advocates for a fully privatized healthcare system and criticizes government control, which are typical positions associated with right-wing or conservative political views. The emphasis on free market principles and competition aligns with libertarian or conservative economic policies.\"\n}\n```",
+      "explanation": "The author's post advocates for a fully privatized healthcare system and criticizes government control, which are typical positions associated with right-wing or conservative political views. The emphasis on free market principles and competition aligns with libertarian or conservative economic policies."
+    },
+    {
+      "author": "HealthcareFreedomFighter",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post advocates for free-market solutions and criticizes government-run healthcare, which are typical positions associated with right-leaning political orientations. The emphasis on individual choice and opposition to bureaucratic control further supports this classification.\"\n}\n```",
+      "explanation": "The author's post advocates for free-market solutions and criticizes government-run healthcare, which are typical positions associated with right-leaning political orientations. The emphasis on individual choice and opposition to bureaucratic control further supports this classification."
+    },
+    {
+      "author": "FreeMarketHealthWarrior",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly advocates for a free market approach to healthcare, opposing government involvement and supporting privatization. The use of phrases like 'government has no place in healthcare' and 'Medicare for all is just another step toward tyranny' indicates a strong libertarian or conservative stance, which is typically associated with right-wing political orientation. The emphasis on individual liberty and free market solutions further supports this classification.\"\n}\n```",
+      "explanation": "The author's post strongly advocates for a free market approach to healthcare, opposing government involvement and supporting privatization. The use of phrases like 'government has no place in healthcare' and 'Medicare for all is just another step toward tyranny' indicates a strong libertarian or conservative stance, which is typically associated with right-wing political orientation. The emphasis on individual liberty and free market solutions further supports this classification."
+    },
+    {
+      "author": "FreeMarketDoc",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post advocates for a free market approach to healthcare, which is a typical stance of right-leaning or conservative political views. The author opposes government involvement in healthcare and criticizes Medicare for all, which is a policy often supported by left-leaning or liberal political views. The use of the term 'tyranny' further suggests a strong opposition to government intervention, aligning with right-wing political ideology.\"\n}\n```",
+      "explanation": "The author's post advocates for a free market approach to healthcare, which is a typical stance of right-leaning or conservative political views. The author opposes government involvement in healthcare and criticizes Medicare for all, which is a policy often supported by left-leaning or liberal political views. The use of the term 'tyranny' further suggests a strong opposition to government intervention, aligning with right-wing political ideology."
+    },
+    {
+      "author": "FreeMarketHealthcareNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly advocates for privatization and opposes government intervention in healthcare, which are typical positions of right-wing or conservative political orientations. The use of phrases like 'socialist plot' and 'destroy the free market' further aligns with right-wing rhetoric that often criticizes government control and promotes free-market principles.\"\n}\n```",
+      "explanation": "The author's post strongly advocates for privatization and opposes government intervention in healthcare, which are typical positions of right-wing or conservative political orientations. The use of phrases like 'socialist plot' and 'destroy the free market' further aligns with right-wing rhetoric that often criticizes government control and promotes free-market principles."
+    },
+    {
+      "author": "FreeMarketDoc",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly advocates for a free market approach to healthcare, opposing government control and universal healthcare systems like Medicare-for-all. This stance is typically associated with right-wing or conservative political views, which prioritize privatization and free market principles over government intervention.\"\n}\n```",
+      "explanation": "The author's post strongly advocates for a free market approach to healthcare, opposing government control and universal healthcare systems like Medicare-for-all. This stance is typically associated with right-wing or conservative political views, which prioritize privatization and free market principles over government intervention."
+    },
+    {
+      "author": "User3280",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author advocates for free market principles, competition among insurance providers, and reducing government intervention in healthcare. These views align with conservative or right-wing political orientations, which typically favor market-based solutions and limited government involvement in healthcare.\"\n}\n```",
+      "explanation": "The author advocates for free market principles, competition among insurance providers, and reducing government intervention in healthcare. These views align with conservative or right-wing political orientations, which typically favor market-based solutions and limited government involvement in healthcare."
+    },
+    {
+      "author": "User3954",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual empowerment, personal responsibility, and choice in healthcare, along with opposition to a 'one-size-fits-all government program,' suggests a preference for market-based solutions and limited government intervention. This aligns with conservative or right-leaning political views, which often advocate for individual liberty and free-market principles.\"\n}\n```",
+      "explanation": "The author's emphasis on individual empowerment, personal responsibility, and choice in healthcare, along with opposition to a 'one-size-fits-all government program,' suggests a preference for market-based solutions and limited government intervention. This aligns with conservative or right-leaning political views, which often advocate for individual liberty and free-market principles."
+    },
+    {
+      "author": "User7480",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns about 'Medicare-for-all,' a policy often advocated by the political left. They mention worries about increased taxes, reduced quality of care, and government overreach, which are common arguments used by conservatives. The author also supports reforms that strengthen the existing healthcare system and promote competition, rather than a government takeover, which aligns with right-leaning political views.\"\n}\n```",
+      "explanation": "The author expresses concerns about 'Medicare-for-all,' a policy often advocated by the political left. They mention worries about increased taxes, reduced quality of care, and government overreach, which are common arguments used by conservatives. The author also supports reforms that strengthen the existing healthcare system and promote competition, rather than a government takeover, which aligns with right-leaning political views."
+    }
+  ]
+}

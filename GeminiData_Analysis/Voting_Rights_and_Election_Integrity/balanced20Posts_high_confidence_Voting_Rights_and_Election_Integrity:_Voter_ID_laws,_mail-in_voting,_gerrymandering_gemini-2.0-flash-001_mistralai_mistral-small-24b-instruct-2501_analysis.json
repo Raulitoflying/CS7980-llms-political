@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 10000.0,
+      "true_positive": 10,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "DemocracyNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on protecting and expanding voting rights, and the call to fight voter suppression, aligns with typical left-leaning political views. These views often prioritize accessibility to voting and democratic participation, which are commonly associated with progressive or liberal political orientations.\"\n}\n```",
+      "explanation": "The author's emphasis on protecting and expanding voting rights, and the call to fight voter suppression, aligns with typical left-leaning political views. These views often prioritize accessibility to voting and democratic participation, which are commonly associated with progressive or liberal political orientations."
+    },
+    {
+      "author": "LiberalVoter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's opposition to Voter ID laws, which are often supported by right-leaning politicians, and their emphasis on equal access to voting for all communities, including minorities, aligns with typical left-wing political views. Left-leaning individuals often advocate for policies that aim to increase voter participation and reduce barriers to voting.\"\n}\n```",
+      "explanation": "The author's opposition to Voter ID laws, which are often supported by right-leaning politicians, and their emphasis on equal access to voting for all communities, including minorities, aligns with typical left-wing political views. Left-leaning individuals often advocate for policies that aim to increase voter participation and reduce barriers to voting."
+    },
+    {
+      "author": "GreenVote",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for mail-in voting, which is often advocated by left-leaning politicians and organizations as a means to increase voter accessibility and participation, suggests a left political orientation. This policy is generally seen as beneficial for increasing voter turnout, which is a common goal of left-leaning political agendas.\"\n}\n```",
+      "explanation": "The author's support for mail-in voting, which is often advocated by left-leaning politicians and organizations as a means to increase voter accessibility and participation, suggests a left political orientation. This policy is generally seen as beneficial for increasing voter turnout, which is a common goal of left-leaning political agendas."
+    },
+    {
+      "author": "L-FringeRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post criticizes gerrymandering, which is a practice often associated with Republican efforts to maintain political power. The call to end partisan redistricting aligns with left-leaning views that advocate for fair and unbiased electoral processes. This suggests a left political orientation.\"\n}\n```",
+      "explanation": "The author's post criticizes gerrymandering, which is a practice often associated with Republican efforts to maintain political power. The call to end partisan redistricting aligns with left-leaning views that advocate for fair and unbiased electoral processes. This suggests a left political orientation."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes the importance of voting rights and defending them as a means to build a just society. This focus on democratic principles and social justice is typically associated with left-leaning political orientations. The call to 'promote voting rights' aligns with progressive values that prioritize inclusivity and equal representation.\"\n}\n```",
+      "explanation": "The author emphasizes the importance of voting rights and defending them as a means to build a just society. This focus on democratic principles and social justice is typically associated with left-leaning political orientations. The call to 'promote voting rights' aligns with progressive values that prioritize inclusivity and equal representation."
+    },
+    {
+      "author": "LiberalVoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for automatic voter registration and the simplification of the voting process aligns with left-leaning political views. These policies are often advocated by left-leaning politicians and organizations to increase voter turnout and accessibility, which are common goals of the political left.\"\n}\n```",
+      "explanation": "The author's support for automatic voter registration and the simplification of the voting process aligns with left-leaning political views. These policies are often advocated by left-leaning politicians and organizations to increase voter turnout and accessibility, which are common goals of the political left."
+    },
+    {
+      "author": "GreenVotePower",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes the importance of 'access to the ballot box' and protecting 'the right to vote at all costs.' These statements align with left-leaning political views, which often prioritize voting rights and accessibility. The focus on ensuring that everyone can vote suggests a progressive stance on election policies.\"\n}\n```",
+      "explanation": "The author emphasizes the importance of 'access to the ballot box' and protecting 'the right to vote at all costs.' These statements align with left-leaning political views, which often prioritize voting rights and accessibility. The focus on ensuring that everyone can vote suggests a progressive stance on election policies."
+    },
+    {
+      "author": "L-FringeJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on fighting against voter suppression aligns with left-leaning political views. Voter suppression is often a topic highlighted by left-leaning individuals and groups as a means to ensure fair and equal access to voting rights, which is a core value of the left.\"\n}\n```",
+      "explanation": "The author's emphasis on fighting against voter suppression aligns with left-leaning political views. Voter suppression is often a topic highlighted by left-leaning individuals and groups as a means to ensure fair and equal access to voting rights, which is a core value of the left."
+    },
+    {
+      "author": "DemocracyNowMore",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on high voter turnout as the primary goal of voting policies suggests a left-leaning orientation. This perspective is often associated with progressive or liberal views, which prioritize accessibility and inclusivity in democratic processes. Encouraging high voter turnout is a common goal among left-leaning politicians and activists, as it tends to benefit policies that support social welfare, equality, and other progressive causes.\"\n}\n```",
+      "explanation": "The author's emphasis on high voter turnout as the primary goal of voting policies suggests a left-leaning orientation. This perspective is often associated with progressive or liberal views, which prioritize accessibility and inclusivity in democratic processes. Encouraging high voter turnout is a common goal among left-leaning politicians and activists, as it tends to benefit policies that support social welfare, equality, and other progressive causes."
+    },
+    {
+      "author": "LiberalRights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for reforming campaign finance laws to limit the influence of money in politics, which is a stance often associated with left-leaning or progressive political views. This position typically aligns with the idea of reducing the power of wealthy individuals and corporations in political processes, which is a common theme among left-leaning politicians and activists.\"\n}\n```",
+      "explanation": "The author advocates for reforming campaign finance laws to limit the influence of money in politics, which is a stance often associated with left-leaning or progressive political views. This position typically aligns with the idea of reducing the power of wealthy individuals and corporations in political processes, which is a common theme among left-leaning politicians and activists."
+    },
+    {
+      "author": "SecureVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and emphasis on election integrity and preventing fraud aligns with conservative or right-wing political views. These views often prioritize strict measures to combat voter fraud, which is a common stance among right-leaning individuals and groups.\"\n}\n```",
+      "explanation": "The author's support for voter ID laws and emphasis on election integrity and preventing fraud aligns with conservative or right-wing political views. These views often prioritize strict measures to combat voter fraud, which is a common stance among right-leaning individuals and groups."
+    },
+    {
+      "author": "ConservativeVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on limiting mail-in voting and advocating for in-person voting as the most secure method aligns with conservative views. Conservatives often express concerns about voter fraud and prefer traditional in-person voting methods, which are seen as more secure and less prone to fraudulent activities.\"\n}\n```",
+      "explanation": "The author's stance on limiting mail-in voting and advocating for in-person voting as the most secure method aligns with conservative views. Conservatives often express concerns about voter fraud and prefer traditional in-person voting methods, which are seen as more secure and less prone to fraudulent activities."
+    },
+    {
+      "author": "R-FringeIntegrity",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on 'election integrity' and 'corruption' are common themes among right-leaning political groups, particularly those who advocate for stricter voting regulations and express concerns about voter fraud. These topics are often highlighted by conservative politicians and media outlets.\"\n}\n```",
+      "explanation": "The author's emphasis on 'election integrity' and 'corruption' are common themes among right-leaning political groups, particularly those who advocate for stricter voting regulations and express concerns about voter fraud. These topics are often highlighted by conservative politicians and media outlets."
+    },
+    {
+      "author": "RepublicanVote",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on 'accurate voter rolls' and 'election integrity' aligns with conservative or right-wing political views, which often prioritize strict voter identification and verification processes. The concern about 'only eligible citizens' voting is a common stance among those who support stricter voting regulations, which is typically associated with right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's emphasis on 'accurate voter rolls' and 'election integrity' aligns with conservative or right-wing political views, which often prioritize strict voter identification and verification processes. The concern about 'only eligible citizens' voting is a common stance among those who support stricter voting regulations, which is typically associated with right-leaning political orientations."
+    },
+    {
+      "author": "ConservativeValues",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for gerrymandering, a practice often criticized by the left for disenfranchising voters and manipulating election outcomes, suggests a right-leaning political orientation. The phrase 'fair representation' is used to justify gerrymandering, which is a common argument from conservative viewpoints. Additionally, the username 'ConservativeValues' further supports this classification.\"\n}\n```",
+      "explanation": "The author's support for gerrymandering, a practice often criticized by the left for disenfranchising voters and manipulating election outcomes, suggests a right-leaning political orientation. The phrase 'fair representation' is used to justify gerrymandering, which is a common argument from conservative viewpoints. Additionally, the username 'ConservativeValues' further supports this classification."
+    },
+    {
+      "author": "R-FringeDefend",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on election integrity and holding leaders accountable for suspected fraud aligns with conservative or right-wing political views, which often emphasize strict election security and scrutiny of voting processes.\"\n}\n```",
+      "explanation": "The author's focus on election integrity and holding leaders accountable for suspected fraud aligns with conservative or right-wing political views, which often emphasize strict election security and scrutiny of voting processes."
+    },
+    {
+      "author": "SecureElections",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the importance of securing the chain of custody of ballots and ensuring the security of elections. These points are generally non-partisan and do not provide enough context to determine a specific political orientation. The author could be advocating for election integrity from any political perspective, so it is not possible to classify the orientation as LEFT or RIGHT based on this content alone.\"\n}\n```",
+      "explanation": "The post discusses the importance of securing the chain of custody of ballots and ensuring the security of elections. These points are generally non-partisan and do not provide enough context to determine a specific political orientation. The author could be advocating for election integrity from any political perspective, so it is not possible to classify the orientation as LEFT or RIGHT based on this content alone."
+    },
+    {
+      "author": "ConservativeUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on limiting early voting to 'preserve the integrity of the elections' and to 'avoid opportunities for fraud' aligns with conservative views that often prioritize strict election regulations and security measures. This stance is commonly associated with right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's emphasis on limiting early voting to 'preserve the integrity of the elections' and to 'avoid opportunities for fraud' aligns with conservative views that often prioritize strict election regulations and security measures. This stance is commonly associated with right-leaning political orientations."
+    },
+    {
+      "author": "RFringeTruth",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of phrases like 'undermine our elections' and 'attack our republic' suggests a conservative or right-leaning perspective. These phrases are often associated with right-wing narratives about election integrity and patriotism. The author's concern about the integrity of elections and the use of the term 'republic' aligns with typical right-wing rhetoric.\"\n}\n```",
+      "explanation": "The author's use of phrases like 'undermine our elections' and 'attack our republic' suggests a conservative or right-leaning perspective. These phrases are often associated with right-wing narratives about election integrity and patriotism. The author's concern about the integrity of elections and the use of the term 'republic' aligns with typical right-wing rhetoric."
+    },
+    {
+      "author": "RightToVote",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post focuses on the importance of voting rights and accessibility, which are generally supported across the political spectrum. The author does not mention specific policies or ideologies that are strongly associated with either the left or the right. Therefore, it is difficult to classify the author's political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The author's post focuses on the importance of voting rights and accessibility, which are generally supported across the political spectrum. The author does not mention specific policies or ideologies that are strongly associated with either the left or the right. Therefore, it is difficult to classify the author's political orientation based on this post alone."
+    }
+  ]
+}

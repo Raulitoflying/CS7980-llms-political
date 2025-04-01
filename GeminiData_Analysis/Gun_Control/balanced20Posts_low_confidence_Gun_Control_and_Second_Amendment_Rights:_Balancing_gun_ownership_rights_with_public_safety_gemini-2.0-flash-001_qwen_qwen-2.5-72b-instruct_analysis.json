@@ -1,0 +1,160 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 55.00000000000001
+  },
+  "classifications": [
+    {
+      "author": "EcoActionForSafety",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about gun violence and its impact on communities and natural spaces, advocating for gun control measures. This stance is typically associated with left-leaning political views, which often prioritize public safety and environmental protection over the unrestricted right to bear arms. The mention of 'common-sense regulations' suggests a moderate approach within the left spectrum, seeking balanced solutions rather than extreme measures.\"\n}",
+      "explanation": "The author expresses concern about gun violence and its impact on communities and natural spaces, advocating for gun control measures. This stance is typically associated with left-leaning political views, which often prioritize public safety and environmental protection over the unrestricted right to bear arms. The mention of 'common-sense regulations' suggests a moderate approach within the left spectrum, seeking balanced solutions rather than extreme measures."
+    },
+    {
+      "author": "GreenMindGunRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a concern for gun control and community safety, which aligns more with left-leaning political views. The mention of universal background checks as a starting point for addressing these issues is a common proposal from the political left. However, the author also shows an awareness of the complexities involved, particularly in rural communities, which suggests a nuanced and thoughtful approach to the issue. Despite this nuance, the overall sentiment leans towards supporting measures that are typically advocated by the left.\"\n}",
+      "explanation": "The author expresses a concern for gun control and community safety, which aligns more with left-leaning political views. The mention of universal background checks as a starting point for addressing these issues is a common proposal from the political left. However, the author also shows an awareness of the complexities involved, particularly in rural communities, which suggests a nuanced and thoughtful approach to the issue. Despite this nuance, the overall sentiment leans towards supporting measures that are typically advocated by the left."
+    },
+    {
+      "author": "EcoGunRightsThinker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, EcoGunRightsThinker, expresses a nuanced view that attempts to balance gun rights with the need for regulations to reduce gun violence. This balanced approach does not clearly align with the typical stances of either the political left or right. The left often advocates for stricter gun control measures, while the right typically supports gun rights and opposes most forms of gun regulation. The author's uncertainty and openness to finding a practical balance suggest a more centrist or undecided position, making it difficult to definitively classify their political orientation as either left or right.\"\n}",
+      "explanation": "The author, EcoGunRightsThinker, expresses a nuanced view that attempts to balance gun rights with the need for regulations to reduce gun violence. This balanced approach does not clearly align with the typical stances of either the political left or right. The left often advocates for stricter gun control measures, while the right typically supports gun rights and opposes most forms of gun regulation. The author's uncertainty and openness to finding a practical balance suggest a more centrist or undecided position, making it difficult to definitively classify their political orientation as either left or right."
+    },
+    {
+      "author": "GunsAndSafetyConcerned",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a balanced view on gun control, suggesting a willingness to consider both responsible gun ownership and sensible regulations. This middle-ground stance does not clearly align with the typical strong positions of either the left or the right, making it difficult to definitively classify the author's political orientation based on this post alone.\"\n}",
+      "explanation": "The author expresses uncertainty and a balanced view on gun control, suggesting a willingness to consider both responsible gun ownership and sensible regulations. This middle-ground stance does not clearly align with the typical strong positions of either the left or the right, making it difficult to definitively classify the author's political orientation based on this post alone."
+    },
+    {
+      "author": "GunSafetyThinker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, GunSafetyThinker, expresses a nuanced view that acknowledges the Second Amendment while advocating for common sense gun safety measures to reduce gun violence. This stance is typically associated with left-leaning political orientations, which often support stricter gun control laws to enhance public safety. The author's uncertainty and willingness to consider measures that do not significantly impact the rights of responsible gun owners also suggest a balanced and less extreme position, which is more commonly found on the left side of the political spectrum.\"\n}",
+      "explanation": "The author, GunSafetyThinker, expresses a nuanced view that acknowledges the Second Amendment while advocating for common sense gun safety measures to reduce gun violence. This stance is typically associated with left-leaning political orientations, which often support stricter gun control laws to enhance public safety. The author's uncertainty and willingness to consider measures that do not significantly impact the rights of responsible gun owners also suggest a balanced and less extreme position, which is more commonly found on the left side of the political spectrum."
+    },
+    {
+      "author": "EmeraldViews4Safety",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a concern for 'common sense gun control' and suggests 'restrictions on assault weapons' as a potential starting point, which are typically positions associated with a more left-leaning political orientation. The emphasis on community safety and the need to balance individual rights with public safety measures further supports this classification.\"\n}",
+      "explanation": "The author expresses a concern for 'common sense gun control' and suggests 'restrictions on assault weapons' as a potential starting point, which are typically positions associated with a more left-leaning political orientation. The emphasis on community safety and the need to balance individual rights with public safety measures further supports this classification."
+    },
+    {
+      "author": "GunsAndSafetyThoughts",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced and uncertain view on gun control, acknowledging the importance of both respecting Second Amendment rights and implementing common sense measures to reduce gun violence. This balanced perspective does not clearly align with a specific political orientation, as it reflects a consideration of both conservative and liberal viewpoints. Therefore, the political orientation of the author remains unknown based on the provided content.\"\n}",
+      "explanation": "The author expresses a nuanced and uncertain view on gun control, acknowledging the importance of both respecting Second Amendment rights and implementing common sense measures to reduce gun violence. This balanced perspective does not clearly align with a specific political orientation, as it reflects a consideration of both conservative and liberal viewpoints. Therefore, the political orientation of the author remains unknown based on the provided content."
+    },
+    {
+      "author": "GunsAndSafetyThoughts",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced and balanced view on gun control, acknowledging the importance of both respecting Second Amendment rights and considering common sense gun laws. This middle-ground stance does not clearly align with either the left or the right, as both sides often have more definitive positions on gun control. The author also reflects on the polarization of the issue, which is a common observation across various political orientations. Therefore, there is not enough information to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The author expresses a nuanced and balanced view on gun control, acknowledging the importance of both respecting Second Amendment rights and considering common sense gun laws. This middle-ground stance does not clearly align with either the left or the right, as both sides often have more definitive positions on gun control. The author also reflects on the polarization of the issue, which is a common observation across various political orientations. Therefore, there is not enough information to definitively classify the author's political orientation."
+    },
+    {
+      "author": "2A_Liberties",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by 2A_Liberties raises questions about firearm restrictions and their impact on both reducing violence and preserving the rights of law-abiding citizens. The author does not clearly align with a specific political stance but rather seeks to explore the nuances and potential middle ground in the debate. This balanced approach and the questioning of both sides of the issue make it difficult to definitively classify the author's political orientation as either LEFT or RIGHT.\"\n}",
+      "explanation": "The post by 2A_Liberties raises questions about firearm restrictions and their impact on both reducing violence and preserving the rights of law-abiding citizens. The author does not clearly align with a specific political stance but rather seeks to explore the nuances and potential middle ground in the debate. This balanced approach and the questioning of both sides of the issue make it difficult to definitively classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "SaferFutureMaybe",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a willingness to consider 'common sense gun laws' to reduce gun violence while respecting Second Amendment rights. This suggests a more liberal or left-leaning stance, as the left often advocates for gun control measures to address public safety concerns, even while acknowledging the constitutional right to bear arms.\"\n}",
+      "explanation": "The author expresses a willingness to consider 'common sense gun laws' to reduce gun violence while respecting Second Amendment rights. This suggests a more liberal or left-leaning stance, as the left often advocates for gun control measures to address public safety concerns, even while acknowledging the constitutional right to bear arms."
+    },
+    {
+      "author": "2A_Thinker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by 2A_Thinker expresses a nuanced view on gun rights and safety measures. While the author acknowledges the importance of the Second Amendment, which is often a key issue for those on the right, they also suggest exploring 'common sense safety measures,' a phrase typically used by those on the left to advocate for gun control. The author's stance is not clearly aligned with either the left or the right, as they are seeking a balance between these two perspectives. This balanced approach does not provide enough information to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post by 2A_Thinker expresses a nuanced view on gun rights and safety measures. While the author acknowledges the importance of the Second Amendment, which is often a key issue for those on the right, they also suggest exploring 'common sense safety measures,' a phrase typically used by those on the left to advocate for gun control. The author's stance is not clearly aligned with either the left or the right, as they are seeking a balance between these two perspectives. This balanced approach does not provide enough information to definitively classify the author's political orientation."
+    },
+    {
+      "author": "LibertyMindedMaybe",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertyMindedMaybe expresses a nuanced view on gun ownership and violence prevention, suggesting a willingness to find a middle ground. This perspective does not align strictly with either the typical left-wing stance, which often advocates for stricter gun control measures, or the typical right-wing stance, which generally emphasizes the protection of gun rights. The author's openness to respecting individual gun ownership while also considering ways to prevent violence indicates a balanced or centrist approach, making it difficult to classify their political orientation definitively as either left or right.\"\n}",
+      "explanation": "The post by LibertyMindedMaybe expresses a nuanced view on gun ownership and violence prevention, suggesting a willingness to find a middle ground. This perspective does not align strictly with either the typical left-wing stance, which often advocates for stricter gun control measures, or the typical right-wing stance, which generally emphasizes the protection of gun rights. The author's openness to respecting individual gun ownership while also considering ways to prevent violence indicates a balanced or centrist approach, making it difficult to classify their political orientation definitively as either left or right."
+    },
+    {
+      "author": "User5641",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly advocates for minimal restrictions on firearm ownership and criticizes the concept of 'gun-free zones', suggesting a pro-gun rights stance. This aligns with right-wing political views in the United States, which often emphasize individual liberties, particularly the Second Amendment right to bear arms, and a limited role of government in regulating personal freedoms.\"\n}",
+      "explanation": "The post strongly advocates for minimal restrictions on firearm ownership and criticizes the concept of 'gun-free zones', suggesting a pro-gun rights stance. This aligns with right-wing political views in the United States, which often emphasize individual liberties, particularly the Second Amendment right to bear arms, and a limited role of government in regulating personal freedoms."
+    },
+    {
+      "author": "LibertyLover82",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, LibertyLover82, expresses a nuanced view on gun control that does not clearly align with a specific political orientation. They acknowledge the importance of the right to bear arms, which is often associated with conservative or right-leaning views. However, they also consider the need for regulations to prevent weapons from falling into the wrong hands, which is a common stance among those with more liberal or left-leaning views. The author's willingness to explore a balance between liberty and safety suggests a centrist or moderate position, but without more context or additional statements, it is not possible to definitively classify their political orientation.\"\n}",
+      "explanation": "The author, LibertyLover82, expresses a nuanced view on gun control that does not clearly align with a specific political orientation. They acknowledge the importance of the right to bear arms, which is often associated with conservative or right-leaning views. However, they also consider the need for regulations to prevent weapons from falling into the wrong hands, which is a common stance among those with more liberal or left-leaning views. The author's willingness to explore a balance between liberty and safety suggests a centrist or moderate position, but without more context or additional statements, it is not possible to definitively classify their political orientation."
+    },
+    {
+      "author": "User5900",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's political orientation can be classified as RIGHT based on the content of the post. The post emphasizes a strong stance against criminal behavior and suggests that the focus should be on law enforcement and punishment rather than gun control measures. The author argues that the issue lies with 'bad guys' and not with the availability of guns, which is a common viewpoint among those on the political right. Additionally, the author criticizes the idea of addressing 'root causes' as a distraction, indicating a preference for more immediate and punitive solutions over broader social reforms, which is also typically associated with right-leaning political views.\"\n}",
+      "explanation": "The author's political orientation can be classified as RIGHT based on the content of the post. The post emphasizes a strong stance against criminal behavior and suggests that the focus should be on law enforcement and punishment rather than gun control measures. The author argues that the issue lies with 'bad guys' and not with the availability of guns, which is a common viewpoint among those on the political right. Additionally, the author criticizes the idea of addressing 'root causes' as a distraction, indicating a preference for more immediate and punitive solutions over broader social reforms, which is also typically associated with right-leaning political views."
+    },
+    {
+      "author": "User1293",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses strong concerns about government overreach and the protection of the Second Amendment, which are typically associated with right-wing political views. The emphasis on preventing tyranny and the assertion that the Second Amendment is not primarily about public safety further align with a right-leaning stance, as this perspective often prioritizes individual rights and liberties over collective security measures.\"\n}",
+      "explanation": "The author expresses strong concerns about government overreach and the protection of the Second Amendment, which are typically associated with right-wing political views. The emphasis on preventing tyranny and the assertion that the Second Amendment is not primarily about public safety further align with a right-leaning stance, as this perspective often prioritizes individual rights and liberties over collective security measures."
+    },
+    {
+      "author": "User9427",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes individual rights to own and use firearms with minimal restrictions, a position typically associated with conservative or right-wing political orientations in the context of gun control debates. The author expresses skepticism towards gun control measures and highlights the role of responsible gun owners as a defense against crime, which aligns with right-wing views that prioritize personal liberty and self-defense over government regulation.\"\n}",
+      "explanation": "The post strongly emphasizes individual rights to own and use firearms with minimal restrictions, a position typically associated with conservative or right-wing political orientations in the context of gun control debates. The author expresses skepticism towards gun control measures and highlights the role of responsible gun owners as a defense against crime, which aligns with right-wing views that prioritize personal liberty and self-defense over government regulation."
+    },
+    {
+      "author": "CommonSenseGuns",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not clearly align with a specific political orientation. They express a nuanced view that seeks a balance between public safety and Second Amendment rights, which can be a position taken by individuals from various political backgrounds. The author's uncertainty and openness to different perspectives suggest a willingness to consider multiple viewpoints, making it difficult to definitively classify their political orientation based solely on this post.\"\n}",
+      "explanation": "The author's post does not clearly align with a specific political orientation. They express a nuanced view that seeks a balance between public safety and Second Amendment rights, which can be a position taken by individuals from various political backgrounds. The author's uncertainty and openness to different perspectives suggest a willingness to consider multiple viewpoints, making it difficult to definitively classify their political orientation based solely on this post."
+    },
+    {
+      "author": "User6935",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about the effectiveness of gun control laws in reducing crime, suggesting that criminals will circumvent regulations. This viewpoint aligns with a common stance on the right that emphasizes the ineffectiveness of additional gun control measures. The author also highlights the importance of the Second Amendment and individual responsibility, which are typically strong values associated with right-wing political ideology, particularly in the context of gun ownership and use.\"\n}",
+      "explanation": "The author expresses skepticism about the effectiveness of gun control laws in reducing crime, suggesting that criminals will circumvent regulations. This viewpoint aligns with a common stance on the right that emphasizes the ineffectiveness of additional gun control measures. The author also highlights the importance of the Second Amendment and individual responsibility, which are typically strong values associated with right-wing political ideology, particularly in the context of gun ownership and use."
+    },
+    {
+      "author": "RightToBearArmsFan",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author identifies as 'RightToBearArmsFan,' which suggests a strong support for gun rights, a position typically associated with the political right in the United States. The post content also reflects a conservative viewpoint by emphasizing the Second Amendment and expressing skepticism about the effectiveness of restricting legal gun ownership in reducing crime. While the author is open to 'common sense regulations,' the primary concern is to maintain gun ownership rights, which is a common stance among those on the right.\"\n}",
+      "explanation": "The author identifies as 'RightToBearArmsFan,' which suggests a strong support for gun rights, a position typically associated with the political right in the United States. The post content also reflects a conservative viewpoint by emphasizing the Second Amendment and expressing skepticism about the effectiveness of restricting legal gun ownership in reducing crime. While the author is open to 'common sense regulations,' the primary concern is to maintain gun ownership rights, which is a common stance among those on the right."
+    }
+  ]
+}

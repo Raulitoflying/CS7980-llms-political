@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 100.0,
+      "recall": 30.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 7
+    },
+    "unknown": {
+      "accuracy": 20.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 16,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 20.0
+  },
+  "classifications": [
+    {
+      "author": "EcoReflect",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses concerns about the environmental impact of military conflict and questions the effectiveness of military solutions. This aligns with common left-leaning perspectives that prioritize environmental protection and advocate for diplomatic or non-military approaches to conflict resolution. The phrasing 'diverting resources from climate action' and 'irreversible ecological harm' are typical concerns voiced by those on the left.\"\n}\n```",
+      "explanation": "The author's post expresses concerns about the environmental impact of military conflict and questions the effectiveness of military solutions. This aligns with common left-leaning perspectives that prioritize environmental protection and advocate for diplomatic or non-military approaches to conflict resolution. The phrasing 'diverting resources from climate action' and 'irreversible ecological harm' are typical concerns voiced by those on the left."
+    },
+    {
+      "author": "EcoConflictPonderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses concern about the environmental impacts of the Russia-Ukraine war and questions whether prioritizing immediate peace would address underlying issues of resource exploitation and geopolitical imbalance. While environmental concern is often associated with left-leaning politics, the post doesn't explicitly advocate for any particular political ideology or policy. The author's focus on 'resource exploitation' and 'geopolitical imbalance' could align with various perspectives, and the questioning tone suggests a nuanced view rather than a firm ideological stance. Therefore, it's impossible to definitively classify the author's political orientation based solely on this post.\"\n}\n```",
+      "explanation": "The author's post expresses concern about the environmental impacts of the Russia-Ukraine war and questions whether prioritizing immediate peace would address underlying issues of resource exploitation and geopolitical imbalance. While environmental concern is often associated with left-leaning politics, the post doesn't explicitly advocate for any particular political ideology or policy. The author's focus on 'resource exploitation' and 'geopolitical imbalance' could align with various perspectives, and the questioning tone suggests a nuanced view rather than a firm ideological stance. Therefore, it's impossible to definitively classify the author's political orientation based solely on this post."
+    },
+    {
+      "author": "PeacePathProgress",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the effectiveness of sanctions on Russia and their potential negative impact on Ukrainian civilians. This concern doesn't definitively align with either left or right political ideologies. Questioning the effectiveness of sanctions is a common position across the political spectrum, and the concern for civilian harm is a humanitarian one, not necessarily tied to a specific political orientation. The author's statement is neutral and does not provide enough information to classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about the effectiveness of sanctions on Russia and their potential negative impact on Ukrainian civilians. This concern doesn't definitively align with either left or right political ideologies. Questioning the effectiveness of sanctions is a common position across the political spectrum, and the concern for civilian harm is a humanitarian one, not necessarily tied to a specific political orientation. The author's statement is neutral and does not provide enough information to classify their political orientation."
+    },
+    {
+      "author": "DiplomaticPonderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses concern about balancing humanitarian aid and diplomatic efforts in the Russia-Ukraine war and questions whether alternative strategies for de-escalation exist. This does not provide enough information to classify their political orientation as either left or right. The post is focused on policy and strategy rather than ideological positions.\"\n}\n```",
+      "explanation": "The author's post expresses concern about balancing humanitarian aid and diplomatic efforts in the Russia-Ukraine war and questions whether alternative strategies for de-escalation exist. This does not provide enough information to classify their political orientation as either left or right. The post is focused on policy and strategy rather than ideological positions."
+    },
+    {
+      "author": "NuanceSeeker42",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses a nuanced perspective and avoids taking a definitive stance. By questioning the sole responsibility of one factor (NATO expansion) and highlighting the complexity of the situation, the author demonstrates a critical thinking approach rather than aligning with a specific political ideology. The question itself is often debated across the political spectrum, making it difficult to assign a specific orientation based solely on this statement.\"\n}\n```",
+      "explanation": "The author's post expresses a nuanced perspective and avoids taking a definitive stance. By questioning the sole responsibility of one factor (NATO expansion) and highlighting the complexity of the situation, the author demonstrates a critical thinking approach rather than aligning with a specific political ideology. The question itself is often debated across the political spectrum, making it difficult to assign a specific orientation based solely on this statement."
+    },
+    {
+      "author": "EcoReflect",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental devastation as a significant consequence of the Russia-Ukraine war, even potentially outweighing geopolitical gains, aligns with common concerns within left-leaning political ideologies. The emphasis on long-term ecological harm and the desire for diplomacy to prioritize both people and the planet are also indicative of a left-leaning perspective, which often emphasizes environmental protection and multilateral solutions.\"\n}\n```",
+      "explanation": "The author's focus on environmental devastation as a significant consequence of the Russia-Ukraine war, even potentially outweighing geopolitical gains, aligns with common concerns within left-leaning political ideologies. The emphasis on long-term ecological harm and the desire for diplomacy to prioritize both people and the planet are also indicative of a left-leaning perspective, which often emphasizes environmental protection and multilateral solutions."
+    },
+    {
+      "author": "UnseenRootsAnalyst",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses skepticism towards the mainstream narrative surrounding the Russia-Ukraine conflict and suggests a more nuanced understanding is needed. They raise the possibility of Western involvement and shared blame, indicating a critical perspective on Western foreign policy. However, without further information, it is impossible to definitively classify their political orientation as either left or right. Both sides of the political spectrum can hold critical views of Western foreign policy, albeit for different reasons. The author's even-handed approach and emphasis on the unclear truth further contribute to the ambiguity.\"\n}\n```",
+      "explanation": "The author's post expresses skepticism towards the mainstream narrative surrounding the Russia-Ukraine conflict and suggests a more nuanced understanding is needed. They raise the possibility of Western involvement and shared blame, indicating a critical perspective on Western foreign policy. However, without further information, it is impossible to definitively classify their political orientation as either left or right. Both sides of the political spectrum can hold critical views of Western foreign policy, albeit for different reasons. The author's even-handed approach and emphasis on the unclear truth further contribute to the ambiguity."
+    },
+    {
+      "author": "GreenHorizonPonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern about the environmental impact of the Russia-Ukraine war, framing it as potentially outweighing strategic gains, aligns with common left-leaning perspectives. Left-leaning ideologies often prioritize environmental protection and express concern over the ecological consequences of conflict and industrial activity. The emphasis on 'interconnected ecological impacts' further suggests an understanding of environmental systems, a common theme in left-leaning environmental discourse. While condemning violence is a common sentiment across the political spectrum, the specific focus on environmental devastation as a primary concern points towards a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author's concern about the environmental impact of the Russia-Ukraine war, framing it as potentially outweighing strategic gains, aligns with common left-leaning perspectives. Left-leaning ideologies often prioritize environmental protection and express concern over the ecological consequences of conflict and industrial activity. The emphasis on 'interconnected ecological impacts' further suggests an understanding of environmental systems, a common theme in left-leaning environmental discourse. While condemning violence is a common sentiment across the political spectrum, the specific focus on environmental devastation as a primary concern points towards a left-leaning orientation."
+    },
+    {
+      "author": "DiplomaticMind",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the humanitarian crisis in Ukraine and questions the effectiveness of current aid strategies. They also acknowledge the complexity of the situation. This doesn't provide enough information to classify their political orientation as either left or right. Both sides of the political spectrum can hold similar views on humanitarian issues and the complexities of international conflicts.\"\n}\n```",
+      "explanation": "The author expresses concern about the humanitarian crisis in Ukraine and questions the effectiveness of current aid strategies. They also acknowledge the complexity of the situation. This doesn't provide enough information to classify their political orientation as either left or right. Both sides of the political spectrum can hold similar views on humanitarian issues and the complexities of international conflicts."
+    },
+    {
+      "author": "PeaceInQuestion",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about humanitarian costs and questions the effectiveness of sanctions versus diplomatic solutions. This doesn't align strongly with either left or right political orientations. The author's uncertainty and focus on multiple perspectives suggest a nuanced view that is difficult to categorize.\"\n}\n```",
+      "explanation": "The author expresses concern about humanitarian costs and questions the effectiveness of sanctions versus diplomatic solutions. This doesn't align strongly with either left or right political orientations. The author's uncertainty and focus on multiple perspectives suggest a nuanced view that is difficult to categorize."
+    },
+    {
+      "author": "PatriotPerspective",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses skepticism about NATO expansion and questions the long-term benefits of involvement in the conflict. While these sentiments can sometimes align with certain right-leaning isolationist viewpoints or left-leaning anti-imperialist perspectives, the post lacks specific ideological markers or policy preferences that would definitively classify the author as either left or right. The focus on national interests and questioning foreign intervention is not exclusive to either side of the political spectrum. Therefore, without further information, the author's political orientation is unknown.\"\n}\n```",
+      "explanation": "The author's post expresses skepticism about NATO expansion and questions the long-term benefits of involvement in the conflict. While these sentiments can sometimes align with certain right-leaning isolationist viewpoints or left-leaning anti-imperialist perspectives, the post lacks specific ideological markers or policy preferences that would definitively classify the author as either left or right. The focus on national interests and questioning foreign intervention is not exclusive to either side of the political spectrum. Therefore, without further information, the author's political orientation is unknown."
+    },
+    {
+      "author": "EasternWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post expresses skepticism about the mainstream narrative regarding the Russia-Ukraine conflict and NATO expansion. Questioning the dominant narrative and suggesting alternative explanations, such as NATO expansion being a motivating factor for Russia, is often associated with viewpoints that are critical of Western foreign policy. However, without further information, it's impossible to definitively classify the author's political orientation as either left or right. Both left-leaning and right-leaning individuals can hold critical views of NATO and Western foreign policy, albeit for different reasons. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post expresses skepticism about the mainstream narrative regarding the Russia-Ukraine conflict and NATO expansion. Questioning the dominant narrative and suggesting alternative explanations, such as NATO expansion being a motivating factor for Russia, is often associated with viewpoints that are critical of Western foreign policy. However, without further information, it's impossible to definitively classify the author's political orientation as either left or right. Both left-leaning and right-leaning individuals can hold critical views of NATO and Western foreign policy, albeit for different reasons. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "LibertyInQuestion",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about military aid and foreign intervention, referencing both Ukrainian sovereignty and libertarian principles. This combination makes it difficult to definitively classify their political orientation. The emphasis on Ukrainian sovereignty could lean left or right, while the libertarian caution against foreign intervention is often associated with both the right and left, particularly anti-interventionist factions. Without further information, it's impossible to determine a specific political leaning.\"\n}\n```",
+      "explanation": "The author expresses concerns about military aid and foreign intervention, referencing both Ukrainian sovereignty and libertarian principles. This combination makes it difficult to definitively classify their political orientation. The emphasis on Ukrainian sovereignty could lean left or right, while the libertarian caution against foreign intervention is often associated with both the right and left, particularly anti-interventionist factions. Without further information, it's impossible to determine a specific political leaning."
+    },
+    {
+      "author": "PatriotPolicyThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses caution regarding escalating aid to Ukraine and emphasizes the need for clearer goals and risk assessment. This sentiment could align with various political orientations. While some on the right might express skepticism about foreign intervention and the cost of aid, others on the left might raise concerns about the potential for escalation and the impact on global stability. Without further information about the author's views on other issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The post expresses caution regarding escalating aid to Ukraine and emphasizes the need for clearer goals and risk assessment. This sentiment could align with various political orientations. While some on the right might express skepticism about foreign intervention and the cost of aid, others on the left might raise concerns about the potential for escalation and the impact on global stability. Without further information about the author's views on other issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "QuestioningEagle76",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism towards both Western and Russian narratives surrounding the conflict in Ukraine. Questioning the motives of the West and suggesting 'hidden agendas' is sometimes associated with anti-establishment or anti-imperialist viewpoints, which can be found on both the left and the right. However, the author also acknowledges the possibility of 'legitimate reasons' not being seen, indicating a desire for a balanced perspective. The lack of a clear stance or specific ideological language makes it impossible to definitively classify the author's political orientation. The author's skepticism could stem from a variety of political viewpoints, or simply a desire for more information.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards both Western and Russian narratives surrounding the conflict in Ukraine. Questioning the motives of the West and suggesting 'hidden agendas' is sometimes associated with anti-establishment or anti-imperialist viewpoints, which can be found on both the left and the right. However, the author also acknowledges the possibility of 'legitimate reasons' not being seen, indicating a desire for a balanced perspective. The lack of a clear stance or specific ideological language makes it impossible to definitively classify the author's political orientation. The author's skepticism could stem from a variety of political viewpoints, or simply a desire for more information."
+    },
+    {
+      "author": "PatriotPriorities",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is ambiguous and does not clearly align with either left or right-wing political ideologies. Questioning the level of aid to Ukraine and suggesting diplomatic solutions are not inherently indicative of a specific political orientation. Both left and right-leaning individuals can hold concerns about foreign policy and potential escalation of conflicts. Without further information, it's impossible to accurately classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statement is ambiguous and does not clearly align with either left or right-wing political ideologies. Questioning the level of aid to Ukraine and suggesting diplomatic solutions are not inherently indicative of a specific political orientation. Both left and right-leaning individuals can hold concerns about foreign policy and potential escalation of conflicts. Without further information, it's impossible to accurately classify the author's political orientation."
+    },
+    {
+      "author": "LibertyUncertain",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the complexities of foreign intervention in Ukraine, weighing the importance of sovereignty against the potential for escalating violence and the principles of non-aggression. The author raises concerns about both intervention and non-intervention, suggesting a nuanced perspective that doesn't align neatly with typical left or right-wing positions. The reference to 'libertarian principles of non-aggression' hints at a possible libertarian leaning, but the uncertainty expressed about the best course of action makes it difficult to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author's post discusses the complexities of foreign intervention in Ukraine, weighing the importance of sovereignty against the potential for escalating violence and the principles of non-aggression. The author raises concerns about both intervention and non-intervention, suggesting a nuanced perspective that doesn't align neatly with typical left or right-wing positions. The reference to 'libertarian principles of non-aggression' hints at a possible libertarian leaning, but the uncertainty expressed about the best course of action makes it difficult to definitively classify their political orientation."
+    },
+    {
+      "author": "SovereignMinds",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post presents a nuanced perspective that doesn't clearly align with either the left or right. They raise a valid concern about the potential for escalation while also acknowledging humanitarian costs, suggesting a complex understanding of the situation. The reference to \\\"libertarian principles\\\" could lean towards a right-leaning perspective, but the overall tone is questioning and exploratory rather than dogmatic. Without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author's post presents a nuanced perspective that doesn't clearly align with either the left or right. They raise a valid concern about the potential for escalation while also acknowledging humanitarian costs, suggesting a complex understanding of the situation. The reference to \"libertarian principles\" could lean towards a right-leaning perspective, but the overall tone is questioning and exploratory rather than dogmatic. Without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "PatriotPrioritize",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's concerns about the Russia-Ukraine conflict, specifically questioning whether it prioritizes American interests, the long-term consequences for taxpayers, and the risk of entanglement, are common themes within right-leaning political discourse. The user's name, \\\"PatriotPrioritize,\\\" also suggests a focus on national interests, which is often associated with right-leaning ideologies. While the post acknowledges the complexity of the situation, the core concerns align more closely with right-wing perspectives on foreign policy and government spending.\"\n}\n```",
+      "explanation": "The author's concerns about the Russia-Ukraine conflict, specifically questioning whether it prioritizes American interests, the long-term consequences for taxpayers, and the risk of entanglement, are common themes within right-leaning political discourse. The user's name, \"PatriotPrioritize,\" also suggests a focus on national interests, which is often associated with right-leaning ideologies. While the post acknowledges the complexity of the situation, the core concerns align more closely with right-wing perspectives on foreign policy and government spending."
+    },
+    {
+      "author": "PatriotPerspective",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism about the effectiveness of aid to Ukraine and questions the focus on peace negotiations. While such sentiments can be found across the political spectrum, they are often voiced by individuals on the right who are critical of foreign aid or interventionist policies. However, without further information or context, it is impossible to definitively classify the author's political orientation. The questions raised could also be posed by someone on the left concerned about the humanitarian impact of the war and the potential for escalation.\"\n}\n```",
+      "explanation": "The post expresses skepticism about the effectiveness of aid to Ukraine and questions the focus on peace negotiations. While such sentiments can be found across the political spectrum, they are often voiced by individuals on the right who are critical of foreign aid or interventionist policies. However, without further information or context, it is impossible to definitively classify the author's political orientation. The questions raised could also be posed by someone on the left concerned about the humanitarian impact of the war and the potential for escalation."
+    }
+  ]
+}

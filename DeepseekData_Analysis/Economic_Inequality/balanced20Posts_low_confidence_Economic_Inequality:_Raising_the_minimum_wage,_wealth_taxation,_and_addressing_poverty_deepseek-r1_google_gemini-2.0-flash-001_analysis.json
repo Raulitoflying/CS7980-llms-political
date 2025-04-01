@@ -1,0 +1,160 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 50.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 10,
+      "true_negative": 10,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "EquitySeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses interest in policies typically associated with the left, such as raising the minimum wage and implementing wealth taxes, both of which are often proposed as solutions to poverty and wealth inequality. The author's questioning and open-mindedness don't negate the underlying alignment with left-leaning policy preferences.\"\n}\n```",
+      "explanation": "The author expresses interest in policies typically associated with the left, such as raising the minimum wage and implementing wealth taxes, both of which are often proposed as solutions to poverty and wealth inequality. The author's questioning and open-mindedness don't negate the underlying alignment with left-leaning policy preferences."
+    },
+    {
+      "author": "EquityInQuestion",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about poverty reduction and explores potential solutions like raising the minimum wage and implementing a wealth tax. These are policy proposals typically associated with left-leaning political ideologies that prioritize social welfare and economic equality. The author's cautious consideration of the impact on small businesses suggests a nuanced perspective, but the core focus aligns with left-leaning concerns.\"\n}\n```",
+      "explanation": "The author expresses concern about poverty reduction and explores potential solutions like raising the minimum wage and implementing a wealth tax. These are policy proposals typically associated with left-leaning political ideologies that prioritize social welfare and economic equality. The author's cautious consideration of the impact on small businesses suggests a nuanced perspective, but the core focus aligns with left-leaning concerns."
+    },
+    {
+      "author": "EconConfusionist",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns and poses questions related to both left-leaning and right-leaning economic policies. They acknowledge potential benefits of raising the minimum wage and implementing wealth taxes, which are typically supported by the left. However, they also raise concerns about the potential negative consequences for small businesses and the risk of capital flight, which are common arguments from the right. The author also expresses concern about creating dependency, which is a common concern across the political spectrum. Because the author presents a balanced view with questions and concerns from both sides, it is impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concerns and poses questions related to both left-leaning and right-leaning economic policies. They acknowledge potential benefits of raising the minimum wage and implementing wealth taxes, which are typically supported by the left. However, they also raise concerns about the potential negative consequences for small businesses and the risk of capital flight, which are common arguments from the right. The author also expresses concern about creating dependency, which is a common concern across the political spectrum. Because the author presents a balanced view with questions and concerns from both sides, it is impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "EquityQuestioner",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about both higher taxes on the wealthy and simply raising wages as solutions to economic inequality. Questioning the effectiveness of traditionally left-leaning policies (higher taxes, wage increases) without advocating for specific right-leaning alternatives makes it difficult to classify the author. The author's concern about 'corporate greed' and 'systemic exploitation' suggests a potential leaning towards the left, but the questioning of left-leaning solutions creates ambiguity. Therefore, the political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author expresses skepticism about both higher taxes on the wealthy and simply raising wages as solutions to economic inequality. Questioning the effectiveness of traditionally left-leaning policies (higher taxes, wage increases) without advocating for specific right-leaning alternatives makes it difficult to classify the author. The author's concern about 'corporate greed' and 'systemic exploitation' suggests a potential leaning towards the left, but the questioning of left-leaning solutions creates ambiguity. Therefore, the political orientation is best classified as unknown."
+    },
+    {
+      "author": "DoubtfulEquity",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism towards both raising the minimum wage and wealth taxes, but frames this skepticism from a left-leaning perspective. They worry that raising the minimum wage might allow corporations to mask deeper exploitation, suggesting concern for worker's rights and corporate power. Similarly, they view wealth taxes as a 'bandage on a broken system,' implying a desire for more fundamental systemic change, a common theme in left-wing thought. The statement that poverty feels too big to fix with simple solutions also aligns with a left-leaning perspective that acknowledges the complexity of socioeconomic issues and the need for comprehensive solutions.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards both raising the minimum wage and wealth taxes, but frames this skepticism from a left-leaning perspective. They worry that raising the minimum wage might allow corporations to mask deeper exploitation, suggesting concern for worker's rights and corporate power. Similarly, they view wealth taxes as a 'bandage on a broken system,' implying a desire for more fundamental systemic change, a common theme in left-wing thought. The statement that poverty feels too big to fix with simple solutions also aligns with a left-leaning perspective that acknowledges the complexity of socioeconomic issues and the need for comprehensive solutions."
+    },
+    {
+      "author": "EconDebateHesitant",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns and questions related to both left-leaning and right-leaning perspectives. They acknowledge the potential benefits of raising the minimum wage (a left-leaning policy) but also raise concerns about its impact on small businesses (a common right-leaning argument). Similarly, they consider wealth taxes (a left-leaning policy) but question their effectiveness and potential negative consequences (a common right-leaning critique). The author's hesitant and questioning tone, combined with their consideration of arguments from both sides, suggests they are either undecided or hold a nuanced perspective that doesn't neatly fit into a simple left/right classification. Therefore, their political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author expresses concerns and questions related to both left-leaning and right-leaning perspectives. They acknowledge the potential benefits of raising the minimum wage (a left-leaning policy) but also raise concerns about its impact on small businesses (a common right-leaning argument). Similarly, they consider wealth taxes (a left-leaning policy) but question their effectiveness and potential negative consequences (a common right-leaning critique). The author's hesitant and questioning tone, combined with their consideration of arguments from both sides, suggests they are either undecided or hold a nuanced perspective that doesn't neatly fit into a simple left/right classification. Therefore, their political orientation is best classified as unknown."
+    },
+    {
+      "author": "EquityUncertain",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for policies typically associated with the left, such as raising the minimum wage and implementing wealth taxes, both of which are aimed at reducing poverty and addressing wealth inequality. The concern about 'systemic inequities' further aligns with left-leaning perspectives that emphasize structural causes of inequality. While the author expresses uncertainty about the effectiveness and potential economic consequences, the initial inclination towards these policies suggests a left-leaning political orientation.\"\n}\n```",
+      "explanation": "The author expresses support for policies typically associated with the left, such as raising the minimum wage and implementing wealth taxes, both of which are aimed at reducing poverty and addressing wealth inequality. The concern about 'systemic inequities' further aligns with left-leaning perspectives that emphasize structural causes of inequality. While the author expresses uncertainty about the effectiveness and potential economic consequences, the initial inclination towards these policies suggests a left-leaning political orientation."
+    },
+    {
+      "author": "EquityPonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses concerns typically associated with left-leaning political ideologies. Specifically, the author mentions reducing economic inequality, wealth taxation, and questioning the effectiveness of anti-poverty programs in addressing systemic issues. These concerns align with a focus on social justice and economic equality, which are common themes in left-wing political discourse. The author's questioning of whether raising the minimum wage is 'enough' and suggesting wealth taxation indicates a desire for more substantial wealth redistribution, a policy generally favored by the left.\"\n}\n```",
+      "explanation": "The author's post expresses concerns typically associated with left-leaning political ideologies. Specifically, the author mentions reducing economic inequality, wealth taxation, and questioning the effectiveness of anti-poverty programs in addressing systemic issues. These concerns align with a focus on social justice and economic equality, which are common themes in left-wing political discourse. The author's questioning of whether raising the minimum wage is 'enough' and suggesting wealth taxation indicates a desire for more substantial wealth redistribution, a policy generally favored by the left."
+    },
+    {
+      "author": "EquitableVision",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a left-leaning political orientation. The concern about poverty reduction, the explicit mention of 'systemic inequities,' and the suggestion of 'wealth taxes' are all common themes within left-wing political discourse. While the author also acknowledges the complexity of the issue and seeks a 'middle ground,' the core concerns and proposed solutions align more closely with left-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's post suggests a left-leaning political orientation. The concern about poverty reduction, the explicit mention of 'systemic inequities,' and the suggestion of 'wealth taxes' are all common themes within left-wing political discourse. While the author also acknowledges the complexity of the issue and seeks a 'middle ground,' the core concerns and proposed solutions align more closely with left-leaning ideologies."
+    },
+    {
+      "author": "EconDoubtInquirer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism towards both raising the minimum wage and wealth taxation, but frames their concerns as questions about potential unintended consequences and the complexity of economic issues. They don't explicitly endorse any particular political ideology or solution. The questions posed could be asked by someone from either the left or right, depending on their underlying assumptions and priorities. The author's focus on 'deeper systemic issues' and 'multifaceted' poverty suggests a desire for comprehensive solutions, but doesn't provide enough information to classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards both raising the minimum wage and wealth taxation, but frames their concerns as questions about potential unintended consequences and the complexity of economic issues. They don't explicitly endorse any particular political ideology or solution. The questions posed could be asked by someone from either the left or right, depending on their underlying assumptions and priorities. The author's focus on 'deeper systemic issues' and 'multifaceted' poverty suggests a desire for comprehensive solutions, but doesn't provide enough information to classify their political orientation."
+    },
+    {
+      "author": "FreeMarketPonderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced perspective, acknowledging potential benefits and drawbacks of both raising the minimum wage and wealth taxation. They express concern for workers and those in poverty, but also consider the potential negative impacts on businesses and innovation. This balanced approach and lack of strong ideological statements make it difficult to classify their political orientation as definitively left or right.\"\n}\n```",
+      "explanation": "The author presents a balanced perspective, acknowledging potential benefits and drawbacks of both raising the minimum wage and wealth taxation. They express concern for workers and those in poverty, but also consider the potential negative impacts on businesses and innovation. This balanced approach and lack of strong ideological statements make it difficult to classify their political orientation as definitively left or right."
+    },
+    {
+      "author": "PovertyPuzzle",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and poses questions about the potential negative consequences of both raising the minimum wage and implementing wealth taxes. They acknowledge arguments from both sides of these issues without explicitly endorsing either. This balanced and questioning approach makes it difficult to classify their political orientation as definitively left or right.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and poses questions about the potential negative consequences of both raising the minimum wage and implementing wealth taxes. They acknowledge arguments from both sides of these issues without explicitly endorsing either. This balanced and questioning approach makes it difficult to classify their political orientation as definitively left or right."
+    },
+    {
+      "author": "FiscalBalanceSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about both raising the minimum wage (a policy typically supported by the left) and wealth taxes (also typically supported by the left). They acknowledge potential benefits of minimum wage increases but also raise concerns about the impact on small businesses. Similarly, they acknowledge the theoretical fairness of wealth taxes but question their impact on investment and job creation. This balanced perspective, considering potential downsides of policies typically associated with the left, without advocating for specific right-leaning policies, makes it difficult to definitively classify the author's political orientation. They could be a moderate, a centrist, or simply someone who is genuinely trying to understand the complexities of these issues without adhering to a strict ideological line.\"\n}\n```",
+      "explanation": "The author expresses concerns about both raising the minimum wage (a policy typically supported by the left) and wealth taxes (also typically supported by the left). They acknowledge potential benefits of minimum wage increases but also raise concerns about the impact on small businesses. Similarly, they acknowledge the theoretical fairness of wealth taxes but question their impact on investment and job creation. This balanced perspective, considering potential downsides of policies typically associated with the left, without advocating for specific right-leaning policies, makes it difficult to definitively classify the author's political orientation. They could be a moderate, a centrist, or simply someone who is genuinely trying to understand the complexities of these issues without adhering to a strict ideological line."
+    },
+    {
+      "author": "FreeMarketThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism towards wealth taxes and welfare programs, suggesting they might create dependency on the government rather than solving poverty. This aligns with a common right-leaning argument against government intervention and a preference for free-market solutions. The author's username, \\\"FreeMarketThinker,\\\" further reinforces this classification.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards wealth taxes and welfare programs, suggesting they might create dependency on the government rather than solving poverty. This aligns with a common right-leaning argument against government intervention and a preference for free-market solutions. The author's username, \"FreeMarketThinker,\" further reinforces this classification."
+    },
+    {
+      "author": "FreeMarketThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns typically associated with right-leaning political ideologies. Specifically, the concerns about the negative impacts of minimum wage increases on small businesses, the potential for wealth taxes to discourage innovation, and the desire to address poverty without government overreach are all common arguments made by conservatives and libertarians. The user's handle, 'FreeMarketThinker,' further suggests an affinity for free-market principles, which are generally associated with right-leaning economic policies.\"\n}\n```",
+      "explanation": "The author expresses concerns typically associated with right-leaning political ideologies. Specifically, the concerns about the negative impacts of minimum wage increases on small businesses, the potential for wealth taxes to discourage innovation, and the desire to address poverty without government overreach are all common arguments made by conservatives and libertarians. The user's handle, 'FreeMarketThinker,' further suggests an affinity for free-market principles, which are generally associated with right-leaning economic policies."
+    },
+    {
+      "author": "CommonSenseEcon",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about both left-leaning and right-leaning economic policies. They question the effectiveness of minimum wage increases (often a left-leaning policy) and higher taxes on the wealthy (also a left-leaning policy). This balanced skepticism suggests the author is either undecided, centrist, or deliberately avoiding a clear political stance. Without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concerns about both left-leaning and right-leaning economic policies. They question the effectiveness of minimum wage increases (often a left-leaning policy) and higher taxes on the wealthy (also a left-leaning policy). This balanced skepticism suggests the author is either undecided, centrist, or deliberately avoiding a clear political stance. Without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "FiscalThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents questions that explore potential downsides of traditionally left-leaning policies (minimum wage increase, wealth taxation). However, posing questions and considering potential negative consequences does not automatically classify someone as right-leaning. The author could be genuinely interested in a balanced discussion and exploring the complexities of these issues without necessarily opposing the policies outright. Without further information or expressed opinions, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author presents questions that explore potential downsides of traditionally left-leaning policies (minimum wage increase, wealth taxation). However, posing questions and considering potential negative consequences does not automatically classify someone as right-leaning. The author could be genuinely interested in a balanced discussion and exploring the complexities of these issues without necessarily opposing the policies outright. Without further information or expressed opinions, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "EconDebateConfused",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and poses questions that consider both sides of common economic debates. They question the effectiveness of raising the minimum wage and wealth taxes, acknowledging potential negative consequences for businesses and successful individuals. This balanced approach, without advocating for a specific policy or ideology, makes it difficult to classify their political orientation as strictly left or right. The author seems to be genuinely exploring different perspectives.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and poses questions that consider both sides of common economic debates. They question the effectiveness of raising the minimum wage and wealth taxes, acknowledging potential negative consequences for businesses and successful individuals. This balanced approach, without advocating for a specific policy or ideology, makes it difficult to classify their political orientation as strictly left or right. The author seems to be genuinely exploring different perspectives."
+    },
+    {
+      "author": "FreeMarketPonderer",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concerns typically associated with right-leaning perspectives. Specifically, they question the efficacy of minimum wage laws, suggesting they might harm job creation, a common argument against such policies. They also express skepticism about wealth taxation, worrying about its potential impact on investment and economic growth, which aligns with right-leaning economic viewpoints. The suggestion that 'voluntary solutions merit more exploration than mandates' further reinforces this classification, as it favors less government intervention, a hallmark of right-leaning ideology.\"\n}\n```",
+      "explanation": "The author expresses concerns typically associated with right-leaning perspectives. Specifically, they question the efficacy of minimum wage laws, suggesting they might harm job creation, a common argument against such policies. They also express skepticism about wealth taxation, worrying about its potential impact on investment and economic growth, which aligns with right-leaning economic viewpoints. The suggestion that 'voluntary solutions merit more exploration than mandates' further reinforces this classification, as it favors less government intervention, a hallmark of right-leaning ideology."
+    },
+    {
+      "author": "PolicyPonderRight",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism towards policies commonly associated with the left, such as raising the minimum wage and wealth taxation. They raise concerns about the potential negative impacts of these policies on small businesses and economic growth, which are arguments frequently made by those on the right. The author's username, 'PolicyPonderRight,' also strongly suggests a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards policies commonly associated with the left, such as raising the minimum wage and wealth taxation. They raise concerns about the potential negative impacts of these policies on small businesses and economic growth, which are arguments frequently made by those on the right. The author's username, 'PolicyPonderRight,' also strongly suggests a right-leaning perspective."
+    }
+  ]
+}

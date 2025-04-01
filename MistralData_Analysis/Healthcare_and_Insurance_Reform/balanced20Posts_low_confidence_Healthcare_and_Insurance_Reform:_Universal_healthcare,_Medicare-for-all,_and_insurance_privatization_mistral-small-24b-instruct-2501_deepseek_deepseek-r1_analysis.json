@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 85.71428571428571,
+      "recall": 60.0,
+      "f1_score": 7058.823529411764,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 87.5,
+      "recall": 70.0,
+      "f1_score": 7777.777777777777,
+      "true_positive": 7,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 75.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 5,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 65.0
+  },
+  "classifications": [
+    {
+      "author": "ProgressiveThinker12",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for Medicare-for-all, a policy strongly associated with progressive/left-wing platforms that prioritize universal healthcare. Their focus on transitioning from privatized insurance to a government-funded system and emphasizing affordability/accessibility aligns with left-leaning values of reducing inequality and expanding public services. While they express caution about practical implementation, the core goals and framing of the issue are consistent with left-oriented political discourse.\"\n}\n```",
+      "explanation": "The author advocates for Medicare-for-all, a policy strongly associated with progressive/left-wing platforms that prioritize universal healthcare. Their focus on transitioning from privatized insurance to a government-funded system and emphasizing affordability/accessibility aligns with left-leaning values of reducing inequality and expanding public services. While they express caution about practical implementation, the core goals and framing of the issue are consistent with left-oriented political discourse."
+    },
+    {
+      "author": "GreenHealthSeeker2025",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on Medicare-for-all and universal healthcare aligns with left-leaning priorities, which typically advocate for expanded government involvement in healthcare. However, the post expresses nuanced skepticism about balancing privatization with universal systems, reflecting a moderate or pragmatic left perspective rather than outright opposition to government solutions. The Right generally opposes Medicare-for-all and emphasizes privatization, whereas the author's openness to universal healthcare (despite concerns about implementation) situates them within left-leaning discourse, even with reservations about feasibility.\"\n}\n```",
+      "explanation": "The author's focus on Medicare-for-all and universal healthcare aligns with left-leaning priorities, which typically advocate for expanded government involvement in healthcare. However, the post expresses nuanced skepticism about balancing privatization with universal systems, reflecting a moderate or pragmatic left perspective rather than outright opposition to government solutions. The Right generally opposes Medicare-for-all and emphasizes privatization, whereas the author's openness to universal healthcare (despite concerns about implementation) situates them within left-leaning discourse, even with reservations about feasibility."
+    },
+    {
+      "author": "HealthcareReformer2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses openness to universal healthcare and questions the necessity of private insurance companies, both of which are positions commonly associated with left-leaning political ideologies. While they express uncertainty about Medicare-for-all specifically, their focus on exploring alternatives to privatized healthcare systems and prioritizing affordable access aligns with progressive or left-wing priorities. The critique of insurance companies' role in healthcare reflects skepticism toward market-driven solutions, a stance more typical of the left than the right in U.S. political discourse.\"\n}\n```",
+      "explanation": "The author expresses openness to universal healthcare and questions the necessity of private insurance companies, both of which are positions commonly associated with left-leaning political ideologies. While they express uncertainty about Medicare-for-all specifically, their focus on exploring alternatives to privatized healthcare systems and prioritizing affordable access aligns with progressive or left-wing priorities. The critique of insurance companies' role in healthcare reflects skepticism toward market-driven solutions, a stance more typical of the left than the right in U.S. political discourse."
+    },
+    {
+      "author": "Greenawald_Partner",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism about universal healthcare (a left-leaning policy) by questioning its effectiveness and raising potential benefits of privatized insurance (a right-leaning stance). However, the author also acknowledges the complexity of the issue and suggests the need to consider multiple viewpoints, avoiding a clear endorsement of either ideological position. The ambivalence toward both sides and the open-ended call for a 'solution yet to be discovered' reflects a neutral or undetermined political orientation.\"\n}\n```",
+      "explanation": "The post expresses skepticism about universal healthcare (a left-leaning policy) by questioning its effectiveness and raising potential benefits of privatized insurance (a right-leaning stance). However, the author also acknowledges the complexity of the issue and suggests the need to consider multiple viewpoints, avoiding a clear endorsement of either ideological position. The ambivalence toward both sides and the open-ended call for a 'solution yet to be discovered' reflects a neutral or undetermined political orientation."
+    },
+    {
+      "author": "HealthcareReformer99",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's consideration of Medicare-for-all and universal healthcare as potential solutions aligns with left-leaning political ideologies, which typically advocate for expanded government involvement in healthcare to ensure universal access. While the author expresses uncertainty about feasibility and mentions balancing public and private sector roles\u2014a nuance that might suggest pragmatism or centrist leanings\u2014the core focus on universal healthcare as an improvement over the current system is a hallmark of progressive or left-wing policy priorities. The Right generally opposes government-run healthcare in favor of market-driven approaches, making this stance more indicative of a left orientation despite the expressed reservations.\"\n}\n```",
+      "explanation": "The author's consideration of Medicare-for-all and universal healthcare as potential solutions aligns with left-leaning political ideologies, which typically advocate for expanded government involvement in healthcare to ensure universal access. While the author expresses uncertainty about feasibility and mentions balancing public and private sector roles\u2014a nuance that might suggest pragmatism or centrist leanings\u2014the core focus on universal healthcare as an improvement over the current system is a hallmark of progressive or left-wing policy priorities. The Right generally opposes government-run healthcare in favor of market-driven approaches, making this stance more indicative of a left orientation despite the expressed reservations."
+    },
+    {
+      "author": "HealthcareReformDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges the potential benefit of universal healthcare (access for all), which is a left-leaning priority. However, their explicit concern about increased government bureaucracy aligns with common right-wing critiques of expanding government programs. The emphasis on skepticism toward government intervention in healthcare, rather than advocating for systemic change or addressing other left-aligned concerns (e.g., equity, corporate influence), suggests a right-leaning perspective. While the post is not overtly partisan, the specific focus on bureaucratic inefficiency as a drawback is a hallmark of conservative arguments against universal healthcare systems.\"\n}\n```",
+      "explanation": "The author acknowledges the potential benefit of universal healthcare (access for all), which is a left-leaning priority. However, their explicit concern about increased government bureaucracy aligns with common right-wing critiques of expanding government programs. The emphasis on skepticism toward government intervention in healthcare, rather than advocating for systemic change or addressing other left-aligned concerns (e.g., equity, corporate influence), suggests a right-leaning perspective. While the post is not overtly partisan, the specific focus on bureaucratic inefficiency as a drawback is a hallmark of conservative arguments against universal healthcare systems."
+    },
+    {
+      "author": "HealthcareReformer2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and considers arguments from both sides of the political spectrum. They acknowledge left-leaning priorities like universal healthcare access and skepticism toward privatization's impact on affordability, but also voice right-leaning concerns about potential inefficiencies (e.g., wait times, quality) in government-run systems. The post does not definitively align with either ideological framework, instead reflecting a balanced, questioning stance that weighs competing perspectives without clear endorsement of left or right policy solutions.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and considers arguments from both sides of the political spectrum. They acknowledge left-leaning priorities like universal healthcare access and skepticism toward privatization's impact on affordability, but also voice right-leaning concerns about potential inefficiencies (e.g., wait times, quality) in government-run systems. The post does not definitively align with either ideological framework, instead reflecting a balanced, questioning stance that weighs competing perspectives without clear endorsement of left or right policy solutions."
+    },
+    {
+      "author": "HealthcareReformer2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's consideration of Medicare-for-all and universal healthcare as potential solutions aligns with left-leaning political priorities, which often advocate for government-led healthcare systems. While the post acknowledges complexity and 'valid arguments on both sides,' the framing of privatization as a counterpoint (a position typically associated with right-wing or libertarian ideologies) and the username 'HealthcareReformer2024' (suggesting systemic change) further indicate a left-leaning perspective. However, the uncertainty expressed does not negate the left-oriented focus on universal healthcare as a primary topic of debate.\"\n}\n```",
+      "explanation": "The author's consideration of Medicare-for-all and universal healthcare as potential solutions aligns with left-leaning political priorities, which often advocate for government-led healthcare systems. While the post acknowledges complexity and 'valid arguments on both sides,' the framing of privatization as a counterpoint (a position typically associated with right-wing or libertarian ideologies) and the username 'HealthcareReformer2024' (suggesting systemic change) further indicate a left-leaning perspective. However, the uncertainty expressed does not negate the left-oriented focus on universal healthcare as a primary topic of debate."
+    },
+    {
+      "author": "GreenHealthPonderer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports universal healthcare and Medicare-for-all, which are core policies associated with left-leaning ideologies. While they express openness to balancing these proposals with private insurance reform and seek nuanced solutions, their foundational endorsement of government-led healthcare expansion aligns more with progressive or moderate left positions rather than right-wing views. The Right typically opposes such systemic public healthcare initiatives in favor of market-driven approaches. The author's consideration of a middle ground does not negate their left orientation but reflects a pragmatic or reformist perspective within the broader left spectrum.\"\n}\n```",
+      "explanation": "The author supports universal healthcare and Medicare-for-all, which are core policies associated with left-leaning ideologies. While they express openness to balancing these proposals with private insurance reform and seek nuanced solutions, their foundational endorsement of government-led healthcare expansion aligns more with progressive or moderate left positions rather than right-wing views. The Right typically opposes such systemic public healthcare initiatives in favor of market-driven approaches. The author's consideration of a middle ground does not negate their left orientation but reflects a pragmatic or reformist perspective within the broader left spectrum."
+    },
+    {
+      "author": "HealthcareReformer2024",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses openness to universal healthcare and Medicare-for-all, which are core left-leaning policy proposals. However, their uncertainty about eliminating private insurance entirely reflects a nuanced or moderate stance within left-wing discourse. While progressive left proposals often advocate for single-payer systems that replace private insurance, the author\u2019s hesitation does not negate their alignment with left priorities like expanding public healthcare access. The right typically opposes such expansions outright, favoring privatization without equivocation. Thus, the author\u2019s focus on universal healthcare as a goal, even with questions about implementation, places them on the left spectrum.\"\n}",
+      "explanation": "The author expresses openness to universal healthcare and Medicare-for-all, which are core left-leaning policy proposals. However, their uncertainty about eliminating private insurance entirely reflects a nuanced or moderate stance within left-wing discourse. While progressive left proposals often advocate for single-payer systems that replace private insurance, the author\u2019s hesitation does not negate their alignment with left priorities like expanding public healthcare access. The right typically opposes such expansions outright, favoring privatization without equivocation. Thus, the author\u2019s focus on universal healthcare as a goal, even with questions about implementation, places them on the left spectrum."
+    },
+    {
+      "author": "FreeMarketHealthcareFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward universal healthcare and Medicare-for-all, emphasizing concerns about government control\u2014a common right-leaning critique of public healthcare systems. They propose privatization and reduced regulation as alternatives, aligning with right-wing economic principles that favor free-market solutions. While acknowledging the complexity of ensuring universal access, their focus on market-driven approaches over government intervention strongly suggests a right-leaning orientation. The hesitation and recognition of multiple perspectives do not outweigh the clear preference for limited government involvement in healthcare.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward universal healthcare and Medicare-for-all, emphasizing concerns about government control\u2014a common right-leaning critique of public healthcare systems. They propose privatization and reduced regulation as alternatives, aligning with right-wing economic principles that favor free-market solutions. While acknowledging the complexity of ensuring universal access, their focus on market-driven approaches over government intervention strongly suggests a right-leaning orientation. The hesitation and recognition of multiple perspectives do not outweigh the clear preference for limited government involvement in healthcare."
+    },
+    {
+      "author": "HealthCarePonderer2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses both support for Medicare-for-all (a policy often associated with the LEFT due to its emphasis on government-provided healthcare and criticism of private insurance corruption) and skepticism about government overreach and efficiency (common concerns of the RIGHT). The author does not definitively endorse either perspective but instead weighs potential benefits and drawbacks, making their political orientation ambiguous in this context.\"\n}\n```",
+      "explanation": "The post expresses both support for Medicare-for-all (a policy often associated with the LEFT due to its emphasis on government-provided healthcare and criticism of private insurance corruption) and skepticism about government overreach and efficiency (common concerns of the RIGHT). The author does not definitively endorse either perspective but instead weighs potential benefits and drawbacks, making their political orientation ambiguous in this context."
+    },
+    {
+      "author": "ConservativeHealthcareThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward universal healthcare and Medicare-for-all, citing concerns about limited choices and increased taxes\u2014common conservative critiques of government-run healthcare. Their focus on improving privatized insurance solutions aligns with right-leaning preferences for market-based approaches rather than public systems. While acknowledging the issue's complexity, the emphasis on privatization and the username 'ConservativeHealthcareThinker' strongly suggest a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward universal healthcare and Medicare-for-all, citing concerns about limited choices and increased taxes\u2014common conservative critiques of government-run healthcare. Their focus on improving privatized insurance solutions aligns with right-leaning preferences for market-based approaches rather than public systems. While acknowledging the issue's complexity, the emphasis on privatization and the username 'ConservativeHealthcareThinker' strongly suggest a right-leaning political orientation."
+    },
+    {
+      "author": "ConservativePolicymaker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward universal healthcare and Medicare-for-all, citing concerns about increased wait times in Canada and Europe\u2014a common critique from right-leaning perspectives. They also question the privatization of insurance, which is a topic often debated by conservatives advocating for market-based solutions. While the author claims uncertainty and acknowledges 'both sides have valid points,' their framing of the issue aligns more closely with right-leaning arguments (e.g., emphasizing potential downsides of government-run healthcare). The username 'ConservativePolicymaker' further supports this classification, though the analysis primarily relies on the content's alignment with typical conservative critiques of progressive healthcare policies.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward universal healthcare and Medicare-for-all, citing concerns about increased wait times in Canada and Europe\u2014a common critique from right-leaning perspectives. They also question the privatization of insurance, which is a topic often debated by conservatives advocating for market-based solutions. While the author claims uncertainty and acknowledges 'both sides have valid points,' their framing of the issue aligns more closely with right-leaning arguments (e.g., emphasizing potential downsides of government-run healthcare). The username 'ConservativePolicymaker' further supports this classification, though the analysis primarily relies on the content's alignment with typical conservative critiques of progressive healthcare policies."
+    },
+    {
+      "author": "HealthcareDebater2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about both universal healthcare/Medicare-for-all (typically left-leaning positions) and privatization (a right-leaning position), acknowledging complexities and refusing to endorse either approach definitively. Their neutral framing, open questioning, and lack of ideological alignment with either progressive or conservative healthcare policy frameworks make a clear classification impossible based on this text alone.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about both universal healthcare/Medicare-for-all (typically left-leaning positions) and privatization (a right-leaning position), acknowledging complexities and refusing to endorse either approach definitively. Their neutral framing, open questioning, and lack of ideological alignment with either progressive or conservative healthcare policy frameworks make a clear classification impossible based on this text alone."
+    },
+    {
+      "author": "FreeMarketHealthcare",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes concerns about reduced individual freedoms and the role of privatization in healthcare, which aligns with right-leaning priorities favoring free-market solutions and limited government intervention. While they acknowledge universal healthcare ('Medicare for all'), their skepticism about its sustainability, focus on insurance company autonomy, and username ('FreeMarketHealthcare') strongly suggest a right-leaning perspective. The uncertainty expressed does not negate the underlying ideological leanings toward market-driven policies and individual choice over state-controlled systems.\"\n}\n```",
+      "explanation": "The author's post emphasizes concerns about reduced individual freedoms and the role of privatization in healthcare, which aligns with right-leaning priorities favoring free-market solutions and limited government intervention. While they acknowledge universal healthcare ('Medicare for all'), their skepticism about its sustainability, focus on insurance company autonomy, and username ('FreeMarketHealthcare') strongly suggest a right-leaning perspective. The uncertainty expressed does not negate the underlying ideological leanings toward market-driven policies and individual choice over state-controlled systems."
+    },
+    {
+      "author": "ConcernedCitizen420",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses uncertainty about Medicare-for-all but engages with its potential benefits in addressing privatization's fairness issues, a common left-leaning critique of private healthcare systems. While acknowledging complexity, their focus on balancing privatization with universal healthcare aligns with progressive values seeking equitable solutions. The hesitation suggests a cautious or moderate left perspective rather than outright opposition, which is more typical of right-wing positions.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about Medicare-for-all but engages with its potential benefits in addressing privatization's fairness issues, a common left-leaning critique of private healthcare systems. While acknowledging complexity, their focus on balancing privatization with universal healthcare aligns with progressive values seeking equitable solutions. The hesitation suggests a cautious or moderate left perspective rather than outright opposition, which is more typical of right-wing positions."
+    },
+    {
+      "author": "ConservativeHealthAdvocate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's skepticism toward universal healthcare\u2014citing concerns about limited choices and increased taxes\u2014aligns with traditional conservative arguments that prioritize free-market solutions and limited government intervention. Additionally, the username 'ConservativeHealthAdvocate' explicitly signals a right-leaning identity. While the author expresses openness to improving the current system, their emphasis on preserving private insurance and avoiding a complete overhaul reflects a preference for incremental reform rather than progressive structural change, which is consistent with right-wing policy priorities.\"\n}\n```",
+      "explanation": "The author's skepticism toward universal healthcare\u2014citing concerns about limited choices and increased taxes\u2014aligns with traditional conservative arguments that prioritize free-market solutions and limited government intervention. Additionally, the username 'ConservativeHealthAdvocate' explicitly signals a right-leaning identity. While the author expresses openness to improving the current system, their emphasis on preserving private insurance and avoiding a complete overhaul reflects a preference for incremental reform rather than progressive structural change, which is consistent with right-wing policy priorities."
+    },
+    {
+      "author": "HealthcareReformer2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about both universal healthcare (a left-leaning position) and privatization (a right-leaning position). While they acknowledge potential benefits of privatization (innovation, competition), they also express skepticism about its consequences (costs, accessibility). This balanced consideration of both approaches, without clear endorsement of either, suggests a lack of definitive alignment with left or right ideologies. The focus on complexities and trade-offs indicates a centrist or undecided perspective rather than a firm partisan stance.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about both universal healthcare (a left-leaning position) and privatization (a right-leaning position). While they acknowledge potential benefits of privatization (innovation, competition), they also express skepticism about its consequences (costs, accessibility). This balanced consideration of both approaches, without clear endorsement of either, suggests a lack of definitive alignment with left or right ideologies. The focus on complexities and trade-offs indicates a centrist or undecided perspective rather than a firm partisan stance."
+    },
+    {
+      "author": "ConstitutionalHealthSeeker1787",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the viability of universal healthcare and Medicare-for-all, emphasizing concerns about funding\u2014a common fiscal conservative argument. They also highlight potential benefits of privatized insurance and note satisfaction with the current system, aligning with right-leaning preferences for market-driven solutions over government expansion. While the tone is uncertain, the framing of skepticism toward government-funded healthcare and praise for privatization reflects typical right-leaning discourse on healthcare policy.\"\n}\n```",
+      "explanation": "The author questions the viability of universal healthcare and Medicare-for-all, emphasizing concerns about funding\u2014a common fiscal conservative argument. They also highlight potential benefits of privatized insurance and note satisfaction with the current system, aligning with right-leaning preferences for market-driven solutions over government expansion. While the tone is uncertain, the framing of skepticism toward government-funded healthcare and praise for privatization reflects typical right-leaning discourse on healthcare policy."
+    }
+  ],
+  "file_path": "Mistral_balancedData/Healthcare_Insurance/balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_mistral-small-24b-instruct-2501.json",
+  "output_filename": "balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_mistral-small-24b-instruct-2501_deepseek_deepseek-r1_analysis.json"
+}

@@ -1,0 +1,160 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 80.0,
+      "recall": 40.0,
+      "f1_score": 5333.333333333334,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "ChoiceComplicated",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and difficulty in determining the best approach to abortion access for teens, without providing any clear stance or leaning towards a particular political ideology. Therefore, it is not possible to classify the author's political orientation based on this post.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and difficulty in determining the best approach to abortion access for teens, without providing any clear stance or leaning towards a particular political ideology. Therefore, it is not possible to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "ProChoiceDoubts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of the term 'bodily autonomy' and their support for resources for pregnant people who might feel they have no other option suggests a pro-choice stance, which is typically associated with left-leaning political views. The mention of 'ProChoice' in the username also supports this classification.\"\n}\n```",
+      "explanation": "The author's use of the term 'bodily autonomy' and their support for resources for pregnant people who might feel they have no other option suggests a pro-choice stance, which is typically associated with left-leaning political views. The mention of 'ProChoice' in the username also supports this classification."
+    },
+    {
+      "author": "EcoEthicalEnquiries",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'bodily autonomy' and 'comprehensive reproductive healthcare' along with 'social safety nets' suggests a progressive stance, which is typically associated with left-leaning political orientations. These terms are often used in discussions advocating for greater government involvement in social welfare and healthcare, which are common themes in left-wing politics. The mention of ethical considerations around abortion access further supports a pro-choice stance, which is also generally aligned with left-wing views.\"\n}\n```",
+      "explanation": "The author's emphasis on 'bodily autonomy' and 'comprehensive reproductive healthcare' along with 'social safety nets' suggests a progressive stance, which is typically associated with left-leaning political orientations. These terms are often used in discussions advocating for greater government involvement in social welfare and healthcare, which are common themes in left-wing politics. The mention of ethical considerations around abortion access further supports a pro-choice stance, which is also generally aligned with left-wing views."
+    },
+    {
+      "author": "ProChoiceThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username 'ProChoiceThinker' suggests a pro-choice stance, which is typically associated with left-leaning political views. Additionally, the post content discusses the possibility of finding common ground on abortion restrictions, indicating a willingness to consider some regulations, but it does not explicitly endorse strict anti-abortion policies, which are more commonly associated with right-leaning views.\"\n}\n```",
+      "explanation": "The author's username 'ProChoiceThinker' suggests a pro-choice stance, which is typically associated with left-leaning political views. Additionally, the post content discusses the possibility of finding common ground on abortion restrictions, indicating a willingness to consider some regulations, but it does not explicitly endorse strict anti-abortion policies, which are more commonly associated with right-leaning views."
+    },
+    {
+      "author": "ProChoiceThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username, 'ProChoiceThinker,' suggests a pro-choice stance, which is typically associated with left-leaning political views. Additionally, the post content indicates a willingness to consider regulations around late-term abortions, which is a nuanced position that still leans towards supporting abortion rights, a stance more commonly held by those on the left.\"\n}\n```",
+      "explanation": "The author's username, 'ProChoiceThinker,' suggests a pro-choice stance, which is typically associated with left-leaning political views. Additionally, the post content indicates a willingness to consider regulations around late-term abortions, which is a nuanced position that still leans towards supporting abortion rights, a stance more commonly held by those on the left."
+    },
+    {
+      "author": "ProLifeThinking",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'restricting abortion access' suggests a conservative or right-leaning stance, as this is a position often associated with the political right. The uncertainty about the specifics and impact on individual freedom indicates a willingness to consider limitations on abortion, which is a common view among conservatives. However, the lack of strong conviction or detailed argumentation suggests a more moderate position within the right-leaning spectrum.\"\n}\n```",
+      "explanation": "The author's mention of 'restricting abortion access' suggests a conservative or right-leaning stance, as this is a position often associated with the political right. The uncertainty about the specifics and impact on individual freedom indicates a willingness to consider limitations on abortion, which is a common view among conservatives. However, the lack of strong conviction or detailed argumentation suggests a more moderate position within the right-leaning spectrum."
+    },
+    {
+      "author": "ReproductiveRightsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on reproductive rights and abortion access strongly suggests a left-leaning political orientation. The left is generally more supportive of abortion rights and reproductive freedoms, which are often advocated for by progressive or liberal political groups. The mention of 'abortion access' and the concern about federal legislation indicates a stance that aligns with left-wing policies.\"\n}\n```",
+      "explanation": "The author's focus on reproductive rights and abortion access strongly suggests a left-leaning political orientation. The left is generally more supportive of abortion rights and reproductive freedoms, which are often advocated for by progressive or liberal political groups. The mention of 'abortion access' and the concern about federal legislation indicates a stance that aligns with left-wing policies."
+    },
+    {
+      "author": "ProChoiceSkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, ProChoiceSkeptic, expresses a nuanced and balanced view on the topic of abortion access. They do not take a clear stance on either side of the political spectrum but rather suggest that there might be a middle ground that is being overlooked. This indicates a willingness to consider multiple perspectives and a lack of strong alignment with either the left or the right, hence the classification as UNKNOWN.\"\n}\n```",
+      "explanation": "The author, ProChoiceSkeptic, expresses a nuanced and balanced view on the topic of abortion access. They do not take a clear stance on either side of the political spectrum but rather suggest that there might be a middle ground that is being overlooked. This indicates a willingness to consider multiple perspectives and a lack of strong alignment with either the left or the right, hence the classification as UNKNOWN."
+    },
+    {
+      "author": "EcoRightsThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the ecological impact of population growth and the potential for a middle ground on abortion access, but does not provide clear indicators of a specific political orientation. The mention of balancing individual rights with planetary health could align with various political views, making it difficult to classify the author as either left or right. The author's uncertainty about the practical and ethical implications further complicates a definitive classification.\"\n}\n```",
+      "explanation": "The author's post discusses the ecological impact of population growth and the potential for a middle ground on abortion access, but does not provide clear indicators of a specific political orientation. The mention of balancing individual rights with planetary health could align with various political views, making it difficult to classify the author as either left or right. The author's uncertainty about the practical and ethical implications further complicates a definitive classification."
+    },
+    {
+      "author": "EcoReproJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'bodily autonomy' and exploring 'preventative' approaches to reduce the need for abortions suggests a progressive stance, which is typically associated with the political left. The focus on supporting individuals and reducing the circumstances leading to abortion needs aligns with left-leaning policies that prioritize social welfare and individual rights.\"\n}\n```",
+      "explanation": "The author's emphasis on 'bodily autonomy' and exploring 'preventative' approaches to reduce the need for abortions suggests a progressive stance, which is typically associated with the political left. The focus on supporting individuals and reducing the circumstances leading to abortion needs aligns with left-leaning policies that prioritize social welfare and individual rights."
+    },
+    {
+      "author": "LifeAndChoiceConsiderations",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about abortion restrictions and suggests a more supportive approach for pregnant women, but does not explicitly align with any particular political ideology. The post focuses on practical solutions rather than ideological stances, making it difficult to classify as either left or right.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about abortion restrictions and suggests a more supportive approach for pregnant women, but does not explicitly align with any particular political ideology. The post focuses on practical solutions rather than ideological stances, making it difficult to classify as either left or right."
+    },
+    {
+      "author": "ProLifeThinking",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'ProLifeThinking', and the content of the post, which discusses abortion restrictions and exceptions, suggest a pro-life stance. This is typically associated with conservative or right-wing political views. The author's questioning of the line for exceptions indicates a nuanced but generally restrictive view on abortion, which aligns with right-wing political orientation.\"\n}\n```",
+      "explanation": "The author's username, 'ProLifeThinking', and the content of the post, which discusses abortion restrictions and exceptions, suggest a pro-life stance. This is typically associated with conservative or right-wing political views. The author's questioning of the line for exceptions indicates a nuanced but generally restrictive view on abortion, which aligns with right-wing political orientation."
+    },
+    {
+      "author": "ReasonableLibertarian",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on a complex issue, questioning the balance between individual rights and potential rights of a fetus, which could align with various political stances. The use of the term 'libertarian' in their username suggests a lean towards individual liberty, but the post itself is more of a philosophical inquiry than a political statement.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on a complex issue, questioning the balance between individual rights and potential rights of a fetus, which could align with various political stances. The use of the term 'libertarian' in their username suggests a lean towards individual liberty, but the post itself is more of a philosophical inquiry than a political statement."
+    },
+    {
+      "author": "ProLifeThinking",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'some restrictions on abortion later in pregnancy' and the concern for 'potential life' suggests a pro-life stance, which is typically associated with conservative or right-wing political views. The use of the phrase 'who really gets to decide that anyway' also indicates a skepticism towards individual autonomy in decision-making, which is often a characteristic of right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's mention of 'some restrictions on abortion later in pregnancy' and the concern for 'potential life' suggests a pro-life stance, which is typically associated with conservative or right-wing political views. The use of the phrase 'who really gets to decide that anyway' also indicates a skepticism towards individual autonomy in decision-making, which is often a characteristic of right-leaning political orientations."
+    },
+    {
+      "author": "ProLifeThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a need for more research on the topic of fetal personhood in the abortion debate. They do not explicitly endorse any particular political stance or policy, making it difficult to classify their political orientation as either LEFT or RIGHT. The use of the phrase 'more research needs to be done' suggests a cautious and open-minded approach rather than a strong political leaning.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a need for more research on the topic of fetal personhood in the abortion debate. They do not explicitly endorse any particular political stance or policy, making it difficult to classify their political orientation as either LEFT or RIGHT. The use of the phrase 'more research needs to be done' suggests a cautious and open-minded approach rather than a strong political leaning."
+    },
+    {
+      "author": "ProLifeQuestions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a desire for a 'middle ground' on the issue of abortion, which could be interpreted as a moderate stance. However, without more context or additional statements, it is difficult to determine whether the author leans left, right, or is truly centrist. The use of the term 'sanctity of life' could suggest a conservative leaning, but the acknowledgment of 'a woman's autonomy' could suggest a more liberal stance. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a desire for a 'middle ground' on the issue of abortion, which could be interpreted as a moderate stance. However, without more context or additional statements, it is difficult to determine whether the author leans left, right, or is truly centrist. The use of the term 'sanctity of life' could suggest a conservative leaning, but the acknowledgment of 'a woman's autonomy' could suggest a more liberal stance. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "User5590",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on abortion, advocating for a complete ban without exceptions for rape or incest, aligns with conservative or right-wing political views. The emphasis on protecting the unborn and the belief that adoption is a viable alternative are common positions held by those on the right.\"\n}\n```",
+      "explanation": "The author's stance on abortion, advocating for a complete ban without exceptions for rape or incest, aligns with conservative or right-wing political views. The emphasis on protecting the unborn and the belief that adoption is a viable alternative are common positions held by those on the right."
+    },
+    {
+      "author": "ProLifeQuestioner",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a conflicted stance on abortion, acknowledging the need for potential regulations while also recognizing the potential for individual hardship. This ambiguity makes it difficult to classify the author's political orientation as clearly left or right. The post does not provide enough information to definitively place the author on either side of the political spectrum.\"\n}\n```",
+      "explanation": "The author expresses a conflicted stance on abortion, acknowledging the need for potential regulations while also recognizing the potential for individual hardship. This ambiguity makes it difficult to classify the author's political orientation as clearly left or right. The post does not provide enough information to definitively place the author on either side of the political spectrum."
+    },
+    {
+      "author": "ProLifeThinking",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'ProLife' in their username and their consideration of 'protecting unborn life' suggests a pro-life stance, which is typically associated with conservative or right-wing political views. Additionally, their willingness to consider 'more restrictions with exceptions' on abortion policy aligns with a more conservative approach to the issue. However, their acknowledgment of 'bodily autonomy' shows some level of consideration for liberal viewpoints, but the overall tone and stance lean towards the right.\"\n}\n```",
+      "explanation": "The author's mention of 'ProLife' in their username and their consideration of 'protecting unborn life' suggests a pro-life stance, which is typically associated with conservative or right-wing political views. Additionally, their willingness to consider 'more restrictions with exceptions' on abortion policy aligns with a more conservative approach to the issue. However, their acknowledgment of 'bodily autonomy' shows some level of consideration for liberal viewpoints, but the overall tone and stance lean towards the right."
+    },
+    {
+      "author": "PregnancyResourceAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about the best path forward on abortion and acknowledges valid points from both sides. They suggest a common ground approach by emphasizing resources for expectant mothers, which does not clearly align with either left or right political orientations. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about the best path forward on abortion and acknowledges valid points from both sides. They suggest a common ground approach by emphasizing resources for expectant mothers, which does not clearly align with either left or right political orientations. Therefore, the political orientation is classified as UNKNOWN."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 75.0,
+      "recall": 60.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 6,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "true_negative": 16,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "PureHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses the term 'woke' pejoratively and attributes the NBA's perceived decline to the 'liberal agenda,' both of which are common rhetorical markers in conservative critiques. The phrase 'liberal agenda' explicitly frames progressive social policies (often associated with left-leaning politics) as detrimental to the sport. This aligns with right-leaning narratives that criticize institutions like the NBA for promoting social justice initiatives, such as racial equality or LGBTQ+ advocacy, which conservatives frequently dismiss as 'woke' overreach. The negative framing of these values strongly suggests a right-wing perspective.\"\n}\n```",
+      "explanation": "The author uses the term 'woke' pejoratively and attributes the NBA's perceived decline to the 'liberal agenda,' both of which are common rhetorical markers in conservative critiques. The phrase 'liberal agenda' explicitly frames progressive social policies (often associated with left-leaning politics) as detrimental to the sport. This aligns with right-leaning narratives that criticize institutions like the NBA for promoting social justice initiatives, such as racial equality or LGBTQ+ advocacy, which conservatives frequently dismiss as 'woke' overreach. The negative framing of these values strongly suggests a right-wing perspective."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes support for NBA players using their platforms to advocate for social justice, a stance strongly aligned with progressive/left-leaning values focused on systemic inequality and activism. The author frames critics as 'complicit in perpetuating inequality,' reflecting a left-wing perspective that prioritizes addressing structural injustices and views public advocacy as a moral imperative. The language aligns with social justice movements (e.g., racial equity, systemic critique) commonly championed by the political left.\"\n}\n```",
+      "explanation": "The post emphasizes support for NBA players using their platforms to advocate for social justice, a stance strongly aligned with progressive/left-leaning values focused on systemic inequality and activism. The author frames critics as 'complicit in perpetuating inequality,' reflecting a left-wing perspective that prioritizes addressing structural injustices and views public advocacy as a moral imperative. The language aligns with social justice movements (e.g., racial equity, systemic critique) commonly championed by the political left."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post strongly supports NBA players using their platforms for social justice advocacy, a stance commonly aligned with left-leaning ideologies that emphasize systemic change and addressing inequality. The author's condemnation of critics as 'complicit in perpetuating inequality' reflects a progressive perspective that views opposition to such activism as reinforcing systemic oppression. Terms like 'social justice' and critiques of systemic inequality are central to left-wing discourse, particularly in contexts like racial justice and police reform, which the NBA has prominently addressed in recent years.\"\n}\n```",
+      "explanation": "The post strongly supports NBA players using their platforms for social justice advocacy, a stance commonly aligned with left-leaning ideologies that emphasize systemic change and addressing inequality. The author's condemnation of critics as 'complicit in perpetuating inequality' reflects a progressive perspective that views opposition to such activism as reinforcing systemic oppression. Terms like 'social justice' and critiques of systemic inequality are central to left-wing discourse, particularly in contexts like racial justice and police reform, which the NBA has prominently addressed in recent years."
+    },
+    {
+      "author": "HoopsForEquality",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post strongly supports NBA players using their platforms for social justice advocacy, a hallmark of left-leaning political values that prioritize addressing systemic inequalities. The use of terms like 'systemic oppression' aligns with progressive discourse focused on structural societal issues. Additionally, framing critics as 'complicit in maintaining systemic oppression' reflects a leftist perspective that views opposition to such activism as reinforcing unjust power dynamics. The emphasis on collective responsibility for social change, rather than individualistic or traditionalist arguments, further solidifies this classification.\"\n}\n```",
+      "explanation": "The post strongly supports NBA players using their platforms for social justice advocacy, a hallmark of left-leaning political values that prioritize addressing systemic inequalities. The use of terms like 'systemic oppression' aligns with progressive discourse focused on structural societal issues. Additionally, framing critics as 'complicit in maintaining systemic oppression' reflects a leftist perspective that views opposition to such activism as reinforcing unjust power dynamics. The emphasis on collective responsibility for social change, rather than individualistic or traditionalist arguments, further solidifies this classification."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes support for NBA players using their platforms to advocate for 'social justice' and 'equality,' which are central themes in progressive/left-leaning political discourse. The framing of athletes as essential voices in systemic change aligns with left-wing priorities such as racial equity, activism, and leveraging public influence for societal reform. The language reflects solidarity with movements like Black Lives Matter, which are predominantly championed by the political left. There is no indication of conservative or right-leaning values (e.g., emphasis on tradition, law-and-order rhetoric, or criticism of 'woke' activism), making LEFT the most fitting classification.\"\n}\n```",
+      "explanation": "The post emphasizes support for NBA players using their platforms to advocate for 'social justice' and 'equality,' which are central themes in progressive/left-leaning political discourse. The framing of athletes as essential voices in systemic change aligns with left-wing priorities such as racial equity, activism, and leveraging public influence for societal reform. The language reflects solidarity with movements like Black Lives Matter, which are predominantly championed by the political left. There is no indication of conservative or right-leaning values (e.g., emphasis on tradition, law-and-order rhetoric, or criticism of 'woke' activism), making LEFT the most fitting classification."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes support for NBA players' social justice advocacy, a hallmark of progressive (left-leaning) priorities. Criticizing conservatives for opposing such activism aligns with left-wing critiques of right-wing resistance to systemic change. The call for institutional empowerment of activist voices reflects a left-aligned belief in leveraging platforms for societal reform. The language ('showing their true colors') underscores a clear ideological divide, positioning the author against conservative viewpoints.\"\n}\n```",
+      "explanation": "The post emphasizes support for NBA players' social justice advocacy, a hallmark of progressive (left-leaning) priorities. Criticizing conservatives for opposing such activism aligns with left-wing critiques of right-wing resistance to systemic change. The call for institutional empowerment of activist voices reflects a left-aligned belief in leveraging platforms for societal reform. The language ('showing their true colors') underscores a clear ideological divide, positioning the author against conservative viewpoints."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes social justice, racial equality, and economic equality\u2014key issues prioritized by left-leaning political ideologies. The criticism of NBA owners for insufficient support of these initiatives aligns with progressive calls for systemic change and corporate accountability. The demand for leadership to address structural inequalities further reflects a leftist perspective, which often advocates for active institutional engagement in combating systemic disparities.\"\n}\n```",
+      "explanation": "The post emphasizes social justice, racial equality, and economic equality\u2014key issues prioritized by left-leaning political ideologies. The criticism of NBA owners for insufficient support of these initiatives aligns with progressive calls for systemic change and corporate accountability. The demand for leadership to address structural inequalities further reflects a leftist perspective, which often advocates for active institutional engagement in combating systemic disparities."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes support for NBA players using their platforms to advocate for social justice, a stance strongly associated with progressive and left-leaning movements. The author explicitly criticizes conservatives ('something conservatives clearly fear'), framing them as opponents of social change and equality. Phrases like 'amplify the fight for equality' and 'demand real change from our elected officials' align with left-wing priorities such as systemic reform and grassroots activism. The adversarial tone toward conservatives further solidifies the left-leaning orientation.\"\n}\n```",
+      "explanation": "The post emphasizes support for NBA players using their platforms to advocate for social justice, a stance strongly associated with progressive and left-leaning movements. The author explicitly criticizes conservatives ('something conservatives clearly fear'), framing them as opponents of social change and equality. Phrases like 'amplify the fight for equality' and 'demand real change from our elected officials' align with left-wing priorities such as systemic reform and grassroots activism. The adversarial tone toward conservatives further solidifies the left-leaning orientation."
+    },
+    {
+      "author": "RealHoopsOnly",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post criticizes the NBA's engagement with social justice initiatives ('woke NBA,' 'virtue signaling jerseys'), a stance commonly associated with conservative critiques of progressive activism. The phrase 'men were men' evokes traditional gender norms, often emphasized in right-leaning discourse. The nostalgia for a time when 'colors' (implied to mean race or politics) were irrelevant on the court reflects a preference for avoiding discussions of systemic inequality, aligning with right-wing arguments against 'identity politics.' The dismissal of activism as 'virtue signaling' further reinforces a conservative viewpoint, as this term is frequently used to delegitimize progressive social causes.\"\n}\n```",
+      "explanation": "The post criticizes the NBA's engagement with social justice initiatives ('woke NBA,' 'virtue signaling jerseys'), a stance commonly associated with conservative critiques of progressive activism. The phrase 'men were men' evokes traditional gender norms, often emphasized in right-leaning discourse. The nostalgia for a time when 'colors' (implied to mean race or politics) were irrelevant on the court reflects a preference for avoiding discussions of systemic inequality, aligning with right-wing arguments against 'identity politics.' The dismissal of activism as 'virtue signaling' further reinforces a conservative viewpoint, as this term is frequently used to delegitimize progressive social causes."
+    },
+    {
+      "author": "GreenHoopsFan",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes environmental responsibility through institutional mandates (transitioning NBA arenas to renewable energy) and frames the issue as a 'moral imperative,' both of which align with left-leaning priorities. Left-wing politics often advocates for government or organizational intervention to address climate change, prioritizing collective action and ethical obligations over free-market solutions. The language reflects progressive values focused on systemic change and environmental justice.\"\n}\n```",
+      "explanation": "The post emphasizes environmental responsibility through institutional mandates (transitioning NBA arenas to renewable energy) and frames the issue as a 'moral imperative,' both of which align with left-leaning priorities. Left-wing politics often advocates for government or organizational intervention to address climate change, prioritizing collective action and ethical obligations over free-market solutions. The language reflects progressive values focused on systemic change and environmental justice."
+    },
+    {
+      "author": "User8826",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses solely on a preference for basketball's entertainment and skill aspects, emphasizing a desire to keep discussions centered on the game itself. It does not reference political issues, ideologies, or policies, nor does it engage with topics commonly associated with left- or right-leaning positions (e.g., social justice, athlete activism, or cultural debates). While a desire to 'keep politics out of sports' is sometimes linked to conservative critiques of activism in sports, the absence of explicit political commentary or context makes it speculative to assign a political orientation. The statement reflects a neutral, apolitical stance on sports rather than a clear ideological leaning.\"\n}\n```",
+      "explanation": "The post focuses solely on a preference for basketball's entertainment and skill aspects, emphasizing a desire to keep discussions centered on the game itself. It does not reference political issues, ideologies, or policies, nor does it engage with topics commonly associated with left- or right-leaning positions (e.g., social justice, athlete activism, or cultural debates). While a desire to 'keep politics out of sports' is sometimes linked to conservative critiques of activism in sports, the absence of explicit political commentary or context makes it speculative to assign a political orientation. The statement reflects a neutral, apolitical stance on sports rather than a clear ideological leaning."
+    },
+    {
+      "author": "TrueHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of terms like 'woke ideology' and 'leftist activism' as pejorative concepts, combined with the assertion that the NBA has abandoned 'true American values' in favor of progressive causes, aligns with common right-wing critiques of cultural institutions. The framing of patriotism and 'skill' as apolitical virtues contrasts with the perceived politicization of sports by progressive movements, a frequent talking point in conservative discourse. The dismissal of social justice efforts as 'pandering' further reflects a right-leaning perspective that views such activism as divisive or antithetical to traditional values.\"\n}\n```",
+      "explanation": "The author's use of terms like 'woke ideology' and 'leftist activism' as pejorative concepts, combined with the assertion that the NBA has abandoned 'true American values' in favor of progressive causes, aligns with common right-wing critiques of cultural institutions. The framing of patriotism and 'skill' as apolitical virtues contrasts with the perceived politicization of sports by progressive movements, a frequent talking point in conservative discourse. The dismissal of social justice efforts as 'pandering' further reflects a right-leaning perspective that views such activism as divisive or antithetical to traditional values."
+    },
+    {
+      "author": "DeplorableDunk",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'woke politics' aligns with conservative critiques of progressive social justice initiatives, particularly in contexts like sports. The demand to 'stick to sports' and avoid political messaging reflects a common right-leaning stance opposing perceived politicization of non-political spaces. The username 'DeplorableDunk' further signals affiliation with conservative identity, referencing the reclamation of Hillary Clinton's 'deplorable' remark by Trump supporters. The assertion that the NBA is 'alienating real fans' implies a dismissal of progressive audiences, reinforcing a right-wing perspective critical of social justice advocacy in cultural institutions.\"\n}\n```",
+      "explanation": "The author's use of the term 'woke politics' aligns with conservative critiques of progressive social justice initiatives, particularly in contexts like sports. The demand to 'stick to sports' and avoid political messaging reflects a common right-leaning stance opposing perceived politicization of non-political spaces. The username 'DeplorableDunk' further signals affiliation with conservative identity, referencing the reclamation of Hillary Clinton's 'deplorable' remark by Trump supporters. The assertion that the NBA is 'alienating real fans' implies a dismissal of progressive audiences, reinforcing a right-wing perspective critical of social justice advocacy in cultural institutions."
+    },
+    {
+      "author": "User2549",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on the NBA's business strategy to attract fans through entertainment value, emphasizing exciting teams and players. It does not reference social, economic, or cultural issues typically associated with left- or right-leaning ideologies (e.g., social justice, labor rights, traditional values, or political activism in sports). The statement is neutral and centered on audience engagement, lacking explicit political content or implicit cues to infer a partisan stance.\"\n}\n```",
+      "explanation": "The post focuses on the NBA's business strategy to attract fans through entertainment value, emphasizing exciting teams and players. It does not reference social, economic, or cultural issues typically associated with left- or right-leaning ideologies (e.g., social justice, labor rights, traditional values, or political activism in sports). The statement is neutral and centered on audience engagement, lacking explicit political content or implicit cues to infer a partisan stance."
+    },
+    {
+      "author": "AmericaFirstHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post uses terminology and themes commonly associated with right-leaning political discourse. The term 'woke' is frequently employed by conservatives to criticize progressive social justice movements. The phrase 'globalist agenda' aligns with right-wing narratives that oppose internationalism and perceived threats to national sovereignty. Criticism of athletes kneeling during the national anthem\u2014a protest against racial injustice\u2014as 'disrespecting the flag' is a recurring theme in conservative critiques. The emphasis on 'American values' and the call for a boycott further reinforce a right-leaning perspective focused on traditionalism and national symbolism.\"\n}\n```",
+      "explanation": "The post uses terminology and themes commonly associated with right-leaning political discourse. The term 'woke' is frequently employed by conservatives to criticize progressive social justice movements. The phrase 'globalist agenda' aligns with right-wing narratives that oppose internationalism and perceived threats to national sovereignty. Criticism of athletes kneeling during the national anthem\u2014a protest against racial injustice\u2014as 'disrespecting the flag' is a recurring theme in conservative critiques. The emphasis on 'American values' and the call for a boycott further reinforce a right-leaning perspective focused on traditionalism and national symbolism."
+    },
+    {
+      "author": "User6635",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post emphasizes prioritizing skill, competition, and maintaining focus on athletic performance without explicitly referencing political or social issues. While advocating for 'sticking to the court' could align with conservative-leaning critiques of political activism in sports, the absence of direct ideological language or context (e.g., mentions of protests, social justice, or policy) makes it ambiguous. The author's stance could reflect a general preference for sports as apolitical entertainment rather than a clear left- or right-leaning position.\"\n}\n```",
+      "explanation": "The post emphasizes prioritizing skill, competition, and maintaining focus on athletic performance without explicitly referencing political or social issues. While advocating for 'sticking to the court' could align with conservative-leaning critiques of political activism in sports, the absence of direct ideological language or context (e.g., mentions of protests, social justice, or policy) makes it ambiguous. The author's stance could reflect a general preference for sports as apolitical entertainment rather than a clear left- or right-leaning position."
+    },
+    {
+      "author": "PureHoopsPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses terms like 'woke,' 'virtue signaling,' and 'radical left,' which are frequently employed in right-leaning discourse to criticize progressive social or political stances. The accusation of the NBA 'pandering' to the left and the call for a boycott reflect opposition to perceived liberal ideologies influencing institutions. This aligns with common conservative critiques of 'cancel culture' or progressive activism in sports, indicating a right-wing perspective.\"\n}\n```",
+      "explanation": "The author uses terms like 'woke,' 'virtue signaling,' and 'radical left,' which are frequently employed in right-leaning discourse to criticize progressive social or political stances. The accusation of the NBA 'pandering' to the left and the call for a boycott reflect opposition to perceived liberal ideologies influencing institutions. This aligns with common conservative critiques of 'cancel culture' or progressive activism in sports, indicating a right-wing perspective."
+    },
+    {
+      "author": "AmericaFirstHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post criticizes the NBA as 'woke' and accuses it of promoting a 'globalist agenda,' terms commonly used in right-wing discourse to dismiss progressive social justice efforts and express opposition to internationalism. The reference to kneeling players (a protest against racial injustice) as 'destroying American values' and the demand to 'respect our flag' align with conservative rhetoric that prioritizes national symbols and traditional patriotism. The username 'AmericaFirstHoopsFan' further reinforces nationalist sentiments, echoing the 'America First' slogan associated with right-wing nationalism. The framing of dissent as unpatriotic and the rejection of activism in sports are consistent with right-leaning political perspectives.\"\n}\n```",
+      "explanation": "The post criticizes the NBA as 'woke' and accuses it of promoting a 'globalist agenda,' terms commonly used in right-wing discourse to dismiss progressive social justice efforts and express opposition to internationalism. The reference to kneeling players (a protest against racial injustice) as 'destroying American values' and the demand to 'respect our flag' align with conservative rhetoric that prioritizes national symbols and traditional patriotism. The username 'AmericaFirstHoopsFan' further reinforces nationalist sentiments, echoing the 'America First' slogan associated with right-wing nationalism. The framing of dissent as unpatriotic and the rejection of activism in sports are consistent with right-leaning political perspectives."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes free-market principles ('the market will decide') and criticizes 'woke virtue signaling,' a term frequently used in right-wing discourse to dismiss progressive social justice efforts. While acknowledging the freedom to protest, the framing of activism as performative ('virtue signaling') and the reliance on market forces to suppress such expression align with conservative critiques of social movements and libertarian economic ideologies.\"\n}\n```",
+      "explanation": "The post emphasizes free-market principles ('the market will decide') and criticizes 'woke virtue signaling,' a term frequently used in right-wing discourse to dismiss progressive social justice efforts. While acknowledging the freedom to protest, the framing of activism as performative ('virtue signaling') and the reliance on market forces to suppress such expression align with conservative critiques of social movements and libertarian economic ideologies."
+    },
+    {
+      "author": "User3055",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on the competitive nature and entertainment value of the NBA, emphasizing hard work and effort. There are no explicit references to political ideologies, policies, or social issues (e.g., race, economics, governance) that typically distinguish left- or right-leaning viewpoints. While the NBA as an organization has engaged in social justice initiatives, the content here is apolitical and neutral, making it impossible to infer a clear political orientation.\"\n}\n```",
+      "explanation": "The post focuses on the competitive nature and entertainment value of the NBA, emphasizing hard work and effort. There are no explicit references to political ideologies, policies, or social issues (e.g., race, economics, governance) that typically distinguish left- or right-leaning viewpoints. While the NBA as an organization has engaged in social justice initiatives, the content here is apolitical and neutral, making it impossible to infer a clear political orientation."
+    }
+  ],
+  "file_path": "Gemini_balancedData/NBA/balanced20Posts_high_confidence_NBA_gemini-2.0-flash-001.json",
+  "output_filename": "balanced20Posts_high_confidence_NBA_gemini-2.0-flash-001_deepseek_deepseek-r1_analysis.json"
+}
