@@ -14,8 +14,9 @@ This project analyzes the political stance detection capabilities of different L
 ### Core Scripts
 
 #### Data Generation and Analysis
-- **`openRouter.py`** - Analyzes political text data using various LLM models through the OpenRouter API
-- **`generateRouter.py`** - Processes classification results and calculates metrics
+- **`generateRouter.py`** - Generates synthetic political posts with specified political leanings using various LLM models
+- **`openRouter.py`** - Analyzes political text data using various LLM models through the OpenRouter API and processes classification results and calculates metrics
+
 
 #### Visualization Tools
 - **`visualize_political_data.py`** - Generates visualizations for a single model's performance
