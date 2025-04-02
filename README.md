@@ -15,7 +15,7 @@ This project analyzes the political stance detection capabilities of different L
 
 #### Data Generation and Analysis
 - **`openRouter.py`** - Analyzes political text data using various LLM models through the OpenRouter API
-- **`postResults.py`** - Processes classification results and calculates metrics
+- **`generateRouter.py`** - Processes classification results and calculates metrics
 
 #### Visualization Tools
 - **`visualize_political_data.py`** - Generates visualizations for a single model's performance
