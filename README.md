@@ -212,13 +212,17 @@ python visualize_matrix.py DeepseekData_Analysis GeminiData_Analysis MistralData
 - Qwen
 
 ## Political Topics Covered
-- Abortion Rights
-- Climate Change
-- Economic Policy
-- Gun Control
-- Healthcare Reform
-- Immigration
-- Voting Rights and Election Integrity
+- Gun Control and Second Amendment Rights: Balancing gun ownership rights with public safety
+- Abortion Rights: Debates on abortion access and reproductive freedom
+- Immigration Reform: Border security, undocumented immigrants, and pathway to citizenship
+- Climate Change Policies: Environmental regulations vs. economic growth
+- LGBTQ+ and Transgender Rights: Rights in education, healthcare, and public spaces
+- Healthcare and Insurance Reform: Universal healthcare, Medicare-for-all, and insurance privatization
+- Voting Rights and Election Integrity: Voter ID laws, mail-in voting, gerrymandering
+- Economic Inequality: Raising the minimum wage, wealth taxation, and addressing poverty
+- Death Penalty: Debates around capital punishment and wrongful convictions
+- Drug Legalization and Decriminalization: Marijuana legalization, drug sentencing reform
+- Russia-Ukraine War
 
 ## Requirements
 - Python 3.7+
