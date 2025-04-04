@@ -6,6 +6,18 @@ This repository contains code for experimenting with Large Language Models (LLMs
 
 This project investigates how incorporating user context (in the form of user summaries) affects the ability of various LLMs to classify the political orientation of social media posts. We compare performance metrics across multiple state-of-the-art models including Claude 3.7 Sonnet, Llama 3.1, GPT-4o Mini, Mistral, Qwen, and Grok.
 
+## Data Requirements
+
+> **IMPORTANT:** To reproduce these experiments, you will need access to the original dataset (referenced as `posts_201908161514` in the code). This dataset is not included in this repository due to size and privacy considerations. Please contact **Professor Tony Mullen** to obtain the necessary data files.
+
+The complete experiment workflow requires the following steps with their respective input/output files:
+
+1. Filter unknown stance posts with `filterUnknownPosts.py`
+2. Create user summaries with `createUserSummaries.py`
+3. Run baseline classification with `stanceClassificationCode(noContext).py`
+4. Run context-enhanced classification with `stanceClassificationCode(withContext).py`
+5. Visualize and compare results with `visualazation.py`
+
 ## Files and Their Functions
 
 - **createUserSummaries.py**: Generates political user summaries from user post histories, creating a condensed representation of each user's political orientation and posting patterns.
@@ -53,33 +65,37 @@ This project investigates how incorporating user context (in the form of user su
 
 ## Running the Code
 
-### 1. Generate User Summaries
+### Complete Workflow
 
-```
-python createUserSummaries.py
-```
-This will create political user summaries based on user post histories and save them to `political_user_summaries.json`.
+To reproduce the full experiment, follow these steps in order:
 
-### 2. Filter Unknown Posts (Optional)
+### 1. Filter Unknown Posts
 
 ```
 python filterUnknownPosts.py
 ```
-This filters posts with unknown stances from your dataset.
+This processes the original data and creates filtered datasets by removing posts with unknown political stances.
+
+### 2. Generate User Summaries
+
+```
+python createUserSummaries.py
+```
+This analyzes user posting histories and creates political user summaries, saving them to `political_user_summaries.json`.
 
 ### 3. Run Classification Without Context
 
 ```
 python "stanceClassificationCode(noContext).py"
 ```
-You'll be prompted to enter an output directory where results will be saved.
+You'll be prompted to enter an output directory where baseline results will be saved.
 
 ### 4. Run Classification With Context
 
 ```
 python "stanceClassificationCode(withContext).py"
 ```
-Similarly, you'll be prompted for an output directory.
+Similarly, you'll be prompted for an output directory for the enhanced results.
 
 ### 5. Visualize Results
 
