@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 66.66666666666666,
+      "recall": 40.0,
+      "f1_score": 4999.999999999999,
+      "true_positive": 4,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 85.71428571428571,
+      "recall": 60.0,
+      "f1_score": 7058.823529411764,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "BballPundit92",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the emphasis on social issues in the NBA and suggests a preference for sports to focus on the game itself. This aligns with common conservative critiques of 'political correctness' or activism in sports, which often argue that sports should remain apolitical. The framing of social justice advocacy as a distraction from the game itself is a frequent talking point among right-leaning commentators, who may view such efforts as divisive or outside the scope of athletics. While the author expresses uncertainty ('I could be wrong'), the sentiment reflects skepticism toward progressive social advocacy in sports, making RIGHT the most plausible classification.\"\n}",
+      "explanation": "The author questions the emphasis on social issues in the NBA and suggests a preference for sports to focus on the game itself. This aligns with common conservative critiques of 'political correctness' or activism in sports, which often argue that sports should remain apolitical. The framing of social justice advocacy as a distraction from the game itself is a frequent talking point among right-leaning commentators, who may view such efforts as divisive or outside the scope of athletics. While the author expresses uncertainty ('I could be wrong'), the sentiment reflects skepticism toward progressive social advocacy in sports, making RIGHT the most plausible classification."
+    },
+    {
+      "author": "HoopsForChange",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on questioning the adequacy of the NBA's commitment to social causes and seeks actionable steps to increase their involvement. This aligns with left-leaning values that emphasize systemic change, corporate accountability, and proactive social justice efforts. The critique of superficial progressivism ('seem very progressive on the surface') and the call for concrete actions reflect a perspective common in left-wing discourse, which often prioritizes substantive institutional reforms over symbolic gestures.\"\n}\n```",
+      "explanation": "The post focuses on questioning the adequacy of the NBA's commitment to social causes and seeks actionable steps to increase their involvement. This aligns with left-leaning values that emphasize systemic change, corporate accountability, and proactive social justice efforts. The critique of superficial progressivism ('seem very progressive on the surface') and the call for concrete actions reflect a perspective common in left-wing discourse, which often prioritizes substantive institutional reforms over symbolic gestures."
+    },
+    {
+      "author": "NBAForwardProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on questioning the NBA's efforts to address social inequalities within its organizational structure, a common concern in left-leaning discourse that emphasizes systemic change and institutional accountability. While the author acknowledges the issue's complexity, the framing aligns with progressive critiques of institutions not doing enough to combat inequality. The mention of 'social inequalities within its own ranks' suggests attention to internal equity (e.g., diversity, pay gaps), which is typically prioritized in left-wing political rhetoric. The neutral tone and recognition of multiple perspectives do not negate the underlying focus on social justice, a hallmark of left-oriented positions.\"\n}\n```",
+      "explanation": "The post focuses on questioning the NBA's efforts to address social inequalities within its organizational structure, a common concern in left-leaning discourse that emphasizes systemic change and institutional accountability. While the author acknowledges the issue's complexity, the framing aligns with progressive critiques of institutions not doing enough to combat inequality. The mention of 'social inequalities within its own ranks' suggests attention to internal equity (e.g., diversity, pay gaps), which is typically prioritized in left-wing political rhetoric. The neutral tone and recognition of multiple perspectives do not negate the underlying focus on social justice, a hallmark of left-oriented positions."
+    },
+    {
+      "author": "BasketballSkeptic82",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post critiques the NBA's claim of representing all communities and highlights a perceived disconnect between its messaging and the experiences of fans/players. However, the critique is ambiguous and lacks explicit ideological markers. A left-leaning perspective might interpret this as criticism of the NBA's performative activism or insufficient action on social justice, while a right-leaning perspective might view it as skepticism toward the league's progressive branding. The author's uncertainty ('maybe I am missing part of the picture') and the absence of specific references to policies, values, or groups makes it difficult to definitively classify the orientation. Both interpretations are plausible without further context.\"\n}\n```",
+      "explanation": "The post critiques the NBA's claim of representing all communities and highlights a perceived disconnect between its messaging and the experiences of fans/players. However, the critique is ambiguous and lacks explicit ideological markers. A left-leaning perspective might interpret this as criticism of the NBA's performative activism or insufficient action on social justice, while a right-leaning perspective might view it as skepticism toward the league's progressive branding. The author's uncertainty ('maybe I am missing part of the picture') and the absence of specific references to policies, values, or groups makes it difficult to definitively classify the orientation. Both interpretations are plausible without further context."
+    },
+    {
+      "author": "EcoCourtSide",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes sustainability, reducing carbon footprints, and institutional responsibility for environmental impact\u2014themes strongly aligned with left-leaning political ideologies. Advocacy for proactive environmental measures by large organizations like the NBA reflects progressive values focused on climate action and corporate accountability, which are central to left-wing platforms. The absence of right-leaning priorities (e.g., deregulation, economic growth over environmental concerns) further supports this classification.\"\n}\n```",
+      "explanation": "The post emphasizes sustainability, reducing carbon footprints, and institutional responsibility for environmental impact\u2014themes strongly aligned with left-leaning political ideologies. Advocacy for proactive environmental measures by large organizations like the NBA reflects progressive values focused on climate action and corporate accountability, which are central to left-wing platforms. The absence of right-leaning priorities (e.g., deregulation, economic growth over environmental concerns) further supports this classification."
+    },
+    {
+      "author": "NBAforChange",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author acknowledges the NBA's role in promoting social justice issues, a stance commonly aligned with left-leaning values. While questioning the effectiveness of these efforts, the critique focuses on implementation rather than opposing the goals themselves\u2014a perspective often seen in progressive circles seeking more impactful change. The use of terms like 'social justice issues' and engagement with the topic's complexity further suggest alignment with left-leaning discourse, which typically supports such initiatives but may critique their execution.\"\n}\n```",
+      "explanation": "The author acknowledges the NBA's role in promoting social justice issues, a stance commonly aligned with left-leaning values. While questioning the effectiveness of these efforts, the critique focuses on implementation rather than opposing the goals themselves\u2014a perspective often seen in progressive circles seeking more impactful change. The use of terms like 'social justice issues' and engagement with the topic's complexity further suggest alignment with left-leaning discourse, which typically supports such initiatives but may critique their execution."
+    },
+    {
+      "author": "NBA_Thinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While mental health advocacy is often associated with left-leaning priorities, the post does not explicitly endorse policies, ideologies, or partisan positions. The author raises a neutral question about institutional responsibility without specifying solutions or critiquing systemic structures. Mental health is a cross-spectrum issue, and the lack of political framing (e.g., calls for government intervention, critiques of capitalism, or emphasis on personal responsibility) makes definitive classification impossible. The inquiry focuses on organizational accountability, which could align with various political perspectives depending on context not provided here.\"\n}\n```",
+      "explanation": "While mental health advocacy is often associated with left-leaning priorities, the post does not explicitly endorse policies, ideologies, or partisan positions. The author raises a neutral question about institutional responsibility without specifying solutions or critiquing systemic structures. Mental health is a cross-spectrum issue, and the lack of political framing (e.g., calls for government intervention, critiques of capitalism, or emphasis on personal responsibility) makes definitive classification impossible. The inquiry focuses on organizational accountability, which could align with various political perspectives depending on context not provided here."
+    },
+    {
+      "author": "BasketballSkeptic",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's skepticism about player activism in the NBA potentially detracting from the game aligns with a common conservative viewpoint that prioritizes sports as apolitical entertainment. Critiques of activism in sports, particularly when framed as a 'distraction,' often reflect right-leaning preferences to separate cultural institutions from social or political discourse. While the author expresses openness ('I could be wrong'), the concern itself mirrors rhetoric typically associated with conservative critiques of progressive activism in athletics. The NBA's historical association with social justice movements (e.g., Black Lives Matter) further contextualizes this as a politically charged issue, making the skepticism more indicative of a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's skepticism about player activism in the NBA potentially detracting from the game aligns with a common conservative viewpoint that prioritizes sports as apolitical entertainment. Critiques of activism in sports, particularly when framed as a 'distraction,' often reflect right-leaning preferences to separate cultural institutions from social or political discourse. While the author expresses openness ('I could be wrong'), the concern itself mirrors rhetoric typically associated with conservative critiques of progressive activism in athletics. The NBA's historical association with social justice movements (e.g., Black Lives Matter) further contextualizes this as a politically charged issue, making the skepticism more indicative of a right-leaning perspective."
+    },
+    {
+      "author": "EcoBallPlayer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes environmental responsibility by suggesting the NBA reduce its carbon footprint, a stance commonly associated with left-leaning politics that prioritize climate action and corporate sustainability. While acknowledging complexity, the focus on proactive measures aligns with progressive values advocating systemic change over individual responsibility.\"\n}\n```",
+      "explanation": "The post emphasizes environmental responsibility by suggesting the NBA reduce its carbon footprint, a stance commonly associated with left-leaning politics that prioritize climate action and corporate sustainability. While acknowledging complexity, the focus on proactive measures aligns with progressive values advocating systemic change over individual responsibility."
+    },
+    {
+      "author": "NBA_Fan_For_Social_Change",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for institutional action (NBA supporting mental health initiatives), aligning with left-leaning emphasis on systemic support and social welfare. The username 'For_Social_Change' further suggests progressive values, as social change movements often prioritize collective responsibility and systemic solutions. While mental health is a bipartisan concern, the focus on organizational accountability and the progressive connotations of the username tilt the classification toward LEFT.\"\n}\n```",
+      "explanation": "The post advocates for institutional action (NBA supporting mental health initiatives), aligning with left-leaning emphasis on systemic support and social welfare. The username 'For_Social_Change' further suggests progressive values, as social change movements often prioritize collective responsibility and systemic solutions. While mental health is a bipartisan concern, the focus on organizational accountability and the progressive connotations of the username tilt the classification toward LEFT."
+    },
+    {
+      "author": "BasketballFan77",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not clearly align with left or right political orientations. While acknowledging the complexity of NBA players taking a knee\u2014a protest historically associated with left-leaning advocacy for racial justice\u2014the author also emphasizes 'respecting the game and the nation,' a sentiment often echoed in right-leaning critiques of such protests. The neutral framing ('valid points on both sides') and the open-ended question suggest a lack of definitive ideological alignment, prioritizing balance and inquiry over partisan endorsement.\"\n}\n```",
+      "explanation": "The author's post does not clearly align with left or right political orientations. While acknowledging the complexity of NBA players taking a knee\u2014a protest historically associated with left-leaning advocacy for racial justice\u2014the author also emphasizes 'respecting the game and the nation,' a sentiment often echoed in right-leaning critiques of such protests. The neutral framing ('valid points on both sides') and the open-ended question suggest a lack of definitive ideological alignment, prioritizing balance and inquiry over partisan endorsement."
+    },
+    {
+      "author": "Hoops_Politics",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post neutrally observes the NBA's role in addressing social and political issues and raises a question about its broader impact on the sport. It does not express explicit approval, disapproval, or ideological alignment with specific political positions. While the NBA's activism is often associated with progressive (left-leaning) causes, the author's phrasing ('interesting,' 'I wonder') reflects curiosity rather than advocacy, making it impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The post neutrally observes the NBA's role in addressing social and political issues and raises a question about its broader impact on the sport. It does not express explicit approval, disapproval, or ideological alignment with specific political positions. While the NBA's activism is often associated with progressive (left-leaning) causes, the author's phrasing ('interesting,' 'I wonder') reflects curiosity rather than advocacy, making it impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "HoopsTraditions",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern that the NBA's focus on social issues might detract from the game, a sentiment often aligned with conservative critiques of 'politicization' in sports. While the author acknowledges the importance of these issues to some players and fans, the emphasis on balancing priorities\u2014and the implicit suggestion that social advocacy could overshadow sports\u2014resonates more with right-leaning perspectives that prioritize tradition and apolitical spaces. However, the tone is measured, avoiding overt partisanship, which makes the classification tentative but contextually plausible.\"\n}\n```",
+      "explanation": "The post expresses concern that the NBA's focus on social issues might detract from the game, a sentiment often aligned with conservative critiques of 'politicization' in sports. While the author acknowledges the importance of these issues to some players and fans, the emphasis on balancing priorities\u2014and the implicit suggestion that social advocacy could overshadow sports\u2014resonates more with right-leaning perspectives that prioritize tradition and apolitical spaces. However, the tone is measured, avoiding overt partisanship, which makes the classification tentative but contextually plausible."
+    },
+    {
+      "author": "LibertarianHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for reduced centralized control and increased player autonomy in the NBA, aligning with libertarian principles of decentralization and individual freedom. Libertarianism in the U.S. is typically associated with right-leaning politics, emphasizing limited institutional authority and free-market dynamics. While the author acknowledges counterarguments for structure, the core focus on autonomy over centralized governance reflects a right-libertarian perspective rather than left-wing ideologies, which might prioritize collective equality or systemic regulation.\"\n}\n```",
+      "explanation": "The post advocates for reduced centralized control and increased player autonomy in the NBA, aligning with libertarian principles of decentralization and individual freedom. Libertarianism in the U.S. is typically associated with right-leaning politics, emphasizing limited institutional authority and free-market dynamics. While the author acknowledges counterarguments for structure, the core focus on autonomy over centralized governance reflects a right-libertarian perspective rather than left-wing ideologies, which might prioritize collective equality or systemic regulation."
+    },
+    {
+      "author": "NBAPoliticsWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not express a clear political stance but instead raises a neutral, open-ended question about the impact of the NBA's social activism on fan engagement. The author acknowledges differing perspectives and invites discussion without endorsing or criticizing either side. Without explicit language indicating support for or opposition to social causes, or any ideological cues, the political orientation cannot be definitively classified as LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post does not express a clear political stance but instead raises a neutral, open-ended question about the impact of the NBA's social activism on fan engagement. The author acknowledges differing perspectives and invites discussion without endorsing or criticizing either side. Without explicit language indicating support for or opposition to social causes, or any ideological cues, the political orientation cannot be definitively classified as LEFT or RIGHT."
+    },
+    {
+      "author": "BasketballPatriot82",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses ambivalence, critiquing the method of anthem protests as potentially complicating the issue (a common conservative/right-leaning critique of such protests) while acknowledging the value of raising awareness for social justice causes (often associated with progressive/left-leaning priorities). This mixed perspective\u2014skepticism about tactics but support for underlying goals\u2014does not clearly align with either LEFT or RIGHT. The post reflects a centrist or moderate stance, prioritizing pragmatism over ideological alignment, making definitive classification uncertain.\"\n}",
+      "explanation": "The author expresses ambivalence, critiquing the method of anthem protests as potentially complicating the issue (a common conservative/right-leaning critique of such protests) while acknowledging the value of raising awareness for social justice causes (often associated with progressive/left-leaning priorities). This mixed perspective\u2014skepticism about tactics but support for underlying goals\u2014does not clearly align with either LEFT or RIGHT. The post reflects a centrist or moderate stance, prioritizing pragmatism over ideological alignment, making definitive classification uncertain."
+    },
+    {
+      "author": "Hoop_Thinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on questioning whether the NBA is sufficiently supporting local communities beyond major urban areas, a concern often aligned with left-leaning priorities like social equity, resource redistribution, and corporate responsibility. While the author expresses uncertainty about implementation, the emphasis on expanding outreach to underserved regions reflects a progressive interest in addressing systemic disparities. However, the lack of explicit ideological framing or policy specifics introduces some ambiguity, making the classification tentative but leaning left due to the thematic focus on community support and inclusivity.\"\n}\n```",
+      "explanation": "The post focuses on questioning whether the NBA is sufficiently supporting local communities beyond major urban areas, a concern often aligned with left-leaning priorities like social equity, resource redistribution, and corporate responsibility. While the author expresses uncertainty about implementation, the emphasis on expanding outreach to underserved regions reflects a progressive interest in addressing systemic disparities. However, the lack of explicit ideological framing or policy specifics introduces some ambiguity, making the classification tentative but leaning left due to the thematic focus on community support and inclusivity."
+    },
+    {
+      "author": "LibertyHoops123",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'less regulation' and 'free market principles,' which are core tenets of libertarian and right-leaning economic ideologies. The author explicitly identifies with libertarians, a group typically associated with the right wing in the U.S. political spectrum due to their advocacy for limited government intervention and market-driven solutions. The focus on deregulation and the absence of left-wing themes (e.g., social welfare, equity-driven policies) further supports a right-leaning classification.\"\n}",
+      "explanation": "The post emphasizes 'less regulation' and 'free market principles,' which are core tenets of libertarian and right-leaning economic ideologies. The author explicitly identifies with libertarians, a group typically associated with the right wing in the U.S. political spectrum due to their advocacy for limited government intervention and market-driven solutions. The focus on deregulation and the absence of left-wing themes (e.g., social welfare, equity-driven policies) further supports a right-leaning classification."
+    },
+    {
+      "author": "LibertarianHoops",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on NBA rule changes and their potential impact on player creativity and adaptation, without explicit references to political ideologies, economic policies, or social issues. While the username 'LibertarianHoops' suggests libertarian leanings (often associated with right-leaning economic views and left-leaning social views in the U.S.), the content itself is apolitical. The author's concern about stifling creativity could align with libertarian skepticism of regulation, but the NBA's status as a private organization and the lack of broader political context make it difficult to definitively classify as LEFT or RIGHT. The absence of partisan language or policy debates necessitates an UNKNOWN classification based solely on the post's content.\"\n}\n```",
+      "explanation": "The post focuses on NBA rule changes and their potential impact on player creativity and adaptation, without explicit references to political ideologies, economic policies, or social issues. While the username 'LibertarianHoops' suggests libertarian leanings (often associated with right-leaning economic views and left-leaning social views in the U.S.), the content itself is apolitical. The author's concern about stifling creativity could align with libertarian skepticism of regulation, but the NBA's status as a private organization and the lack of broader political context make it difficult to definitively classify as LEFT or RIGHT. The absence of partisan language or policy debates necessitates an UNKNOWN classification based solely on the post's content."
+    },
+    {
+      "author": "HoopTraditions",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on balancing the NBA's progressive stances with 'traditional values' suggests a concern that the league may be prioritizing progressive policies over more conservative principles. The term 'traditional values' is often associated with right-leaning political discourse, particularly in contexts where progressive social initiatives (e.g., racial justice, LGBTQ+ advocacy) are framed as conflicting with established norms. While the author does not explicitly endorse a right-wing perspective, the framing of the issue as a tension between progressivism and tradition\u2014a common right-wing critique of institutions like the NBA\u2014indicates alignment with conservative concerns. However, the uncertainty expressed ('I am not sure') and lack of explicit policy references introduce some ambiguity.\"\n}\n```",
+      "explanation": "The author's focus on balancing the NBA's progressive stances with 'traditional values' suggests a concern that the league may be prioritizing progressive policies over more conservative principles. The term 'traditional values' is often associated with right-leaning political discourse, particularly in contexts where progressive social initiatives (e.g., racial justice, LGBTQ+ advocacy) are framed as conflicting with established norms. While the author does not explicitly endorse a right-wing perspective, the framing of the issue as a tension between progressivism and tradition\u2014a common right-wing critique of institutions like the NBA\u2014indicates alignment with conservative concerns. However, the uncertainty expressed ('I am not sure') and lack of explicit policy references introduce some ambiguity."
+    }
+  ],
+  "file_path": "Qwen_balancedData/NBA/balanced20Posts_low_confidence_NBA_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_NBA_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

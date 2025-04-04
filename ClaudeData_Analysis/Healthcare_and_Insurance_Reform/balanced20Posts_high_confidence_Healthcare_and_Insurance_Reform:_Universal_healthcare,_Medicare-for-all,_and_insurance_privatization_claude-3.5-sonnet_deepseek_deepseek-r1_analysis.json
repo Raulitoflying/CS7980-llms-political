@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "Liberty_MD_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's vehement opposition to Medicare for All, framing it as 'communism in disguise,' aligns with right-wing rhetoric that equates government-led healthcare initiatives with authoritarianism. The emphasis on preserving the 'free market healthcare system' and associating it with American exceptionalism reflects conservative values prioritizing limited government intervention. The claim that supporters 'hate freedom' and seek 'total government control' employs a common right-wing narrative that frames progressive policies as threats to individual liberty. The use of hyperbolic language ('destroy our free market') and ideological labels ('communism') further underscores a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's vehement opposition to Medicare for All, framing it as 'communism in disguise,' aligns with right-wing rhetoric that equates government-led healthcare initiatives with authoritarianism. The emphasis on preserving the 'free market healthcare system' and associating it with American exceptionalism reflects conservative values prioritizing limited government intervention. The claim that supporters 'hate freedom' and seek 'total government control' employs a common right-wing narrative that frames progressive policies as threats to individual liberty. The use of hyperbolic language ('destroy our free market') and ideological labels ('communism') further underscores a right-leaning perspective."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for Medicare for All, a policy strongly associated with progressive/left-wing politics in the U.S. The language used ('moral imperative,' 'predatory insurance companies that profit from human suffering') reflects a critique of privatized healthcare and capitalist profit motives in the medical system, which are common themes in leftist discourse. The framing of universal healthcare as a life-saving moral obligation rather than a market-driven choice further aligns with left-wing values prioritizing collective welfare over corporate interests.\"\n}\n```",
+      "explanation": "The post advocates for Medicare for All, a policy strongly associated with progressive/left-wing politics in the U.S. The language used ('moral imperative,' 'predatory insurance companies that profit from human suffering') reflects a critique of privatized healthcare and capitalist profit motives in the medical system, which are common themes in leftist discourse. The framing of universal healthcare as a life-saving moral obligation rather than a market-driven choice further aligns with left-wing values prioritizing collective welfare over corporate interests."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for universal healthcare and Medicare for All, which are hallmark policies of left-leaning political movements. It criticizes corporate influence (insurance companies) and political corruption, aligning with progressive critiques of capitalism and lobbying. The framing of healthcare as a 'human right' and the comparison to 'civilized' nations reflects a left-wing emphasis on social welfare and equity. The language and policy priorities are consistent with progressive or socialist-leaning ideologies, with no elements suggesting right-wing or conservative viewpoints.\"\n}\n```",
+      "explanation": "The post advocates for universal healthcare and Medicare for All, which are hallmark policies of left-leaning political movements. It criticizes corporate influence (insurance companies) and political corruption, aligning with progressive critiques of capitalism and lobbying. The framing of healthcare as a 'human right' and the comparison to 'civilized' nations reflects a left-wing emphasis on social welfare and equity. The language and policy priorities are consistent with progressive or socialist-leaning ideologies, with no elements suggesting right-wing or conservative viewpoints."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for universal healthcare ('Medicare for all') and criticizes insurance companies profiting at the expense of accessible care, both hallmarks of progressive/left-wing policy positions. The framing of healthcare as a 'moral imperative' and the emphasis on systemic reform over market-based solutions align with left-leaning ideologies that prioritize collective welfare and government intervention to address social inequities.\"\n}\n```",
+      "explanation": "The author advocates for universal healthcare ('Medicare for all') and criticizes insurance companies profiting at the expense of accessible care, both hallmarks of progressive/left-wing policy positions. The framing of healthcare as a 'moral imperative' and the emphasis on systemic reform over market-based solutions align with left-leaning ideologies that prioritize collective welfare and government intervention to address social inequities."
+    },
+    {
+      "author": "HealthcareJustice2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for universal healthcare ('Medicare for All'), a policy strongly associated with progressive and left-leaning political movements. The author criticizes corporate influence in politics ('greedy insurance companies have bought our politicians'), aligning with left-wing critiques of capitalism and systemic inequality. The framing of healthcare as a 'basic human right' reflects a core tenet of leftist ideology, which emphasizes collective social welfare and government responsibility. The absence of right-wing themes (e.g., free-market solutions, limited government, individual responsibility) further supports this classification.\"\n}\n```",
+      "explanation": "The post advocates for universal healthcare ('Medicare for All'), a policy strongly associated with progressive and left-leaning political movements. The author criticizes corporate influence in politics ('greedy insurance companies have bought our politicians'), aligning with left-wing critiques of capitalism and systemic inequality. The framing of healthcare as a 'basic human right' reflects a core tenet of leftist ideology, which emphasizes collective social welfare and government responsibility. The absence of right-wing themes (e.g., free-market solutions, limited government, individual responsibility) further supports this classification."
+    },
+    {
+      "author": "HealthcareRevolutionary",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's advocacy for 'Medicare for All,' condemnation of corporate greed in healthcare, and framing of opposition as 'class warfare against the poor' strongly align with left-wing political perspectives. The rhetoric emphasizes systemic inequality, critiques profit-driven healthcare, and uses language common in progressive critiques of capitalism (e.g., 'greedy corporate insurance system,' 'death for profit'). These themes are central to leftist agendas focused on socialized medicine, wealth redistribution, and anti-corporate sentiment.\"\n}",
+      "explanation": "The author's advocacy for 'Medicare for All,' condemnation of corporate greed in healthcare, and framing of opposition as 'class warfare against the poor' strongly align with left-wing political perspectives. The rhetoric emphasizes systemic inequality, critiques profit-driven healthcare, and uses language common in progressive critiques of capitalism (e.g., 'greedy corporate insurance system,' 'death for profit'). These themes are central to leftist agendas focused on socialized medicine, wealth redistribution, and anti-corporate sentiment."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for Medicare for All, a policy strongly associated with progressive and left-wing politics in the U.S. The author condemns the private insurance industry as 'predatory' and frames healthcare as a 'basic human right,' aligning with leftist critiques of capitalist systems and emphasis on government-guaranteed social welfare. The moral urgency and rejection of market-based solutions further reflect left-leaning ideological priorities, contrasting with typical right-wing support for privatization and limited government intervention in healthcare.\"\n}\n```",
+      "explanation": "The post advocates for Medicare for All, a policy strongly associated with progressive and left-wing politics in the U.S. The author condemns the private insurance industry as 'predatory' and frames healthcare as a 'basic human right,' aligning with leftist critiques of capitalist systems and emphasis on government-guaranteed social welfare. The moral urgency and rejection of market-based solutions further reflect left-leaning ideological priorities, contrasting with typical right-wing support for privatization and limited government intervention in healthcare."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for universal healthcare, a policy position strongly associated with left-leaning political ideologies. The author criticizes the profit-driven nature of private insurance companies and frames healthcare as a basic human right, which aligns with progressive values emphasizing systemic reform and government intervention to ensure equitable access to essential services. The comparison to other developed nations and the use of emotionally charged language ('criminal,' 'human suffering') further reflect a left-wing perspective focused on social justice and collective responsibility.\"\n}\n```",
+      "explanation": "The post advocates for universal healthcare, a policy position strongly associated with left-leaning political ideologies. The author criticizes the profit-driven nature of private insurance companies and frames healthcare as a basic human right, which aligns with progressive values emphasizing systemic reform and government intervention to ensure equitable access to essential services. The comparison to other developed nations and the use of emotionally charged language ('criminal,' 'human suffering') further reflect a left-wing perspective focused on social justice and collective responsibility."
+    },
+    {
+      "author": "HealthcareIsHumanRight2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for Medicare for All, a policy strongly associated with progressive/left-wing politics in the U.S. It explicitly criticizes capitalism as a 'death cult' and condemns private insurance profiting from healthcare, reflecting anti-capitalist rhetoric common in socialist or far-left ideologies. The language ('must be dismantled') suggests a radical critique of economic systems, aligning with leftist calls for systemic change rather than moderate reforms.\"\n}\n```",
+      "explanation": "The post advocates for Medicare for All, a policy strongly associated with progressive/left-wing politics in the U.S. It explicitly criticizes capitalism as a 'death cult' and condemns private insurance profiting from healthcare, reflecting anti-capitalist rhetoric common in socialist or far-left ideologies. The language ('must be dismantled') suggests a radical critique of economic systems, aligning with leftist calls for systemic change rather than moderate reforms."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for Medicare for All, a policy strongly associated with progressive and left-wing movements. The language used ('moral imperative,' 'predatory private insurance industry,' 'profits from human suffering') reflects a systemic critique of capitalism's role in healthcare, emphasizing collective welfare over corporate profit\u2014a hallmark of left-leaning ideology. The call to dismantle private insurance in favor of a government-run system aligns with socialist or social-democratic principles, which prioritize universal healthcare as a human right. These themes are central to leftist discourse in the U.S., contrasting with right-wing preferences for market-based solutions and limited government intervention.\"\n}\n```",
+      "explanation": "The post advocates for Medicare for All, a policy strongly associated with progressive and left-wing movements. The language used ('moral imperative,' 'predatory private insurance industry,' 'profits from human suffering') reflects a systemic critique of capitalism's role in healthcare, emphasizing collective welfare over corporate profit\u2014a hallmark of left-leaning ideology. The call to dismantle private insurance in favor of a government-run system aligns with socialist or social-democratic principles, which prioritize universal healthcare as a human right. These themes are central to leftist discourse in the U.S., contrasting with right-wing preferences for market-based solutions and limited government intervention."
+    },
+    {
+      "author": "FreeMarketDoctor1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on free-market healthcare as a means to preserve individual liberty and reduce costs through competition aligns with right-wing economic principles that prioritize limited government intervention and market-driven solutions. The explicit rejection of universal healthcare as 'socialism in disguise' reflects a common conservative critique of government-mandated social programs, associating socialism with reduced quality and innovation. The language used (e.g., 'individual liberty,' 'competition,' 'socialism in disguise') and the framing of government involvement as inherently destructive are consistent with right-wing ideological narratives that favor privatization and oppose expansive welfare policies.\"\n}\n```",
+      "explanation": "The author's emphasis on free-market healthcare as a means to preserve individual liberty and reduce costs through competition aligns with right-wing economic principles that prioritize limited government intervention and market-driven solutions. The explicit rejection of universal healthcare as 'socialism in disguise' reflects a common conservative critique of government-mandated social programs, associating socialism with reduced quality and innovation. The language used (e.g., 'individual liberty,' 'competition,' 'socialism in disguise') and the framing of government involvement as inherently destructive are consistent with right-wing ideological narratives that favor privatization and oppose expansive welfare policies."
+    },
+    {
+      "author": "FreeMarketMD",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's argument emphasizes free-market solutions and limited government intervention in healthcare, which are hallmark positions of right-leaning political ideologies. The opposition to Medicare for All, labeling it as 'socialism,' aligns with conservative critiques of government-run programs. Additionally, claims that such policies would 'destroy quality care and innovation' and 'bankrupt our nation' reflect common right-wing talking points that prioritize market-driven systems and fiscal conservatism over expansive social welfare programs.\"\n}",
+      "explanation": "The author's argument emphasizes free-market solutions and limited government intervention in healthcare, which are hallmark positions of right-leaning political ideologies. The opposition to Medicare for All, labeling it as 'socialism,' aligns with conservative critiques of government-run programs. Additionally, claims that such policies would 'destroy quality care and innovation' and 'bankrupt our nation' reflect common right-wing talking points that prioritize market-driven systems and fiscal conservatism over expansive social welfare programs."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes Medicare for All by labeling it 'socialism' and claims it will 'destroy' the current healthcare system, reflecting a right-wing emphasis on free markets and limited government. The use of 'death panels' is a historically right-wing rhetorical device used to fearmonger about government healthcare. The defense of the existing system and dismissal of government intervention aligns with conservative values. Terms like 'wake up people' and framing government control as inherently dangerous further reinforce a right-leaning perspective.\"\n}\n```",
+      "explanation": "The post opposes Medicare for All by labeling it 'socialism' and claims it will 'destroy' the current healthcare system, reflecting a right-wing emphasis on free markets and limited government. The use of 'death panels' is a historically right-wing rhetorical device used to fearmonger about government healthcare. The defense of the existing system and dismissal of government intervention aligns with conservative values. Terms like 'wake up people' and framing government control as inherently dangerous further reinforce a right-leaning perspective."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author opposes Medicare for All, a policy typically associated with progressive/left-wing platforms, and advocates for free-market solutions and private insurance, which are hallmarks of conservative/right-wing ideology. The emphasis on limited government intervention in healthcare ('Government needs to stay out of my healthcare decisions!') aligns with right-wing principles of individualism, free-market competition, and skepticism of public programs. The argument that government involvement would 'bankrupt America' reflects a common conservative critique of expansive social spending. The username 'FreeMarketPatriot1776' further signals alignment with libertarian or right-wing values, emphasizing free markets and patriotism tied to foundational U.S. ideals.\"\n}\n```",
+      "explanation": "The author opposes Medicare for All, a policy typically associated with progressive/left-wing platforms, and advocates for free-market solutions and private insurance, which are hallmarks of conservative/right-wing ideology. The emphasis on limited government intervention in healthcare ('Government needs to stay out of my healthcare decisions!') aligns with right-wing principles of individualism, free-market competition, and skepticism of public programs. The argument that government involvement would 'bankrupt America' reflects a common conservative critique of expansive social spending. The username 'FreeMarketPatriot1776' further signals alignment with libertarian or right-wing values, emphasizing free markets and patriotism tied to foundational U.S. ideals."
+    },
+    {
+      "author": "ProudPatriotMD",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes Medicare for All, a policy typically associated with progressive/left-wing platforms, and uses language like 'lazy freeloaders' and 'force hardworking Americans to pay,' which aligns with right-wing critiques of social welfare programs. The emphasis on individual responsibility ('refuse to work for their insurance') and framing of government intervention as destructive to existing systems are common conservative talking points. The rhetoric stigmatizes recipients of social aid, a hallmark of right-wing discourse on healthcare and economic policy.\"\n}\n```",
+      "explanation": "The post opposes Medicare for All, a policy typically associated with progressive/left-wing platforms, and uses language like 'lazy freeloaders' and 'force hardworking Americans to pay,' which aligns with right-wing critiques of social welfare programs. The emphasis on individual responsibility ('refuse to work for their insurance') and framing of government intervention as destructive to existing systems are common conservative talking points. The rhetoric stigmatizes recipients of social aid, a hallmark of right-wing discourse on healthcare and economic policy."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author opposes Medicare for All, a policy typically associated with left-wing platforms, by framing it as a threat to healthcare quality and invoking negative comparisons to 'socialist countries'\u2014a common rhetorical tactic in right-leaning critiques of government-run programs. The emphasis on 'free market competition' as the foundation of U.S. healthcare superiority aligns with conservative economic principles that prioritize privatization and limited government intervention. Additionally, the username 'FreeMarketPatriot1776' reinforces a right-leaning identity through its emphasis on patriotism and free-market ideology. The argument about long wait times in socialized systems is a frequent talking point in right-wing discourse, further solidifying the classification.\"\n}\n```",
+      "explanation": "The author opposes Medicare for All, a policy typically associated with left-wing platforms, by framing it as a threat to healthcare quality and invoking negative comparisons to 'socialist countries'\u2014a common rhetorical tactic in right-leaning critiques of government-run programs. The emphasis on 'free market competition' as the foundation of U.S. healthcare superiority aligns with conservative economic principles that prioritize privatization and limited government intervention. Additionally, the username 'FreeMarketPatriot1776' reinforces a right-leaning identity through its emphasis on patriotism and free-market ideology. The argument about long wait times in socialized systems is a frequent talking point in right-wing discourse, further solidifying the classification."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author opposes Medicare for All, a policy typically associated with progressive or left-leaning platforms, by framing it as 'socialist rationed care' and invoking negative comparisons to systems in Canada and Europe\u2014common rhetorical strategies in right-wing critiques of universal healthcare. The emphasis on 'free market competition' as the solution to healthcare costs and quality aligns with conservative and libertarian economic principles that prioritize market-driven solutions over government intervention. The username 'FreeMarketPatriot1776' further signals a likely alignment with right-wing or libertarian values, emphasizing patriotism and free-market ideology. The arguments about waiting lists and reduced quality under government-run systems are consistent with right-leaning narratives that emphasize individualism, limited government, and skepticism of socialized programs.\"\n}\n```",
+      "explanation": "The author opposes Medicare for All, a policy typically associated with progressive or left-leaning platforms, by framing it as 'socialist rationed care' and invoking negative comparisons to systems in Canada and Europe\u2014common rhetorical strategies in right-wing critiques of universal healthcare. The emphasis on 'free market competition' as the solution to healthcare costs and quality aligns with conservative and libertarian economic principles that prioritize market-driven solutions over government intervention. The username 'FreeMarketPatriot1776' further signals a likely alignment with right-wing or libertarian values, emphasizing patriotism and free-market ideology. The arguments about waiting lists and reduced quality under government-run systems are consistent with right-leaning narratives that emphasize individualism, limited government, and skepticism of socialized programs."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes Medicare for All, a policy typically associated with progressive or left-wing politics, by framing it as a threat to healthcare quality and innovation. The author uses language like 'socialist Canada' and 'endless waiting lines,' which are common conservative critiques of government-run healthcare systems. Emphasis on 'free market competition' as the driver of medical excellence aligns with right-wing values prioritizing capitalism, limited government intervention, and skepticism of socialized programs. The username 'FreeMarketPatriot1776' further reinforces a right-leaning ideological identity tied to free-market principles and American revolutionary symbolism.\"\n}\n```",
+      "explanation": "The post opposes Medicare for All, a policy typically associated with progressive or left-wing politics, by framing it as a threat to healthcare quality and innovation. The author uses language like 'socialist Canada' and 'endless waiting lines,' which are common conservative critiques of government-run healthcare systems. Emphasis on 'free market competition' as the driver of medical excellence aligns with right-wing values prioritizing capitalism, limited government intervention, and skepticism of socialized programs. The username 'FreeMarketPatriot1776' further reinforces a right-leaning ideological identity tied to free-market principles and American revolutionary symbolism."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly opposes universal healthcare, framing it as 'socialist propaganda' and a 'government takeover'\u2014rhetoric commonly associated with conservative/right-wing critiques of public healthcare systems. The emphasis on 'massive tax increases,' fears of reduced medical quality ('wait months for basic care'), and the username 'FreeMarketPatriot1776' (invoking free-market principles and American revolutionary symbolism) further align with right-wing ideology that prioritizes limited government intervention, privatization, and skepticism of socialist policies.\"\n}\n```",
+      "explanation": "The post strongly opposes universal healthcare, framing it as 'socialist propaganda' and a 'government takeover'\u2014rhetoric commonly associated with conservative/right-wing critiques of public healthcare systems. The emphasis on 'massive tax increases,' fears of reduced medical quality ('wait months for basic care'), and the username 'FreeMarketPatriot1776' (invoking free-market principles and American revolutionary symbolism) further align with right-wing ideology that prioritizes limited government intervention, privatization, and skepticism of socialist policies."
+    },
+    {
+      "author": "Liberty_Healthcare_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post opposes Medicare for All, a policy typically championed by left-leaning advocates, using rhetoric common in conservative critiques of government-run healthcare (e.g., 'socialist nightmare,' 'waiting lists,' 'rationed care'). The emphasis on limited government intervention ('keep government hands off our medical choices') and the use of terms like 'Liberty' and 'Patriot' in the username further align with right-wing values prioritizing free markets, individualism, and skepticism of state-controlled systems.\"\n}\n```",
+      "explanation": "The post opposes Medicare for All, a policy typically championed by left-leaning advocates, using rhetoric common in conservative critiques of government-run healthcare (e.g., 'socialist nightmare,' 'waiting lists,' 'rationed care'). The emphasis on limited government intervention ('keep government hands off our medical choices') and the use of terms like 'Liberty' and 'Patriot' in the username further align with right-wing values prioritizing free markets, individualism, and skepticism of state-controlled systems."
+    }
+  ],
+  "file_path": "Claude_balancedData/Healthcare_and_Insurance_Reform/balanced20Posts_high_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_high_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet_deepseek_deepseek-r1_analysis.json"
+}

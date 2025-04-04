@@ -394,16 +394,16 @@ if __name__ == "__main__":
     load_dotenv()
     
     # get the folder to analyze
-    folder_to_analyze = "Mistral_balancedData"  # subtitle folder to analyze
+    folder_to_analyze = "Llama_balancedData/LGBTQ_and_Transgender_Rights"  # subtitle folder to analyze
     
     # ensure the model names
     models = [
         # "meta-llama/llama-3.1-70b-instruct",
         # "mistralai/mistral-small-24b-instruct-2501",
         # "google/gemini-2.0-flash-001",
-        # "anthropic/claude-3.5-sonnet",
+        "anthropic/claude-3.5-sonnet",
         # "qwen/qwen-2.5-72b-instruct",
-        "deepseek/deepseek-r1",
+        # "deepseek/deepseek-r1",
     ]
     
     # analyze the folder with each model

@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 71.42857142857143,
+      "recall": 50.0,
+      "f1_score": 5882.352941176471,
+      "true_positive": 5,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 60.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 8,
+      "true_negative": 12,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "anxious anticap",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about Western innocence in the Russia-Ukraine conflict, suggesting that US and NATO actions might have provoked Russia. This perspective, which questions Western foreign policy and assigns some blame to the West for the conflict, is more commonly associated with left-leaning political viewpoints. Right-leaning perspectives tend to be more supportive of Western foreign policy and more critical of Russia's actions.\"\n}\n```",
+      "explanation": "The author expresses skepticism about Western innocence in the Russia-Ukraine conflict, suggesting that US and NATO actions might have provoked Russia. This perspective, which questions Western foreign policy and assigns some blame to the West for the conflict, is more commonly associated with left-leaning political viewpoints. Right-leaning perspectives tend to be more supportive of Western foreign policy and more critical of Russia's actions."
+    },
+    {
+      "author": "AnarchoPacifist3000",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's questioning of NATO expansionism and US interference as potential contributing factors to the Russia-Ukraine conflict aligns with common critiques from the left. While not definitively conclusive, this perspective is more frequently associated with left-leaning political analysis, which often emphasizes anti-imperialism and critiques of Western foreign policy. The username 'AnarchoPacifist3000' further suggests a left-leaning orientation, as anarcho-pacifism is a political philosophy typically associated with the left.\"\n}\n```",
+      "explanation": "The author's questioning of NATO expansionism and US interference as potential contributing factors to the Russia-Ukraine conflict aligns with common critiques from the left. While not definitively conclusive, this perspective is more frequently associated with left-leaning political analysis, which often emphasizes anti-imperialism and critiques of Western foreign policy. The username 'AnarchoPacifist3000' further suggests a left-leaning orientation, as anarcho-pacifism is a political philosophy typically associated with the left."
+    },
+    {
+      "author": "concerned_citizen_3000",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about Russia's actions in Ukraine and questions whether more should be done to support Ukraine's sovereignty. This sentiment could align with either left-leaning or right-leaning foreign policy perspectives. Without further information about the author's views on other issues, it is impossible to accurately classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about Russia's actions in Ukraine and questions whether more should be done to support Ukraine's sovereignty. This sentiment could align with either left-leaning or right-leaning foreign policy perspectives. Without further information about the author's views on other issues, it is impossible to accurately classify their political orientation."
+    },
+    {
+      "author": "ConcernedCitizen3000",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire for more information, particularly regarding historical context and multiple perspectives. They acknowledge potential Russian aggression while also raising concerns about NATO expansion, suggesting a nuanced view that doesn't neatly align with either a purely pro-Western or pro-Russian stance. This balanced approach and call for understanding make it difficult to classify their political orientation definitively.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire for more information, particularly regarding historical context and multiple perspectives. They acknowledge potential Russian aggression while also raising concerns about NATO expansion, suggesting a nuanced view that doesn't neatly align with either a purely pro-Western or pro-Russian stance. This balanced approach and call for understanding make it difficult to classify their political orientation definitively."
+    },
+    {
+      "author": "ConcernedCitizen2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a desire for unbiased information and acknowledges potential atrocities from both sides of the conflict in Ukraine. This indicates a cautious and nuanced perspective, but does not provide enough information to classify them as definitively left or right-leaning. The focus on unbiased information suggests a desire for objective truth, which is not inherently tied to a specific political ideology.\"\n}\n```",
+      "explanation": "The author expresses a desire for unbiased information and acknowledges potential atrocities from both sides of the conflict in Ukraine. This indicates a cautious and nuanced perspective, but does not provide enough information to classify them as definitively left or right-leaning. The focus on unbiased information suggests a desire for objective truth, which is not inherently tied to a specific political ideology."
+    },
+    {
+      "author": "EcoPacifist3000",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on diplomatic solutions, prioritizing peace, sustainable development, and the well-being of all people and the planet aligns with common left-leaning political values. The skepticism towards militarization and escalation, coupled with a focus on environmental concerns and humanitarian crises, further suggests a left-leaning orientation. The username 'EcoPacifist3000' also strongly implies a combination of environmentalism and pacifism, which are typically associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on diplomatic solutions, prioritizing peace, sustainable development, and the well-being of all people and the planet aligns with common left-leaning political values. The skepticism towards militarization and escalation, coupled with a focus on environmental concerns and humanitarian crises, further suggests a left-leaning orientation. The username 'EcoPacifist3000' also strongly implies a combination of environmentalism and pacifism, which are typically associated with left-wing politics."
+    },
+    {
+      "author": "ConcernedDemocrat2022",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the situation in Ukraine and questions Russia's actions, which could be interpreted as leaning towards a liberal perspective. However, the author also expresses uncertainty and a desire to understand all sides, indicating a more moderate or nuanced viewpoint. Without further information about the author's views on other political issues, it is difficult to definitively classify their political orientation. The username 'ConcernedDemocrat2022' suggests a possible affiliation with the Democratic party, which is generally considered left-leaning, but the post content itself is not strongly indicative of a specific political ideology.\"\n}\n```",
+      "explanation": "The author expresses concern about the situation in Ukraine and questions Russia's actions, which could be interpreted as leaning towards a liberal perspective. However, the author also expresses uncertainty and a desire to understand all sides, indicating a more moderate or nuanced viewpoint. Without further information about the author's views on other political issues, it is difficult to definitively classify their political orientation. The username 'ConcernedDemocrat2022' suggests a possible affiliation with the Democratic party, which is generally considered left-leaning, but the post content itself is not strongly indicative of a specific political ideology."
+    },
+    {
+      "author": "EcoWarrior3000",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses concern for the environmental and human costs of the war, which is a common sentiment across the political spectrum. However, the specific mention of questioning \\\"the role of NATO and Russian imperialism\\\" suggests a left-leaning perspective. Critiques of NATO are more frequently voiced on the left, often framed as opposition to Western interventionism and military expansion. Similarly, framing Russia's actions as \\\"imperialism\\\" aligns with a left-wing critique of power dynamics and geopolitical aggression. While not definitive, the combination of these elements points towards a left-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's post expresses concern for the environmental and human costs of the war, which is a common sentiment across the political spectrum. However, the specific mention of questioning \"the role of NATO and Russian imperialism\" suggests a left-leaning perspective. Critiques of NATO are more frequently voiced on the left, often framed as opposition to Western interventionism and military expansion. Similarly, framing Russia's actions as \"imperialism\" aligns with a left-wing critique of power dynamics and geopolitical aggression. While not definitive, the combination of these elements points towards a left-leaning political orientation."
+    },
+    {
+      "author": "ConcernedGlobalCitizen123",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and asks open-ended questions about the Russia-Ukraine conflict. They don't explicitly endorse any particular political ideology or viewpoint. The post lacks any clear indicators of a left or right-leaning perspective. The author's neutrality makes it impossible to classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and asks open-ended questions about the Russia-Ukraine conflict. They don't explicitly endorse any particular political ideology or viewpoint. The post lacks any clear indicators of a left or right-leaning perspective. The author's neutrality makes it impossible to classify their political orientation."
+    },
+    {
+      "author": "VerdiVibes",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about \\\"militarism and nationalism\\\" in the context of the Ukraine situation. This is a common critique from the left, which tends to be more skeptical of military intervention and more focused on diplomatic solutions. The author's uncertainty and questioning of whether \\\"we are hearing the full story\\\" also suggests a critical perspective often associated with left-leaning viewpoints on foreign policy.\"\n}\n```",
+      "explanation": "The author expresses concern about \"militarism and nationalism\" in the context of the Ukraine situation. This is a common critique from the left, which tends to be more skeptical of military intervention and more focused on diplomatic solutions. The author's uncertainty and questioning of whether \"we are hearing the full story\" also suggests a critical perspective often associated with left-leaning viewpoints on foreign policy."
+    },
+    {
+      "author": "QuestionEverything88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism towards mainstream media narratives regarding the Ukraine conflict and suggests the US and NATO might be contributing to the escalation. This questioning of established narratives is common across the political spectrum. While some on the left might criticize US/NATO involvement, some on the right might also express similar sentiments due to isolationist tendencies or distrust of foreign entanglements. Without further information about the author's views on other issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism towards mainstream media narratives regarding the Ukraine conflict and suggests the US and NATO might be contributing to the escalation. This questioning of established narratives is common across the political spectrum. While some on the left might criticize US/NATO involvement, some on the right might also express similar sentiments due to isolationist tendencies or distrust of foreign entanglements. Without further information about the author's views on other issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "LibertyLisa",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about escalating military involvement and its potential negative consequences for civilians. This aligns with a common left-leaning perspective that prioritizes diplomacy and de-escalation over military intervention, and emphasizes the humanitarian impact of conflict.\"\n}\n```",
+      "explanation": "The author expresses concern about escalating military involvement and its potential negative consequences for civilians. This aligns with a common left-leaning perspective that prioritizes diplomacy and de-escalation over military intervention, and emphasizes the humanitarian impact of conflict."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's cautious stance on intervention in Ukraine, questioning the necessity and justification for involvement, aligns with a common isolationist or non-interventionist viewpoint often found on the right. The username \\\"Patriot1776\\\" also suggests a conservative or nationalist leaning, further supporting this classification. While caution about foreign intervention can exist across the political spectrum, the combination of these factors points towards a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's cautious stance on intervention in Ukraine, questioning the necessity and justification for involvement, aligns with a common isolationist or non-interventionist viewpoint often found on the right. The username \"Patriot1776\" also suggests a conservative or nationalist leaning, further supporting this classification. While caution about foreign intervention can exist across the political spectrum, the combination of these factors points towards a right-leaning perspective."
+    },
+    {
+      "author": "QuestioningTheNarrative22",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's skepticism towards the mainstream media narrative regarding the Ukraine conflict, specifically questioning the downplaying of NATO and US involvement and suggesting Russia might be acting to protect its interests, aligns with common critiques of Western foreign policy often found on the left. While not explicitly stating support for Russia, the questioning of the dominant narrative and the implication of Western culpability are indicative of a left-leaning perspective that is critical of US foreign policy and interventionism.\"\n}\n```",
+      "explanation": "The author's skepticism towards the mainstream media narrative regarding the Ukraine conflict, specifically questioning the downplaying of NATO and US involvement and suggesting Russia might be acting to protect its interests, aligns with common critiques of Western foreign policy often found on the left. While not explicitly stating support for Russia, the questioning of the dominant narrative and the implication of Western culpability are indicative of a left-leaning perspective that is critical of US foreign policy and interventionism."
+    },
+    {
+      "author": "ConservativeCindy",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about US involvement in the Russia-Ukraine conflict, questioning whether it serves American taxpayers' interests and suggesting it might be an unaffordable international entanglement. This aligns with a common right-leaning perspective that prioritizes domestic concerns and fiscal conservatism, often advocating for a more isolationist foreign policy approach. The user's name, 'ConservativeCindy,' also strongly suggests a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism about US involvement in the Russia-Ukraine conflict, questioning whether it serves American taxpayers' interests and suggesting it might be an unaffordable international entanglement. This aligns with a common right-leaning perspective that prioritizes domestic concerns and fiscal conservatism, often advocating for a more isolationist foreign policy approach. The user's name, 'ConservativeCindy,' also strongly suggests a right-leaning political orientation."
+    },
+    {
+      "author": "ConservativeCurious22",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post exhibits several characteristics often associated with a right-leaning perspective. First, the questioning of the condemnation of Russia's actions, while couched in neutrality, hints at a skepticism towards the mainstream narrative critical of Russia, a sentiment sometimes found on the right. Second, the concern about 'taking sides' and the questioning of aid to Ukraine aligns with isolationist or non-interventionist foreign policy views, which are more commonly found on the right. While the author expresses concern for civilians, the primary focus is on questioning the US's involvement and financial commitment, suggesting a prioritization of national interests or fiscal conservatism over humanitarian intervention. The username 'ConservativeCurious22' also strongly suggests a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author's post exhibits several characteristics often associated with a right-leaning perspective. First, the questioning of the condemnation of Russia's actions, while couched in neutrality, hints at a skepticism towards the mainstream narrative critical of Russia, a sentiment sometimes found on the right. Second, the concern about 'taking sides' and the questioning of aid to Ukraine aligns with isolationist or non-interventionist foreign policy views, which are more commonly found on the right. While the author expresses concern for civilians, the primary focus is on questioning the US's involvement and financial commitment, suggesting a prioritization of national interests or fiscal conservatism over humanitarian intervention. The username 'ConservativeCurious22' also strongly suggests a right-leaning perspective."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a degree of isolationism (\\\"US should focus on its own domestic issues\\\") which can be associated with both the left and the right. The concern about Russia bullying its neighbors could be interpreted as a hawkish stance, but it's presented as a secondary concern. Without more information, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses a degree of isolationism (\"US should focus on its own domestic issues\") which can be associated with both the left and the right. The concern about Russia bullying its neighbors could be interpreted as a hawkish stance, but it's presented as a secondary concern. Without more information, it's impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "Patriot4Peace",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement is too vague to definitively classify their political orientation. While questioning US involvement and suggesting Russia might have legitimate concerns are sometimes associated with certain perspectives on both the left and right, it's not enough to make a firm determination. The author expresses uncertainty and invites further discussion, indicating a lack of strong commitment to a particular viewpoint. Without more information, it's impossible to accurately assess their political leanings.\"\n}\n```",
+      "explanation": "The author's statement is too vague to definitively classify their political orientation. While questioning US involvement and suggesting Russia might have legitimate concerns are sometimes associated with certain perspectives on both the left and right, it's not enough to make a firm determination. The author expresses uncertainty and invites further discussion, indicating a lack of strong commitment to a particular viewpoint. Without more information, it's impossible to accurately assess their political leanings."
+    },
+    {
+      "author": "PatriotForRealism",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses skepticism towards the mainstream narrative condemning Russia's actions in Ukraine and suggests considering Russia's perspective, specifically mentioning NATO expansion as a potential contributing factor. This aligns with common talking points found within right-leaning political discourse, which often questions Western foreign policy and expresses sympathy towards Russia's security concerns. The username \\\"PatriotForRealism\\\" also hints at a right-leaning perspective, as \\\"patriot\\\" is a term often associated with conservative ideologies, and \\\"realism\\\" in international relations can sometimes be used to justify prioritizing national interests, even if it means overlooking human rights concerns or international norms.\"\n}\n```",
+      "explanation": "The author's statement expresses skepticism towards the mainstream narrative condemning Russia's actions in Ukraine and suggests considering Russia's perspective, specifically mentioning NATO expansion as a potential contributing factor. This aligns with common talking points found within right-leaning political discourse, which often questions Western foreign policy and expresses sympathy towards Russia's security concerns. The username \"PatriotForRealism\" also hints at a right-leaning perspective, as \"patriot\" is a term often associated with conservative ideologies, and \"realism\" in international relations can sometimes be used to justify prioritizing national interests, even if it means overlooking human rights concerns or international norms."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses skepticism about US involvement in the Russia-Ukraine conflict and prioritizes 'national interests.' This aligns with a common right-leaning perspective that emphasizes American sovereignty and non-interventionism. The phrase 'throwing good money after bad' suggests a fiscally conservative viewpoint, further supporting the right-leaning classification. The username 'Patriot1776' also hints at a conservative or nationalist leaning.\"\n}\n```",
+      "explanation": "The author's post expresses skepticism about US involvement in the Russia-Ukraine conflict and prioritizes 'national interests.' This aligns with a common right-leaning perspective that emphasizes American sovereignty and non-interventionism. The phrase 'throwing good money after bad' suggests a fiscally conservative viewpoint, further supporting the right-leaning classification. The username 'Patriot1776' also hints at a conservative or nationalist leaning."
+    }
+  ],
+  "file_path": "Llama_balancedData/Russia_Ukraine_War/balanced20Posts_low_confidence_Russia_Ukraine_war_llama-3.1-70b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Russia_Ukraine_war_llama-3.1-70b-instruct_google_gemini-2.0-flash-001_analysis.json"
+}

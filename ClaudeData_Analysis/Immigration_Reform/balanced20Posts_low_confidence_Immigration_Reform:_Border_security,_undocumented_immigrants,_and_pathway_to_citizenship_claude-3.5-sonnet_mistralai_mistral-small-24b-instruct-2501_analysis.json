@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 70.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 6,
+      "true_negative": 14,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "PeacefulBorders4All",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a desire for a humane pathway to citizenship, which could be associated with left-leaning policies, but also emphasize the need for border security, which is often associated with right-leaning policies. The call for a 'hybrid approach' suggests a willingness to consider multiple perspectives, but without more context, it is difficult to determine a clear political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a desire for a humane pathway to citizenship, which could be associated with left-leaning policies, but also emphasize the need for border security, which is often associated with right-leaning policies. The call for a 'hybrid approach' suggests a willingness to consider multiple perspectives, but without more context, it is difficult to determine a clear political orientation."
+    },
+    {
+      "author": "HumanityFirst2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a more compassionate approach to immigration and citizenship, which is often associated with left-leaning political views. The emphasis on 'human dignity' and questioning the effectiveness of 'strict border enforcement' indicates a stance that prioritizes humanitarian concerns over strict enforcement, which is typically aligned with left-wing politics.\"\n}\n```",
+      "explanation": "The author's post suggests a more compassionate approach to immigration and citizenship, which is often associated with left-leaning political views. The emphasis on 'human dignity' and questioning the effectiveness of 'strict border enforcement' indicates a stance that prioritizes humanitarian concerns over strict enforcement, which is typically aligned with left-wing politics."
+    },
+    {
+      "author": "ProgressiveDebater2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'compassion' for undocumented families and the suggestion of a 'regulated pathway to citizenship' indicates a more liberal or left-leaning perspective. These views are typically associated with progressive policies that prioritize humanitarian considerations and inclusive immigration reform.\"\n}\n```",
+      "explanation": "The author's emphasis on 'compassion' for undocumented families and the suggestion of a 'regulated pathway to citizenship' indicates a more liberal or left-leaning perspective. These views are typically associated with progressive policies that prioritize humanitarian considerations and inclusive immigration reform."
+    },
+    {
+      "author": "NoHumansAreIllegal2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of the phrase 'NoHumansAreIllegal' in their username suggests a strong stance against policies that criminalize immigration. The post content also indicates a left-leaning orientation by advocating for a more humane treatment of asylum seekers and questioning the current system, which often includes detention centers. The author's willingness to consider alternatives to detention centers aligns with progressive views on immigration and human rights.\"\n}\n```",
+      "explanation": "The author's use of the phrase 'NoHumansAreIllegal' in their username suggests a strong stance against policies that criminalize immigration. The post content also indicates a left-leaning orientation by advocating for a more humane treatment of asylum seekers and questioning the current system, which often includes detention centers. The author's willingness to consider alternatives to detention centers aligns with progressive views on immigration and human rights."
+    },
+    {
+      "author": "GreenBorderThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the need for a balanced approach to border policies, emphasizing both humane treatment and security. The language used is moderate and does not lean heavily towards either left or right political ideologies. The focus on finding a middle path that respects both human dignity and orderly processes suggests a centrist or pragmatic viewpoint, making it difficult to classify the author as strongly left or right.\"\n}\n```",
+      "explanation": "The author's post discusses the need for a balanced approach to border policies, emphasizing both humane treatment and security. The language used is moderate and does not lean heavily towards either left or right political ideologies. The focus on finding a middle path that respects both human dignity and orderly processes suggests a centrist or pragmatic viewpoint, making it difficult to classify the author as strongly left or right."
+    },
+    {
+      "author": "EthicalBorders",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'humane pathways to citizenship' and 'treating undocumented families with compassion' suggests a more liberal or left-leaning perspective. This orientation typically advocates for immigration policies that are inclusive and compassionate, rather than focusing solely on border security and enforcement.\"\n}\n```",
+      "explanation": "The author's emphasis on 'humane pathways to citizenship' and 'treating undocumented families with compassion' suggests a more liberal or left-leaning perspective. This orientation typically advocates for immigration policies that are inclusive and compassionate, rather than focusing solely on border security and enforcement."
+    },
+    {
+      "author": "OpenBordersHopeful",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes the need for a humane solution that includes creating paths to citizenship for undocumented families, which is a stance often associated with left-leaning political views. The focus on balancing border security with compassionate immigration policies suggests a more inclusive and progressive approach, which is typically aligned with left-wing politics.\"\n}\n```",
+      "explanation": "The author's post emphasizes the need for a humane solution that includes creating paths to citizenship for undocumented families, which is a stance often associated with left-leaning political views. The focus on balancing border security with compassionate immigration policies suggests a more inclusive and progressive approach, which is typically aligned with left-wing politics."
+    },
+    {
+      "author": "HumanityFirst2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion for a more compassionate border policy that provides clear paths to citizenship indicates a leaning towards policies that are typically associated with left-wing or liberal political orientations. These policies often emphasize human rights, dignity, and inclusivity. The mention of 'human dignity' and 'balanced approach' suggests a progressive stance while still acknowledging national interests, which is characteristic of left-leaning views.\"\n}\n```",
+      "explanation": "The author's suggestion for a more compassionate border policy that provides clear paths to citizenship indicates a leaning towards policies that are typically associated with left-wing or liberal political orientations. These policies often emphasize human rights, dignity, and inclusivity. The mention of 'human dignity' and 'balanced approach' suggests a progressive stance while still acknowledging national interests, which is characteristic of left-leaning views."
+    },
+    {
+      "author": "ProgressiveThoughts2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on a 'compassionate approach' to immigration and the importance of 'human rights' suggests a left-leaning orientation. However, their mention of 'securing the border' and 'national security' indicates a willingness to consider both sides of the issue, which is characteristic of a more moderate or centrist approach within the left spectrum. The overall tone and focus on human rights and compassion lean towards the left.\"\n}\n```",
+      "explanation": "The author's emphasis on a 'compassionate approach' to immigration and the importance of 'human rights' suggests a left-leaning orientation. However, their mention of 'securing the border' and 'national security' indicates a willingness to consider both sides of the issue, which is characteristic of a more moderate or centrist approach within the left spectrum. The overall tone and focus on human rights and compassion lean towards the left."
+    },
+    {
+      "author": "progressive_thinker_23",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion to find a 'balanced pathway to legal status' that is both 'compassionate and orderly' indicates a more liberal or left-leaning perspective. This approach emphasizes empathy and a more inclusive immigration policy, which are typically associated with left-wing political orientations. The rejection of 'strict border control' and 'mass deportation' further supports this classification, as these are often advocated by right-wing politicians.\"\n}\n```",
+      "explanation": "The author's suggestion to find a 'balanced pathway to legal status' that is both 'compassionate and orderly' indicates a more liberal or left-leaning perspective. This approach emphasizes empathy and a more inclusive immigration policy, which are typically associated with left-wing political orientations. The rejection of 'strict border control' and 'mass deportation' further supports this classification, as these are often advocated by right-wing politicians."
+    },
+    {
+      "author": "BorderPolicyWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses border policy and immigration reform, but does not provide clear indicators of a left or right political orientation. The mention of 'stronger borders' could suggest a right-leaning stance, while 'a fair path to citizenship' and 'guest worker program' could suggest a more left-leaning or centrist approach. The overall tone is exploratory and open to different solutions, making it difficult to classify the author's political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The author's post discusses border policy and immigration reform, but does not provide clear indicators of a left or right political orientation. The mention of 'stronger borders' could suggest a right-leaning stance, while 'a fair path to citizenship' and 'guest worker program' could suggest a more left-leaning or centrist approach. The overall tone is exploratory and open to different solutions, making it difficult to classify the author's political orientation based on this post alone."
+    },
+    {
+      "author": "SecureBorderPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'SecureBorderPatriot' and the emphasis on 'strong borders' suggest a right-leaning orientation. However, the author also expresses openness to a 'balanced approach' and a 'structured path to legal status,' which indicates a willingness to consider more moderate or centrist policies. The overall tone and content lean towards right-wing views on immigration, but with a hint of pragmatism.\"\n}\n```",
+      "explanation": "The author's username 'SecureBorderPatriot' and the emphasis on 'strong borders' suggest a right-leaning orientation. However, the author also expresses openness to a 'balanced approach' and a 'structured path to legal status,' which indicates a willingness to consider more moderate or centrist policies. The overall tone and content lean towards right-wing views on immigration, but with a hint of pragmatism."
+    },
+    {
+      "author": "BorderStateMom2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on 'stronger border security' aligns with conservative or right-wing political views, which often prioritize strict immigration controls and border enforcement. However, the suggestion of a 'merit-based pathway to citizenship' indicates a willingness to consider some form of immigration reform, which is more nuanced and not exclusively right-wing. Overall, the focus on border security leans the orientation towards the right.\"\n}\n```",
+      "explanation": "The author's emphasis on 'stronger border security' aligns with conservative or right-wing political views, which often prioritize strict immigration controls and border enforcement. However, the suggestion of a 'merit-based pathway to citizenship' indicates a willingness to consider some form of immigration reform, which is more nuanced and not exclusively right-wing. Overall, the focus on border security leans the orientation towards the right."
+    },
+    {
+      "author": "PatriotQuestions2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough clear indicators to definitively classify their political orientation. They express a willingness to consider different perspectives on immigration and citizenship, which could align with either left or right views depending on the context. The mention of 'economic factors' and questioning the media's portrayal of the border situation suggests a nuanced view that could lean in either direction. Therefore, without more specific details, the orientation remains unknown.\"\n}\n```",
+      "explanation": "The author's post does not provide enough clear indicators to definitively classify their political orientation. They express a willingness to consider different perspectives on immigration and citizenship, which could align with either left or right views depending on the context. The mention of 'economic factors' and questioning the media's portrayal of the border situation suggests a nuanced view that could lean in either direction. Therefore, without more specific details, the orientation remains unknown."
+    },
+    {
+      "author": "ConservativeQuestions2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'ConservativeQuestions2024', suggests a right-leaning orientation. The content of the post also aligns with conservative views on border security, but the author also expresses a willingness to consider more compassionate and balanced approaches to immigration, which is a nuanced stance that still leans right but shows some openness to more moderate policies.\"\n}\n```",
+      "explanation": "The author's username, 'ConservativeQuestions2024', suggests a right-leaning orientation. The content of the post also aligns with conservative views on border security, but the author also expresses a willingness to consider more compassionate and balanced approaches to immigration, which is a nuanced stance that still leans right but shows some openness to more moderate policies."
+    },
+    {
+      "author": "BorderPatriotTX",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on border security, specifically mentioning the need for a wall and increased border agents, aligns with conservative or right-wing political views. The skepticism about the effectiveness of the wall and the suggestion of alternative solutions like more border agents and technology also indicate a pragmatic approach to border security, which is often associated with right-wing politics. The use of the term 'illegal crossings' further suggests a tough stance on immigration, a common stance among right-wing politicians.\"\n}\n```",
+      "explanation": "The author's focus on border security, specifically mentioning the need for a wall and increased border agents, aligns with conservative or right-wing political views. The skepticism about the effectiveness of the wall and the suggestion of alternative solutions like more border agents and technology also indicate a pragmatic approach to border security, which is often associated with right-wing politics. The use of the term 'illegal crossings' further suggests a tough stance on immigration, a common stance among right-wing politicians."
+    },
+    {
+      "author": "ConservativeCompass2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'Conservative' in their username and their emphasis on 'strong borders' suggests a right-leaning political orientation. However, their willingness to consider a balanced approach that includes compassion for undocumented families and a merit-based system indicates a more nuanced view, but still leans towards conservative principles of border security and controlled immigration.\"\n}\n```",
+      "explanation": "The author's use of the term 'Conservative' in their username and their emphasis on 'strong borders' suggests a right-leaning political orientation. However, their willingness to consider a balanced approach that includes compassion for undocumented families and a merit-based system indicates a more nuanced view, but still leans towards conservative principles of border security and controlled immigration."
+    },
+    {
+      "author": "BorderSecurityQuestions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a concern for border security, which is often associated with right-leaning political views. However, they also suggest improving the legal immigration process, which is a stance often associated with left-leaning or centrist views. The post does not provide enough clear indicators to definitively classify the author's political orientation, hence it is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a concern for border security, which is often associated with right-leaning political views. However, they also suggest improving the legal immigration process, which is a stance often associated with left-leaning or centrist views. The post does not provide enough clear indicators to definitively classify the author's political orientation, hence it is classified as UNKNOWN."
+    },
+    {
+      "author": "PatriotQuestions1776",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough clear indicators to definitively classify their political orientation. While they question the harshness of border security, they also express a need for better control, which could align with either left or right-leaning views. The mention of 'deserving a chance at citizenship' could lean towards a more liberal stance, but the overall tone and content are ambiguous.\"\n}\n```",
+      "explanation": "The author's post does not provide enough clear indicators to definitively classify their political orientation. While they question the harshness of border security, they also express a need for better control, which could align with either left or right-leaning views. The mention of 'deserving a chance at citizenship' could lean towards a more liberal stance, but the overall tone and content are ambiguous."
+    },
+    {
+      "author": "LibertarianDebater2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on free movement of people and labor markets aligns with more liberal or left-leaning views. However, their consideration of border security measures to prevent human trafficking and the suggestion of a streamlined legal immigration process indicate a more pragmatic or conservative approach to immigration, which is often associated with right-leaning political orientations. The overall tone suggests a balance between free-market principles and security concerns, which is more characteristic of right-leaning or libertarian views.\"\n}\n```",
+      "explanation": "The author's stance on free movement of people and labor markets aligns with more liberal or left-leaning views. However, their consideration of border security measures to prevent human trafficking and the suggestion of a streamlined legal immigration process indicate a more pragmatic or conservative approach to immigration, which is often associated with right-leaning political orientations. The overall tone suggests a balance between free-market principles and security concerns, which is more characteristic of right-leaning or libertarian views."
+    }
+  ],
+  "file_path": "Claude_balancedData/Immigration_Reform/balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_claude-3.5-sonnet_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "meta-llama/llama-3.1-70b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 71.42857142857143,
+      "recall": 100.0,
+      "f1_score": 8333.333333333332,
+      "true_positive": 10,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's opposition to voter ID laws, which are often supported by conservatives, and their advocacy for expanding mail-in voting and ending gerrymandering, which are typically liberal positions, suggest a left-leaning orientation. Additionally, the emphasis on protecting every citizen's right to vote and ensuring fair and free elections aligns with the values and priorities of the Democratic Party and liberal organizations focused on voting rights.\"\n}",
+      "explanation": "The author's opposition to voter ID laws, which are often supported by conservatives, and their advocacy for expanding mail-in voting and ending gerrymandering, which are typically liberal positions, suggest a left-leaning orientation. Additionally, the emphasis on protecting every citizen's right to vote and ensuring fair and free elections aligns with the values and priorities of the Democratic Party and liberal organizations focused on voting rights."
+    },
+    {
+      "author": "GreenVoterRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a left-leaning orientation due to their opposition to voter ID laws, which are often associated with conservative or Republican policies. Additionally, their advocacy for expanding mail-in voting and ending gerrymandering aligns with typical progressive or liberal stances on voting rights and electoral reform. The language used, such as 'suppress the voices of marginalized communities', also reflects a concern for social justice and equality, which is often a hallmark of left-wing politics.\"\n}",
+      "explanation": "The author's post suggests a left-leaning orientation due to their opposition to voter ID laws, which are often associated with conservative or Republican policies. Additionally, their advocacy for expanding mail-in voting and ending gerrymandering aligns with typical progressive or liberal stances on voting rights and electoral reform. The language used, such as 'suppress the voices of marginalized communities', also reflects a concern for social justice and equality, which is often a hallmark of left-wing politics."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a strong liberal or progressive stance on voting rights issues. The criticism of voter ID laws as a means of voter suppression is a common argument made by left-leaning individuals and organizations. Additionally, the call to expand access to mail-in voting and end gerrymandering are also positions commonly associated with the left. The use of phrases such as 'marginalized communities' and 'corrupt practice' also suggests a tone and language often used by left-leaning individuals.\"\n}",
+      "explanation": "The author's post suggests a strong liberal or progressive stance on voting rights issues. The criticism of voter ID laws as a means of voter suppression is a common argument made by left-leaning individuals and organizations. Additionally, the call to expand access to mail-in voting and end gerrymandering are also positions commonly associated with the left. The use of phrases such as 'marginalized communities' and 'corrupt practice' also suggests a tone and language often used by left-leaning individuals."
+    },
+    {
+      "author": "ElectionIntegrityNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on strict voter ID laws and criticism of mail-in voting are positions commonly associated with conservative or right-leaning ideologies in the United States. Additionally, the mention of gerrymandering as a corrupt practice suggests a concern for electoral fairness, but the overall tone and focus on voter ID laws and mail-in voting suggest a more conservative approach to election integrity. This is consistent with right-leaning views on election security and voter verification.\"\n}",
+      "explanation": "The author's emphasis on strict voter ID laws and criticism of mail-in voting are positions commonly associated with conservative or right-leaning ideologies in the United States. Additionally, the mention of gerrymandering as a corrupt practice suggests a concern for electoral fairness, but the overall tone and focus on voter ID laws and mail-in voting suggest a more conservative approach to election integrity. This is consistent with right-leaning views on election security and voter verification."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's opposition to gerrymandering is a bipartisan issue, but their stance on mail-in voting and emphasis on voter ID laws are characteristic of conservative or right-leaning views. The phrase 'true American voter' also has a nationalist tone, which is often associated with right-wing ideologies. Additionally, the focus on voter ID laws and the implication that mail-in voting is a threat to election integrity are common talking points among conservative politicians and pundits.\"\n}",
+      "explanation": "The author's opposition to gerrymandering is a bipartisan issue, but their stance on mail-in voting and emphasis on voter ID laws are characteristic of conservative or right-leaning views. The phrase 'true American voter' also has a nationalist tone, which is often associated with right-wing ideologies. Additionally, the focus on voter ID laws and the implication that mail-in voting is a threat to election integrity are common talking points among conservative politicians and pundits."
+    },
+    {
+      "author": "ElectionGuardian",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement about mail-in voting being a 'clear path to fraud and corruption' and the call for 'strict voter ID laws' are common talking points among conservative and right-leaning individuals in the United States. Additionally, the framing of voter ID laws as a means to 'protect our democracy' suggests a concern for election integrity that is often emphasized by right-wing politicians and pundits. The mention of gerrymandering as a tool for the 'elite' to manipulate the will of the people is a more bipartisan concern, but in this context, it is paired with a distinctly right-wing perspective on voter ID laws, leading to an overall classification of RIGHT.\"\n}",
+      "explanation": "The author's statement about mail-in voting being a 'clear path to fraud and corruption' and the call for 'strict voter ID laws' are common talking points among conservative and right-leaning individuals in the United States. Additionally, the framing of voter ID laws as a means to 'protect our democracy' suggests a concern for election integrity that is often emphasized by right-wing politicians and pundits. The mention of gerrymandering as a tool for the 'elite' to manipulate the will of the people is a more bipartisan concern, but in this context, it is paired with a distinctly right-wing perspective on voter ID laws, leading to an overall classification of RIGHT."
+    },
+    {
+      "author": "ElectionIntegrityFirst",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and opposition to mail-in voting are positions commonly associated with conservative or right-leaning individuals in the United States. Additionally, the framing of voter ID laws as a 'necessary safeguard against fraud' suggests a skepticism of the electoral process that is often expressed by those on the right. While the author's opposition to gerrymandering could be seen as a bipartisan issue, the overall tone and emphasis on election integrity through voter ID laws and restrictions on mail-in voting suggest a right-leaning orientation.\"\n}",
+      "explanation": "The author's support for voter ID laws and opposition to mail-in voting are positions commonly associated with conservative or right-leaning individuals in the United States. Additionally, the framing of voter ID laws as a 'necessary safeguard against fraud' suggests a skepticism of the electoral process that is often expressed by those on the right. While the author's opposition to gerrymandering could be seen as a bipartisan issue, the overall tone and emphasis on election integrity through voter ID laws and restrictions on mail-in voting suggest a right-leaning orientation."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's opposition to voter ID laws and support for mail-in voting and fair redistricting are characteristic of a left-leaning political orientation. These positions are commonly associated with the Democratic Party and liberal advocacy groups, which often argue that voter ID laws disproportionately affect marginalized communities and that mail-in voting and fair redistricting are necessary to protect voting rights and ensure equal representation. The author's use of phrases like 'marginalized communities' and 'every voice is heard' also suggests a focus on social justice and equality, which is a core value of the left.\"\n}",
+      "explanation": "The author's opposition to voter ID laws and support for mail-in voting and fair redistricting are characteristic of a left-leaning political orientation. These positions are commonly associated with the Democratic Party and liberal advocacy groups, which often argue that voter ID laws disproportionately affect marginalized communities and that mail-in voting and fair redistricting are necessary to protect voting rights and ensure equal representation. The author's use of phrases like 'marginalized communities' and 'every voice is heard' also suggests a focus on social justice and equality, which is a core value of the left."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a strong liberal or progressive stance on voting rights issues. The opposition to voter ID laws, which are often championed by conservatives, and the support for mail-in voting, which is often advocated for by liberals, indicate a left-leaning orientation. Additionally, the mention of gerrymandering, a practice often criticized by liberals, further reinforces this classification. The author's language and tone also suggest a commitment to social justice and equality, which are core values of the left.\"\n}",
+      "explanation": "The author's post suggests a strong liberal or progressive stance on voting rights issues. The opposition to voter ID laws, which are often championed by conservatives, and the support for mail-in voting, which is often advocated for by liberals, indicate a left-leaning orientation. Additionally, the mention of gerrymandering, a practice often criticized by liberals, further reinforces this classification. The author's language and tone also suggest a commitment to social justice and equality, which are core values of the left."
+    },
+    {
+      "author": "GreenVoterRights",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's opposition to voter ID laws and support for mail-in voting and fair districting are typical positions held by those on the left side of the political spectrum. Additionally, the mention of 'environmental justice' is a term often used by progressive and liberal groups, further suggesting a left-leaning orientation. The author's username, 'GreenVoterRights', also implies an affiliation with environmental and progressive causes.\"\n}",
+      "explanation": "The author's opposition to voter ID laws and support for mail-in voting and fair districting are typical positions held by those on the left side of the political spectrum. Additionally, the mention of 'environmental justice' is a term often used by progressive and liberal groups, further suggesting a left-leaning orientation. The author's username, 'GreenVoterRights', also implies an affiliation with environmental and progressive causes."
+    },
+    {
+      "author": "ElectionIntegrityMatters",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on voter ID laws and criticism of mail-in voting and gerrymandering are common positions associated with conservative or right-leaning politics in the United States. The language used, such as 'election integrity' and 'sanctity of our democratic process', also suggests a tone and framing often employed by right-wing commentators and politicians. Additionally, the specific issues mentioned are often debated along partisan lines, with Republicans typically advocating for stricter voter ID laws and Democrats pushing for expanded voting access and reforms to gerrymandering.\"\n}",
+      "explanation": "The author's emphasis on voter ID laws and criticism of mail-in voting and gerrymandering are common positions associated with conservative or right-leaning politics in the United States. The language used, such as 'election integrity' and 'sanctity of our democratic process', also suggests a tone and framing often employed by right-wing commentators and politicians. Additionally, the specific issues mentioned are often debated along partisan lines, with Republicans typically advocating for stricter voter ID laws and Democrats pushing for expanded voting access and reforms to gerrymandering."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on voter ID laws and mail-in voting suggests a conservative or right-leaning perspective. The emphasis on preventing voter fraud and the criticism of mail-in voting as a 'disaster waiting to happen' are common talking points among Republicans and conservative groups. Additionally, the use of the term 'elites' to describe those who allegedly benefit from gerrymandering implies a populist or anti-establishment sentiment, which is also consistent with right-wing ideology. Overall, the author's language and concerns suggest a right-leaning orientation.\"\n}",
+      "explanation": "The author's stance on voter ID laws and mail-in voting suggests a conservative or right-leaning perspective. The emphasis on preventing voter fraud and the criticism of mail-in voting as a 'disaster waiting to happen' are common talking points among Republicans and conservative groups. Additionally, the use of the term 'elites' to describe those who allegedly benefit from gerrymandering implies a populist or anti-establishment sentiment, which is also consistent with right-wing ideology. Overall, the author's language and concerns suggest a right-leaning orientation."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on voter ID laws and concerns about mail-in voting are common positions associated with conservative or right-leaning individuals in the United States. Additionally, the mention of gerrymandering as a means of silencing the will of the people suggests that the author is concerned about the manipulation of electoral outcomes, which is a concern often expressed by conservatives. Overall, the tone and content of the post suggest a right-leaning perspective on election integrity and voting issues.\"\n}",
+      "explanation": "The author's emphasis on voter ID laws and concerns about mail-in voting are common positions associated with conservative or right-leaning individuals in the United States. Additionally, the mention of gerrymandering as a means of silencing the will of the people suggests that the author is concerned about the manipulation of electoral outcomes, which is a concern often expressed by conservatives. Overall, the tone and content of the post suggest a right-leaning perspective on election integrity and voting issues."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on voter ID laws and concerns about mail-in voting suggest a conservative or right-leaning perspective. These issues are often associated with Republican Party platforms and are frequently debated along partisan lines. The mention of gerrymandering, which is a concern shared by both parties, does not necessarily indicate a left-leaning orientation in this context, as the author's primary focus is on issues typically championed by the right. Overall, the author's language and concerns suggest a right-leaning orientation.\"\n}",
+      "explanation": "The author's emphasis on voter ID laws and concerns about mail-in voting suggest a conservative or right-leaning perspective. These issues are often associated with Republican Party platforms and are frequently debated along partisan lines. The mention of gerrymandering, which is a concern shared by both parties, does not necessarily indicate a left-leaning orientation in this context, as the author's primary focus is on issues typically championed by the right. Overall, the author's language and concerns suggest a right-leaning orientation."
+    },
+    {
+      "author": "LibertyVoter",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are common positions associated with conservative or right-leaning politics in the United States. Voter ID laws are often championed by Republicans as a means of preventing voter fraud, while mail-in voting and gerrymandering are often criticized by conservatives as being vulnerable to abuse and manipulation. The author's language, such as 'ensuring the integrity of our elections' and 'diluting the value of each vote', also suggests a conservative perspective on election security and the importance of individual votes.\"\n}",
+      "explanation": "The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are common positions associated with conservative or right-leaning politics in the United States. Voter ID laws are often championed by Republicans as a means of preventing voter fraud, while mail-in voting and gerrymandering are often criticized by conservatives as being vulnerable to abuse and manipulation. The author's language, such as 'ensuring the integrity of our elections' and 'diluting the value of each vote', also suggests a conservative perspective on election security and the importance of individual votes."
+    },
+    {
+      "author": "LibertyDefender",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies in the United States. Voter ID laws are often championed by Republicans as a means to prevent voter fraud, while Democrats tend to view them as a form of voter suppression. Similarly, mail-in voting is often supported by Democrats as a way to increase voter access, while Republicans have raised concerns about its potential for fraud. Gerrymandering is a more nuanced issue, but the author's framing of it as a means to 'dilute the power of individual votes' suggests a conservative perspective. Overall, the author's language and policy positions suggest a right-leaning orientation.\"\n}",
+      "explanation": "The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies in the United States. Voter ID laws are often championed by Republicans as a means to prevent voter fraud, while Democrats tend to view them as a form of voter suppression. Similarly, mail-in voting is often supported by Democrats as a way to increase voter access, while Republicans have raised concerns about its potential for fraud. Gerrymandering is a more nuanced issue, but the author's framing of it as a means to 'dilute the power of individual votes' suggests a conservative perspective. Overall, the author's language and policy positions suggest a right-leaning orientation."
+    },
+    {
+      "author": "LibertyVoter",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and opposition to mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies in the United States. Voter ID laws are often championed by Republicans as a means of preventing voter fraud, while Democrats tend to argue that such laws can disenfranchise certain groups of voters. Similarly, opposition to mail-in voting and gerrymandering is also more commonly found on the right side of the political spectrum. The author's use of the phrase 'dilute the voice of the individual' also suggests a focus on individual rights and limited government intervention, which is a hallmark of conservative thought.\"\n}",
+      "explanation": "The author's support for voter ID laws and opposition to mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies in the United States. Voter ID laws are often championed by Republicans as a means of preventing voter fraud, while Democrats tend to argue that such laws can disenfranchise certain groups of voters. Similarly, opposition to mail-in voting and gerrymandering is also more commonly found on the right side of the political spectrum. The author's use of the phrase 'dilute the voice of the individual' also suggests a focus on individual rights and limited government intervention, which is a hallmark of conservative thought."
+    },
+    {
+      "author": "ElectionGuardian",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a conservative or right-leaning perspective on voting and election issues. The emphasis on voter ID laws as 'essential' for election integrity is a common stance among Republicans and conservatives, who often argue that such laws are necessary to prevent voter fraud. The criticism of mail-in voting as a 'recipe for fraud' also aligns with right-wing concerns about the potential for voter manipulation. Additionally, the author's reference to 'corrupt elites' and 'gerrymandering' as a means of manipulation suggests a populist, anti-establishment tone that is often associated with right-wing politics.\"\n}",
+      "explanation": "The author's post suggests a conservative or right-leaning perspective on voting and election issues. The emphasis on voter ID laws as 'essential' for election integrity is a common stance among Republicans and conservatives, who often argue that such laws are necessary to prevent voter fraud. The criticism of mail-in voting as a 'recipe for fraud' also aligns with right-wing concerns about the potential for voter manipulation. Additionally, the author's reference to 'corrupt elites' and 'gerrymandering' as a means of manipulation suggests a populist, anti-establishment tone that is often associated with right-wing politics."
+    },
+    {
+      "author": "ElectionIntegrityAdvocate",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and criticism of mail-in voting are positions commonly associated with conservative or right-leaning individuals, who often prioritize election security and express concerns about voter fraud. Additionally, while opposition to gerrymandering is a bipartisan issue, the tone and context of the post suggest that the author is coming from a right-leaning perspective, as some conservative groups have been vocal about the need to reform gerrymandering practices. Overall, the language and policy positions expressed in the post are more characteristic of a right-leaning individual.\"\n}",
+      "explanation": "The author's support for voter ID laws and criticism of mail-in voting are positions commonly associated with conservative or right-leaning individuals, who often prioritize election security and express concerns about voter fraud. Additionally, while opposition to gerrymandering is a bipartisan issue, the tone and context of the post suggest that the author is coming from a right-leaning perspective, as some conservative groups have been vocal about the need to reform gerrymandering practices. Overall, the language and policy positions expressed in the post are more characteristic of a right-leaning individual."
+    },
+    {
+      "author": "LibertyVoter",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies. Voter ID laws are often championed by Republicans as a means to prevent voter fraud, while mail-in voting and gerrymandering are often opposed by conservatives who see them as mechanisms that can be exploited by Democrats. The author's use of phrases like 'election integrity' and 'sanctity of our democratic process' also suggests a conservative tone.\"\n}",
+      "explanation": "The author's support for voter ID laws and criticism of mail-in voting and gerrymandering are positions commonly associated with conservative or right-leaning ideologies. Voter ID laws are often championed by Republicans as a means to prevent voter fraud, while mail-in voting and gerrymandering are often opposed by conservatives who see them as mechanisms that can be exploited by Democrats. The author's use of phrases like 'election integrity' and 'sanctity of our democratic process' also suggests a conservative tone."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_high_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_qwen-2.5-72b-instruct_meta-llama_llama-3.1-70b-instruct_analysis.json"
+}

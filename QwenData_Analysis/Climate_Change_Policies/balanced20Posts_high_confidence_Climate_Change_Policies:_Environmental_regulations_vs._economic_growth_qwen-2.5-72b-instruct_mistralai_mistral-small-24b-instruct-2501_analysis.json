@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 76.92307692307693,
+      "recall": 100.0,
+      "f1_score": 8695.652173913044,
+      "true_positive": 10,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "EcoRealist85",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of economic prosperity over environmental regulations, which is a stance often associated with right-leaning political views. The use of phrases like 'strangling businesses' and 'radical green agendas' suggests a skepticism towards environmental regulations and a preference for economic growth, which are common themes in right-wing political discourse.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of economic prosperity over environmental regulations, which is a stance often associated with right-leaning political views. The use of phrases like 'strangling businesses' and 'radical green agendas' suggests a skepticism towards environmental regulations and a preference for economic growth, which are common themes in right-wing political discourse."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations and sustainable growth, along with the prioritization of long-term environmental health over short-term economic gains, aligns with typical left-leaning political views. These views often advocate for government intervention to protect the environment and promote sustainability, which are common positions among left-wing politicians and activists.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations and sustainable growth, along with the prioritization of long-term environmental health over short-term economic gains, aligns with typical left-leaning political views. These views often advocate for government intervention to protect the environment and promote sustainability, which are common positions among left-wing politicians and activists."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations and sustainable growth, along with the prioritization of long-term environmental health over short-term economic gains, aligns with typical left-leaning political views. These views often advocate for government intervention to protect the environment and promote sustainability, which are common themes in left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations and sustainable growth, along with the prioritization of long-term environmental health over short-term economic gains, aligns with typical left-leaning political views. These views often advocate for government intervention to protect the environment and promote sustainability, which are common themes in left-wing politics."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on prioritizing economic prosperity over environmental concerns and the characterization of climate fears as 'exaggerated' aligns with right-leaning political views. Right-leaning individuals often advocate for deregulation and prioritize economic growth over environmental regulations.\"\n}\n```",
+      "explanation": "The author's emphasis on prioritizing economic prosperity over environmental concerns and the characterization of climate fears as 'exaggerated' aligns with right-leaning political views. Right-leaning individuals often advocate for deregulation and prioritize economic growth over environmental regulations."
+    },
+    {
+      "author": "EcoRealistUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for policies that prioritize economic growth over strict environmental controls. This stance is often associated with right-leaning political orientations, which typically advocate for less government intervention in business and a focus on economic growth.\"\n}\n```",
+      "explanation": "The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for policies that prioritize economic growth over strict environmental controls. This stance is often associated with right-leaning political orientations, which typically advocate for less government intervention in business and a focus on economic growth."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on prioritizing environmental regulations over economic growth and their criticism of corporations profiting at the expense of the planet aligns with left-wing political views. Left-wing politics often advocate for stronger environmental protections and regulation of corporate activities to ensure sustainability and social equity.\"\n}\n```",
+      "explanation": "The author's emphasis on prioritizing environmental regulations over economic growth and their criticism of corporations profiting at the expense of the planet aligns with left-wing political views. Left-wing politics often advocate for stronger environmental protections and regulation of corporate activities to ensure sustainability and social equity."
+    },
+    {
+      "author": "GreenFutureNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on prioritizing environmental regulations and willingness to slow economic growth for the sake of the planet's future aligns with left-leaning political views. Left-leaning individuals often advocate for stronger environmental protections and are more likely to support policies that prioritize long-term environmental sustainability over immediate economic gains.\"\n}\n```",
+      "explanation": "The author's emphasis on prioritizing environmental regulations and willingness to slow economic growth for the sake of the planet's future aligns with left-leaning political views. Left-leaning individuals often advocate for stronger environmental protections and are more likely to support policies that prioritize long-term environmental sustainability over immediate economic gains."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes environmental protection and sustainability, which are typically associated with left-leaning political views. The call for strong environmental regulations and prioritizing the planet's future over short-term economic gains aligns with progressive policies often advocated by the left.\"\n}\n```",
+      "explanation": "The author emphasizes environmental protection and sustainability, which are typically associated with left-leaning political views. The call for strong environmental regulations and prioritizing the planet's future over short-term economic gains aligns with progressive policies often advocated by the left."
+    },
+    {
+      "author": "EcoWarrior92",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on stringent environmental regulations and prioritizing the environment over economic growth aligns with left-leaning political views. Left-wing politics often advocate for environmental protection and sustainability, even if it means regulating or limiting economic activities. The statement also reflects a concern for future generations, which is a common theme in progressive and leftist ideologies.\"\n}\n```",
+      "explanation": "The author's emphasis on stringent environmental regulations and prioritizing the environment over economic growth aligns with left-leaning political views. Left-wing politics often advocate for environmental protection and sustainability, even if it means regulating or limiting economic activities. The statement also reflects a concern for future generations, which is a common theme in progressive and leftist ideologies."
+    },
+    {
+      "author": "EcoWarrior92",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations and prioritizing sustainability over economic growth aligns with left-leaning political views. Left-leaning individuals often advocate for stronger environmental protections and are more likely to prioritize long-term environmental sustainability over immediate economic gains. The mention of 'unchecked economic growth' and the 'cost of inaction on climate change' further supports this classification.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations and prioritizing sustainability over economic growth aligns with left-leaning political views. Left-leaning individuals often advocate for stronger environmental protections and are more likely to prioritize long-term environmental sustainability over immediate economic gains. The mention of 'unchecked economic growth' and the 'cost of inaction on climate change' further supports this classification."
+    },
+    {
+      "author": "EcoRealistUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the potential negative economic impacts of environmental regulations, suggesting a prioritization of economic growth and job creation over strict environmental protections. This stance is often associated with right-leaning political views, which tend to favor deregulation and economic prosperity.\"\n}\n```",
+      "explanation": "The author's post emphasizes the potential negative economic impacts of environmental regulations, suggesting a prioritization of economic growth and job creation over strict environmental protections. This stance is often associated with right-leaning political views, which tend to favor deregulation and economic prosperity."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for less regulation. This stance is often associated with right-leaning political orientations, which typically prioritize economic growth and business interests over stringent environmental regulations. The author also mentions the need for 'smart policies' that balance protection with prosperity, indicating a belief in market-driven solutions and a cautious approach to environmental regulation, which are common themes in right-wing political discourse.\"\n}\n```",
+      "explanation": "The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for less regulation. This stance is often associated with right-leaning political orientations, which typically prioritize economic growth and business interests over stringent environmental regulations. The author also mentions the need for 'smart policies' that balance protection with prosperity, indicating a belief in market-driven solutions and a cautious approach to environmental regulation, which are common themes in right-wing political discourse."
+    },
+    {
+      "author": "EconFirstPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on the potential negative impact of environmental regulations on businesses, the economy, and job creation suggests a right-leaning political orientation. The phrase 'strangling businesses' indicates a concern for economic growth and prosperity, which are often prioritized by right-wing politics. The call for 'smart policies' that balance environmental protection with economic prosperity also aligns with conservative views that advocate for deregulation and market-friendly policies.\"\n}\n```",
+      "explanation": "The author's emphasis on the potential negative impact of environmental regulations on businesses, the economy, and job creation suggests a right-leaning political orientation. The phrase 'strangling businesses' indicates a concern for economic growth and prosperity, which are often prioritized by right-wing politics. The call for 'smart policies' that balance environmental protection with economic prosperity also aligns with conservative views that advocate for deregulation and market-friendly policies."
+    },
+    {
+      "author": "EcoSmartGOP",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for deregulation and economic growth. This stance is typically associated with right-leaning political orientations, which often prioritize business interests and economic growth over stringent environmental regulations. The use of the term 'smart policies' indicates a willingness to balance environmental protection with economic considerations, but the overall tone is critical of overbearing regulations, which is a common right-wing perspective.\"\n}\n```",
+      "explanation": "The author's post emphasizes the negative impact of environmental regulations on businesses and the economy, suggesting a preference for deregulation and economic growth. This stance is typically associated with right-leaning political orientations, which often prioritize business interests and economic growth over stringent environmental regulations. The use of the term 'smart policies' indicates a willingness to balance environmental protection with economic considerations, but the overall tone is critical of overbearing regulations, which is a common right-wing perspective."
+    },
+    {
+      "author": "LibertyFirstEcon",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of free market solutions and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market-driven solutions.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of free market solutions and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market-driven solutions."
+    },
+    {
+      "author": "LibertyFirstEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of free markets and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market solutions.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of free markets and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market solutions."
+    },
+    {
+      "author": "LibertyFirstEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of free markets and opposes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for minimal government intervention and prioritize economic freedom and market-driven solutions.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of free markets and opposes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for minimal government intervention and prioritize economic freedom and market-driven solutions."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the negative impact of environmental regulations on businesses, economy, and job growth. This perspective is often associated with right-leaning political views, which tend to prioritize economic growth and deregulation over strict environmental regulations. The call for 'smart solutions' that balance environmental concerns and economic prosperity suggests a preference for market-based or less stringent regulatory approaches, which are typically favored by right-leaning individuals.\"\n}\n```",
+      "explanation": "The author expresses concern about the negative impact of environmental regulations on businesses, economy, and job growth. This perspective is often associated with right-leaning political views, which tend to prioritize economic growth and deregulation over strict environmental regulations. The call for 'smart solutions' that balance environmental concerns and economic prosperity suggests a preference for market-based or less stringent regulatory approaches, which are typically favored by right-leaning individuals."
+    },
+    {
+      "author": "LibertyMatters",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post emphasizes the importance of free market solutions and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market-driven solutions.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of free market solutions and criticizes government regulations, particularly environmental regulations. This stance is typically associated with right-leaning political orientations, which often advocate for less government intervention and more reliance on market-driven solutions."
+    },
+    {
+      "author": "EcoEconomyChampion",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about the economic impact of environmental regulations, suggesting that they are 'overbearing' and could 'cripple our economy' and 'send jobs overseas.' This perspective aligns with right-leaning views that often prioritize economic growth and business interests over stringent environmental regulations. The call for 'smart balanced policies' indicates a preference for a more moderate approach to environmental protection, which is also a common stance among right-leaning individuals.\"\n}\n```",
+      "explanation": "The author expresses concern about the economic impact of environmental regulations, suggesting that they are 'overbearing' and could 'cripple our economy' and 'send jobs overseas.' This perspective aligns with right-leaning views that often prioritize economic growth and business interests over stringent environmental regulations. The call for 'smart balanced policies' indicates a preference for a more moderate approach to environmental protection, which is also a common stance among right-leaning individuals."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Climate_Change_Policy/balanced20Posts_high_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

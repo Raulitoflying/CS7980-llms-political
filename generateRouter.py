@@ -385,14 +385,16 @@ def generate_posts(model_name, mode="mixed", topic=None, count=20, confidence_le
 
 # Models to use for generation
 models = [
-    "mistralai/mistral-small-24b-instruct-2501",
-    "google/gemini-2.0-flash-001",
-    "deepseek/deepseek-r1",
+    "meta-llama/llama-3.1-70b-instruct",
+    "anthropic/claude-3.5-sonnet",
+    "qwen/qwen-2.5-72b-instruct",
 
 ]
 
 # List of specific topics to generate balanced posts about
 specific_topics = [
+    "Gun Control and Second Amendment Rights: Balancing gun ownership rights with public safety",
+    "Abortion Rights: Debates on abortion access and reproductive freedom",
     "Immigration Reform: Border security, undocumented immigrants, and pathway to citizenship",
     "Climate Change Policies: Environmental regulations vs. economic growth",
     "LGBTQ+ and Transgender Rights: Rights in education, healthcare, and public spaces",
@@ -421,7 +423,9 @@ if __name__ == "__main__":
     #    generate_posts(models[0], mode="topic", topic=topic, count=20, confidence_level="low")
     
     # Option 3: Generate balanced posts (10 left + 10 right) for specific topics
-    # for topic in specific_topics:
-        generate_posts(models[0], mode="balanced", topic="Immigration Reform: Border security, undocumented immigrants, and pathway to citizenship", confidence_level="high")
+    for topic in specific_topics:
+        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="high")
+            
+        generate_posts(models[0], mode="balanced", topic=topic, confidence_level="low")
         
-        generate_posts(models[0], mode="balanced", topic="Immigration Reform: Border security, undocumented immigrants, and pathway to citizenship", confidence_level="low")
+        

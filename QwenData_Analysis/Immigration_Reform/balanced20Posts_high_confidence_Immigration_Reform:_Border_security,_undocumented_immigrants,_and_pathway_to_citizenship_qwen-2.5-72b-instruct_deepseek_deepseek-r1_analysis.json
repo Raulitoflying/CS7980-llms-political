@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 88.88888888888889,
+      "recall": 80.0,
+      "f1_score": 8421.052631578948,
+      "true_positive": 8,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 90.0,
+      "recall": 90.0,
+      "f1_score": 9000.0,
+      "true_positive": 9,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "BorderGuardPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security, opposition to amnesty for undocumented immigrants, and prioritizing American jobs and safety\u2014positions commonly associated with conservative or right-leaning political ideologies. The use of terms like 'fortify our borders,' 'deny amnesty to those who break our laws,' and 'illegal immigration' aligns with right-wing rhetoric that frames immigration enforcement as a matter of national sovereignty and economic protection. These stances are central to many right-wing platforms in the U.S., which often prioritize law-and-order approaches to immigration over progressive calls for reform or pathways to citizenship.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security, opposition to amnesty for undocumented immigrants, and prioritizing American jobs and safety\u2014positions commonly associated with conservative or right-leaning political ideologies. The use of terms like 'fortify our borders,' 'deny amnesty to those who break our laws,' and 'illegal immigration' aligns with right-wing rhetoric that frames immigration enforcement as a matter of national sovereignty and economic protection. These stances are central to many right-wing platforms in the U.S., which often prioritize law-and-order approaches to immigration over progressive calls for reform or pathways to citizenship."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post combines support for border security with a pathway to citizenship, which is a hallmark of centrist or moderate positions. However, the emphasis on 'humane' treatment, 'just pathway,' and 'nation's progress' aligns more closely with left-leaning rhetoric that prioritizes social justice and immigration reform. While border security is often a right-wing priority, the inclusion of citizenship pathways and humanitarian framing is more characteristic of progressive or left-leaning proposals, such as comprehensive immigration reform efforts supported by Democrats. Thus, the overall message leans LEFT despite the mixed elements.\"\n}\n```",
+      "explanation": "The post combines support for border security with a pathway to citizenship, which is a hallmark of centrist or moderate positions. However, the emphasis on 'humane' treatment, 'just pathway,' and 'nation's progress' aligns more closely with left-leaning rhetoric that prioritizes social justice and immigration reform. While border security is often a right-wing priority, the inclusion of citizenship pathways and humanitarian framing is more characteristic of progressive or left-leaning proposals, such as comprehensive immigration reform efforts supported by Democrats. Thus, the overall message leans LEFT despite the mixed elements."
+    },
+    {
+      "author": "JusticeForAllImmigrants",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"While the post mentions securing borders\u2014a stance often associated with conservative or right-leaning policies\u2014the emphasis on a 'compassionate and inclusive immigration system,' a 'pathway to citizenship for undocumented immigrants,' and the use of progressive terminology like 'undocumented' (instead of 'illegal') strongly aligns with left-leaning priorities. The author's username ('JusticeForAllImmigrants') and framing of immigration as a matter of justice and national values (e.g., inclusivity, compassion) further reinforce a progressive perspective. The mention of border security here may reflect a pragmatic acknowledgment of enforcement but does not outweigh the dominant focus on systemic reform and immigrant rights.\"\n}\n```",
+      "explanation": "While the post mentions securing borders\u2014a stance often associated with conservative or right-leaning policies\u2014the emphasis on a 'compassionate and inclusive immigration system,' a 'pathway to citizenship for undocumented immigrants,' and the use of progressive terminology like 'undocumented' (instead of 'illegal') strongly aligns with left-leaning priorities. The author's username ('JusticeForAllImmigrants') and framing of immigration as a matter of justice and national values (e.g., inclusivity, compassion) further reinforce a progressive perspective. The mention of border security here may reflect a pragmatic acknowledgment of enforcement but does not outweigh the dominant focus on systemic reform and immigrant rights."
+    },
+    {
+      "author": "GreenBorderAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'humane and sustainable immigration policies,' 'protect[ing] our environment,' and a 'just pathway to citizenship'\u2014all hallmarks of progressive/left-leaning positions. The critique of border security rooted in 'division and fear' aligns with left-wing critiques of right-wing immigration enforcement strategies. Additionally, linking environmental concerns with immigration policy reflects a holistic, socially conscious approach typical of leftist frameworks like the Green New Deal. The focus on compassion and systemic justice further solidifies this classification.\"\n}\n```",
+      "explanation": "The post emphasizes 'humane and sustainable immigration policies,' 'protect[ing] our environment,' and a 'just pathway to citizenship'\u2014all hallmarks of progressive/left-leaning positions. The critique of border security rooted in 'division and fear' aligns with left-wing critiques of right-wing immigration enforcement strategies. Additionally, linking environmental concerns with immigration policy reflects a holistic, socially conscious approach typical of leftist frameworks like the Green New Deal. The focus on compassion and systemic justice further solidifies this classification."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'humane border security' and a 'pathway to citizenship for undocumented immigrants,' which aligns with left-leaning advocacy for compassionate immigration reform. The framing of immigration as a 'moral duty' and the call for a 'more inclusive society' reflect progressive values prioritizing social justice, support for marginalized communities, and opposition to punitive enforcement measures. These positions are consistent with Democratic/left-wing platforms in the U.S. political context.\"\n}\n```",
+      "explanation": "The post emphasizes 'humane border security' and a 'pathway to citizenship for undocumented immigrants,' which aligns with left-leaning advocacy for compassionate immigration reform. The framing of immigration as a 'moral duty' and the call for a 'more inclusive society' reflect progressive values prioritizing social justice, support for marginalized communities, and opposition to punitive enforcement measures. These positions are consistent with Democratic/left-wing platforms in the U.S. political context."
+    },
+    {
+      "author": "EcoJusticeWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes humane immigration policies, environmental sustainability, and a pathway to citizenship for undocumented immigrants\u2014key priorities of progressive/left-leaning platforms. The critique of family separation and focus on addressing pollution and trafficking (rather than punitive border measures) further align with left-wing values centered on social justice, environmentalism, and systemic reform over strict enforcement.\"\n}\n```",
+      "explanation": "The post emphasizes humane immigration policies, environmental sustainability, and a pathway to citizenship for undocumented immigrants\u2014key priorities of progressive/left-leaning platforms. The critique of family separation and focus on addressing pollution and trafficking (rather than punitive border measures) further align with left-wing values centered on social justice, environmentalism, and systemic reform over strict enforcement."
+    },
+    {
+      "author": "CitizenshipAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'humane border security measures' and a 'pathway to citizenship for undocumented immigrants,' both of which align with progressive or left-leaning immigration policies. The call for a system reflecting 'inclusivity and justice' further underscores values commonly associated with leftist platforms, which prioritize social equity, compassion, and systemic reform over strict enforcement or exclusionary policies. The absence of right-leaning keywords (e.g., 'border enforcement,' 'illegal immigration') and the focus on integration and fairness solidify this classification.\"\n}\n```",
+      "explanation": "The post emphasizes 'humane border security measures' and a 'pathway to citizenship for undocumented immigrants,' both of which align with progressive or left-leaning immigration policies. The call for a system reflecting 'inclusivity and justice' further underscores values commonly associated with leftist platforms, which prioritize social equity, compassion, and systemic reform over strict enforcement or exclusionary policies. The absence of right-leaning keywords (e.g., 'border enforcement,' 'illegal immigration') and the focus on integration and fairness solidify this classification."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for 'humane border policies' and a 'pathway to citizenship for undocumented immigrants,' which are positions commonly associated with progressive or left-leaning political ideologies. The emphasis on embracing diversity and providing opportunities for all aligns with left-wing values of social justice, inclusivity, and support for immigration reform. These stances contrast with right-leaning perspectives that often prioritize strict border enforcement, national security, and opposition to amnesty programs. The language used reflects a focus on compassion and systemic inclusion, further signaling a left-oriented viewpoint.\"\n}\n```",
+      "explanation": "The post advocates for 'humane border policies' and a 'pathway to citizenship for undocumented immigrants,' which are positions commonly associated with progressive or left-leaning political ideologies. The emphasis on embracing diversity and providing opportunities for all aligns with left-wing values of social justice, inclusivity, and support for immigration reform. These stances contrast with right-leaning perspectives that often prioritize strict border enforcement, national security, and opposition to amnesty programs. The language used reflects a focus on compassion and systemic inclusion, further signaling a left-oriented viewpoint."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for humane border policies, a pathway to citizenship for undocumented immigrants, and critiques harsh enforcement measures like family separations and indefinite detention. These positions align with progressive or left-leaning stances, which typically emphasize immigration reform, social justice, and human rights over strict border enforcement. The focus on immigrants' societal contributions and rejection of punitive measures reflects common left-wing priorities in U.S. political discourse.\"\n}\n```",
+      "explanation": "The post advocates for humane border policies, a pathway to citizenship for undocumented immigrants, and critiques harsh enforcement measures like family separations and indefinite detention. These positions align with progressive or left-leaning stances, which typically emphasize immigration reform, social justice, and human rights over strict border enforcement. The focus on immigrants' societal contributions and rejection of punitive measures reflects common left-wing priorities in U.S. political discourse."
+    },
+    {
+      "author": "JusticeForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for 'humane border policies' and a 'clear pathway to citizenship for undocumented immigrants,' both of which are central tenets of progressive/left-leaning immigration platforms. The emphasis on immigrants' societal contributions and the framing of secure borders as a means to 'protect all who seek a better life' align with left-wing values prioritizing inclusion, social justice, and systemic reform over strict enforcement or exclusionary policies. The language reflects compassion and structural inclusivity, which are hallmarks of left-leaning discourse on immigration.\"\n}",
+      "explanation": "The post advocates for 'humane border policies' and a 'clear pathway to citizenship for undocumented immigrants,' both of which are central tenets of progressive/left-leaning immigration platforms. The emphasis on immigrants' societal contributions and the framing of secure borders as a means to 'protect all who seek a better life' align with left-wing values prioritizing inclusion, social justice, and systemic reform over strict enforcement or exclusionary policies. The language reflects compassion and structural inclusivity, which are hallmarks of left-leaning discourse on immigration."
+    },
+    {
+      "author": "LibertyFirst",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for 'open borders' and a 'streamlined pathway to citizenship,' positions typically aligned with progressive or left-leaning ideologies that prioritize inclusive immigration policies and view immigration as economically beneficial. The critique of 'restrictive policies' as barriers to freedom and prosperity further reflects left-wing arguments emphasizing social equity and opposition to strict border controls. While the username 'LibertyFirst' might suggest libertarian (often right-leaning) leanings, the content's focus on citizenship pathways and economic empowerment through open borders is more characteristic of leftist policy priorities. Libertarians may support open borders for economic freedom but are less likely to emphasize government-facilitated citizenship processes, making LEFT the most consistent classification here.\"\n}\n```",
+      "explanation": "The post advocates for 'open borders' and a 'streamlined pathway to citizenship,' positions typically aligned with progressive or left-leaning ideologies that prioritize inclusive immigration policies and view immigration as economically beneficial. The critique of 'restrictive policies' as barriers to freedom and prosperity further reflects left-wing arguments emphasizing social equity and opposition to strict border controls. While the username 'LibertyFirst' might suggest libertarian (often right-leaning) leanings, the content's focus on citizenship pathways and economic empowerment through open borders is more characteristic of leftist policy priorities. Libertarians may support open borders for economic freedom but are less likely to emphasize government-facilitated citizenship processes, making LEFT the most consistent classification here."
+    },
+    {
+      "author": "LibertyFirst",
+      "orientation": "unknown",
+      "raw_response": "",
+      "explanation": ""
+    },
+    {
+      "author": "Patriot_Border_Security",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict immigration enforcement and border security, which are central tenets of right-leaning political platforms. The use of terms like 'non-negotiable' and 'controlled pathway' aligns with conservative rhetoric prioritizing national sovereignty and merit-based immigration. While acknowledging a 'fair' pathway to citizenship, it is conditional on adherence to laws and 'positive contribution,' reflecting a right-leaning emphasis on law-and-order and assimilation. The username 'Patriot_Border_Security' further signals alignment with right-wing nationalism, as 'patriot' and border security are frequently invoked in conservative immigration debates.\"\n}",
+      "explanation": "The post emphasizes strict immigration enforcement and border security, which are central tenets of right-leaning political platforms. The use of terms like 'non-negotiable' and 'controlled pathway' aligns with conservative rhetoric prioritizing national sovereignty and merit-based immigration. While acknowledging a 'fair' pathway to citizenship, it is conditional on adherence to laws and 'positive contribution,' reflecting a right-leaning emphasis on law-and-order and assimilation. The username 'Patriot_Border_Security' further signals alignment with right-wing nationalism, as 'patriot' and border security are frequently invoked in conservative immigration debates."
+    },
+    {
+      "author": "LibertarianBorderAdvocate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for open borders and individual freedom to move and work without restrictions, which aligns with libertarian principles. Libertarianism, particularly in the U.S. context, is generally classified as right-leaning due to its emphasis on minimal government intervention, free markets, and economic liberty. While open borders can overlap with progressive stances, the reasoning here\u2014prioritizing individual rights over state control\u2014reflects a libertarian (right-wing) perspective rather than a leftist framework that might emphasize collective welfare or systemic equity alongside immigration reform.\"\n}\n```",
+      "explanation": "The post advocates for open borders and individual freedom to move and work without restrictions, which aligns with libertarian principles. Libertarianism, particularly in the U.S. context, is generally classified as right-leaning due to its emphasis on minimal government intervention, free markets, and economic liberty. While open borders can overlap with progressive stances, the reasoning here\u2014prioritizing individual rights over state control\u2014reflects a libertarian (right-wing) perspective rather than a leftist framework that might emphasize collective welfare or systemic equity alongside immigration reform."
+    },
+    {
+      "author": "PatriotBorder",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security and enforcement of immigration laws, which are hallmark issues of right-leaning political discourse. The insistence that citizenship must be 'earned through legal and orderly means' aligns with conservative priorities that prioritize rule-of-law approaches over more permissive policies. The username 'PatriotBorder' further reinforces a nationalist and security-focused perspective commonly associated with right-wing ideology. While the mention of a 'pathway to citizenship' might superficially suggest bipartisan elements, the qualifiers ('legal and orderly') and the broader context of the statement reflect a right-leaning stance on immigration.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security and enforcement of immigration laws, which are hallmark issues of right-leaning political discourse. The insistence that citizenship must be 'earned through legal and orderly means' aligns with conservative priorities that prioritize rule-of-law approaches over more permissive policies. The username 'PatriotBorder' further reinforces a nationalist and security-focused perspective commonly associated with right-wing ideology. While the mention of a 'pathway to citizenship' might superficially suggest bipartisan elements, the qualifiers ('legal and orderly') and the broader context of the statement reflect a right-leaning stance on immigration."
+    },
+    {
+      "author": "PatriotBorder",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security, enforcement of immigration laws, and prioritizing American jobs and safety\u2014common themes in right-leaning political discourse. The call for a citizenship pathway exclusively for those who enter legally and 'contribute positively' aligns with conservative stances that stress legality, assimilation, and merit-based immigration. The username 'PatriotBorder' also carries connotations often associated with nationalist or right-wing rhetoric. While the position on a legal pathway might seem moderate, the overall framing (e.g., 'secure our borders immediately,' 'protect American jobs') reflects a prioritization of sovereignty and security typical of right-wing immigration policy.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security, enforcement of immigration laws, and prioritizing American jobs and safety\u2014common themes in right-leaning political discourse. The call for a citizenship pathway exclusively for those who enter legally and 'contribute positively' aligns with conservative stances that stress legality, assimilation, and merit-based immigration. The username 'PatriotBorder' also carries connotations often associated with nationalist or right-wing rhetoric. While the position on a legal pathway might seem moderate, the overall framing (e.g., 'secure our borders immediately,' 'protect American jobs') reflects a prioritization of sovereignty and security typical of right-wing immigration policy."
+    },
+    {
+      "author": "SecureBordersUSA",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security and opposes pathways to citizenship for undocumented immigrants, both of which align with conservative (right-leaning) political stances. The argument centers on upholding existing laws and national values, which are common themes in right-wing immigration discourse. The opposition to 'undermining laws' and the focus on national protection reflect a prioritization of sovereignty and legal enforcement over progressive immigration reforms.\"\n}",
+      "explanation": "The post emphasizes strict border security and opposes pathways to citizenship for undocumented immigrants, both of which align with conservative (right-leaning) political stances. The argument centers on upholding existing laws and national values, which are common themes in right-wing immigration discourse. The opposition to 'undermining laws' and the focus on national protection reflect a prioritization of sovereignty and legal enforcement over progressive immigration reforms."
+    },
+    {
+      "author": "SecureBordersUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security, enforcement of immigration laws, and protecting American jobs and safety\u2014key priorities of right-leaning political discourse. The call for a citizenship pathway exclusively for those who enter legally (with an emphasis on 'contributing positively') aligns with conservative immigration frameworks that prioritize legality, merit, and assimilation. These positions contrast with progressive stances that often advocate for broader pathways to citizenship, including for undocumented immigrants, and focus more on humanitarian concerns than strict enforcement.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security, enforcement of immigration laws, and protecting American jobs and safety\u2014key priorities of right-leaning political discourse. The call for a citizenship pathway exclusively for those who enter legally (with an emphasis on 'contributing positively') aligns with conservative immigration frameworks that prioritize legality, merit, and assimilation. These positions contrast with progressive stances that often advocate for broader pathways to citizenship, including for undocumented immigrants, and focus more on humanitarian concerns than strict enforcement."
+    },
+    {
+      "author": "LibertyFirstUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes securing borders and protecting property rights, which are core conservative (right-wing) priorities. While advocating for a pathway to citizenship, it conditions this on respecting laws and contributing positively\u2014a stance often framed by right-leaning ideologies as supporting legal, merit-based immigration rather than open borders. The focus on individual freedoms and the username 'LibertyFirstUSA' further suggest libertarian or right-aligned values, which typically prioritize limited government intervention in economic matters but stress law-and-order approaches to immigration.\"\n}\n```",
+      "explanation": "The post emphasizes securing borders and protecting property rights, which are core conservative (right-wing) priorities. While advocating for a pathway to citizenship, it conditions this on respecting laws and contributing positively\u2014a stance often framed by right-leaning ideologies as supporting legal, merit-based immigration rather than open borders. The focus on individual freedoms and the username 'LibertyFirstUSA' further suggest libertarian or right-aligned values, which typically prioritize limited government intervention in economic matters but stress law-and-order approaches to immigration."
+    },
+    {
+      "author": "SecureBordersFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes immediate border fortification, prioritizing national security and the rule of law\u2014a hallmark of right-leaning immigration rhetoric. While it acknowledges a pathway to citizenship, it conditions this on securing borders first, aligning with conservative frameworks that prioritize enforcement over progressive reforms. The focus on addressing 'root causes of illegal immigration' also reflects a right-leaning emphasis on deterrence and external factors rather than systemic or humanitarian solutions. The language aligns with traditional conservative priorities: strict immigration control, law-and-order framing, and conditional support for assimilation.\"\n}\n```",
+      "explanation": "The post emphasizes immediate border fortification, prioritizing national security and the rule of law\u2014a hallmark of right-leaning immigration rhetoric. While it acknowledges a pathway to citizenship, it conditions this on securing borders first, aligning with conservative frameworks that prioritize enforcement over progressive reforms. The focus on addressing 'root causes of illegal immigration' also reflects a right-leaning emphasis on deterrence and external factors rather than systemic or humanitarian solutions. The language aligns with traditional conservative priorities: strict immigration control, law-and-order framing, and conditional support for assimilation."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Immigration_Reform/balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

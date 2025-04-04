@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 95.0
+  },
+  "classifications": [
+    {
+      "author": "Liberty_MD_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses strong opposition to Medicare for All, labeling it \\\"communism in disguise\\\" and claiming it will \\\"destroy our free market healthcare system.\\\" They also associate support for it with hating freedom and wanting government control. This rhetoric aligns with common conservative and right-leaning arguments against universal healthcare and government intervention in the economy.\"\n}\n```",
+      "explanation": "The author expresses strong opposition to Medicare for All, labeling it \"communism in disguise\" and claiming it will \"destroy our free market healthcare system.\" They also associate support for it with hating freedom and wanting government control. This rhetoric aligns with common conservative and right-leaning arguments against universal healthcare and government intervention in the economy."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong support for Medicare for All and condemnation of private insurance companies as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. These views align with common progressive stances on healthcare and economic justice.\"\n}\n```",
+      "explanation": "The author's strong support for Medicare for All and condemnation of private insurance companies as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. These views align with common progressive stances on healthcare and economic justice."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for universal healthcare, specifically mentioning 'Medicare for All' and criticizing 'greedy insurance companies' for blocking it. This aligns with common left-leaning political positions that prioritize social welfare programs and criticize corporate influence in politics. The phrase 'healthcare a human right' is also a common talking point on the left.\"\n}\n```",
+      "explanation": "The author's post advocates for universal healthcare, specifically mentioning 'Medicare for All' and criticizing 'greedy insurance companies' for blocking it. This aligns with common left-leaning political positions that prioritize social welfare programs and criticize corporate influence in politics. The phrase 'healthcare a human right' is also a common talking point on the left."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for universal healthcare ('Medicare for all'), criticism of insurance companies' profits, and framing healthcare as a 'moral imperative' are all strong indicators of a left-leaning political orientation. These positions are commonly associated with progressive and socialist ideologies.\"\n}\n```",
+      "explanation": "The author's support for universal healthcare ('Medicare for all'), criticism of insurance companies' profits, and framing healthcare as a 'moral imperative' are all strong indicators of a left-leaning political orientation. These positions are commonly associated with progressive and socialist ideologies."
+    },
+    {
+      "author": "HealthcareJustice2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for universal healthcare ('Medicare for All'), the framing of healthcare as a 'basic human right,' and the criticism of 'greedy insurance companies' and their influence on politicians are all common positions associated with the left wing of the political spectrum. These arguments align with progressive values and a belief in government intervention to ensure social welfare.\"\n}\n```",
+      "explanation": "The author's support for universal healthcare ('Medicare for All'), the framing of healthcare as a 'basic human right,' and the criticism of 'greedy insurance companies' and their influence on politicians are all common positions associated with the left wing of the political spectrum. These arguments align with progressive values and a belief in government intervention to ensure social welfare."
+    },
+    {
+      "author": "HealthcareRevolutionary",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong support for Medicare for All, condemnation of corporate insurance companies as 'greedy' and profiting off 'human suffering,' and accusation that opponents are 'supporting death for profit and class warfare against the poor' are all strong indicators of a left-leaning political orientation. These sentiments align with common left-wing critiques of capitalism and advocacy for universal healthcare.\"\n}\n```",
+      "explanation": "The author's strong support for Medicare for All, condemnation of corporate insurance companies as 'greedy' and profiting off 'human suffering,' and accusation that opponents are 'supporting death for profit and class warfare against the poor' are all strong indicators of a left-leaning political orientation. These sentiments align with common left-wing critiques of capitalism and advocacy for universal healthcare."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong support for Medicare for All and their condemnation of the insurance industry as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. The framing of healthcare as a 'basic human right' is also a common position held by those on the left.\"\n}\n```",
+      "explanation": "The author's strong support for Medicare for All and their condemnation of the insurance industry as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. The framing of healthcare as a 'basic human right' is also a common position held by those on the left."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement strongly advocates for universal healthcare and criticizes the role of insurance companies in the American healthcare system. This position aligns with left-leaning political ideologies that typically support government intervention to ensure equal access to healthcare and view profit-driven healthcare models critically.\"\n}\n```",
+      "explanation": "The author's statement strongly advocates for universal healthcare and criticizes the role of insurance companies in the American healthcare system. This position aligns with left-leaning political ideologies that typically support government intervention to ensure equal access to healthcare and view profit-driven healthcare models critically."
+    },
+    {
+      "author": "HealthcareIsHumanRight2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong support for Medicare for All, coupled with the condemnation of insurance companies profiting from healthcare and the assertion that capitalism is a 'death cult' that must be dismantled, strongly indicates a left-leaning political orientation. These views align with socialist or progressive perspectives that prioritize universal healthcare and criticize capitalist systems.\"\n}\n```",
+      "explanation": "The author's strong support for Medicare for All, coupled with the condemnation of insurance companies profiting from healthcare and the assertion that capitalism is a 'death cult' that must be dismantled, strongly indicates a left-leaning political orientation. These views align with socialist or progressive perspectives that prioritize universal healthcare and criticize capitalist systems."
+    },
+    {
+      "author": "HealthcareJustice4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong support for Medicare for All and condemnation of the private insurance industry as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. These views align with common progressive arguments for universal healthcare and against for-profit healthcare systems.\"\n}\n```",
+      "explanation": "The author's strong support for Medicare for All and condemnation of the private insurance industry as 'predatory' and profiting from 'human suffering' are strong indicators of a left-leaning political orientation. These views align with common progressive arguments for universal healthcare and against for-profit healthcare systems."
+    },
+    {
+      "author": "FreeMarketDoctor1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's advocacy for 'free market healthcare' and opposition to 'government mandated universal healthcare' strongly suggests a right-leaning political orientation. The phrases 'individual liberty,' 'drives down costs through competition,' and 'socialism in disguise' are common talking points used by conservatives and libertarians when discussing healthcare policy. The user name 'FreeMarketDoctor1776' further reinforces this classification, referencing both free market ideology and American revolutionary ideals often associated with right-wing political thought.\"\n}\n```",
+      "explanation": "The author's advocacy for 'free market healthcare' and opposition to 'government mandated universal healthcare' strongly suggests a right-leaning political orientation. The phrases 'individual liberty,' 'drives down costs through competition,' and 'socialism in disguise' are common talking points used by conservatives and libertarians when discussing healthcare policy. The user name 'FreeMarketDoctor1776' further reinforces this classification, referencing both free market ideology and American revolutionary ideals often associated with right-wing political thought."
+    },
+    {
+      "author": "FreeMarketMD",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with right-leaning political ideology. Specifically, the belief in the free market as a solution to healthcare issues, the opposition to government intervention (Medicare for All), and the association of such programs with socialism are all common tenets of right-wing political thought. The concern about national bankruptcy and the destruction of quality care and innovation further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's statement aligns with right-leaning political ideology. Specifically, the belief in the free market as a solution to healthcare issues, the opposition to government intervention (Medicare for All), and the association of such programs with socialism are all common tenets of right-wing political thought. The concern about national bankruptcy and the destruction of quality care and innovation further reinforces this classification."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses strong opposition to Medicare for All, labeling it as \\\"pure socialism.\\\" This is a common rhetorical tactic used by those on the right to criticize government intervention in healthcare. The reference to \\\"death panels\\\" is a well-known and often-debunked argument against government-run healthcare, further indicating a right-leaning perspective. The username \\\"FreeMarketPatriot1776\\\" also suggests a conservative or libertarian viewpoint, emphasizing free market principles and American patriotism.\"\n}\n```",
+      "explanation": "The author's statement expresses strong opposition to Medicare for All, labeling it as \"pure socialism.\" This is a common rhetorical tactic used by those on the right to criticize government intervention in healthcare. The reference to \"death panels\" is a well-known and often-debunked argument against government-run healthcare, further indicating a right-leaning perspective. The username \"FreeMarketPatriot1776\" also suggests a conservative or libertarian viewpoint, emphasizing free market principles and American patriotism."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements align with right-leaning political ideology. Specifically, the opposition to Medicare for All, the advocacy for a free market healthcare system, the emphasis on private insurance, and the desire for less government intervention in healthcare decisions are all common positions held by those on the right.\"\n}\n```",
+      "explanation": "The author's statements align with right-leaning political ideology. Specifically, the opposition to Medicare for All, the advocacy for a free market healthcare system, the emphasis on private insurance, and the desire for less government intervention in healthcare decisions are all common positions held by those on the right."
+    },
+    {
+      "author": "ProudPatriotMD",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses strong opposition to Medicare for All, framing it as a threat to the existing healthcare system and suggesting it would unfairly burden 'hardworking Americans' by supporting 'lazy freeloaders.' This rhetoric aligns with common conservative arguments against universal healthcare and government-funded social programs, indicating a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author expresses strong opposition to Medicare for All, framing it as a threat to the existing healthcare system and suggesting it would unfairly burden 'hardworking Americans' by supporting 'lazy freeloaders.' This rhetoric aligns with common conservative arguments against universal healthcare and government-funded social programs, indicating a right-leaning political orientation."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the assertion that it would lead to long wait times and decreased quality of care, mirroring socialist countries, are common conservative talking points. The emphasis on 'free market competition' as the key to a superior healthcare system is also a hallmark of right-leaning economic and political thought. The username 'FreeMarketPatriot1776' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the assertion that it would lead to long wait times and decreased quality of care, mirroring socialist countries, are common conservative talking points. The emphasis on 'free market competition' as the key to a superior healthcare system is also a hallmark of right-leaning economic and political thought. The username 'FreeMarketPatriot1776' further reinforces this classification."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the promotion of 'free market competition' in healthcare are common conservative viewpoints. The author's use of terms like 'socialist rationed care' and negative comparisons to healthcare systems in Canada and Europe further indicate a right-leaning perspective, as these are frequently used criticisms from that side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the promotion of 'free market competition' in healthcare are common conservative viewpoints. The author's use of terms like 'socialist rationed care' and negative comparisons to healthcare systems in Canada and Europe further indicate a right-leaning perspective, as these are frequently used criticisms from that side of the political spectrum."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the championing of 'free market competition' in healthcare are common conservative viewpoints. The comparison to 'socialist Canada' and the implication that it leads to 'endless waiting lines' is a typical rhetorical device used by those on the right to criticize government-run healthcare systems.\"\n}\n```",
+      "explanation": "The author's arguments align with right-leaning political ideology. Specifically, the opposition to 'Medicare for all' and the championing of 'free market competition' in healthcare are common conservative viewpoints. The comparison to 'socialist Canada' and the implication that it leads to 'endless waiting lines' is a typical rhetorical device used by those on the right to criticize government-run healthcare systems."
+    },
+    {
+      "author": "FreeMarketPatriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong opposition to universal healthcare, labeling it as 'socialist propaganda' and a 'government takeover,' along with concerns about tax increases and decreased quality of care, are all common arguments used by those on the right to oppose government involvement in healthcare. The username 'FreeMarketPatriot1776' further suggests a right-leaning ideology, emphasizing free market principles and invoking American patriotism.\"\n}\n```",
+      "explanation": "The author's strong opposition to universal healthcare, labeling it as 'socialist propaganda' and a 'government takeover,' along with concerns about tax increases and decreased quality of care, are all common arguments used by those on the right to oppose government involvement in healthcare. The username 'FreeMarketPatriot1776' further suggests a right-leaning ideology, emphasizing free market principles and invoking American patriotism."
+    },
+    {
+      "author": "Liberty_Healthcare_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses strong opposition to Medicare for All, framing it as a threat to the existing healthcare system and associating it with socialism. The phrase \\\"keep government hands off our medical choices\\\" is a common conservative talking point advocating for individual liberty and limited government intervention in healthcare. These sentiments align with right-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's statement expresses strong opposition to Medicare for All, framing it as a threat to the existing healthcare system and associating it with socialism. The phrase \"keep government hands off our medical choices\" is a common conservative talking point advocating for individual liberty and limited government intervention in healthcare. These sentiments align with right-leaning political ideologies."
+    }
+  ],
+  "file_path": "Claude_balancedData/Healthcare_and_Insurance_Reform/balanced20Posts_high_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_high_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet_google_gemini-2.0-flash-001_analysis.json"
+}

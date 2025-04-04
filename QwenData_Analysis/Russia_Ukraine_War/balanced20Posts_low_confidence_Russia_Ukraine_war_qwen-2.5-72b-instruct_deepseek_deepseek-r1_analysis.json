@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 85.71428571428571,
+      "recall": 60.0,
+      "f1_score": 7058.823529411764,
+      "true_positive": 6,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 4
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 65.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 7,
+      "true_negative": 13,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "PeaceSeeker82",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post emphasizes humanitarian concerns and a desire for peace, which are often associated with left-leaning perspectives. However, the author also acknowledges the complexity of the conflict and avoids explicitly condemning or aligning with either side, which introduces ambiguity. While the humanitarian focus could suggest a left orientation, the lack of clear advocacy for diplomatic solutions, military restraint, or systemic critiques (common in left discourse) or strong support for deterrence/aggression (common in right discourse) makes a definitive classification difficult. The balanced, non-partisan tone prioritizes peace without clear ideological markers, leading to an 'UNKNOWN' classification.\"\n}",
+      "explanation": "The post emphasizes humanitarian concerns and a desire for peace, which are often associated with left-leaning perspectives. However, the author also acknowledges the complexity of the conflict and avoids explicitly condemning or aligning with either side, which introduces ambiguity. While the humanitarian focus could suggest a left orientation, the lack of clear advocacy for diplomatic solutions, military restraint, or systemic critiques (common in left discourse) or strong support for deterrence/aggression (common in right discourse) makes a definitive classification difficult. The balanced, non-partisan tone prioritizes peace without clear ideological markers, leading to an 'UNKNOWN' classification."
+    },
+    {
+      "author": "EcoConcerned",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes environmental sustainability ('ecological boundaries') and links it to 'sustainable peace,' aligning with left-leaning priorities that often integrate environmentalism with social justice and systemic solutions. The holistic focus on balancing conflict resolution with ecological preservation reflects progressive values, which typically advocate for regulatory and cooperative approaches to global challenges. The author's uncertainty about the 'best approach' does not negate the clear alignment with left-wing environmentalist discourse, which frequently stresses complexity and interconnectedness.\"\n}\n```",
+      "explanation": "The post emphasizes environmental sustainability ('ecological boundaries') and links it to 'sustainable peace,' aligning with left-leaning priorities that often integrate environmentalism with social justice and systemic solutions. The holistic focus on balancing conflict resolution with ecological preservation reflects progressive values, which typically advocate for regulatory and cooperative approaches to global challenges. The author's uncertainty about the 'best approach' does not negate the clear alignment with left-wing environmentalist discourse, which frequently stresses complexity and interconnectedness."
+    },
+    {
+      "author": "EcoWarrior123",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's primary focus on environmental impact and 'hidden costs' of the Ukraine conflict aligns with left-leaning priorities, which often emphasize ecological concerns and critique the broader consequences of military actions. While the mention of geopolitical complexity is ideologically neutral, the emphasis on environmental harm as a central issue is more commonly associated with progressive or leftist perspectives. The absence of right-leaning themes (e.g., national security, military strategy, or economic sanctions) further supports this classification.\"\n}\n```",
+      "explanation": "The author's primary focus on environmental impact and 'hidden costs' of the Ukraine conflict aligns with left-leaning priorities, which often emphasize ecological concerns and critique the broader consequences of military actions. While the mention of geopolitical complexity is ideologically neutral, the emphasis on environmental harm as a central issue is more commonly associated with progressive or leftist perspectives. The absence of right-leaning themes (e.g., national security, military strategy, or economic sanctions) further supports this classification."
+    },
+    {
+      "author": "GreenPeaceWarrior",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental impact, sustainable solutions, and peaceful conflict resolution aligns with common left-leaning priorities such as environmentalism, systemic change, and anti-war stances. Their concern about avoiding oversimplification of political and humanitarian dimensions reflects a progressive, nuanced perspective often associated with leftist discourse. The emphasis on collective action ('push for') and systemic sustainability further supports this classification, as these themes are central to left-wing environmental and social justice movements.\"\n}",
+      "explanation": "The author's focus on environmental impact, sustainable solutions, and peaceful conflict resolution aligns with common left-leaning priorities such as environmentalism, systemic change, and anti-war stances. Their concern about avoiding oversimplification of political and humanitarian dimensions reflects a progressive, nuanced perspective often associated with leftist discourse. The emphasis on collective action ('push for') and systemic sustainability further supports this classification, as these themes are central to left-wing environmental and social justice movements."
+    },
+    {
+      "author": "PeacefulProgressive",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses a balanced and uncertain stance, combining support for opposing aggression (a position that could align with bipartisan or centrist views) with concerns about escalation and broader consequences (often associated with left-leaning caution toward military intervention). The lack of explicit partisan language, coupled with the author's emphasis on complexity and hesitation, makes it difficult to definitively classify the orientation as LEFT or RIGHT. While the username 'PeacefulProgressive' hints at left-leaning tendencies, the content itself does not strongly commit to ideological markers from either side.\"\n}\n```",
+      "explanation": "The post expresses a balanced and uncertain stance, combining support for opposing aggression (a position that could align with bipartisan or centrist views) with concerns about escalation and broader consequences (often associated with left-leaning caution toward military intervention). The lack of explicit partisan language, coupled with the author's emphasis on complexity and hesitation, makes it difficult to definitively classify the orientation as LEFT or RIGHT. While the username 'PeacefulProgressive' hints at left-leaning tendencies, the content itself does not strongly commit to ideological markers from either side."
+    },
+    {
+      "author": "EcoWarWatcher",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post focuses on environmental consequences of the Ukraine conflict and global climate efforts, topics strongly aligned with left-leaning priorities. The username 'EcoWarWatcher' suggests environmental activism, which is commonly associated with progressive or leftist ideologies. The emphasis on systemic ecological impacts and international cooperation further supports this classification, as these are hallmarks of left-wing environmental discourse. While the post is framed as a question, its subject matter and framing prioritize environmentalism over other geopolitical or economic angles typically emphasized in right-leaning analyses.\"\n}",
+      "explanation": "The post focuses on environmental consequences of the Ukraine conflict and global climate efforts, topics strongly aligned with left-leaning priorities. The username 'EcoWarWatcher' suggests environmental activism, which is commonly associated with progressive or leftist ideologies. The emphasis on systemic ecological impacts and international cooperation further supports this classification, as these are hallmarks of left-wing environmental discourse. While the post is framed as a question, its subject matter and framing prioritize environmentalism over other geopolitical or economic angles typically emphasized in right-leaning analyses."
+    },
+    {
+      "author": "GreenThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes rethinking 'global green policies' in the context of geopolitical tensions and energy dependence, themes commonly prioritized in left-leaning discourse. The author's focus on linking environmental policy (green energy) to geopolitical stability and resource security aligns with progressive critiques of fossil fuel reliance and advocacy for renewable energy transitions. The username 'GreenThinker' further signals an environmentalist perspective, which is typically associated with left-wing priorities. While the post poses a question rather than a direct statement, its framing assumes the relevance of green policy as a solution to geopolitical challenges\u2014a stance more aligned with leftist thought than right-wing approaches, which often prioritize energy independence through fossil fuels or nationalistic strategies.\"\n}\n```",
+      "explanation": "The post emphasizes rethinking 'global green policies' in the context of geopolitical tensions and energy dependence, themes commonly prioritized in left-leaning discourse. The author's focus on linking environmental policy (green energy) to geopolitical stability and resource security aligns with progressive critiques of fossil fuel reliance and advocacy for renewable energy transitions. The username 'GreenThinker' further signals an environmentalist perspective, which is typically associated with left-wing priorities. While the post poses a question rather than a direct statement, its framing assumes the relevance of green policy as a solution to geopolitical challenges\u2014a stance more aligned with leftist thought than right-wing approaches, which often prioritize energy independence through fossil fuels or nationalistic strategies."
+    },
+    {
+      "author": "CriticalThinker88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward the mainstream narrative about the Russia-Ukraine conflict, a stance often associated with right-leaning commentators who critique Western media or government positions. The emphasis on 'considering all sides' and 'complex history' aligns with narratives that question Western involvement or NATO expansion, which are themes frequently highlighted in right-wing discourse. However, the post lacks explicit policy endorsements, making the classification tentative but contextually leaning toward RIGHT due to common associations with such skepticism in current political debates.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward the mainstream narrative about the Russia-Ukraine conflict, a stance often associated with right-leaning commentators who critique Western media or government positions. The emphasis on 'considering all sides' and 'complex history' aligns with narratives that question Western involvement or NATO expansion, which are themes frequently highlighted in right-wing discourse. However, the post lacks explicit policy endorsements, making the classification tentative but contextually leaning toward RIGHT due to common associations with such skepticism in current political debates."
+    },
+    {
+      "author": "ConcernedDemocrat",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author identifies as a Democrat, which is typically associated with left-leaning politics in the U.S. Their support for Ukraine's right to self-defense aligns with mainstream Democratic and left-leaning internationalist values. However, their emphasis on questioning the conflict's duration, prioritizing a sustainable peace, and seeking alternatives to further loss of life reflects a progressive or anti-war perspective common in left-wing discourse. The focus on diplomacy over prolonged military engagement, coupled with humanitarian concerns, further supports a left-oriented classification. While support for Ukraine is bipartisan, the nuanced emphasis on peacebuilding and skepticism of endless conflict distinguishes this as a left-leaning stance.\"\n}\n```",
+      "explanation": "The author identifies as a Democrat, which is typically associated with left-leaning politics in the U.S. Their support for Ukraine's right to self-defense aligns with mainstream Democratic and left-leaning internationalist values. However, their emphasis on questioning the conflict's duration, prioritizing a sustainable peace, and seeking alternatives to further loss of life reflects a progressive or anti-war perspective common in left-wing discourse. The focus on diplomacy over prolonged military engagement, coupled with humanitarian concerns, further supports a left-oriented classification. While support for Ukraine is bipartisan, the nuanced emphasis on peacebuilding and skepticism of endless conflict distinguishes this as a left-leaning stance."
+    },
+    {
+      "author": "Skeptic_of_Mainstream_Narratives",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism toward Western media's portrayal of the Ukraine conflict, suggesting potential exaggeration and complexity. While such skepticism can align with right-wing narratives that often critique mainstream media or question interventionist policies, it could also resonate with left-wing critiques of media sensationalism or anti-war perspectives. The username 'Skeptic_of_Mainstream_Narratives' implies a general distrust of establishment sources, which is common in both anti-establishment left and right circles. However, the lack of specific ideological markers (e.g., references to NATO, imperialism, or isolationism) makes definitive classification uncertain. Thus, the orientation remains ambiguous without further context.\"\n}\n```",
+      "explanation": "The post expresses skepticism toward Western media's portrayal of the Ukraine conflict, suggesting potential exaggeration and complexity. While such skepticism can align with right-wing narratives that often critique mainstream media or question interventionist policies, it could also resonate with left-wing critiques of media sensationalism or anti-war perspectives. The username 'Skeptic_of_Mainstream_Narratives' implies a general distrust of establishment sources, which is common in both anti-establishment left and right circles. However, the lack of specific ideological markers (e.g., references to NATO, imperialism, or isolationism) makes definitive classification uncertain. Thus, the orientation remains ambiguous without further context."
+    },
+    {
+      "author": "LibertyLover99",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post emphasizes non-interventionism and peace, which could align with both left-leaning anti-war perspectives (prioritizing diplomacy and humanitarian concerns) and right-leaning libertarian or isolationist views (opposing foreign entanglements). The username 'LibertyLover99' hints at libertarian leanings (often associated with the right), but the call to reduce suffering without escalation is a neutral stance common to pacifist or pragmatic ideologies across the spectrum. Without explicit references to specific policies, economic systems, or partisan rhetoric, the political orientation remains ambiguous.\"\n}\n```",
+      "explanation": "The post emphasizes non-interventionism and peace, which could align with both left-leaning anti-war perspectives (prioritizing diplomacy and humanitarian concerns) and right-leaning libertarian or isolationist views (opposing foreign entanglements). The username 'LibertyLover99' hints at libertarian leanings (often associated with the right), but the call to reduce suffering without escalation is a neutral stance common to pacifist or pragmatic ideologies across the spectrum. Without explicit references to specific policies, economic systems, or partisan rhetoric, the political orientation remains ambiguous."
+    },
+    {
+      "author": "SkepticOfTheWars",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The skepticism toward Western media's portrayal of the Ukraine conflict and the mention of missing perspectives could align with critiques from both the left (e.g., anti-war or anti-imperialist skepticism) and the right (e.g., distrust of mainstream narratives or isolationist tendencies). However, the post lacks explicit ideological markers (e.g., references to specific policies, political figures, or values) that would definitively tie it to either side. The author's uncertainty ('I could be wrong') and general tone suggest cautious inquiry rather than a clear partisan stance. Without additional context, the political orientation remains ambiguous.\"\n}\n```",
+      "explanation": "The skepticism toward Western media's portrayal of the Ukraine conflict and the mention of missing perspectives could align with critiques from both the left (e.g., anti-war or anti-imperialist skepticism) and the right (e.g., distrust of mainstream narratives or isolationist tendencies). However, the post lacks explicit ideological markers (e.g., references to specific policies, political figures, or values) that would definitively tie it to either side. The author's uncertainty ('I could be wrong') and general tone suggest cautious inquiry rather than a clear partisan stance. Without additional context, the political orientation remains ambiguous."
+    },
+    {
+      "author": "SeekingTruthAboutUkraine",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses skepticism about media bias in the Russia-Ukraine conflict and seeks balanced information without endorsing specific political narratives. While media distrust can be associated with both left-wing (e.g., critiques of corporate media) and right-wing (e.g., rejection of mainstream narratives) perspectives, the author's neutral phrasing ('both sides claim atrocities') and lack of partisan language or policy positions make it impossible to definitively classify their orientation. The request for 'balanced sources' does not inherently align with left or right tendencies, as such appeals for objectivity can arise across the political spectrum.\"\n}\n```",
+      "explanation": "The post expresses skepticism about media bias in the Russia-Ukraine conflict and seeks balanced information without endorsing specific political narratives. While media distrust can be associated with both left-wing (e.g., critiques of corporate media) and right-wing (e.g., rejection of mainstream narratives) perspectives, the author's neutral phrasing ('both sides claim atrocities') and lack of partisan language or policy positions make it impossible to definitively classify their orientation. The request for 'balanced sources' does not inherently align with left or right tendencies, as such appeals for objectivity can arise across the political spectrum."
+    },
+    {
+      "author": "ConcernedConservative84",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The username 'ConcernedConservative84' strongly suggests a right-leaning identity. The post questions the effectiveness of sanctions on Russia, a stance often aligned with right-wing skepticism of foreign intervention and economic measures perceived as costly or ineffective. While support for Ukraine is bipartisan, the emphasis on 'many sides to the conflict' and doubt about the current approach may reflect a right-wing narrative that prioritizes pragmatic or isolationist policies over sustained international engagement. The critique of sanctions here appears rooted in efficacy concerns rather than humanitarian or anti-militarist arguments, which are more common on the left. Combined with the username, this points to a RIGHT orientation.\"\n}\n```",
+      "explanation": "The username 'ConcernedConservative84' strongly suggests a right-leaning identity. The post questions the effectiveness of sanctions on Russia, a stance often aligned with right-wing skepticism of foreign intervention and economic measures perceived as costly or ineffective. While support for Ukraine is bipartisan, the emphasis on 'many sides to the conflict' and doubt about the current approach may reflect a right-wing narrative that prioritizes pragmatic or isolationist policies over sustained international engagement. The critique of sanctions here appears rooted in efficacy concerns rather than humanitarian or anti-militarist arguments, which are more common on the left. Combined with the username, this points to a RIGHT orientation."
+    },
+    {
+      "author": "GOP_Diplomat",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The username 'GOP_Diplomat' strongly suggests affiliation with the Republican Party (GOP), which is right-leaning in U.S. politics. While the post itself is neutral in tone, focusing on questioning long-term implications of the Ukraine conflict beyond immediate actions by Putin and the West, this line of inquiry aligns with right-leaning tendencies to scrutinize prolonged foreign engagements and mainstream narratives. The GOP has historically included factions skeptical of extensive Western intervention, emphasizing strategic caution. Though the content lacks explicit partisan language, the combination of the username and the thematic focus on deeper analysis of geopolitical strategy leans toward a RIGHT classification.\"\n}\n```",
+      "explanation": "The username 'GOP_Diplomat' strongly suggests affiliation with the Republican Party (GOP), which is right-leaning in U.S. politics. While the post itself is neutral in tone, focusing on questioning long-term implications of the Ukraine conflict beyond immediate actions by Putin and the West, this line of inquiry aligns with right-leaning tendencies to scrutinize prolonged foreign engagements and mainstream narratives. The GOP has historically included factions skeptical of extensive Western intervention, emphasizing strategic caution. Though the content lacks explicit partisan language, the combination of the username and the thematic focus on deeper analysis of geopolitical strategy leans toward a RIGHT classification."
+    },
+    {
+      "author": "LibertarianObserver",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes principles such as non-aggression, national sovereignty, and skepticism toward foreign intervention\u2014key tenets of libertarian ideology, which is typically aligned with right-leaning political thought. The author's questioning of foreign aid ethics and focus on self-determination reflects a preference for minimal government involvement in international affairs, a stance more commonly associated with right-libertarian or conservative viewpoints rather than leftist perspectives, which might critique intervention through a lens of anti-imperialism or structural inequality. The username 'LibertarianObserver' further contextualizes the likely ideological framework, reinforcing the classification as RIGHT.\"\n}\n```",
+      "explanation": "The post emphasizes principles such as non-aggression, national sovereignty, and skepticism toward foreign intervention\u2014key tenets of libertarian ideology, which is typically aligned with right-leaning political thought. The author's questioning of foreign aid ethics and focus on self-determination reflects a preference for minimal government involvement in international affairs, a stance more commonly associated with right-libertarian or conservative viewpoints rather than leftist perspectives, which might critique intervention through a lens of anti-imperialism or structural inequality. The username 'LibertarianObserver' further contextualizes the likely ideological framework, reinforcing the classification as RIGHT."
+    },
+    {
+      "author": "ConservativeObserver",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The username 'ConservativeObserver' suggests a right-leaning inclination. The post emphasizes 'defending sovereignty,' a common right-wing priority, and expresses skepticism about the complexity of the Ukraine conflict, aligning with some right-wing critiques of mainstream narratives or foreign intervention. While the content alone is not explicitly partisan, the combination of the username and the cautious questioning of 'aspects we are not fully understanding' reflects tendencies seen in right-leaning discourse that often challenges established geopolitical narratives.\"\n}\n```",
+      "explanation": "The username 'ConservativeObserver' suggests a right-leaning inclination. The post emphasizes 'defending sovereignty,' a common right-wing priority, and expresses skepticism about the complexity of the Ukraine conflict, aligning with some right-wing critiques of mainstream narratives or foreign intervention. While the content alone is not explicitly partisan, the combination of the username and the cautious questioning of 'aspects we are not fully understanding' reflects tendencies seen in right-leaning discourse that often challenges established geopolitical narratives."
+    },
+    {
+      "author": "NeutralObserver88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's skepticism about one-sided media coverage of the Russia-Ukraine conflict aligns with common right-wing narratives that question mainstream Western media objectivity, particularly in contexts where pro-Russian or anti-interventionist viewpoints are emphasized. While the post does not explicitly endorse a political stance, such critiques of media bias in international conflicts are frequently associated with right-wing discourse, which often challenges mainstream narratives as overly simplistic or ideologically driven.\"\n}\n```",
+      "explanation": "The author's skepticism about one-sided media coverage of the Russia-Ukraine conflict aligns with common right-wing narratives that question mainstream Western media objectivity, particularly in contexts where pro-Russian or anti-interventionist viewpoints are emphasized. While the post does not explicitly endorse a political stance, such critiques of media bias in international conflicts are frequently associated with right-wing discourse, which often challenges mainstream narratives as overly simplistic or ideologically driven."
+    },
+    {
+      "author": "LibertarianThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'LibertarianThinker' suggests libertarian leanings, which typically align with right-leaning ideologies emphasizing limited government intervention and free markets. The post questions the efficacy of sanctions in the Russia-Ukraine conflict, citing economic and humanitarian concerns. Libertarians often oppose sanctions as they view them as government overreach that disrupts free trade and harms civilians, aligning with their principles of non-interventionism and individual liberty. While humanitarian concerns might also resonate with left-leaning perspectives, the combination of economic arguments and the libertarian identifier strongly points to a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's username 'LibertarianThinker' suggests libertarian leanings, which typically align with right-leaning ideologies emphasizing limited government intervention and free markets. The post questions the efficacy of sanctions in the Russia-Ukraine conflict, citing economic and humanitarian concerns. Libertarians often oppose sanctions as they view them as government overreach that disrupts free trade and harms civilians, aligning with their principles of non-interventionism and individual liberty. While humanitarian concerns might also resonate with left-leaning perspectives, the combination of economic arguments and the libertarian identifier strongly points to a right-leaning orientation."
+    },
+    {
+      "author": "LibertyExplorer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses uncertainty about foreign military intervention in the Russia-Ukraine conflict, balancing skepticism toward intervention with concern for human suffering and instability. The author's focus on reconciling sovereignty with human rights does not clearly align with typical left or right frameworks. While left-leaning positions often emphasize anti-interventionism and human rights, and right-leaning positions may prioritize sovereignty or strategic interests, the ambiguity of the author's stance\u2014posing questions rather than advocating a specific policy\u2014makes definitive classification difficult. The tension between non-intervention and humanitarian responsibility is a cross-ideological concern, further complicating categorization.\"\n}\n```",
+      "explanation": "The post expresses uncertainty about foreign military intervention in the Russia-Ukraine conflict, balancing skepticism toward intervention with concern for human suffering and instability. The author's focus on reconciling sovereignty with human rights does not clearly align with typical left or right frameworks. While left-leaning positions often emphasize anti-interventionism and human rights, and right-leaning positions may prioritize sovereignty or strategic interests, the ambiguity of the author's stance\u2014posing questions rather than advocating a specific policy\u2014makes definitive classification difficult. The tension between non-intervention and humanitarian responsibility is a cross-ideological concern, further complicating categorization."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Russia_Ukraine_War/balanced20Posts_low_confidence_Russia_Ukraine_war_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Russia_Ukraine_war_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

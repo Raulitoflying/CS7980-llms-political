@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 76.92307692307693,
+      "recall": 100.0,
+      "f1_score": 8695.652173913044,
+      "true_positive": 10,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "EcoRealist85",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common right-leaning viewpoints. Specifically, the author expresses concern about environmental regulations hindering economic growth and job creation. This prioritization of economic prosperity over environmental concerns is a typical characteristic of right-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's statement aligns with common right-leaning viewpoints. Specifically, the author expresses concern about environmental regulations hindering economic growth and job creation. This prioritization of economic prosperity over environmental concerns is a typical characteristic of right-leaning political ideologies."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, combating climate change, and prioritizing sustainability over short-term economic gains are all strong indicators of a left-leaning political orientation. These issues are typically central to left-wing political agendas.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, combating climate change, and prioritizing sustainability over short-term economic gains are all strong indicators of a left-leaning political orientation. These issues are typically central to left-wing political agendas."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, combating climate change, and sustainable growth aligns with common left-leaning political positions. The statement that we shouldn't sacrifice the planet's future for short-term economic gains is a common critique of capitalist systems often voiced by those on the left.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, combating climate change, and sustainable growth aligns with common left-leaning political positions. The statement that we shouldn't sacrifice the planet's future for short-term economic gains is a common critique of capitalist systems often voiced by those on the left."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common right-leaning viewpoints. Specifically, the argument that environmental regulations hinder economic growth and job creation is a frequent talking point among conservatives and libertarians. The phrase 'exaggerated climate fears' further suggests skepticism towards climate science and environmental activism, which is also more commonly associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's statement aligns with common right-leaning viewpoints. Specifically, the argument that environmental regulations hinder economic growth and job creation is a frequent talking point among conservatives and libertarians. The phrase 'exaggerated climate fears' further suggests skepticism towards climate science and environmental activism, which is also more commonly associated with right-leaning ideologies."
+    },
+    {
+      "author": "EcoRealistUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common conservative viewpoints on environmental regulations and economic growth. The phrases 'strangling businesses with environmental regulations,' 'cripple our economy,' and 'harm American workers' are frequently used in conservative rhetoric to argue against stricter environmental policies. The emphasis on 'smart policies that grow the economy while protecting the environment' suggests a preference for market-based solutions and voluntary measures rather than government mandates, which is also a common conservative position.\"\n}\n```",
+      "explanation": "The author's statement aligns with common conservative viewpoints on environmental regulations and economic growth. The phrases 'strangling businesses with environmental regulations,' 'cripple our economy,' and 'harm American workers' are frequently used in conservative rhetoric to argue against stricter environmental policies. The emphasis on 'smart policies that grow the economy while protecting the environment' suggests a preference for market-based solutions and voluntary measures rather than government mandates, which is also a common conservative position."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, sustainability, and critique of corporate profit at the expense of the environment strongly aligns with left-leaning political ideologies. These ideologies typically prioritize environmental protection and social responsibility over unfettered economic growth.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, sustainability, and critique of corporate profit at the expense of the environment strongly aligns with left-leaning political ideologies. These ideologies typically prioritize environmental protection and social responsibility over unfettered economic growth."
+    },
+    {
+      "author": "GreenFutureNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, combating climate change, and prioritizing the planet's future over short-term economic profits aligns with common left-leaning political positions. This perspective often prioritizes collective well-being and environmental sustainability over purely economic considerations, which is a hallmark of left-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, combating climate change, and prioritizing the planet's future over short-term economic profits aligns with common left-leaning political positions. This perspective often prioritizes collective well-being and environmental sustainability over purely economic considerations, which is a hallmark of left-leaning ideologies."
+    },
+    {
+      "author": "GreenFutureAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, combating climate change, and prioritizing a sustainable economy over short-term economic gains are all strong indicators of a left-leaning political orientation. These concerns are typically central to left-of-center political ideologies.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, combating climate change, and prioritizing a sustainable economy over short-term economic gains are all strong indicators of a left-leaning political orientation. These concerns are typically central to left-of-center political ideologies."
+    },
+    {
+      "author": "EcoWarrior92",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations and prioritizing the environment over unchecked economic growth aligns with common left-leaning political viewpoints. The statement that the economy's health depends on the environment is a common argument used by environmentalists and those on the left who advocate for sustainable development and environmental protection.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations and prioritizing the environment over unchecked economic growth aligns with common left-leaning political viewpoints. The statement that the economy's health depends on the environment is a common argument used by environmentalists and those on the left who advocate for sustainable development and environmental protection."
+    },
+    {
+      "author": "EcoWarrior92",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental regulations, prioritizing a 'livable planet' over 'unchecked economic growth,' and concern about climate change are all strong indicators of a left-leaning political orientation. These concerns are typically central to left-wing environmentalism and critiques of capitalism.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental regulations, prioritizing a 'livable planet' over 'unchecked economic growth,' and concern about climate change are all strong indicators of a left-leaning political orientation. These concerns are typically central to left-wing environmentalism and critiques of capitalism."
+    },
+    {
+      "author": "EcoRealistUSA",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses concern about the economic impact of environmental regulations, suggesting they believe such regulations are 'overbearing' and 'strangling' the economy. This framing aligns with a common right-leaning perspective that prioritizes economic growth and deregulation, often viewing environmental regulations as impediments to business and job creation. The call for 'smart balanced solutions' can be interpreted as a desire to weaken or scale back existing regulations rather than strengthen them. The concern for 'American workers' is also a common theme in right-leaning political discourse.\"\n}\n```",
+      "explanation": "The author's statement expresses concern about the economic impact of environmental regulations, suggesting they believe such regulations are 'overbearing' and 'strangling' the economy. This framing aligns with a common right-leaning perspective that prioritizes economic growth and deregulation, often viewing environmental regulations as impediments to business and job creation. The call for 'smart balanced solutions' can be interpreted as a desire to weaken or scale back existing regulations rather than strengthen them. The concern for 'American workers' is also a common theme in right-leaning political discourse."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses concern about the economic impact of environmental regulations, arguing that they can harm businesses and lead to job losses. This is a common argument made by those on the right, who tend to prioritize economic growth and deregulation. The phrase \\\"smart policies that balance protection with prosperity\\\" suggests a preference for less stringent environmental rules that allow for economic development, a position typically associated with right-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author's statement expresses concern about the economic impact of environmental regulations, arguing that they can harm businesses and lead to job losses. This is a common argument made by those on the right, who tend to prioritize economic growth and deregulation. The phrase \"smart policies that balance protection with prosperity\" suggests a preference for less stringent environmental rules that allow for economic development, a position typically associated with right-leaning political ideologies."
+    },
+    {
+      "author": "EconFirstPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common conservative viewpoints. The emphasis on reducing environmental regulations to promote economic growth and job creation is a typical argument made by those on the right. The phrase \\\"smart policies that protect the environment without sacrificing prosperity\\\" suggests a belief that environmental protection and economic growth are often at odds, a common theme in right-leaning political discourse.\"\n}\n```",
+      "explanation": "The author's statement aligns with common conservative viewpoints. The emphasis on reducing environmental regulations to promote economic growth and job creation is a typical argument made by those on the right. The phrase \"smart policies that protect the environment without sacrificing prosperity\" suggests a belief that environmental protection and economic growth are often at odds, a common theme in right-leaning political discourse."
+    },
+    {
+      "author": "EcoSmartGOP",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, using the name \\\"EcoSmartGOP,\\\" signals an affiliation with the Republican party. The post's content aligns with common conservative viewpoints: a concern that environmental regulations hinder economic growth, a desire for 'smart policies' that balance environmental protection with economic interests, and a fear of job losses due to regulation. This perspective is typically associated with right-leaning political ideologies.\"\n}\n```",
+      "explanation": "The author, using the name \"EcoSmartGOP,\" signals an affiliation with the Republican party. The post's content aligns with common conservative viewpoints: a concern that environmental regulations hinder economic growth, a desire for 'smart policies' that balance environmental protection with economic interests, and a fear of job losses due to regulation. This perspective is typically associated with right-leaning political ideologies."
+    },
+    {
+      "author": "LibertyFirstEcon",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with right-leaning political ideology. The emphasis on 'free market solutions' and the criticism of 'environmental regulations' and 'government mandates' are common positions held by those on the right, who generally favor less government intervention in the economy and prioritize economic growth over environmental protection.\"\n}\n```",
+      "explanation": "The author's statement aligns with right-leaning political ideology. The emphasis on 'free market solutions' and the criticism of 'environmental regulations' and 'government mandates' are common positions held by those on the right, who generally favor less government intervention in the economy and prioritize economic growth over environmental protection."
+    },
+    {
+      "author": "LibertyFirstEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with right-leaning political ideologies. The emphasis on 'freedom and market solutions' over 'government mandates' in the context of environmental regulations is a common argument made by those on the right who prioritize economic growth and limited government intervention. The phrase 'strangling businesses with environmental regulations' is a rhetorical device often used to criticize environmental policies from a conservative or libertarian perspective.\"\n}\n```",
+      "explanation": "The author's statement aligns with right-leaning political ideologies. The emphasis on 'freedom and market solutions' over 'government mandates' in the context of environmental regulations is a common argument made by those on the right who prioritize economic growth and limited government intervention. The phrase 'strangling businesses with environmental regulations' is a rhetorical device often used to criticize environmental policies from a conservative or libertarian perspective."
+    },
+    {
+      "author": "LibertyFirstEco",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with common right-leaning political viewpoints. Specifically, the belief that environmental regulations hinder economic growth and that free markets are the best mechanism for achieving sustainability without government intervention are hallmarks of conservative and libertarian economic ideologies.\"\n}\n```",
+      "explanation": "The author's statement aligns with common right-leaning political viewpoints. Specifically, the belief that environmental regulations hinder economic growth and that free markets are the best mechanism for achieving sustainability without government intervention are hallmarks of conservative and libertarian economic ideologies."
+    },
+    {
+      "author": "EcoRealist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses concern about the negative economic impact of environmental regulations on businesses and job growth. This aligns with a common right-leaning perspective that prioritizes economic prosperity and deregulation. The call for 'smart solutions that balance both environmental concerns and economic prosperity' suggests a preference for less stringent environmental policies that don't hinder business activity, a viewpoint often associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's statement expresses concern about the negative economic impact of environmental regulations on businesses and job growth. This aligns with a common right-leaning perspective that prioritizes economic prosperity and deregulation. The call for 'smart solutions that balance both environmental concerns and economic prosperity' suggests a preference for less stringent environmental policies that don't hinder business activity, a viewpoint often associated with right-leaning ideologies."
+    },
+    {
+      "author": "LibertyMatters",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, 'LibertyMatters,' expresses views consistent with right-leaning political ideologies. Specifically, the post argues against environmental regulations, claiming they 'cripple our economy and innovation.' This aligns with a common right-wing perspective that favors deregulation and minimal government intervention in the economy. The author's support for 'free market solutions' further reinforces this classification, as it is a core tenet of right-wing economic thought.\"\n}\n```",
+      "explanation": "The author, 'LibertyMatters,' expresses views consistent with right-leaning political ideologies. Specifically, the post argues against environmental regulations, claiming they 'cripple our economy and innovation.' This aligns with a common right-wing perspective that favors deregulation and minimal government intervention in the economy. The author's support for 'free market solutions' further reinforces this classification, as it is a core tenet of right-wing economic thought."
+    },
+    {
+      "author": "EcoEconomyChampion",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern about environmental regulations harming businesses and the economy, a common viewpoint within right-leaning political ideologies. The emphasis on 'prosperity' alongside environmental protection, and the framing of regulations as 'overbearing' suggests a preference for less government intervention in the economy, which aligns with right-leaning perspectives.\"\n}\n```",
+      "explanation": "The author expresses concern about environmental regulations harming businesses and the economy, a common viewpoint within right-leaning political ideologies. The emphasis on 'prosperity' alongside environmental protection, and the framing of regulations as 'overbearing' suggests a preference for less government intervention in the economy, which aligns with right-leaning perspectives."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Climate_Change_Policy/balanced20Posts_high_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct_google_gemini-2.0-flash-001_analysis.json"
+}

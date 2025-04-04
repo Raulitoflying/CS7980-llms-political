@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 8,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 45.0
+  },
+  "classifications": [
+    {
+      "author": "ElectionWatchdog",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's skepticism toward voter ID laws and emphasis on potential voter suppression aligns with left-leaning perspectives, which often argue that such laws disproportionately affect marginalized groups. The focus on finding alternatives to maintain election integrity without disenfranchising voters reflects progressive priorities. The phrasing ('certain groups') implicitly references concerns about racial, economic, or age-based disparities in access to IDs\u2014a common critique from the left. While the post is framed as a question, its underlying assumptions mirror arguments against restrictive voting policies typically advanced by liberal advocates.\"\n}\n```",
+      "explanation": "The author's skepticism toward voter ID laws and emphasis on potential voter suppression aligns with left-leaning perspectives, which often argue that such laws disproportionately affect marginalized groups. The focus on finding alternatives to maintain election integrity without disenfranchising voters reflects progressive priorities. The phrasing ('certain groups') implicitly references concerns about racial, economic, or age-based disparities in access to IDs\u2014a common critique from the left. While the post is framed as a question, its underlying assumptions mirror arguments against restrictive voting policies typically advanced by liberal advocates."
+    },
+    {
+      "author": "ElectionIntegritySeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author acknowledges voter ID laws (a common right-wing position) but expresses concern about their disproportionate impact on marginalized communities, a central left-wing critique. The emphasis on balancing election integrity with protecting voting access for vulnerable groups aligns more closely with progressive priorities, which prioritize preventing voter suppression over strict ID requirements. While the post shows nuance, the primary focus on marginalized communities' rights is a stronger indicator of left-leaning values.\"\n}\n```",
+      "explanation": "The author acknowledges voter ID laws (a common right-wing position) but expresses concern about their disproportionate impact on marginalized communities, a central left-wing critique. The emphasis on balancing election integrity with protecting voting access for vulnerable groups aligns more closely with progressive priorities, which prioritize preventing voter suppression over strict ID requirements. While the post shows nuance, the primary focus on marginalized communities' rights is a stronger indicator of left-leaning values."
+    },
+    {
+      "author": "EcoVoter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"While the author presents both arguments for and against voter ID laws, the explicit mention of concerns about disproportionate impacts on marginalized communities aligns with a common left-leaning critique of such laws. The right typically emphasizes election integrity and fraud prevention without centering marginalized groups' access. By framing the potential harm to these communities as a significant consideration, the author signals a perspective more consistent with left-leaning priorities, even while acknowledging both sides of the debate.\"\n}\n```",
+      "explanation": "While the author presents both arguments for and against voter ID laws, the explicit mention of concerns about disproportionate impacts on marginalized communities aligns with a common left-leaning critique of such laws. The right typically emphasizes election integrity and fraud prevention without centering marginalized groups' access. By framing the potential harm to these communities as a significant consideration, the author signals a perspective more consistent with left-leaning priorities, even while acknowledging both sides of the debate."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's username ('VotingRightsAdvocate') and emphasis on 'fair access to voting' align with left-leaning priorities, which typically focus on combating voter suppression and gerrymandering as barriers to equitable participation. While the post acknowledges 'valid concerns on both sides' (e.g., election integrity, often emphasized by the right), the framing of the issue centers on access\u2014a hallmark of progressive voting rights advocacy. The right generally prioritizes strict voter ID laws and fraud prevention over expanding access, whereas the left argues such measures disproportionately disenfranchise marginalized groups. The author's balanced phrasing may indicate openness to dialogue, but their advocacy-oriented perspective and terminology suggest a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author's username ('VotingRightsAdvocate') and emphasis on 'fair access to voting' align with left-leaning priorities, which typically focus on combating voter suppression and gerrymandering as barriers to equitable participation. While the post acknowledges 'valid concerns on both sides' (e.g., election integrity, often emphasized by the right), the framing of the issue centers on access\u2014a hallmark of progressive voting rights advocacy. The right generally prioritizes strict voter ID laws and fraud prevention over expanding access, whereas the left argues such measures disproportionately disenfranchise marginalized groups. The author's balanced phrasing may indicate openness to dialogue, but their advocacy-oriented perspective and terminology suggest a left-leaning orientation."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes accessibility in voting and mentions protecting 'everyone\u2019s right to vote,' which aligns with left-leaning priorities. While they acknowledge the complexity of voter ID laws and avoid outright opposition, their focus on balancing security with accessibility (a common Democratic/left framing) and their inclusion of mail-in voting and gerrymandering as issues requiring solutions to safeguard voting rights further suggests a left-of-center perspective. The mention of gerrymandering, often criticized by the left for disenfranchising marginalized communities, reinforces this classification. However, the measured tone and lack of overt partisan language prevent absolute certainty, though the overall context leans left.\"\n}\n```",
+      "explanation": "The author emphasizes accessibility in voting and mentions protecting 'everyone\u2019s right to vote,' which aligns with left-leaning priorities. While they acknowledge the complexity of voter ID laws and avoid outright opposition, their focus on balancing security with accessibility (a common Democratic/left framing) and their inclusion of mail-in voting and gerrymandering as issues requiring solutions to safeguard voting rights further suggests a left-of-center perspective. The mention of gerrymandering, often criticized by the left for disenfranchising marginalized communities, reinforces this classification. However, the measured tone and lack of overt partisan language prevent absolute certainty, though the overall context leans left."
+    },
+    {
+      "author": "ElectionObserver88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges concerns from both sides of the voter ID and mail-in voting debate, emphasizing the tension between election security and potential voter disenfranchisement. While the mention of disenfranchisement aligns more with left-leaning priorities, the author does not explicitly prioritize one concern over the other or endorse partisan arguments. Their neutral framing and expressed uncertainty suggest a lack of clear ideological alignment, making a definitive classification as LEFT or RIGHT inappropriate.\"\n}\n```",
+      "explanation": "The author acknowledges concerns from both sides of the voter ID and mail-in voting debate, emphasizing the tension between election security and potential voter disenfranchisement. While the mention of disenfranchisement aligns more with left-leaning priorities, the author does not explicitly prioritize one concern over the other or endorse partisan arguments. Their neutral framing and expressed uncertainty suggest a lack of clear ideological alignment, making a definitive classification as LEFT or RIGHT inappropriate."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post leans left due to their skepticism of voter ID laws (commonly criticized by the left as suppressive), support for mail-in voting (a priority for expanding accessibility, often championed by the left), and mention of gerrymandering (a key issue for left-leaning voting rights advocates). While they express uncertainty and acknowledge concerns about election integrity (a talking point more associated with the right), the dominant themes\u2014opposition to voter suppression tactics and emphasis on accessibility\u2014align more closely with left-leaning perspectives. The critical view of voter ID laws and gerrymandering, paired with support for mail-in voting, outweigh the tentative engagement with right-leaning concerns.\"\n}",
+      "explanation": "The author's post leans left due to their skepticism of voter ID laws (commonly criticized by the left as suppressive), support for mail-in voting (a priority for expanding accessibility, often championed by the left), and mention of gerrymandering (a key issue for left-leaning voting rights advocates). While they express uncertainty and acknowledge concerns about election integrity (a talking point more associated with the right), the dominant themes\u2014opposition to voter suppression tactics and emphasis on accessibility\u2014align more closely with left-leaning perspectives. The critical view of voter ID laws and gerrymandering, paired with support for mail-in voting, outweigh the tentative engagement with right-leaning concerns."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern that voter ID laws may disproportionately impact marginalized communities, a common left-leaning critique emphasizing equity and systemic barriers. They also endorse mail-in voting, which is broadly supported by the left to expand ballot access. Additionally, their mention of gerrymandering as a complicating factor aligns with left-wing priorities focused on combating systemic electoral inequities. While they acknowledge uncertainty about balancing fraud prevention, their emphasis on protecting marginalized groups and support for accessible voting methods strongly suggests a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author expresses concern that voter ID laws may disproportionately impact marginalized communities, a common left-leaning critique emphasizing equity and systemic barriers. They also endorse mail-in voting, which is broadly supported by the left to expand ballot access. Additionally, their mention of gerrymandering as a complicating factor aligns with left-wing priorities focused on combating systemic electoral inequities. While they acknowledge uncertainty about balancing fraud prevention, their emphasis on protecting marginalized groups and support for accessible voting methods strongly suggests a left-leaning orientation."
+    },
+    {
+      "author": "EcoVoter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\",\n   \",\n    \"explanation\": \"The author expresses concern that voter ID laws may act as a barrier to fair representation for certain communities, a stance commonly associated with left-leaning perspectives that emphasize voter accessibility and opposition to policies perceived as suppressive. While acknowledging complexity and 'valid points on both sides,' the focus on equitable participation ('ensure everyone has a voice') and implicit critique of potential disenfranchisement aligns more closely with progressive arguments against restrictive voting laws. The username 'EcoVoter' (suggesting environmentalism, often linked to left politics) further supports this leaning, though the primary classification derives from the content's emphasis on community impact.\"\n}\n```",
+      "explanation": "```json\n{\n    \"orientation\",\n   \",\n    \"explanation\": \"The author expresses concern that voter ID laws may act as a barrier to fair representation for certain communities, a stance commonly associated with left-leaning perspectives that emphasize voter accessibility and opposition to policies perceived as suppressive. While acknowledging complexity and 'valid points on both sides,' the focus on equitable participation ('ensure everyone has a voice') and implicit critique of potential disenfranchisement aligns more closely with progressive arguments against restrictive voting laws. The username 'EcoVoter' (suggesting environmentalism, often linked to left politics) further supports this leaning, though the primary classification derives from the content's emphasis on community impact.\"\n}\n```"
+    },
+    {
+      "author": "ElectionObserver89",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses ambivalence on voter ID laws, acknowledging both potential benefits (often associated with RIGHT-leaning arguments for election integrity) and concerns about disenfranchisement (a LEFT-leaning critique). The author also raises mail-in voting and gerrymandering, which are issues debated across the political spectrum. While the concern about voter ID targeting marginalized groups leans LEFT, the neutral framing of balancing competing priorities and the lack of explicit endorsement of partisan positions make a definitive classification uncertain. The author's emphasis on 'balancing concerns' suggests a nuanced or moderate perspective that does not clearly align with LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post expresses ambivalence on voter ID laws, acknowledging both potential benefits (often associated with RIGHT-leaning arguments for election integrity) and concerns about disenfranchisement (a LEFT-leaning critique). The author also raises mail-in voting and gerrymandering, which are issues debated across the political spectrum. While the concern about voter ID targeting marginalized groups leans LEFT, the neutral framing of balancing competing priorities and the lack of explicit endorsement of partisan positions make a definitive classification uncertain. The author's emphasis on 'balancing concerns' suggests a nuanced or moderate perspective that does not clearly align with LEFT or RIGHT."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post acknowledges the right-leaning argument that voter ID laws could prevent fraud but expresses skepticism about their efficacy and concern about disenfranchisement, a left-leaning priority. The author seeks alternatives that balance election integrity with accessibility, reflecting a blend of both perspectives. While the concern about barriers aligns with left-wing critiques of voter ID laws, the initial openness to fraud prevention resonates with right-wing rhetoric. The ambiguity arises from the author's questioning stance rather than a definitive endorsement of either position, making a clear classification challenging.\"\n}",
+      "explanation": "The post acknowledges the right-leaning argument that voter ID laws could prevent fraud but expresses skepticism about their efficacy and concern about disenfranchisement, a left-leaning priority. The author seeks alternatives that balance election integrity with accessibility, reflecting a blend of both perspectives. While the concern about barriers aligns with left-wing critiques of voter ID laws, the initial openness to fraud prevention resonates with right-wing rhetoric. The ambiguity arises from the author's questioning stance rather than a definitive endorsement of either position, making a clear classification challenging."
+    },
+    {
+      "author": "ElectionWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses ambivalence about voter ID laws, acknowledging both the potential benefit of ensuring fair elections (a common right-leaning argument) and the risk of disenfranchisement (a common left-leaning concern). Their uncertainty and explicit recognition of complexity and validity in opposing viewpoints prevent a clear classification as LEFT or RIGHT. The post reflects a neutral, exploratory stance rather than a committed ideological position.\"\n}\n```",
+      "explanation": "The author expresses ambivalence about voter ID laws, acknowledging both the potential benefit of ensuring fair elections (a common right-leaning argument) and the risk of disenfranchisement (a common left-leaning concern). Their uncertainty and explicit recognition of complexity and validity in opposing viewpoints prevent a clear classification as LEFT or RIGHT. The post reflects a neutral, exploratory stance rather than a committed ideological position."
+    },
+    {
+      "author": "ElectionObserver87",
+      "orientation": "unknown",
+      "raw_response": "",
+      "explanation": ""
+    },
+    {
+      "author": "ElectionObserver123",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges both the potential benefits of voter ID laws for election integrity (a common right-leaning position) and the risk of disenfranchisement (a frequent left-leaning concern). However, they do not explicitly prioritize one issue over the other, instead seeking a balance. This balanced consideration of both perspectives, without clear alignment, makes it difficult to definitively classify the author's political orientation as strictly LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author acknowledges both the potential benefits of voter ID laws for election integrity (a common right-leaning position) and the risk of disenfranchisement (a frequent left-leaning concern). However, they do not explicitly prioritize one issue over the other, instead seeking a balance. This balanced consideration of both perspectives, without clear alignment, makes it difficult to definitively classify the author's political orientation as strictly LEFT or RIGHT."
+    },
+    {
+      "author": "VotingLibertyDebate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about strict voter ID laws potentially disenfranchising marginalized voters, a common argument associated with left-leaning perspectives that prioritize equitable access to voting. While acknowledging the fraud prevention rationale (a right-leaning stance), the emphasis on systemic barriers (e.g., difficulties obtaining IDs) and the framing of the issue as a 'delicate balance' tilted toward protecting vulnerable groups aligns more closely with progressive or liberal priorities. The post reflects skepticism toward restrictive voting policies, a hallmark of left-leaning advocacy.\"\n}\n```",
+      "explanation": "The author expresses concern about strict voter ID laws potentially disenfranchising marginalized voters, a common argument associated with left-leaning perspectives that prioritize equitable access to voting. While acknowledging the fraud prevention rationale (a right-leaning stance), the emphasis on systemic barriers (e.g., difficulties obtaining IDs) and the framing of the issue as a 'delicate balance' tilted toward protecting vulnerable groups aligns more closely with progressive or liberal priorities. The post reflects skepticism toward restrictive voting policies, a hallmark of left-leaning advocacy."
+    },
+    {
+      "author": "ElectionWatchR",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges concerns from both sides of the political spectrum: expressing worry about election fraud (a common right-leaning stance) and emphasizing the importance of accessibility to prevent disenfranchisement (a common left-leaning priority). The call for a 'balanced approach' does not clearly prioritize one concern over the other, and the neutral phrasing (e.g., 'still trying to understand,' 'finding a balanced approach') suggests an open or centrist perspective rather than a definitive ideological alignment. Without stronger indicators favoring one side\u2019s typical arguments, the political orientation remains ambiguous.\"\n}\n```",
+      "explanation": "The author acknowledges concerns from both sides of the political spectrum: expressing worry about election fraud (a common right-leaning stance) and emphasizing the importance of accessibility to prevent disenfranchisement (a common left-leaning priority). The call for a 'balanced approach' does not clearly prioritize one concern over the other, and the neutral phrasing (e.g., 'still trying to understand,' 'finding a balanced approach') suggests an open or centrist perspective rather than a definitive ideological alignment. Without stronger indicators favoring one side\u2019s typical arguments, the political orientation remains ambiguous."
+    },
+    {
+      "author": "ElectionObserver",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on addressing the 'perception of fraud' through stricter voter ID laws aligns with common right-leaning arguments, which often emphasize such concerns despite limited evidence of actual fraud. While the post acknowledges 'valid points on both sides,' the framing of the question prioritizes a narrative more frequently associated with conservative efforts to justify voting restrictions. The mention of mail-in voting (a frequent target of right-wing skepticism) further contextualizes the discussion within U.S. partisan divides. However, the tentative phrasing ('still trying to wrap my head around') introduces some uncertainty, though the overall emphasis leans toward right-leaning priorities.\"\n}\n```",
+      "explanation": "The author's focus on addressing the 'perception of fraud' through stricter voter ID laws aligns with common right-leaning arguments, which often emphasize such concerns despite limited evidence of actual fraud. While the post acknowledges 'valid points on both sides,' the framing of the question prioritizes a narrative more frequently associated with conservative efforts to justify voting restrictions. The mention of mail-in voting (a frequent target of right-wing skepticism) further contextualizes the discussion within U.S. partisan divides. However, the tentative phrasing ('still trying to wrap my head around') introduces some uncertainty, though the overall emphasis leans toward right-leaning priorities."
+    },
+    {
+      "author": "ElectionWatchDog",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author acknowledges potential benefits of voter ID laws (a common right-leaning position on election integrity) but expresses concern about disproportionate impacts on certain groups (a left-leaning concern about equity). Their emphasis on a 'balanced approach' that protects both integrity and voting rights reflects a centrist or moderate perspective. Since the post does not prioritize one concern over the other or use language strongly aligned with partisan talking points, it lacks a clear ideological alignment within the provided LEFT/RIGHT framework.\"\n}\n```",
+      "explanation": "The author acknowledges potential benefits of voter ID laws (a common right-leaning position on election integrity) but expresses concern about disproportionate impacts on certain groups (a left-leaning concern about equity). Their emphasis on a 'balanced approach' that protects both integrity and voting rights reflects a centrist or moderate perspective. Since the post does not prioritize one concern over the other or use language strongly aligned with partisan talking points, it lacks a clear ideological alignment within the provided LEFT/RIGHT framework."
+    },
+    {
+      "author": "ElectionObserver123",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about strict voter ID laws, questioning whether they genuinely ensure election integrity or instead create barriers to voting. This aligns with common left-leaning arguments that emphasize accessibility and potential disenfranchisement of marginalized groups. While the author seeks a 'balance,' their focus on the risk of making voting harder and prioritizing fairness (often framed as equitable access) over strict procedural controls reflects a perspective more consistent with progressive or liberal viewpoints. The right typically advocates for strict voter ID laws as a primary means to ensure integrity, with less emphasis on accessibility concerns.\"\n}\n```",
+      "explanation": "The author expresses skepticism about strict voter ID laws, questioning whether they genuinely ensure election integrity or instead create barriers to voting. This aligns with common left-leaning arguments that emphasize accessibility and potential disenfranchisement of marginalized groups. While the author seeks a 'balance,' their focus on the risk of making voting harder and prioritizing fairness (often framed as equitable access) over strict procedural controls reflects a perspective more consistent with progressive or liberal viewpoints. The right typically advocates for strict voter ID laws as a primary means to ensure integrity, with less emphasis on accessibility concerns."
+    },
+    {
+      "author": "LibertarianVoter",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about voter ID laws, acknowledging both fraud prevention (a common right-leaning argument) and potential disenfranchisement (a left-leaning concern). They also raise issues with mail-in voting and gerrymandering, which are debated across the political spectrum. The username 'LibertarianVoter' suggests libertarian leanings, which do not align strictly with traditional left/right binaries. Their balanced consideration of access and integrity, without clear partisan alignment, makes a definitive classification challenging. The mixed stance on issues that are polarized between left and right, combined with the libertarian identifier, justifies the 'UNKNOWN' classification.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about voter ID laws, acknowledging both fraud prevention (a common right-leaning argument) and potential disenfranchisement (a left-leaning concern). They also raise issues with mail-in voting and gerrymandering, which are debated across the political spectrum. The username 'LibertarianVoter' suggests libertarian leanings, which do not align strictly with traditional left/right binaries. Their balanced consideration of access and integrity, without clear partisan alignment, makes a definitive classification challenging. The mixed stance on issues that are polarized between left and right, combined with the libertarian identifier, justifies the 'UNKNOWN' classification."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

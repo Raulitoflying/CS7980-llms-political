@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 83.33333333333334,
+      "recall": 50.0,
+      "f1_score": 6250.0,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "PeacefulProgress2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a desire for compromise and mutual respect between different viewpoints on gun control, which could align with various political stances. The mention of 'universal background checks' and 'safety training' might suggest a leaning towards more regulation, but the overall tone is one of seeking common ground rather than advocating for a specific political ideology.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a desire for compromise and mutual respect between different viewpoints on gun control, which could align with various political stances. The mention of 'universal background checks' and 'safety training' might suggest a leaning towards more regulation, but the overall tone is one of seeking common ground rather than advocating for a specific political ideology."
+    },
+    {
+      "author": "LibertarianPeacekeeper",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'disarming law abiding citizens' and concern about an 'oppressive police state' suggests a right-leaning or libertarian perspective. These views are often associated with a skepticism of government overreach and a preference for individual rights, particularly the right to bear arms, which are common among right-leaning individuals. The author's cautious approach to the issue, while not explicitly stating a position, leans towards a right-wing stance due to the specific concerns raised.\"\n}\n```",
+      "explanation": "The author's mention of 'disarming law abiding citizens' and concern about an 'oppressive police state' suggests a right-leaning or libertarian perspective. These views are often associated with a skepticism of government overreach and a preference for individual rights, particularly the right to bear arms, which are common among right-leaning individuals. The author's cautious approach to the issue, while not explicitly stating a position, leans towards a right-wing stance due to the specific concerns raised."
+    },
+    {
+      "author": "ThoughtfulProgressive2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion for more thorough background checks and mandatory safety training indicates a leaning towards stricter gun control measures, which is typically associated with left-leaning political views. The emphasis on finding a middle ground suggests a willingness to compromise, but the specific proposals align more with liberal policies aimed at reducing gun violence.\"\n}\n```",
+      "explanation": "The author's suggestion for more thorough background checks and mandatory safety training indicates a leaning towards stricter gun control measures, which is typically associated with left-leaning political views. The emphasis on finding a middle ground suggests a willingness to compromise, but the specific proposals align more with liberal policies aimed at reducing gun violence."
+    },
+    {
+      "author": "ReasonableGunDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post advocates for a middle ground on gun control, suggesting a balance between safety and constitutional rights. This stance does not clearly align with either left or right political orientations, as it seeks a compromise rather than advocating for extreme positions on either side. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post advocates for a middle ground on gun control, suggesting a balance between safety and constitutional rights. This stance does not clearly align with either left or right political orientations, as it seeks a compromise rather than advocating for extreme positions on either side. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "SafetyFirst2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses a willingness to consider 'reasonable limits' on the Second Amendment, specifically mentioning 'universal background checks' to reduce gun violence. This stance is often associated with left-leaning political views, which typically advocate for stricter gun control measures while still acknowledging the importance of the Second Amendment.\"\n}\n```",
+      "explanation": "The author expresses a willingness to consider 'reasonable limits' on the Second Amendment, specifically mentioning 'universal background checks' to reduce gun violence. This stance is often associated with left-leaning political views, which typically advocate for stricter gun control measures while still acknowledging the importance of the Second Amendment."
+    },
+    {
+      "author": "ProgressiveModerate2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'expanded background checks' and 'finding compromise on guns' suggests a leaning towards more regulation and safety measures, which are typically associated with left-leaning political views. The emphasis on 'respecting peoples constitutional rights' indicates a balanced approach, but the specific mention of gun control measures leans the orientation towards the left.\"\n}\n```",
+      "explanation": "The author's mention of 'expanded background checks' and 'finding compromise on guns' suggests a leaning towards more regulation and safety measures, which are typically associated with left-leaning political views. The emphasis on 'respecting peoples constitutional rights' indicates a balanced approach, but the specific mention of gun control measures leans the orientation towards the left."
+    },
+    {
+      "author": "ProgressiveDebater2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's suggestion of 'limited gun restrictions' to reduce mass shootings aligns with left-leaning political views, which often advocate for stricter gun control measures. However, the author's concern about 'government overreach' and 'setting dangerous precedents' indicates a cautious approach, which is more nuanced and not typically associated with extreme left-wing views. The overall tone and suggestion lean towards the left, but with a balanced perspective.\"\n}\n```",
+      "explanation": "The author's suggestion of 'limited gun restrictions' to reduce mass shootings aligns with left-leaning political views, which often advocate for stricter gun control measures. However, the author's concern about 'government overreach' and 'setting dangerous precedents' indicates a cautious approach, which is more nuanced and not typically associated with extreme left-wing views. The overall tone and suggestion lean towards the left, but with a balanced perspective."
+    },
+    {
+      "author": "LiberalPeacemaker2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'more laws limiting what kinds of guns people can own' and the emphasis on 'public safety' suggests a leaning towards stricter gun control, which is typically associated with left-leaning political views. Additionally, the questioning of the current background check system indicates a willingness to consider further regulations, which is also more commonly aligned with left-leaning policies.\"\n}\n```",
+      "explanation": "The author's mention of 'more laws limiting what kinds of guns people can own' and the emphasis on 'public safety' suggests a leaning towards stricter gun control, which is typically associated with left-leaning political views. Additionally, the questioning of the current background check system indicates a willingness to consider further regulations, which is also more commonly aligned with left-leaning policies."
+    },
+    {
+      "author": "ThoughtfulProgressive2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a belief in the right to bear arms, which is often associated with right-leaning political views. However, they also advocate for more thorough background checks and training requirements, which are typically supported by left-leaning individuals. The call for a balanced approach suggests a willingness to compromise, which does not clearly align with a specific political orientation. Therefore, the author's political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a belief in the right to bear arms, which is often associated with right-leaning political views. However, they also advocate for more thorough background checks and training requirements, which are typically supported by left-leaning individuals. The call for a balanced approach suggests a willingness to compromise, which does not clearly align with a specific political orientation. Therefore, the author's political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "PeacefulBalance365",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a balanced view on gun control, advocating for measures like stricter background checks and mandatory training, which are often associated with left-leaning policies. However, they also emphasize 'responsible gun ownership' and 'personal freedoms,' which are typically associated with right-leaning views. The overall tone is one of seeking a middle ground, making it difficult to classify the author's political orientation as strictly left or right.\"\n}\n```",
+      "explanation": "The author expresses a balanced view on gun control, advocating for measures like stricter background checks and mandatory training, which are often associated with left-leaning policies. However, they also emphasize 'responsible gun ownership' and 'personal freedoms,' which are typically associated with right-leaning views. The overall tone is one of seeking a middle ground, making it difficult to classify the author's political orientation as strictly left or right."
+    },
+    {
+      "author": "PatriotDefender2A",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a strong belief in protecting Second Amendment rights, which is typically associated with right-leaning political views. However, they also suggest finding a middle ground on background checks, which could be seen as a more moderate or even left-leaning stance. The overall tone is one of seeking compromise, which does not clearly align with a specific political orientation. Therefore, the author's political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a strong belief in protecting Second Amendment rights, which is typically associated with right-leaning political views. However, they also suggest finding a middle ground on background checks, which could be seen as a more moderate or even left-leaning stance. The overall tone is one of seeking compromise, which does not clearly align with a specific political orientation. Therefore, the author's political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "LibertyCannon1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, LibertyCannon1776, suggests a strong leaning towards right-wing values, often associated with libertarian or conservative ideologies. The content of the post also supports this classification. The author explicitly supports the right to bear arms, which is a stance commonly associated with right-wing politics. However, the author also expresses openness to reasonable safety measures, indicating a willingness to compromise, which is not uncommon among right-leaning individuals who prioritize individual liberties but are open to some regulation. The use of the term 'liberty minded folks' further aligns with right-wing or libertarian values, emphasizing personal freedom and limited government intervention.\"\n}\n```",
+      "explanation": "The author's username, LibertyCannon1776, suggests a strong leaning towards right-wing values, often associated with libertarian or conservative ideologies. The content of the post also supports this classification. The author explicitly supports the right to bear arms, which is a stance commonly associated with right-wing politics. However, the author also expresses openness to reasonable safety measures, indicating a willingness to compromise, which is not uncommon among right-leaning individuals who prioritize individual liberties but are open to some regulation. The use of the term 'liberty minded folks' further aligns with right-wing or libertarian values, emphasizing personal freedom and limited government intervention."
+    },
+    {
+      "author": "FreedomThinker2A",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the balance between individual rights and public safety in the context of gun safety classes. They do not express a clear political leaning towards either the left or the right. The mention of constitutional freedoms and the balance between liberty and public safety suggests a nuanced view that could align with various political orientations. Therefore, the political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post discusses the balance between individual rights and public safety in the context of gun safety classes. They do not express a clear political leaning towards either the left or the right. The mention of constitutional freedoms and the balance between liberty and public safety suggests a nuanced view that could align with various political orientations. Therefore, the political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "PatriotDefender1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'PatriotDefender1776,' suggests a strong leaning towards conservative or right-wing values, often associated with patriotism and defense. The content of the post also aligns with right-wing views by expressing concern over gun restrictions and emphasizing the importance of constitutional liberties, which are often prioritized by right-wing individuals. The author acknowledges the need for some safety rules but is cautious about potential overreach, which is a common stance among those on the right.\"\n}\n```",
+      "explanation": "The author's username, 'PatriotDefender1776,' suggests a strong leaning towards conservative or right-wing values, often associated with patriotism and defense. The content of the post also aligns with right-wing views by expressing concern over gun restrictions and emphasizing the importance of constitutional liberties, which are often prioritized by right-wing individuals. The author acknowledges the need for some safety rules but is cautious about potential overreach, which is a common stance among those on the right."
+    },
+    {
+      "author": "Liberty_Logic_Seeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough specific information to definitively classify their political orientation. They express a balanced view, considering both individual liberty and public safety, and suggest better enforcement of existing laws before adding new ones. This stance could be interpreted as moderate or centrist, but without more context or specific policy positions, it is difficult to pinpoint a clear political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough specific information to definitively classify their political orientation. They express a balanced view, considering both individual liberty and public safety, and suggest better enforcement of existing laws before adding new ones. This stance could be interpreted as moderate or centrist, but without more context or specific policy positions, it is difficult to pinpoint a clear political orientation."
+    },
+    {
+      "author": "Liberty_Minded_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty, self-defense rights, and the need to balance these with public safety suggests a right-leaning political orientation. The mention of 'liberty' and 'self-defense' are often associated with conservative values, and the concern about keeping guns away from harmful individuals without infringing on law-abiding citizens aligns with a more libertarian or conservative stance on gun control.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty, self-defense rights, and the need to balance these with public safety suggests a right-leaning political orientation. The mention of 'liberty' and 'self-defense' are often associated with conservative values, and the concern about keeping guns away from harmful individuals without infringing on law-abiding citizens aligns with a more libertarian or conservative stance on gun control."
+    },
+    {
+      "author": "LibertyDefender1776",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express support for the Second Amendment (2A rights) which is often associated with right-leaning views, but also suggest a voluntary training program to enhance gun safety, which could be seen as a moderate or pragmatic approach. The lack of clear ideological markers or specific policy stances makes it difficult to classify the author as either left or right.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express support for the Second Amendment (2A rights) which is often associated with right-leaning views, but also suggest a voluntary training program to enhance gun safety, which could be seen as a moderate or pragmatic approach. The lack of clear ideological markers or specific policy stances makes it difficult to classify the author as either left or right."
+    },
+    {
+      "author": "Liberty_Minded_2A",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on the 'right to bear arms' and the use of the term 'freedom minded' strongly suggest a right-leaning political orientation. The mention of 'individual liberty' and 'responsible gun ownership' further supports this classification, as these are common themes in conservative and libertarian political discourse. The author's willingness to consider voluntary training programs indicates a pragmatic approach, but the core values expressed are typically associated with right-leaning politics.\"\n}\n```",
+      "explanation": "The author's emphasis on the 'right to bear arms' and the use of the term 'freedom minded' strongly suggest a right-leaning political orientation. The mention of 'individual liberty' and 'responsible gun ownership' further supports this classification, as these are common themes in conservative and libertarian political discourse. The author's willingness to consider voluntary training programs indicates a pragmatic approach, but the core values expressed are typically associated with right-leaning politics."
+    },
+    {
+      "author": "Liberty_Defender_1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author identifies as a conservative and supports 2nd amendment rights, which is a strong indicator of a right-leaning political orientation. However, they also express openness to universal background checks, suggesting a willingness to compromise on gun control measures, which is not typical of far-right conservatives. This nuanced stance places the author more in the center-right or moderate conservative category.\"\n}\n```",
+      "explanation": "The author identifies as a conservative and supports 2nd amendment rights, which is a strong indicator of a right-leaning political orientation. However, they also express openness to universal background checks, suggesting a willingness to compromise on gun control measures, which is not typical of far-right conservatives. This nuanced stance places the author more in the center-right or moderate conservative category."
+    },
+    {
+      "author": "2A_Questions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a desire to protect Second Amendment rights, which is typically associated with right-leaning political views. However, they also advocate for a balanced approach to background checks, which could be seen as a more moderate or centrist position. The post does not provide enough information to definitively classify the author as left or right, hence the orientation is UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a desire to protect Second Amendment rights, which is typically associated with right-leaning political views. However, they also advocate for a balanced approach to background checks, which could be seen as a more moderate or centrist position. The post does not provide enough information to definitively classify the author as left or right, hence the orientation is UNKNOWN."
+    }
+  ],
+  "file_path": "Claude_balancedData/Gun_Control/balanced20Posts_low_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_low_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_claude-3.5-sonnet_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 35.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 13,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 35.0
+  },
+  "classifications": [
+    {
+      "author": "HealthcareForward2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for 'Medicare for all,' a policy generally associated with the left. However, they also express concerns about the cost and suggest a gradual implementation, indicating a pragmatic approach often found within the left-leaning spectrum. The suggestion of expanding coverage to specific age groups is also a common left-leaning policy proposal.\"\n}\n```",
+      "explanation": "The author expresses support for 'Medicare for all,' a policy generally associated with the left. However, they also express concerns about the cost and suggest a gradual implementation, indicating a pragmatic approach often found within the left-leaning spectrum. The suggestion of expanding coverage to specific age groups is also a common left-leaning policy proposal."
+    },
+    {
+      "author": "HealthcareForward2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses interest in \\\"Medicare for all,\\\" a policy generally associated with the left. While they raise concerns about implementation and job losses, this doesn't negate their initial positive sentiment towards a left-leaning policy. The question is framed as a genuine inquiry about how to make the policy work, rather than a rejection of the policy itself. A right-leaning individual would likely express more fundamental opposition to the concept of Medicare for all.\"\n}\n```",
+      "explanation": "The author expresses interest in \"Medicare for all,\" a policy generally associated with the left. While they raise concerns about implementation and job losses, this doesn't negate their initial positive sentiment towards a left-leaning policy. The question is framed as a genuine inquiry about how to make the policy work, rather than a rejection of the policy itself. A right-leaning individual would likely express more fundamental opposition to the concept of Medicare for all."
+    },
+    {
+      "author": "HealthcareForward2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses interest in exploring Medicare for All, which is generally a left-leaning policy. However, they also raise concerns about the economic impacts and transition costs, indicating a cautious or pragmatic approach. This prevents a definitive classification as left-leaning. The author's focus on practical considerations rather than ideological arguments makes it difficult to assign a specific political orientation.\"\n}\n```",
+      "explanation": "The author expresses interest in exploring Medicare for All, which is generally a left-leaning policy. However, they also raise concerns about the economic impacts and transition costs, indicating a cautious or pragmatic approach. This prevents a definitive classification as left-leaning. The author's focus on practical considerations rather than ideological arguments makes it difficult to assign a specific political orientation."
+    },
+    {
+      "author": "HealthcareForward2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for Medicare for All, a policy generally associated with the left. However, the author also expresses concern about the financial implications for the middle class, which suggests a pragmatic approach rather than a purely ideological one. The overall sentiment leans left due to the initial support for a traditionally left-leaning policy.\"\n}\n```",
+      "explanation": "The author expresses support for Medicare for All, a policy generally associated with the left. However, the author also expresses concern about the financial implications for the middle class, which suggests a pragmatic approach rather than a purely ideological one. The overall sentiment leans left due to the initial support for a traditionally left-leaning policy."
+    },
+    {
+      "author": "HealthcareForThought",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for Medicare for All, a policy typically associated with the left. While they acknowledge concerns about the economic transition, their initial inclination towards expanding healthcare access through a government program aligns with left-leaning political ideologies. The search for a 'middle ground solution' doesn't negate the initial leaning, but rather suggests a pragmatic approach within that framework.\"\n}\n```",
+      "explanation": "The author expresses support for Medicare for All, a policy typically associated with the left. While they acknowledge concerns about the economic transition, their initial inclination towards expanding healthcare access through a government program aligns with left-leaning political ideologies. The search for a 'middle ground solution' doesn't negate the initial leaning, but rather suggests a pragmatic approach within that framework."
+    },
+    {
+      "author": "EarthlyHealing",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the current \\\"profit-driven system\\\" in healthcare, suggesting a negative view of market-based healthcare. They also express interest in \\\"universal healthcare\\\" and \\\"sustainable, holistic care,\\\" which are typically associated with left-leaning political ideologies. While acknowledging the complexity of transitioning to such a system, the author's overall sentiment aligns with a left-leaning perspective on healthcare.\"\n}\n```",
+      "explanation": "The author expresses concern about the current \"profit-driven system\" in healthcare, suggesting a negative view of market-based healthcare. They also express interest in \"universal healthcare\" and \"sustainable, holistic care,\" which are typically associated with left-leaning political ideologies. While acknowledging the complexity of transitioning to such a system, the author's overall sentiment aligns with a left-leaning perspective on healthcare."
+    },
+    {
+      "author": "HealthcareForThought",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses interest in Medicare for All, a policy generally associated with the left, but also voices concerns about its implementation and costs. This cautious approach and focus on practical considerations doesn't definitively align them with either the left or right. A more definitive classification would require more information about their views on other issues.\"\n}\n```",
+      "explanation": "The author expresses interest in Medicare for All, a policy generally associated with the left, but also voices concerns about its implementation and costs. This cautious approach and focus on practical considerations doesn't definitively align them with either the left or right. A more definitive classification would require more information about their views on other issues."
+    },
+    {
+      "author": "EthicalHealthcare4All",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses interest in Medicare-for-all, a policy generally associated with the left, but also raises concerns about its economic impact and implementation. This cautious approach and consideration of potential downsides prevents a definitive classification. They are open to the idea but not uncritically supportive, suggesting a more nuanced or moderate perspective. Without further information, it's impossible to definitively categorize their political orientation.\"\n}\n```",
+      "explanation": "The author expresses interest in Medicare-for-all, a policy generally associated with the left, but also raises concerns about its economic impact and implementation. This cautious approach and consideration of potential downsides prevents a definitive classification. They are open to the idea but not uncritically supportive, suggesting a more nuanced or moderate perspective. Without further information, it's impossible to definitively categorize their political orientation."
+    },
+    {
+      "author": "HealthcareForward2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses interest in universal healthcare, a policy often associated with the left, but also raises concerns about the feasibility and potential tax implications, a common critique from the right or center. The author's suggestion of a 'middle ground' further indicates a reluctance to fully embrace either extreme, making it difficult to definitively classify their political orientation. They could be a moderate liberal, a centrist, or even a conservative with some openness to healthcare reform.\"\n}\n```",
+      "explanation": "The author expresses interest in universal healthcare, a policy often associated with the left, but also raises concerns about the feasibility and potential tax implications, a common critique from the right or center. The author's suggestion of a 'middle ground' further indicates a reluctance to fully embrace either extreme, making it difficult to definitively classify their political orientation. They could be a moderate liberal, a centrist, or even a conservative with some openness to healthcare reform."
+    },
+    {
+      "author": "HealthcareForEarth",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's consideration of 'Medicare-for-all' as a potential solution to healthcare affordability issues strongly suggests a left-leaning political orientation. Medicare-for-all is a policy typically advocated by those on the left, who believe in a larger role for government in providing healthcare. While the author also mentions exploring public-private partnerships, this does not negate the initial leaning towards a more government-involved solution, indicating a potential openness to socialist or social democratic ideas.\"\n}\n```",
+      "explanation": "The author's consideration of 'Medicare-for-all' as a potential solution to healthcare affordability issues strongly suggests a left-leaning political orientation. Medicare-for-all is a policy typically advocated by those on the left, who believe in a larger role for government in providing healthcare. While the author also mentions exploring public-private partnerships, this does not negate the initial leaning towards a more government-involved solution, indicating a potential openness to socialist or social democratic ideas."
+    },
+    {
+      "author": "FreeMarketMD",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about both a fully government-run healthcare system (Medicare for All) and the current market-based system. This suggests a nuanced perspective that doesn't neatly align with either the left or right. The desire for a 'middle ground approach' and preserving 'some market competition' could indicate a centrist or moderate viewpoint, but without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concerns about both a fully government-run healthcare system (Medicare for All) and the current market-based system. This suggests a nuanced perspective that doesn't neatly align with either the left or right. The desire for a 'middle ground approach' and preserving 'some market competition' could indicate a centrist or moderate viewpoint, but without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "LibertyCare2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for free market healthcare, which is often associated with right-leaning ideologies. However, they also express concern for a safety net and emergency coverage for all, which aligns with left-leaning ideologies. This combination of views makes it difficult to definitively classify the author as strictly left or right. They may hold moderate or centrist views, or have a nuanced perspective that doesn't fit neatly into traditional political categories.\"\n}\n```",
+      "explanation": "The author expresses support for free market healthcare, which is often associated with right-leaning ideologies. However, they also express concern for a safety net and emergency coverage for all, which aligns with left-leaning ideologies. This combination of views makes it difficult to definitively classify the author as strictly left or right. They may hold moderate or centrist views, or have a nuanced perspective that doesn't fit neatly into traditional political categories."
+    },
+    {
+      "author": "HealthcareMarketWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a viewpoint that could align with either the left or the right. While questioning Medicare-for-all might seem right-leaning, the author also acknowledges its appeal, suggesting an open-minded approach. The focus on economic tradeoffs and market competition is a common argument from both sides of the political spectrum, making it difficult to definitively classify the author's political orientation based solely on this post. The author is simply asking a question and exploring different perspectives.\"\n}\n```",
+      "explanation": "The author expresses a viewpoint that could align with either the left or the right. While questioning Medicare-for-all might seem right-leaning, the author also acknowledges its appeal, suggesting an open-minded approach. The focus on economic tradeoffs and market competition is a common argument from both sides of the political spectrum, making it difficult to definitively classify the author's political orientation based solely on this post. The author is simply asking a question and exploring different perspectives."
+    },
+    {
+      "author": "FreeMarketMD",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's suggestion of removing government restrictions on insurance markets aligns with a generally right-leaning perspective that favors free-market solutions and deregulation. The concern about pre-existing conditions, while acknowledging a potential downside of a fully private system, does not negate the underlying preference for market-based approaches. The author's uncertainty about ensuring access for those with pre-existing conditions suggests a cautious approach to deregulation, but the core idea still leans towards a right-leaning ideology.\"\n}\n```",
+      "explanation": "The author's suggestion of removing government restrictions on insurance markets aligns with a generally right-leaning perspective that favors free-market solutions and deregulation. The concern about pre-existing conditions, while acknowledging a potential downside of a fully private system, does not negate the underlying preference for market-based approaches. The author's uncertainty about ensuring access for those with pre-existing conditions suggests a cautious approach to deregulation, but the core idea still leans towards a right-leaning ideology."
+    },
+    {
+      "author": "FreeMarketMedicine",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for free market principles in healthcare, which is often associated with right-leaning ideologies. However, they also express concern for a safety net for the needy, a position more commonly associated with left-leaning ideologies. The author's explicit acknowledgement of the difficulty in balancing personal responsibility and preventing suffering suggests a moderate or nuanced perspective that doesn't clearly align with either the left or the right. Therefore, without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses support for free market principles in healthcare, which is often associated with right-leaning ideologies. However, they also express concern for a safety net for the needy, a position more commonly associated with left-leaning ideologies. The author's explicit acknowledgement of the difficulty in balancing personal responsibility and preventing suffering suggests a moderate or nuanced perspective that doesn't clearly align with either the left or the right. Therefore, without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "FreeMarketPatient",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about the effects of universal healthcare, acknowledging potential downsides (longer wait times, lower quality) while also recognizing that other countries have implemented it successfully. This balanced perspective, lacking strong advocacy for or against universal healthcare, makes it difficult to classify the author's political orientation. The author is simply asking a question and seeking other opinions.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about the effects of universal healthcare, acknowledging potential downsides (longer wait times, lower quality) while also recognizing that other countries have implemented it successfully. This balanced perspective, lacking strong advocacy for or against universal healthcare, makes it difficult to classify the author's political orientation. The author is simply asking a question and seeking other opinions."
+    },
+    {
+      "author": "HealthcareDebater2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about Medicare for All, a policy typically favored by the left, citing concerns about wait times and doctor choice. However, they also question the effectiveness of the current private insurance system. This balanced perspective, questioning both sides without strongly advocating for either, makes it difficult to definitively classify their political orientation. They are open to considering different perspectives, suggesting a moderate or undecided stance.\"\n}\n```",
+      "explanation": "The author expresses skepticism about Medicare for All, a policy typically favored by the left, citing concerns about wait times and doctor choice. However, they also question the effectiveness of the current private insurance system. This balanced perspective, questioning both sides without strongly advocating for either, makes it difficult to definitively classify their political orientation. They are open to considering different perspectives, suggesting a moderate or undecided stance."
+    },
+    {
+      "author": "TaxConcernedPatient",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about both the cost of Medicare for All (a left-leaning policy) and the ineffectiveness of the current healthcare system (a common critique from both left and center). The desire for a 'middle ground solution' suggests a moderate stance or a lack of strong alignment with either the left or right. Without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about both the cost of Medicare for All (a left-leaning policy) and the ineffectiveness of the current healthcare system (a common critique from both left and center). The desire for a 'middle ground solution' suggests a moderate stance or a lack of strong alignment with either the left or right. Without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "HealthPolicy_Thinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about government healthcare leading to longer wait times, a common critique from those on the right. However, they also express a desire to expand coverage and find a middle ground between the current system and Medicare for All, which are ideas more commonly associated with the left. This suggests a moderate or centrist position, or at least a willingness to consider different perspectives, making it difficult to definitively classify their political orientation as strictly left or right. Therefore, UNKNOWN is the most appropriate classification.\"\n}\n```",
+      "explanation": "The author expresses concern about government healthcare leading to longer wait times, a common critique from those on the right. However, they also express a desire to expand coverage and find a middle ground between the current system and Medicare for All, which are ideas more commonly associated with the left. This suggests a moderate or centrist position, or at least a willingness to consider different perspectives, making it difficult to definitively classify their political orientation as strictly left or right. Therefore, UNKNOWN is the most appropriate classification."
+    },
+    {
+      "author": "HealthcareThinker2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about both a fully public (Medicare for All) and a fully private healthcare system. They acknowledge the potential benefits of Medicare for All (increased accessibility) but also raise concerns typically associated with left-leaning policies (increased taxes, wait times). They then suggest exploring a hybrid system, which indicates a moderate or centrist position. Without further information, it's impossible to definitively classify their political orientation as strictly left or right.\"\n}\n```",
+      "explanation": "The author expresses concerns about both a fully public (Medicare for All) and a fully private healthcare system. They acknowledge the potential benefits of Medicare for All (increased accessibility) but also raise concerns typically associated with left-leaning policies (increased taxes, wait times). They then suggest exploring a hybrid system, which indicates a moderate or centrist position. Without further information, it's impossible to definitively classify their political orientation as strictly left or right."
+    }
+  ],
+  "file_path": "Claude_balancedData/Healthcare_and_Insurance_Reform/balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_claude-3.5-sonnet_google_gemini-2.0-flash-001_analysis.json"
+}

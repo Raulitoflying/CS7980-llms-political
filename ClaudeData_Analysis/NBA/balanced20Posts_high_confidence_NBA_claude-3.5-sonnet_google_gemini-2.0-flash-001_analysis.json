@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 10,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "HoopsForProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author explicitly praises the NBA's embrace of 'progressive values' and 'social justice activism.' They specifically mention players fighting 'systemic racism' as a positive development. These are all common themes and positions associated with the political left.\"\n}\n```",
+      "explanation": "The author explicitly praises the NBA's embrace of 'progressive values' and 'social justice activism.' They specifically mention players fighting 'systemic racism' as a positive development. These are all common themes and positions associated with the political left."
+    },
+    {
+      "author": "EcoSportsActivist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental sustainability and corporate responsibility aligns with left-leaning political ideologies. The call for mandatory solar power and zero waste policies for NBA arenas reflects a belief in government or organizational intervention to address environmental concerns, a common theme in left-wing political discourse.\"\n}\n```",
+      "explanation": "The author's focus on environmental sustainability and corporate responsibility aligns with left-leaning political ideologies. The call for mandatory solar power and zero waste policies for NBA arenas reflects a belief in government or organizational intervention to address environmental concerns, a common theme in left-wing political discourse."
+    },
+    {
+      "author": "HoopsRevolutionary1917",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses strong anti-capitalist sentiments, using phrases like \\\"corporate greed,\\\" \\\"capitalist propaganda,\\\" and \\\"exploiting working class fans.\\\" The comparison of team owners to \\\"modern slave masters\\\" further indicates a left-leaning perspective, as this type of rhetoric is commonly used to critique economic inequality and exploitation within capitalist systems. These are all hallmarks of left-wing political thought.\"\n}\n```",
+      "explanation": "The author's post expresses strong anti-capitalist sentiments, using phrases like \"corporate greed,\" \"capitalist propaganda,\" and \"exploiting working class fans.\" The comparison of team owners to \"modern slave masters\" further indicates a left-leaning perspective, as this type of rhetoric is commonly used to critique economic inequality and exploitation within capitalist systems. These are all hallmarks of left-wing political thought."
+    },
+    {
+      "author": "HoopsAndProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions. Specifically, the emphasis on 'social justice,' 'systemic racism,' and empowering marginalized groups (NBA players speaking out) are all hallmarks of left-leaning political discourse. Praising LeBron James, who is known for his progressive activism, further supports this classification.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions. Specifically, the emphasis on 'social justice,' 'systemic racism,' and empowering marginalized groups (NBA players speaking out) are all hallmarks of left-leaning political discourse. Praising LeBron James, who is known for his progressive activism, further supports this classification."
+    },
+    {
+      "author": "TruePatriotHoops1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement expresses several sentiments commonly associated with right-leaning political views. The phrases 'woke propaganda machine,' 'diversity quotas,' and 'social justice messaging' are frequently used by conservatives to criticize what they perceive as liberal overreach in cultural and political spheres. The call to 'boycott' due to these issues further suggests a conservative stance against perceived liberal bias in the NBA.\"\n}\n```",
+      "explanation": "The author's statement expresses several sentiments commonly associated with right-leaning political views. The phrases 'woke propaganda machine,' 'diversity quotas,' and 'social justice messaging' are frequently used by conservatives to criticize what they perceive as liberal overreach in cultural and political spheres. The call to 'boycott' due to these issues further suggests a conservative stance against perceived liberal bias in the NBA."
+    },
+    {
+      "author": "ProgressiveHoops4Change",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with left-leaning political ideologies. The phrases 'social justice,' 'systemic racism,' 'empowering players,' 'meaningful change,' and 'putting people and progress ahead of profits' are all commonly associated with progressive and left-wing political discourse. The emphasis on social justice and challenging systemic inequalities are key indicators of a left-leaning perspective.\"\n}\n```",
+      "explanation": "The author's statement aligns with left-leaning political ideologies. The phrases 'social justice,' 'systemic racism,' 'empowering players,' 'meaningful change,' and 'putting people and progress ahead of profits' are all commonly associated with progressive and left-wing political discourse. The emphasis on social justice and challenging systemic inequalities are key indicators of a left-leaning perspective."
+    },
+    {
+      "author": "EcoHoopActivist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental issues, specifically advocating for zero waste and banning single-use plastics, aligns with common left-leaning political positions. Environmental activism and concern for ecological footprints are typically associated with progressive and liberal ideologies.\"\n}\n```",
+      "explanation": "The author's focus on environmental issues, specifically advocating for zero waste and banning single-use plastics, aligns with common left-leaning political positions. Environmental activism and concern for ecological footprints are typically associated with progressive and liberal ideologies."
+    },
+    {
+      "author": "HoopsTruthWarrior",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses resentment towards 'woke corporate interests' and 'elitist billionaires,' which are common themes in right-leaning critiques of contemporary culture and economics. The sentiment of 'taking back' something from perceived elites also aligns with populist rhetoric often found on the right.\"\n}\n```",
+      "explanation": "The author expresses resentment towards 'woke corporate interests' and 'elitist billionaires,' which are common themes in right-leaning critiques of contemporary culture and economics. The sentiment of 'taking back' something from perceived elites also aligns with populist rhetoric often found on the right."
+    },
+    {
+      "author": "HoopsLiberation2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post expresses strong anti-capitalist sentiments, specifically criticizing the NBA's ownership structure as exploitative. The call to \\\"seize control of teams\\\" and redistribute ownership to players and communities aligns with socialist or communist ideologies that advocate for worker control and wealth redistribution. The focus on racial dynamics within the capitalist system (black athletes exploited by white owners) further suggests a left-leaning perspective that incorporates elements of critical race theory and social justice.\"\n}\n```",
+      "explanation": "The author's post expresses strong anti-capitalist sentiments, specifically criticizing the NBA's ownership structure as exploitative. The call to \"seize control of teams\" and redistribute ownership to players and communities aligns with socialist or communist ideologies that advocate for worker control and wealth redistribution. The focus on racial dynamics within the capitalist system (black athletes exploited by white owners) further suggests a left-leaning perspective that incorporates elements of critical race theory and social justice."
+    },
+    {
+      "author": "HoopsForProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for the NBA's social justice initiatives and their emphasis on racial equity and progressive change strongly suggests a left-leaning political orientation. The phrase 'systemic racism' is commonly used in left-leaning discourse. The positive framing of athletes speaking out on social issues aligns with progressive values.\"\n}\n```",
+      "explanation": "The author's support for the NBA's social justice initiatives and their emphasis on racial equity and progressive change strongly suggests a left-leaning political orientation. The phrase 'systemic racism' is commonly used in left-leaning discourse. The positive framing of athletes speaking out on social issues aligns with progressive values."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on removing government involvement in stadium funding and advocating for a free market approach aligns with right-leaning political ideologies. The statement that taxpayers shouldn't subsidize billionaire team owners is a common argument against government spending and intervention, often associated with fiscally conservative viewpoints.\"\n}\n```",
+      "explanation": "The author's emphasis on removing government involvement in stadium funding and advocating for a free market approach aligns with right-leaning political ideologies. The statement that taxpayers shouldn't subsidize billionaire team owners is a common argument against government spending and intervention, often associated with fiscally conservative viewpoints."
+    },
+    {
+      "author": "PatriotHoopsTruth1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses phrases and concepts commonly associated with right-wing political ideology. Specifically, the terms 'Real Americans,' 'woke culture,' 'radical agenda,' and 'communist propaganda machine' are frequently used by right-leaning individuals to criticize perceived liberal or progressive viewpoints. The call for a boycott further suggests a strong opposition to the NBA's perceived political stance.\"\n}\n```",
+      "explanation": "The author uses phrases and concepts commonly associated with right-wing political ideology. Specifically, the terms 'Real Americans,' 'woke culture,' 'radical agenda,' and 'communist propaganda machine' are frequently used by right-leaning individuals to criticize perceived liberal or progressive viewpoints. The call for a boycott further suggests a strong opposition to the NBA's perceived political stance."
+    },
+    {
+      "author": "PatriotHoopsTruth",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses language and expresses sentiments commonly associated with right-leaning political ideologies. Specifically, the phrases 'Real patriots,' 'respect for our flag,' and the condemnation of a 'woke agenda' are frequently used by individuals on the right to express their political views. The author's disapproval of NBA players kneeling, which is often interpreted as a sign of disrespect towards the flag by conservatives, further solidifies this classification.\"\n}\n```",
+      "explanation": "The author uses language and expresses sentiments commonly associated with right-leaning political ideologies. Specifically, the phrases 'Real patriots,' 'respect for our flag,' and the condemnation of a 'woke agenda' are frequently used by individuals on the right to express their political views. The author's disapproval of NBA players kneeling, which is often interpreted as a sign of disrespect towards the flag by conservatives, further solidifies this classification."
+    },
+    {
+      "author": "RealAmericanHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses a sentiment common among right-leaning individuals: that athletes should refrain from political activism and focus solely on their sport. The term 'woke' is often used pejoratively by conservatives to criticize progressive social and political views. The statement implies a belief that political activism is detrimental to the sport and that athletes should prioritize entertainment over social commentary, aligning with a conservative perspective.\"\n}\n```",
+      "explanation": "The author expresses a sentiment common among right-leaning individuals: that athletes should refrain from political activism and focus solely on their sport. The term 'woke' is often used pejoratively by conservatives to criticize progressive social and political views. The statement implies a belief that political activism is detrimental to the sport and that athletes should prioritize entertainment over social commentary, aligning with a conservative perspective."
+    },
+    {
+      "author": "PatriotSportsFan1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses several sentiments commonly associated with right-leaning political views. The criticism of the NBA for being \\\"woke\\\" is a common trope used by conservatives to criticize perceived liberal or progressive activism in sports and entertainment. The statement about players \\\"disrespecting our flag\\\" is a common conservative talking point often used to criticize athletes who protest during the national anthem. The call for athletes to focus on sports instead of \\\"radical political agendas\\\" suggests a belief that sports should be apolitical, a view often held by conservatives who are critical of athletes using their platform to advocate for social justice causes. The username \\\"PatriotSportsFan1776\\\" further reinforces this right-leaning association through its patriotic symbolism.\"\n}\n```",
+      "explanation": "The author's post expresses several sentiments commonly associated with right-leaning political views. The criticism of the NBA for being \"woke\" is a common trope used by conservatives to criticize perceived liberal or progressive activism in sports and entertainment. The statement about players \"disrespecting our flag\" is a common conservative talking point often used to criticize athletes who protest during the national anthem. The call for athletes to focus on sports instead of \"radical political agendas\" suggests a belief that sports should be apolitical, a view often held by conservatives who are critical of athletes using their platform to advocate for social justice causes. The username \"PatriotSportsFan1776\" further reinforces this right-leaning association through its patriotic symbolism."
+    },
+    {
+      "author": "PatriotHoopsFan1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses several sentiments commonly associated with right-leaning political views. The criticism of the NBA as \\\"woke\\\" suggests a disapproval of progressive social and political activism. The call for players to \\\"shut up, stand for our anthem, and just play the game\\\" implies a belief in traditional American values and a rejection of athletes using their platform for political expression. The phrase \\\"America gave them\\\" suggests a nationalistic perspective and a belief that these players should be grateful and not critical of the country.\"\n}\n```",
+      "explanation": "The author expresses several sentiments commonly associated with right-leaning political views. The criticism of the NBA as \"woke\" suggests a disapproval of progressive social and political activism. The call for players to \"shut up, stand for our anthem, and just play the game\" implies a belief in traditional American values and a rejection of athletes using their platform for political expression. The phrase \"America gave them\" suggests a nationalistic perspective and a belief that these players should be grateful and not critical of the country."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty, bodily autonomy, and opposition to mandatory vaccine requirements, framing it as resistance to government and corporate coercion, aligns with common libertarian and conservative viewpoints often associated with the right wing. The phrase 'FreeMarketHoops' also suggests a leaning towards free-market principles, which are typically associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty, bodily autonomy, and opposition to mandatory vaccine requirements, framing it as resistance to government and corporate coercion, aligns with common libertarian and conservative viewpoints often associated with the right wing. The phrase 'FreeMarketHoops' also suggests a leaning towards free-market principles, which are typically associated with right-leaning ideologies."
+    },
+    {
+      "author": "FreeMarketHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement aligns with right-leaning political ideology. The emphasis on the 'free market' determining team locations and the opposition to using 'taxpayer money' for stadium construction are common themes within conservative and libertarian viewpoints. The phrase 'robbing hardworking Americans' further suggests a distrust of government spending and a belief in individual economic responsibility, which are typically associated with right-leaning perspectives.\"\n}\n```",
+      "explanation": "The author's statement aligns with right-leaning political ideology. The emphasis on the 'free market' determining team locations and the opposition to using 'taxpayer money' for stadium construction are common themes within conservative and libertarian viewpoints. The phrase 'robbing hardworking Americans' further suggests a distrust of government spending and a belief in individual economic responsibility, which are typically associated with right-leaning perspectives."
+    },
+    {
+      "author": "PatriotHoopsFan1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses language and expresses sentiments commonly associated with right-leaning political ideologies. Specifically, the phrases 'woke agenda,' 'liberal media,' 'real Americans,' and 'traditional values' are frequently used in conservative and right-wing circles to criticize perceived liberal or progressive influences in media and culture. The call for a boycott based on these grounds further solidifies this classification.\"\n}\n```",
+      "explanation": "The author uses language and expresses sentiments commonly associated with right-leaning political ideologies. Specifically, the phrases 'woke agenda,' 'liberal media,' 'real Americans,' and 'traditional values' are frequently used in conservative and right-wing circles to criticize perceived liberal or progressive influences in media and culture. The call for a boycott based on these grounds further solidifies this classification."
+    },
+    {
+      "author": "PatriotSportsFan1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement contains several indicators of a right-leaning political orientation. The phrases 'woke,' 'radical leftist agenda,' and the implication that athletes should not engage in political activism are commonly used by individuals on the right to criticize perceived liberal or progressive viewpoints. The reference to 'hardworking American fans' also suggests a populist sentiment often associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's statement contains several indicators of a right-leaning political orientation. The phrases 'woke,' 'radical leftist agenda,' and the implication that athletes should not engage in political activism are commonly used by individuals on the right to criticize perceived liberal or progressive viewpoints. The reference to 'hardworking American fans' also suggests a populist sentiment often associated with right-leaning ideologies."
+    }
+  ],
+  "file_path": "Claude_balancedData/NBA/balanced20Posts_high_confidence_NBA_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_high_confidence_NBA_claude-3.5-sonnet_google_gemini-2.0-flash-001_analysis.json"
+}

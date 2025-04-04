@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 88.88888888888889,
+      "recall": 80.0,
+      "f1_score": 8421.052631578948,
+      "true_positive": 8,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 55.00000000000001,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 9,
+      "true_negative": 11,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 50.0
+  },
+  "classifications": [
+    {
+      "author": "VotingRightsStudent",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a leaning towards the left based on their support for mail-in voting, which is a policy often advocated by left-leaning politicians and organizations. The author's willingness to consider opposing arguments indicates a nuanced perspective, but the initial stance on mail-in voting aligns more with left-leaning views.\"\n}\n```",
+      "explanation": "The author's post suggests a leaning towards the left based on their support for mail-in voting, which is a policy often advocated by left-leaning politicians and organizations. The author's willingness to consider opposing arguments indicates a nuanced perspective, but the initial stance on mail-in voting aligns more with left-leaning views."
+    },
+    {
+      "author": "DemocracySeeker2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern for both voter rights and election security, indicating a balanced and nuanced perspective. They do not explicitly align with left or right-wing ideologies, making their political orientation unclear. The mention of voter ID and election security could lean towards right-wing concerns, while the concern for low-income communities could lean towards left-wing concerns. However, the overall tone is one of seeking a balanced solution, which does not clearly indicate a political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern for both voter rights and election security, indicating a balanced and nuanced perspective. They do not explicitly align with left or right-wing ideologies, making their political orientation unclear. The mention of voter ID and election security could lean towards right-wing concerns, while the concern for low-income communities could lean towards left-wing concerns. However, the overall tone is one of seeking a balanced solution, which does not clearly indicate a political orientation."
+    },
+    {
+      "author": "VotingRightsAdvocate2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about potential barriers to voting created by strict voter ID requirements, which is a position often associated with the political left. They emphasize the importance of balancing election integrity with accessibility, suggesting a focus on inclusivity and support for vulnerable communities, which are typically aligned with left-leaning political views.\"\n}\n```",
+      "explanation": "The author expresses concern about potential barriers to voting created by strict voter ID requirements, which is a position often associated with the political left. They emphasize the importance of balancing election integrity with accessibility, suggesting a focus on inclusivity and support for vulnerable communities, which are typically aligned with left-leaning political views."
+    },
+    {
+      "author": "VotingRights4All",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests skepticism towards voter ID requirements, which are often supported by right-leaning politicians as a measure to prevent voter fraud. The author implies that these requirements are a barrier to voting, particularly for marginalized communities, and advocates for expanding access to voting. This stance aligns more closely with left-leaning political views, which often prioritize increasing voter participation and reducing barriers to voting.\"\n}\n```",
+      "explanation": "The author's post suggests skepticism towards voter ID requirements, which are often supported by right-leaning politicians as a measure to prevent voter fraud. The author implies that these requirements are a barrier to voting, particularly for marginalized communities, and advocates for expanding access to voting. This stance aligns more closely with left-leaning political views, which often prioritize increasing voter participation and reducing barriers to voting."
+    },
+    {
+      "author": "VotingRightsAdvocate2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author questions the necessity of voter ID requirements, which is a policy often supported by the political right. They also express skepticism about the existence of widespread voter fraud, a common talking point among those on the political left. The author's suggestion to implement ID requirements in a way that ensures easy voting access further aligns with left-leaning policies that prioritize accessibility and inclusivity in voting processes.\"\n}\n```",
+      "explanation": "The author questions the necessity of voter ID requirements, which is a policy often supported by the political right. They also express skepticism about the existence of widespread voter fraud, a common talking point among those on the political left. The author's suggestion to implement ID requirements in a way that ensures easy voting access further aligns with left-leaning policies that prioritize accessibility and inclusivity in voting processes."
+    },
+    {
+      "author": "ProgressiveVoter2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'expanding mail in voting' and 'increasing participation' suggests a left-leaning orientation. These are policies often advocated by left-leaning individuals and parties, as they aim to increase voter accessibility. The concern about 'errors in the process' and the need for a 'balanced approach' indicates a nuanced view, but the initial proposal aligns with progressive policies.\"\n}\n```",
+      "explanation": "The author's mention of 'expanding mail in voting' and 'increasing participation' suggests a left-leaning orientation. These are policies often advocated by left-leaning individuals and parties, as they aim to increase voter accessibility. The concern about 'errors in the process' and the need for a 'balanced approach' indicates a nuanced view, but the initial proposal aligns with progressive policies."
+    },
+    {
+      "author": "VotingRightsProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a willingness to consider voter ID requirements, which is often a stance associated with the political right. However, the concern for accessibility, especially for elderly and disabled voters, aligns more with left-leaning policies that prioritize inclusivity and accessibility. The overall tone and specific concerns indicate a left-leaning orientation, as it focuses on ensuring that all voters, particularly marginalized groups, have equal access to voting.\"\n}\n```",
+      "explanation": "The author's post suggests a willingness to consider voter ID requirements, which is often a stance associated with the political right. However, the concern for accessibility, especially for elderly and disabled voters, aligns more with left-leaning policies that prioritize inclusivity and accessibility. The overall tone and specific concerns indicate a left-leaning orientation, as it focuses on ensuring that all voters, particularly marginalized groups, have equal access to voting."
+    },
+    {
+      "author": "VotingRightsStudent",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for the accessibility of voting for elderly and disabled people, which is a common stance among those on the left. They also question the necessity of in-person voting, which is often advocated by those on the right. The author's willingness to engage with different perspectives and their focus on inclusivity in voting aligns more with left-leaning political orientations.\"\n}\n```",
+      "explanation": "The author expresses concern for the accessibility of voting for elderly and disabled people, which is a common stance among those on the left. They also question the necessity of in-person voting, which is often advocated by those on the right. The author's willingness to engage with different perspectives and their focus on inclusivity in voting aligns more with left-leaning political orientations."
+    },
+    {
+      "author": "VotingRightsAdvocate2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They acknowledge the complexity of the voter ID issue and suggest a compromise solution, which could be interpreted as a moderate stance. However, without more context or explicit statements about broader political views, it is difficult to determine whether they lean left or right.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They acknowledge the complexity of the voter ID issue and suggest a compromise solution, which could be interpreted as a moderate stance. However, without more context or explicit statements about broader political views, it is difficult to determine whether they lean left or right."
+    },
+    {
+      "author": "VotingRightsSeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes the importance of accessibility for elderly and disabled voters, which is a common stance among those on the left who advocate for policies that increase voter participation and accessibility. The mention of 'mail in voting' and 'verifying identity' suggests a concern for both security and inclusivity, which are often associated with left-leaning political views. The author does not express a strong stance against mail-in voting, which is often a point of contention for those on the right.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of accessibility for elderly and disabled voters, which is a common stance among those on the left who advocate for policies that increase voter participation and accessibility. The mention of 'mail in voting' and 'verifying identity' suggests a concern for both security and inclusivity, which are often associated with left-leaning political views. The author does not express a strong stance against mail-in voting, which is often a point of contention for those on the right."
+    },
+    {
+      "author": "VoterSecurityPatriot",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a desire for secure elections and mention the possibility of mail-in voting with strict verification, which could be seen as a moderate stance. However, without more context or specific policy positions, it is difficult to determine whether they lean left or right. The focus on both accessibility and fraud prevention suggests a balanced approach, which is common among centrists, but could also be interpreted as a pragmatic stance from either side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a desire for secure elections and mention the possibility of mail-in voting with strict verification, which could be seen as a moderate stance. However, without more context or specific policy positions, it is difficult to determine whether they lean left or right. The focus on both accessibility and fraud prevention suggests a balanced approach, which is common among centrists, but could also be interpreted as a pragmatic stance from either side of the political spectrum."
+    },
+    {
+      "author": "ElectionWatcher2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses the issue of voter ID requirements and expresses a desire for balanced solutions that consider both security and access. While the author questions the effectiveness of voter ID laws, they do not explicitly endorse or oppose them. The post does not provide enough information to definitively classify the author's political orientation as left or right, hence it is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author's post discusses the issue of voter ID requirements and expresses a desire for balanced solutions that consider both security and access. While the author questions the effectiveness of voter ID laws, they do not explicitly endorse or oppose them. The post does not provide enough information to definitively classify the author's political orientation as left or right, hence it is classified as UNKNOWN."
+    },
+    {
+      "author": "VotingIntegritySeeker2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a neutral stance on the issue of voter ID requirements, acknowledging both potential benefits and drawbacks. The request for studies and data suggests an interest in evidence-based policy, which could align with either political orientation. Without more context or explicit political statements, it is not possible to determine whether the author leans left or right.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a neutral stance on the issue of voter ID requirements, acknowledging both potential benefits and drawbacks. The request for studies and data suggests an interest in evidence-based policy, which could align with either political orientation. Without more context or explicit political statements, it is not possible to determine whether the author leans left or right."
+    },
+    {
+      "author": "Liberty_Thinker_1776",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a concern about voter fraud and the need for election integrity, which could be associated with right-leaning views. However, they also question government restrictions on voting rights and the expansion of state control, which could be associated with left-leaning views. The overall stance is ambiguous and does not clearly align with either left or right political orientations.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a concern about voter fraud and the need for election integrity, which could be associated with right-leaning views. However, they also question government restrictions on voting rights and the expansion of state control, which could be associated with left-leaning views. The overall stance is ambiguous and does not clearly align with either left or right political orientations."
+    },
+    {
+      "author": "ConservativeVoter2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'ConservativeVoter2024' suggests a right-leaning political orientation. The content of the post also aligns with conservative views on election security, but the author also expresses concern for voter access, indicating a nuanced perspective. The mention of 'voter ID' and 'election security' are common talking points among conservatives, but the author's willingness to consider a balance between access and integrity shows a more moderate stance within the right-leaning spectrum.\"\n}\n```",
+      "explanation": "The author's username 'ConservativeVoter2024' suggests a right-leaning political orientation. The content of the post also aligns with conservative views on election security, but the author also expresses concern for voter access, indicating a nuanced perspective. The mention of 'voter ID' and 'election security' are common talking points among conservatives, but the author's willingness to consider a balance between access and integrity shows a more moderate stance within the right-leaning spectrum."
+    },
+    {
+      "author": "LibertyVoter2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about voter ID requirements, which are often supported by the political right. They frame voter ID as a potential barrier to voting and an expansion of government control, which aligns with left-leaning views that prioritize accessibility to voting and limit government overreach. The author also suggests alternative methods to ensure election integrity, indicating a preference for solutions that do not involve increased government monitoring, which is a common stance among left-leaning individuals.\"\n}\n```",
+      "explanation": "The author expresses skepticism about voter ID requirements, which are often supported by the political right. They frame voter ID as a potential barrier to voting and an expansion of government control, which aligns with left-leaning views that prioritize accessibility to voting and limit government overreach. The author also suggests alternative methods to ensure election integrity, indicating a preference for solutions that do not involve increased government monitoring, which is a common stance among left-leaning individuals."
+    },
+    {
+      "author": "ElectionIntegritySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about election integrity and voter access, but does not explicitly align with any particular political ideology. They acknowledge the need for secure elections while also considering the potential barriers that voter ID requirements might pose for certain groups. This balanced perspective does not clearly indicate a left or right political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about election integrity and voter access, but does not explicitly align with any particular political ideology. They acknowledge the need for secure elections while also considering the potential barriers that voter ID requirements might pose for certain groups. This balanced perspective does not clearly indicate a left or right political orientation."
+    },
+    {
+      "author": "RedStateModerate2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about both election security and accessibility, suggesting a balanced approach. They do not explicitly endorse any specific political party or ideology, making it difficult to classify them as either LEFT or RIGHT. Their focus on finding a middle ground indicates a moderate stance, but without more context, it is challenging to determine a clear political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about both election security and accessibility, suggesting a balanced approach. They do not explicitly endorse any specific political party or ideology, making it difficult to classify them as either LEFT or RIGHT. Their focus on finding a middle ground indicates a moderate stance, but without more context, it is challenging to determine a clear political orientation."
+    },
+    {
+      "author": "LibertyVoter2024",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statement 'While I generally favor less government control' suggests a preference for limited government intervention, which is a common stance among right-leaning individuals. Additionally, the mention of 'individual liberty' aligns with conservative values. However, the author's uncertainty about voter ID laws and the desire for a balanced approach indicates a nuanced view, but the overall tone and specific points lean towards a right-wing orientation.\"\n}\n```",
+      "explanation": "The author's statement 'While I generally favor less government control' suggests a preference for limited government intervention, which is a common stance among right-leaning individuals. Additionally, the mention of 'individual liberty' aligns with conservative values. However, the author's uncertainty about voter ID laws and the desire for a balanced approach indicates a nuanced view, but the overall tone and specific points lean towards a right-wing orientation."
+    },
+    {
+      "author": "VotingIntegrity2024",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express support for voter ID requirements, which is often associated with right-leaning views, but also show concern for potential barriers to voting for elderly and rural voters, which could be seen as a more left-leaning perspective. The overall tone is balanced and seeks a middle ground, making it difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express support for voter ID requirements, which is often associated with right-leaning views, but also show concern for potential barriers to voting for elderly and rural voters, which could be seen as a more left-leaning perspective. The overall tone is balanced and seeks a middle ground, making it difficult to classify the author's political orientation."
+    }
+  ],
+  "file_path": "Claude_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_claude-3.5-sonnet.json",
+  "output_filename": "balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_claude-3.5-sonnet_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

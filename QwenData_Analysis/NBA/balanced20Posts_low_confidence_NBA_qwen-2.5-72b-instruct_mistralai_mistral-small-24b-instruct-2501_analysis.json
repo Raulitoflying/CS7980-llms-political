@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 55.00000000000001,
+      "precision": 66.66666666666666,
+      "recall": 20.0,
+      "f1_score": 3076.9230769230767,
+      "true_positive": 2,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "unknown": {
+      "accuracy": 35.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 13,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 30.0
+  },
+  "classifications": [
+    {
+      "author": "BballPundit92",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a preference for keeping sports separate from political and social issues, which is a stance often associated with conservative or right-leaning views. The implication is that the focus should be on the game rather than broader societal issues, which aligns with a more traditional or conservative perspective.\"\n}\n```",
+      "explanation": "The author's post suggests a preference for keeping sports separate from political and social issues, which is a stance often associated with conservative or right-leaning views. The implication is that the focus should be on the game rather than broader societal issues, which aligns with a more traditional or conservative perspective."
+    },
+    {
+      "author": "HoopsForChange",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a left-leaning orientation. The mention of 'social causes' and the expectation that the NBA, which is perceived as 'progressive,' should do more, indicates a focus on social issues and activism, which are typically associated with left-wing politics. The author's interest in pushing for more concrete actions aligns with progressive values of advocacy and social change.\"\n}\n```",
+      "explanation": "The author's post suggests a left-leaning orientation. The mention of 'social causes' and the expectation that the NBA, which is perceived as 'progressive,' should do more, indicates a focus on social issues and activism, which are typically associated with left-wing politics. The author's interest in pushing for more concrete actions aligns with progressive values of advocacy and social change."
+    },
+    {
+      "author": "NBAForwardProgress",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'social inequalities' within the NBA suggests a concern for social justice and equity, which are typically associated with left-leaning political views. The focus on addressing issues within the organization also indicates a progressive stance.\"\n}\n```",
+      "explanation": "The author's mention of 'social inequalities' within the NBA suggests a concern for social justice and equity, which are typically associated with left-leaning political views. The focus on addressing issues within the organization also indicates a progressive stance."
+    },
+    {
+      "author": "BasketballSkeptic82",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine the author's political orientation. The author expresses skepticism about the NBA's representation of communities and mentions a disconnect between the league's messages and the issues faced by fans and players. However, there are no explicit references to political ideologies, policies, or specific political issues that would indicate a left or right leaning. The author's tone is neutral and questioning, rather than advocating for a particular political stance.\"\n}\n```",
+      "explanation": "The post does not provide enough information to determine the author's political orientation. The author expresses skepticism about the NBA's representation of communities and mentions a disconnect between the league's messages and the issues faced by fans and players. However, there are no explicit references to political ideologies, policies, or specific political issues that would indicate a left or right leaning. The author's tone is neutral and questioning, rather than advocating for a particular political stance."
+    },
+    {
+      "author": "EcoCourtSide",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on sustainability and reducing carbon footprint aligns with typical left-leaning environmental concerns. The emphasis on environmental impact and mitigation strategies suggests a political orientation that prioritizes environmental issues, which are often associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's focus on sustainability and reducing carbon footprint aligns with typical left-leaning environmental concerns. The emphasis on environmental impact and mitigation strategies suggests a political orientation that prioritizes environmental issues, which are often associated with left-wing politics."
+    },
+    {
+      "author": "NBAforChange",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a political orientation. They are asking a question about the effectiveness of the NBA's role in promoting social justice, but do not express a clear stance on the issue. The post is neutral and open-ended, seeking input from others.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a political orientation. They are asking a question about the effectiveness of the NBA's role in promoting social justice, but do not express a clear stance on the issue. The post is neutral and open-ended, seeking input from others."
+    },
+    {
+      "author": "NBA_Thinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any political content or references to political issues. The author is simply expressing concern about mental health awareness in the NBA, which is a non-political topic.\"\n}\n```",
+      "explanation": "The post does not contain any political content or references to political issues. The author is simply expressing concern about mental health awareness in the NBA, which is a non-political topic."
+    },
+    {
+      "author": "BasketballSkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a concern about the balance between player activism and the game itself in the NBA, but do not mention any specific political issues or ideologies. The post is more of a neutral inquiry seeking others' opinions, rather than advocating for a particular political stance.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a concern about the balance between player activism and the game itself in the NBA, but do not mention any specific political issues or ideologies. The post is more of a neutral inquiry seeking others' opinions, rather than advocating for a particular political stance."
+    },
+    {
+      "author": "EcoBallPlayer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental sustainability and reducing carbon footprint suggests a leaning towards left-wing political orientation. Environmental issues are often prioritized by left-leaning individuals and groups, who advocate for policies that address climate change and promote sustainability.\"\n}\n```",
+      "explanation": "The author's focus on environmental sustainability and reducing carbon footprint suggests a leaning towards left-wing political orientation. Environmental issues are often prioritized by left-leaning individuals and groups, who advocate for policies that address climate change and promote sustainability."
+    },
+    {
+      "author": "NBA_Fan_For_Social_Change",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain any explicit political statements or references to political issues. The author is discussing a social issue related to mental health in the context of sports, which does not provide enough information to determine a political orientation. The focus is on a social cause within a specific community (NBA players), and there is no indication of support or opposition to any political ideology or party.\"\n}\n```",
+      "explanation": "The post does not contain any explicit political statements or references to political issues. The author is discussing a social issue related to mental health in the context of sports, which does not provide enough information to determine a political orientation. The focus is on a social cause within a specific community (NBA players), and there is no indication of support or opposition to any political ideology or party."
+    },
+    {
+      "author": "BasketballFan77",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges valid points on both sides of the issue, indicating a lack of strong political leaning. They do not explicitly endorse or oppose any particular political stance, making it difficult to classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and acknowledges valid points on both sides of the issue, indicating a lack of strong political leaning. They do not explicitly endorse or oppose any particular political stance, making it difficult to classify their political orientation."
+    },
+    {
+      "author": "Hoops_Politics",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide any explicit political views or leanings. They are merely observing and questioning the impact of social and political issues on the NBA, without expressing support or opposition to any particular stance. Therefore, it is not possible to classify the author's political orientation based on this post.\"\n}\n```",
+      "explanation": "The author's post does not provide any explicit political views or leanings. They are merely observing and questioning the impact of social and political issues on the NBA, without expressing support or opposition to any particular stance. Therefore, it is not possible to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "HoopsTraditions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance on the issue of social issues in the NBA. They acknowledge the importance of these issues to some players and fans but also express concern about the balance between social issues and the game itself. There is no clear indication of a left or right political orientation in the post.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance on the issue of social issues in the NBA. They acknowledge the importance of these issues to some players and fans but also express concern about the balance between social issues and the game itself. There is no clear indication of a left or right political orientation in the post."
+    },
+    {
+      "author": "LibertarianHoops",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post discusses the benefits of less centralized control and more individual autonomy, which are principles often associated with right-leaning or libertarian political orientations. The mention of 'less centralized league control' and 'more player autonomy' aligns with the idea of reducing government or institutional control, which is a common theme in right-wing and libertarian ideologies. However, the author also acknowledges the need for strong leadership and structure, indicating a balanced view.\"\n}\n```",
+      "explanation": "The author's post discusses the benefits of less centralized control and more individual autonomy, which are principles often associated with right-leaning or libertarian political orientations. The mention of 'less centralized league control' and 'more player autonomy' aligns with the idea of reducing government or institutional control, which is a common theme in right-wing and libertarian ideologies. However, the author also acknowledges the need for strong leadership and structure, indicating a balanced view."
+    },
+    {
+      "author": "NBAPoliticsWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide any explicit political views or biases. They are simply asking a question about the impact of social causes on fan engagement in the NBA, without expressing a personal stance on the issue. Therefore, it is not possible to classify the author's political orientation based on this content.\"\n}\n```",
+      "explanation": "The author's post does not provide any explicit political views or biases. They are simply asking a question about the impact of social causes on fan engagement in the NBA, without expressing a personal stance on the issue. Therefore, it is not possible to classify the author's political orientation based on this content."
+    },
+    {
+      "author": "BasketballPatriot82",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on player protests during the national anthem, acknowledging both the potential complications and the attention brought to important causes. Without more context or specific policy stances, it is difficult to determine whether the author leans left or right.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on player protests during the national anthem, acknowledging both the potential complications and the attention brought to important causes. Without more context or specific policy stances, it is difficult to determine whether the author leans left or right."
+    },
+    {
+      "author": "Hoop_Thinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses a social issue related to community support by a sports organization, but it does not provide any political context or stance. The author expresses a concern without advocating for any specific political ideology or policy, making it difficult to classify their political orientation based on this content alone.\"\n}\n```",
+      "explanation": "The post discusses a social issue related to community support by a sports organization, but it does not provide any political context or stance. The author expresses a concern without advocating for any specific political ideology or policy, making it difficult to classify their political orientation based on this content alone."
+    },
+    {
+      "author": "LibertyHoops123",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's mention of 'less regulation' and 'free market principles' aligns with right-wing or libertarian political views. The reference to 'libertarians' further supports this classification, as libertarianism is a political philosophy that advocates for minimal government intervention and maximal individual liberty, which are typically associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's mention of 'less regulation' and 'free market principles' aligns with right-wing or libertarian political views. The reference to 'libertarians' further supports this classification, as libertarianism is a political philosophy that advocates for minimal government intervention and maximal individual liberty, which are typically associated with right-wing politics."
+    },
+    {
+      "author": "LibertarianHoops",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses a specific issue related to sports (NBA rule changes) and expresses a lack of a solid opinion, focusing on the potential impacts and adaptations. There is no clear indication of political leanings, as the content is centered around sports and does not touch on political issues, economic policies, or social issues that typically reveal political orientation.\"\n}\n```",
+      "explanation": "The author's post discusses a specific issue related to sports (NBA rule changes) and expresses a lack of a solid opinion, focusing on the potential impacts and adaptations. There is no clear indication of political leanings, as the content is centered around sports and does not touch on political issues, economic policies, or social issues that typically reveal political orientation."
+    },
+    {
+      "author": "HoopTraditions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The mention of 'progressive stance' and 'traditional values' suggests a recognition of differing viewpoints, but does not indicate a personal leaning towards either side. The post is more of a neutral inquiry about balancing different perspectives within the NBA.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The mention of 'progressive stance' and 'traditional values' suggests a recognition of differing viewpoints, but does not indicate a personal leaning towards either side. The post is more of a neutral inquiry about balancing different perspectives within the NBA."
+    }
+  ],
+  "file_path": "Qwen_balancedData/NBA/balanced20Posts_low_confidence_NBA_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_NBA_qwen-2.5-72b-instruct_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

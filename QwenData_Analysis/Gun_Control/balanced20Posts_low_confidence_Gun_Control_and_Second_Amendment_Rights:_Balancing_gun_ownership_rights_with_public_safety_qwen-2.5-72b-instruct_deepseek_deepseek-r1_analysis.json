@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 75.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 5,
+      "true_negative": 15,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "GunSenseDebater",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes 'common sense regulations'\u2014a phrase frequently associated with left-leaning advocacy for gun control\u2014while balancing Second Amendment rights. Though the author expresses concern for constitutional rights of law-abiding citizens (a common right-wing priority), the focus on implementing regulatory measures to enhance public safety aligns more closely with progressive stances. The term 'common sense regulations' is a key indicator of left-leaning discourse on gun policy, even as the author attempts to acknowledge conservative concerns.\"\n}\n```",
+      "explanation": "The post emphasizes 'common sense regulations'\u2014a phrase frequently associated with left-leaning advocacy for gun control\u2014while balancing Second Amendment rights. Though the author expresses concern for constitutional rights of law-abiding citizens (a common right-wing priority), the focus on implementing regulatory measures to enhance public safety aligns more closely with progressive stances. The term 'common sense regulations' is a key indicator of left-leaning discourse on gun policy, even as the author attempts to acknowledge conservative concerns."
+    },
+    {
+      "author": "GunSenseSeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'common sense gun control measures to enhance public safety' aligns with typical left-leaning advocacy for firearm regulations, even while acknowledging respect for Second Amendment rights. The phrase 'common sense gun control' is frequently used in progressive (LEFT) political discourse to signal support for policies like universal background checks or assault weapon bans. While the author expresses openness to multiple perspectives, the framing prioritizes balancing rights with public safety\u2014a stance more commonly associated with center-left or liberal positions rather than right-leaning defenses of unrestricted gun ownership.\"\n}\n```",
+      "explanation": "The author's emphasis on 'common sense gun control measures to enhance public safety' aligns with typical left-leaning advocacy for firearm regulations, even while acknowledging respect for Second Amendment rights. The phrase 'common sense gun control' is frequently used in progressive (LEFT) political discourse to signal support for policies like universal background checks or assault weapon bans. While the author expresses openness to multiple perspectives, the framing prioritizes balancing rights with public safety\u2014a stance more commonly associated with center-left or liberal positions rather than right-leaning defenses of unrestricted gun ownership."
+    },
+    {
+      "author": "EcoPeaceAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about public safety and the need to address rising violence, which aligns with left-leaning priorities for regulatory measures. While they acknowledge personal freedom and the Second Amendment, their emphasis on balancing these with safety\u2014coupled with a username ('EcoPeaceAdvocate') hinting at environmentalism (a common left-wing concern)\u2014suggests a left-of-center perspective. The hesitation to prioritize unfettered gun rights over societal safety further supports this classification, as left-leaning discourse often advocates for gun control as part of public safety efforts.\"\n}\n```",
+      "explanation": "The author expresses concern about public safety and the need to address rising violence, which aligns with left-leaning priorities for regulatory measures. While they acknowledge personal freedom and the Second Amendment, their emphasis on balancing these with safety\u2014coupled with a username ('EcoPeaceAdvocate') hinting at environmentalism (a common left-wing concern)\u2014suggests a left-of-center perspective. The hesitation to prioritize unfettered gun rights over societal safety further supports this classification, as left-leaning discourse often advocates for gun control as part of public safety efforts."
+    },
+    {
+      "author": "EcoSafe Debater",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses uncertainty about balancing Second Amendment rights (often emphasized by the political right) with public safety measures (a common priority for the left). The author explicitly states they are undecided, making it difficult to definitively classify their orientation. While the mention of public safety could hint at left-leaning concerns, the acknowledgment of Second Amendment rights complicates the classification. Without a clear stance or specific policy preferences, the author's political orientation remains ambiguous.\"\n}",
+      "explanation": "The post expresses uncertainty about balancing Second Amendment rights (often emphasized by the political right) with public safety measures (a common priority for the left). The author explicitly states they are undecided, making it difficult to definitively classify their orientation. While the mention of public safety could hint at left-leaning concerns, the acknowledgment of Second Amendment rights complicates the classification. Without a clear stance or specific policy preferences, the author's political orientation remains ambiguous."
+    },
+    {
+      "author": "GreenPolicyDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post emphasizes balancing gun rights (a common right-leaning priority) with public safety (a frequent left-leaning concern), framing the issue as a complex negotiation rather than advocating for a specific policy. While phrases like 'respect for the Second Amendment' and 'unfairly restricting individual freedoms' could hint at right-leaning sympathies, the equal emphasis on public safety and the neutral, questioning tone prevent a definitive classification. The author seeks compromise without explicitly endorsing either deregulation or stricter controls, making their political orientation ambiguous based on this content alone.\"\n}\n```",
+      "explanation": "The post emphasizes balancing gun rights (a common right-leaning priority) with public safety (a frequent left-leaning concern), framing the issue as a complex negotiation rather than advocating for a specific policy. While phrases like 'respect for the Second Amendment' and 'unfairly restricting individual freedoms' could hint at right-leaning sympathies, the equal emphasis on public safety and the neutral, questioning tone prevent a definitive classification. The author seeks compromise without explicitly endorsing either deregulation or stricter controls, making their political orientation ambiguous based on this content alone."
+    },
+    {
+      "author": "EcoSafeDebate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes balancing gun rights with public safety while explicitly prioritizing environmental and social responsibilities\u2014issues strongly associated with left-leaning politics. While acknowledging the complexity of gun rights (a topic often linked to the RIGHT), the integration of environmental concerns and social welfare, which are core to progressive agendas, suggests a LEFT orientation. The framing of public safety as intertwined with regulatory measures (e.g., gun control) and the holistic approach to societal issues further align with typical LEFT priorities.\"\n}\n```",
+      "explanation": "The post emphasizes balancing gun rights with public safety while explicitly prioritizing environmental and social responsibilities\u2014issues strongly associated with left-leaning politics. While acknowledging the complexity of gun rights (a topic often linked to the RIGHT), the integration of environmental concerns and social welfare, which are core to progressive agendas, suggests a LEFT orientation. The framing of public safety as intertwined with regulatory measures (e.g., gun control) and the holistic approach to societal issues further align with typical LEFT priorities."
+    },
+    {
+      "author": "GunRightsThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about whether increased gun regulation infringes on rights or enhances public safety, acknowledging both perspectives without taking a definitive stance. While the username 'GunRightsThinker' might superficially suggest a right-leaning focus on Second Amendment advocacy, the post's content does not explicitly endorse either pro-regulation (typically left-leaning) or anti-regulation (typically right-leaning) positions. The ambivalence and open-ended questioning indicate a lack of clear ideological alignment, making classification as LEFT or RIGHT speculative.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about whether increased gun regulation infringes on rights or enhances public safety, acknowledging both perspectives without taking a definitive stance. While the username 'GunRightsThinker' might superficially suggest a right-leaning focus on Second Amendment advocacy, the post's content does not explicitly endorse either pro-regulation (typically left-leaning) or anti-regulation (typically right-leaning) positions. The ambivalence and open-ended questioning indicate a lack of clear ideological alignment, making classification as LEFT or RIGHT speculative."
+    },
+    {
+      "author": "EcoSafeDebate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses balancing gun ownership rights and public safety without explicitly endorsing specific policies or ideological positions. While the mention of 'public safety' aligns with common left-leaning discourse on gun control, the emphasis on finding a middle ground and avoiding significant compromise on either side reflects a neutral, exploratory tone. The lack of explicit advocacy for regulations or rights prioritization makes a definitive classification challenging. The author's framing could suggest openness to dialogue from any political perspective, leaving the orientation ambiguous.\"\n}\n```",
+      "explanation": "The post discusses balancing gun ownership rights and public safety without explicitly endorsing specific policies or ideological positions. While the mention of 'public safety' aligns with common left-leaning discourse on gun control, the emphasis on finding a middle ground and avoiding significant compromise on either side reflects a neutral, exploratory tone. The lack of explicit advocacy for regulations or rights prioritization makes a definitive classification challenging. The author's framing could suggest openness to dialogue from any political perspective, leaving the orientation ambiguous."
+    },
+    {
+      "author": "LiberalThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on balancing Second Amendment rights with public safety, coupled with the use of terms like 'balanced approach' and 'middle ground,' aligns with left-leaning discourse that often seeks regulatory measures to address gun violence while acknowledging constitutional rights. The emphasis on public safety as a counterweight to unfettered gun rights is more characteristic of progressive or liberal perspectives, which typically prioritize collective security over absolute individual gun ownership rights. The username 'LiberalThinker' further supports this classification, though the content itself provides sufficient contextual clues independent of the username.\"\n}\n```",
+      "explanation": "The author's focus on balancing Second Amendment rights with public safety, coupled with the use of terms like 'balanced approach' and 'middle ground,' aligns with left-leaning discourse that often seeks regulatory measures to address gun violence while acknowledging constitutional rights. The emphasis on public safety as a counterweight to unfettered gun rights is more characteristic of progressive or liberal perspectives, which typically prioritize collective security over absolute individual gun ownership rights. The username 'LiberalThinker' further supports this classification, though the content itself provides sufficient contextual clues independent of the username."
+    },
+    {
+      "author": "GunSenseSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The username 'GunSenseSeeker' implies a focus on advocating for gun control or 'sensible' gun policies, which is commonly associated with left-leaning positions. The post emphasizes balancing gun rights with public safety, a framing often used by the left to highlight the need for regulation. While the author acknowledges complexity and 'valid points on both sides,' the prioritization of public safety over unrestricted gun rights aligns more with progressive or liberal viewpoints. The right typically emphasizes gun rights as paramount, with less focus on regulatory balancing. Thus, the combination of the username and the public safety emphasis suggests a left orientation.\"\n}",
+      "explanation": "The username 'GunSenseSeeker' implies a focus on advocating for gun control or 'sensible' gun policies, which is commonly associated with left-leaning positions. The post emphasizes balancing gun rights with public safety, a framing often used by the left to highlight the need for regulation. While the author acknowledges complexity and 'valid points on both sides,' the prioritization of public safety over unrestricted gun rights aligns more with progressive or liberal viewpoints. The right typically emphasizes gun rights as paramount, with less focus on regulatory balancing. Thus, the combination of the username and the public safety emphasis suggests a left orientation."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's primary emphasis on the importance of the Second Amendment aligns strongly with conservative (RIGHT) values, which typically prioritize gun rights as a fundamental liberty. While they acknowledge concerns about public safety\u2014a point often raised by the LEFT to justify gun control\u2014their framing begins with a defense of gun rights and seeks a middle ground without outright endorsing restrictive measures. This suggests a RIGHT-leaning perspective open to pragmatic solutions but rooted in core conservative principles.\"\n}\n```",
+      "explanation": "The author's primary emphasis on the importance of the Second Amendment aligns strongly with conservative (RIGHT) values, which typically prioritize gun rights as a fundamental liberty. While they acknowledge concerns about public safety\u2014a point often raised by the LEFT to justify gun control\u2014their framing begins with a defense of gun rights and seeks a middle ground without outright endorsing restrictive measures. This suggests a RIGHT-leaning perspective open to pragmatic solutions but rooted in core conservative principles."
+    },
+    {
+      "author": "2ndAmendmentAdvocate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username ('2ndAmendmentAdvocate') strongly signals a right-leaning orientation, as staunch support for the Second Amendment is a hallmark of conservative/right-wing politics. However, their acknowledgment of the need for regulation introduces nuance. While the right typically resists gun control measures, the author's willingness to consider regulation for public safety might reflect a moderate or pragmatic conservative stance rather than a left-leaning one. The emphasis on balancing rights and security, without outright endorsing strict controls, aligns more with right-leaning discourse that occasionally accommodates limited regulatory measures (e.g., background checks) while prioritizing constitutional rights. The post lacks explicit left-wing markers (e.g., calls for bans, emphasis on systemic reform), reinforcing the classification as RIGHT with a nuanced position.\"\n}\n```",
+      "explanation": "The author's username ('2ndAmendmentAdvocate') strongly signals a right-leaning orientation, as staunch support for the Second Amendment is a hallmark of conservative/right-wing politics. However, their acknowledgment of the need for regulation introduces nuance. While the right typically resists gun control measures, the author's willingness to consider regulation for public safety might reflect a moderate or pragmatic conservative stance rather than a left-leaning one. The emphasis on balancing rights and security, without outright endorsing strict controls, aligns more with right-leaning discourse that occasionally accommodates limited regulatory measures (e.g., background checks) while prioritizing constitutional rights. The post lacks explicit left-wing markers (e.g., calls for bans, emphasis on systemic reform), reinforcing the classification as RIGHT with a nuanced position."
+    },
+    {
+      "author": "ConstitutionalThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author explicitly states belief in the Second Amendment, a core tenet of right-leaning political ideology. While they express uncertainty about balancing gun rights with public safety, the foundational support for gun ownership rights aligns more closely with conservative values. The willingness to consider regulations does not negate their primary alignment with Right-leaning principles, as even within the Right, there is occasional openness to limited measures framed as 'common-sense' reforms. The post lacks explicit advocacy for",
+      "explanation": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author explicitly states belief in the Second Amendment, a core tenet of right-leaning political ideology. While they express uncertainty about balancing gun rights with public safety, the foundational support for gun ownership rights aligns more closely with conservative values. The willingness to consider regulations does not negate their primary alignment with Right-leaning principles, as even within the Right, there is occasional openness to limited measures framed as 'common-sense' reforms. The post lacks explicit advocacy for"
+    },
+    {
+      "author": "ConstitutionDefender92",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author emphasizes protecting Second Amendment rights and frames the discussion around avoiding infringement on 'responsible gun owners,' a common conservative talking point. While open to enhancing background checks\u2014a position that could indicate moderation\u2014the primary focus on constitutional rights and the username 'ConstitutionDefender92' suggest a Right-leaning perspective. Conservatives often advocate for measures that target criminals without restricting law-abiding citizens, aligning with the author's cautious approach to balancing rights and safety.\"\n}\n```",
+      "explanation": "The author emphasizes protecting Second Amendment rights and frames the discussion around avoiding infringement on 'responsible gun owners,' a common conservative talking point. While open to enhancing background checks\u2014a position that could indicate moderation\u2014the primary focus on constitutional rights and the username 'ConstitutionDefender92' suggest a Right-leaning perspective. Conservatives often advocate for measures that target criminals without restricting law-abiding citizens, aligning with the author's cautious approach to balancing rights and safety."
+    },
+    {
+      "author": "SecondAmendmentSupporter",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's focus on protecting Second Amendment rights and emphasizing concerns about infringing on 'law-abiding citizens' aligns with right-leaning political values, which typically prioritize individual liberties and skepticism toward gun control. While acknowledging public safety, the framing centers on preserving constitutional rights\u2014a hallmark of conservative discourse. The use of phrases like 'law-abiding citizens' is common in right-wing arguments against gun regulation, reinforcing the classification.\"\n}\n```",
+      "explanation": "The author's focus on protecting Second Amendment rights and emphasizing concerns about infringing on 'law-abiding citizens' aligns with right-leaning political values, which typically prioritize individual liberties and skepticism toward gun control. While acknowledging public safety, the framing centers on preserving constitutional rights\u2014a hallmark of conservative discourse. The use of phrases like 'law-abiding citizens' is common in right-wing arguments against gun regulation, reinforcing the classification."
+    },
+    {
+      "author": "ConstitutionalThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for the Second Amendment ('right to bear arms'), which is typically associated with right-leaning views. However, they also acknowledge uncertainty about where to draw the line on restrictions for public safety, a concern often emphasized in left-leaning discourse. The post does not advocate for specific policies (e.g.,",
+      "explanation": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for the Second Amendment ('right to bear arms'), which is typically associated with right-leaning views. However, they also acknowledge uncertainty about where to draw the line on restrictions for public safety, a concern often emphasized in left-leaning discourse. The post does not advocate for specific policies (e.g.,"
+    },
+    {
+      "author": "ConstitutionalThinker",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author prioritizes protecting Second Amendment rights, a cornerstone of conservative/right-leaning platforms, and frames the discussion around avoiding infringement on lawful gun ownership. While they acknowledge public safety and suggest improving background checks, the emphasis on balancing regulations without encroaching on rights aligns more closely with right-leaning arguments that resist expansive gun control measures. The phrasing reflects a cautious approach to regulation, characteristic of right-leaning skepticism toward government overreach in this context.\"\n}",
+      "explanation": "The author prioritizes protecting Second Amendment rights, a cornerstone of conservative/right-leaning platforms, and frames the discussion around avoiding infringement on lawful gun ownership. While they acknowledge public safety and suggest improving background checks, the emphasis on balancing regulations without encroaching on rights aligns more closely with right-leaning arguments that resist expansive gun control measures. The phrasing reflects a cautious approach to regulation, characteristic of right-leaning skepticism toward government overreach in this context."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'individual freedoms' and the 'right to bear arms,' which are core conservative/right-wing priorities. While acknowledging public safety (a common left-leaning concern), the framing centers on preserving individual rights, and the username 'LibertyThinker' further aligns with libertarian or right-leaning values that prioritize liberty. The mention of seeking a 'middle ground' suggests openness to compromise but does not override the right-leaning emphasis on foundational principles like gun rights and individual autonomy.\"\n}\n```",
+      "explanation": "The post emphasizes 'individual freedoms' and the 'right to bear arms,' which are core conservative/right-wing priorities. While acknowledging public safety (a common left-leaning concern), the framing centers on preserving individual rights, and the username 'LibertyThinker' further aligns with libertarian or right-leaning values that prioritize liberty. The mention of seeking a 'middle ground' suggests openness to compromise but does not override the right-leaning emphasis on foundational principles like gun rights and individual autonomy."
+    },
+    {
+      "author": "Constitutional_Thinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author emphasizes protecting Second Amendment rights and avoiding infringement on individual freedoms, which aligns with right-leaning priorities. While they mention public safety and a 'middle ground,' the framing prioritizes constitutional rights over regulatory measures. The username 'Constitutional_Thinker' further suggests a focus on strict constitutional interpretation, a common conservative stance. The post reflects a right-leaning perspective that values gun rights but acknowledges the complexity of balancing them with safety concerns.\"\n}\n```",
+      "explanation": "The author emphasizes protecting Second Amendment rights and avoiding infringement on individual freedoms, which aligns with right-leaning priorities. While they mention public safety and a 'middle ground,' the framing prioritizes constitutional rights over regulatory measures. The username 'Constitutional_Thinker' further suggests a focus on strict constitutional interpretation, a common conservative stance. The post reflects a right-leaning perspective that values gun rights but acknowledges the complexity of balancing them with safety concerns."
+    },
+    {
+      "author": "SecondAmendmentThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username ('SecondAmendmentThinker') strongly signals a focus on gun rights, a cornerstone of conservative/right-leaning politics. While the post acknowledges the complexity of balancing rights and public safety, the framing prioritizes 'respecting Second Amendment rights' as the primary lens for discussion\u2014a common rhetorical emphasis in right-leaning discourse. The mention of 'valid points on both sides' and 'middle ground' suggests openness to dialogue but does not outweigh the core focus on protecting gun rights, which aligns more closely with RIGHT-leaning priorities than LEFT-leaning positions that typically foreground gun control as a public safety imperative.\"\n}\n```",
+      "explanation": "The author's username ('SecondAmendmentThinker') strongly signals a focus on gun rights, a cornerstone of conservative/right-leaning politics. While the post acknowledges the complexity of balancing rights and public safety, the framing prioritizes 'respecting Second Amendment rights' as the primary lens for discussion\u2014a common rhetorical emphasis in right-leaning discourse. The mention of 'valid points on both sides' and 'middle ground' suggests openness to dialogue but does not outweigh the core focus on protecting gun rights, which aligns more closely with RIGHT-leaning priorities than LEFT-leaning positions that typically foreground gun control as a public safety imperative."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Gun_Control/balanced20Posts_low_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

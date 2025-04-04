@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 81.81818181818183,
+      "recall": 90.0,
+      "f1_score": 8571.428571428574,
+      "true_positive": 9,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 80.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 4,
+      "true_negative": 16,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "EcoEconomyThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on 'strict environmental regulations' and concern for not 'compromising our future on this planet' aligns with left-leaning priorities, which typically emphasize environmental protection and sustainability as non-negotiable values. While the post acknowledges tensions with economic growth, the framing centers environmental safeguards as a critical starting point\u2014a stance more commonly associated with progressive or left-wing ideologies. The right often prioritizes deregulation and economic growth over stringent environmental policies, whereas the left tends to advocate for regulatory measures even if they challenge unfettered economic expansion. The author's uncertainty about balancing these goals does not negate the left-leaning emphasis on environmentalism as a core concern.\"\n}\n```",
+      "explanation": "The author's focus on 'strict environmental regulations' and concern for not 'compromising our future on this planet' aligns with left-leaning priorities, which typically emphasize environmental protection and sustainability as non-negotiable values. While the post acknowledges tensions with economic growth, the framing centers environmental safeguards as a critical starting point\u2014a stance more commonly associated with progressive or left-wing ideologies. The right often prioritizes deregulation and economic growth over stringent environmental policies, whereas the left tends to advocate for regulatory measures even if they challenge unfettered economic expansion. The author's uncertainty about balancing these goals does not negate the left-leaning emphasis on environmentalism as a core concern."
+    },
+    {
+      "author": "EcoEconThinker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post acknowledges the importance of strong environmental regulations (a common left-leaning priority) but expresses concern about balancing them with economic growth and innovation (a more right-leaning concern). The author explicitly seeks a 'middle ground,' indicating a centrist or pragmatic stance rather than aligning with a clear ideological extreme. While the emphasis on environmental action might suggest left-leaning tendencies, the equal weight given to economic considerations and the lack of explicit support for specific policies (e.g., degrowth, deregulation) make it ambiguous. The post reflects a desire to reconcile competing priorities without committing to a partisan framework.\"\n}",
+      "explanation": "The post acknowledges the importance of strong environmental regulations (a common left-leaning priority) but expresses concern about balancing them with economic growth and innovation (a more right-leaning concern). The author explicitly seeks a 'middle ground,' indicating a centrist or pragmatic stance rather than aligning with a clear ideological extreme. While the emphasis on environmental action might suggest left-leaning tendencies, the equal weight given to economic considerations and the lack of explicit support for specific policies (e.g., degrowth, deregulation) make it ambiguous. The post reflects a desire to reconcile competing priorities without committing to a partisan framework."
+    },
+    {
+      "author": "EcoConcernedCitizen",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions whether strict environmental regulations might hinder economic growth, a common argument in right-leaning discourse that prioritizes economic prosperity. While they acknowledge the complexity and express a desire to balance environmental protection with jobs, the framing of regulations as a potential obstacle to growth aligns more closely with right-leaning skepticism of government intervention in markets. However, the openness to balance prevents an unequivocal classification, though the initial doubt about regulations leans toward a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author questions whether strict environmental regulations might hinder economic growth, a common argument in right-leaning discourse that prioritizes economic prosperity. While they acknowledge the complexity and express a desire to balance environmental protection with jobs, the framing of regulations as a potential obstacle to growth aligns more closely with right-leaning skepticism of government intervention in markets. However, the openness to balance prevents an unequivocal classification, though the initial doubt about regulations leans toward a right-leaning perspective."
+    },
+    {
+      "author": "EcoEconomist",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a desire to balance environmental regulations and economic growth, which is a common centrist or moderate stance. While concern for environmental protection often aligns with left-leaning views, the emphasis on economic growth and uncertainty about avoiding 'tough choices' introduces ambiguity. The post does not clearly prioritize one over the other or advocate for specific policies (e.g., green energy investment vs. deregulation), making it difficult to definitively classify as LEFT or RIGHT. The author's pragmatic, questioning tone suggests a search for middle-ground solutions rather than alignment with a polarized ideological position.\"\n}\n```",
+      "explanation": "The author expresses a desire to balance environmental regulations and economic growth, which is a common centrist or moderate stance. While concern for environmental protection often aligns with left-leaning views, the emphasis on economic growth and uncertainty about avoiding 'tough choices' introduces ambiguity. The post does not clearly prioritize one over the other or advocate for specific policies (e.g., green energy investment vs. deregulation), making it difficult to definitively classify as LEFT or RIGHT. The author's pragmatic, questioning tone suggests a search for middle-ground solutions rather than alignment with a polarized ideological position."
+    },
+    {
+      "author": "EcoEconomyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post raises concerns about the economic impact of strict environmental regulations while advocating for a 'balanced approach.' This framing does not explicitly align with traditional left-wing prioritization of environmental protection over economic concerns or right-wing emphasis on deregulation for economic growth. The author's neutral inquiry into balancing both objectives, without endorsing specific policies or ideological stances, suggests a pragmatic or centrist perspective. While the mention of potential economic stifling could hint at right-leaning skepticism of regulation, the simultaneous acknowledgment of environmental protection complicates a clear classification. The absence of definitive ideological markers makes 'UNKNOWN' the most appropriate classification.\"\n}\n```",
+      "explanation": "The post raises concerns about the economic impact of strict environmental regulations while advocating for a 'balanced approach.' This framing does not explicitly align with traditional left-wing prioritization of environmental protection over economic concerns or right-wing emphasis on deregulation for economic growth. The author's neutral inquiry into balancing both objectives, without endorsing specific policies or ideological stances, suggests a pragmatic or centrist perspective. While the mention of potential economic stifling could hint at right-leaning skepticism of regulation, the simultaneous acknowledgment of environmental protection complicates a clear classification. The absence of definitive ideological markers makes 'UNKNOWN' the most appropriate classification."
+    },
+    {
+      "author": "GreenEconomyThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes that 'strong environmental regulations are crucial for combating climate change,' a stance strongly aligned with left-leaning priorities, which typically prioritize environmental protection. However, their focus on balancing regulations with economic growth and ensuring businesses thrive reflects a pragmatic or centrist nuance within the left. While the right often opposes stringent regulations for economic reasons, the author's foundational support for robust environmental policies (rather than questioning their necessity) aligns more closely with progressive values that advocate for sustainable development and green economies, even while acknowledging economic considerations.\"\n}\n```",
+      "explanation": "The author emphasizes that 'strong environmental regulations are crucial for combating climate change,' a stance strongly aligned with left-leaning priorities, which typically prioritize environmental protection. However, their focus on balancing regulations with economic growth and ensuring businesses thrive reflects a pragmatic or centrist nuance within the left. While the right often opposes stringent regulations for economic reasons, the author's foundational support for robust environmental policies (rather than questioning their necessity) aligns more closely with progressive values that advocate for sustainable development and green economies, even while acknowledging economic considerations."
+    },
+    {
+      "author": "EcoEconThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on balancing environmental regulations with economic growth, while acknowledging the necessity of both for sustainability, aligns more closely with left-leaning perspectives. The left typically advocates for environmental protections as a priority, even when considering economic impacts, and often frames sustainability as achievable through regulated green initiatives. While the post mentions economic growth, the right-leaning stance usually minimizes regulatory constraints in favor of growth. The author's focus on regulations as a necessary component (despite the challenge of balance) suggests a left orientation, as the right would likely prioritize growth over regulatory measures more explicitly.\"\n}\n```",
+      "explanation": "The author's emphasis on balancing environmental regulations with economic growth, while acknowledging the necessity of both for sustainability, aligns more closely with left-leaning perspectives. The left typically advocates for environmental protections as a priority, even when considering economic impacts, and often frames sustainability as achievable through regulated green initiatives. While the post mentions economic growth, the right-leaning stance usually minimizes regulatory constraints in favor of growth. The author's focus on regulations as a necessary component (despite the challenge of balance) suggests a left orientation, as the right would likely prioritize growth over regulatory measures more explicitly."
+    },
+    {
+      "author": "GreenEconomyThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author acknowledges the necessity of stricter environmental regulations, a stance commonly associated with left-leaning ideologies. However, they express a pragmatic concern about balancing these regulations with economic growth and innovation. While the emphasis on environmental action is a hallmark of left-wing priorities, the consideration of economic impacts introduces nuance. The username 'GreenEconomyThinker' further signals alignment with environmentalism (a left-leaning focus) while engaging with economic discourse. Despite the balancing act described, the foundational support for regulations as 'crucial' tilts the classification toward LEFT, reflecting a pragmatic or centrist-left perspective rather than a purely ideological one.\"\n}\n```",
+      "explanation": "The author acknowledges the necessity of stricter environmental regulations, a stance commonly associated with left-leaning ideologies. However, they express a pragmatic concern about balancing these regulations with economic growth and innovation. While the emphasis on environmental action is a hallmark of left-wing priorities, the consideration of economic impacts introduces nuance. The username 'GreenEconomyThinker' further signals alignment with environmentalism (a left-leaning focus) while engaging with economic discourse. Despite the balancing act described, the foundational support for regulations as 'crucial' tilts the classification toward LEFT, reflecting a pragmatic or centrist-left perspective rather than a purely ideological one."
+    },
+    {
+      "author": "EcoEconomyFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the strictness of environmental regulations, emphasizing potential harm to small businesses and the need to balance ecological goals with economic growth. While acknowledging environmental protection, the focus on deregulation and economic priorities aligns more closely with right-leaning perspectives, which often prioritize reducing regulatory burdens on businesses. The critique of regulations as overly restrictive is a common conservative argument, even as the author expresses a desire for environmental stewardship.\"\n}\n```",
+      "explanation": "The author questions the strictness of environmental regulations, emphasizing potential harm to small businesses and the need to balance ecological goals with economic growth. While acknowledging environmental protection, the focus on deregulation and economic priorities aligns more closely with right-leaning perspectives, which often prioritize reducing regulatory burdens on businesses. The critique of regulations as overly restrictive is a common conservative argument, even as the author expresses a desire for environmental stewardship."
+    },
+    {
+      "author": "SustainableEconomySeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author emphasizes balancing environmental regulations with economic growth while prioritizing climate goals, a stance commonly associated with left-leaning perspectives that advocate for sustainability even amid economic considerations. The concern about avoiding compromise on climate objectives aligns with progressive environmental policies. While the post acknowledges economic growth, the framing centers on reconciling it with ecological priorities rather than deregulation or growth-first rhetoric typical of right-wing discourse. Terms like 'sustainability' and 'climate goals' are hallmarks of left-aligned environmentalism, suggesting the author leans toward policies that integrate ecological responsibility with economic systems.\"\n}\n```",
+      "explanation": "The author emphasizes balancing environmental regulations with economic growth while prioritizing climate goals, a stance commonly associated with left-leaning perspectives that advocate for sustainability even amid economic considerations. The concern about avoiding compromise on climate objectives aligns with progressive environmental policies. While the post acknowledges economic growth, the framing centers on reconciling it with ecological priorities rather than deregulation or growth-first rhetoric typical of right-wing discourse. Terms like 'sustainability' and 'climate goals' are hallmarks of left-aligned environmentalism, suggesting the author leans toward policies that integrate ecological responsibility with economic systems."
+    },
+    {
+      "author": "EcoEconomyThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the economic impact of stringent environmental regulations, a stance commonly associated with right-leaning perspectives that prioritize economic growth and express skepticism about regulatory overreach. While acknowledging the need for balance, the focus on potential harm to the economy aligns more with conservative arguments that caution against policies perceived as detrimental to business or economic stability. However, the openness to balance introduces nuance, though the primary concern about regulatory excess leans the classification toward RIGHT.\"\n}\n```",
+      "explanation": "The author questions the economic impact of stringent environmental regulations, a stance commonly associated with right-leaning perspectives that prioritize economic growth and express skepticism about regulatory overreach. While acknowledging the need for balance, the focus on potential harm to the economy aligns more with conservative arguments that caution against policies perceived as detrimental to business or economic stability. However, the openness to balance introduces nuance, though the primary concern about regulatory excess leans the classification toward RIGHT."
+    },
+    {
+      "author": "EcoEconDebate",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post acknowledges both environmental protection and economic concerns without explicitly prioritizing one over the other. While left-leaning discourse often emphasizes environmental regulations as non-negotiable, and right-leaning arguments might frame economic growth as paramount, the author here presents a balanced, exploratory stance. Phrases like 'still thinking through' and 'consider the impact on jobs' suggest deliberation rather than ideological alignment. Without clearer indicators (e.g., support for specific policies like Green New Deal or deregulation), the political orientation remains ambiguous.\"\n}",
+      "explanation": "The post acknowledges both environmental protection and economic concerns without explicitly prioritizing one over the other. While left-leaning discourse often emphasizes environmental regulations as non-negotiable, and right-leaning arguments might frame economic growth as paramount, the author here presents a balanced, exploratory stance. Phrases like 'still thinking through' and 'consider the impact on jobs' suggest deliberation rather than ideological alignment. Without clearer indicators (e.g., support for specific policies like Green New Deal or deregulation), the political orientation remains ambiguous."
+    },
+    {
+      "author": "EcoEconomyThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges environmental protection but emphasizes concerns about economic growth, job creation, and industry impacts\u2014common priorities in right-leaning discourse. While advocating for a 'balanced approach,' the framing focuses on avoiding harm to the economy, which aligns more with right-leaning skepticism of regulatory overreach than left-leaning prioritization of environmental policies despite economic costs.\"\n}\n```",
+      "explanation": "The author acknowledges environmental protection but emphasizes concerns about economic growth, job creation, and industry impacts\u2014common priorities in right-leaning discourse. While advocating for a 'balanced approach,' the framing focuses on avoiding harm to the economy, which aligns more with right-leaning skepticism of regulatory overreach than left-leaning prioritization of environmental policies despite economic costs."
+    },
+    {
+      "author": "EcoLibertyThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post questions the efficacy of strict environmental regulations, expressing concern about their potential to stifle economic growth and innovation\u2014a common right-leaning emphasis on free-market priorities. The skepticism toward 'government overreach' further aligns with right-wing ideologies that advocate for limited government intervention. While the author acknowledges a need for balance, the framing centers on distrust of regulatory expansion rather than advocating for environmental protections as a necessity, which is more typical of left-leaning perspectives.\"\n}\n```",
+      "explanation": "The post questions the efficacy of strict environmental regulations, expressing concern about their potential to stifle economic growth and innovation\u2014a common right-leaning emphasis on free-market priorities. The skepticism toward 'government overreach' further aligns with right-wing ideologies that advocate for limited government intervention. While the author acknowledges a need for balance, the framing centers on distrust of regulatory expansion rather than advocating for environmental protections as a necessity, which is more typical of left-leaning perspectives."
+    },
+    {
+      "author": "EcoSkeptic85",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges the importance of environmental regulations but emphasizes concerns about their impact on job creation and industry growth, which aligns with right-leaning arguments that prioritize economic interests and deregulation. While the post seeks balance, the framing of environmental rules as potentially harmful to the economy is a common conservative critique. However, the absence of outright opposition to regulations or explicit support for free-market absolutism introduces some ambiguity, leading to a classification that leans RIGHT rather than being definitively UNKNOWN.\"\n}\n```",
+      "explanation": "The author acknowledges the importance of environmental regulations but emphasizes concerns about their impact on job creation and industry growth, which aligns with right-leaning arguments that prioritize economic interests and deregulation. While the post seeks balance, the framing of environmental rules as potentially harmful to the economy is a common conservative critique. However, the absence of outright opposition to regulations or explicit support for free-market absolutism introduces some ambiguity, leading to a classification that leans RIGHT rather than being definitively UNKNOWN."
+    },
+    {
+      "author": "EcoEconomist123",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges environmental protection but emphasizes concerns about economic growth, job creation, and competitiveness\u2014common priorities in right-leaning discourse. While advocating for a 'balanced approach,' the framing of strict climate regulations as a potential threat to economic interests aligns more closely with conservative or right-leaning skepticism of regulatory policies that may impact businesses. The focus on avoiding harm to competitiveness further reflects a market-oriented perspective typically associated with the right, even as the author stops short of outright opposition to environmental measures.\"\n}\n```",
+      "explanation": "The author acknowledges environmental protection but emphasizes concerns about economic growth, job creation, and competitiveness\u2014common priorities in right-leaning discourse. While advocating for a 'balanced approach,' the framing of strict climate regulations as a potential threat to economic interests aligns more closely with conservative or right-leaning skepticism of regulatory policies that may impact businesses. The focus on avoiding harm to competitiveness further reflects a market-oriented perspective typically associated with the right, even as the author stops short of outright opposition to environmental measures."
+    },
+    {
+      "author": "EcoEconomicsDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions whether environmental regulations hinder economic growth and emphasizes balancing ecological concerns with job creation and prosperity\u2014a common right-leaning perspective that prioritizes economic outcomes. While acknowledging environmental protection, the framing aligns with critiques of regulation typical of conservative or libertarian arguments, which often argue that such policies stifle business and employment opportunities. However, the nuanced acknowledgment of both priorities prevents an extreme classification, positioning the stance as center-right.\"\n}\n```",
+      "explanation": "The author questions whether environmental regulations hinder economic growth and emphasizes balancing ecological concerns with job creation and prosperity\u2014a common right-leaning perspective that prioritizes economic outcomes. While acknowledging environmental protection, the framing aligns with critiques of regulation typical of conservative or libertarian arguments, which often argue that such policies stifle business and employment opportunities. However, the nuanced acknowledgment of both priorities prevents an extreme classification, positioning the stance as center-right."
+    },
+    {
+      "author": "EcoEconThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses concern that 'overly strict' environmental regulations could 'stifle economic growth,' a common argument associated with right-leaning perspectives that prioritize economic interests. While they seek a 'balanced approach,' the emphasis on potential economic harm from regulations aligns more closely with conservative critiques of environmental policy. The phrasing suggests skepticism toward regulatory overreach, which is typically a right-leaning stance, even if the author does not outright reject environmental protection.\"\n}\n```",
+      "explanation": "The author expresses concern that 'overly strict' environmental regulations could 'stifle economic growth,' a common argument associated with right-leaning perspectives that prioritize economic interests. While they seek a 'balanced approach,' the emphasis on potential economic harm from regulations aligns more closely with conservative critiques of environmental policy. The phrasing suggests skepticism toward regulatory overreach, which is typically a right-leaning stance, even if the author does not outright reject environmental protection."
+    },
+    {
+      "author": "EcoLibertarianThinker",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on balancing environmental regulations with economic growth, skepticism toward 'strict regulations,' and preference for alternative (likely market-based or innovation-driven) solutions aligns with libertarian or conservative viewpoints. Libertarianism, particularly in economic policy, leans right due to its focus on limited government intervention. While the author acknowledges environmental protection, their framing prioritizes economic concerns and regulatory flexibility, which is characteristic of right-leaning or libertarian ideologies rather than left-leaning approaches that typically advocate for stronger regulatory measures to address environmental issues.\"\n}",
+      "explanation": "The author's emphasis on balancing environmental regulations with economic growth, skepticism toward 'strict regulations,' and preference for alternative (likely market-based or innovation-driven) solutions aligns with libertarian or conservative viewpoints. Libertarianism, particularly in economic policy, leans right due to its focus on limited government intervention. While the author acknowledges environmental protection, their framing prioritizes economic concerns and regulatory flexibility, which is characteristic of right-leaning or libertarian ideologies rather than left-leaning approaches that typically advocate for stronger regulatory measures to address environmental issues."
+    },
+    {
+      "author": "EcoEconPonders",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about strict environmental regulations due to concerns over stifling economic growth and job creation, which aligns with right-leaning arguments that prioritize free-market solutions and economic considerations over government-imposed environmental mandates. While the post does not deny climate change, the emphasis on balancing environmental goals with economic health reflects a conservative tendency to favor market-friendly or less interventionist approaches to policy issues.\"\n}\n```",
+      "explanation": "The author expresses skepticism about strict environmental regulations due to concerns over stifling economic growth and job creation, which aligns with right-leaning arguments that prioritize free-market solutions and economic considerations over government-imposed environmental mandates. While the post does not deny climate change, the emphasis on balancing environmental goals with economic health reflects a conservative tendency to favor market-friendly or less interventionist approaches to policy issues."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Climate_Change_Policy/balanced20Posts_low_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Climate_Change_Policies:_Environmental_regulations_vs._economic_growth_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}

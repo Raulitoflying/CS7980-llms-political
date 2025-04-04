@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 76.92307692307693,
+      "recall": 100.0,
+      "f1_score": 8695.652173913044,
+      "true_positive": 10,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 100.0,
+      "recall": 60.0,
+      "f1_score": 7500.0,
+      "true_positive": 6,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 4
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "GunSenseAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement expresses support for both gun control measures and the Second Amendment. This position is not distinctly left or right. While advocating for 'responsible gun ownership laws' is often associated with the left, the explicit acknowledgement and respect for the Second Amendment is a common talking point on the right. Without further information, it is impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statement expresses support for both gun control measures and the Second Amendment. This position is not distinctly left or right. While advocating for 'responsible gun ownership laws' is often associated with the left, the explicit acknowledgement and respect for the Second Amendment is a common talking point on the right. Without further information, it is impossible to definitively classify the author's political orientation."
+    },
+    {
+      "author": "SafeGunsNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for prioritizing public safety over unrestricted gun access and supporting responsible gun laws aligns with common positions held by individuals on the left side of the political spectrum. This stance typically favors stricter gun control measures to reduce gun violence.\"\n}\n```",
+      "explanation": "The author's statement advocating for prioritizing public safety over unrestricted gun access and supporting responsible gun laws aligns with common positions held by individuals on the left side of the political spectrum. This stance typically favors stricter gun control measures to reduce gun violence."
+    },
+    {
+      "author": "GunSenseUSA",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions. The emphasis on 'public safety over unfettered access to firearms' and the call for 'responsible gun laws' are typically associated with gun control advocacy, a stance more commonly held by those on the left. The acknowledgment of the Second Amendment while advocating for restrictions suggests a desire to balance individual rights with collective well-being, a perspective often found within left-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions. The emphasis on 'public safety over unfettered access to firearms' and the call for 'responsible gun laws' are typically associated with gun control advocacy, a stance more commonly held by those on the left. The acknowledgment of the Second Amendment while advocating for restrictions suggests a desire to balance individual rights with collective well-being, a perspective often found within left-leaning ideologies."
+    },
+    {
+      "author": "SecondAmendmentPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention."
+    },
+    {
+      "author": "GunSenseAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for 'common sense gun control measures' such as universal background checks and red flag laws. These policies are typically supported by those on the left side of the political spectrum who prioritize gun control to reduce gun violence.\"\n}\n```",
+      "explanation": "The author advocates for 'common sense gun control measures' such as universal background checks and red flag laws. These policies are typically supported by those on the left side of the political spectrum who prioritize gun control to reduce gun violence."
+    },
+    {
+      "author": "EcoSafeAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement advocating for 'commonsense gun control measures' and prioritizing 'public safety over unchecked gun ownership' aligns with typical left-leaning political positions on gun control. This stance generally supports stricter regulations on firearms to reduce gun violence.\"\n}\n```",
+      "explanation": "The author's statement advocating for 'commonsense gun control measures' and prioritizing 'public safety over unchecked gun ownership' aligns with typical left-leaning political positions on gun control. This stance generally supports stricter regulations on firearms to reduce gun violence."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and their statement that any infringement on the right to bear arms is an attack on freedom aligns with a common position held by those on the right side of the political spectrum. This position emphasizes individual liberty and limited government intervention, particularly regarding gun ownership.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and their statement that any infringement on the right to bear arms is an attack on freedom aligns with a common position held by those on the right side of the political spectrum. This position emphasizes individual liberty and limited government intervention, particularly regarding gun ownership."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This stance aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This stance aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention."
+    },
+    {
+      "author": "GunSenseUSA",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions on gun control. The phrases 'prioritize public safety over unrestricted gun ownership' and 'Second Amendment was never intended to allow weapons of war on our streets' are frequently used by those advocating for stricter gun laws, a position generally associated with the left.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions on gun control. The phrases 'prioritize public safety over unrestricted gun ownership' and 'Second Amendment was never intended to allow weapons of war on our streets' are frequently used by those advocating for stricter gun laws, a position generally associated with the left."
+    },
+    {
+      "author": "GunSenseDemocrat",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of the phrase \\\"common sense gun laws\\\" is a common rhetorical device used by those on the left side of the political spectrum when discussing gun control. The emphasis on \\\"public safety\\\" and \\\"preventing tragedies\\\" also aligns with typical left-leaning arguments in favor of stricter gun regulations. While the author mentions respecting the Second Amendment, this is often a qualifier used by those advocating for gun control to soften their stance and appeal to a broader audience, but the overall message leans left.\"\n}\n```",
+      "explanation": "The author's use of the phrase \"common sense gun laws\" is a common rhetorical device used by those on the left side of the political spectrum when discussing gun control. The emphasis on \"public safety\" and \"preventing tragedies\" also aligns with typical left-leaning arguments in favor of stricter gun regulations. While the author mentions respecting the Second Amendment, this is often a qualifier used by those advocating for gun control to soften their stance and appeal to a broader audience, but the overall message leans left."
+    },
+    {
+      "author": "ConstitutionalFreedomFighter",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and often view gun control as an infringement on constitutional liberties.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and often view gun control as an infringement on constitutional liberties."
+    },
+    {
+      "author": "ConstitutionalGuardian",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on the Second Amendment and the duty to defend the Constitution are strong indicators of a right-leaning political orientation. The phrase 'responsible gun ownership' is often used within conservative circles to frame the gun control debate.\"\n}\n```",
+      "explanation": "The author's emphasis on the Second Amendment and the duty to defend the Constitution are strong indicators of a right-leaning political orientation. The phrase 'responsible gun ownership' is often used within conservative circles to frame the gun control debate."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention in this area.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and limited government intervention in this area."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures aligns with a common position within the right-leaning political spectrum. The argument that gun control only affects law-abiding citizens and doesn't deter criminals is a typical conservative argument against stricter gun laws.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures aligns with a common position within the right-leaning political spectrum. The argument that gun control only affects law-abiding citizens and doesn't deter criminals is a typical conservative argument against stricter gun laws."
+    },
+    {
+      "author": "ConstitutionDefender87",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. The language used, such as 'attack on our constitutional liberties' and 'disarm law abiding citizens,' is commonly associated with conservative viewpoints on gun rights.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. The language used, such as 'attack on our constitutional liberties' and 'disarm law abiding citizens,' is commonly associated with conservative viewpoints on gun rights."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and emphasis on protecting constitutional rights, coupled with the phrase 'misguided legislation' which suggests opposition to gun control measures, strongly indicates a right-leaning political orientation. The user name 'SecondAmendmentDefender' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and emphasis on protecting constitutional rights, coupled with the phrase 'misguided legislation' which suggests opposition to gun control measures, strongly indicates a right-leaning political orientation. The user name 'SecondAmendmentDefender' further reinforces this classification."
+    },
+    {
+      "author": "ConstitutionalFreedomFighter",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on Second Amendment rights and the belief that gun control measures disarm law-abiding citizens while failing to deter criminals are common positions held by individuals with a right-leaning political orientation. The user name 'ConstitutionalFreedomFighter' also suggests a focus on individual liberties and constitutional interpretation often associated with right-leaning ideologies.\"\n}\n```",
+      "explanation": "The author's strong emphasis on Second Amendment rights and the belief that gun control measures disarm law-abiding citizens while failing to deter criminals are common positions held by individuals with a right-leaning political orientation. The user name 'ConstitutionalFreedomFighter' also suggests a focus on individual liberties and constitutional interpretation often associated with right-leaning ideologies."
+    },
+    {
+      "author": "ConstitutionDefender87",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the assertion that gun control infringes upon liberty, are strong indicators of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and often oppose stricter gun control measures.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the assertion that gun control infringes upon liberty, are strong indicators of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual gun ownership rights and often oppose stricter gun control measures."
+    },
+    {
+      "author": "LibertyDefender87",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This stance aligns with conservative viewpoints that prioritize individual gun ownership rights and often view gun control as an infringement on liberty.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control measures are indicative of a right-leaning political orientation. This stance aligns with conservative viewpoints that prioritize individual gun ownership rights and often view gun control as an infringement on liberty."
+    },
+    {
+      "author": "SecondAmendmentDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on the Second Amendment and the right to bear arms is a common position held by those on the right. While they also mention 'responsible gun ownership,' this is often framed within the context of protecting gun rights rather than advocating for stricter gun control measures, which is more common on the left.\"\n}\n```",
+      "explanation": "The author's emphasis on the Second Amendment and the right to bear arms is a common position held by those on the right. While they also mention 'responsible gun ownership,' this is often framed within the context of protecting gun rights rather than advocating for stricter gun control measures, which is more common on the left."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Gun_Control/balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_qwen-2.5-72b-instruct_google_gemini-2.0-flash-001_analysis.json"
+}

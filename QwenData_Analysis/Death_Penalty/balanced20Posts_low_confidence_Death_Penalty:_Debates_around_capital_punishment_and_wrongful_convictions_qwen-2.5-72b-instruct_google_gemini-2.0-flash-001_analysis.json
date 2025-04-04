@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 50.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 10
+    },
+    "left": {
+      "accuracy": 60.0,
+      "precision": 75.0,
+      "recall": 30.0,
+      "f1_score": 4285.714285714285,
+      "true_positive": 3,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 7
+    },
+    "unknown": {
+      "accuracy": 20.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 16,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 15.0
+  },
+  "classifications": [
+    {
+      "author": "JusticeSeeker123",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Opposition to capital punishment is generally associated with left-leaning political ideologies. The concerns raised about wrongful convictions and the desire for alternative approaches to justice and safety align with common left-wing arguments against the death penalty.\"\n}\n```",
+      "explanation": "Opposition to capital punishment is generally associated with left-leaning political ideologies. The concerns raised about wrongful convictions and the desire for alternative approaches to justice and safety align with common left-wing arguments against the death penalty."
+    },
+    {
+      "author": "EcoJusticeAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Opposition to the death penalty is a common position on the left. The author's concern about wrongful convictions and the irreversible nature of the punishment aligns with left-leaning arguments against capital punishment, which often emphasize human rights and social justice.\"\n}\n```",
+      "explanation": "Opposition to the death penalty is a common position on the left. The author's concern about wrongful convictions and the irreversible nature of the punishment aligns with left-leaning arguments against capital punishment, which often emphasize human rights and social justice."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses nuanced views on capital punishment, a topic that can be divisive but doesn't inherently align with a specific political orientation. Their concern for wrongful convictions is often associated with left-leaning perspectives, but their struggle with feelings about heinous crimes suggests a more complex and less easily categorized viewpoint. Without further information on other political issues, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses nuanced views on capital punishment, a topic that can be divisive but doesn't inherently align with a specific political orientation. Their concern for wrongful convictions is often associated with left-leaning perspectives, but their struggle with feelings about heinous crimes suggests a more complex and less easily categorized viewpoint. Without further information on other political issues, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "JusticeSeeker92",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for the death penalty, which is often associated with right-leaning ideologies. However, they also express concern about wrongful convictions, a common argument against the death penalty often voiced by those on the left. This combination of views makes it difficult to definitively classify the author's political orientation as strictly left or right. It's possible they hold a nuanced or moderate position.\"\n}\n```",
+      "explanation": "The author expresses support for the death penalty, which is often associated with right-leaning ideologies. However, they also express concern about wrongful convictions, a common argument against the death penalty often voiced by those on the left. This combination of views makes it difficult to definitively classify the author's political orientation as strictly left or right. It's possible they hold a nuanced or moderate position."
+    },
+    {
+      "author": "EcoJusticeThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stated inclination towards abolishing the death penalty aligns with a common left-leaning position. While they acknowledge the complexity of the issue and call for careful consideration, the initial leaning suggests a progressive stance on criminal justice reform.\"\n}\n```",
+      "explanation": "The author's stated inclination towards abolishing the death penalty aligns with a common left-leaning position. While they acknowledge the complexity of the issue and call for careful consideration, the initial leaning suggests a progressive stance on criminal justice reform."
+    },
+    {
+      "author": "JusticeSeeker88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about wrongful convictions in death penalty cases. While opposition to the death penalty is often associated with left-leaning viewpoints, the author states they are unsure of their stance. The concern about potential injustice is not exclusive to any particular political orientation. Therefore, without further information, it's impossible to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses concern about wrongful convictions in death penalty cases. While opposition to the death penalty is often associated with left-leaning viewpoints, the author states they are unsure of their stance. The concern about potential injustice is not exclusive to any particular political orientation. Therefore, without further information, it's impossible to classify the author's political orientation."
+    },
+    {
+      "author": "JusticeReformer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on the death penalty, acknowledging a potential conservative argument (deterrence) while simultaneously highlighting a common liberal concern (wrongful convictions). This balanced perspective makes it difficult to definitively classify their political orientation as strictly left or right. They are considering both sides of the issue, suggesting a moderate or independent viewpoint, or at least a willingness to engage with arguments from different perspectives.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on the death penalty, acknowledging a potential conservative argument (deterrence) while simultaneously highlighting a common liberal concern (wrongful convictions). This balanced perspective makes it difficult to definitively classify their political orientation as strictly left or right. They are considering both sides of the issue, suggesting a moderate or independent viewpoint, or at least a willingness to engage with arguments from different perspectives."
+    },
+    {
+      "author": "JusticeSeeker82",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about capital punishment and acknowledges the complexity of the issue, including moral and ethical considerations and the risk of wrongful convictions. This cautious and nuanced perspective doesn't strongly align with either a left or right political orientation. Both sides of the political spectrum can have varying views on capital punishment, and the author's focus on ethical considerations and potential injustices doesn't provide enough information to classify them definitively.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about capital punishment and acknowledges the complexity of the issue, including moral and ethical considerations and the risk of wrongful convictions. This cautious and nuanced perspective doesn't strongly align with either a left or right political orientation. Both sides of the political spectrum can have varying views on capital punishment, and the author's focus on ethical considerations and potential injustices doesn't provide enough information to classify them definitively."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses nuanced views on the death penalty, a topic often associated with political divides. While opposition to the death penalty is more commonly associated with the left, the author's consideration of potential justifications and acknowledgement of the issue's complexity prevents a definitive classification. The author's statement indicates a thoughtful approach rather than a rigid adherence to a specific political ideology.\"\n}\n```",
+      "explanation": "The author expresses nuanced views on the death penalty, a topic often associated with political divides. While opposition to the death penalty is more commonly associated with the left, the author's consideration of potential justifications and acknowledgement of the issue's complexity prevents a definitive classification. The author's statement indicates a thoughtful approach rather than a rigid adherence to a specific political ideology."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses nuanced views on capital punishment, acknowledging arguments from both sides. They express concern about wrongful convictions, which is often associated with left-leaning perspectives, but also entertain the possibility of a 'foolproof' system, suggesting an openness to arguments in favor of capital punishment under certain conditions. This balanced approach makes it difficult to definitively classify their political orientation as strictly left or right.\"\n}\n```",
+      "explanation": "The author expresses nuanced views on capital punishment, acknowledging arguments from both sides. They express concern about wrongful convictions, which is often associated with left-leaning perspectives, but also entertain the possibility of a 'foolproof' system, suggesting an openness to arguments in favor of capital punishment under certain conditions. This balanced approach makes it difficult to definitively classify their political orientation as strictly left or right."
+    },
+    {
+      "author": "JusticeSeekerLibertarian",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author identifies as a \\\"JusticeSeekerLibertarian,\\\" which suggests a blend of libertarian and potentially left-leaning values related to justice. The post expresses concerns about capital punishment and wrongful convictions, which is a common argument against it. However, the author also mentions belief in personal responsibility and justice for heinous crimes, which could align with more conservative viewpoints. The combination of these elements makes it difficult to definitively classify the author as strictly left or right. The author's concern for justice could be interpreted in various ways, and the libertarian label further complicates the classification, as libertarianism can encompass both left-leaning and right-leaning perspectives on different issues.\"\n}\n```",
+      "explanation": "The author identifies as a \"JusticeSeekerLibertarian,\" which suggests a blend of libertarian and potentially left-leaning values related to justice. The post expresses concerns about capital punishment and wrongful convictions, which is a common argument against it. However, the author also mentions belief in personal responsibility and justice for heinous crimes, which could align with more conservative viewpoints. The combination of these elements makes it difficult to definitively classify the author as strictly left or right. The author's concern for justice could be interpreted in various ways, and the libertarian label further complicates the classification, as libertarianism can encompass both left-leaning and right-leaning perspectives on different issues."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses views that are associated with both right-leaning and left-leaning ideologies. The emphasis on personal responsibility and limited government is typically associated with right-leaning or libertarian viewpoints. However, the concern about wrongful convictions in capital punishment cases and questioning the justification of taking a life due to potential fallibility of the justice system is more commonly associated with left-leaning or liberal viewpoints. Because the author expresses views from both sides, it is impossible to definitively classify their political orientation without more information.\"\n}\n```",
+      "explanation": "The author expresses views that are associated with both right-leaning and left-leaning ideologies. The emphasis on personal responsibility and limited government is typically associated with right-leaning or libertarian viewpoints. However, the concern about wrongful convictions in capital punishment cases and questioning the justification of taking a life due to potential fallibility of the justice system is more commonly associated with left-leaning or liberal viewpoints. Because the author expresses views from both sides, it is impossible to definitively classify their political orientation without more information."
+    },
+    {
+      "author": "CapitalConcerns",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about capital punishment due to the risk of wrongful convictions. This concern is often associated with left-leaning perspectives, but the author doesn't explicitly endorse any particular political ideology or offer further opinions on related issues. The statement is too neutral and limited to definitively classify their political orientation. It could be a moderate or conservative viewpoint as well, as some people across the political spectrum have concerns about wrongful convictions.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about capital punishment due to the risk of wrongful convictions. This concern is often associated with left-leaning perspectives, but the author doesn't explicitly endorse any particular political ideology or offer further opinions on related issues. The statement is too neutral and limited to definitively classify their political orientation. It could be a moderate or conservative viewpoint as well, as some people across the political spectrum have concerns about wrongful convictions."
+    },
+    {
+      "author": "CapitalConsiderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement regarding the death penalty does not definitively align with either the left or right political spectrum. While support for the death penalty is often associated with conservative viewpoints, the author also expresses concern about wrongful convictions, a concern more commonly voiced within liberal circles. The author's question about ensuring absolute certainty suggests a nuanced perspective that doesn't fit neatly into either category. Therefore, without further information, the author's political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author's statement regarding the death penalty does not definitively align with either the left or right political spectrum. While support for the death penalty is often associated with conservative viewpoints, the author also expresses concern about wrongful convictions, a concern more commonly voiced within liberal circles. The author's question about ensuring absolute certainty suggests a nuanced perspective that doesn't fit neatly into either category. Therefore, without further information, the author's political orientation is best classified as unknown."
+    },
+    {
+      "author": "JusticeReformer92",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about the death penalty, a topic often debated along political lines. While concern about executing innocent people is more commonly associated with left-leaning perspectives, the author also expresses a desire to uphold justice, a value often emphasized across the political spectrum. The question about stricter review processes suggests a pragmatic approach rather than a firm ideological stance. Therefore, it's impossible to definitively classify the author's political orientation based on this single post.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about the death penalty, a topic often debated along political lines. While concern about executing innocent people is more commonly associated with left-leaning perspectives, the author also expresses a desire to uphold justice, a value often emphasized across the political spectrum. The question about stricter review processes suggests a pragmatic approach rather than a firm ideological stance. Therefore, it's impossible to definitively classify the author's political orientation based on this single post."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about wrongful convictions and the death penalty, which could align with either left-leaning or libertarian viewpoints. The statement about a limited role for the state in punishment could suggest a right-leaning libertarian perspective, but without further information, it's impossible to definitively classify the author's political orientation. The post lacks clear indicators that would strongly suggest a specific political alignment.\"\n}\n```",
+      "explanation": "The author expresses concerns about wrongful convictions and the death penalty, which could align with either left-leaning or libertarian viewpoints. The statement about a limited role for the state in punishment could suggest a right-leaning libertarian perspective, but without further information, it's impossible to definitively classify the author's political orientation. The post lacks clear indicators that would strongly suggest a specific political alignment."
+    },
+    {
+      "author": "LibertyLover123",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a concern about wrongful convictions in capital punishment cases. This concern is often associated with left-leaning perspectives. However, the author also states they \\\"lean towards the idea of personal responsibility,\\\" which is often associated with right-leaning perspectives. This combination of views makes it difficult to definitively classify the author's political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses a concern about wrongful convictions in capital punishment cases. This concern is often associated with left-leaning perspectives. However, the author also states they \"lean towards the idea of personal responsibility,\" which is often associated with right-leaning perspectives. This combination of views makes it difficult to definitively classify the author's political orientation as strictly left or right. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"Opposition to the death penalty, particularly citing the risk of wrongful convictions, is a common position held by those on the left. While the author acknowledges the complexity of the issue, the concern about irreversible mistakes aligns more strongly with left-leaning arguments against capital punishment.\"\n}\n```",
+      "explanation": "Opposition to the death penalty, particularly citing the risk of wrongful convictions, is a common position held by those on the left. While the author acknowledges the complexity of the issue, the concern about irreversible mistakes aligns more strongly with left-leaning arguments against capital punishment."
+    },
+    {
+      "author": "JusticeMatters",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for the death penalty in some cases, which is often associated with right-leaning ideologies. However, they also express concern about wrongful convictions, a concern more commonly associated with left-leaning ideologies. This combination of views makes it difficult to definitively classify their political orientation. It is possible they hold a nuanced or moderate position, or that their views do not align neatly with traditional left/right categories.\"\n}\n```",
+      "explanation": "The author expresses support for the death penalty in some cases, which is often associated with right-leaning ideologies. However, they also express concern about wrongful convictions, a concern more commonly associated with left-leaning ideologies. This combination of views makes it difficult to definitively classify their political orientation. It is possible they hold a nuanced or moderate position, or that their views do not align neatly with traditional left/right categories."
+    },
+    {
+      "author": "CapitalConcerns",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement expresses a complex viewpoint that doesn't neatly align with typical left/right political positions. Support for the death penalty is often associated with right-leaning ideologies, but the concern about wrongful convictions and the desire for a \\\"foolproof and just\\\" system are concerns often voiced by those on the left. Without further information, it's impossible to definitively classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statement expresses a complex viewpoint that doesn't neatly align with typical left/right political positions. Support for the death penalty is often associated with right-leaning ideologies, but the concern about wrongful convictions and the desire for a \"foolproof and just\" system are concerns often voiced by those on the left. Without further information, it's impossible to definitively classify the author's political orientation."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Death_Penalty/balanced20Posts_low_confidence_Death_Penalty:_Debates_around_capital_punishment_and_wrongful_convictions_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Death_Penalty:_Debates_around_capital_punishment_and_wrongful_convictions_qwen-2.5-72b-instruct_google_gemini-2.0-flash-001_analysis.json"
+}

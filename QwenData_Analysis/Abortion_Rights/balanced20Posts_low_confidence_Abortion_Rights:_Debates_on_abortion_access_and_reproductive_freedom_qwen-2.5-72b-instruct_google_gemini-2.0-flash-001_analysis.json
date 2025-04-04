@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 50.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 10
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 100.0,
+      "recall": 40.0,
+      "f1_score": 5714.285714285715,
+      "true_positive": 4,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 6
+    },
+    "unknown": {
+      "accuracy": 20.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 16,
+      "true_negative": 4,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 20.0
+  },
+  "classifications": [
+    {
+      "author": "ProChoiceAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on abortion rights is a strong indicator of a left-leaning political orientation. The phrase \\\"reproductive freedom\\\" is commonly used within left-leaning political discourse. While the author acknowledges ethical complexities, their core belief aligns with the pro-choice position, which is generally associated with the left.\"\n}\n```",
+      "explanation": "The author's stance on abortion rights is a strong indicator of a left-leaning political orientation. The phrase \"reproductive freedom\" is commonly used within left-leaning political discourse. While the author acknowledges ethical complexities, their core belief aligns with the pro-choice position, which is generally associated with the left."
+    },
+    {
+      "author": "ProChoice_Ponderer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"While the author identifies as 'ProChoice_Ponderer' and expresses support for abortion rights, which is generally associated with the left, they also express concerns about setting limits for safety and ethical reasons, and balancing personal freedom with public health. This nuanced perspective and willingness to consider different viewpoints makes it difficult to definitively classify their political orientation as strictly left. It's possible they hold socially liberal views but also have concerns that don't neatly align with a specific political ideology. Therefore, 'UNKNOWN' is the most appropriate classification.\"\n}\n```",
+      "explanation": "While the author identifies as 'ProChoice_Ponderer' and expresses support for abortion rights, which is generally associated with the left, they also express concerns about setting limits for safety and ethical reasons, and balancing personal freedom with public health. This nuanced perspective and willingness to consider different viewpoints makes it difficult to definitively classify their political orientation as strictly left. It's possible they hold socially liberal views but also have concerns that don't neatly align with a specific political ideology. Therefore, 'UNKNOWN' is the most appropriate classification."
+    },
+    {
+      "author": "EcoJusticeThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement indicates a leaning towards 'reproductive freedom,' which is a common position held by those on the left. Additionally, the user name 'EcoJusticeThinker' suggests an interest in environmental justice, a concept typically associated with left-leaning political ideologies. While the author acknowledges complexities and ethical considerations, the overall sentiment points towards a left-leaning perspective.\"\n}\n```",
+      "explanation": "The author's statement indicates a leaning towards 'reproductive freedom,' which is a common position held by those on the left. Additionally, the user name 'EcoJusticeThinker' suggests an interest in environmental justice, a concept typically associated with left-leaning political ideologies. While the author acknowledges complexities and ethical considerations, the overall sentiment points towards a left-leaning perspective."
+    },
+    {
+      "author": "Reproductive_Rights_Researcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement expresses support for reproductive rights, which is generally associated with the left. However, the author also acknowledges 'ethical complexities' and seeks a balance with 'other concerns.' This nuanced perspective prevents a definitive classification. The author's position is not explicitly aligned with either the left or right, as they are grappling with the complexities of the issue rather than adhering to a strict ideological stance.\"\n}\n```",
+      "explanation": "The author's statement expresses support for reproductive rights, which is generally associated with the left. However, the author also acknowledges 'ethical complexities' and seeks a balance with 'other concerns.' This nuanced perspective prevents a definitive classification. The author's position is not explicitly aligned with either the left or right, as they are grappling with the complexities of the issue rather than adhering to a strict ideological stance."
+    },
+    {
+      "author": "EcoEthicist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's concern for environmental protection and reproductive freedom are typically associated with left-leaning political ideologies. The phrasing suggests a desire to balance potentially conflicting values (environmentalism vs. individual autonomy), which is a common theme in left-leaning discourse. The user's handle, 'EcoEthicist', further reinforces the environmental concern, a common left-leaning value.\"\n}\n```",
+      "explanation": "The author's concern for environmental protection and reproductive freedom are typically associated with left-leaning political ideologies. The phrasing suggests a desire to balance potentially conflicting values (environmentalism vs. individual autonomy), which is a common theme in left-leaning discourse. The user's handle, 'EcoEthicist', further reinforces the environmental concern, a common left-leaning value."
+    },
+    {
+      "author": "ProChoiceDebater",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for 'reproductive rights,' which is generally associated with the left. However, they also express uncertainty and a desire to understand the complexities of late-term abortions, acknowledging 'valid concerns on both sides' and questioning how to balance 'personal freedom with ethical considerations.' This nuanced perspective and willingness to consider opposing viewpoints makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification.\"\n}\n```",
+      "explanation": "The author expresses support for 'reproductive rights,' which is generally associated with the left. However, they also express uncertainty and a desire to understand the complexities of late-term abortions, acknowledging 'valid concerns on both sides' and questioning how to balance 'personal freedom with ethical considerations.' This nuanced perspective and willingness to consider opposing viewpoints makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification."
+    },
+    {
+      "author": "ProChoiceAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for 'ensuring access to safe and legal abortion' strongly suggests a left-leaning political orientation. This position aligns with the Democratic Party's platform and is a common stance among liberals and progressives. While the author acknowledges the complexities and ethical considerations, their starting point is clearly pro-choice, which is a hallmark of left-leaning views on this issue.\"\n}\n```",
+      "explanation": "The author's support for 'ensuring access to safe and legal abortion' strongly suggests a left-leaning political orientation. This position aligns with the Democratic Party's platform and is a common stance among liberals and progressives. While the author acknowledges the complexities and ethical considerations, their starting point is clearly pro-choice, which is a hallmark of left-leaning views on this issue."
+    },
+    {
+      "author": "EcoThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post expresses concern about both ecological issues and reproductive rights. While concern for ecological issues is often associated with the left, the post does not explicitly endorse any particular political position or ideology. The author is simply posing a question about balancing potentially competing values, making it impossible to definitively classify their political orientation as left or right based on this single statement.\"\n}\n```",
+      "explanation": "The post expresses concern about both ecological issues and reproductive rights. While concern for ecological issues is often associated with the left, the post does not explicitly endorse any particular political position or ideology. The author is simply posing a question about balancing potentially competing values, making it impossible to definitively classify their political orientation as left or right based on this single statement."
+    },
+    {
+      "author": "EthicalDemocrat",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for abortion rights, which is generally associated with the left. However, they also emphasize the importance of considering ethical complexities and varying perspectives, suggesting a nuanced approach rather than a purely ideological one. This willingness to engage with opposing viewpoints and seek a balanced solution makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification.\"\n}\n```",
+      "explanation": "The author expresses support for abortion rights, which is generally associated with the left. However, they also emphasize the importance of considering ethical complexities and varying perspectives, suggesting a nuanced approach rather than a purely ideological one. This willingness to engage with opposing viewpoints and seek a balanced solution makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification."
+    },
+    {
+      "author": "EthicalExplorer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire to understand different perspectives on abortion access and reproductive freedom. They acknowledge valid points on both sides and seek a middle ground. This nuanced approach and openness to compromise doesn't clearly align with either a left or right political orientation, making it difficult to classify.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire to understand different perspectives on abortion access and reproductive freedom. They acknowledge valid points on both sides and seek a middle ground. This nuanced approach and openness to compromise doesn't clearly align with either a left or right political orientation, making it difficult to classify."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire for nuanced discussion on abortion access, a topic that often divides along political lines. They acknowledge the importance of individual freedoms, a value often associated with both left and right-leaning ideologies, but also recognize the complexity of the issue. The author's open-ended question and lack of a definitive stance make it impossible to classify their political orientation with certainty. They could be genuinely undecided, or their views might not align neatly with traditional left/right categories.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire for nuanced discussion on abortion access, a topic that often divides along political lines. They acknowledge the importance of individual freedoms, a value often associated with both left and right-leaning ideologies, but also recognize the complexity of the issue. The author's open-ended question and lack of a definitive stance make it impossible to classify their political orientation with certainty. They could be genuinely undecided, or their views might not align neatly with traditional left/right categories."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for 'reproductive freedom' which is often associated with the left, but also acknowledges ethical concerns about the protection of potential life, a viewpoint more commonly associated with the right. The author's struggle to balance these two perspectives suggests a nuanced position that doesn't clearly align with either the left or the right. Therefore, their political orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses support for 'reproductive freedom' which is often associated with the left, but also acknowledges ethical concerns about the protection of potential life, a viewpoint more commonly associated with the right. The author's struggle to balance these two perspectives suggests a nuanced position that doesn't clearly align with either the left or the right. Therefore, their political orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author identifies as \\\"LibertyThinker\\\" and expresses a concern for both personal freedom and the protection of potential life. This places them within a libertarian framework, but libertarianism itself spans a range of views on social issues like abortion. The author's stated struggle to balance these competing values makes it impossible to definitively classify them as left or right. Their focus on individual liberty aligns with some right-leaning perspectives, but their concern for reproductive choices can also align with some left-leaning perspectives. Without further information, their political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author identifies as \"LibertyThinker\" and expresses a concern for both personal freedom and the protection of potential life. This places them within a libertarian framework, but libertarianism itself spans a range of views on social issues like abortion. The author's stated struggle to balance these competing values makes it impossible to definitively classify them as left or right. Their focus on individual liberty aligns with some right-leaning perspectives, but their concern for reproductive choices can also align with some left-leaning perspectives. Without further information, their political orientation is best classified as unknown."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on abortion rights, acknowledging the complexities and valid concerns on both sides. While they mention leaning towards personal freedom and limited government intervention, which are often associated with right-leaning ideologies, their willingness to consider ethical considerations and seek a balance suggests a more moderate or undecided stance. The lack of strong alignment with either side makes it difficult to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on abortion rights, acknowledging the complexities and valid concerns on both sides. While they mention leaning towards personal freedom and limited government intervention, which are often associated with right-leaning ideologies, their willingness to consider ethical considerations and seek a balance suggests a more moderate or undecided stance. The lack of strong alignment with either side makes it difficult to definitively classify their political orientation."
+    },
+    {
+      "author": "ConscienceSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges valid concerns from both sides of the abortion debate. This balanced perspective and lack of a definitive stance make it impossible to classify their political orientation as definitively left or right. The author's statement suggests an open-minded approach and a willingness to consider different viewpoints, which doesn't align strongly with either end of the political spectrum on this issue.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and acknowledges valid concerns from both sides of the abortion debate. This balanced perspective and lack of a definitive stance make it impossible to classify their political orientation as definitively left or right. The author's statement suggests an open-minded approach and a willingness to consider different viewpoints, which doesn't align strongly with either end of the political spectrum on this issue."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses nuanced views on abortion rights, acknowledging both the importance of personal autonomy (a value often associated with the left) and the ethical complexities involved (a concern sometimes voiced by the right). The author's call for finding a 'balance' suggests a moderate or undecided stance, making it difficult to definitively classify their political orientation as strictly left or right. The username 'LibertyThinker' is also not particularly indicative of a specific political leaning.\"\n}\n```",
+      "explanation": "The author expresses nuanced views on abortion rights, acknowledging both the importance of personal autonomy (a value often associated with the left) and the ethical complexities involved (a concern sometimes voiced by the right). The author's call for finding a 'balance' suggests a moderate or undecided stance, making it difficult to definitively classify their political orientation as strictly left or right. The username 'LibertyThinker' is also not particularly indicative of a specific political leaning."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for individual rights and choice regarding abortion, which is often associated with the left. However, they also express ethical concerns and a desire to support all involved, suggesting a more nuanced perspective. The question about 'true liberty' is open-ended and doesn't definitively align with either side. The author's position is not clearly defined, making it difficult to classify them as strictly left or right.\"\n}\n```",
+      "explanation": "The author expresses support for individual rights and choice regarding abortion, which is often associated with the left. However, they also express ethical concerns and a desire to support all involved, suggesting a more nuanced perspective. The question about 'true liberty' is open-ended and doesn't definitively align with either side. The author's position is not clearly defined, making it difficult to classify them as strictly left or right."
+    },
+    {
+      "author": "LibertyLover88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for 'personal autonomy and freedom of choice when it comes to reproductive rights,' which is often associated with the left. However, they also acknowledge 'ethical complexities' and the need to balance individual freedom with 'protecting potential life,' which is a common concern among those with more conservative viewpoints. This nuanced perspective makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification.\"\n}\n```",
+      "explanation": "The author expresses support for 'personal autonomy and freedom of choice when it comes to reproductive rights,' which is often associated with the left. However, they also acknowledge 'ethical complexities' and the need to balance individual freedom with 'protecting potential life,' which is a common concern among those with more conservative viewpoints. This nuanced perspective makes it difficult to definitively classify their political orientation as strictly left or right. Therefore, 'UNKNOWN' is the most appropriate classification."
+    },
+    {
+      "author": "ProLifePerspective",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on abortion, acknowledging both the value of life and the difficult circumstances surrounding the decision. While the username suggests a pro-life stance, the post itself demonstrates a willingness to consider different perspectives and grapple with the complexities of the issue. This balanced approach makes it difficult to definitively classify the author as strictly left or right. The author's statement could be interpreted as a centrist or moderate position, or simply a genuine attempt to understand different viewpoints, making a definitive classification impossible based on this single post.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on abortion, acknowledging both the value of life and the difficult circumstances surrounding the decision. While the username suggests a pro-life stance, the post itself demonstrates a willingness to consider different perspectives and grapple with the complexities of the issue. This balanced approach makes it difficult to definitively classify the author as strictly left or right. The author's statement could be interpreted as a centrist or moderate position, or simply a genuine attempt to understand different viewpoints, making a definitive classification impossible based on this single post."
+    },
+    {
+      "author": "LibertyFinder",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on abortion, acknowledging the importance of both personal freedom/choice and the rights of the unborn. This position doesn't neatly align with either the left or right. While the right typically emphasizes the rights of the unborn, and the left typically emphasizes personal choice, the author's statement indicates a struggle to balance these competing values, making a definitive classification impossible based on this single post.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on abortion, acknowledging the importance of both personal freedom/choice and the rights of the unborn. This position doesn't neatly align with either the left or right. While the right typically emphasizes the rights of the unborn, and the left typically emphasizes personal choice, the author's statement indicates a struggle to balance these competing values, making a definitive classification impossible based on this single post."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Abortion_Rights/balanced20Posts_low_confidence_Abortion_Rights:_Debates_on_abortion_access_and_reproductive_freedom_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Abortion_Rights:_Debates_on_abortion_access_and_reproductive_freedom_qwen-2.5-72b-instruct_google_gemini-2.0-flash-001_analysis.json"
+}

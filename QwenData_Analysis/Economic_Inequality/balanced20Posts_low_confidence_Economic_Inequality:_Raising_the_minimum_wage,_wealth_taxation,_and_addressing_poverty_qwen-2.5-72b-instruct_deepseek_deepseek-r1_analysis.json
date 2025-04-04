@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 80.0,
+      "precision": 80.0,
+      "recall": 80.0,
+      "f1_score": 8000.0,
+      "true_positive": 8,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 2
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 80.0
+  },
+  "classifications": [
+    {
+      "author": "EconConcerned",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports raising the minimum wage and implementing wealth taxation, both of which are policies commonly associated with left-leaning political ideologies aimed at reducing economic inequality. While they express caution about unintended consequences, the core advocacy for redistributive economic policies aligns more closely with progressive or leftist frameworks. The Right typically opposes such measures, favoring market-driven solutions and opposing wealth taxes. The author's concerns about complexity do not negate their support for the policies themselves, making LEFT the most fitting classification.\"\n}\n```",
+      "explanation": "The author supports raising the minimum wage and implementing wealth taxation, both of which are policies commonly associated with left-leaning political ideologies aimed at reducing economic inequality. While they express caution about unintended consequences, the core advocacy for redistributive economic policies aligns more closely with progressive or leftist frameworks. The Right typically opposes such measures, favoring market-driven solutions and opposing wealth taxes. The author's concerns about complexity do not negate their support for the policies themselves, making LEFT the most fitting classification."
+    },
+    {
+      "author": "EcoEconThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports raising the minimum wage and implementing wealth taxation\u2014policies strongly associated with left-leaning economic agendas aimed at reducing inequality. However, they also express caution about potential impacts on small businesses and local economies, which introduces a pragmatic nuance. While acknowledging trade-offs, the core advocacy for progressive policies (commonly prioritized by the left) outweighs the expressed concerns, which are framed as considerations rather than opposition. This aligns with a left-leaning perspective that seeks to balance social equity with economic feasibility.\"\n}\n```",
+      "explanation": "The author supports raising the minimum wage and implementing wealth taxation\u2014policies strongly associated with left-leaning economic agendas aimed at reducing inequality. However, they also express caution about potential impacts on small businesses and local economies, which introduces a pragmatic nuance. While acknowledging trade-offs, the core advocacy for progressive policies (commonly prioritized by the left) outweighs the expressed concerns, which are framed as considerations rather than opposition. This aligns with a left-leaning perspective that seeks to balance social equity with economic feasibility."
+    },
+    {
+      "author": "EconConcerns",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for policies commonly associated with left-leaning economic platforms, such as raising the minimum wage and implementing wealth taxation, which are typically proposed to address systemic inequality and redistribute resources. Their focus on poverty reduction and economic inequality as a systemic issue requiring government intervention aligns with progressive or left-wing perspectives. While the author expresses uncertainty about the sufficiency of these measures, their framing of the problem and openness to additional solutions still reflects a left-leaning orientation, as these policies are rarely emphasized in right-wing discourse, which tends to prioritize market-driven solutions over redistribution.\"\n}\n```",
+      "explanation": "The author's post advocates for policies commonly associated with left-leaning economic platforms, such as raising the minimum wage and implementing wealth taxation, which are typically proposed to address systemic inequality and redistribute resources. Their focus on poverty reduction and economic inequality as a systemic issue requiring government intervention aligns with progressive or left-wing perspectives. While the author expresses uncertainty about the sufficiency of these measures, their framing of the problem and openness to additional solutions still reflects a left-leaning orientation, as these policies are rarely emphasized in right-wing discourse, which tends to prioritize market-driven solutions over redistribution."
+    },
+    {
+      "author": "EcoJusticeThinker",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author raises concerns about the potential negative impacts of raising the minimum wage on small businesses and questions wealth taxation's effect on investment and growth. These critiques align with common right-leaning arguments that prioritize economic growth, business interests, and skepticism of government intervention in markets. While the tone is cautious and acknowledges complexity, the focus on risks to businesses and investment over redistributive goals suggests a right-leaning perspective.\"\n}",
+      "explanation": "The author raises concerns about the potential negative impacts of raising the minimum wage on small businesses and questions wealth taxation's effect on investment and growth. These critiques align with common right-leaning arguments that prioritize economic growth, business interests, and skepticism of government intervention in markets. While the tone is cautious and acknowledges complexity, the focus on risks to businesses and investment over redistributive goals suggests a right-leaning perspective."
+    },
+    {
+      "author": "GreenEcoThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for policies commonly associated with left-leaning ideologies, such as raising the minimum wage and implementing wealth taxation to address poverty. These proposals align with progressive goals of reducing economic inequality and redistributing resources. However, the author's expressed uncertainty about impacts on small businesses and the broader economy reflects a pragmatic or reformist left perspective that seeks to balance social equity with practical economic considerations. The focus on mitigating unintended consequences does not negate the left-oriented policy preferences but suggests a nuanced approach to implementation.\"\n}\n```",
+      "explanation": "The author advocates for policies commonly associated with left-leaning ideologies, such as raising the minimum wage and implementing wealth taxation to address poverty. These proposals align with progressive goals of reducing economic inequality and redistributing resources. However, the author's expressed uncertainty about impacts on small businesses and the broader economy reflects a pragmatic or reformist left perspective that seeks to balance social equity with practical economic considerations. The focus on mitigating unintended consequences does not negate the left-oriented policy preferences but suggests a nuanced approach to implementation."
+    },
+    {
+      "author": "EconConcerns",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author discusses policies commonly associated with left-leaning economic platforms, such as raising the minimum wage and implementing wealth taxation, both of which are typically advocated by progressive or left-wing groups to address inequality and poverty. While the author expresses uncertainty about the efficacy of these policies ('not sure if it would solve all the issues') and acknowledges complexity ('many factors at play'), the mere consideration of these measures as viable tools aligns more closely with left-oriented discourse. Right-leaning perspectives often reject such policies outright due to concerns about economic consequences (e.g., job loss, stifled growth). The tentative support for these ideas, despite reservations, suggests a left-leaning inclination rather than a centrist or right-wing stance.\"\n}\n```",
+      "explanation": "The author discusses policies commonly associated with left-leaning economic platforms, such as raising the minimum wage and implementing wealth taxation, both of which are typically advocated by progressive or left-wing groups to address inequality and poverty. While the author expresses uncertainty about the efficacy of these policies ('not sure if it would solve all the issues') and acknowledges complexity ('many factors at play'), the mere consideration of these measures as viable tools aligns more closely with left-oriented discourse. Right-leaning perspectives often reject such policies outright due to concerns about economic consequences (e.g., job loss, stifled growth). The tentative support for these ideas, despite reservations, suggests a left-leaning inclination rather than a centrist or right-wing stance."
+    },
+    {
+      "author": "EconQuestioner",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward two policies typically associated with left-leaning platforms: raising the minimum wage and implementing wealth taxation. While acknowledging potential benefits ('might help some people,' 'sounds fair in theory'), they emphasize concerns about unintended consequences, such as harm to small businesses and economic impacts. These critiques align with common right-leaning arguments that prioritize free-market principles, caution against government intervention, and highlight risks to economic stability. The framing of the questions reflects a focus on fiscal caution and business interests over redistributive policies, suggesting a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward two policies typically associated with left-leaning platforms: raising the minimum wage and implementing wealth taxation. While acknowledging potential benefits ('might help some people,' 'sounds fair in theory'), they emphasize concerns about unintended consequences, such as harm to small businesses and economic impacts. These critiques align with common right-leaning arguments that prioritize free-market principles, caution against government intervention, and highlight risks to economic stability. The framing of the questions reflects a focus on fiscal caution and business interests over redistributive policies, suggesting a right-leaning perspective."
+    },
+    {
+      "author": "Econ_Watcher",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author supports raising the minimum wage and implementing wealth taxation, both of which are policies commonly associated with left-leaning political ideologies aimed at reducing inequality and addressing poverty. While expressing concern about balancing these policies to avoid harming small businesses\u2014a point often raised by centrist or right-leaning critics\u2014the overall endorsement of progressive economic interventions aligns more strongly with left-oriented priorities. The nuanced consideration of potential downsides does not negate the foundational support for core leftist policies, suggesting a pragmatic left-leaning perspective rather than a shift toward centrism or conservatism.\"\n}\n```",
+      "explanation": "The author supports raising the minimum wage and implementing wealth taxation, both of which are policies commonly associated with left-leaning political ideologies aimed at reducing inequality and addressing poverty. While expressing concern about balancing these policies to avoid harming small businesses\u2014a point often raised by centrist or right-leaning critics\u2014the overall endorsement of progressive economic interventions aligns more strongly with left-oriented priorities. The nuanced consideration of potential downsides does not negate the foundational support for core leftist policies, suggesting a pragmatic left-leaning perspective rather than a shift toward centrism or conservatism."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author discusses policies typically associated with left-leaning platforms (raising the minimum wage, wealth taxation) and questions their effectiveness in addressing systemic issues. Their skepticism appears rooted in a desire for more transformative solutions rather than outright opposition to the policies, which aligns with leftist critiques of incremental reforms. The absence of right-wing arguments (e.g., economic inefficiency, overreach) and the focus on systemic 'root causes' suggest a left-leaning perspective that prioritizes structural change over superficial fixes.\"\n}\n```",
+      "explanation": "The author discusses policies typically associated with left-leaning platforms (raising the minimum wage, wealth taxation) and questions their effectiveness in addressing systemic issues. Their skepticism appears rooted in a desire for more transformative solutions rather than outright opposition to the policies, which aligns with leftist critiques of incremental reforms. The absence of right-wing arguments (e.g., economic inefficiency, overreach) and the focus on systemic 'root causes' suggest a left-leaning perspective that prioritizes structural change over superficial fixes."
+    },
+    {
+      "author": "EconReformThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author acknowledges the potential benefits of left-leaning policies like raising the minimum wage and wealth taxation, explicitly stating that wealth taxation 'seems fair.' While expressing pragmatic concerns about economic repercussions (e.g., inflation, job loss), their openness to these policies as viable solutions to poverty and inequality aligns more closely with left-leaning perspectives. Right-leaning discourse typically rejects such policies outright rather than balancing pros and cons. The author's framing suggests sympathy for progressive goals, even amid caution about implementation challenges.\"\n}\n```",
+      "explanation": "The author acknowledges the potential benefits of left-leaning policies like raising the minimum wage and wealth taxation, explicitly stating that wealth taxation 'seems fair.' While expressing pragmatic concerns about economic repercussions (e.g., inflation, job loss), their openness to these policies as viable solutions to poverty and inequality aligns more closely with left-leaning perspectives. Right-leaning discourse typically rejects such policies outright rather than balancing pros and cons. The author's framing suggests sympathy for progressive goals, even amid caution about implementation challenges."
+    },
+    {
+      "author": "Econ_Ponderer",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward progressive economic policies like raising the minimum wage and wealth taxation, citing concerns about unemployment, business costs, and stifled investment\u2014common arguments in right-leaning critiques of government intervention. Their proposed alternatives (education, job training) align with conservative emphasis on market-driven solutions and individual responsibility over redistributive policies. While education initiatives can be bipartisan, the framing here prioritizes economic growth and private-sector efficiency over state-led redistribution, reflecting a right-leaning perspective.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward progressive economic policies like raising the minimum wage and wealth taxation, citing concerns about unemployment, business costs, and stifled investment\u2014common arguments in right-leaning critiques of government intervention. Their proposed alternatives (education, job training) align with conservative emphasis on market-driven solutions and individual responsibility over redistributive policies. While education initiatives can be bipartisan, the framing here prioritizes economic growth and private-sector efficiency over state-led redistribution, reflecting a right-leaning perspective."
+    },
+    {
+      "author": "EconPonderer",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward policies typically associated with left-leaning economic platforms (raising the minimum wage, wealth taxes) by questioning their effectiveness and highlighting potential negative outcomes like higher prices and job losses. These critiques align with common right-leaning arguments that emphasize market freedom, skepticism of government intervention, and concerns about unintended economic consequences. While the author does not explicitly endorse right-wing alternatives, the framing of doubts reflects a conservative perspective on economic policy.\"\n}",
+      "explanation": "The author expresses skepticism toward policies typically associated with left-leaning economic platforms (raising the minimum wage, wealth taxes) by questioning their effectiveness and highlighting potential negative outcomes like higher prices and job losses. These critiques align with common right-leaning arguments that emphasize market freedom, skepticism of government intervention, and concerns about unintended economic consequences. While the author does not explicitly endorse right-wing alternatives, the framing of doubts reflects a conservative perspective on economic policy."
+    },
+    {
+      "author": "LibertarianEconomist",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward policies typically associated with left-leaning economic approaches, such as raising the minimum wage and implementing wealth taxation. Their concerns about job losses from wage hikes and reduced innovation/investment due to wealth taxes align with right-leaning or libertarian arguments emphasizing free-market principles and unintended consequences of government intervention. The username 'LibertarianEconomist' further supports a right-leaning classification, as libertarianism often prioritizes limited government and economic freedom, which are commonly associated with the political right in the U.S. context.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward policies typically associated with left-leaning economic approaches, such as raising the minimum wage and implementing wealth taxation. Their concerns about job losses from wage hikes and reduced innovation/investment due to wealth taxes align with right-leaning or libertarian arguments emphasizing free-market principles and unintended consequences of government intervention. The username 'LibertarianEconomist' further supports a right-leaning classification, as libertarianism often prioritizes limited government and economic freedom, which are commonly associated with the political right in the U.S. context."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author questions the efficacy of policies typically associated with left-leaning economic agendas, such as raising the minimum wage and implementing wealth taxation. Their skepticism about minimum wage increases (emphasizing potential harm to small businesses and jobs) aligns with common right-leaning arguments that prioritize free-market concerns over government intervention. Similarly, casting doubt on wealth taxation as a solution to inequality reflects a right-wing perspective that often critiques such policies as ineffective or economically damaging. While the tone is interrogative rather than declarative, the themes and framing of the questions strongly resonate with conservative economic critiques.\"\n}\n```",
+      "explanation": "The author questions the efficacy of policies typically associated with left-leaning economic agendas, such as raising the minimum wage and implementing wealth taxation. Their skepticism about minimum wage increases (emphasizing potential harm to small businesses and jobs) aligns with common right-leaning arguments that prioritize free-market concerns over government intervention. Similarly, casting doubt on wealth taxation as a solution to inequality reflects a right-wing perspective that often critiques such policies as ineffective or economically damaging. While the tone is interrogative rather than declarative, the themes and framing of the questions strongly resonate with conservative economic critiques."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism about raising the minimum wage, emphasizing potential job cuts\u2014a common conservative argument against such policies. While not explicitly opposing the policy, the focus on unintended economic consequences (e.g., reduced employment opportunities) and the suggestion of alternative solutions aligns more closely with right-leaning economic perspectives that prioritize market-driven outcomes over government intervention.\"\n}\n```",
+      "explanation": "The author expresses skepticism about raising the minimum wage, emphasizing potential job cuts\u2014a common conservative argument against such policies. While not explicitly opposing the policy, the focus on unintended economic consequences (e.g., reduced employment opportunities) and the suggestion of alternative solutions aligns more closely with right-leaning economic perspectives that prioritize market-driven outcomes over government intervention."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author acknowledges potential benefits of raising the minimum wage but emphasizes concerns about negative consequences (e.g., harm to small businesses, inflation), which aligns with common right-leaning critiques of government intervention. The focus on 'unintended consequences' and skepticism about the policy's efficacy, coupled with a search for alternative poverty solutions, reflects a conservative or libertarian emphasis on market-driven outcomes rather than progressive redistributive policies. However, the cautious tone and lack of explicit opposition or endorsement introduce some ambiguity, though the framing leans toward RIGHT due to prioritized critiques.\"\n}\n```",
+      "explanation": "The author acknowledges potential benefits of raising the minimum wage but emphasizes concerns about negative consequences (e.g., harm to small businesses, inflation), which aligns with common right-leaning critiques of government intervention. The focus on 'unintended consequences' and skepticism about the policy's efficacy, coupled with a search for alternative poverty solutions, reflects a conservative or libertarian emphasis on market-driven outcomes rather than progressive redistributive policies. However, the cautious tone and lack of explicit opposition or endorsement introduce some ambiguity, though the framing leans toward RIGHT due to prioritized critiques."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward policies typically associated with left-leaning platforms (raising the minimum wage and wealth taxation) by emphasizing potential adverse effects on small businesses, job markets, innovation, and investment. Their focus on economic risks, such as stifling entrepreneurship and investment, aligns with common right-leaning arguments that prioritize free-market principles and caution against government intervention in the economy. While the author does not outright reject these policies, their framing centers on conservative concerns about unintended consequences, suggesting a right-leaning perspective.\"\n}",
+      "explanation": "The author expresses skepticism toward policies typically associated with left-leaning platforms (raising the minimum wage and wealth taxation) by emphasizing potential adverse effects on small businesses, job markets, innovation, and investment. Their focus on economic risks, such as stifling entrepreneurship and investment, aligns with common right-leaning arguments that prioritize free-market principles and caution against government intervention in the economy. While the author does not outright reject these policies, their framing centers on conservative concerns about unintended consequences, suggesting a right-leaning perspective."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced analysis of both the potential benefits (reducing poverty, aligned with left-leaning priorities) and drawbacks (discouraging job growth and investment, a common right-leaning critique) of progressive policies like raising the minimum wage and wealth taxation. While acknowledging left-aligned goals, they refrain from endorsing either side, instead emphasizing the need to evaluate long-term trade-offs. This neutral framing, which questions outcomes without ideological alignment, makes it difficult to definitively classify the author's political orientation as strictly LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author presents a balanced analysis of both the potential benefits (reducing poverty, aligned with left-leaning priorities) and drawbacks (discouraging job growth and investment, a common right-leaning critique) of progressive policies like raising the minimum wage and wealth taxation. While acknowledging left-aligned goals, they refrain from endorsing either side, instead emphasizing the need to evaluate long-term trade-offs. This neutral framing, which questions outcomes without ideological alignment, makes it difficult to definitively classify the author's political orientation as strictly LEFT or RIGHT."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses cautious consideration of both progressive policies (raising the minimum wage, wealth taxation) and conservative critiques (potential unemployment, unintended consequences). While acknowledging the goals of addressing inequality, they question the efficacy and side effects without fully endorsing or rejecting either approach. This balanced skepticism, avoiding strong alignment with typical left-wing advocacy or right-wing opposition, makes a definitive classification challenging. The uncertainty reflects a centrist or moderate perspective rather than clear partisan alignment.\"\n}\n```",
+      "explanation": "The author expresses cautious consideration of both progressive policies (raising the minimum wage, wealth taxation) and conservative critiques (potential unemployment, unintended consequences). While acknowledging the goals of addressing inequality, they question the efficacy and side effects without fully endorsing or rejecting either approach. This balanced skepticism, avoiding strong alignment with typical left-wing advocacy or right-wing opposition, makes a definitive classification challenging. The uncertainty reflects a centrist or moderate perspective rather than clear partisan alignment."
+    },
+    {
+      "author": "EconThinker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses skepticism toward policies commonly associated with left-leaning economic agendas. Their concern that raising the minimum wage could reduce job opportunities aligns with right-leaning arguments emphasizing free-market principles and potential negative impacts of wage mandates. Similarly, their doubt about wealth taxation's efficacy\u2014framing it as a bureaucratic or inefficient solution\u2014reflects a conservative or libertarian perspective that prioritizes limited government intervention and distrust of redistributive policies. While acknowledging potential benefits ('might help some people'), the emphasis on unintended consequences and inefficiency leans toward right-leaning economic critiques.\"\n}\n```",
+      "explanation": "The author expresses skepticism toward policies commonly associated with left-leaning economic agendas. Their concern that raising the minimum wage could reduce job opportunities aligns with right-leaning arguments emphasizing free-market principles and potential negative impacts of wage mandates. Similarly, their doubt about wealth taxation's efficacy\u2014framing it as a bureaucratic or inefficient solution\u2014reflects a conservative or libertarian perspective that prioritizes limited government intervention and distrust of redistributive policies. While acknowledging potential benefits ('might help some people'), the emphasis on unintended consequences and inefficiency leans toward right-leaning economic critiques."
+    }
+  ],
+  "file_path": "Qwen_balancedData/Economic_Inequality/balanced20Posts_low_confidence_Economic_Inequality:_Raising_the_minimum_wage,_wealth_taxation,_and_addressing_poverty_qwen-2.5-72b-instruct.json",
+  "output_filename": "balanced20Posts_low_confidence_Economic_Inequality:_Raising_the_minimum_wage,_wealth_taxation,_and_addressing_poverty_qwen-2.5-72b-instruct_deepseek_deepseek-r1_analysis.json"
+}
