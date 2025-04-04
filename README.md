@@ -118,5 +118,3 @@ The code produces:
 - CSV files with detailed metrics
 
 ## License
-
-[Specify license]
