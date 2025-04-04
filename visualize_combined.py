@@ -484,10 +484,15 @@ def create_topic_confidence_heatmap(df, output_folder):
             sns.heatmap(pivot_data, annot=True, fmt='.1f', cmap='RdYlGn', linewidths=0.5)
             plt.title(f'Average Accuracy by Topic and Confidence Level - {model}')
             plt.tight_layout()
-            plt.savefig(os.path.join(output_folder, f'{model}_topic_confidence_heatmap.png'))
+            
+            # Replace / with _ in model name for filename
+            safe_model_name = model.replace('/', '_')
+            plt.savefig(os.path.join(output_folder, f'{safe_model_name}_topic_confidence_heatmap.png'))
             plt.close()
-        except:
+            
+        except Exception as e:
             print(f"Could not create heatmap for model: {model}")
+            print(f"Error details: {str(e)}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Visualize political stance analysis results')
