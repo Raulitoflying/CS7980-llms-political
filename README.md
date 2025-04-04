@@ -224,6 +224,7 @@ python visualize_matrix.py DeepseekData_Analysis GeminiData_Analysis MistralData
 - Death Penalty: Debates around capital punishment and wrongful convictions
 - Drug Legalization and Decriminalization: Marijuana legalization, drug sentencing reform
 - Russia-Ukraine War
+- NBA
 
 ## Requirements
 - Python 3.7+
