@@ -8,18 +8,21 @@ from matplotlib.colors import LinearSegmentedColormap
 import argparse
 
 def analyze_and_visualize_political_data(folder_paths, output_folder=None):
-    """分析并可视化政治立场分类结果，支持多个文件夹"""
+    """Analyze and visualize political stance classification results, 
+    supporting multiple folders"""
     if isinstance(folder_paths, str):
-        folder_paths = [folder_paths]  # 如果是单个文件夹，转换为列表
+        # Convert to list if it's a single folder
+        folder_paths = [folder_paths]
     
     if output_folder is None:
-        # 默认输出到第一个文件夹的上级目录的visualizations子文件夹
+        # Default output to visualizations subfolder in the parent directory 
+        # of the first folder
         parent_dir = os.path.dirname(os.path.abspath(folder_paths[0]))
         output_folder = os.path.join(parent_dir, 'visualizations')
     
     os.makedirs(output_folder, exist_ok=True)
     
-    # 收集所有分析文件
+    # Collect all analysis files
     analysis_files = []
     for folder_path in folder_paths:
         for root, _, files in os.walk(folder_path):
@@ -29,7 +32,7 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
     
     print(f"Found {len(analysis_files)} analysis files across {len(folder_paths)} folders")
     
-    # 提取文件数据
+    # Extract file data
     file_data = []
     model_data = {}
     topic_confidence_data = {}
@@ -39,10 +42,10 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
             with open(file_path, 'r') as f:
                 data = json.load(f)
             
-            # 基本文件信息
+            # Basic file information
             file_name = os.path.basename(file_path)
             
-            # 从文件路径获取模型名称
+            # Get model name from file path
             folder_name = os.path.basename(os.path.dirname(file_path))
             if "Deepseek" in folder_name:
                 model = "Deepseek"
@@ -53,7 +56,7 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
             else:
                 model = data.get('model_name', 'unknown')
             
-            # 提取主题和信心度
+            # Extract topic and confidence
             topic = None
             confidence = None
             
@@ -62,17 +65,17 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
             elif 'low_confidence' in file_name:
                 confidence = 'low'
             
-            # 尝试从文件名中提取主题
+            # Try to extract topic from filename
             parts = file_name.split('_confidence_')
             if len(parts) > 1:
                 topic_part = parts[1].split('_')[0]
                 topic = topic_part
             
-            # 提取指标
+            # Extract metrics
             metrics = data['metrics']
             accuracy = metrics['overall_accuracy']
             
-            # 修复F1分数
+            # Fix F1 scores
             for orientation in ['right', 'left', 'unknown']:
                 orient_metrics = metrics[orientation]
                 precision = orient_metrics['precision']
@@ -85,7 +88,7 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
                 
                 orient_metrics['corrected_f1'] = corrected_f1
             
-            # 添加到文件数据列表
+            # Add to file data list
             file_entry = {
                 'file': file_name,
                 'model': model,
@@ -105,12 +108,12 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
             
             file_data.append(file_entry)
             
-            # 添加到模型数据
+            # Add to model data
             if model not in model_data:
                 model_data[model] = []
             model_data[model].append(file_entry)
             
-            # 添加到主题-信心度数据
+            # Add to topic-confidence data
             if topic and confidence:
                 key = (topic, confidence)
                 if key not in topic_confidence_data:
@@ -120,7 +123,7 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
     
-    # 创建数据框
+    # Create dataframe
     df = pd.DataFrame(file_data)
     
     if df.empty:
@@ -129,22 +132,22 @@ def analyze_and_visualize_political_data(folder_paths, output_folder=None):
     
     print(f"Analyzing data for models: {', '.join(df['model'].unique())}")
     
-    # 1. 模型性能比较
+    # 1. Model performance comparison
     visualize_model_performance(df, output_folder)
     
-    # 2. 主题分析
+    # 2. Topic analysis
     visualize_topics(df, output_folder)
     
-    # 3. 信心度分析
+    # 3. Confidence level analysis
     visualize_confidence_levels(df, output_folder)
     
-    # 4. 主题-信心度热力图
+    # 4. Topic-confidence heatmap
     create_topic_confidence_heatmap(df, output_folder)
     
     print(f"Visualizations created in {output_folder}")
 
 def add_value_labels(ax):
-    """在柱状图上添加数值标签"""
+    """Add value labels to bar charts"""
     for p in ax.patches:
         width = p.get_width()
         height = p.get_height()
@@ -157,8 +160,8 @@ def add_value_labels(ax):
                     fontsize=9)
 
 def visualize_model_performance(df, output_folder):
-    """比较不同模型的性能"""
-    # 1. 模型平均准确率
+    """Compare performance of different models"""
+    # 1. Model average accuracy
     model_accuracy = df.groupby('model')['accuracy'].mean().reset_index()
     
     plt.figure(figsize=(12, 6))
@@ -172,7 +175,7 @@ def visualize_model_performance(df, output_folder):
     plt.savefig(os.path.join(output_folder, 'model_accuracy_comparison.png'))
     plt.close()
     
-    # 2. 模型F1分数比较
+    # 2. Model F1 score comparison
     model_metrics = []
     for model in df['model'].unique():
         model_df = df[df['model'] == model]
@@ -185,28 +188,28 @@ def visualize_model_performance(df, output_folder):
     
     model_metrics_df = pd.DataFrame(model_metrics)
     
-    # 为F1指标创建更好的标签
+    # Create better labels for F1 metrics
     model_metrics_long = pd.melt(model_metrics_df, 
                                 id_vars=['model'], 
                                 value_vars=['right_f1', 'left_f1', 'unknown_f1'],
                                 var_name='orientation', 
                                 value_name='f1_score')
     
-    # 创建更易读的标签
+    # Create more readable labels
     model_metrics_long['orientation'] = model_metrics_long['orientation'].map({
         'right_f1': 'Right', 
         'left_f1': 'Left', 
         'unknown_f1': 'Unknown'
     })
     
-    # 增加图表宽度以便在右侧有足够空间放置图例
+    # Increase chart width to have enough space for the legend on the right
     plt.figure(figsize=(16, 7))
     ax = sns.barplot(x='model', y='f1_score', hue='orientation', data=model_metrics_long)
     
-    # 为每组柱状图添加标签
+    # Add labels for each group of bars
     for i, group in enumerate(ax.patches):
         height = group.get_height()
-        if not np.isnan(height):  # 确保数值不是NaN
+        if not np.isnan(height):  # Ensure value is not NaN
             ax.text(
                 group.get_x() + group.get_width()/2.,
                 height + 0.01,
@@ -221,15 +224,15 @@ def visualize_model_performance(df, output_folder):
     plt.ylabel('F1 Score')
     plt.xticks(rotation=45)
     
-    # 将图例放在图表外部右侧
+    # Place legend outside the chart on the right
     plt.legend(title='Orientation', bbox_to_anchor=(1.05, 1), loc='upper left')
     
-    # 调整布局，确保图例完全可见
+    # Adjust layout to ensure the legend is fully visible
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'model_f1_comparison.png'), bbox_inches='tight')
     plt.close()
     
-    # 3. 模型召回率比较
+    # 3. Model recall comparison
     model_recall = []
     for model in df['model'].unique():
         model_df = df[df['model'] == model]
@@ -242,28 +245,28 @@ def visualize_model_performance(df, output_folder):
     
     model_recall_df = pd.DataFrame(model_recall)
     
-    # 为召回率指标创建更好的标签
+    # Create better labels for recall metrics
     model_recall_long = pd.melt(model_recall_df, 
                                 id_vars=['model'], 
                                 value_vars=['right_recall', 'left_recall', 'unknown_recall'],
                                 var_name='orientation', 
                                 value_name='recall')
     
-    # 创建更易读的标签
+    # Create more readable labels
     model_recall_long['orientation'] = model_recall_long['orientation'].map({
         'right_recall': 'Right', 
         'left_recall': 'Left', 
         'unknown_recall': 'Unknown'
     })
     
-    # 增加图表宽度以便在右侧有足够空间放置图例
+    # Increase chart width to have enough space for the legend on the right
     plt.figure(figsize=(16, 7))
     ax = sns.barplot(x='model', y='recall', hue='orientation', data=model_recall_long)
     
-    # 为每组柱状图添加标签
+    # Add labels for each group of bars
     for i, group in enumerate(ax.patches):
         height = group.get_height()
-        if not np.isnan(height):  # 确保数值不是NaN
+        if not np.isnan(height):  # Ensure value is not NaN
             ax.text(
                 group.get_x() + group.get_width()/2.,
                 height + 0.01,
@@ -278,21 +281,21 @@ def visualize_model_performance(df, output_folder):
     plt.ylabel('Recall')
     plt.xticks(rotation=45)
     
-    # 将图例放在图表外部右侧
+    # Place legend outside the chart on the right
     plt.legend(title='Orientation', bbox_to_anchor=(1.05, 1), loc='upper left')
     
-    # 调整布局，确保图例完全可见
+    # Adjust layout to ensure the legend is fully visible
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'model_recall_comparison.png'), bbox_inches='tight')
     plt.close()
 
 def visualize_topics(df, output_folder):
-    """分析不同主题的表现"""
+    """Analyze performance across different topics"""
     if 'topic' not in df.columns or df['topic'].isna().all():
         print("No topic information available")
         return
     
-    # 1. 主题准确率
+    # 1. Topic accuracy
     topic_accuracy = df.groupby('topic')['accuracy'].mean().reset_index()
     
     plt.figure(figsize=(14, 7))
@@ -306,7 +309,7 @@ def visualize_topics(df, output_folder):
     plt.savefig(os.path.join(output_folder, 'topic_accuracy_comparison.png'))
     plt.close()
     
-    # 2. 主题分类指标
+    # 2. Topic classification metrics
     topic_metrics = []
     for topic in df['topic'].dropna().unique():
         topic_df = df[df['topic'] == topic]
@@ -325,7 +328,7 @@ def visualize_topics(df, output_folder):
                                 var_name='metric', 
                                 value_name='value')
     
-    # 添加更易读的标签
+    # Add more readable labels
     topic_metrics_long['metric'] = topic_metrics_long['metric'].map({
         'right_precision': 'Right Precision', 
         'right_recall': 'Right Recall', 
@@ -333,14 +336,14 @@ def visualize_topics(df, output_folder):
         'left_recall': 'Left Recall'
     })
     
-    # 增加图表宽度以便右侧有足够空间放置图例
+    # Increase chart width to have enough space for the legend on the right
     plt.figure(figsize=(16, 8))
     ax = sns.barplot(x='topic', y='value', hue='metric', data=topic_metrics_long)
     
-    # 为每组柱状图添加标签
+    # Add labels for each group of bars
     for i, group in enumerate(ax.patches):
         height = group.get_height()
-        if not np.isnan(height):  # 确保数值不是NaN
+        if not np.isnan(height):  # Ensure value is not NaN
             ax.text(
                 group.get_x() + group.get_width()/2.,
                 height + 0.01,
@@ -355,28 +358,28 @@ def visualize_topics(df, output_folder):
     plt.ylabel('Score (%)')
     plt.xticks(rotation=45)
     
-    # 将图例放在图表外部右侧
+    # Place legend outside the chart on the right
     plt.legend(title='Metric', bbox_to_anchor=(1.05, 1), loc='upper left')
     
-    # 调整布局，确保图例完全可见
+    # Adjust layout to ensure the legend is fully visible
     plt.tight_layout()
     plt.savefig(os.path.join(output_folder, 'topic_metrics_comparison.png'), bbox_inches='tight')
     plt.close()
     
-    # # 3. 按模型和主题分析
+    # # 3. Model and topic analysis
     # model_topic_accuracy = df.groupby(['model', 'topic'])['accuracy'].mean().reset_index()
     
     # plt.figure(figsize=(16, 8))
     # ax = sns.barplot(x='topic', y='accuracy', hue='model', data=model_topic_accuracy)
     
-    # # 为分组柱状图添加标签
+    # # Add labels for grouped bars
     # for i, model in enumerate(df['model'].unique()):
     #     for j, topic in enumerate(df['topic'].dropna().unique()):
     #         subset = model_topic_accuracy[(model_topic_accuracy['model']==model) & 
     #                                      (model_topic_accuracy['topic']==topic)]
     #         if not subset.empty:
     #             value = subset['accuracy'].values[0]
-    #             x = j + (i - 0.5) * 0.25  # 调整x位置以适应不同分组的柱状图
+    #             x = j + (i - 0.5) * 0.25  # Adjust x position to accommodate different grouped bars
     #             plt.text(x, value + 0.01, f'{value:.1f}', ha='center', fontsize=7, fontweight='bold')
     
     # plt.title('Average Accuracy by Model and Topic')
@@ -388,11 +391,11 @@ def visualize_topics(df, output_folder):
     # plt.savefig(os.path.join(output_folder, 'model_topic_comparison.png'))
     # plt.close()
     
-    # 3. 替換為熱力圖呈現模型 × 主題的準確率
+    # 3. Replace with heatmap for model × topic accuracy
     model_topic_accuracy = df.groupby(['model', 'topic'])['accuracy'].mean().reset_index()
     pivot_table = model_topic_accuracy.pivot(index='model', columns='topic', values='accuracy')
 
-    # 使用紅白綠配色（數值越高越綠）
+    # Use red-yellow-green color palette (higher values are greener)
     custom_cmap = sns.color_palette("RdYlGn", as_cmap=True)
 
     plt.figure(figsize=(18, 8))
@@ -405,12 +408,12 @@ def visualize_topics(df, output_folder):
     plt.close()
 
 def visualize_confidence_levels(df, output_folder):
-    """分析不同信心度的表现"""
+    """Analyze performance across confidence levels"""
     if 'confidence' not in df.columns or df['confidence'].isna().all():
         print("No confidence level information available")
         return
     
-    # 1. 信心度准确率对比
+    # 1. Confidence level accuracy comparison
     confidence_accuracy = df.groupby('confidence')['accuracy'].mean().reset_index()
     
     plt.figure(figsize=(10, 6))
@@ -423,20 +426,20 @@ def visualize_confidence_levels(df, output_folder):
     plt.savefig(os.path.join(output_folder, 'confidence_accuracy_comparison.png'))
     plt.close()
     
-    # 2. 按模型和信心度分组
+    # 2. Grouped by model and confidence level
     model_confidence = df.groupby(['model', 'confidence'])['accuracy'].mean().reset_index()
     
     plt.figure(figsize=(14, 7))
     ax = sns.barplot(x='model', y='accuracy', hue='confidence', data=model_confidence)
     
-    # 为分组柱状图添加标签
+    # Add labels for grouped bars
     for i, confidence in enumerate(model_confidence['confidence'].unique()):
         for j, model in enumerate(model_confidence['model'].unique()):
             subset = model_confidence[(model_confidence['model']==model) & 
                                      (model_confidence['confidence']==confidence)]
             if not subset.empty:
                 value = subset['accuracy'].values[0]
-                x = j + (i - 0.5) * 0.4  # 调整x位置以适应不同分组的柱状图
+                x = j + (i - 0.5) * 0.4  # Adjust x position to accommodate different grouped bars
                 plt.text(x, value + 0.01, f'{value:.1f}', ha='center', fontsize=8, fontweight='bold')
     
     plt.title('Average Accuracy by Model and Confidence Level')
@@ -449,12 +452,12 @@ def visualize_confidence_levels(df, output_folder):
     plt.close()
 
 def create_topic_confidence_heatmap(df, output_folder):
-    """创建主题-信心度热力图"""
+    """Create topic-confidence heatmap"""
     if 'topic' not in df.columns or 'confidence' not in df.columns:
         print("No topic or confidence information available")
         return
     
-    # 准备热力图数据
+    # Prepare heatmap data
     pivot_data = df.pivot_table(
         values='accuracy', 
         index='topic', 
@@ -469,7 +472,7 @@ def create_topic_confidence_heatmap(df, output_folder):
     plt.savefig(os.path.join(output_folder, 'topic_confidence_heatmap.png'))
     plt.close()
     
-    # 为每个模型创建热力图
+    # Create heatmap for each model
     for model in df['model'].unique():
         model_df = df[df['model'] == model]
         try:
