@@ -1,0 +1,162 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 80.0,
+      "precision": 75.0,
+      "recall": 90.0,
+      "f1_score": 8181.818181818181,
+      "true_positive": 9,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 70.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 6,
+      "true_negative": 14,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 55.00000000000001
+  },
+  "classifications": [
+    {
+      "author": "JusticeInDoubt",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges the complexity of the death penalty issue, recognizing valid arguments on both sides. This balanced view does not clearly align with a specific political orientation, as both left and right can have varying stances on the death penalty. The author's openness to considering both the risks of wrongful convictions and the potential for justified use in certain cases suggests a nuanced rather than a definitively left or right perspective.\"\n}",
+      "explanation": "The author expresses uncertainty and acknowledges the complexity of the death penalty issue, recognizing valid arguments on both sides. This balanced view does not clearly align with a specific political orientation, as both left and right can have varying stances on the death penalty. The author's openness to considering both the risks of wrongful convictions and the potential for justified use in certain cases suggests a nuanced rather than a definitively left or right perspective."
+    },
+    {
+      "author": "JusticeDoubter",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses significant doubt about the justifiability of the death penalty, primarily due to concerns over wrongful convictions. This perspective aligns more closely with left-leaning political views, which often emphasize human rights, the potential for judicial errors, and the value of life. While the author does not completely rule out the death penalty in all circumstances, the overall skepticism and focus on the risks and uncertainties involved suggest a more liberal stance on criminal justice issues.\"\n}",
+      "explanation": "The author expresses significant doubt about the justifiability of the death penalty, primarily due to concerns over wrongful convictions. This perspective aligns more closely with left-leaning political views, which often emphasize human rights, the potential for judicial errors, and the value of life. While the author does not completely rule out the death penalty in all circumstances, the overall skepticism and focus on the risks and uncertainties involved suggest a more liberal stance on criminal justice issues."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the death penalty, particularly due to concerns about wrongful convictions and a preference for more humane methods of addressing serious crimes. These views are typically associated with a more left-leaning political orientation, which often emphasizes human rights, the potential for rehabilitation, and the value of life over punitive justice measures.\"\n}",
+      "explanation": "The author expresses skepticism about the death penalty, particularly due to concerns about wrongful convictions and a preference for more humane methods of addressing serious crimes. These views are typically associated with a more left-leaning political orientation, which often emphasizes human rights, the potential for rehabilitation, and the value of life over punitive justice measures."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the death penalty, particularly the risk of wrongful executions. This concern aligns more closely with left-leaning political views, which tend to be more critical of capital punishment and emphasize the importance of human rights and the potential for systemic errors in the justice system.\"\n}",
+      "explanation": "The author expresses concern about the death penalty, particularly the risk of wrongful executions. This concern aligns more closely with left-leaning political views, which tend to be more critical of capital punishment and emphasize the importance of human rights and the potential for systemic errors in the justice system."
+    },
+    {
+      "author": "JusticeInDoubt",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the death penalty, particularly focusing on the risk of wrongful convictions. This skepticism towards capital punishment and emphasis on the fallibility of the justice system is more commonly associated with left-leaning political views, which tend to advocate for more cautious and humane approaches to criminal justice.\"\n}",
+      "explanation": "The author expresses concern about the death penalty, particularly focusing on the risk of wrongful convictions. This skepticism towards capital punishment and emphasis on the fallibility of the justice system is more commonly associated with left-leaning political views, which tend to advocate for more cautious and humane approaches to criminal justice."
+    },
+    {
+      "author": "JusticeDoubter",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the death penalty, specifically highlighting the risk of wrongful convictions. This concern aligns more closely with left-leaning political views, which often emphasize human rights, the potential for systemic errors, and the value of individual life over punitive justice measures. While opposition to the death penalty is not exclusive to any one political orientation, the focus on the potential for irreversible injustice is a common theme in left-wing discourse.\"\n}",
+      "explanation": "The author expresses concern about the death penalty, specifically highlighting the risk of wrongful convictions. This concern aligns more closely with left-leaning political views, which often emphasize human rights, the potential for systemic errors, and the value of individual life over punitive justice measures. While opposition to the death penalty is not exclusive to any one political orientation, the focus on the potential for irreversible injustice is a common theme in left-wing discourse."
+    },
+    {
+      "author": "JusticeDoubter",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the death penalty, primarily due to concerns over wrongful convictions and suggests considering a more humane approach. These views align more closely with left-leaning political orientations, which tend to advocate for the abolition of the death penalty and emphasize human rights and social justice.\"\n}",
+      "explanation": "The author expresses skepticism about the death penalty, primarily due to concerns over wrongful convictions and suggests considering a more humane approach. These views align more closely with left-leaning political orientations, which tend to advocate for the abolition of the death penalty and emphasize human rights and social justice."
+    },
+    {
+      "author": "GreenJusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses concern about the death penalty, particularly focusing on the risk of wrongful convictions and the irreversibility of such mistakes. This perspective aligns more closely with left-leaning views, which often emphasize human rights, the potential for systemic errors, and the value of life. Left-leaning individuals are more likely to advocate for alternatives to the death penalty and to question its moral and practical justifications.\"\n}",
+      "explanation": "The post expresses concern about the death penalty, particularly focusing on the risk of wrongful convictions and the irreversibility of such mistakes. This perspective aligns more closely with left-leaning views, which often emphasize human rights, the potential for systemic errors, and the value of life. Left-leaning individuals are more likely to advocate for alternatives to the death penalty and to question its moral and practical justifications."
+    },
+    {
+      "author": "GreenJusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the morality of the death penalty, particularly focusing on the risk of wrongful convictions and the irreversibility of such mistakes. This concern for individual rights and the potential for systemic errors is more commonly associated with left-leaning political orientations, which tend to advocate for more cautious and humane approaches to criminal justice.\"\n}",
+      "explanation": "The author expresses concern about the morality of the death penalty, particularly focusing on the risk of wrongful convictions and the irreversibility of such mistakes. This concern for individual rights and the potential for systemic errors is more commonly associated with left-leaning political orientations, which tend to advocate for more cautious and humane approaches to criminal justice."
+    },
+    {
+      "author": "GreenJusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenJusticeSeeker expresses concern over the potential for wrongful convictions in the application of the death penalty and questions its morality. This perspective aligns more closely with left-leaning political views, which often emphasize the importance of human rights, social justice, and the need for a compassionate approach to criminal justice. Left-oriented individuals are typically more critical of the death penalty due to its irreversible nature and the systemic issues it can entail, such as racial and economic disparities. The author's call for balancing accountability with compassion further suggests a preference for rehabilitative rather than punitive measures, which is characteristic of a left-leaning stance.\"\n}",
+      "explanation": "The post by GreenJusticeSeeker expresses concern over the potential for wrongful convictions in the application of the death penalty and questions its morality. This perspective aligns more closely with left-leaning political views, which often emphasize the importance of human rights, social justice, and the need for a compassionate approach to criminal justice. Left-oriented individuals are typically more critical of the death penalty due to its irreversible nature and the systemic issues it can entail, such as racial and economic disparities. The author's call for balancing accountability with compassion further suggests a preference for rehabilitative rather than punitive measures, which is characteristic of a left-leaning stance."
+    },
+    {
+      "author": "JusticeDebater",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by JusticeDebater does not provide enough information to definitively classify their political orientation. They express ambivalence about the death penalty, citing concerns over wrongful convictions which is often a viewpoint associated with more liberal or left-leaning individuals who prioritize human rights and the potential for judicial errors. However, they also acknowledge the need for strong punishment for heinous crimes, a perspective that can be aligned with conservative or right-leaning individuals who may support harsher penalties for severe offenses. The balanced approach and questioning stance indicate a thoughtful consideration of both sides of the issue rather than a clear alignment with a specific political ideology.\"\n}",
+      "explanation": "The post by JusticeDebater does not provide enough information to definitively classify their political orientation. They express ambivalence about the death penalty, citing concerns over wrongful convictions which is often a viewpoint associated with more liberal or left-leaning individuals who prioritize human rights and the potential for judicial errors. However, they also acknowledge the need for strong punishment for heinous crimes, a perspective that can be aligned with conservative or right-leaning individuals who may support harsher penalties for severe offenses. The balanced approach and questioning stance indicate a thoughtful consideration of both sides of the issue rather than a clear alignment with a specific political ideology."
+    },
+    {
+      "author": "LibertyDebater",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, LibertyDebater, expresses concerns rooted in libertarian principles, which are typically associated with right-leaning political orientations. The focus on individual rights, the risk of wrongful convictions, and the potential undermining of core principles by the death penalty suggest a strong alignment with libertarian values. Libertarians often advocate for limited government intervention and the protection of individual liberties, which are more commonly found on the right side of the political spectrum. However, it's important to note that libertarianism can sometimes bridge both left and right, but in this context, the emphasis on individual rights and limited state power aligns more closely with right-leaning libertarian views.\"\n}",
+      "explanation": "The author, LibertyDebater, expresses concerns rooted in libertarian principles, which are typically associated with right-leaning political orientations. The focus on individual rights, the risk of wrongful convictions, and the potential undermining of core principles by the death penalty suggest a strong alignment with libertarian values. Libertarians often advocate for limited government intervention and the protection of individual liberties, which are more commonly found on the right side of the political spectrum. However, it's important to note that libertarianism can sometimes bridge both left and right, but in this context, the emphasis on individual rights and limited state power aligns more closely with right-leaning libertarian views."
+    },
+    {
+      "author": "JusticeSeeker93",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by JusticeSeeker93 expresses a nuanced view on the death penalty, showing concern for both justice and the potential for wrongful convictions. This balanced perspective does not clearly align with either a left-wing or right-wing stance, as opinions on the death penalty can vary widely within both political orientations. Left-wing individuals often oppose the death penalty due to concerns about human rights and the possibility of judicial error, while right-wing individuals might support it as a form of justice for severe crimes. However, the author's willingness to consider both sides and seek a balance suggests a more centrist or undecided position, making their political orientation unclear from this post alone.\"\n}",
+      "explanation": "The post by JusticeSeeker93 expresses a nuanced view on the death penalty, showing concern for both justice and the potential for wrongful convictions. This balanced perspective does not clearly align with either a left-wing or right-wing stance, as opinions on the death penalty can vary widely within both political orientations. Left-wing individuals often oppose the death penalty due to concerns about human rights and the possibility of judicial error, while right-wing individuals might support it as a form of justice for severe crimes. However, the author's willingness to consider both sides and seek a balance suggests a more centrist or undecided position, making their political orientation unclear from this post alone."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by JusticeSeeker expresses a nuanced view on the death penalty, showing concern for both the concept of justice and the ethical implications of potential wrongful convictions. This balanced perspective does not clearly align with either a left-wing or right-wing political stance, as views on the death penalty can vary widely within both orientations. Left-wing individuals often oppose the death penalty due to human rights concerns and the risk of executing innocent people, while right-wing individuals might support it as a form of justice for heinous crimes. However, there are also many who, regardless of their political orientation, seek a middle ground or express uncertainty. Therefore, without more context or additional statements that could indicate a broader ideological alignment, the author's political orientation remains unknown.\"\n}",
+      "explanation": "The post by JusticeSeeker expresses a nuanced view on the death penalty, showing concern for both the concept of justice and the ethical implications of potential wrongful convictions. This balanced perspective does not clearly align with either a left-wing or right-wing political stance, as views on the death penalty can vary widely within both orientations. Left-wing individuals often oppose the death penalty due to human rights concerns and the risk of executing innocent people, while right-wing individuals might support it as a form of justice for heinous crimes. However, there are also many who, regardless of their political orientation, seek a middle ground or express uncertainty. Therefore, without more context or additional statements that could indicate a broader ideological alignment, the author's political orientation remains unknown."
+    },
+    {
+      "author": "JusticeSeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the risk of wrongful convictions in the context of the death penalty, which is a common stance among those on the political left. The left often advocates for more cautious and humane approaches to criminal justice, including a preference for alternatives to the death penalty to avoid irreversible errors. The questioning of the death penalty's certainty and the openness to considering alternatives suggest a liberal or left-leaning perspective on criminal justice reform.\"\n}",
+      "explanation": "The author expresses concern about the risk of wrongful convictions in the context of the death penalty, which is a common stance among those on the political left. The left often advocates for more cautious and humane approaches to criminal justice, including a preference for alternatives to the death penalty to avoid irreversible errors. The questioning of the death penalty's certainty and the openness to considering alternatives suggest a liberal or left-leaning perspective on criminal justice reform."
+    },
+    {
+      "author": "JusticeDoubt",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author expresses uncertainty and a nuanced view on the death penalty, considering both the risk of wrongful convictions and the possibility of its justification in certain cases. This balanced perspective does not clearly align with a specific political ideology.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author expresses uncertainty and a nuanced view on the death penalty, considering both the risk of wrongful convictions and the possibility of its justification in certain cases. This balanced perspective does not clearly align with a specific political ideology."
+    },
+    {
+      "author": "JusticeDebater",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by JusticeDebater expresses uncertainty about the justification of the death penalty, highlighting concerns over wrongful convictions while also considering its potential necessity in certain cases. This balanced view does not lean distinctly towards either a left or right political orientation, as both sides can have varying opinions on the death penalty. The author acknowledges the complexity of the issue and the validity of arguments from different perspectives, which suggests a neutral or undecided stance rather than a clear alignment with a specific political ideology.\"\n}",
+      "explanation": "The post by JusticeDebater expresses uncertainty about the justification of the death penalty, highlighting concerns over wrongful convictions while also considering its potential necessity in certain cases. This balanced view does not lean distinctly towards either a left or right political orientation, as both sides can have varying opinions on the death penalty. The author acknowledges the complexity of the issue and the validity of arguments from different perspectives, which suggests a neutral or undecided stance rather than a clear alignment with a specific political ideology."
+    },
+    {
+      "author": "JusticeInDoubt",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern about the death penalty, specifically highlighting the risk of wrongful convictions and the complexity of ensuring justice. These views are typically associated with a more left-leaning political orientation, which tends to be more critical of capital punishment and emphasizes the importance of human rights and the potential for judicial errors.\"\n}",
+      "explanation": "The author expresses concern about the death penalty, specifically highlighting the risk of wrongful convictions and the complexity of ensuring justice. These views are typically associated with a more left-leaning political orientation, which tends to be more critical of capital punishment and emphasizes the importance of human rights and the potential for judicial errors."
+    },
+    {
+      "author": "LibertarianMuser",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about the death penalty, citing concerns over individual rights and the potential for wrongful convictions. These views are more commonly associated with left-leaning or liberal perspectives, which tend to emphasize human rights, due process, and the fallibility of the criminal justice system. While the author identifies as a 'LibertarianMuser,' suggesting a libertarian inclination, the specific concern raised about the death penalty is more aligned with left-wing values, as libertarians typically prioritize personal responsibility and limited government intervention, which could sometimes support the death penalty as a matter of individual accountability and reducing state overreach in long-term incarceration. However, the emphasis on the protection of individual rights and the caution against state power in this context leans more towards a left-oriented stance.\"\n}",
+      "explanation": "The author expresses skepticism about the death penalty, citing concerns over individual rights and the potential for wrongful convictions. These views are more commonly associated with left-leaning or liberal perspectives, which tend to emphasize human rights, due process, and the fallibility of the criminal justice system. While the author identifies as a 'LibertarianMuser,' suggesting a libertarian inclination, the specific concern raised about the death penalty is more aligned with left-wing values, as libertarians typically prioritize personal responsibility and limited government intervention, which could sometimes support the death penalty as a matter of individual accountability and reducing state overreach in long-term incarceration. However, the emphasis on the protection of individual rights and the caution against state power in this context leans more towards a left-oriented stance."
+    },
+    {
+      "author": "LibertyJusticeDebater",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author identifies as a 'LibertyJusticeDebater' and raises concerns about the death penalty from a libertarian perspective, which typically aligns with right-wing political ideology. Libertarians often prioritize individual liberty and are wary of government overreach, especially in matters that can lead to irreversible consequences such as wrongful executions. The post reflects a concern for the potential for government error and a desire to balance justice with the complexities of legal cases, which is consistent with libertarian values. However, the author's uncertainty and openness to discussion suggest a nuanced view rather than a strictly left or right stance, but the libertarian framework leans more towards the right.\"\n}",
+      "explanation": "The author identifies as a 'LibertyJusticeDebater' and raises concerns about the death penalty from a libertarian perspective, which typically aligns with right-wing political ideology. Libertarians often prioritize individual liberty and are wary of government overreach, especially in matters that can lead to irreversible consequences such as wrongful executions. The post reflects a concern for the potential for government error and a desire to balance justice with the complexities of legal cases, which is consistent with libertarian values. However, the author's uncertainty and openness to discussion suggest a nuanced view rather than a strictly left or right stance, but the libertarian framework leans more towards the right."
+    }
+  ],
+  "file_path": "Grok_balancedData/Death_Penalty/balanced20Posts_low_confidence_Death_Penalty:_Debates_around_capital_punishment_and_wrongful_convictions_grok-2-1212.json",
+  "output_filename": "balanced20Posts_low_confidence_Death_Penalty:_Debates_around_capital_punishment_and_wrongful_convictions_grok-2-1212_qwen_qwen-2.5-72b-instruct_analysis.json"
+}

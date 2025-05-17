@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 12,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 40.0
+  },
+  "classifications": [
+    {
+      "author": "CompassionateBorders",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for the 'humanitarian aspects of immigration' and suggests a 'compassionate pathway to citizenship' for undocumented immigrants. This aligns with typical left-leaning perspectives that prioritize empathy and support for immigrants, often advocating for more lenient immigration policies and pathways to legal status.\"\n}\n```",
+      "explanation": "The author expresses concern for the 'humanitarian aspects of immigration' and suggests a 'compassionate pathway to citizenship' for undocumented immigrants. This aligns with typical left-leaning perspectives that prioritize empathy and support for immigrants, often advocating for more lenient immigration policies and pathways to legal status."
+    },
+    {
+      "author": "ThoughtfulMigration",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about increased border security as the primary solution to immigration issues, suggesting it might not address root causes. They also propose a 'humane pathway to citizenship' for undocumented immigrants. These positions are generally aligned with left-leaning perspectives on immigration, which tend to favor more compassionate and comprehensive approaches over strict enforcement.\"\n}\n```",
+      "explanation": "The author expresses skepticism about increased border security as the primary solution to immigration issues, suggesting it might not address root causes. They also propose a 'humane pathway to citizenship' for undocumented immigrants. These positions are generally aligned with left-leaning perspectives on immigration, which tend to favor more compassionate and comprehensive approaches over strict enforcement."
+    },
+    {
+      "author": "ImmigrationMuser",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges the complexity of immigration reform, mentioning both a pathway to citizenship (often supported by the left) and border security (often emphasized by the right). This balanced perspective, coupled with the lack of strong opinions or partisan language, makes it impossible to classify the author's political orientation as definitively left or right. The author's stance is neutral and exploratory.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and acknowledges the complexity of immigration reform, mentioning both a pathway to citizenship (often supported by the left) and border security (often emphasized by the right). This balanced perspective, coupled with the lack of strong opinions or partisan language, makes it impossible to classify the author's political orientation as definitively left or right. The author's stance is neutral and exploratory."
+    },
+    {
+      "author": "CompassionateBorders",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement expresses support for a 'humane approach to border security' and a 'pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns. The author's questioning of whether this approach is 'too idealistic' doesn't negate the underlying sentiment, but rather acknowledges potential challenges, which is a common nuance in political discourse.\"\n}\n```",
+      "explanation": "The author's statement expresses support for a 'humane approach to border security' and a 'pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns. The author's questioning of whether this approach is 'too idealistic' doesn't negate the underlying sentiment, but rather acknowledges potential challenges, which is a common nuance in political discourse."
+    },
+    {
+      "author": "ImmigrationInsights",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses concern for a \\\"more humane approach to border security\\\" and mentions the \\\"need for a pathway to citizenship for undocumented immigrants.\\\" These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns.\"\n}\n```",
+      "explanation": "The author expresses concern for a \"more humane approach to border security\" and mentions the \"need for a pathway to citizenship for undocumented immigrants.\" These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns."
+    },
+    {
+      "author": "CompassionateBorder",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for a 'more humane approach to border security' and a 'pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns.\"\n}\n```",
+      "explanation": "The author expresses support for a 'more humane approach to border security' and a 'pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies, which tend to favor more lenient immigration policies and prioritize humanitarian concerns."
+    },
+    {
+      "author": "ImmigrationReformer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for a pathway to citizenship, which is often associated with the left. However, they also express concern for border security, a position often associated with the right. The author's uncertainty and acknowledgement of the complexity of the issue, without strongly advocating for either side, makes it difficult to definitively classify their political orientation. Therefore, it is best classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The author expresses support for a pathway to citizenship, which is often associated with the left. However, they also express concern for border security, a position often associated with the right. The author's uncertainty and acknowledgement of the complexity of the issue, without strongly advocating for either side, makes it difficult to definitively classify their political orientation. Therefore, it is best classified as UNKNOWN."
+    },
+    {
+      "author": "ImmigrationReformer",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and acknowledges valid arguments on both sides of the immigration debate. They suggest a compromise solution (enhanced border security AND a pathway to citizenship), which doesn't clearly align with either a strictly left-wing or right-wing stance. The lack of strong ideological statements makes it difficult to classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and acknowledges valid arguments on both sides of the immigration debate. They suggest a compromise solution (enhanced border security AND a pathway to citizenship), which doesn't clearly align with either a strictly left-wing or right-wing stance. The lack of strong ideological statements makes it difficult to classify their political orientation."
+    },
+    {
+      "author": "CompassionateBorders",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses reservations about increasing border security and suggests exploring a pathway to citizenship for undocumented immigrants. This aligns with common left-leaning perspectives on immigration, which often prioritize compassion, humanitarian concerns, and providing opportunities for immigrants rather than focusing solely on enforcement and border control. The author's uncertainty doesn't negate the underlying leaning towards a more lenient immigration policy.\"\n}\n```",
+      "explanation": "The author expresses reservations about increasing border security and suggests exploring a pathway to citizenship for undocumented immigrants. This aligns with common left-leaning perspectives on immigration, which often prioritize compassion, humanitarian concerns, and providing opportunities for immigrants rather than focusing solely on enforcement and border control. The author's uncertainty doesn't negate the underlying leaning towards a more lenient immigration policy."
+    },
+    {
+      "author": "ImmigrationReformer",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for a 'more humane approach to border security' and 'a pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies. The author's uncertainty ('though I wonder if this could really work given the complexities involved?') doesn't negate the underlying support for these policies, but rather suggests a pragmatic consideration of the challenges involved.\"\n}\n```",
+      "explanation": "The author expresses support for a 'more humane approach to border security' and 'a pathway to citizenship for undocumented immigrants.' These positions are generally associated with left-leaning political ideologies. The author's uncertainty ('though I wonder if this could really work given the complexities involved?') doesn't negate the underlying support for these policies, but rather suggests a pragmatic consideration of the challenges involved."
+    },
+    {
+      "author": "BorderlineThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement expresses a desire for stronger border security, which is often associated with right-leaning viewpoints. However, the author also expresses a desire for compassion and acknowledges the complexity of the issue, suggesting a more moderate or nuanced perspective. The author's uncertainty ('I am not sure') and desire for balance prevent a definitive classification as either left or right. Therefore, the political orientation is best classified as unknown.\"\n}\n```",
+      "explanation": "The author's statement expresses a desire for stronger border security, which is often associated with right-leaning viewpoints. However, the author also expresses a desire for compassion and acknowledges the complexity of the issue, suggesting a more moderate or nuanced perspective. The author's uncertainty ('I am not sure') and desire for balance prevent a definitive classification as either left or right. Therefore, the political orientation is best classified as unknown."
+    },
+    {
+      "author": "BorderlineThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about border security, which doesn't definitively align with either left or right. They also raise the question of a pathway to citizenship, a common concern on the left, but frame it as a question rather than a firm stance. The author's position is nuanced and doesn't provide enough information to confidently classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about border security, which doesn't definitively align with either left or right. They also raise the question of a pathway to citizenship, a common concern on the left, but frame it as a question rather than a firm stance. The author's position is nuanced and doesn't provide enough information to confidently classify their political orientation."
+    },
+    {
+      "author": "BorderlineThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on immigration, acknowledging the potential role of border security while also advocating for a pathway to citizenship. This balanced perspective doesn't clearly align with either a strictly left-wing or right-wing stance. A right-wing perspective might solely focus on border security, while a left-wing perspective might prioritize open borders and immediate citizenship. The author's attempt to find a middle ground suggests a more moderate or independent viewpoint, making it difficult to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on immigration, acknowledging the potential role of border security while also advocating for a pathway to citizenship. This balanced perspective doesn't clearly align with either a strictly left-wing or right-wing stance. A right-wing perspective might solely focus on border security, while a left-wing perspective might prioritize open borders and immediate citizenship. The author's attempt to find a middle ground suggests a more moderate or independent viewpoint, making it difficult to definitively classify their political orientation."
+    },
+    {
+      "author": "LibertyMusing",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire for a balanced approach to immigration reform. This position doesn't clearly align with either the left or the right. While border security is often emphasized by the right and a pathway to citizenship by the left, the author's questioning of whether all sides can be satisfied suggests a moderate or centrist perspective, but without further information, it's impossible to definitively classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire for a balanced approach to immigration reform. This position doesn't clearly align with either the left or the right. While border security is often emphasized by the right and a pathway to citizenship by the left, the author's questioning of whether all sides can be satisfied suggests a moderate or centrist perspective, but without further information, it's impossible to definitively classify their political orientation."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire for balance between competing values (individual liberty and national sovereignty). This position doesn't clearly align with either a left or right-wing perspective. Both sides of the political spectrum have varying opinions on immigration reform, and the author's statement is too nuanced to definitively classify them.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire for balance between competing values (individual liberty and national sovereignty). This position doesn't clearly align with either a left or right-wing perspective. Both sides of the political spectrum have varying opinions on immigration reform, and the author's statement is too nuanced to definitively classify them."
+    },
+    {
+      "author": "BorderlineThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and explores multiple perspectives on immigration. They acknowledge the potential role of border security, a position sometimes associated with the right, but also mention a pathway to citizenship, a concept generally favored by the left. The lack of a definitive stance or strong ideological language makes it impossible to confidently classify their political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and explores multiple perspectives on immigration. They acknowledge the potential role of border security, a position sometimes associated with the right, but also mention a pathway to citizenship, a concept generally favored by the left. The lack of a definitive stance or strong ideological language makes it impossible to confidently classify their political orientation."
+    },
+    {
+      "author": "GOP_Immigration_Thoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for border security, which is often associated with right-leaning perspectives. However, they also express interest in a pathway to citizenship for undocumented immigrants, a position more commonly held by those on the left. The combination of these views, along with the author's uncertainty ('I am not sure', 'maybe'), makes it difficult to definitively classify their political orientation. It's possible they hold moderate or nuanced views that don't align neatly with either the left or right.\"\n}\n```",
+      "explanation": "The author expresses support for border security, which is often associated with right-leaning perspectives. However, they also express interest in a pathway to citizenship for undocumented immigrants, a position more commonly held by those on the left. The combination of these views, along with the author's uncertainty ('I am not sure', 'maybe'), makes it difficult to definitively classify their political orientation. It's possible they hold moderate or nuanced views that don't align neatly with either the left or right."
+    },
+    {
+      "author": "BorderlineThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses views that are not clearly aligned with either the left or the right. Supporting border security is often associated with right-leaning perspectives, while considering a pathway to citizenship for undocumented immigrants is often associated with left-leaning perspectives. The author's acknowledgement of the issue's complexity and multiple sides further suggests a moderate or undecided stance, making it difficult to classify them definitively as left or right.\"\n}\n```",
+      "explanation": "The author expresses views that are not clearly aligned with either the left or the right. Supporting border security is often associated with right-leaning perspectives, while considering a pathway to citizenship for undocumented immigrants is often associated with left-leaning perspectives. The author's acknowledgement of the issue's complexity and multiple sides further suggests a moderate or undecided stance, making it difficult to classify them definitively as left or right."
+    },
+    {
+      "author": "LibertyMuse",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about border security and suggests a pathway to citizenship. While a pathway to citizenship is often supported by those on the left, the author's uncertainty about border security and the statement that it is a 'complex issue with many perspectives to weigh' suggests a more nuanced or moderate position. The user's name, 'LibertyMuse,' could suggest libertarian leanings, but the content doesn't provide enough information to definitively classify their political orientation as left, right, or libertarian. Therefore, 'UNKNOWN' is the most appropriate classification.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about border security and suggests a pathway to citizenship. While a pathway to citizenship is often supported by those on the left, the author's uncertainty about border security and the statement that it is a 'complex issue with many perspectives to weigh' suggests a more nuanced or moderate position. The user's name, 'LibertyMuse,' could suggest libertarian leanings, but the content doesn't provide enough information to definitively classify their political orientation as left, right, or libertarian. Therefore, 'UNKNOWN' is the most appropriate classification."
+    },
+    {
+      "author": "ConcernedConservative",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author identifies as \\\"ConcernedConservative,\\\" which is a strong indicator of a right-leaning political orientation. While the author expresses some nuance by acknowledging the complexity of immigration and suggesting a potential pathway to citizenship, the initial focus on border security aligns with a common conservative viewpoint. The phrasing \\\"balances security with compassion\\\" suggests a prioritization of security, which is often a conservative stance on immigration.\"\n}\n```",
+      "explanation": "The author identifies as \"ConcernedConservative,\" which is a strong indicator of a right-leaning political orientation. While the author expresses some nuance by acknowledging the complexity of immigration and suggesting a potential pathway to citizenship, the initial focus on border security aligns with a common conservative viewpoint. The phrasing \"balances security with compassion\" suggests a prioritization of security, which is often a conservative stance on immigration."
+    }
+  ],
+  "file_path": "Grok_balancedData/Immigration_Reform/balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_grok-2-1212.json",
+  "output_filename": "balanced20Posts_low_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_grok-2-1212_google_gemini-2.0-flash-001_analysis.json"
+}

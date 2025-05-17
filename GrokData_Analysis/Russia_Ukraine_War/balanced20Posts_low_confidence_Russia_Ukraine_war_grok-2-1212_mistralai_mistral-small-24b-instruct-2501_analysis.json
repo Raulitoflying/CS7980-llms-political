@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 55.00000000000001,
+      "precision": 100.0,
+      "recall": 10.0,
+      "f1_score": 1818.1818181818182,
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 9
+    },
+    "unknown": {
+      "accuracy": 30.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 14,
+      "true_negative": 6,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 30.0
+  },
+  "classifications": [
+    {
+      "author": "SeekingPeaceInConflict",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The author expresses a desire to understand the conflict from all perspectives, which could be interpreted as a call for diplomacy and understanding, but it does not align with any specific political ideology. The post is neutral and seeks more information, making it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The author expresses a desire to understand the conflict from all perspectives, which could be interpreted as a call for diplomacy and understanding, but it does not align with any specific political ideology. The post is neutral and seeks more information, making it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "GreenThoughtsOnWar",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on the environmental impact of the war and the long-term ecological consequences suggests a concern for environmental issues, which is often associated with left-leaning political orientations. The emphasis on peace negotiations and the complexity of the issue also indicates a more progressive or liberal stance, as these are often prioritized by left-leaning individuals.\"\n}\n```",
+      "explanation": "The author's focus on the environmental impact of the war and the long-term ecological consequences suggests a concern for environmental issues, which is often associated with left-leaning political orientations. The emphasis on peace negotiations and the complexity of the issue also indicates a more progressive or liberal stance, as these are often prioritized by left-leaning individuals."
+    },
+    {
+      "author": "PeaceInUkraine",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concern about the invasion of Ukraine by Russia, which could be seen as a critique of Russian actions. However, the author also acknowledges the possibility of other perspectives, indicating a willingness to consider multiple viewpoints. This lack of a clear stance on the political spectrum makes it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author expresses concern about the invasion of Ukraine by Russia, which could be seen as a critique of Russian actions. However, the author also acknowledges the possibility of other perspectives, indicating a willingness to consider multiple viewpoints. This lack of a clear stance on the political spectrum makes it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "EcoThoughtsOnWar",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty about military escalation and suggests considering the environmental impact, but does not provide clear political leanings. The mention of 'greener solutions' could imply a left-leaning environmental concern, but the overall tone is neutral and exploratory, making it difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty about military escalation and suggests considering the environmental impact, but does not provide clear political leanings. The mention of 'greener solutions' could imply a left-leaning environmental concern, but the overall tone is neutral and exploratory, making it difficult to classify the author's political orientation."
+    },
+    {
+      "author": "UkraineWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance by suggesting that the situation in Ukraine is complex and that all perspectives should be considered. There is no clear indication of a left or right political orientation in the post.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance by suggesting that the situation in Ukraine is complex and that all perspectives should be considered. There is no clear indication of a left or right political orientation in the post."
+    },
+    {
+      "author": "PeaceSeeker91",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about the effectiveness of sanctions against Russia, but does not provide any clear political leanings. The post is more of a question about the efficacy of a policy rather than an endorsement of a particular political ideology. Therefore, it is difficult to classify the author's political orientation based on this content alone.\"\n}\n```",
+      "explanation": "The author expresses skepticism about the effectiveness of sanctions against Russia, but does not provide any clear political leanings. The post is more of a question about the efficacy of a policy rather than an endorsement of a particular political ideology. Therefore, it is difficult to classify the author's political orientation based on this content alone."
+    },
+    {
+      "author": "PeaceSeeker88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a political orientation. The post is neutral and speculative, questioning the depth of the Russia-Ukraine conflict without taking a clear stance on any political issue. There are no references to specific policies, ideologies, or political figures that would indicate a left or right leaning.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a political orientation. The post is neutral and speculative, questioning the depth of the Russia-Ukraine conflict without taking a clear stance on any political issue. There are no references to specific policies, ideologies, or political figures that would indicate a left or right leaning."
+    },
+    {
+      "author": "UkraineSupporter2022",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses support for Ukraine and suggests trying sanctions, but does not provide enough information to definitively classify their political orientation. The post does not mention specific political ideologies, parties, or policies that would clearly indicate a left or right leaning. The author's stance on the situation in Ukraine is more humanitarian and pragmatic, rather than ideologically driven.\"\n}\n```",
+      "explanation": "The author expresses support for Ukraine and suggests trying sanctions, but does not provide enough information to definitively classify their political orientation. The post does not mention specific political ideologies, parties, or policies that would clearly indicate a left or right leaning. The author's stance on the situation in Ukraine is more humanitarian and pragmatic, rather than ideologically driven."
+    },
+    {
+      "author": "GeoPoliQuester",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to determine a clear political orientation. The post discusses the Russia-Ukraine conflict in a neutral and speculative manner, questioning the full picture and potential unknown factors. There are no explicit statements or biases that align with left or right political views.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to determine a clear political orientation. The post discusses the Russia-Ukraine conflict in a neutral and speculative manner, questioning the full picture and potential unknown factors. There are no explicit statements or biases that align with left or right political views."
+    },
+    {
+      "author": "PeaceSeeker88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance by questioning the complexity of the Russia-Ukraine conflict without taking a clear political position. The post does not advocate for any specific political ideology or policy, making it difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance by questioning the complexity of the Russia-Ukraine conflict without taking a clear political position. The post does not advocate for any specific political ideology or policy, making it difficult to classify the author's political orientation."
+    },
+    {
+      "author": "ConservativeThoughts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'ConservativeThoughts' suggests a right-leaning orientation. Additionally, the content of the post, which questions the narrative surrounding Russia's actions in Ukraine and suggests that there might be valid reasons for them, aligns with conservative or right-wing perspectives that often advocate for a more nuanced or skeptical view of international conflicts and geopolitical issues. The author's questioning of whether all options were exhausted also indicates a cautious and potentially more isolationist stance, which is often associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's username 'ConservativeThoughts' suggests a right-leaning orientation. Additionally, the content of the post, which questions the narrative surrounding Russia's actions in Ukraine and suggests that there might be valid reasons for them, aligns with conservative or right-wing perspectives that often advocate for a more nuanced or skeptical view of international conflicts and geopolitical issues. The author's questioning of whether all options were exhausted also indicates a cautious and potentially more isolationist stance, which is often associated with right-wing politics."
+    },
+    {
+      "author": "ConservativeThoughtsOnWar",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'ConservativeThoughtsOnWar,' suggests a right-leaning orientation. Additionally, the post content indicates a willingness to consider alternative narratives that might justify Russia's actions, which is often associated with a more conservative or right-leaning perspective that questions mainstream media narratives and seeks to understand the complexities of international conflicts.\"\n}\n```",
+      "explanation": "The author's username, 'ConservativeThoughtsOnWar,' suggests a right-leaning orientation. Additionally, the post content indicates a willingness to consider alternative narratives that might justify Russia's actions, which is often associated with a more conservative or right-leaning perspective that questions mainstream media narratives and seeks to understand the complexities of international conflicts."
+    },
+    {
+      "author": "LibertyMuse",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough clear indicators to definitively classify their political orientation. They mention libertarian principles, which generally lean towards the right, but also express a nuanced view on military intervention, which does not align with a clear left or right stance. The post is more about questioning and exploring different perspectives rather than advocating for a specific political ideology.\"\n}\n```",
+      "explanation": "The author's post does not provide enough clear indicators to definitively classify their political orientation. They mention libertarian principles, which generally lean towards the right, but also express a nuanced view on military intervention, which does not align with a clear left or right stance. The post is more about questioning and exploring different perspectives rather than advocating for a specific political ideology."
+    },
+    {
+      "author": "GeopoliticalMuse",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a nuanced view on the Ukraine conflict, acknowledging potential geopolitical concerns for Russia while also questioning the justification of their actions due to the human cost. This balanced perspective does not clearly align with either left or right political orientations, making it difficult to classify the author's political orientation based on this post alone.\"\n}\n```",
+      "explanation": "The author expresses a nuanced view on the Ukraine conflict, acknowledging potential geopolitical concerns for Russia while also questioning the justification of their actions due to the human cost. This balanced perspective does not clearly align with either left or right political orientations, making it difficult to classify the author's political orientation based on this post alone."
+    },
+    {
+      "author": "RussiaUkraineObserver",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses a neutral stance, acknowledging the complexity of the situation and the potential validity of Russia's actions, while also questioning the methods used. There is no clear indication of a left or right political orientation, as the author does not align with any specific political ideology or policy.\"\n}\n```",
+      "explanation": "The author expresses a neutral stance, acknowledging the complexity of the situation and the potential validity of Russia's actions, while also questioning the methods used. There is no clear indication of a left or right political orientation, as the author does not align with any specific political ideology or policy."
+    },
+    {
+      "author": "UnsureConservative",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire to consider multiple perspectives on the Russia-Ukraine conflict. There is no clear indication of a left or right political orientation, as the author does not align with any specific political stance or ideology.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire to consider multiple perspectives on the Russia-Ukraine conflict. There is no clear indication of a left or right political orientation, as the author does not align with any specific political stance or ideology."
+    },
+    {
+      "author": "ConservativeThoughts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username, 'ConservativeThoughts', suggests a right-leaning orientation. Additionally, the post expresses skepticism about government spending, which is a common stance among conservatives. However, the author also shows a willingness to consider multiple perspectives, which is a nuanced approach. The overall tone and content lean towards a right-wing perspective, but the author's openness to different viewpoints adds a layer of complexity.\"\n}\n```",
+      "explanation": "The author's username, 'ConservativeThoughts', suggests a right-leaning orientation. Additionally, the post expresses skepticism about government spending, which is a common stance among conservatives. However, the author also shows a willingness to consider multiple perspectives, which is a nuanced approach. The overall tone and content lean towards a right-wing perspective, but the author's openness to different viewpoints adds a layer of complexity."
+    },
+    {
+      "author": "LibertyWatcher",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on the Russia-Ukraine conflict, acknowledging the complexities and human rights issues, but do not align with clear left or right-wing stances. The mention of non-intervention could be interpreted in various ways, and the overall tone is more analytical and questioning rather than ideological.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express a nuanced view on the Russia-Ukraine conflict, acknowledging the complexities and human rights issues, but do not align with clear left or right-wing stances. The mention of non-intervention could be interpreted in various ways, and the overall tone is more analytical and questioning rather than ideological."
+    },
+    {
+      "author": "ConservativeThoughts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a degree of sympathy or understanding for Russia's actions in Ukraine, which is a stance often associated with right-wing or conservative viewpoints. The questioning of the full understanding of all sides and the complexity of the situation also aligns with a more cautious or skeptical approach to international affairs, which is common among conservatives. The username 'ConservativeThoughts' further supports this classification.\"\n}\n```",
+      "explanation": "The author's post suggests a degree of sympathy or understanding for Russia's actions in Ukraine, which is a stance often associated with right-wing or conservative viewpoints. The questioning of the full understanding of all sides and the complexity of the situation also aligns with a more cautious or skeptical approach to international affairs, which is common among conservatives. The username 'ConservativeThoughts' further supports this classification."
+    },
+    {
+      "author": "ConservativeThoughts",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a degree of sympathy or understanding towards Russia's actions in Ukraine, which is a stance often associated with right-wing or conservative viewpoints. The questioning of the full story and the complexity of the situation also aligns with a more skeptical view of mainstream media narratives, which is common among conservative thinkers.\"\n}\n```",
+      "explanation": "The author's post suggests a degree of sympathy or understanding towards Russia's actions in Ukraine, which is a stance often associated with right-wing or conservative viewpoints. The questioning of the full story and the complexity of the situation also aligns with a more skeptical view of mainstream media narratives, which is common among conservative thinkers."
+    }
+  ],
+  "file_path": "Grok_balancedData/Russia_Ukraine_War/balanced20Posts_low_confidence_Russia_Ukraine_war_grok-2-1212.json",
+  "output_filename": "balanced20Posts_low_confidence_Russia_Ukraine_war_grok-2-1212_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

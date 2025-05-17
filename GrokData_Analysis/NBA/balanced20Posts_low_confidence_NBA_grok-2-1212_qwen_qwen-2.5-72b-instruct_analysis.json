@@ -1,0 +1,162 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "left": {
+      "accuracy": 95.0,
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 9473.684210526317,
+      "true_positive": 9,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 1
+    },
+    "unknown": {
+      "accuracy": 70.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 6,
+      "true_negative": 14,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "HoopDreams4All",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not contain explicit political statements or leanings. The author suggests a potentially progressive idea of supporting underserved communities through basketball programs, but the tone is questioning and exploratory rather than assertive of a specific political stance. There is not enough information to definitively classify the author's political orientation.\"\n}",
+      "explanation": "The post does not contain explicit political statements or leanings. The author suggests a potentially progressive idea of supporting underserved communities through basketball programs, but the tone is questioning and exploratory rather than assertive of a specific political stance. There is not enough information to definitively classify the author's political orientation."
+    },
+    {
+      "author": "HoopLiberal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, HoopLiberal, expresses support for social justice initiatives, which is typically associated with left-leaning political views. The use of the term 'social justice' and the reflection on whether more could be done suggest an interest in progressive social policies and equity, which are common in left-wing ideology. The complexity acknowledged in the issue also indicates a nuanced view, but the overall sentiment aligns more with left-oriented values.\"\n}",
+      "explanation": "The author, HoopLiberal, expresses support for social justice initiatives, which is typically associated with left-leaning political views. The use of the term 'social justice' and the reflection on whether more could be done suggest an interest in progressive social policies and equity, which are common in left-wing ideology. The complexity acknowledged in the issue also indicates a nuanced view, but the overall sentiment aligns more with left-oriented values."
+    },
+    {
+      "author": "HoopDreams4Justice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, HoopDreams4Justice, expresses a view that the NBA should potentially do more to support social justice initiatives. This suggests a progressive stance, as social justice is typically a focus of left-leaning political ideologies. The author's openness to considering multiple perspectives also indicates a nuanced view, but the primary emphasis on social justice aligns more closely with left-wing values.\"\n}",
+      "explanation": "The author, HoopDreams4Justice, expresses a view that the NBA should potentially do more to support social justice initiatives. This suggests a progressive stance, as social justice is typically a focus of left-leaning political ideologies. The author's openness to considering multiple perspectives also indicates a nuanced view, but the primary emphasis on social justice aligns more closely with left-wing values."
+    },
+    {
+      "author": "EcoHoopster",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoHoopster suggests a focus on environmental sustainability and responsibility, which are typically associated with left-leaning political values. The author proposes that the NBA should consider using greener materials for merchandise and explores the idea of reducing environmental impact, indicating an interest in ecological issues and corporate social responsibility. These concerns are more commonly aligned with liberal or progressive ideologies.\"\n}",
+      "explanation": "The post by EcoHoopster suggests a focus on environmental sustainability and responsibility, which are typically associated with left-leaning political values. The author proposes that the NBA should consider using greener materials for merchandise and explores the idea of reducing environmental impact, indicating an interest in ecological issues and corporate social responsibility. These concerns are more commonly aligned with liberal or progressive ideologies."
+    },
+    {
+      "author": "HoopJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post indicates a concern for social justice causes, which is typically associated with left-leaning political views. The author expresses a desire for the NBA to do more in this area, suggesting a progressive stance on social issues. However, the author also acknowledges the complexity of the issue, showing a nuanced understanding that is not strictly ideological.\"\n}",
+      "explanation": "The post indicates a concern for social justice causes, which is typically associated with left-leaning political views. The author expresses a desire for the NBA to do more in this area, suggesting a progressive stance on social issues. However, the author also acknowledges the complexity of the issue, showing a nuanced understanding that is not strictly ideological."
+    },
+    {
+      "author": "EcoHoopFan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoHoopFan suggests a concern for environmental issues, specifically the carbon footprint of the NBA. This focus on environmental sustainability is typically associated with left-leaning political orientations, which often prioritize environmental protection and sustainability. The author's suggestion to limit unnecessary travel to reduce carbon emissions indicates an awareness and concern for environmental impact, which aligns with left-wing values.\"\n}",
+      "explanation": "The post by EcoHoopFan suggests a concern for environmental issues, specifically the carbon footprint of the NBA. This focus on environmental sustainability is typically associated with left-leaning political orientations, which often prioritize environmental protection and sustainability. The author's suggestion to limit unnecessary travel to reduce carbon emissions indicates an awareness and concern for environmental impact, which aligns with left-wing values."
+    },
+    {
+      "author": "GreenHoopFan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenHoopFan suggests a concern for environmental sustainability, which is typically associated with left-leaning political views. The author proposes that the NBA should consider more sustainable practices, indicating an interest in environmental responsibility and a willingness to consider the impact of large-scale events on the environment. These are common themes in left-wing political discourse.\"\n}",
+      "explanation": "The post by GreenHoopFan suggests a concern for environmental sustainability, which is typically associated with left-leaning political views. The author proposes that the NBA should consider more sustainable practices, indicating an interest in environmental responsibility and a willingness to consider the impact of large-scale events on the environment. These are common themes in left-wing political discourse."
+    },
+    {
+      "author": "HoopJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by HoopJustice indicates a concern for social justice initiatives and economic inequality, which are typically aligned with left-leaning political values. The author expresses support for the NBA's efforts in social justice while also critically thinking about the economic aspects, suggesting an awareness and interest in issues of equity and fairness. This combination of support for social justice and critical engagement with economic inequality points towards a left-oriented political stance.\"\n}",
+      "explanation": "The post by HoopJustice indicates a concern for social justice initiatives and economic inequality, which are typically aligned with left-leaning political values. The author expresses support for the NBA's efforts in social justice while also critically thinking about the economic aspects, suggesting an awareness and interest in issues of equity and fairness. This combination of support for social justice and critical engagement with economic inequality points towards a left-oriented political stance."
+    },
+    {
+      "author": "EcoHoopFan",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoHoopFan suggests a concern for environmental sustainability, which is typically more aligned with left-leaning political views. The author proposes that the NBA should reduce plastic use in their arenas, indicating an awareness of and interest in environmental issues. While the author also acknowledges the complexity of the issue, the primary focus on sustainability is a common theme in left-oriented discourse.\"\n}",
+      "explanation": "The post by EcoHoopFan suggests a concern for environmental sustainability, which is typically more aligned with left-leaning political views. The author proposes that the NBA should reduce plastic use in their arenas, indicating an awareness of and interest in environmental issues. While the author also acknowledges the complexity of the issue, the primary focus on sustainability is a common theme in left-oriented discourse."
+    },
+    {
+      "author": "EcoHoopster",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoHoopster suggests a concern for environmental sustainability, which is typically associated with left-leaning political views. The author proposes that the NBA should consider more sustainable practices, indicating an interest in environmental protection and corporate social responsibility, both of which are more commonly emphasized by individuals on the political left. The cautious and thoughtful approach to the issue, acknowledging its complexity, does not strongly suggest a right-leaning orientation, which might be more likely to prioritize economic factors over environmental concerns in this context.\"\n}",
+      "explanation": "The post by EcoHoopster suggests a concern for environmental sustainability, which is typically associated with left-leaning political views. The author proposes that the NBA should consider more sustainable practices, indicating an interest in environmental protection and corporate social responsibility, both of which are more commonly emphasized by individuals on the political left. The cautious and thoughtful approach to the issue, acknowledging its complexity, does not strongly suggest a right-leaning orientation, which might be more likely to prioritize economic factors over environmental concerns in this context."
+    },
+    {
+      "author": "HoopRepublican",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, HoopRepublican, expresses concern about the NBA's social justice initiatives, suggesting that the league is 'leaning too far left.' This indicates a discomfort with progressive political stances, which is typically associated with right-leaning political views. The desire for the NBA to 'balance their political messages' further suggests a preference for less emphasis on liberal or progressive causes, aligning with a conservative or right-wing perspective.\"\n}",
+      "explanation": "The author, HoopRepublican, expresses concern about the NBA's social justice initiatives, suggesting that the league is 'leaning too far left.' This indicates a discomfort with progressive political stances, which is typically associated with right-leaning political views. The desire for the NBA to 'balance their political messages' further suggests a preference for less emphasis on liberal or progressive causes, aligning with a conservative or right-wing perspective."
+    },
+    {
+      "author": "LibertyHoopFan",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. While the suggestion of reducing regulation on player salaries could be seen as a right-leaning economic view favoring market freedom, the author also expresses concern for team dynamics and fairness, which are considerations that can be valued by both left and right political orientations. The context is specific to sports management and does not clearly align with broader political ideologies.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. While the suggestion of reducing regulation on player salaries could be seen as a right-leaning economic view favoring market freedom, the author also expresses concern for team dynamics and fairness, which are considerations that can be valued by both left and right political orientations. The context is specific to sports management and does not clearly align with broader political ideologies."
+    },
+    {
+      "author": "HoopConspiracy",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author raises a question about the NBA potentially promoting political agendas, which could be interpreted in various ways depending on the context and the specific agendas being discussed. The author also acknowledges the complexity of the issue, suggesting a balanced or neutral stance rather than a strongly left or right orientation.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author raises a question about the NBA potentially promoting political agendas, which could be interpreted in various ways depending on the context and the specific agendas being discussed. The author also acknowledges the complexity of the issue, suggesting a balanced or neutral stance rather than a strongly left or right orientation."
+    },
+    {
+      "author": "HoopPoliticsWatcher",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by HoopPoliticsWatcher does not provide enough information to definitively classify the author's political orientation. The author raises a question about the NBA and player activism, which could be interpreted from various perspectives. They neither explicitly support nor oppose the idea of the NBA pushing a political agenda, nor do they express clear political views or affiliations. The post is more exploratory and seeks input from others, making it difficult to determine a specific political leaning.\"\n}",
+      "explanation": "The post by HoopPoliticsWatcher does not provide enough information to definitively classify the author's political orientation. The author raises a question about the NBA and player activism, which could be interpreted from various perspectives. They neither explicitly support nor oppose the idea of the NBA pushing a political agenda, nor do they express clear political views or affiliations. The post is more exploratory and seeks input from others, making it difficult to determine a specific political leaning."
+    },
+    {
+      "author": "LibertyHoopFan",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertyHoopFan discusses a potential change in NBA regulations regarding player salaries, advocating for less regulation to promote market freedom. However, the author also acknowledges the potential complications this could bring to team dynamics and fairness, showing a balanced consideration of both economic freedom and social equity. This nuanced view does not clearly align with typical left-wing or right-wing stances, as it combines elements of free-market economics (often associated with the right) with concerns about fairness and team cohesion (often associated with the left). Therefore, the political orientation cannot be definitively classified as either LEFT or RIGHT based on this content alone.\"\n}",
+      "explanation": "The post by LibertyHoopFan discusses a potential change in NBA regulations regarding player salaries, advocating for less regulation to promote market freedom. However, the author also acknowledges the potential complications this could bring to team dynamics and fairness, showing a balanced consideration of both economic freedom and social equity. This nuanced view does not clearly align with typical left-wing or right-wing stances, as it combines elements of free-market economics (often associated with the right) with concerns about fairness and team cohesion (often associated with the left). Therefore, the political orientation cannot be definitively classified as either LEFT or RIGHT based on this content alone."
+    },
+    {
+      "author": "HoopConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about the NBA's involvement in political activism, suggesting that it might alienate fans. This indicates a preference for keeping sports separate from political issues, a viewpoint often associated with conservative or right-leaning political orientations. The term 'leaning too far' implies a criticism of what the author perceives as an excessive focus on social issues, further supporting the classification as RIGHT.\"\n}",
+      "explanation": "The post expresses concern about the NBA's involvement in political activism, suggesting that it might alienate fans. This indicates a preference for keeping sports separate from political issues, a viewpoint often associated with conservative or right-leaning political orientations. The term 'leaning too far' implies a criticism of what the author perceives as an excessive focus on social issues, further supporting the classification as RIGHT."
+    },
+    {
+      "author": "HoopConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about the NBA's involvement in political activism, suggesting that it might be 'leaning too far' into this area, which could alienate fans. This indicates a preference for sports to remain separate from political issues, a viewpoint often associated with conservative or right-leaning individuals who tend to favor a more traditional approach to sports and entertainment, emphasizing their role as a form of escapism rather than a platform for social and political messages.\"\n}",
+      "explanation": "The post expresses concern about the NBA's involvement in political activism, suggesting that it might be 'leaning too far' into this area, which could alienate fans. This indicates a preference for sports to remain separate from political issues, a viewpoint often associated with conservative or right-leaning individuals who tend to favor a more traditional approach to sports and entertainment, emphasizing their role as a form of escapism rather than a platform for social and political messages."
+    },
+    {
+      "author": "HoopRepublican",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's username 'HoopRepublican' suggests a Republican political affiliation, which is generally associated with right-leaning political views in the United States. Additionally, the concern expressed about the NBA 'leaning too far left' with social justice initiatives aligns with a common right-wing critique that institutions are becoming overly focused on progressive social agendas, potentially at the expense of broader appeal or traditional values. This indicates a conservative perspective on the role of sports organizations in social and political matters.\"\n}",
+      "explanation": "The author's username 'HoopRepublican' suggests a Republican political affiliation, which is generally associated with right-leaning political views in the United States. Additionally, the concern expressed about the NBA 'leaning too far left' with social justice initiatives aligns with a common right-wing critique that institutions are becoming overly focused on progressive social agendas, potentially at the expense of broader appeal or traditional values. This indicates a conservative perspective on the role of sports organizations in social and political matters."
+    },
+    {
+      "author": "HoopConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post expresses concern about the NBA's involvement in political activism, suggesting a preference for keeping sports and politics separate. This view is often associated with conservative political orientations, which tend to favor less political engagement from sports organizations and more focus on the core aspects of the sport itself. The concern about alienating fans also indicates a sensitivity to a broad range of political views, which is a common theme in right-leaning discourse.\"\n}",
+      "explanation": "The post expresses concern about the NBA's involvement in political activism, suggesting a preference for keeping sports and politics separate. This view is often associated with conservative political orientations, which tend to favor less political engagement from sports organizations and more focus on the core aspects of the sport itself. The concern about alienating fans also indicates a sensitivity to a broad range of political views, which is a common theme in right-leaning discourse."
+    },
+    {
+      "author": "HoopRepublican",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author, HoopRepublican, expresses uncertainty and openness to understanding different perspectives on the issue of the NBA's approach to the national anthem. This balanced and reflective stance does not clearly align with either a left or right political orientation, as it shows a willingness to consider multiple viewpoints and acknowledges the complexity of the issue.\"\n}",
+      "explanation": "The author, HoopRepublican, expresses uncertainty and openness to understanding different perspectives on the issue of the NBA's approach to the national anthem. This balanced and reflective stance does not clearly align with either a left or right political orientation, as it shows a willingness to consider multiple viewpoints and acknowledges the complexity of the issue."
+    }
+  ],
+  "file_path": "Grok_balancedData/NBA/balanced20Posts_low_confidence_NBA_grok-2-1212.json",
+  "output_filename": "balanced20Posts_low_confidence_NBA_grok-2-1212_qwen_qwen-2.5-72b-instruct_analysis.json"
+}

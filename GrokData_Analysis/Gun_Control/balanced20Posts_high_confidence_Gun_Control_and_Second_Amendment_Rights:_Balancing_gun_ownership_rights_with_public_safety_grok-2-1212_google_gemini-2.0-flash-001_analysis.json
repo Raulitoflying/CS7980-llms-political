@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 75.0,
+      "precision": 66.66666666666666,
+      "recall": 100.0,
+      "f1_score": 8000.0,
+      "true_positive": 10,
+      "false_positive": 5,
+      "true_negative": 5,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 75.0
+  },
+  "classifications": [
+    {
+      "author": "SafeGunLawsNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement strongly advocates for gun control measures, prioritizing public safety over individual gun ownership rights. This position aligns with the typical left-leaning stance on gun control, which emphasizes stricter regulations to reduce gun violence.\"\n}\n```",
+      "explanation": "The author's statement strongly advocates for gun control measures, prioritizing public safety over individual gun ownership rights. This position aligns with the typical left-leaning stance on gun control, which emphasizes stricter regulations to reduce gun violence."
+    },
+    {
+      "author": "LibertyOrDeath2A",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the assertion that it is 'non-negotiable' and the 'bedrock of our freedom and security,' strongly aligns with conservative and right-leaning political ideologies. This position typically emphasizes individual liberty, limited government intervention, and the importance of self-defense, all of which are common themes within right-wing political discourse.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the assertion that it is 'non-negotiable' and the 'bedrock of our freedom and security,' strongly aligns with conservative and right-leaning political ideologies. This position typically emphasizes individual liberty, limited government intervention, and the importance of self-defense, all of which are common themes within right-wing political discourse."
+    },
+    {
+      "author": "LibertyDefender2A",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the language of 'encroachment' and 'cornerstone of our freedom,' strongly suggests a right-leaning political orientation. This position aligns with conservative and libertarian viewpoints that prioritize individual gun ownership rights and are wary of government regulation in this area.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to bear arms, coupled with the language of 'encroachment' and 'cornerstone of our freedom,' strongly suggests a right-leaning political orientation. This position aligns with conservative and libertarian viewpoints that prioritize individual gun ownership rights and are wary of government regulation in this area."
+    },
+    {
+      "author": "SafetyOverGuns",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement clearly aligns with a left-leaning political orientation. The emphasis on 'public safety over gun ownership rights,' the argument that the Second Amendment should be 'reinterpreted,' and the concern about 'mass shootings' are all common positions held by those on the left side of the political spectrum regarding gun control.\"\n}\n```",
+      "explanation": "The author's statement clearly aligns with a left-leaning political orientation. The emphasis on 'public safety over gun ownership rights,' the argument that the Second Amendment should be 'reinterpreted,' and the concern about 'mass shootings' are all common positions held by those on the left side of the political spectrum regarding gun control."
+    },
+    {
+      "author": "LibertyOrDeath",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong support for the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom is a common viewpoint within right-leaning political ideologies. This stance aligns with a conservative interpretation of the Constitution and a belief in individual liberty, particularly the right to self-defense.\"\n}\n```",
+      "explanation": "The author's strong support for the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom is a common viewpoint within right-leaning political ideologies. This stance aligns with a conservative interpretation of the Constitution and a belief in individual liberty, particularly the right to self-defense."
+    },
+    {
+      "author": "LibertyDefender2A",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and resistance to any gun control measures is a common position held by individuals with a right-leaning political orientation. The phrases 'sacred and non-negotiable,' 'assault on our freedom,' and 'protect our safety and liberty' are frequently used in conservative and libertarian rhetoric regarding gun rights.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and resistance to any gun control measures is a common position held by individuals with a right-leaning political orientation. The phrases 'sacred and non-negotiable,' 'assault on our freedom,' and 'protect our safety and liberty' are frequently used in conservative and libertarian rhetoric regarding gun rights."
+    },
+    {
+      "author": "SafeStreetsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with typical left-leaning political positions. Specifically, the emphasis on 'public safety over unfettered gun ownership,' the interpretation of the Second Amendment as not allowing 'weapons of war on our streets,' and the call for 'sensible gun control laws' are all common arguments made by those on the left side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's statement aligns with typical left-leaning political positions. Specifically, the emphasis on 'public safety over unfettered gun ownership,' the interpretation of the Second Amendment as not allowing 'weapons of war on our streets,' and the call for 'sensible gun control laws' are all common arguments made by those on the left side of the political spectrum."
+    },
+    {
+      "author": "SafeGunLawsNow",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement strongly advocates for gun control measures, prioritizing public safety over unrestricted gun ownership. This position aligns with the left-leaning political ideology, which generally supports stricter gun laws to reduce gun violence. The reference to 'common-sense gun control laws' is a common phrase used within left-leaning political discourse.\"\n}\n```",
+      "explanation": "The author's statement strongly advocates for gun control measures, prioritizing public safety over unrestricted gun ownership. This position aligns with the left-leaning political ideology, which generally supports stricter gun laws to reduce gun violence. The reference to 'common-sense gun control laws' is a common phrase used within left-leaning political discourse."
+    },
+    {
+      "author": "GreenForGunSafety",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on gun control aligns with typical left-leaning political positions. The phrases 'prioritize public safety over unrestricted gun ownership' and 'Second Amendment does not justify the needless loss of life' are common arguments used by those advocating for stricter gun control laws, a policy generally supported by the left.\"\n}\n```",
+      "explanation": "The author's stance on gun control aligns with typical left-leaning political positions. The phrases 'prioritize public safety over unrestricted gun ownership' and 'Second Amendment does not justify the needless loss of life' are common arguments used by those advocating for stricter gun control laws, a policy generally supported by the left."
+    },
+    {
+      "author": "LibertyOrDeath",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and the right to bear arms is a common position held by those on the right side of the political spectrum. The phrase 'infringe upon our right to bear arms' and the emphasis on 'liberty and security' through gun ownership are strong indicators of a conservative or right-leaning viewpoint.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and the right to bear arms is a common position held by those on the right side of the political spectrum. The phrase 'infringe upon our right to bear arms' and the emphasis on 'liberty and security' through gun ownership are strong indicators of a conservative or right-leaning viewpoint."
+    },
+    {
+      "author": "LibertyOverSafety",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and their emphasis on 'liberty' over 'safety' are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual rights, particularly the right to bear arms, and are often skeptical of government regulations aimed at public safety.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and their emphasis on 'liberty' over 'safety' are indicative of a right-leaning political orientation. This position aligns with conservative viewpoints that prioritize individual rights, particularly the right to bear arms, and are often skeptical of government regulations aimed at public safety."
+    },
+    {
+      "author": "LibertyOrDeath",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control are typically associated with right-leaning political ideologies. The phrase 'non-negotiable' and the argument that gun control 'undermines public safety' by disarming law-abiding citizens are common talking points within conservative and libertarian circles.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control are typically associated with right-leaning political ideologies. The phrase 'non-negotiable' and the argument that gun control 'undermines public safety' by disarming law-abiding citizens are common talking points within conservative and libertarian circles."
+    },
+    {
+      "author": "SecondAmendmentPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and the assertion that any infringement on gun rights is an assault on freedom and safety is a common viewpoint associated with the right-leaning political spectrum in the United States. The username 'SecondAmendmentPatriot' further reinforces this association.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and the assertion that any infringement on gun rights is an assault on freedom and safety is a common viewpoint associated with the right-leaning political spectrum in the United States. The username 'SecondAmendmentPatriot' further reinforces this association."
+    },
+    {
+      "author": "SecondAmendmentPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and their assertion that any infringement on gun rights is an assault on freedom and safety is a common viewpoint associated with the right-leaning political spectrum in the United States. The username 'SecondAmendmentPatriot' further reinforces this association.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and their assertion that any infringement on gun rights is an assault on freedom and safety is a common viewpoint associated with the right-leaning political spectrum in the United States. The username 'SecondAmendmentPatriot' further reinforces this association."
+    },
+    {
+      "author": "2A_Patriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom and safety aligns with a common position held by individuals on the right side of the political spectrum in the United States. This viewpoint typically emphasizes individual liberty, limited government intervention, and the importance of self-defense.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom and safety aligns with a common position held by individuals on the right side of the political spectrum in the United States. This viewpoint typically emphasizes individual liberty, limited government intervention, and the importance of self-defense."
+    },
+    {
+      "author": "LibertyOrDeath",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control is a common position held by those on the right side of the political spectrum. The phrase 'non-negotiable' and the emphasis on 'liberty' further suggest a conservative or libertarian viewpoint.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control is a common position held by those on the right side of the political spectrum. The phrase 'non-negotiable' and the emphasis on 'liberty' further suggest a conservative or libertarian viewpoint."
+    },
+    {
+      "author": "SecondAmendmentPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom and safety aligns with a common position held by individuals on the right side of the political spectrum. This viewpoint typically emphasizes individual liberty, limited government intervention, and the importance of self-defense.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and their assertion that any infringement on the right to bear arms is an assault on freedom and safety aligns with a common position held by individuals on the right side of the political spectrum. This viewpoint typically emphasizes individual liberty, limited government intervention, and the importance of self-defense."
+    },
+    {
+      "author": "LibertyFirst",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong defense of the Second Amendment and opposition to gun control are indicative of a right-leaning political orientation. The language used, such as 'sacrosanct,' 'fundamental right,' and 'encroachments,' is commonly associated with conservative and libertarian viewpoints on gun rights.\"\n}\n```",
+      "explanation": "The author's strong defense of the Second Amendment and opposition to gun control are indicative of a right-leaning political orientation. The language used, such as 'sacrosanct,' 'fundamental right,' and 'encroachments,' is commonly associated with conservative and libertarian viewpoints on gun rights."
+    },
+    {
+      "author": "SecondAmendmentPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and the assertion that any infringement on gun rights is an assault on freedom and safety aligns with a common position held by individuals with a right-leaning political orientation. This perspective emphasizes individual liberty and the right to self-defense, often associated with conservative viewpoints.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and the assertion that any infringement on gun rights is an assault on freedom and safety aligns with a common position held by individuals with a right-leaning political orientation. This perspective emphasizes individual liberty and the right to self-defense, often associated with conservative viewpoints."
+    },
+    {
+      "author": "2ndAmendmentPride",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control measures aligns with a common position held by individuals on the right side of the political spectrum. The phrase 'non-negotiable' and the emphasis on 'freedom' are often used in conservative rhetoric regarding gun rights.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control measures aligns with a common position held by individuals on the right side of the political spectrum. The phrase 'non-negotiable' and the emphasis on 'freedom' are often used in conservative rhetoric regarding gun rights."
+    }
+  ],
+  "file_path": "Grok_balancedData/Gun_Control/balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_grok-2-1212.json",
+  "output_filename": "balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_grok-2-1212_google_gemini-2.0-flash-001_analysis.json"
+}

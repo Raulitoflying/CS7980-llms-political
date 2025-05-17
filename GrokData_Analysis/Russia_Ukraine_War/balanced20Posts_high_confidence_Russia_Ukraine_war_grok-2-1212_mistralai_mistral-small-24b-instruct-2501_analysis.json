@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 10,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 95.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 1,
+      "true_negative": 19,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "FreedomForUkraine",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's strong condemnation of Russia's invasion of Ukraine and support for Ukraine's sovereignty and democracy aligns with left-leaning political views. Left-leaning individuals often advocate for international human rights, democracy, and condemnation of authoritarian actions. The call for international support and condemnation of aggression is a common stance among left-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's strong condemnation of Russia's invasion of Ukraine and support for Ukraine's sovereignty and democracy aligns with left-leaning political views. Left-leaning individuals often advocate for international human rights, democracy, and condemnation of authoritarian actions. The call for international support and condemnation of aggression is a common stance among left-leaning political orientations."
+    },
+    {
+      "author": "GreenPeaceWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on environmental concerns and the demand for peace aligns with typical left-leaning political views. Left-leaning individuals often prioritize environmental protection and advocate for peaceful resolutions to conflicts. The use of the term 'demand' suggests a progressive stance, which is also commonly associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's focus on environmental concerns and the demand for peace aligns with typical left-leaning political views. Left-leaning individuals often prioritize environmental protection and advocate for peaceful resolutions to conflicts. The use of the term 'demand' suggests a progressive stance, which is also commonly associated with left-wing politics."
+    },
+    {
+      "author": "UkraineSupporter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post strongly supports Ukraine and condemns Putin, which aligns with left-leaning political views that often emphasize human rights, democracy, and opposition to authoritarian regimes. The use of phrases like 'fight for freedom and democracy' further suggests a liberal or leftist stance.\"\n}\n```",
+      "explanation": "The author's post strongly supports Ukraine and condemns Putin, which aligns with left-leaning political views that often emphasize human rights, democracy, and opposition to authoritarian regimes. The use of phrases like 'fight for freedom and democracy' further suggests a liberal or leftist stance."
+    },
+    {
+      "author": "FreedomForUkraine",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post focuses on a specific geopolitical issue and calls for action against a perceived violation of international law and human rights. While the stance against aggression and support for Ukraine could be interpreted as leaning towards a more liberal or left-leaning position, the post does not provide enough context or additional political views to definitively classify the author's overall political orientation. Therefore, the orientation is classified as UNKNOWN.\"\n}\n```",
+      "explanation": "The post focuses on a specific geopolitical issue and calls for action against a perceived violation of international law and human rights. While the stance against aggression and support for Ukraine could be interpreted as leaning towards a more liberal or left-leaning position, the post does not provide enough context or additional political views to definitively classify the author's overall political orientation. Therefore, the orientation is classified as UNKNOWN."
+    },
+    {
+      "author": "JusticeForUkraine",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post strongly condemns the Russian invasion of Ukraine, emphasizing the violation of international law and human rights. This stance aligns with left-leaning political views, which often prioritize human rights, international law, and global cooperation. The call for global action to stop the war also suggests a progressive, interventionist approach, which is typically associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's post strongly condemns the Russian invasion of Ukraine, emphasizing the violation of international law and human rights. This stance aligns with left-leaning political views, which often prioritize human rights, international law, and global cooperation. The call for global action to stop the war also suggests a progressive, interventionist approach, which is typically associated with left-wing politics."
+    },
+    {
+      "author": "UkraineSupporter",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes the importance of international law and human rights, and advocates for global action to stop aggression, which are values often associated with left-leaning political orientations. The support for Ukraine and condemnation of Russia's actions align with a stance that prioritizes humanitarian concerns and international cooperation, which are typically more aligned with leftist views.\"\n}\n```",
+      "explanation": "The author's post emphasizes the importance of international law and human rights, and advocates for global action to stop aggression, which are values often associated with left-leaning political orientations. The support for Ukraine and condemnation of Russia's actions align with a stance that prioritizes humanitarian concerns and international cooperation, which are typically more aligned with leftist views."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance against Russia's invasion of Ukraine and support for global action to stop aggression aligns with conservative values of national sovereignty and human rights. However, the emphasis on international law and global action could also be seen as leaning towards a more liberal or centrist position. However, the overall tone and focus on stopping aggression and supporting Ukraine suggest a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's strong stance against Russia's invasion of Ukraine and support for global action to stop aggression aligns with conservative values of national sovereignty and human rights. However, the emphasis on international law and global action could also be seen as leaning towards a more liberal or centrist position. However, the overall tone and focus on stopping aggression and supporting Ukraine suggest a right-leaning orientation."
+    },
+    {
+      "author": "DemocracyDefender",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post strongly condemns Vladimir Putin and his actions in Ukraine, advocating for support of Ukraine's fight for freedom and democracy. This stance aligns with left-leaning political views that often emphasize human rights, international law, and support for democratic values. The use of terms like 'war criminal' and 'brutal invasion' indicates a critical view of authoritarian regimes, which is common among left-leaning individuals.\"\n}\n```",
+      "explanation": "The author's post strongly condemns Vladimir Putin and his actions in Ukraine, advocating for support of Ukraine's fight for freedom and democracy. This stance aligns with left-leaning political views that often emphasize human rights, international law, and support for democratic values. The use of terms like 'war criminal' and 'brutal invasion' indicates a critical view of authoritarian regimes, which is common among left-leaning individuals."
+    },
+    {
+      "author": "GreenPeaceWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes human rights, international law, and the need for a transition to renewable energy. These themes are often associated with left-leaning political orientations, which tend to prioritize environmental sustainability and human rights. The call for an end to the war and support for Ukraine also aligns with a more progressive, anti-war stance, which is commonly found on the left side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's post emphasizes human rights, international law, and the need for a transition to renewable energy. These themes are often associated with left-leaning political orientations, which tend to prioritize environmental sustainability and human rights. The call for an end to the war and support for Ukraine also aligns with a more progressive, anti-war stance, which is commonly found on the left side of the political spectrum."
+    },
+    {
+      "author": "FreedomForUkraine",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly condemns the Russian invasion of Ukraine, emphasizing the need for international support for Ukraine's sovereignty and defense of democracy. This stance is often associated with right-wing political orientations, which typically advocate for strong national defense, anti-imperialism, and support for democratic values. The use of terms like 'imperialistic ambitions' and 'defend democracy at all costs' aligns with conservative rhetoric that prioritizes national sovereignty and resistance to authoritarian regimes.\"\n}\n```",
+      "explanation": "The author's post strongly condemns the Russian invasion of Ukraine, emphasizing the need for international support for Ukraine's sovereignty and defense of democracy. This stance is often associated with right-wing political orientations, which typically advocate for strong national defense, anti-imperialism, and support for democratic values. The use of terms like 'imperialistic ambitions' and 'defend democracy at all costs' aligns with conservative rhetoric that prioritizes national sovereignty and resistance to authoritarian regimes."
+    },
+    {
+      "author": "LibertyOverBorders",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on 'individual liberty' and 'self-determination' aligns with classical liberal or libertarian views, which are often associated with the right side of the political spectrum. The strong stance against government overreach and aggression also suggests a right-leaning orientation. However, the post does not provide enough information to definitively classify the author as far-right, so a general 'RIGHT' classification is more appropriate.\"\n}\n```",
+      "explanation": "The author's emphasis on 'individual liberty' and 'self-determination' aligns with classical liberal or libertarian views, which are often associated with the right side of the political spectrum. The strong stance against government overreach and aggression also suggests a right-leaning orientation. However, the post does not provide enough information to definitively classify the author as far-right, so a general 'RIGHT' classification is more appropriate."
+    },
+    {
+      "author": "PatriotForPeace",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post supports Russia's actions in the Ukraine war and criticizes the West and NATO, which are often associated with right-wing or conservative viewpoints. The use of the term 'Western hypocrisy' and the assertion that Russia is 'rightfully defending its interests' aligns with a more nationalist and anti-Western stance, which is commonly found in right-wing political orientations.\"\n}\n```",
+      "explanation": "The author's post supports Russia's actions in the Ukraine war and criticizes the West and NATO, which are often associated with right-wing or conservative viewpoints. The use of the term 'Western hypocrisy' and the assertion that Russia is 'rightfully defending its interests' aligns with a more nationalist and anti-Western stance, which is commonly found in right-wing political orientations."
+    },
+    {
+      "author": "PatriotForUkraine",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the Biden administration, which is typically associated with the Democratic Party (left-leaning), for being weak on Russia. The author advocates for a strong stance against Russia and supports American leadership in ending the war in Ukraine. This hawkish foreign policy stance and criticism of the current Democratic administration suggest a right-leaning political orientation.\"\n}\n```",
+      "explanation": "The author's post criticizes the Biden administration, which is typically associated with the Democratic Party (left-leaning), for being weak on Russia. The author advocates for a strong stance against Russia and supports American leadership in ending the war in Ukraine. This hawkish foreign policy stance and criticism of the current Democratic administration suggest a right-leaning political orientation."
+    },
+    {
+      "author": "RussiaUkraineTruth",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post expresses strong support for Russia and criticism of Western institutions like NATO and the EU. This stance is often associated with right-wing political orientations, which may include anti-globalist, nationalist, or anti-Western sentiments. The use of terms like 'Western hypocrisy and aggression' and the call to 'stand with Russia' against these institutions further supports this classification.\"\n}\n```",
+      "explanation": "The author's post expresses strong support for Russia and criticism of Western institutions like NATO and the EU. This stance is often associated with right-wing political orientations, which may include anti-globalist, nationalist, or anti-Western sentiments. The use of terms like 'Western hypocrisy and aggression' and the call to 'stand with Russia' against these institutions further supports this classification."
+    },
+    {
+      "author": "LibertyForUkraine",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty, property rights, and a libertarian stance against foreign intervention suggests a right-leaning political orientation. Libertarians typically advocate for minimal government intervention and strong individual rights, which aligns with right-wing political philosophies.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty, property rights, and a libertarian stance against foreign intervention suggests a right-leaning political orientation. Libertarians typically advocate for minimal government intervention and strong individual rights, which aligns with right-wing political philosophies."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty and property rights, as well as their identification with libertarian principles, suggests a right-leaning political orientation. Libertarians generally advocate for minimal government intervention and strong individual freedoms, which aligns with right-wing political views.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty and property rights, as well as their identification with libertarian principles, suggests a right-leaning political orientation. Libertarians generally advocate for minimal government intervention and strong individual freedoms, which aligns with right-wing political views."
+    },
+    {
+      "author": "LibertyForUkraine",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty, national sovereignty, and the right to defend against aggression aligns with libertarian and conservative (right-wing) principles. Libertarians often prioritize individual freedoms and oppose foreign aggression, which is reflected in the post. The call to support the defense of Ukraine against Russian aggression also suggests a stance against authoritarianism, which is a common right-wing position.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty, national sovereignty, and the right to defend against aggression aligns with libertarian and conservative (right-wing) principles. Libertarians often prioritize individual freedoms and oppose foreign aggression, which is reflected in the post. The call to support the defense of Ukraine against Russian aggression also suggests a stance against authoritarianism, which is a common right-wing position."
+    },
+    {
+      "author": "PatriotForFreedom",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the Biden administration, which is typically associated with the Democratic Party (left-leaning), for being weak on foreign policy. The author advocates for a more aggressive stance against Russia, which aligns with conservative (right-leaning) views that often emphasize strength and resolve in foreign policy. The use of the term 'appeasement' further suggests a hawkish stance, which is more commonly associated with right-wing politics.\"\n}\n```",
+      "explanation": "The author's post criticizes the Biden administration, which is typically associated with the Democratic Party (left-leaning), for being weak on foreign policy. The author advocates for a more aggressive stance against Russia, which aligns with conservative (right-leaning) views that often emphasize strength and resolve in foreign policy. The use of the term 'appeasement' further suggests a hawkish stance, which is more commonly associated with right-wing politics."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on individual liberty, national sovereignty, and a strong stance against foreign aggression aligns with libertarian and conservative (right-wing) political views. Libertarians often prioritize individual freedoms and limited government intervention, which is reflected in the author's support for Ukrainians defending their freedom against Russian aggression.\"\n}\n```",
+      "explanation": "The author's emphasis on individual liberty, national sovereignty, and a strong stance against foreign aggression aligns with libertarian and conservative (right-wing) political views. Libertarians often prioritize individual freedoms and limited government intervention, which is reflected in the author's support for Ukrainians defending their freedom against Russian aggression."
+    },
+    {
+      "author": "RussiaDefender2022",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post strongly supports Russia's actions in the Ukraine conflict, framing it as a response to 'Western aggression' and 'NATO expansionism.' This perspective aligns with right-wing views that often criticize Western interventionism and support nationalist or anti-imperialist stances, particularly those that oppose NATO and Western influence. The use of terms like 'imperialist forces' further suggests a right-wing or nationalist orientation, as these terms are commonly used in right-wing rhetoric to criticize perceived Western hegemony.\"\n}\n```",
+      "explanation": "The author's post strongly supports Russia's actions in the Ukraine conflict, framing it as a response to 'Western aggression' and 'NATO expansionism.' This perspective aligns with right-wing views that often criticize Western interventionism and support nationalist or anti-imperialist stances, particularly those that oppose NATO and Western influence. The use of terms like 'imperialist forces' further suggests a right-wing or nationalist orientation, as these terms are commonly used in right-wing rhetoric to criticize perceived Western hegemony."
+    }
+  ],
+  "file_path": "Grok_balancedData/Russia_Ukraine_War/balanced20Posts_high_confidence_Russia_Ukraine_war_grok-2-1212.json",
+  "output_filename": "balanced20Posts_high_confidence_Russia_Ukraine_war_grok-2-1212_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}
