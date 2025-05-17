@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 95.0,
+      "precision": 90.9090909090909,
+      "recall": 100.0,
+      "f1_score": 9523.809523809523,
+      "true_positive": 10,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "EcoHoopsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental responsibility, sustainability, and the need for immediate action to address climate change aligns with typical left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are common themes in left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental responsibility, sustainability, and the need for immediate action to address climate change aligns with typical left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are common themes in left-wing politics."
+    },
+    {
+      "author": "HoopsTruthSeeker",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the NBA for promoting social justice, which is often associated with left-leaning political views. The author expresses a desire to 'reclaim the game' from what they perceive as political agendas, suggesting a preference for a more apolitical or conservative approach to sports. This aligns with right-leaning political orientations that often prioritize traditional values and less political involvement in entertainment and sports.\"\n}\n```",
+      "explanation": "The author's post criticizes the NBA for promoting social justice, which is often associated with left-leaning political views. The author expresses a desire to 'reclaim the game' from what they perceive as political agendas, suggesting a preference for a more apolitical or conservative approach to sports. This aligns with right-leaning political orientations that often prioritize traditional values and less political involvement in entertainment and sports."
+    },
+    {
+      "author": "TrueBasketballRevolution",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post discusses the commercialization of the NBA and calls for authenticity and integrity in the sport. While it criticizes corporate interests, it does not explicitly align with any specific political ideology. The focus is on the preservation of the sport's values rather than any particular political stance, making it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The post discusses the commercialization of the NBA and calls for authenticity and integrity in the sport. While it criticizes corporate interests, it does not explicitly align with any specific political ideology. The focus is on the preservation of the sport's values rather than any particular political stance, making it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "EcoHoopsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on climate change and sustainability, along with the call for the NBA to take a bold stand on environmental issues, aligns with typical left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are commonly associated with progressive or left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on climate change and sustainability, along with the call for the NBA to take a bold stand on environmental issues, aligns with typical left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are commonly associated with progressive or left-wing politics."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on social justice, equality, and standing against racism aligns with left-leaning political views. The call for the NBA to support communities and drive change through their powerful platform is indicative of progressive values, which are typically associated with the political left.\"\n}\n```",
+      "explanation": "The author's emphasis on social justice, equality, and standing against racism aligns with left-leaning political views. The call for the NBA to support communities and drive change through their powerful platform is indicative of progressive values, which are typically associated with the political left."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes support for social justice, equality, and challenging systemic racism. These themes are strongly associated with left-leaning political orientations, which often prioritize progressive social causes and advocacy for marginalized communities.\"\n}\n```",
+      "explanation": "The author's post emphasizes support for social justice, equality, and challenging systemic racism. These themes are strongly associated with left-leaning political orientations, which often prioritize progressive social causes and advocacy for marginalized communities."
+    },
+    {
+      "author": "EcoHoopsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's focus on climate change and environmental sustainability aligns with typical left-leaning political views. The emphasis on the NBA taking action to address climate change and promoting eco-friendly initiatives suggests a strong environmentalist stance, which is often associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's focus on climate change and environmental sustainability aligns with typical left-leaning political views. The emphasis on the NBA taking action to address climate change and promoting eco-friendly initiatives suggests a strong environmentalist stance, which is often associated with left-wing politics."
+    },
+    {
+      "author": "TrueBasketballAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The content focuses on the commercialization of the NBA and a desire for a return to 'authentic basketball,' which are not directly tied to traditional left or right political views. The author's concerns are more about the integrity of the sport rather than any specific political ideology.\"\n}\n```",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The content focuses on the commercialization of the NBA and a desire for a return to 'authentic basketball,' which are not directly tied to traditional left or right political views. The author's concerns are more about the integrity of the sport rather than any specific political ideology."
+    },
+    {
+      "author": "HoopsForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes support for social justice, equality, and fighting against systemic racism. These are typically associated with left-leaning political views, which often prioritize social equity and progressive causes.\"\n}\n```",
+      "explanation": "The author's post emphasizes support for social justice, equality, and fighting against systemic racism. These are typically associated with left-leaning political views, which often prioritize social equity and progressive causes."
+    },
+    {
+      "author": "JusticeHoops",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes support for social justice, equality, and combating systemic racism. These are typically associated with left-leaning political views. The phrase 'silence is complicity' suggests a strong stance against inaction on social issues, which is often aligned with progressive or leftist ideologies.\"\n}\n```",
+      "explanation": "The author's post emphasizes support for social justice, equality, and combating systemic racism. These are typically associated with left-leaning political views. The phrase 'silence is complicity' suggests a strong stance against inaction on social issues, which is often aligned with progressive or leftist ideologies."
+    },
+    {
+      "author": "PatriotHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on unity, opposition to political agendas in sports, and the mention of values like hard work and determination that 'make America great' are all indicative of a right-leaning political orientation. These themes are often associated with conservative viewpoints, which prioritize traditional values and patriotism over political activism in sports.\"\n}\n```",
+      "explanation": "The author's emphasis on unity, opposition to political agendas in sports, and the mention of values like hard work and determination that 'make America great' are all indicative of a right-leaning political orientation. These themes are often associated with conservative viewpoints, which prioritize traditional values and patriotism over political activism in sports."
+    },
+    {
+      "author": "LibertyHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on free market principles and opposition to government interference suggests a right-leaning political orientation. The use of the term 'bureaucrats' in a negative context further supports this classification, as it is often associated with conservative or libertarian views that favor limited government involvement.\"\n}\n```",
+      "explanation": "The author's emphasis on free market principles and opposition to government interference suggests a right-leaning political orientation. The use of the term 'bureaucrats' in a negative context further supports this classification, as it is often associated with conservative or libertarian views that favor limited government involvement."
+    },
+    {
+      "author": "CourtSideConservative",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the NBA for pushing political agendas and expresses a desire for the league to focus solely on sports. This stance aligns with conservative views, which often emphasize traditional values and prefer to keep politics separate from entertainment and sports. The use of the term 'divisive messages' further suggests a right-leaning perspective, as it implies a rejection of progressive or liberal viewpoints that are often seen as divisive by conservatives.\"\n}\n```",
+      "explanation": "The author's post criticizes the NBA for pushing political agendas and expresses a desire for the league to focus solely on sports. This stance aligns with conservative views, which often emphasize traditional values and prefer to keep politics separate from entertainment and sports. The use of the term 'divisive messages' further suggests a right-leaning perspective, as it implies a rejection of progressive or liberal viewpoints that are often seen as divisive by conservatives."
+    },
+    {
+      "author": "CourtConservative",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a preference for keeping politics out of sports, which is a common stance among conservative viewpoints. The emphasis on unity and the criticism of political agendas in sports align with right-leaning perspectives that often advocate for a separation of politics from entertainment and cultural activities.\"\n}\n```",
+      "explanation": "The author's post suggests a preference for keeping politics out of sports, which is a common stance among conservative viewpoints. The emphasis on unity and the criticism of political agendas in sports align with right-leaning perspectives that often advocate for a separation of politics from entertainment and cultural activities."
+    },
+    {
+      "author": "LibertyHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a preference for keeping sports separate from political and social issues, which is a common stance among those on the right. The mention of 'forced ideologies' and 'social justice distractions' indicates a skepticism towards progressive social causes, which are often associated with left-leaning political orientations. The emphasis on unity and enjoyment without political interference further aligns with conservative views on keeping politics out of entertainment and sports.\"\n}\n```",
+      "explanation": "The author's post suggests a preference for keeping sports separate from political and social issues, which is a common stance among those on the right. The mention of 'forced ideologies' and 'social justice distractions' indicates a skepticism towards progressive social causes, which are often associated with left-leaning political orientations. The emphasis on unity and enjoyment without political interference further aligns with conservative views on keeping politics out of entertainment and sports."
+    },
+    {
+      "author": "LibertyHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on minimal government interference, market determination of value, and the promotion of freedom and innovation aligns with right-leaning political views. The criticism of politicians and bureaucrats further supports this classification.\"\n}\n```",
+      "explanation": "The author's emphasis on minimal government interference, market determination of value, and the promotion of freedom and innovation aligns with right-leaning political views. The criticism of politicians and bureaucrats further supports this classification."
+    },
+    {
+      "author": "TrueBasketballFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the NBA for prioritizing politics over sports, suggesting a preference for traditional values and a focus on the game itself. This stance often aligns with conservative or right-leaning views, which tend to emphasize traditional values and may be skeptical of political activism in sports.\"\n}\n```",
+      "explanation": "The author's post criticizes the NBA for prioritizing politics over sports, suggesting a preference for traditional values and a focus on the game itself. This stance often aligns with conservative or right-leaning views, which tend to emphasize traditional values and may be skeptical of political activism in sports."
+    },
+    {
+      "author": "TrueHoopsDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post criticizes the NBA for promoting 'leftist ideologies' and 'political influence,' suggesting a conservative or right-leaning perspective. The emphasis on 'hard work and merit' and the call to reject 'propaganda' and 'agendas' aligns with typical right-wing sentiments that often oppose what they perceive as liberal or progressive influences in sports and entertainment.\"\n}\n```",
+      "explanation": "The author's post criticizes the NBA for promoting 'leftist ideologies' and 'political influence,' suggesting a conservative or right-leaning perspective. The emphasis on 'hard work and merit' and the call to reject 'propaganda' and 'agendas' aligns with typical right-wing sentiments that often oppose what they perceive as liberal or progressive influences in sports and entertainment."
+    },
+    {
+      "author": "HoopsPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance on keeping sports and politics separate, and their disapproval of the NBA pushing political agendas, suggests a conservative or right-leaning political orientation. This is often associated with a preference for traditional values and a reluctance to mix sports with political or social issues.\"\n}\n```",
+      "explanation": "The author's stance on keeping sports and politics separate, and their disapproval of the NBA pushing political agendas, suggests a conservative or right-leaning political orientation. This is often associated with a preference for traditional values and a reluctance to mix sports with political or social issues."
+    },
+    {
+      "author": "LibertyHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on free market principles, opposition to government interference, and belief in competition as a driving force for excellence align with typical right-leaning political views. The criticism of bureaucrats and the preference for market-driven decisions further support this classification.\"\n}\n```",
+      "explanation": "The author's emphasis on free market principles, opposition to government interference, and belief in competition as a driving force for excellence align with typical right-leaning political views. The criticism of bureaucrats and the preference for market-driven decisions further support this classification."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/NBA/balanced20Posts_high_confidence_NBA_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_high_confidence_NBA_gpt-4o-mini_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 66.66666666666666,
+      "recall": 40.0,
+      "f1_score": 4999.999999999999,
+      "true_positive": 4,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 66.66666666666666,
+      "recall": 80.0,
+      "f1_score": 7272.727272727272,
+      "true_positive": 8,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "BorderPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strong border security, opposition to undocumented immigration, and a strict stance against providing a path to citizenship for individuals who have entered the country illegally. These views are typically associated with right-wing political ideologies, which often prioritize national sovereignty and law and order over more permissive immigration policies.\"\n}",
+      "explanation": "The post emphasizes strong border security, opposition to undocumented immigration, and a strict stance against providing a path to citizenship for individuals who have entered the country illegally. These views are typically associated with right-wing political ideologies, which often prioritize national sovereignty and law and order over more permissive immigration policies."
+    },
+    {
+      "author": "GreenVoicesForJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes humane immigration reform, the dignity of individuals, and a pathway to citizenship for undocumented immigrants, which are typically positions associated with left-leaning political views. The focus on moral obligations and a just society further supports this classification.\"\n}",
+      "explanation": "The post emphasizes humane immigration reform, the dignity of individuals, and a pathway to citizenship for undocumented immigrants, which are typically positions associated with left-leaning political views. The focus on moral obligations and a just society further supports this classification."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post strongly emphasizes the need for strict border control and the enforcement of immigration laws, which are typically associated with conservative or right-wing political views. The author's stance against providing citizenship to undocumented immigrants and the focus on national safety and sovereignty further support this classification.\"\n}",
+      "explanation": "The post strongly emphasizes the need for strict border control and the enforcement of immigration laws, which are typically associated with conservative or right-wing political views. The author's stance against providing citizenship to undocumented immigrants and the focus on national safety and sovereignty further support this classification."
+    },
+    {
+      "author": "GreenVoicesForChange",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenVoicesForChange advocates for compassionate immigration reform, emphasizing human rights, dignity, and a pathway to citizenship for undocumented immigrants. These positions are typically associated with left-leaning political views, which often support more inclusive and progressive immigration policies. The emphasis on justice and equality further aligns with left-wing values.\"\n}",
+      "explanation": "The post by GreenVoicesForChange advocates for compassionate immigration reform, emphasizing human rights, dignity, and a pathway to citizenship for undocumented immigrants. These positions are typically associated with left-leaning political views, which often support more inclusive and progressive immigration policies. The emphasis on justice and equality further aligns with left-wing values."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a pathway to citizenship for undocumented immigrants, emphasizing their contributions and the moral aspect of the issue. This stance is typically associated with left-leaning or progressive political views, which often support more inclusive immigration policies and highlight the humanitarian aspects of such issues.\"\n}",
+      "explanation": "The post advocates for a pathway to citizenship for undocumented immigrants, emphasizing their contributions and the moral aspect of the issue. This stance is typically associated with left-leaning or progressive political views, which often support more inclusive immigration policies and highlight the humanitarian aspects of such issues."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for a progressive stance on immigration, emphasizing the need for a 'clear and fair pathway to citizenship' and 'comprehensive immigration reform' that reflects 'values of compassion and opportunity for all.' These views are typically associated with left-leaning or liberal political orientations, which often support more inclusive and humanitarian approaches to immigration policy.\"\n}",
+      "explanation": "The post advocates for a progressive stance on immigration, emphasizing the need for a 'clear and fair pathway to citizenship' and 'comprehensive immigration reform' that reflects 'values of compassion and opportunity for all.' These views are typically associated with left-leaning or liberal political orientations, which often support more inclusive and humanitarian approaches to immigration policy."
+    },
+    {
+      "author": "LiberalVoiceForChange",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for 'humane immigration reform' that includes a 'clear pathway to citizenship for undocumented immigrants,' which aligns with liberal or left-wing policies on immigration. The emphasis on 'compassion and justice' over 'fear and division' further supports this classification, as it reflects a progressive stance that is typically associated with the political left.\"\n}",
+      "explanation": "The author advocates for 'humane immigration reform' that includes a 'clear pathway to citizenship for undocumented immigrants,' which aligns with liberal or left-wing policies on immigration. The emphasis on 'compassion and justice' over 'fear and division' further supports this classification, as it reflects a progressive stance that is typically associated with the political left."
+    },
+    {
+      "author": "GreenForJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by GreenForJustice advocates for a humane immigration policy that emphasizes human rights and the dignity of individuals, including a pathway to citizenship for undocumented immigrants. These views are typically associated with left-leaning political ideologies, which often prioritize social justice, inclusivity, and the rights of marginalized groups.\"\n}",
+      "explanation": "The post by GreenForJustice advocates for a humane immigration policy that emphasizes human rights and the dignity of individuals, including a pathway to citizenship for undocumented immigrants. These views are typically associated with left-leaning political ideologies, which often prioritize social justice, inclusivity, and the rights of marginalized groups."
+    },
+    {
+      "author": "GreenVoicesForJustice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for compassionate and just immigration reform, emphasizing a pathway to citizenship for undocumented immigrants and humane border security. The language used, such as 'values demand that we treat every individual with dignity and respect,' and the call to 'stand up for what is right and just,' aligns with left-leaning political views that prioritize social justice, human rights, and inclusivity.\"\n}",
+      "explanation": "The post advocates for compassionate and just immigration reform, emphasizing a pathway to citizenship for undocumented immigrants and humane border security. The language used, such as 'values demand that we treat every individual with dignity and respect,' and the call to 'stand up for what is right and just,' aligns with left-leaning political views that prioritize social justice, human rights, and inclusivity."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes the need for comprehensive immigration reform that includes both border security and a pathway to citizenship for undocumented immigrants. The author highlights the importance of recognizing the contributions of immigrants and ensuring that the immigration system reflects values of inclusivity and justice. These views are typically associated with a left-leaning or progressive political orientation, which often advocates for more inclusive and humane immigration policies.\"\n}",
+      "explanation": "The post emphasizes the need for comprehensive immigration reform that includes both border security and a pathway to citizenship for undocumented immigrants. The author highlights the importance of recognizing the contributions of immigrants and ensuring that the immigration system reflects values of inclusivity and justice. These views are typically associated with a left-leaning or progressive political orientation, which often advocates for more inclusive and humane immigration policies."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post expresses support for immigration as a human right and advocates for a pathway to citizenship for undocumented immigrants, which are typically left-leaning positions. The emphasis on not dictating who can pursue the American dream and the call for freedom also align with liberal values of inclusivity and individual rights.\"\n}",
+      "explanation": "The post expresses support for immigration as a human right and advocates for a pathway to citizenship for undocumented immigrants, which are typically left-leaning positions. The emphasis on not dictating who can pursue the American dream and the call for freedom also align with liberal values of inclusivity and individual rights."
+    },
+    {
+      "author": "LibertyLover2023",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for open borders and a pathway to citizenship for undocumented immigrants, emphasizing values of freedom and opportunity. These positions are typically associated with a left-leaning political orientation, which often supports more inclusive immigration policies and views borders as less important than human rights and economic contributions.\"\n}",
+      "explanation": "The author advocates for open borders and a pathway to citizenship for undocumented immigrants, emphasizing values of freedom and opportunity. These positions are typically associated with a left-leaning political orientation, which often supports more inclusive immigration policies and views borders as less important than human rights and economic contributions."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, opposition to pathways to citizenship for undocumented immigrants, and focus on legal immigration align with right-wing political views. These positions typically advocate for stricter immigration policies and a strong emphasis on law and order, which are common themes in right-wing political discourse.\"\n}",
+      "explanation": "The author's emphasis on border security, opposition to pathways to citizenship for undocumented immigrants, and focus on legal immigration align with right-wing political views. These positions typically advocate for stricter immigration policies and a strong emphasis on law and order, which are common themes in right-wing political discourse."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post reflects a liberal stance by emphasizing the importance of a pathway to citizenship for undocumented immigrants and the need to balance border security with humanitarian considerations. The author advocates for policies driven by freedom and opportunity, which are typically associated with left-leaning political views that support inclusive and progressive immigration policies.\"\n}",
+      "explanation": "The post reflects a liberal stance by emphasizing the importance of a pathway to citizenship for undocumented immigrants and the need to balance border security with humanitarian considerations. The author advocates for policies driven by freedom and opportunity, which are typically associated with left-leaning political views that support inclusive and progressive immigration policies."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertyForAll contains elements that could be aligned with both left and right political orientations. The emphasis on securing borders is typically associated with right-wing policies, which focus on national security and controlled immigration. However, the author also advocates for a pathway to citizenship for undocumented immigrants, which is a stance more commonly associated with left-wing policies that emphasize inclusivity and social justice. The call for 'liberty and opportunity for all' further complicates the classification as it is a value that can be championed by both sides. Given the mixed nature of the views expressed, it is not possible to definitively classify the author's political orientation based solely on this post.\"\n}",
+      "explanation": "The post by LibertyForAll contains elements that could be aligned with both left and right political orientations. The emphasis on securing borders is typically associated with right-wing policies, which focus on national security and controlled immigration. However, the author also advocates for a pathway to citizenship for undocumented immigrants, which is a stance more commonly associated with left-wing policies that emphasize inclusivity and social justice. The call for 'liberty and opportunity for all' further complicates the classification as it is a value that can be championed by both sides. Given the mixed nature of the views expressed, it is not possible to definitively classify the author's political orientation based solely on this post."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, opposition to a pathway to citizenship for undocumented immigrants, and the focus on enforcing laws strongly align with right-wing political views in the United States. These positions are typically associated with conservative policies that prioritize national security and strict immigration control.\"\n}",
+      "explanation": "The author's emphasis on border security, opposition to a pathway to citizenship for undocumented immigrants, and the focus on enforcing laws strongly align with right-wing political views in the United States. These positions are typically associated with conservative policies that prioritize national security and strict immigration control."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, opposition to illegal immigration, and the conditional approach to a pathway to citizenship for those who 'respect our laws and contribute to our society' aligns with right-wing political views. These positions are typically associated with conservative policies that prioritize national security, law and order, and a more restrictive approach to immigration.\"\n}",
+      "explanation": "The author's emphasis on border security, opposition to illegal immigration, and the conditional approach to a pathway to citizenship for those who 'respect our laws and contribute to our society' aligns with right-wing political views. These positions are typically associated with conservative policies that prioritize national security, law and order, and a more restrictive approach to immigration."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertyForAll presents a nuanced view that combines elements typically associated with both left and right political orientations. The emphasis on securing borders and protecting individual liberties aligns with right-wing principles, which often prioritize national security and personal freedoms. However, the author also advocates for a humane approach to undocumented immigrants and supports a pathway to citizenship, which is more commonly associated with left-wing policies that emphasize social justice and inclusivity. Given the balanced nature of the argument, it is not possible to definitively classify the author's political orientation as strictly left or right.\"\n}",
+      "explanation": "The post by LibertyForAll presents a nuanced view that combines elements typically associated with both left and right political orientations. The emphasis on securing borders and protecting individual liberties aligns with right-wing principles, which often prioritize national security and personal freedoms. However, the author also advocates for a humane approach to undocumented immigrants and supports a pathway to citizenship, which is more commonly associated with left-wing policies that emphasize social justice and inclusivity. Given the balanced nature of the argument, it is not possible to definitively classify the author's political orientation as strictly left or right."
+    },
+    {
+      "author": "LibertyLover",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, LibertyLover, advocates for open borders and a pathway to citizenship for undocumented immigrants, which aligns with left-leaning political views. The emphasis on providing opportunities for immigrants to contribute to the economy and culture, and the belief that 'freedom and opportunity should not have borders,' reflects a progressive stance on immigration policy, typically associated with the political left.\"\n}",
+      "explanation": "The author, LibertyLover, advocates for open borders and a pathway to citizenship for undocumented immigrants, which aligns with left-leaning political views. The emphasis on providing opportunities for immigrants to contribute to the economy and culture, and the belief that 'freedom and opportunity should not have borders,' reflects a progressive stance on immigration policy, typically associated with the political left."
+    },
+    {
+      "author": "SecureOurBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes the importance of border security and prioritizing the safety of American citizens, which are typically conservative viewpoints. The author also opposes a pathway to citizenship for undocumented immigrants until border security is strengthened, a stance that aligns with right-wing immigration policies. The language used, such as 'secure our borders' and 'unchecked immigration,' further reinforces a right-wing perspective on immigration.\"\n}",
+      "explanation": "The post emphasizes the importance of border security and prioritizing the safety of American citizens, which are typically conservative viewpoints. The author also opposes a pathway to citizenship for undocumented immigrants until border security is strengthened, a stance that aligns with right-wing immigration policies. The language used, such as 'secure our borders' and 'unchecked immigration,' further reinforces a right-wing perspective on immigration."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Immigration_Reform/balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gpt-4o-mini_qwen_qwen-2.5-72b-instruct_analysis.json"
+}

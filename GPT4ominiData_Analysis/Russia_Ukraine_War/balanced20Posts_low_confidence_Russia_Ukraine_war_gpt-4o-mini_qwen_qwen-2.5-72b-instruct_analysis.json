@@ -1,0 +1,162 @@
+{
+  "model_name": "qwen/qwen-2.5-72b-instruct",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 65.0,
+      "precision": 100.0,
+      "recall": 30.0,
+      "f1_score": 4615.384615384615,
+      "true_positive": 3,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 7
+    },
+    "left": {
+      "accuracy": 75.0,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1_score": 6666.666666666667,
+      "true_positive": 5,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 40.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 12,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 40.0
+  },
+  "classifications": [
+    {
+      "author": "ContemplativeObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to clearly classify the author's political orientation. The author expresses a nuanced and questioning view about the Russia-Ukraine conflict, suggesting a desire to understand multiple perspectives and the complexity of the situation. This balanced and reflective approach does not align specifically with either a left-wing or right-wing stance, making it difficult to determine the author's political orientation based on this post alone.\"\n}",
+      "explanation": "The post does not provide enough information to clearly classify the author's political orientation. The author expresses a nuanced and questioning view about the Russia-Ukraine conflict, suggesting a desire to understand multiple perspectives and the complexity of the situation. This balanced and reflective approach does not align specifically with either a left-wing or right-wing stance, making it difficult to determine the author's political orientation based on this post alone."
+    },
+    {
+      "author": "TentativeObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by TentativeObserver does not provide enough information to definitively classify the author's political orientation. The author expresses uncertainty and a nuanced view of the conflict between Russia and Ukraine, suggesting that both sides may have valid concerns. This balanced and questioning approach does not align clearly with either a left-wing or right-wing perspective, as both sides can contain individuals who advocate for a more nuanced understanding of international conflicts. The author's openness to the possibility of peace and their lack of strong partisan language or clear ideological markers further contribute to the difficulty in classifying their orientation.\"\n}",
+      "explanation": "The post by TentativeObserver does not provide enough information to definitively classify the author's political orientation. The author expresses uncertainty and a nuanced view of the conflict between Russia and Ukraine, suggesting that both sides may have valid concerns. This balanced and questioning approach does not align clearly with either a left-wing or right-wing perspective, as both sides can contain individuals who advocate for a more nuanced understanding of international conflicts. The author's openness to the possibility of peace and their lack of strong partisan language or clear ideological markers further contribute to the difficulty in classifying their orientation."
+    },
+    {
+      "author": "ThoughtfulLiberal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post reflects a nuanced and cautious approach to international conflict, which is often associated with liberal or left-leaning perspectives. The author expresses concern about the complexity of the situation and the potential consequences of intervention, which aligns with a liberal tendency to favor diplomacy and caution in foreign policy over aggressive military action. The use of the term 'supporting Ukraine more actively' suggests a willingness to consider aid and assistance, which is also a common stance among those on the left who advocate for international solidarity and support for democratic movements.\"\n}",
+      "explanation": "The post reflects a nuanced and cautious approach to international conflict, which is often associated with liberal or left-leaning perspectives. The author expresses concern about the complexity of the situation and the potential consequences of intervention, which aligns with a liberal tendency to favor diplomacy and caution in foreign policy over aggressive military action. The use of the term 'supporting Ukraine more actively' suggests a willingness to consider aid and assistance, which is also a common stance among those on the left who advocate for international solidarity and support for democratic movements."
+    },
+    {
+      "author": "ContemplativeObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to determine a specific political orientation. The author expresses uncertainty and a nuanced view of the conflict, acknowledging the complexity and potential legitimacy of concerns from both sides. This balanced and questioning approach does not align clearly with either a left or right political stance.\"\n}",
+      "explanation": "The post does not provide enough information to determine a specific political orientation. The author expresses uncertainty and a nuanced view of the conflict, acknowledging the complexity and potential legitimacy of concerns from both sides. This balanced and questioning approach does not align clearly with either a left or right political stance."
+    },
+    {
+      "author": "ThoughtfulLiberal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, ThoughtfulLiberal, expresses a nuanced and cautious approach to the Russia-Ukraine conflict, emphasizing the importance of supporting Ukraine while also considering potential unintended consequences and the need to avoid escalation. This balanced and reflective stance, which values both humanitarian support and strategic caution, is often associated with left-leaning political perspectives, which tend to advocate for international cooperation and peace while being mindful of the complexities of foreign intervention.\"\n}",
+      "explanation": "The author, ThoughtfulLiberal, expresses a nuanced and cautious approach to the Russia-Ukraine conflict, emphasizing the importance of supporting Ukraine while also considering potential unintended consequences and the need to avoid escalation. This balanced and reflective stance, which values both humanitarian support and strategic caution, is often associated with left-leaning political perspectives, which tend to advocate for international cooperation and peace while being mindful of the complexities of foreign intervention."
+    },
+    {
+      "author": "GlobalPeaceSeeker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by GlobalPeaceSeeker does not provide enough information to definitively classify the author's political orientation. The author expresses a desire to understand the complexities of the Russia-Ukraine conflict and supports the idea of peace, which are sentiments that can be found across the political spectrum. The post does not lean heavily on specific ideological positions or partisan language that would indicate a clear left or right orientation.\"\n}",
+      "explanation": "The post by GlobalPeaceSeeker does not provide enough information to definitively classify the author's political orientation. The author expresses a desire to understand the complexities of the Russia-Ukraine conflict and supports the idea of peace, which are sentiments that can be found across the political spectrum. The post does not lean heavily on specific ideological positions or partisan language that would indicate a clear left or right orientation."
+    },
+    {
+      "author": "ThoughtfulObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author expresses a nuanced view, questioning the mainstream media narrative and suggesting that both sides might have valid points. This could be interpreted as a centrist or moderate stance, but without more context or additional statements on other political issues, it is not possible to confidently place the author on a specific point of the political spectrum.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author expresses a nuanced view, questioning the mainstream media narrative and suggesting that both sides might have valid points. This could be interpreted as a centrist or moderate stance, but without more context or additional statements on other political issues, it is not possible to confidently place the author on a specific point of the political spectrum."
+    },
+    {
+      "author": "EcoConcernedCitizen",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post by EcoConcernedCitizen demonstrates a strong concern for environmental issues and a nuanced understanding of how geopolitical events can impact global environmental policies. The author questions the balance between peace and environmental responsibility, which is a perspective often aligned with left-leaning ideologies that prioritize environmental sustainability and social responsibility. The consideration of greener energy solutions in the context of a crisis also suggests a progressive viewpoint, typically associated with the political left.\"\n}",
+      "explanation": "The post by EcoConcernedCitizen demonstrates a strong concern for environmental issues and a nuanced understanding of how geopolitical events can impact global environmental policies. The author questions the balance between peace and environmental responsibility, which is a perspective often aligned with left-leaning ideologies that prioritize environmental sustainability and social responsibility. The consideration of greener energy solutions in the context of a crisis also suggests a progressive viewpoint, typically associated with the political left."
+    },
+    {
+      "author": "ThoughtfulLiberal",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post reflects a preference for diplomacy and a skepticism towards the use of violence, which are typically associated with left-leaning political views. The author, ThoughtfulLiberal, also has a username that suggests a liberal orientation, further supporting this classification.\"\n}",
+      "explanation": "The post reflects a preference for diplomacy and a skepticism towards the use of violence, which are typically associated with left-leaning political views. The author, ThoughtfulLiberal, also has a username that suggests a liberal orientation, further supporting this classification."
+    },
+    {
+      "author": "ThoughtfulDemocrat",
+      "orientation": "left",
+      "raw_response": "{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author, ThoughtfulDemocrat, expresses empathy for the Ukrainian people and a nuanced view of the conflict, questioning the adequacy of considering all sides and the effectiveness of support. This critical and reflective stance, particularly the emphasis on understanding motivations and the impact of support, aligns more with left-leaning perspectives that often advocate for a deeper, more empathetic analysis of international conflicts and the role of external support.\"\n}",
+      "explanation": "The author, ThoughtfulDemocrat, expresses empathy for the Ukrainian people and a nuanced view of the conflict, questioning the adequacy of considering all sides and the effectiveness of support. This critical and reflective stance, particularly the emphasis on understanding motivations and the impact of support, aligns more with left-leaning perspectives that often advocate for a deeper, more empathetic analysis of international conflicts and the role of external support."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertySeeker does not provide enough information to definitively classify the author's political orientation. The author expresses a desire for peace and acknowledges the complexities of the Russia-Ukraine conflict, including issues of sovereignty and self-determination. These views could be held by individuals from various points on the political spectrum. Without more specific indicators of political stance, such as support for particular policies or ideological positions, it is not possible to determine the author's political orientation.\"\n}",
+      "explanation": "The post by LibertySeeker does not provide enough information to definitively classify the author's political orientation. The author expresses a desire for peace and acknowledges the complexities of the Russia-Ukraine conflict, including issues of sovereignty and self-determination. These views could be held by individuals from various points on the political spectrum. Without more specific indicators of political stance, such as support for particular policies or ideological positions, it is not possible to determine the author's political orientation."
+    },
+    {
+      "author": "ContemplativeObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to clearly classify the author's political orientation. The author expresses a nuanced and balanced view, acknowledging the complexity of the Russia-Ukraine conflict and questioning the full understanding of the situation. This balanced and questioning stance does not lean distinctly towards either the left or the right.\"\n}",
+      "explanation": "The post does not provide enough information to clearly classify the author's political orientation. The author expresses a nuanced and balanced view, acknowledging the complexity of the Russia-Ukraine conflict and questioning the full understanding of the situation. This balanced and questioning stance does not lean distinctly towards either the left or the right."
+    },
+    {
+      "author": "CautiousConservative",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough clear indicators to definitively classify the author's political orientation. The author expresses a cautious and nuanced view of the Russia-Ukraine conflict, emphasizing complexity and the need for more consideration. This stance could be adopted by individuals from various political backgrounds, making it difficult to determine a specific orientation based solely on this content.\"\n}",
+      "explanation": "The post does not provide enough clear indicators to definitively classify the author's political orientation. The author expresses a cautious and nuanced view of the Russia-Ukraine conflict, emphasizing complexity and the need for more consideration. This stance could be adopted by individuals from various political backgrounds, making it difficult to determine a specific orientation based solely on this content."
+    },
+    {
+      "author": "LibertySeeker42",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertySeeker42 does not provide enough information to definitively classify the author's political orientation. The author raises questions about sovereignty, intervention, and diplomacy in the context of the Russia-Ukraine conflict, which are topics that can be discussed from various political perspectives. The author's uncertainty and acknowledgment of the complexity of the situation suggest a balanced or neutral stance, but this is not sufficient to determine a specific political leaning.\"\n}",
+      "explanation": "The post by LibertySeeker42 does not provide enough information to definitively classify the author's political orientation. The author raises questions about sovereignty, intervention, and diplomacy in the context of the Russia-Ukraine conflict, which are topics that can be discussed from various political perspectives. The author's uncertainty and acknowledgment of the complexity of the situation suggest a balanced or neutral stance, but this is not sufficient to determine a specific political leaning."
+    },
+    {
+      "author": "ThoughtfulObserver",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough information to definitively classify the author's political orientation. The author expresses a nuanced view, suggesting that the conflict between Russia and Ukraine is complex and that there might be valid points on both sides. This perspective could be adopted by individuals from various political backgrounds, as it primarily reflects a desire for a more balanced and less polarized understanding of the issue. The author does not lean explicitly towards supporting or opposing any particular side or ideology, making it difficult to determine a specific political orientation.\"\n}",
+      "explanation": "The post does not provide enough information to definitively classify the author's political orientation. The author expresses a nuanced view, suggesting that the conflict between Russia and Ukraine is complex and that there might be valid points on both sides. This perspective could be adopted by individuals from various political backgrounds, as it primarily reflects a desire for a more balanced and less polarized understanding of the issue. The author does not lean explicitly towards supporting or opposing any particular side or ideology, making it difficult to determine a specific political orientation."
+    },
+    {
+      "author": "LibertySeeker_22",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post does not provide enough clear indicators to definitively classify the author's political orientation. The author expresses a nuanced and cautious view on the Russia-Ukraine conflict, questioning the role of foreign intervention and acknowledging the complexity of the situation. These views do not strongly align with specific left or right political ideologies, as both sides can contain individuals who are skeptical of foreign intervention and recognize the complexities of international conflicts.\"\n}",
+      "explanation": "The post does not provide enough clear indicators to definitively classify the author's political orientation. The author expresses a nuanced and cautious view on the Russia-Ukraine conflict, questioning the role of foreign intervention and acknowledging the complexity of the situation. These views do not strongly align with specific left or right political ideologies, as both sides can contain individuals who are skeptical of foreign intervention and recognize the complexities of international conflicts."
+    },
+    {
+      "author": "ConcernedConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author, 'ConcernedConservative', expresses a cautious approach to international conflict, which is often a characteristic of conservative political thought. The emphasis on avoiding unintended consequences and questioning further involvement aligns with a conservative tendency to be wary of extensive foreign interventions. The term 'Conservative' in the username also suggests a right-leaning political orientation. However, the author does show a nuanced view by supporting a strong stance against aggression, which indicates a balanced but still right-of-center perspective.\"\n}",
+      "explanation": "The author, 'ConcernedConservative', expresses a cautious approach to international conflict, which is often a characteristic of conservative political thought. The emphasis on avoiding unintended consequences and questioning further involvement aligns with a conservative tendency to be wary of extensive foreign interventions. The term 'Conservative' in the username also suggests a right-leaning political orientation. However, the author does show a nuanced view by supporting a strong stance against aggression, which indicates a balanced but still right-of-center perspective."
+    },
+    {
+      "author": "CautiousConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post reflects a cautious and skeptical approach to foreign intervention, which is often associated with conservative political thought. The author questions the wisdom of getting involved in the Russia-Ukraine conflict, emphasizing potential unforeseen consequences, a stance that aligns with a more isolationist or non-interventionist foreign policy, typically favored by those on the right.\"\n}",
+      "explanation": "The post reflects a cautious and skeptical approach to foreign intervention, which is often associated with conservative political thought. The author questions the wisdom of getting involved in the Russia-Ukraine conflict, emphasizing potential unforeseen consequences, a stance that aligns with a more isolationist or non-interventionist foreign policy, typically favored by those on the right."
+    },
+    {
+      "author": "CautiousConservative",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post reflects a cautious and nuanced view, which is often associated with conservative or right-leaning political orientations. The author expresses concern about escalating tensions and acknowledges the complexity of the situation, suggesting a preference for stability and a balanced approach to international relations. The mention of 'valid concerns on both sides' indicates a willingness to consider multiple perspectives, which is a common trait in right-leaning discourse that often emphasizes pragmatism and skepticism towards unilateral actions.\"\n}",
+      "explanation": "The post reflects a cautious and nuanced view, which is often associated with conservative or right-leaning political orientations. The author expresses concern about escalating tensions and acknowledges the complexity of the situation, suggesting a preference for stability and a balanced approach to international relations. The mention of 'valid concerns on both sides' indicates a willingness to consider multiple perspectives, which is a common trait in right-leaning discourse that often emphasizes pragmatism and skepticism towards unilateral actions."
+    },
+    {
+      "author": "LibertySeeker23",
+      "orientation": "unknown",
+      "raw_response": "{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The post by LibertySeeker23 does not provide enough clear indicators to definitively classify the author's political orientation as either LEFT or RIGHT. The author expresses uncertainty about military intervention and considers the validity of concerns on both sides of the conflict, suggesting a balanced or neutral stance. The consideration of non-intervention as a peaceful solution does not inherently align with a specific political orientation, as both left and right can support or oppose military intervention based on different principles. Therefore, the orientation remains UNKNOWN based on the provided content.\"\n}",
+      "explanation": "The post by LibertySeeker23 does not provide enough clear indicators to definitively classify the author's political orientation as either LEFT or RIGHT. The author expresses uncertainty about military intervention and considers the validity of concerns on both sides of the conflict, suggesting a balanced or neutral stance. The consideration of non-intervention as a peaceful solution does not inherently align with a specific political orientation, as both left and right can support or oppose military intervention based on different principles. Therefore, the orientation remains UNKNOWN based on the provided content."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Russia_Ukraine_War/balanced20Posts_low_confidence_Russia_Ukraine_war_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_low_confidence_Russia_Ukraine_war_gpt-4o-mini_qwen_qwen-2.5-72b-instruct_analysis.json"
+}

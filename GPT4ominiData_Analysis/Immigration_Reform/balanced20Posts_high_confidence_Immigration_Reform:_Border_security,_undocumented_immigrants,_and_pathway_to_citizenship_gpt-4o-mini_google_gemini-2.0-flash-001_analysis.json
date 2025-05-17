@@ -1,0 +1,162 @@
+{
+  "model_name": "google/gemini-2.0-flash-001",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 66.66666666666666,
+      "recall": 40.0,
+      "f1_score": 4999.999999999999,
+      "true_positive": 4,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 6
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 66.66666666666666,
+      "recall": 80.0,
+      "f1_score": 7272.727272727272,
+      "true_positive": 8,
+      "false_positive": 4,
+      "true_negative": 6,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 90.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 2,
+      "true_negative": 18,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 60.0
+  },
+  "classifications": [
+    {
+      "author": "BorderPatriot",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's statements strongly align with right-leaning political positions. Specifically, the emphasis on border security, stopping undocumented immigration, opposing a path to citizenship for those who have broken immigration laws, and prioritizing national sovereignty are all common tenets of conservative and right-wing ideologies.\"\n}\n```",
+      "explanation": "The author's statements strongly align with right-leaning political positions. Specifically, the emphasis on border security, stopping undocumented immigration, opposing a path to citizenship for those who have broken immigration laws, and prioritizing national sovereignty are all common tenets of conservative and right-wing ideologies."
+    },
+    {
+      "author": "GreenVoicesForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on immigration reform aligns with typical left-leaning political positions. The emphasis on 'dignity of all individuals,' 'humane immigration reform,' and a 'pathway to citizenship' are all common themes within progressive political discourse. The framing of immigration reform as a 'moral obligation' and 'essential for a just and sustainable society' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's stance on immigration reform aligns with typical left-leaning political positions. The emphasis on 'dignity of all individuals,' 'humane immigration reform,' and a 'pathway to citizenship' are all common themes within progressive political discourse. The framing of immigration reform as a 'moral obligation' and 'essential for a just and sustainable society' further reinforces this classification."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, strict enforcement of immigration laws, and prioritizing national sovereignty are all common themes within right-leaning political ideologies. The statement that undocumented immigrants should 'face the consequences of their actions' and not be 'rewarded with citizenship' aligns with conservative viewpoints on immigration policy.\"\n}\n```",
+      "explanation": "The author's emphasis on border security, strict enforcement of immigration laws, and prioritizing national sovereignty are all common themes within right-leaning political ideologies. The statement that undocumented immigrants should 'face the consequences of their actions' and not be 'rewarded with citizenship' aligns with conservative viewpoints on immigration policy."
+    },
+    {
+      "author": "GreenVoicesForChange",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for 'compassionate immigration reform,' 'human rights and dignity,' and a 'pathway to citizenship' for undocumented immigrants. These are all common positions associated with the left side of the political spectrum. The emphasis on 'justice and equality' further reinforces this classification.\"\n}\n```",
+      "explanation": "The author's post advocates for 'compassionate immigration reform,' 'human rights and dignity,' and a 'pathway to citizenship' for undocumented immigrants. These are all common positions associated with the left side of the political spectrum. The emphasis on 'justice and equality' further reinforces this classification."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with common left-leaning political positions. The emphasis on a 'pathway to citizenship' for undocumented immigrants, coupled with the framing of immigration as a 'moral imperative,' are characteristic of progressive viewpoints. While acknowledging the need for border security, the primary focus is on the humane treatment and integration of immigrants, which is a key tenet of left-leaning immigration policies.\"\n}\n```",
+      "explanation": "The author's statement aligns with common left-leaning political positions. The emphasis on a 'pathway to citizenship' for undocumented immigrants, coupled with the framing of immigration as a 'moral imperative,' are characteristic of progressive viewpoints. While acknowledging the need for border security, the primary focus is on the humane treatment and integration of immigrants, which is a key tenet of left-leaning immigration policies."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on immigration reform aligns with left-leaning political ideologies. The emphasis on a pathway to citizenship, compassion, and opportunity for all are common themes within progressive and liberal viewpoints. The call for 'comprehensive immigration reform' is also a phrase frequently used in left-leaning political discourse.\"\n}\n```",
+      "explanation": "The author's stance on immigration reform aligns with left-leaning political ideologies. The emphasis on a pathway to citizenship, compassion, and opportunity for all are common themes within progressive and liberal viewpoints. The call for 'comprehensive immigration reform' is also a phrase frequently used in left-leaning political discourse."
+    },
+    {
+      "author": "LiberalVoiceForChange",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's stance on immigration reform aligns with typical left-leaning political positions. Specifically, the emphasis on a 'pathway to citizenship' for undocumented immigrants, the call for 'compassion and justice,' and the rejection of 'fear and division' are all common themes within left-leaning discourse on immigration. The user name 'LiberalVoiceForChange' also strongly suggests a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author's stance on immigration reform aligns with typical left-leaning political positions. Specifically, the emphasis on a 'pathway to citizenship' for undocumented immigrants, the call for 'compassion and justice,' and the rejection of 'fear and division' are all common themes within left-leaning discourse on immigration. The user name 'LiberalVoiceForChange' also strongly suggests a left-leaning orientation."
+    },
+    {
+      "author": "GreenForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statements align with typical left-leaning political positions. Specifically, the emphasis on a 'humane immigration policy,' prioritizing 'dignity of all individuals,' advocating for a 'pathway to citizenship' for undocumented immigrants, and highlighting their 'contributions to our society and economy' are all common arguments used by those on the left side of the political spectrum.\"\n}\n```",
+      "explanation": "The author's statements align with typical left-leaning political positions. Specifically, the emphasis on a 'humane immigration policy,' prioritizing 'dignity of all individuals,' advocating for a 'pathway to citizenship' for undocumented immigrants, and highlighting their 'contributions to our society and economy' are all common arguments used by those on the left side of the political spectrum."
+    },
+    {
+      "author": "GreenVoicesForJustice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for a compassionate immigration reform that includes a pathway to citizenship for undocumented immigrants and humane border security. This aligns with typical left-leaning political positions that emphasize social justice, inclusivity, and humane treatment of immigrants. The use of phrases like 'compassionate and just,' 'pathway to citizenship,' 'humane border security,' 'dignity and respect,' and 'stand up for what is right and just' are all indicative of left-leaning values and rhetoric.\"\n}\n```",
+      "explanation": "The author's post advocates for a compassionate immigration reform that includes a pathway to citizenship for undocumented immigrants and humane border security. This aligns with typical left-leaning political positions that emphasize social justice, inclusivity, and humane treatment of immigrants. The use of phrases like 'compassionate and just,' 'pathway to citizenship,' 'humane border security,' 'dignity and respect,' and 'stand up for what is right and just' are all indicative of left-leaning values and rhetoric."
+    },
+    {
+      "author": "ProgressiveVoice",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for a pathway to citizenship for undocumented immigrants, combined with the emphasis on 'inclusivity' and 'justice' within the immigration system, strongly suggests a left-leaning political orientation. These are common themes and priorities within progressive political discourse.\"\n}\n```",
+      "explanation": "The author's support for a pathway to citizenship for undocumented immigrants, combined with the emphasis on 'inclusivity' and 'justice' within the immigration system, strongly suggests a left-leaning political orientation. These are common themes and priorities within progressive political discourse."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's statement aligns with left-leaning political views. The support for immigration as a 'fundamental human right' and a 'pathway to citizenship' are common positions held by those on the left. The phrase 'the government should not dictate who can pursue the American dream' suggests a belief in individual liberty and opportunity, which, while not exclusive to the left, is often emphasized in progressive discourse on immigration. The call to 'let freedom reign' is a general statement that could be used by either side, but in the context of the other statements, it reinforces a left-leaning interpretation.\"\n}\n```",
+      "explanation": "The author's statement aligns with left-leaning political views. The support for immigration as a 'fundamental human right' and a 'pathway to citizenship' are common positions held by those on the left. The phrase 'the government should not dictate who can pursue the American dream' suggests a belief in individual liberty and opportunity, which, while not exclusive to the left, is often emphasized in progressive discourse on immigration. The call to 'let freedom reign' is a general statement that could be used by either side, but in the context of the other statements, it reinforces a left-leaning interpretation."
+    },
+    {
+      "author": "LibertyLover2023",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for open borders, a pathway to citizenship for undocumented immigrants, and the idea that freedom and opportunity should not be restricted by borders are all positions typically associated with the left wing of the political spectrum. While the author also mentions securing borders, this is often framed within a broader context of immigration reform and humanitarian concerns, which aligns more with left-leaning perspectives.\"\n}\n```",
+      "explanation": "The author's support for open borders, a pathway to citizenship for undocumented immigrants, and the idea that freedom and opportunity should not be restricted by borders are all positions typically associated with the left wing of the political spectrum. While the author also mentions securing borders, this is often framed within a broader context of immigration reform and humanitarian concerns, which aligns more with left-leaning perspectives."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security as a top priority, opposition to a pathway to citizenship for undocumented immigrants, and the call to enforce existing immigration laws are all positions typically associated with the right wing of the political spectrum. The phrase 'America remains a land of opportunity for those who come here legally' further reinforces this alignment.\"\n}\n```",
+      "explanation": "The author's emphasis on border security as a top priority, opposition to a pathway to citizenship for undocumented immigrants, and the call to enforce existing immigration laws are all positions typically associated with the right wing of the political spectrum. The phrase 'America remains a land of opportunity for those who come here legally' further reinforces this alignment."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses views that align with left-leaning political ideologies. Specifically, the support for a pathway to citizenship for undocumented immigrants, the emphasis on a 'just society,' and the rejection of 'fear' in policymaking are all common positions held by those on the left. While the author also mentions securing borders, the overall tone and policy preferences lean towards a more progressive stance on immigration and social justice.\"\n}\n```",
+      "explanation": "The author expresses views that align with left-leaning political ideologies. Specifically, the support for a pathway to citizenship for undocumented immigrants, the emphasis on a 'just society,' and the rejection of 'fear' in policymaking are all common positions held by those on the left. While the author also mentions securing borders, the overall tone and policy preferences lean towards a more progressive stance on immigration and social justice."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement contains elements that could be associated with both left and right-leaning ideologies, making it difficult to definitively classify their political orientation. The emphasis on border security is often associated with right-leaning perspectives, while the call for a pathway to citizenship and recognition of the 'humanity of undocumented immigrants' aligns more with left-leaning views. The phrase 'liberty and opportunity for all' is a common phrase used across the political spectrum. Without further information, it is impossible to accurately classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statement contains elements that could be associated with both left and right-leaning ideologies, making it difficult to definitively classify their political orientation. The emphasis on border security is often associated with right-leaning perspectives, while the call for a pathway to citizenship and recognition of the 'humanity of undocumented immigrants' aligns more with left-leaning views. The phrase 'liberty and opportunity for all' is a common phrase used across the political spectrum. Without further information, it is impossible to accurately classify the author's political orientation."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security as a top priority, the opposition to a pathway to citizenship for undocumented immigrants, and the call to enforce existing laws are all common positions associated with the right wing of the political spectrum. These statements align with a conservative stance on immigration and national security.\"\n}\n```",
+      "explanation": "The author's emphasis on border security as a top priority, the opposition to a pathway to citizenship for undocumented immigrants, and the call to enforce existing laws are all common positions associated with the right wing of the political spectrum. These statements align with a conservative stance on immigration and national security."
+    },
+    {
+      "author": "SecureBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, ending illegal immigration, and restricting pathways to citizenship to those who 'respect our laws' aligns with common conservative viewpoints. The phrase 'America deserves better' is often used in right-leaning political rhetoric to suggest a need for stricter immigration policies and a return to traditional values.\"\n}\n```",
+      "explanation": "The author's emphasis on border security, ending illegal immigration, and restricting pathways to citizenship to those who 'respect our laws' aligns with common conservative viewpoints. The phrase 'America deserves better' is often used in right-leaning political rhetoric to suggest a need for stricter immigration policies and a return to traditional values."
+    },
+    {
+      "author": "LibertyForAll",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's statement contains elements that could be associated with both left and right-leaning ideologies, making it difficult to definitively classify their political orientation. The emphasis on securing borders is often a right-leaning position, while advocating for a pathway to citizenship and acknowledging the humanity of undocumented immigrants aligns more with left-leaning perspectives. Without further information, it's impossible to accurately classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author's statement contains elements that could be associated with both left and right-leaning ideologies, making it difficult to definitively classify their political orientation. The emphasis on securing borders is often a right-leaning position, while advocating for a pathway to citizenship and acknowledging the humanity of undocumented immigrants aligns more with left-leaning perspectives. Without further information, it's impossible to accurately classify the author's political orientation."
+    },
+    {
+      "author": "LibertyLover",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's support for open borders and a pathway to citizenship for undocumented immigrants aligns with typical left-leaning political positions. While advocating for securing borders can be seen across the political spectrum, coupling it with a pathway to citizenship and framing it as essential for a 'free society' is more commonly associated with left-leaning perspectives on immigration.\"\n}\n```",
+      "explanation": "The author's support for open borders and a pathway to citizenship for undocumented immigrants aligns with typical left-leaning political positions. While advocating for securing borders can be seen across the political spectrum, coupling it with a pathway to citizenship and framing it as essential for a 'free society' is more commonly associated with left-leaning perspectives on immigration."
+    },
+    {
+      "author": "SecureOurBordersNow",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on border security, prioritizing the safety of American citizens over immigrants, and opposing a pathway to citizenship for undocumented immigrants are all common positions associated with the right wing of the political spectrum. The phrase 'open borders' is often used by conservatives to criticize more liberal immigration policies.\"\n}\n```",
+      "explanation": "The author's emphasis on border security, prioritizing the safety of American citizens over immigrants, and opposing a pathway to citizenship for undocumented immigrants are all common positions associated with the right wing of the political spectrum. The phrase 'open borders' is often used by conservatives to criticize more liberal immigration policies."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Immigration_Reform/balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_gpt-4o-mini_google_gemini-2.0-flash-001_analysis.json"
+}

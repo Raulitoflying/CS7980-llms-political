@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 85.0,
+      "precision": 76.92307692307693,
+      "recall": 100.0,
+      "f1_score": 8695.652173913044,
+      "true_positive": 10,
+      "false_positive": 3,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 85.0,
+      "precision": 100.0,
+      "recall": 70.0,
+      "f1_score": 8235.29411764706,
+      "true_positive": 7,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 3
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 85.0
+  },
+  "classifications": [
+    {
+      "author": "SafeAndSecureUSA",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on public safety over unfettered access to firearms, support for sensible gun regulations, and the belief that the Second Amendment does not grant absolute rights aligns with typical left-leaning political views. These views often prioritize community safety and regulation over individual gun rights.\"\n}\n```",
+      "explanation": "The author's emphasis on public safety over unfettered access to firearms, support for sensible gun regulations, and the belief that the Second Amendment does not grant absolute rights aligns with typical left-leaning political views. These views often prioritize community safety and regulation over individual gun rights."
+    },
+    {
+      "author": "GreenForSafety",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on public safety over unrestricted gun ownership and the call for sensible gun control aligns with typical left-leaning political views. The left often advocates for stricter regulations on firearms to reduce gun violence and promote community safety. The phrase 'sensible gun control' and the focus on protecting lives further support this classification.\"\n}\n```",
+      "explanation": "The author's emphasis on public safety over unrestricted gun ownership and the call for sensible gun control aligns with typical left-leaning political views. The left often advocates for stricter regulations on firearms to reduce gun violence and promote community safety. The phrase 'sensible gun control' and the focus on protecting lives further support this classification."
+    },
+    {
+      "author": "SafeAndSoundAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on public safety over individual gun rights, and the call for 'common sense gun control measures' aligns with typical left-leaning political views. The left often advocates for stricter gun control laws to reduce gun violence and promote community safety, which is reflected in this post.\"\n}\n```",
+      "explanation": "The author's emphasis on public safety over individual gun rights, and the call for 'common sense gun control measures' aligns with typical left-leaning political views. The left often advocates for stricter gun control laws to reduce gun violence and promote community safety, which is reflected in this post."
+    },
+    {
+      "author": "DefendTheSecond",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on protecting the Second Amendment and their opposition to government overreach in the context of gun control are indicative of a right-leaning political orientation. The belief in responsible gun ownership as a means to true security aligns with conservative views on individual rights and limited government intervention.\"\n}\n```",
+      "explanation": "The author's strong emphasis on protecting the Second Amendment and their opposition to government overreach in the context of gun control are indicative of a right-leaning political orientation. The belief in responsible gun ownership as a means to true security aligns with conservative views on individual rights and limited government intervention."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to gun ownership, as well as the rejection of any attempts to regulate this right in the name of public safety, aligns with conservative or right-wing political views. The focus on individual liberties and the right to self-defense is a common theme among right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to gun ownership, as well as the rejection of any attempts to regulate this right in the name of public safety, aligns with conservative or right-wing political views. The focus on individual liberties and the right to self-defense is a common theme among right-leaning political orientations."
+    },
+    {
+      "author": "SafeAndSoundDem",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post advocates for stricter gun control measures, which is a position typically associated with the political left. The emphasis on community safety over unrestricted gun rights and the call for 'common-sense regulations' aligns with liberal or progressive stances on gun control. The urgency and direct call for action further support this classification.\"\n}\n```",
+      "explanation": "The author's post advocates for stricter gun control measures, which is a position typically associated with the political left. The emphasis on community safety over unrestricted gun rights and the call for 'common-sense regulations' aligns with liberal or progressive stances on gun control. The urgency and direct call for action further support this classification."
+    },
+    {
+      "author": "SafeAndSoundDem",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on 'public safety' and 'common sense gun control' aligns with typical left-leaning political views. The call for stricter gun regulations and the framing of such measures as necessary for community protection and saving lives are common positions held by those on the left. The use of the phrase 'enough is enough' suggests a frustration with the current state of gun laws, which is often a sentiment expressed by those advocating for more stringent regulations.\"\n}\n```",
+      "explanation": "The author's emphasis on 'public safety' and 'common sense gun control' aligns with typical left-leaning political views. The call for stricter gun regulations and the framing of such measures as necessary for community protection and saving lives are common positions held by those on the left. The use of the phrase 'enough is enough' suggests a frustration with the current state of gun laws, which is often a sentiment expressed by those advocating for more stringent regulations."
+    },
+    {
+      "author": "EcoGuardian",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on public safety, the need for gun control, and the belief that the Second Amendment should not supersede the safety of the community aligns with typical left-leaning political views. These views often advocate for stricter regulations on firearms and prioritize community safety over individual gun rights.\"\n}\n```",
+      "explanation": "The author's emphasis on public safety, the need for gun control, and the belief that the Second Amendment should not supersede the safety of the community aligns with typical left-leaning political views. These views often advocate for stricter regulations on firearms and prioritize community safety over individual gun rights."
+    },
+    {
+      "author": "SafeAndSound",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on public safety over unrestricted gun ownership and the call for common-sense gun control measures aligns with typical left-leaning political views. The left often advocates for stricter gun regulations to reduce gun violence and promote community safety, which is reflected in the author's stance.\"\n}\n```",
+      "explanation": "The author's emphasis on public safety over unrestricted gun ownership and the call for common-sense gun control measures aligns with typical left-leaning political views. The left often advocates for stricter gun regulations to reduce gun violence and promote community safety, which is reflected in the author's stance."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on defending the Second Amendment and the right to bear arms, along with the emphasis on empowering law-abiding citizens rather than implementing stricter gun control measures, aligns with conservative or right-wing political views. This perspective often prioritizes individual rights and is skeptical of government intervention in areas like gun ownership, which are typical characteristics of right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's strong stance on defending the Second Amendment and the right to bear arms, along with the emphasis on empowering law-abiding citizens rather than implementing stricter gun control measures, aligns with conservative or right-wing political views. This perspective often prioritizes individual rights and is skeptical of government intervention in areas like gun ownership, which are typical characteristics of right-leaning political orientations."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control are typically associated with right-leaning political views. The emphasis on individual rights and the belief that gun control will only harm law-abiding citizens aligns with conservative perspectives on gun ownership and personal liberties.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control are typically associated with right-leaning political views. The emphasis on individual rights and the belief that gun control will only harm law-abiding citizens aligns with conservative perspectives on gun ownership and personal liberties."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on protecting the Second Amendment and their belief that responsible gun ownership is a fundamental right aligns with conservative or right-wing political views. They also express skepticism towards gun control measures, which are often advocated by left-leaning individuals. The emphasis on constitutional rights and individual freedoms further supports this classification.\"\n}\n```",
+      "explanation": "The author's strong stance on protecting the Second Amendment and their belief that responsible gun ownership is a fundamental right aligns with conservative or right-wing political views. They also express skepticism towards gun control measures, which are often advocated by left-leaning individuals. The emphasis on constitutional rights and individual freedoms further supports this classification."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to any form of gun control are typically associated with right-leaning political views. The use of phrases like 'God-given right' and 'defend our rights fiercely' further align with conservative rhetoric, which often emphasizes individual liberties and resistance to government regulation, particularly in the context of gun ownership.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to any form of gun control are typically associated with right-leaning political views. The use of phrases like 'God-given right' and 'defend our rights fiercely' further align with conservative rhetoric, which often emphasizes individual liberties and resistance to government regulation, particularly in the context of gun ownership."
+    },
+    {
+      "author": "DefenderOfLiberty",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to bear arms is a common stance among those on the political right. Additionally, the focus on responsible gun ownership and the belief that strong laws can enhance freedom and security aligns with conservative views on gun control and individual liberties.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to bear arms is a common stance among those on the political right. Additionally, the focus on responsible gun ownership and the belief that strong laws can enhance freedom and security aligns with conservative views on gun control and individual liberties."
+    },
+    {
+      "author": "LibertyDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control measures are typically associated with right-leaning political views. The emphasis on individual rights and the criticism of government overreach are also common themes among conservative or right-wing political orientations.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control measures are typically associated with right-leaning political views. The emphasis on individual rights and the criticism of government overreach are also common themes among conservative or right-wing political orientations."
+    },
+    {
+      "author": "LibertyWarrior1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control are typically associated with right-wing political views. The emphasis on individual liberties and the belief that gun control is ineffective and threatening to freedoms aligns with conservative ideologies.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control are typically associated with right-wing political views. The emphasis on individual liberties and the belief that gun control is ineffective and threatening to freedoms aligns with conservative ideologies."
+    },
+    {
+      "author": "FreedomDefender1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment, the right to bear arms, and the need to protect these rights from government interference are all strongly associated with conservative or right-wing political views. The belief that public safety is best achieved through individual empowerment and self-defense, rather than through government regulation, further supports this classification.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment, the right to bear arms, and the need to protect these rights from government interference are all strongly associated with conservative or right-wing political views. The belief that public safety is best achieved through individual empowerment and self-defense, rather than through government regulation, further supports this classification."
+    },
+    {
+      "author": "LibertyDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to gun ownership, along with the belief that personal responsibility is key to public safety, aligns with conservative or right-wing political views. The focus on protecting freedoms and security without compromise is also characteristic of right-leaning political orientations.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to gun ownership, along with the belief that personal responsibility is key to public safety, aligns with conservative or right-wing political views. The focus on protecting freedoms and security without compromise is also characteristic of right-leaning political orientations."
+    },
+    {
+      "author": "LibertyDefender1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong emphasis on the Second Amendment and the right to bear arms, along with their opposition to any form of gun control, are typically associated with right-leaning political views. The use of phrases like 'non-negotiable' and 'direct attack on our freedom' suggests a strong conservative stance on gun rights and individual liberties.\"\n}\n```",
+      "explanation": "The author's strong emphasis on the Second Amendment and the right to bear arms, along with their opposition to any form of gun control, are typically associated with right-leaning political views. The use of phrases like 'non-negotiable' and 'direct attack on our freedom' suggests a strong conservative stance on gun rights and individual liberties."
+    },
+    {
+      "author": "LibertyDefender",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's strong stance on the Second Amendment and opposition to gun control measures are typically associated with right-leaning political views. The emphasis on individual rights and the criticism of government overreach further support this classification.\"\n}\n```",
+      "explanation": "The author's strong stance on the Second Amendment and opposition to gun control measures are typically associated with right-leaning political views. The emphasis on individual rights and the criticism of government overreach further support this classification."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Gun_Control/balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_high_confidence_Gun_Control_and_Second_Amendment_Rights:_Balancing_gun_ownership_rights_with_public_safety_gpt-4o-mini_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 50.0,
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 10
+    },
+    "left": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "unknown": {
+      "accuracy": 10.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 18,
+      "true_negative": 2,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 10.0
+  },
+  "classifications": [
+    {
+      "author": "GreenVoterThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about both Voter ID laws and mail-in voting, indicating a balanced perspective. They do not explicitly endorse or oppose any specific political party or ideology, making it difficult to classify their political orientation as either LEFT or RIGHT. The author's focus on election integrity and accessibility suggests a pragmatic approach rather than a clear political leaning.\"\n}\n```",
+      "explanation": "The author expresses concerns about both Voter ID laws and mail-in voting, indicating a balanced perspective. They do not explicitly endorse or oppose any specific political party or ideology, making it difficult to classify their political orientation as either LEFT or RIGHT. The author's focus on election integrity and accessibility suggests a pragmatic approach rather than a clear political leaning."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a political orientation. They raise questions about voter ID laws, mail-in voting, and gerrymandering without taking a definitive stance on these issues. The post is more about seeking information and understanding rather than advocating for a specific political viewpoint.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a political orientation. They raise questions about voter ID laws, mail-in voting, and gerrymandering without taking a definitive stance on these issues. The post is more about seeking information and understanding rather than advocating for a specific political viewpoint."
+    },
+    {
+      "author": "VotingConcerns101",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They present questions about Voter ID laws and mail-in voting without taking a definitive stance on either issue. The post acknowledges that there are valid arguments on both sides, indicating a neutral or exploratory approach rather than a strong leaning towards either left or right political views.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They present questions about Voter ID laws and mail-in voting without taking a definitive stance on either issue. The post acknowledges that there are valid arguments on both sides, indicating a neutral or exploratory approach rather than a strong leaning towards either left or right political views."
+    },
+    {
+      "author": "VotingRightsObserver",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author raises questions about voter ID laws, mail-in voting, and gerrymandering without expressing a clear stance on these issues. They express concern about potential disenfranchisement and the complexity of gerrymandering but do not advocate for any specific political position or policy. Therefore, it is difficult to classify the author's political orientation based on this post.\"\n}\n```",
+      "explanation": "The author raises questions about voter ID laws, mail-in voting, and gerrymandering without expressing a clear stance on these issues. They express concern about potential disenfranchisement and the complexity of gerrymandering but do not advocate for any specific political position or policy. Therefore, it is difficult to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "GreenVotingQuestions",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about voter ID laws, mail-in voting, and gerrymandering, but does not take a clear stance on any of these issues. They question the effectiveness and fairness of these policies without advocating for a specific political position. The post is more about seeking understanding and clarification rather than promoting a particular political ideology.\"\n}\n```",
+      "explanation": "The author expresses concerns about voter ID laws, mail-in voting, and gerrymandering, but does not take a clear stance on any of these issues. They question the effectiveness and fairness of these policies without advocating for a specific political position. The post is more about seeking understanding and clarification rather than promoting a particular political ideology."
+    },
+    {
+      "author": "GreenVotingThoughts",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses skepticism about voter ID laws, which are often supported by right-leaning politicians as a means to prevent voter fraud. They also question the potential issues with mail-in voting, which is often advocated for by left-leaning politicians. Additionally, the mention of gerrymandering, a practice often criticized by left-leaning individuals, further suggests a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author expresses skepticism about voter ID laws, which are often supported by right-leaning politicians as a means to prevent voter fraud. They also question the potential issues with mail-in voting, which is often advocated for by left-leaning politicians. Additionally, the mention of gerrymandering, a practice often criticized by left-leaning individuals, further suggests a left-leaning orientation."
+    },
+    {
+      "author": "EcoVoteThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author presents a balanced and neutral perspective, discussing both the potential benefits and drawbacks of voter ID laws, mail-in voting, and gerrymandering. They do not express a clear political leaning or bias in their statements, making it difficult to classify their political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author presents a balanced and neutral perspective, discussing both the potential benefits and drawbacks of voter ID laws, mail-in voting, and gerrymandering. They do not express a clear political leaning or bias in their statements, making it difficult to classify their political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "VotingThoughtsUncertain",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire to understand complex issues without taking a clear stance on any specific political position. They question the impact of gerrymandering and the complexities of voter ID laws and mail-in voting, but do not provide any clear indication of a left or right political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire to understand complex issues without taking a clear stance on any specific political position. They question the impact of gerrymandering and the complexities of voter ID laws and mail-in voting, but do not provide any clear indication of a left or right political orientation."
+    },
+    {
+      "author": "GreenThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about voter access and gerrymandering, which are issues often discussed by both left and right political orientations. However, the author does not provide a clear stance that aligns with either side. The post is more of a neutral inquiry into the complexities of voting laws and practices, without advocating for a specific political agenda.\"\n}\n```",
+      "explanation": "The author expresses concerns about voter access and gerrymandering, which are issues often discussed by both left and right political orientations. However, the author does not provide a clear stance that aligns with either side. The post is more of a neutral inquiry into the complexities of voting laws and practices, without advocating for a specific political agenda."
+    },
+    {
+      "author": "VotingRightsAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a concern for potential disenfranchisement of voters due to voter ID laws, which is a common stance among those on the left. Additionally, the mention of mail-in voting and gerrymandering, both of which are often discussed in the context of voting rights and access, further indicates a left-leaning orientation. The author's questioning tone and openness to discussion also align with a more progressive viewpoint, which tends to prioritize inclusivity and accessibility in voting processes.\"\n}\n```",
+      "explanation": "The author's post suggests a concern for potential disenfranchisement of voters due to voter ID laws, which is a common stance among those on the left. Additionally, the mention of mail-in voting and gerrymandering, both of which are often discussed in the context of voting rights and access, further indicates a left-leaning orientation. The author's questioning tone and openness to discussion also align with a more progressive viewpoint, which tends to prioritize inclusivity and accessibility in voting processes."
+    },
+    {
+      "author": "ElectionConcerned",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about election integrity and the potential issues with mail-in voting, which are often associated with right-leaning views. However, they also question the effects of gerrymandering, which is a topic often discussed by those on the left. The author does not take a clear stance on either side, making their political orientation unknown based on the provided content.\"\n}\n```",
+      "explanation": "The author expresses concerns about election integrity and the potential issues with mail-in voting, which are often associated with right-leaning views. However, they also question the effects of gerrymandering, which is a topic often discussed by those on the left. The author does not take a clear stance on either side, making their political orientation unknown based on the provided content."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They present a balanced view on several contentious issues, acknowledging both potential benefits and drawbacks of Voter ID laws, mail-in voting, and gerrymandering. The author's language is neutral and seeks to understand different perspectives, making it difficult to classify them as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They present a balanced view on several contentious issues, acknowledging both potential benefits and drawbacks of Voter ID laws, mail-in voting, and gerrymandering. The author's language is neutral and seeks to understand different perspectives, making it difficult to classify them as either LEFT or RIGHT."
+    },
+    {
+      "author": "ConcernedVoter2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They express concerns about election integrity and potential disenfranchisement, which are issues that can be of concern to both left and right-leaning individuals. The author also questions the necessity of mail-in voting and the complexities of gerrymandering without taking a clear stance on these issues. Therefore, it is difficult to classify the author's political orientation based on this post.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They express concerns about election integrity and potential disenfranchisement, which are issues that can be of concern to both left and right-leaning individuals. The author also questions the necessity of mail-in voting and the complexities of gerrymandering without taking a clear stance on these issues. Therefore, it is difficult to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a specific political orientation. They raise questions about voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on these issues. The questions are neutral and seek to understand different perspectives, making it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a specific political orientation. They raise questions about voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on these issues. The questions are neutral and seek to understand different perspectives, making it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "ConcernedVoter",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and confusion about various election-related issues, such as Voter ID laws, mail-in voting, and gerrymandering. They do not take a clear stance on any of these topics, nor do they align with any specific political ideology. Therefore, it is not possible to classify the author's political orientation based on this post.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and confusion about various election-related issues, such as Voter ID laws, mail-in voting, and gerrymandering. They do not take a clear stance on any of these topics, nor do they align with any specific political ideology. Therefore, it is not possible to classify the author's political orientation based on this post."
+    },
+    {
+      "author": "VotingThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses concerns about voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on any of these issues. They present questions and acknowledge valid concerns on both sides, indicating a neutral or undecided position. There is no clear indication of a left or right political orientation in the post.\"\n}\n```",
+      "explanation": "The author expresses concerns about voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on any of these issues. They present questions and acknowledge valid concerns on both sides, indicating a neutral or undecided position. There is no clear indication of a left or right political orientation in the post."
+    },
+    {
+      "author": "LibertyThoughts",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses various aspects of voting laws and election processes without expressing a clear stance on any particular political ideology. They raise questions about Voter ID laws, mail-in voting, and gerrymandering, but do not provide definitive opinions or align with specific political positions. Therefore, it is not possible to classify the author's political orientation based on this content.\"\n}\n```",
+      "explanation": "The author's post discusses various aspects of voting laws and election processes without expressing a clear stance on any particular political ideology. They raise questions about Voter ID laws, mail-in voting, and gerrymandering, but do not provide definitive opinions or align with specific political positions. Therefore, it is not possible to classify the author's political orientation based on this content."
+    },
+    {
+      "author": "LibertyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post discusses various aspects of election integrity and voting processes without expressing a clear bias towards any particular political ideology. They raise questions about voter ID laws, mail-in voting, and gerrymandering, indicating a balanced and neutral perspective. The author does not advocate for or against specific political positions, making it difficult to classify their political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author's post discusses various aspects of election integrity and voting processes without expressing a clear bias towards any particular political ideology. They raise questions about voter ID laws, mail-in voting, and gerrymandering, indicating a balanced and neutral perspective. The author does not advocate for or against specific political positions, making it difficult to classify their political orientation as either LEFT or RIGHT."
+    },
+    {
+      "author": "VoteIntegrityThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism and uncertainty about various political issues, such as voter ID laws, mail-in voting, and gerrymandering. They do not take a clear stance on any of these issues, making it difficult to classify their political orientation as either left or right. The author's questioning tone and lack of definitive positions suggest a more neutral or undecided stance.\"\n}\n```",
+      "explanation": "The author expresses skepticism and uncertainty about various political issues, such as voter ID laws, mail-in voting, and gerrymandering. They do not take a clear stance on any of these issues, making it difficult to classify their political orientation as either left or right. The author's questioning tone and lack of definitive positions suggest a more neutral or undecided stance."
+    },
+    {
+      "author": "LibertySeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They raise questions about Voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on these issues. The questions are neutral and seek to understand different perspectives, making it difficult to determine whether the author leans left, right, or is politically neutral.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They raise questions about Voter ID laws, mail-in voting, and gerrymandering without taking a clear stance on these issues. The questions are neutral and seek to understand different perspectives, making it difficult to determine whether the author leans left, right, or is politically neutral."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Voting_Rights_and_Election_Integrity/balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_low_confidence_Voting_Rights_and_Election_Integrity:_Voter_ID_laws,_mail-in_voting,_gerrymandering_gpt-4o-mini_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}

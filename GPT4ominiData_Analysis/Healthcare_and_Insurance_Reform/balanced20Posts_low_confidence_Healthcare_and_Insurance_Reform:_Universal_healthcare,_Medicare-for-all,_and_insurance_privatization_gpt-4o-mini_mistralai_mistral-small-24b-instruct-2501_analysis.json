@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 60.0,
+      "precision": 100.0,
+      "recall": 20.0,
+      "f1_score": 3333.3333333333335,
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 8
+    },
+    "left": {
+      "accuracy": 65.0,
+      "precision": 80.0,
+      "recall": 40.0,
+      "f1_score": 5333.333333333334,
+      "true_positive": 4,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 6
+    },
+    "unknown": {
+      "accuracy": 35.0,
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 13,
+      "true_negative": 7,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 30.0
+  },
+  "classifications": [
+    {
+      "author": "GreenHealthAdvocate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author mentions 'universal healthcare' and 'Medicare-for-all,' which are policies typically associated with left-leaning political orientations. They also express concern about potential drawbacks of privatization, which is often a stance taken by those on the left who advocate for more government involvement in healthcare. However, the author also acknowledges the complexity of the issue and does not take a strong, definitive stance, which is why the classification is 'LEFT' rather than 'FAR LEFT'.\"\n}\n```",
+      "explanation": "The author mentions 'universal healthcare' and 'Medicare-for-all,' which are policies typically associated with left-leaning political orientations. They also express concern about potential drawbacks of privatization, which is often a stance taken by those on the left who advocate for more government involvement in healthcare. However, the author also acknowledges the complexity of the issue and does not take a strong, definitive stance, which is why the classification is 'LEFT' rather than 'FAR LEFT'."
+    },
+    {
+      "author": "HealthCareThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and openness to different viewpoints regarding healthcare, mentioning both universal healthcare and insurance privatization. They do not explicitly align with either left or right political stances, making their political orientation unclear.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and openness to different viewpoints regarding healthcare, mentioning both universal healthcare and insurance privatization. They do not explicitly align with either left or right political stances, making their political orientation unclear."
+    },
+    {
+      "author": "HealthCareSeeker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They express curiosity and uncertainty about both universal healthcare (a policy often associated with left-leaning views) and insurance privatization (a policy often associated with right-leaning views). The author's questioning tone and lack of clear stance on either issue make it difficult to determine their political orientation.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They express curiosity and uncertainty about both universal healthcare (a policy often associated with left-leaning views) and insurance privatization (a policy often associated with right-leaning views). The author's questioning tone and lack of clear stance on either issue make it difficult to determine their political orientation."
+    },
+    {
+      "author": "HealthcareThinker",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author expresses support for universal healthcare, which is a policy often advocated by left-leaning individuals and parties. The mention of Medicare-for-all further suggests a left-leaning orientation, as this is a proposal typically associated with progressive or left-wing politics. However, the author also questions the practicality of Medicare-for-all and considers the potential benefits of insurance privatization, indicating some level of openness to market-based solutions. This nuanced view does not negate the overall left-leaning sentiment expressed in the post.\"\n}\n```",
+      "explanation": "The author expresses support for universal healthcare, which is a policy often advocated by left-leaning individuals and parties. The mention of Medicare-for-all further suggests a left-leaning orientation, as this is a proposal typically associated with progressive or left-wing politics. However, the author also questions the practicality of Medicare-for-all and considers the potential benefits of insurance privatization, indicating some level of openness to market-based solutions. This nuanced view does not negate the overall left-leaning sentiment expressed in the post."
+    },
+    {
+      "author": "GreenHealthDebater",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'universal healthcare' and 'Medicare-for-all' suggests a leaning towards left-wing political views. These terms are commonly associated with progressive policies aimed at expanding government-provided healthcare services. The author's consideration of potential downsides indicates a nuanced perspective, but the focus on these specific healthcare policies leans towards the left.\"\n}\n```",
+      "explanation": "The author's mention of 'universal healthcare' and 'Medicare-for-all' suggests a leaning towards left-wing political views. These terms are commonly associated with progressive policies aimed at expanding government-provided healthcare services. The author's consideration of potential downsides indicates a nuanced perspective, but the focus on these specific healthcare policies leans towards the left."
+    },
+    {
+      "author": "HealthcareDebateThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a desire to find a balanced solution regarding universal healthcare. They acknowledge valid arguments on both sides of the Medicare-for-all and insurance privatization debate, indicating a lack of strong political leaning towards either the left or the right. The post is more about seeking a middle ground rather than advocating for a specific political ideology.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a desire to find a balanced solution regarding universal healthcare. They acknowledge valid arguments on both sides of the Medicare-for-all and insurance privatization debate, indicating a lack of strong political leaning towards either the left or the right. The post is more about seeking a middle ground rather than advocating for a specific political ideology."
+    },
+    {
+      "author": "GreenHealthDebate",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's mention of 'universal healthcare' and 'equitable solution' suggests a leaning towards policies that are typically associated with the political left, such as increased government involvement in healthcare and social welfare. The concern about funding and effectiveness indicates a nuanced view, but the initial proposal aligns with left-leaning policies.\"\n}\n```",
+      "explanation": "The author's mention of 'universal healthcare' and 'equitable solution' suggests a leaning towards policies that are typically associated with the political left, such as increased government involvement in healthcare and social welfare. The concern about funding and effectiveness indicates a nuanced view, but the initial proposal aligns with left-leaning policies."
+    },
+    {
+      "author": "HealthPolicyThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and is exploring different viewpoints on healthcare policy. They mention both universal healthcare (a policy often associated with left-leaning views) and complete privatization (a policy often associated with right-leaning views). The lack of a clear stance or preference makes it difficult to classify the author's political orientation.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and is exploring different viewpoints on healthcare policy. They mention both universal healthcare (a policy often associated with left-leaning views) and complete privatization (a policy often associated with right-leaning views). The lack of a clear stance or preference makes it difficult to classify the author's political orientation."
+    },
+    {
+      "author": "HealthCareSkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and a balanced view on healthcare policies. They acknowledge potential benefits of universal healthcare but also raise concerns about unintended consequences, indicating a lack of strong political leaning towards either left or right. The mention of 'insurance privatization' and 'Medicare-for-all' suggests awareness of both conservative and liberal viewpoints, but without a clear preference.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and a balanced view on healthcare policies. They acknowledge potential benefits of universal healthcare but also raise concerns about unintended consequences, indicating a lack of strong political leaning towards either left or right. The mention of 'insurance privatization' and 'Medicare-for-all' suggests awareness of both conservative and liberal viewpoints, but without a clear preference."
+    },
+    {
+      "author": "HealthCareThoughts2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and curiosity about both universal healthcare and insurance privatization, without clearly favoring one side over the other. The post does not provide enough information to definitively classify the author's political orientation as left or right.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and curiosity about both universal healthcare and insurance privatization, without clearly favoring one side over the other. The post does not provide enough information to definitively classify the author's political orientation as left or right."
+    },
+    {
+      "author": "ConcernedCitizen2023",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough information to definitively classify their political orientation. They are questioning the feasibility of universal healthcare and Medicare-for-all, which are typically associated with left-leaning policies, but they do not express a clear stance or additional views that would indicate a specific political orientation. The post is more of a neutral inquiry rather than a statement of belief or policy support.\"\n}\n```",
+      "explanation": "The author's post does not provide enough information to definitively classify their political orientation. They are questioning the feasibility of universal healthcare and Medicare-for-all, which are typically associated with left-leaning policies, but they do not express a clear stance or additional views that would indicate a specific political orientation. The post is more of a neutral inquiry rather than a statement of belief or policy support."
+    },
+    {
+      "author": "HealthCareConundrum",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and curiosity about both universal healthcare and private options, without clearly favoring one side over the other. They acknowledge potential benefits of universal healthcare but also raise concerns about its implementation. This balanced and exploratory tone makes it difficult to classify the author's political orientation as definitively left or right.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and curiosity about both universal healthcare and private options, without clearly favoring one side over the other. They acknowledge potential benefits of universal healthcare but also raise concerns about its implementation. This balanced and exploratory tone makes it difficult to classify the author's political orientation as definitively left or right."
+    },
+    {
+      "author": "HealthcareSkeptic",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide enough clear indicators of a specific political orientation. They present a balanced view by questioning both universal healthcare and privatizing insurance, without advocating strongly for either side. The use of phrases like 'I am not entirely sure' and 'It seems like' suggests a neutral or exploratory stance rather than a committed political position.\"\n}\n```",
+      "explanation": "The author's post does not provide enough clear indicators of a specific political orientation. They present a balanced view by questioning both universal healthcare and privatizing insurance, without advocating strongly for either side. The use of phrases like 'I am not entirely sure' and 'It seems like' suggests a neutral or exploratory stance rather than a committed political position."
+    },
+    {
+      "author": "HealthCareThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author's post does not provide clear indicators of a political orientation. They present a balanced view by acknowledging both the potential benefits and drawbacks of universal healthcare or Medicare-for-all. The author also expresses uncertainty and seeks input from others, indicating an open-minded approach rather than a strong stance aligned with either left or right political views.\"\n}\n```",
+      "explanation": "The author's post does not provide clear indicators of a political orientation. They present a balanced view by acknowledging both the potential benefits and drawbacks of universal healthcare or Medicare-for-all. The author also expresses uncertainty and seeks input from others, indicating an open-minded approach rather than a strong stance aligned with either left or right political views."
+    },
+    {
+      "author": "LibertyInHealth",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses skepticism about universal healthcare and Medicare-for-all, but also questions the benefits of insurance privatization. They suggest that there might be better solutions, indicating an open-minded approach rather than a clear political leaning. The post does not provide enough information to definitively classify the author's political orientation as either left or right.\"\n}\n```",
+      "explanation": "The author expresses skepticism about universal healthcare and Medicare-for-all, but also questions the benefits of insurance privatization. They suggest that there might be better solutions, indicating an open-minded approach rather than a clear political leaning. The post does not provide enough information to definitively classify the author's political orientation as either left or right."
+    },
+    {
+      "author": "LibertyHealthThinker",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses uncertainty and poses questions about both universal healthcare and privatization. They do not clearly advocate for or against any specific political ideology, making their political orientation difficult to determine. The post is more of an inquiry seeking different perspectives rather than a statement of a particular political stance.\"\n}\n```",
+      "explanation": "The author expresses uncertainty and poses questions about both universal healthcare and privatization. They do not clearly advocate for or against any specific political ideology, making their political orientation difficult to determine. The post is more of an inquiry seeking different perspectives rather than a statement of a particular political stance."
+    },
+    {
+      "author": "CautiousConservative",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post suggests a cautious approach to universal healthcare or Medicare-for-all, which are typically associated with left-leaning policies. The author expresses skepticism about these solutions and considers insurance privatization, which is more aligned with right-leaning economic policies. The use of the term 'CautiousConservative' in the author's username also indicates a right-leaning orientation.\"\n}\n```",
+      "explanation": "The author's post suggests a cautious approach to universal healthcare or Medicare-for-all, which are typically associated with left-leaning policies. The author expresses skepticism about these solutions and considers insurance privatization, which is more aligned with right-leaning economic policies. The use of the term 'CautiousConservative' in the author's username also indicates a right-leaning orientation."
+    },
+    {
+      "author": "ConservativeHealthDebate",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post indicates a conservative or right-leaning orientation. They express skepticism about a universal healthcare system, particularly Medicare-for-all, and raise concerns about potential unintended consequences. Additionally, they suggest that more privatization could enhance competition and improve care, which aligns with conservative views on market-based solutions and limited government intervention.\"\n}\n```",
+      "explanation": "The author's post indicates a conservative or right-leaning orientation. They express skepticism about a universal healthcare system, particularly Medicare-for-all, and raise concerns about potential unintended consequences. Additionally, they suggest that more privatization could enhance competition and improve care, which aligns with conservative views on market-based solutions and limited government intervention."
+    },
+    {
+      "author": "HealthCareQuestioner",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post suggests a leaning towards the left based on their consideration of Medicare-for-all, which is a policy often associated with left-leaning or progressive political views. The author's questioning of insurance privatization further indicates a potential skepticism towards market-based solutions, which are more commonly advocated by right-leaning individuals. However, the author's uncertainty and open-mindedness about the issue suggest a more nuanced and less extreme position.\"\n}\n```",
+      "explanation": "The author's post suggests a leaning towards the left based on their consideration of Medicare-for-all, which is a policy often associated with left-leaning or progressive political views. The author's questioning of insurance privatization further indicates a potential skepticism towards market-based solutions, which are more commonly advocated by right-leaning individuals. However, the author's uncertainty and open-mindedness about the issue suggest a more nuanced and less extreme position."
+    },
+    {
+      "author": "HealthcareDebater88",
+      "orientation": "unknown",
+      "raw_response": "```json\n{\n    \"orientation\": \"UNKNOWN\",\n    \"explanation\": \"The author expresses curiosity and concern about universal healthcare, specifically Medicare-for-all, without taking a clear stance. They acknowledge potential benefits but also raise questions about feasibility and job impacts. This balanced approach, without a clear advocacy for or against, makes it difficult to classify the author's political orientation as either LEFT or RIGHT.\"\n}\n```",
+      "explanation": "The author expresses curiosity and concern about universal healthcare, specifically Medicare-for-all, without taking a clear stance. They acknowledge potential benefits but also raise questions about feasibility and job impacts. This balanced approach, without a clear advocacy for or against, makes it difficult to classify the author's political orientation as either LEFT or RIGHT."
+    }
+  ],
+  "file_path": "GPT4omini_balancedData/Healthcare_and_Insurance_Reform/balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_gpt-4o-mini.json",
+  "output_filename": "balanced20Posts_low_confidence_Healthcare_and_Insurance_Reform:_Universal_healthcare,_Medicare-for-all,_and_insurance_privatization_gpt-4o-mini_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}
