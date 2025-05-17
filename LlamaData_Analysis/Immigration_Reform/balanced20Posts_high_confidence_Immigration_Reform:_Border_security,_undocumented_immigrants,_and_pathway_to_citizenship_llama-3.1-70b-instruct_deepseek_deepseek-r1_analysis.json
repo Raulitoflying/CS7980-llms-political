@@ -1,0 +1,162 @@
+{
+  "model_name": "deepseek/deepseek-r1",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 70.0,
+      "precision": 64.28571428571429,
+      "recall": 90.0,
+      "f1_score": 7500.000000000002,
+      "true_positive": 9,
+      "false_positive": 5,
+      "true_negative": 5,
+      "false_negative": 1
+    },
+    "left": {
+      "accuracy": 70.0,
+      "precision": 83.33333333333334,
+      "recall": 50.0,
+      "f1_score": 6250.0,
+      "true_positive": 5,
+      "false_positive": 1,
+      "true_negative": 9,
+      "false_negative": 5
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 70.0
+  },
+  "classifications": [
+    {
+      "author": "AmericaFirstPatriot",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict immigration policies, including building a border wall and mass deportation of undocumented immigrants, which are hallmark positions of right-wing political discourse in the U.S. The use of phrases like 'BUILD THE WALL' and 'DEPORT ALL ILLEGAL ALIENS' directly aligns with nationalist and conservative rhetoric. Additionally, the vehement opposition to a pathway to citizenship (framed as supporting 'lawbreakers') and the accusation of politicians being 'traitors' reflects a hardline stance consistent with right-wing populism. The username 'AmericaFirstPatriot' further reinforces nationalist themes often associated with the political right.\"\n}",
+      "explanation": "The post emphasizes strict immigration policies, including building a border wall and mass deportation of undocumented immigrants, which are hallmark positions of right-wing political discourse in the U.S. The use of phrases like 'BUILD THE WALL' and 'DEPORT ALL ILLEGAL ALIENS' directly aligns with nationalist and conservative rhetoric. Additionally, the vehement opposition to a pathway to citizenship (framed as supporting 'lawbreakers') and the accusation of politicians being 'traitors' reflects a hardline stance consistent with right-wing populism. The username 'AmericaFirstPatriot' further reinforces nationalist themes often associated with the political right."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author advocates for strict border control, rejection of pathways to citizenship for undocumented immigrants, and prioritization of American citizens' safety\u2014positions strongly aligned with right-wing political rhetoric. Right-leaning ideologies often emphasize nationalism, law-and-order approaches to immigration, and opposition to policies perceived as lenient toward undocumented individuals. The use of terms like 'broken our laws' and 'safety and security of American citizens' reflects a focus on sovereignty and legal adherence typical of conservative platforms.\"\n}\n```",
+      "explanation": "The author advocates for strict border control, rejection of pathways to citizenship for undocumented immigrants, and prioritization of American citizens' safety\u2014positions strongly aligned with right-wing political rhetoric. Right-leaning ideologies often emphasize nationalism, law-and-order approaches to immigration, and opposition to policies perceived as lenient toward undocumented individuals. The use of terms like 'broken our laws' and 'safety and security of American citizens' reflects a focus on sovereignty and legal adherence typical of conservative platforms."
+    },
+    {
+      "author": "JusticeForAll2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for progressive immigration policies, including a pathway to citizenship for undocumented immigrants and increased funding for asylum support programs\u2014positions strongly aligned with left-leaning platforms. Opposition to a border wall, a policy historically championed by conservative leaders, further signals a left-wing perspective. The emphasis on moral responsibility and humane treatment reflects social justice values commonly associated with the political left. No right-leaning priorities (e.g., border security focus, enforcement-centric approaches) are present.\"\n}\n```",
+      "explanation": "The post advocates for progressive immigration policies, including a pathway to citizenship for undocumented immigrants and increased funding for asylum support programs\u2014positions strongly aligned with left-leaning platforms. Opposition to a border wall, a policy historically championed by conservative leaders, further signals a left-wing perspective. The emphasis on moral responsibility and humane treatment reflects social justice values commonly associated with the political left. No right-leaning priorities (e.g., border security focus, enforcement-centric approaches) are present."
+    },
+    {
+      "author": "JusticeForAll2024",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for progressive immigration policies, emphasizing moral responsibility ('morally reprehensible'), economic pragmatism, and human dignity. It explicitly criticizes exclusionary measures like 'walls' and 'xenophobia,' which are common targets of left-leaning critiques of right-wing immigration stances. The call for 'comprehensive immigration reform' prioritizing inclusivity aligns with typical left-wing platforms that emphasize social justice and systemic change over restrictive border policies.\"\n}\n```",
+      "explanation": "The post advocates for progressive immigration policies, emphasizing moral responsibility ('morally reprehensible'), economic pragmatism, and human dignity. It explicitly criticizes exclusionary measures like 'walls' and 'xenophobia,' which are common targets of left-leaning critiques of right-wing immigration stances. The call for 'comprehensive immigration reform' prioritizing inclusivity aligns with typical left-wing platforms that emphasize social justice and systemic change over restrictive border policies."
+    },
+    {
+      "author": "JusticeForAll2023",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post advocates for humane immigration reform, a pathway to citizenship for undocumented immigrants, and critiques border militarization\u2014all positions commonly associated with progressive or left-leaning political ideologies. The emphasis on inclusivity, moral condemnation of current policies, and rejection of militarized borders align with left-wing priorities focused on social justice and systemic reform rather than enforcement-centric approaches.\"\n}\n```",
+      "explanation": "The post advocates for humane immigration reform, a pathway to citizenship for undocumented immigrants, and critiques border militarization\u2014all positions commonly associated with progressive or left-leaning political ideologies. The emphasis on inclusivity, moral condemnation of current policies, and rejection of militarized borders align with left-wing priorities focused on social justice and systemic reform rather than enforcement-centric approaches."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's opposition to a pathway to citizenship for undocumented immigrants, emphasis on deporting all individuals who entered illegally, and advocacy for a border wall align with right-wing political positions. These stances are consistent with conservative priorities such as strict immigration enforcement, national security, and a law-and-order framework. The rhetoric ('absolute farce,' 'broken our laws') and policy preferences (wall construction, mass deportation) mirror common right-wing talking points in U.S. politics, particularly those associated with nationalist or populist conservatism.\"\n}\n```",
+      "explanation": "The author's opposition to a pathway to citizenship for undocumented immigrants, emphasis on deporting all individuals who entered illegally, and advocacy for a border wall align with right-wing political positions. These stances are consistent with conservative priorities such as strict immigration enforcement, national security, and a law-and-order framework. The rhetoric ('absolute farce,' 'broken our laws') and policy preferences (wall construction, mass deportation) mirror common right-wing talking points in U.S. politics, particularly those associated with nationalist or populist conservatism."
+    },
+    {
+      "author": "VerdiVibes",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes opposition to militarized border security, advocates for humane treatment and pathways to citizenship for undocumented immigrants, and criticizes detention centers\u2014all positions strongly aligned with progressive/left-wing political platforms. The language used ('inherent worth and dignity of all people,' 'just and inclusive system') reflects social justice principles and a focus on systemic reform, which are hallmarks of left-leaning discourse. Additionally, linking border policy to environmental concerns aligns with the left's tendency to connect social issues to broader systemic critiques like climate justice.\"\n}\n```",
+      "explanation": "The post emphasizes opposition to militarized border security, advocates for humane treatment and pathways to citizenship for undocumented immigrants, and criticizes detention centers\u2014all positions strongly aligned with progressive/left-wing political platforms. The language used ('inherent worth and dignity of all people,' 'just and inclusive system') reflects social justice principles and a focus on systemic reform, which are hallmarks of left-leaning discourse. Additionally, linking border policy to environmental concerns aligns with the left's tendency to connect social issues to broader systemic critiques like climate justice."
+    },
+    {
+      "author": "EcoJusticeWarrior",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The post emphasizes compassion, justice, and opposition to militarized borders, all hallmarks of progressive/left-leaning positions on immigration. The critique of 'xenophobic fear-mongering' aligns with left-wing critiques of conservative border policies, while advocating for pathways to citizenship and systemic reform reflects a focus on social equity and human rights. The author's username ('EcoJusticeWarrior') further suggests alignment with environmental and social justice causes, which are typically associated with left-leaning ideologies.\"\n}\n```",
+      "explanation": "The post emphasizes compassion, justice, and opposition to militarized borders, all hallmarks of progressive/left-leaning positions on immigration. The critique of 'xenophobic fear-mongering' aligns with left-wing critiques of conservative border policies, while advocating for pathways to citizenship and systemic reform reflects a focus on social equity and human rights. The author's username ('EcoJusticeWarrior') further suggests alignment with environmental and social justice causes, which are typically associated with left-leaning ideologies."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs rhetoric and policy positions strongly associated with right-wing political discourse. The use of terms like 'treasonous' to describe immigration reform, advocacy for a border wall, insistence on deporting 'illegal aliens,' and the prioritization of national security over humanitarian or inclusive policies align with conservative or right-wing stances on immigration. These positions are consistent with platforms that emphasize strict border control, opposition to pathways to citizenship for undocumented immigrants, and a focus on sovereignty\u2014a hallmark of right-leaning ideology in U.S. politics.\"\n}\n```",
+      "explanation": "The post employs rhetoric and policy positions strongly associated with right-wing political discourse. The use of terms like 'treasonous' to describe immigration reform, advocacy for a border wall, insistence on deporting 'illegal aliens,' and the prioritization of national security over humanitarian or inclusive policies align with conservative or right-wing stances on immigration. These positions are consistent with platforms that emphasize strict border control, opposition to pathways to citizenship for undocumented immigrants, and a focus on sovereignty\u2014a hallmark of right-leaning ideology in U.S. politics."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for strict immigration policies, including building a border wall and mass deportation of undocumented immigrants\u2014positions strongly associated with right-wing, particularly conservative, political discourse in the U.S. The rejection of a 'pathway to citizenship' (a policy often supported by left-leaning groups) and the use of charged rhetoric ('traitor to our nation') further align with hardline nationalist or populist-right ideologies. These stances are consistent with platforms emphasizing border security, law enforcement, and opposition to immigration reform perceived as lenient.\"\n}\n```",
+      "explanation": "The post advocates for strict immigration policies, including building a border wall and mass deportation of undocumented immigrants\u2014positions strongly associated with right-wing, particularly conservative, political discourse in the U.S. The rejection of a 'pathway to citizenship' (a policy often supported by left-leaning groups) and the use of charged rhetoric ('traitor to our nation') further align with hardline nationalist or populist-right ideologies. These stances are consistent with platforms emphasizing border security, law enforcement, and opposition to immigration reform perceived as lenient."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post employs rhetoric strongly associated with right-wing political positions on immigration. Phrases like 'invasion of undocumented immigrants,' the dismissal of a 'pathway to citizenship' as a 'joke,' and the explicit call for a border wall and deportation align with conservative and nationalist policies that prioritize strict immigration enforcement, border security, and opposition to policies perceived as lenient toward undocumented migrants. The urgency ('need it NOW') and framing of immigration as a threat ('held hostage') further reflect a right-wing populist narrative common in U.S. conservative discourse. The username 'Patriot1776' also suggests a nationalist or traditionalist perspective, which often correlates with right-leaning ideologies.\"\n}",
+      "explanation": "The post employs rhetoric strongly associated with right-wing political positions on immigration. Phrases like 'invasion of undocumented immigrants,' the dismissal of a 'pathway to citizenship' as a 'joke,' and the explicit call for a border wall and deportation align with conservative and nationalist policies that prioritize strict immigration enforcement, border security, and opposition to policies perceived as lenient toward undocumented migrants. The urgency ('need it NOW') and framing of immigration as a threat ('held hostage') further reflect a right-wing populist narrative common in U.S. conservative discourse. The username 'Patriot1776' also suggests a nationalist or traditionalist perspective, which often correlates with right-leaning ideologies."
+    },
+    {
+      "author": "PatriotForAmerica",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict immigration enforcement, building a border wall, and opposition to pathways to citizenship for undocumented immigrants\u2014positions strongly aligned with conservative/right-wing political rhetoric in the U.S. The language ('lawbreakers,' 'betrayal of trust') and focus on national security over immigration reform reflect common right-wing priorities, such as those historically advocated by figures like Donald Trump. The username 'PatriotForAmerica' also suggests nationalist leanings, further supporting a RIGHT classification.\"\n}\n```",
+      "explanation": "The post emphasizes strict immigration enforcement, building a border wall, and opposition to pathways to citizenship for undocumented immigrants\u2014positions strongly aligned with conservative/right-wing political rhetoric in the U.S. The language ('lawbreakers,' 'betrayal of trust') and focus on national security over immigration reform reflect common right-wing priorities, such as those historically advocated by figures like Donald Trump. The username 'PatriotForAmerica' also suggests nationalist leanings, further supporting a RIGHT classification."
+    },
+    {
+      "author": "LibertyLover88",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author advocates for a pathway to citizenship for undocumented immigrants, criticizes the border wall as ineffective, and condemns xenophobic rhetoric\u2014positions strongly aligned with progressive or left-leaning ideologies. While the mention of a 'free market approach' and 'individual freedom' might suggest libertarian or right-leaning economic views, the overall emphasis on social inclusion, opposition to restrictive immigration policies, and rejection of xenophobia are dominant themes that align more closely with left-wing priorities. The free market reference here likely serves to argue for reduced bureaucratic barriers rather than conservative economic policy, reinforcing a left-libertarian or progressive stance on immigration reform.\"\n}\n```",
+      "explanation": "The author advocates for a pathway to citizenship for undocumented immigrants, criticizes the border wall as ineffective, and condemns xenophobic rhetoric\u2014positions strongly aligned with progressive or left-leaning ideologies. While the mention of a 'free market approach' and 'individual freedom' might suggest libertarian or right-leaning economic views, the overall emphasis on social inclusion, opposition to restrictive immigration policies, and rejection of xenophobia are dominant themes that align more closely with left-wing priorities. The free market reference here likely serves to argue for reduced bureaucratic barriers rather than conservative economic policy, reinforcing a left-libertarian or progressive stance on immigration reform."
+    },
+    {
+      "author": "Patriot4America",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security, opposes pathways to citizenship for undocumented immigrants, and prioritizes national sovereignty and safety\u2014positions commonly associated with right-leaning political ideologies. The use of phrases like 'SECURE OUR BORDERS FIRST' and 'slap in the face to law-abiding American citizens' reflects a focus on immigration enforcement and a distinction between citizens and immigrants, aligning with conservative rhetoric. The absence of themes like social equity or immigration reform further supports a right-wing classification.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security, opposes pathways to citizenship for undocumented immigrants, and prioritizes national sovereignty and safety\u2014positions commonly associated with right-leaning political ideologies. The use of phrases like 'SECURE OUR BORDERS FIRST' and 'slap in the face to law-abiding American citizens' reflects a focus on immigration enforcement and a distinction between citizens and immigrants, aligning with conservative rhetoric. The absence of themes like social equity or immigration reform further supports a right-wing classification."
+    },
+    {
+      "author": "Patriot4America",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes 'strong border wall,' 'merit-based immigration system,' and opposition to 'amnesty and open borders,' all of which align with right-leaning political positions. These themes are central to conservative immigration policies in the U.S., often prioritizing national sovereignty, strict border control, and economic criteria for immigration. The rhetoric mirrors common right-wing critiques of progressive immigration reforms and echoes policies championed by figures like former President Trump. The username 'Patriot4America' further reinforces a nationalist tone frequently associated with right-wing discourse.\"\n}\n```",
+      "explanation": "The post emphasizes 'strong border wall,' 'merit-based immigration system,' and opposition to 'amnesty and open borders,' all of which align with right-leaning political positions. These themes are central to conservative immigration policies in the U.S., often prioritizing national sovereignty, strict border control, and economic criteria for immigration. The rhetoric mirrors common right-wing critiques of progressive immigration reforms and echoes policies championed by figures like former President Trump. The username 'Patriot4America' further reinforces a nationalist tone frequently associated with right-wing discourse."
+    },
+    {
+      "author": "Patriot4America",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for strict immigration enforcement, specifically mentioning building a wall along the southern border\u2014a policy strongly associated with right-wing political figures and platforms in the U.S. The rejection of a pathway to citizenship for undocumented immigrants, framed as unfair to those who immigrated legally, aligns with conservative arguments prioritizing rule-of-law and border security over progressive immigration reforms. The rhetoric and policy positions expressed are consistent with right-leaning ideologies on immigration.\"\n}\n```",
+      "explanation": "The post advocates for strict immigration enforcement, specifically mentioning building a wall along the southern border\u2014a policy strongly associated with right-wing political figures and platforms in the U.S. The rejection of a pathway to citizenship for undocumented immigrants, framed as unfair to those who immigrated legally, aligns with conservative arguments prioritizing rule-of-law and border security over progressive immigration reforms. The rhetoric and policy positions expressed are consistent with right-leaning ideologies on immigration."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict immigration enforcement, building a border wall, and opposition to pathways to citizenship for undocumented immigrants\u2014positions commonly associated with right-wing political discourse. The language framing immigration as a threat to national security and the use of terms like 'lawbreakers' and 'betrayal of trust' align with conservative rhetoric focused on sovereignty, law-and-order policies, and nationalist priorities.\"\n}",
+      "explanation": "The post emphasizes strict immigration enforcement, building a border wall, and opposition to pathways to citizenship for undocumented immigrants\u2014positions commonly associated with right-wing political discourse. The language framing immigration as a threat to national security and the use of terms like 'lawbreakers' and 'betrayal of trust' align with conservative rhetoric focused on sovereignty, law-and-order policies, and nationalist priorities."
+    },
+    {
+      "author": "Patriot4America",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post emphasizes strict border security, opposes pathways to citizenship for undocumented immigrants, and frames immigration through a law-and-order lens. Terms like 'coddling,' 'SECURE OUR BORDERS NOW,' and 'REWARD for breaking the law' align with right-leaning rhetoric that prioritizes enforcement over leniency. The argument that a pathway to citizenship insults legal immigrants is a common conservative talking point, reflecting a focus on rule-following and opposition to policies perceived as rewarding unlawful entry. The tone and content strongly correlate with right-wing immigration stances.\"\n}\n```",
+      "explanation": "The post emphasizes strict border security, opposes pathways to citizenship for undocumented immigrants, and frames immigration through a law-and-order lens. Terms like 'coddling,' 'SECURE OUR BORDERS NOW,' and 'REWARD for breaking the law' align with right-leaning rhetoric that prioritizes enforcement over leniency. The argument that a pathway to citizenship insults legal immigrants is a common conservative talking point, reflecting a focus on rule-following and opposition to policies perceived as rewarding unlawful entry. The tone and content strongly correlate with right-wing immigration stances."
+    },
+    {
+      "author": "SecureOurBordersNow",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author emphasizes strict border security as a prerequisite for any immigration reform, opposes pathways to citizenship for undocumented immigrants without these conditions, and frames the issue as a matter of respect for 'law-abiding American citizens.' These positions align with conservative or right-leaning political stances that prioritize national security, rule of law, and skepticism toward lenient immigration policies. The strong language (e.g., 'absurd,' 'slap in the face') and focus on enforcement over systemic solutions further reinforce a right-wing perspective.\"\n}",
+      "explanation": "The author emphasizes strict border security as a prerequisite for any immigration reform, opposes pathways to citizenship for undocumented immigrants without these conditions, and frames the issue as a matter of respect for 'law-abiding American citizens.' These positions align with conservative or right-leaning political stances that prioritize national security, rule of law, and skepticism toward lenient immigration policies. The strong language (e.g., 'absurd,' 'slap in the face') and focus on enforcement over systemic solutions further reinforce a right-wing perspective."
+    },
+    {
+      "author": "Patriot1776",
+      "orientation": "right",
+      "raw_response": "{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The post advocates for strict immigration enforcement, including building a border wall and mass deportation of undocumented immigrants without exceptions. These positions align with conservative and right-wing policy priorities, particularly those emphasized by the Republican Party in recent U.S. political discourse. The rejection of a pathway to citizenship and framing of immigration leniency as a 'slap in the face to law-abiding citizens' further reflects a right-leaning emphasis on nationalism, law and order, and opposition to progressive immigration reforms. The username 'Patriot1776' also carries nationalistic connotations consistent with right-wing rhetoric.\"\n}",
+      "explanation": "The post advocates for strict immigration enforcement, including building a border wall and mass deportation of undocumented immigrants without exceptions. These positions align with conservative and right-wing policy priorities, particularly those emphasized by the Republican Party in recent U.S. political discourse. The rejection of a pathway to citizenship and framing of immigration leniency as a 'slap in the face to law-abiding citizens' further reflects a right-leaning emphasis on nationalism, law and order, and opposition to progressive immigration reforms. The username 'Patriot1776' also carries nationalistic connotations consistent with right-wing rhetoric."
+    }
+  ],
+  "file_path": "Llama_balancedData/Immigration_Reform/balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_llama-3.1-70b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_Immigration_Reform:_Border_security,_undocumented_immigrants,_and_pathway_to_citizenship_llama-3.1-70b-instruct_deepseek_deepseek-r1_analysis.json"
+}

@@ -1,0 +1,162 @@
+{
+  "model_name": "mistralai/mistral-small-24b-instruct-2501",
+  "total_posts": 20,
+  "metrics": {
+    "right": {
+      "accuracy": 90.0,
+      "precision": 83.33333333333334,
+      "recall": 100.0,
+      "f1_score": 9090.90909090909,
+      "true_positive": 10,
+      "false_positive": 2,
+      "true_negative": 8,
+      "false_negative": 0
+    },
+    "left": {
+      "accuracy": 90.0,
+      "precision": 100.0,
+      "recall": 80.0,
+      "f1_score": 8888.888888888889,
+      "true_positive": 8,
+      "false_positive": 0,
+      "true_negative": 10,
+      "false_negative": 2
+    },
+    "unknown": {
+      "accuracy": 100.0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 20,
+      "false_negative": 0
+    },
+    "total_predictions": 20,
+    "overall_accuracy": 90.0
+  },
+  "classifications": [
+    {
+      "author": "EcoHoopsActivist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental sustainability, climate change, and the need for immediate action to reduce carbon footprint aligns with typical left-leaning political views. These views often prioritize environmental protection and sustainability, which are commonly associated with left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental sustainability, climate change, and the need for immediate action to reduce carbon footprint aligns with typical left-leaning political views. These views often prioritize environmental protection and sustainability, which are commonly associated with left-wing politics."
+    },
+    {
+      "author": "ComradeCourtside",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's use of terms like 'corporate oligarchy,' 'neoliberal ideology,' 'economic inequality,' and 'systemic oppression' suggests a strong left-wing orientation. The call for a 'revolutionary alternative' and the critique of the NBA as a tool of the elite further support this classification. The author's stance aligns with leftist critiques of capitalist structures and the need for radical change.\"\n}\n```",
+      "explanation": "The author's use of terms like 'corporate oligarchy,' 'neoliberal ideology,' 'economic inequality,' and 'systemic oppression' suggests a strong left-wing orientation. The call for a 'revolutionary alternative' and the critique of the NBA as a tool of the elite further support this classification. The author's stance aligns with leftist critiques of capitalist structures and the need for radical change."
+    },
+    {
+      "author": "SlamDunkSocialist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes social justice, activism against systemic racism and inequality, and calls for action from elected officials. These themes are strongly associated with left-wing political orientations, which often prioritize social justice, equality, and government intervention to address societal issues. The author's pride in athletes using their platforms for these causes further indicates a left-leaning perspective.\"\n}\n```",
+      "explanation": "The author's post emphasizes social justice, activism against systemic racism and inequality, and calls for action from elected officials. These themes are strongly associated with left-wing political orientations, which often prioritize social justice, equality, and government intervention to address societal issues. The author's pride in athletes using their platforms for these causes further indicates a left-leaning perspective."
+    },
+    {
+      "author": "GreenSlamDunk22",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on environmental sustainability, divestment from fossil fuels, and moral obligation to protect the planet are all strongly associated with left-leaning political views. These positions align with progressive environmental policies and social responsibility, which are typically advocated by the political left.\"\n}\n```",
+      "explanation": "The author's emphasis on environmental sustainability, divestment from fossil fuels, and moral obligation to protect the planet are all strongly associated with left-leaning political views. These positions align with progressive environmental policies and social responsibility, which are typically advocated by the political left."
+    },
+    {
+      "author": "SlamDunkSocialist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post emphasizes support for players speaking out against systemic racism and police brutality, and calls for corporate social responsibility and justice for Black lives. These themes are strongly associated with progressive or left-leaning political views, which often advocate for social justice, equality, and corporate accountability.\"\n}\n```",
+      "explanation": "The author's post emphasizes support for players speaking out against systemic racism and police brutality, and calls for corporate social responsibility and justice for Black lives. These themes are strongly associated with progressive or left-leaning political views, which often advocate for social justice, equality, and corporate accountability."
+    },
+    {
+      "author": "EcoHoopsActivist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on sustainability, environmental responsibility, and criticism of the NBA's contribution to climate change aligns with left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are common themes in left-wing politics.\"\n}\n```",
+      "explanation": "The author's emphasis on sustainability, environmental responsibility, and criticism of the NBA's contribution to climate change aligns with left-leaning political views. These views often prioritize environmental protection and corporate social responsibility, which are common themes in left-wing politics."
+    },
+    {
+      "author": "BallinForBernie",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's post highlights the NBA's support for social justice, specifically mentioning 'systemic racism and police brutality.' These are issues often associated with left-leaning political views, which emphasize social equality, civil rights, and progressive policies. The use of phrases like 'a shining example' and 'a slam dunk for democracy' indicates strong approval and support for these causes, further suggesting a left-leaning orientation.\"\n}\n```",
+      "explanation": "The author's post highlights the NBA's support for social justice, specifically mentioning 'systemic racism and police brutality.' These are issues often associated with left-leaning political views, which emphasize social equality, civil rights, and progressive policies. The use of phrases like 'a shining example' and 'a slam dunk for democracy' indicates strong approval and support for these causes, further suggesting a left-leaning orientation."
+    },
+    {
+      "author": "LibertyBallers88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of terms like 'globalist elite,' 'woke agenda,' and 'corporate shills' suggests a right-leaning political orientation. These phrases are often associated with conservative or right-wing rhetoric, which tends to be critical of perceived liberal or progressive influences in media and corporate entities. The call to 'boycott' also aligns with a more conservative stance, which often advocates for consumer activism against perceived ideological enemies.\"\n}\n```",
+      "explanation": "The author's use of terms like 'globalist elite,' 'woke agenda,' and 'corporate shills' suggests a right-leaning political orientation. These phrases are often associated with conservative or right-wing rhetoric, which tends to be critical of perceived liberal or progressive influences in media and corporate entities. The call to 'boycott' also aligns with a more conservative stance, which often advocates for consumer activism against perceived ideological enemies."
+    },
+    {
+      "author": "LibertyBall23",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'neoliberalism' in a negative context, criticism of 'social justice warrior antics,' and the emphasis on 'hardworking American taxpayers' suggest a right-leaning political orientation. These elements indicate a skepticism towards progressive social causes and a focus on traditional American values, which are often associated with conservative viewpoints.\"\n}\n```",
+      "explanation": "The author's use of the term 'neoliberalism' in a negative context, criticism of 'social justice warrior antics,' and the emphasis on 'hardworking American taxpayers' suggest a right-leaning political orientation. These elements indicate a skepticism towards progressive social causes and a focus on traditional American values, which are often associated with conservative viewpoints."
+    },
+    {
+      "author": "EcoHoopsActivist",
+      "orientation": "left",
+      "raw_response": "```json\n{\n    \"orientation\": \"LEFT\",\n    \"explanation\": \"The author's emphasis on sustainability, divestment from fossil fuels, and addressing the climate crisis aligns with typical left-leaning political views, which often prioritize environmental protection and sustainability initiatives. The use of strong language like 'unacceptable' in the context of climate action further supports this classification.\"\n}\n```",
+      "explanation": "The author's emphasis on sustainability, divestment from fossil fuels, and addressing the climate crisis aligns with typical left-leaning political views, which often prioritize environmental protection and sustainability initiatives. The use of strong language like 'unacceptable' in the context of climate action further supports this classification."
+    },
+    {
+      "author": "LibertyBaller88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's emphasis on free market principles, opposition to government interference, and resistance to government bailouts are all indicative of a right-leaning political orientation. The author advocates for minimal government involvement in business decisions and supports the idea that the free market can handle economic issues without government intervention.\"\n}\n```",
+      "explanation": "The author's emphasis on free market principles, opposition to government interference, and resistance to government bailouts are all indicative of a right-leaning political orientation. The author advocates for minimal government involvement in business decisions and supports the idea that the free market can handle economic issues without government intervention."
+    },
+    {
+      "author": "PatriotHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'socialist activism' and the criticism of the NBA for 'disrespecting our country and its heroes' suggests a conservative or right-leaning political orientation. The emphasis on 'patriotic roots' and 'American values' further supports this classification, as these are common themes in right-wing rhetoric.\"\n}\n```",
+      "explanation": "The author's use of the term 'socialist activism' and the criticism of the NBA for 'disrespecting our country and its heroes' suggests a conservative or right-leaning political orientation. The emphasis on 'patriotic roots' and 'American values' further supports this classification, as these are common themes in right-wing rhetoric."
+    },
+    {
+      "author": "LibertySlamDunk",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's stance against government subsidies for private enterprises, such as NBA teams, and their advocacy for free market principles aligns with right-leaning political views. The use of the term 'corporate welfare' and the criticism of 'government overreach' are common themes in conservative rhetoric.\"\n}\n```",
+      "explanation": "The author's stance against government subsidies for private enterprises, such as NBA teams, and their advocacy for free market principles aligns with right-leaning political views. The use of the term 'corporate welfare' and the criticism of 'government overreach' are common themes in conservative rhetoric."
+    },
+    {
+      "author": "PatriotHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of phrases like 'anti-American rhetoric' and 'disrespect our nation's flag' suggests a strong conservative or right-leaning perspective. The call for a boycott of the NBA due to perceived disrespect for American values aligns with right-wing sentiments that often emphasize patriotism and national pride. The term 'entitled millionaires' also implies a criticism of wealthy individuals, which is a common theme in right-wing critiques of elite culture.\"\n}\n```",
+      "explanation": "The author's use of phrases like 'anti-American rhetoric' and 'disrespect our nation's flag' suggests a strong conservative or right-leaning perspective. The call for a boycott of the NBA due to perceived disrespect for American values aligns with right-wing sentiments that often emphasize patriotism and national pride. The term 'entitled millionaires' also implies a criticism of wealthy individuals, which is a common theme in right-wing critiques of elite culture."
+    },
+    {
+      "author": "ConservativeHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of terms like 'liberal nonsense,' 'entitled millionaires,' and 'radical social agendas' suggests a conservative (right-wing) political orientation. The criticism of the NBA for focusing on social issues rather than the game aligns with conservative views that often prioritize traditional values and sports over political activism.\"\n}\n```",
+      "explanation": "The author's use of terms like 'liberal nonsense,' 'entitled millionaires,' and 'radical social agendas' suggests a conservative (right-wing) political orientation. The criticism of the NBA for focusing on social issues rather than the game aligns with conservative views that often prioritize traditional values and sports over political activism."
+    },
+    {
+      "author": "PatriotHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's use of the term 'woke politics' and their criticism of athletes not respecting the national anthem suggests a conservative or right-leaning political orientation. The emphasis on patriotism and criticism of the NBA's stance on political issues aligns with typical right-wing views.\"\n}\n```",
+      "explanation": "The author's use of the term 'woke politics' and their criticism of athletes not respecting the national anthem suggests a conservative or right-leaning political orientation. The emphasis on patriotism and criticism of the NBA's stance on political issues aligns with typical right-wing views."
+    },
+    {
+      "author": "PatriotBall23",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author uses phrases like 'globalist elites' and 'woke agenda,' which are often associated with right-wing rhetoric. The author also expresses a strong dislike for the NBA, which is often criticized by right-wing figures for perceived political leanings. The use of the phrase 'believe me, no one knows more about great basketball than I do' suggests a populist tone, which is common in right-wing political discourse. The author's overall tone and language choices align with right-wing political views.\"\n}\n```",
+      "explanation": "The author uses phrases like 'globalist elites' and 'woke agenda,' which are often associated with right-wing rhetoric. The author also expresses a strong dislike for the NBA, which is often criticized by right-wing figures for perceived political leanings. The use of the phrase 'believe me, no one knows more about great basketball than I do' suggests a populist tone, which is common in right-wing political discourse. The author's overall tone and language choices align with right-wing political views."
+    },
+    {
+      "author": "PatriotHoopsFan",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's criticism of the NBA for 'kneeling' and 'disrespect towards our flag and national anthem' suggests a conservative stance, as these actions are often associated with protests against racial injustice and police brutality, which are typically supported by left-leaning individuals. Additionally, the phrase 'liberal agenda' indicates a right-leaning perspective, as it is a common phrase used by conservatives to criticize progressive policies and views.\"\n}\n```",
+      "explanation": "The author's criticism of the NBA for 'kneeling' and 'disrespect towards our flag and national anthem' suggests a conservative stance, as these actions are often associated with protests against racial injustice and police brutality, which are typically supported by left-leaning individuals. Additionally, the phrase 'liberal agenda' indicates a right-leaning perspective, as it is a common phrase used by conservatives to criticize progressive policies and views."
+    },
+    {
+      "author": "PatriotHoopsFan88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author's post contains several indicators of a right-leaning political orientation. The use of terms like 'woke propaganda machine' and 'Marxist ideology' suggests a strong opposition to progressive or left-wing ideas. The criticism of the NBA for allowing players to kneel during the national anthem, which is often seen as a protest against racial injustice, aligns with conservative views that prioritize traditional patriotism and national values. The author's language and tone also reflect a conservative perspective, emphasizing a perceived threat to national values and a resistance to what they view as forced diversity and political correctness.\"\n}\n```",
+      "explanation": "The author's post contains several indicators of a right-leaning political orientation. The use of terms like 'woke propaganda machine' and 'Marxist ideology' suggests a strong opposition to progressive or left-wing ideas. The criticism of the NBA for allowing players to kneel during the national anthem, which is often seen as a protest against racial injustice, aligns with conservative views that prioritize traditional patriotism and national values. The author's language and tone also reflect a conservative perspective, emphasizing a perceived threat to national values and a resistance to what they view as forced diversity and political correctness."
+    },
+    {
+      "author": "PatriotHoopsFan88",
+      "orientation": "right",
+      "raw_response": "```json\n{\n    \"orientation\": \"RIGHT\",\n    \"explanation\": \"The author expresses disapproval of athletes protesting during the national anthem, which is often a stance associated with conservative or right-wing views. The use of the term 'Marxist agendas' suggests a strong opposition to left-wing ideologies, further indicating a right-leaning political orientation. The call to 'every real American' to stop watching the NBA also aligns with right-wing sentiments that often emphasize patriotism and traditional values.\"\n}\n```",
+      "explanation": "The author expresses disapproval of athletes protesting during the national anthem, which is often a stance associated with conservative or right-wing views. The use of the term 'Marxist agendas' suggests a strong opposition to left-wing ideologies, further indicating a right-leaning political orientation. The call to 'every real American' to stop watching the NBA also aligns with right-wing sentiments that often emphasize patriotism and traditional values."
+    }
+  ],
+  "file_path": "Llama_balancedData/NBA/balanced20Posts_high_confidence_NBA_llama-3.1-70b-instruct.json",
+  "output_filename": "balanced20Posts_high_confidence_NBA_llama-3.1-70b-instruct_mistralai_mistral-small-24b-instruct-2501_analysis.json"
+}
