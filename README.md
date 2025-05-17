@@ -211,6 +211,8 @@ python visualize_matrix.py DeepseekData_Analysis GeminiData_Analysis MistralData
 - Deepseek
 - Llama (Meta)
 - Qwen
+- Grok
+- GPT-4o-mini
 
 ## Political Topics Covered
 - Gun Control and Second Amendment Rights: Balancing gun ownership rights with public safety
